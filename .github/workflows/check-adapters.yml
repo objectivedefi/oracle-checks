@@ -1,0 +1,58 @@
+name: Check Adapters
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    # Runs every 6 hours
+    - cron: "0 */6 * * *"
+  # Allows manual trigger from GitHub UI
+  workflow_dispatch:
+
+jobs:
+  run-checks:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: "recursive"
+
+      - name: Update submodules
+        run: |
+          git submodule update --init --recursive
+          cd euler-interfaces
+          git fetch origin
+          git checkout main
+          git pull
+          cd ..
+          git add euler-interfaces
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update euler-interfaces submodule" && git push)
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+          cache: "npm"
+
+      - name: Generate .env file
+        run: |
+          for KEY in $(echo "${{ toJSON(secrets.RPC_URLS) }}" | jq -r 'keys[]'); do
+            VALUE=$(echo "${{ toJSON(secrets.RPC_URLS) }}" | jq -r ".[\"$KEY\"]")
+            echo "RPC_URL_$KEY=$VALUE" >> .env
+          done
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run checks
+        run: npm run start
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git pull  # Ensure we have latest changes
+          git add -f data/  # Force add data directory even if gitignored
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update adapter check results" && git push)
