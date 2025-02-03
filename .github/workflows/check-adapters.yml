@@ -40,10 +40,12 @@ jobs:
 
       - name: Generate .env file
         run: |
-          for KEY in $(echo "${{ toJSON(secrets.RPC_URLS) }}" | jq -r 'keys[]'); do
-            VALUE=$(echo "${{ toJSON(secrets.RPC_URLS) }}" | jq -r ".[\"$KEY\"]")
+          echo '${{ secrets.RPC_URLS }}' > rpc_urls.json
+          for KEY in $(jq -r 'keys[]' rpc_urls.json); do
+            VALUE=$(jq -r ".[\"$KEY\"]" rpc_urls.json)
             echo "RPC_URL_$KEY=$VALUE" >> .env
           done
+          rm rpc_urls.json
 
       - name: Install dependencies
         run: npm ci
