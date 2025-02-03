@@ -23,9 +23,8 @@ jobs:
         run: |
           git submodule update --init --recursive
           cd euler-interfaces
-          git fetch origin
-          git checkout main
-          git pull
+          git fetch --all
+          git checkout origin/main
           cd ..
           git add euler-interfaces
           git diff --quiet && git diff --staged --quiet || (git commit -m "Update euler-interfaces submodule" && git push)
