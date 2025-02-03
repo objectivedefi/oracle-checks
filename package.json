@@ -10,7 +10,7 @@
     "lint:fix": "eslint src --ext .ts --fix",
     "format": "prettier --write \"src/**/*.ts\"",
     "format:check": "prettier --check \"src/**/*.ts\"",
-    "start": "ts-node src/index.ts"
+    "start": "npm run build && node dist/index.js"
   },
   "keywords": [],
   "author": "Objective Labs",
