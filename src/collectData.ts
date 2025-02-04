@@ -10,7 +10,7 @@ import {
   indexAssets,
   indexRouterHistoricalAdapters,
 } from "@objectivelabs/oracle-sdk";
-import { Hex } from "viem";
+import { Hex, zeroAddress } from "viem";
 
 import { batchArray } from "./batchArray";
 import { chainConfigs } from "./config/chainConfigs";
@@ -43,11 +43,13 @@ export async function collectData(chainId: number): Promise<CollectedData> {
   });
   console.log(`${logPrefix} Fetched ${routerAddresses.length} router addresses`);
 
-  const adapterAddresses = await indexRouterHistoricalAdapters({
+  let adapterAddresses = await indexRouterHistoricalAdapters({
     publicClient,
     routerAddresses,
     fromBlock,
   });
+  adapterAddresses = adapterAddresses.filter((address) => address !== zeroAddress);
+
   console.log(`${logPrefix} Found ${adapterAddresses.length} unique adapters in router history`);
 
   const addressBatches = batchArray(adapterAddresses, BATCH_SIZE);

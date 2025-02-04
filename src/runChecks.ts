@@ -1,13 +1,16 @@
 import { chainIdToPythProxy } from "@objectivelabs/oracle-sdk";
-import { Address } from "viem";
+import { Address, parseUnits } from "viem";
 
 import {
   assetConsistent,
   assetsDistinct,
   CheckResult,
   existence,
+  fixedRateOne,
   knownAggregatorV3Feed,
   knownMetadataHash,
+  lidoFundamentalOfficial,
+  lidoOfficial,
   pushHeartbeat,
   pythBaseCorrespondence,
   pythFeedOfficial,
@@ -47,6 +50,8 @@ export function runChecks({
 
   adapters.forEach((adapter, index) => {
     const checks: CheckResult[] = [];
+    let label: string = "";
+
     const existenceCheck = existence({
       chainId,
       address: adapterAddresses[index],
@@ -55,6 +60,7 @@ export function runChecks({
     checks.push(existenceCheck);
 
     if (!existenceCheck.pass || !adapter) {
+      label = "Unknown adapter";
       return;
     }
 
@@ -90,8 +96,7 @@ export function runChecks({
         redstoneMetadata,
         otherRecognizedAggregatorV3Feeds,
       });
-      checks.push(aggregatorV3FeedCheck.result);
-
+      label = aggregatorV3FeedCheck.label;
       const heartbeatCheck = pushHeartbeat({
         maxStaleness: adapter.maxStaleness,
         heartbeat: aggregatorV3FeedCheck.heartbeat,
@@ -103,6 +108,7 @@ export function runChecks({
         adapter,
         pythMetadata,
       });
+      label = `Pyth - ${pythFeedCheck.feed?.attributes.symbol ?? "unknown feed"} (${adapter.maxStaleness}s, ±${adapter.maxConfWidth}bps)`;
       checks.push(pythFeedCheck.result);
 
       checks.push(
@@ -132,9 +138,43 @@ export function runChecks({
           upperBound: pythStalenessUpperBound,
         }),
       );
+    } else if (name === "LidoOracle") {
+      checks.push(
+        lidoOfficial({
+          adapter,
+        }),
+      );
+      label = `Lido - wstETH/stETH`;
+    } else if (name === "LidoFundamentalOracle") {
+      checks.push(
+        lidoFundamentalOfficial({
+          adapter,
+        }),
+      );
+      label = `Lido Fundamental - wstETH/ETH`;
+    } else if (name === "FixedRateOracle") {
+      const baseAsset = assets.find((asset) => asset.address === adapter.base);
+      const quoteAsset = assets.find((asset) => asset.address === adapter.quote);
+      checks.push(
+        fixedRateOne({
+          adapter,
+          quoteAsset,
+        }),
+      );
+      if (baseAsset && quoteAsset) {
+        if (adapter.rate === parseUnits("1", quoteAsset.decimals)) {
+          label = `Fixed (1:1) - ${baseAsset.symbol}/${quoteAsset.symbol}`;
+        } else {
+          label = `Fixed (non-standard) - ${baseAsset.symbol}/${quoteAsset.symbol}`;
+        }
+      } else {
+        label = `Unknown Fixed Rate Oracle`;
+      }
     }
+
     adapterToResults[adapter.address] = {
       checks,
+      label,
     };
   });
 

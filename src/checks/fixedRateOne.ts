@@ -1,0 +1,17 @@
+import { Asset, FixedRateOracle } from "@objectivelabs/oracle-sdk";
+import { parseUnits } from "viem";
+
+import { CheckResultWithId } from "./types";
+import { CHECKS, failCheck, passCheck } from "./utils";
+
+type Params = {
+  adapter: FixedRateOracle;
+  quoteAsset?: Asset;
+};
+
+export function fixedRateOne({ adapter, quoteAsset }: Params): CheckResultWithId {
+  if (adapter.rate === parseUnits("1", quoteAsset?.decimals ?? 18)) {
+    return passCheck(CHECKS.FIXED_RATE_ONE, "Adapter has a fixed rate of 1");
+  }
+  return failCheck(CHECKS.FIXED_RATE_ONE, "Adapter has an unusual fixed rate");
+}

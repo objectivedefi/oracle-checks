@@ -49,4 +49,12 @@ export const CHECKS: Record<string, CheckDefinition> = {
     id: "UNUSUAL_FIXED_RATE",
     severity: "MED",
   },
+  OFFICIAL_LIDO_ORACLE: {
+    id: "OFFICIAL_LIDO_ORACLE",
+    severity: "HIGH",
+  },
+  FIXED_RATE_ONE: {
+    id: "FIXED_RATE_ONE",
+    severity: "HIGH",
+  },
 };
