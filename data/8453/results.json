@@ -670,7 +670,7 @@
       {
         "id": "PUSH_STALENESS_BUFFER",
         "severity": "MED",
-        "message": "Adapter max staleness (1200) is insufficient for the feed's heartbeat (86400). Minimum recommended max staleness is 87300 seconds.",
+        "message": "Adapter max staleness (1200) is insufficient for the feed's heartbeat (86400). Minimum recommended max staleness is 90000 seconds.",
         "pass": false
       }
     ]
@@ -774,7 +774,7 @@
       {
         "id": "PYTH_STALENESS_RANGE",
         "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (15 - 300 seconds).",
+        "message": "Max staleness is within the recommended range (15 - 120 seconds).",
         "pass": true
       }
     ]
@@ -918,7 +918,7 @@
       {
         "id": "PYTH_STALENESS_RANGE",
         "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (15 - 300 seconds).",
+        "message": "Max staleness is within the recommended range (15 - 120 seconds).",
         "pass": true
       }
     ]
@@ -982,7 +982,7 @@
       {
         "id": "PYTH_STALENESS_RANGE",
         "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (15 - 300 seconds).",
+        "message": "Max staleness is within the recommended range (15 - 120 seconds).",
         "pass": true
       }
     ]
@@ -998,8 +998,8 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash mismatch for ChronicleOracle: got 0x12202e01d438f5c4b4f15d795efac17c4d3427d9725abc03f899e5d02b6998b64aba, expected one of 0x12201e1d8f950cfcada30dda94fb1922a04f025fc7f4005fac2d490db28fcfe7e18d, 0x122086df19d9aea8aee7d71ac1fa1856664af677a130f0f3328e7de4f60ad04daf92, 0x1220df07b13a00ad1771723e9c31e206e9361a7cb296a0a8526cf2583ee4823dbc8a",
-        "pass": false
+        "message": "Contract metadata hash matches a known hash for ChronicleOracle: 0x12202e01d438f5c4b4f15d795efac17c4d3427d9725abc03f899e5d02b6998b64aba",
+        "pass": true
       },
       {
         "id": "DISTINCT_ASSETS",

@@ -550,7 +550,7 @@
       {
         "id": "PYTH_STALENESS_RANGE",
         "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (15 - 300 seconds).",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
         "pass": true
       }
     ]
@@ -1024,7 +1024,7 @@
       {
         "id": "PYTH_STALENESS_RANGE",
         "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (15 - 300 seconds).",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
         "pass": true
       }
     ]
@@ -1088,7 +1088,7 @@
       {
         "id": "PYTH_STALENESS_RANGE",
         "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (15 - 300 seconds).",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
         "pass": true
       }
     ]
@@ -1152,7 +1152,7 @@
       {
         "id": "PYTH_STALENESS_RANGE",
         "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (15 - 300 seconds).",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
         "pass": true
       }
     ]
@@ -1594,7 +1594,7 @@
       {
         "id": "PYTH_STALENESS_RANGE",
         "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (15 - 300 seconds).",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
         "pass": true
       }
     ]
@@ -1658,7 +1658,7 @@
       {
         "id": "PYTH_STALENESS_RANGE",
         "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (15 - 300 seconds).",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
         "pass": true
       }
     ]
@@ -2066,7 +2066,7 @@
       {
         "id": "PYTH_STALENESS_RANGE",
         "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (15 - 300 seconds).",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
         "pass": true
       }
     ]
@@ -2452,7 +2452,7 @@
       {
         "id": "PYTH_STALENESS_RANGE",
         "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (15 - 300 seconds).",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
         "pass": true
       }
     ]
@@ -3282,7 +3282,7 @@
       {
         "id": "PYTH_STALENESS_RANGE",
         "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (15 - 300 seconds).",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
         "pass": true
       }
     ]
@@ -3654,7 +3654,7 @@
       {
         "id": "PYTH_STALENESS_RANGE",
         "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (15 - 300 seconds).",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
         "pass": true
       }
     ]
@@ -3722,7 +3722,7 @@
       {
         "id": "CONSISTENT_ASSET",
         "severity": "HIGH",
-        "message": "Asset 0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2 is MKR (Maker) with 18 decimals",
+        "message": "Asset 0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2 is a special designator address",
         "pass": true
       },
       {
@@ -3844,7 +3844,7 @@
       {
         "id": "PYTH_STALENESS_RANGE",
         "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (15 - 300 seconds).",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
         "pass": true
       }
     ]
@@ -4074,7 +4074,7 @@
       {
         "id": "PYTH_STALENESS_RANGE",
         "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (15 - 300 seconds).",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
         "pass": true
       }
     ]
@@ -4138,7 +4138,7 @@
       {
         "id": "PYTH_STALENESS_RANGE",
         "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (15 - 300 seconds).",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
         "pass": true
       }
     ]
@@ -4202,7 +4202,7 @@
       {
         "id": "PYTH_STALENESS_RANGE",
         "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (15 - 300 seconds).",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
         "pass": true
       }
     ]
@@ -4414,7 +4414,7 @@
       {
         "id": "PYTH_STALENESS_RANGE",
         "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (15 - 300 seconds).",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
         "pass": true
       }
     ]
@@ -4518,7 +4518,7 @@
       {
         "id": "PYTH_STALENESS_RANGE",
         "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (15 - 300 seconds).",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
         "pass": true
       }
     ]
@@ -4582,7 +4582,7 @@
       {
         "id": "PYTH_STALENESS_RANGE",
         "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (15 - 300 seconds).",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
         "pass": true
       }
     ]
@@ -4646,7 +4646,7 @@
       {
         "id": "PYTH_STALENESS_RANGE",
         "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (15 - 300 seconds).",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
         "pass": true
       }
     ]
@@ -4710,7 +4710,7 @@
       {
         "id": "PYTH_STALENESS_RANGE",
         "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (15 - 300 seconds).",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
         "pass": true
       }
     ]
@@ -4934,7 +4934,7 @@
       {
         "id": "PYTH_STALENESS_RANGE",
         "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (15 - 300 seconds).",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
         "pass": true
       }
     ]
@@ -4998,7 +4998,7 @@
       {
         "id": "PYTH_STALENESS_RANGE",
         "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (15 - 300 seconds).",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
         "pass": true
       }
     ]
@@ -5142,7 +5142,7 @@
       {
         "id": "PYTH_STALENESS_RANGE",
         "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (15 - 300 seconds).",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
         "pass": true
       }
     ]
@@ -5206,7 +5206,7 @@
       {
         "id": "PYTH_STALENESS_RANGE",
         "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (15 - 300 seconds).",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
         "pass": true
       }
     ]
@@ -5550,7 +5550,7 @@
       {
         "id": "PYTH_STALENESS_RANGE",
         "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (15 - 300 seconds).",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
         "pass": true
       }
     ]
@@ -5614,7 +5614,7 @@
       {
         "id": "PYTH_STALENESS_RANGE",
         "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (15 - 300 seconds).",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
         "pass": true
       }
     ]
@@ -5746,7 +5746,7 @@
       {
         "id": "PYTH_STALENESS_RANGE",
         "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (15 - 300 seconds).",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
         "pass": true
       }
     ]
@@ -5924,7 +5924,7 @@
       {
         "id": "PYTH_STALENESS_RANGE",
         "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (15 - 300 seconds).",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
         "pass": true
       }
     ]
@@ -5988,7 +5988,7 @@
       {
         "id": "PYTH_STALENESS_RANGE",
         "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (15 - 300 seconds).",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
         "pass": true
       }
     ]
@@ -6120,7 +6120,7 @@
       {
         "id": "PYTH_STALENESS_RANGE",
         "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (15 - 300 seconds).",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
         "pass": true
       }
     ]
@@ -6184,7 +6184,7 @@
       {
         "id": "PYTH_STALENESS_RANGE",
         "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (15 - 300 seconds).",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
         "pass": true
       }
     ]
@@ -6248,7 +6248,7 @@
       {
         "id": "PYTH_STALENESS_RANGE",
         "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (15 - 300 seconds).",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
         "pass": true
       }
     ]
