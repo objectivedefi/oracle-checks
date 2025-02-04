@@ -160,6 +160,105 @@ Each file contains a mapping of adapter addresses to their check results.
 - `src/runChecks.ts` - Core check logic
 - `src/index.ts` - Entry point that runs checks for all chains
 
+## Chain Configurations
+
+The system uses `chainConfigs.ts` to define settings for each supported chain. Each chain configuration includes:
+
+### Required Configuration
+
+```typescript
+{
+  // Public client instance for the chain
+  publicClient: PublicClient,
+
+  // Block number to start indexing from
+  // Usually set to deployment block of first oracle router
+  fromBlock: bigint,
+
+  // Factory contract that deploys oracle routers
+  oracleRouterFactory: Address,
+
+  // List of designator (e.g. USD) and non-standard assets (e.g. MKR)
+  fallbackAssets: Asset[],
+
+  // Mapping of adapter names to their allowed bytecode hashes
+  metadataHashes: Record<string, string[]>,
+}
+```
+
+### Oracle-Specific Settings
+
+```typescript
+{
+  // Chainlink Settings
+  // Minimum buffer time (in seconds) that maxStaleness should exceed heartbeat
+  minPushHeartbeatBuffer: number,
+
+  // Additional recognized Chainlink price feeds not in official registry
+  otherRecognizedAggregatorV3Feeds: {
+    [address: Address]: {
+      provider: string,
+      description: string
+    }
+  },
+
+  // Pyth Settings
+  // Acceptable range for maxStaleness parameter (in seconds)
+  pythStalenessLowerBound: number,
+  pythStalenessUpperBound: number,
+}
+```
+
+### Example Configuration
+
+```typescript
+[mainnet.id]: {
+  publicClient: getClient(mainnet),
+  fromBlock: 20541273n,
+  oracleRouterFactory: "0x...",
+  fallbackAssets: [...],
+  metadataHashes,
+
+  // Chainlink settings
+  minPushHeartbeatBuffer: 3600,
+  otherRecognizedAggregatorV3Feeds: {
+    "0x056339C044055819E8Db84E71f5f2E1F536b2E5b": {
+      provider: "Midas",
+      description: "Midas mTBILL/USD Oracle"
+    },
+    // ...other feeds
+  },
+
+  // Pyth settings
+  pythStalenessLowerBound: 30,
+  pythStalenessUpperBound: 300,
+}
+```
+
+### Currently Supported Chains
+
+The system currently supports these networks:
+
+- Ethereum Mainnet (chainId: 1)
+  - Deployment block: 20541273
+  - Pyth staleness: 30-300s
+- Polygon (chainId: 137)
+  - Deployment block: 64475526
+  - Pyth staleness: 15-120s
+- Base (chainId: 8453)
+  - Deployment block: 22282357
+  - Pyth staleness: 15-120s
+- Arbitrum One (chainId: 42161)
+
+  - Deployment block: 300691039
+  - Pyth staleness: 15-120s
+
+- Sonic (chainId: 146)
+  - Deployment block: 5324531
+  - Pyth staleness: 15-120s
+
+Each chain has its own configuration tuned for its specific characteristics like block time and oracle update frequencies.
+
 ## License
 
 GPL-3.0-only
