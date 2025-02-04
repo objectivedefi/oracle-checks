@@ -190,11 +190,11 @@ The system uses `chainConfigs.ts` to define settings for each supported chain. E
 
 ```typescript
 {
-  // Chainlink Settings
+  // Push Settings
   // Minimum buffer time (in seconds) that maxStaleness should exceed heartbeat
   minPushHeartbeatBuffer: number,
 
-  // Additional recognized Chainlink price feeds not in official registry
+  // Additional recognized Aggregator V3 feeds (Chainlink and RedStone are included by default)
   otherRecognizedAggregatorV3Feeds: {
     [address: Address]: {
       provider: string,
@@ -219,7 +219,7 @@ The system uses `chainConfigs.ts` to define settings for each supported chain. E
   fallbackAssets: [...],
   metadataHashes,
 
-  // Chainlink settings
+  // Push settings
   minPushHeartbeatBuffer: 3600,
   otherRecognizedAggregatorV3Feeds: {
     "0x056339C044055819E8Db84E71f5f2E1F536b2E5b": {
@@ -234,28 +234,6 @@ The system uses `chainConfigs.ts` to define settings for each supported chain. E
   pythStalenessUpperBound: 300,
 }
 ```
-
-### Currently Supported Chains
-
-The system currently supports these networks:
-
-- Ethereum Mainnet (chainId: 1)
-  - Deployment block: 20541273
-  - Pyth staleness: 30-300s
-- Polygon (chainId: 137)
-  - Deployment block: 64475526
-  - Pyth staleness: 15-120s
-- Base (chainId: 8453)
-  - Deployment block: 22282357
-  - Pyth staleness: 15-120s
-- Arbitrum One (chainId: 42161)
-
-  - Deployment block: 300691039
-  - Pyth staleness: 15-120s
-
-- Sonic (chainId: 146)
-  - Deployment block: 5324531
-  - Pyth staleness: 15-120s
 
 Each chain has its own configuration tuned for its specific characteristics like block time and oracle update frequencies.
 
