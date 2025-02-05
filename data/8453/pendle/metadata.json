@@ -19,12 +19,12 @@
   },
   {
     "chainId": 8453,
-    "pt": "0x2A9e9256E0d1Ad0f7f9d7c7248cb7e2f06072DeB",
-    "market": "0x3124D41708edbdC7995A55183e802E3D9d0D5Ef1",
-    "accountingAsset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-    "underlyingAsset": "0xEdc817A28E8B93B03976FBd4a3dDBc9f7D176c22",
+    "pt": "0x25d2B7E3B71f4edcC366e79134570704a079923a",
+    "market": "0xeCc2c994aA0C599a7f69a7Cfb9106fe4dfFb4341",
+    "accountingAsset": "0xDBFeFD2e8460a6Ee4955A68582F85708BAEA60A3",
+    "underlyingAsset": "0x7FcD174E80f264448ebeE8c88a7C4476AAF58Ea6",
     "expiry": 1750896000,
-    "symbol": "mUSDC"
+    "symbol": "wsuperOETHb"
   },
   {
     "chainId": 8453,
@@ -37,21 +37,21 @@
   },
   {
     "chainId": 8453,
+    "pt": "0x2A9e9256E0d1Ad0f7f9d7c7248cb7e2f06072DeB",
+    "market": "0x3124D41708edbdC7995A55183e802E3D9d0D5Ef1",
+    "accountingAsset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "underlyingAsset": "0xEdc817A28E8B93B03976FBd4a3dDBc9f7D176c22",
+    "expiry": 1750896000,
+    "symbol": "mUSDC"
+  },
+  {
+    "chainId": 8453,
     "pt": "0x603e2d1Af3d0673f4af756B6E12a2044bFEbB714",
     "market": "0x621D4D92E9bed484E6D2Cb8A37d342c804A0908c",
     "accountingAsset": "0xb909F567c5c2Bb1A4271349708CC4637D7318b4A",
     "underlyingAsset": "0xb909F567c5c2Bb1A4271349708CC4637D7318b4A",
     "expiry": 1750896000,
     "symbol": "VIRTUAL/cbBTC"
-  },
-  {
-    "chainId": 8453,
-    "pt": "0x5C6593F57EE95519fF6a8Cd16A5e41Ff50af239a",
-    "market": "0xd94Fd7bcEb29159405Ae1E06Ce80e51EF1A484B0",
-    "accountingAsset": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
-    "underlyingAsset": "0xF877ACaFA28c19b96727966690b2f44d35aD5976",
-    "expiry": 1750896000,
-    "symbol": "mcbBTC"
   },
   {
     "chainId": 8453,
@@ -64,11 +64,11 @@
   },
   {
     "chainId": 8453,
-    "pt": "0x25d2B7E3B71f4edcC366e79134570704a079923a",
-    "market": "0xeCc2c994aA0C599a7f69a7Cfb9106fe4dfFb4341",
-    "accountingAsset": "0xDBFeFD2e8460a6Ee4955A68582F85708BAEA60A3",
-    "underlyingAsset": "0x7FcD174E80f264448ebeE8c88a7C4476AAF58Ea6",
+    "pt": "0x5C6593F57EE95519fF6a8Cd16A5e41Ff50af239a",
+    "market": "0xd94Fd7bcEb29159405Ae1E06Ce80e51EF1A484B0",
+    "accountingAsset": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+    "underlyingAsset": "0xF877ACaFA28c19b96727966690b2f44d35aD5976",
     "expiry": 1750896000,
-    "symbol": "wsuperOETHb"
+    "symbol": "mcbBTC"
   }
 ]
