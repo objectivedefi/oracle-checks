@@ -4,13 +4,18 @@ import {
   Adapter,
   fetchChainlinkMetadata,
   fetchDeployedRouters,
+  fetchPendleMetadata,
   fetchPythMetadata,
-  fetchRedStonePriceFeeds,
+  fetchRedStoneMetadata,
   indexAdapters,
   indexAssets,
+  indexChainlinkFeeds,
+  indexIdleCDOs,
+  indexIdleTranches,
+  indexRedStoneFeeds,
   indexRouterHistoricalAdapters,
 } from "@objectivelabs/oracle-sdk";
-import { Hex, zeroAddress } from "viem";
+import { Address, Hex, zeroAddress } from "viem";
 
 import { batchArray } from "./batchArray";
 import { chainConfigs } from "./config/chainConfigs";
@@ -26,15 +31,17 @@ export async function collectData(chainId: number): Promise<CollectedData> {
   const logPrefix = `[${chainId} ${publicClient.chain?.name}]`;
   console.log(`${logPrefix} Begin data collection step`);
 
-  const [chainlinkResult, redstoneResult, pythResult] = await Promise.allSettled([
+  const [chainlinkResult, redstoneResult, pythResult, pendleResult] = await Promise.allSettled([
     fetchChainlinkMetadata(chainId),
-    fetchRedStonePriceFeeds(chainId),
+    fetchRedStoneMetadata(chainId),
     fetchPythMetadata(),
+    fetchPendleMetadata(chainId),
   ]);
 
   const chainlinkMetadata = chainlinkResult.status === "fulfilled" ? chainlinkResult.value : [];
   const redstoneMetadata = redstoneResult.status === "fulfilled" ? redstoneResult.value : [];
   const pythMetadata = pythResult.status === "fulfilled" ? pythResult.value : [];
+  const pendleMetadata = pendleResult.status === "fulfilled" ? pendleResult.value : [];
   console.log(`${logPrefix} Fetched oracle provider metadata`);
 
   const routerAddresses = await fetchDeployedRouters({
@@ -74,6 +81,51 @@ export async function collectData(chainId: number): Promise<CollectedData> {
     console.log(`${logPrefix} Indexed adapters ${i + 1}/${addressBatches.length}`);
   }
 
+  const aggregatorV3Feeds = adapters
+    .filter(
+      (adapter) =>
+        adapter?.name === "ChainlinkOracle" || adapter?.name === "ChainlinkInfrequentOracle",
+    )
+    .map(({ feed }) => feed);
+
+  const chainlinkFeeds = await indexChainlinkFeeds({
+    publicClient,
+    addresses: chainlinkMetadata
+      .map((metadata) => metadata.proxyAddress as Address)
+      .filter(
+        (proxyAddress) =>
+          !!proxyAddress &&
+          aggregatorV3Feeds.some((feed) => feed.toLowerCase() === proxyAddress.toLowerCase()),
+      ),
+  });
+  console.log(`${logPrefix} Indexed ${chainlinkFeeds.length} Chainlink feeds`);
+
+  const redstoneFeeds = await indexRedStoneFeeds({
+    publicClient,
+    addresses: redstoneMetadata
+      .map((metadata) => metadata.priceFeedAddress)
+      .filter(
+        (priceFeedAddress) =>
+          !!priceFeedAddress &&
+          aggregatorV3Feeds.some((feed) => feed.toLowerCase() === priceFeedAddress.toLowerCase()),
+      ),
+  });
+  console.log(`${logPrefix} Indexed ${redstoneFeeds.length} RedStone feeds`);
+
+  const idleOracles = adapters.filter((adapter) => adapter?.name === "IdleTranchesOracle");
+
+  const idleCDOAddresses = idleOracles.map(({ cdo }) => cdo);
+  const idleCDOs = await indexIdleCDOs({
+    publicClient,
+    addresses: idleCDOAddresses,
+  });
+
+  const idleTrancheAddresses = idleOracles.map(({ tranche }) => tranche);
+  const idleTranches = await indexIdleTranches({
+    publicClient,
+    addresses: idleTrancheAddresses,
+  });
+
   const assetAddresses = Array.from(
     new Set(adapters.flatMap((adapter) => extractAssetAddresses(adapter))),
   );
@@ -91,8 +143,14 @@ export async function collectData(chainId: number): Promise<CollectedData> {
     bytecodes,
     routerAddresses,
     chainlinkMetadata,
+    chainlinkFeeds,
+    chronicleFeeds: [], // todo
+    idleCDOs,
+    idleTranches,
     redstoneMetadata,
+    redstoneFeeds,
     pythMetadata,
+    pendleMetadata,
     assets,
   };
 }
