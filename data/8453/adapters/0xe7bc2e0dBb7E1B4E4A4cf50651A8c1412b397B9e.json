@@ -1,0 +1,42 @@
+{
+  "name": "ChronicleOracle",
+  "address": "0xe7bc2e0dBb7E1B4E4A4cf50651A8c1412b397B9e",
+  "chainId": 8453,
+  "base": "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0x02a0eA9F5000472D764293bC77622be6C6Cbc2f0",
+  "maxStaleness": "5400",
+  "checks": [
+    {
+      "id": "ADAPTER_EXISTS",
+      "severity": "HIGH",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "SOURCE_CODE_PROVENANCE",
+      "severity": "HIGH",
+      "message": "Contract metadata hash matches a known hash for ChronicleOracle: 0x12202e01d438f5c4b4f15d795efac17c4d3427d9725abc03f899e5d02b6998b64aba",
+      "pass": true
+    },
+    {
+      "id": "DISTINCT_ASSETS",
+      "severity": "HIGH",
+      "message": "No duplicates found",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452 is wstETH (Wrapped liquid staked Ether 2.0) with 18 decimals",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+      "pass": true
+    }
+  ],
+  "label": ""
+}
