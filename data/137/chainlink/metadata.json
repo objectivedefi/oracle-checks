@@ -2036,7 +2036,9 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "underlyingAsset": "USD",
+      "underlyingAssetClic": "USD_FX"
     },
     "decimals": 8
   },

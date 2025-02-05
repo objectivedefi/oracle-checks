@@ -14196,5 +14196,18 @@
       "schedule": "America/New_York;0800-1700,0800-1700,0800-1700,0800-1700,0800-1700,C,C;1224/0800-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Rates.US1Y"
     }
+  },
+  {
+    "id": "0xeb943c0b5c9e02a529f799ac91070c3b7046f9412f3e5b0a90ba00267b838f34",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "IBERA",
+      "description": "INFRARED BERACHAIN / US DOLLAR",
+      "display_symbol": "IBERA/USD",
+      "generic_symbol": "IBERAUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.IBERA/USD"
+    }
   }
 ]

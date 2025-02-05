@@ -2,7 +2,7 @@ import {
   ChainlinkMetadata,
   ChainlinkInfrequentOracle,
   ChainlinkOracle,
-  RedStonePriceFeed,
+  RedStoneMetadata,
 } from "@objectivelabs/oracle-sdk";
 import { Address } from "viem";
 
@@ -12,7 +12,7 @@ import { CHECKS, failCheck, passCheck } from "./utils";
 type Params = {
   adapter: ChainlinkOracle | ChainlinkInfrequentOracle;
   chainlinkMetadata?: ChainlinkMetadata;
-  redstoneMetadata?: RedStonePriceFeed[];
+  redstoneMetadata?: RedStoneMetadata;
   otherRecognizedAggregatorV3Feeds: Record<Address, { provider: string; description: string }>;
 };
 
