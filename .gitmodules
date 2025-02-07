@@ -1,3 +1,4 @@
 [submodule "euler-interfaces"]
 	path = euler-interfaces
 	url = https://github.com/euler-xyz/euler-interfaces
+	branch = new-deployments
