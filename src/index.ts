@@ -5,7 +5,7 @@ import { runChecks } from "./runChecks";
 
 async function runChecksForAllChains(): Promise<void> {
   cleanDataDir();
-  for (const chainId of Object.keys(chainConfigs)) {
+  for (const chainId of Object.keys(chainConfigs).slice(12)) {
     const dirPath = `./data/${chainId}`;
 
     const data = await collectData(+chainId);

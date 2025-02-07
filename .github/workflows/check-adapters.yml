@@ -30,9 +30,9 @@ jobs:
           cd euler-interfaces
           git fetch --all
           git remote set-branches origin '*'
-          git fetch origin master
-          git checkout master
-          git pull origin master
+          git fetch origin new-deployments
+          git checkout new-deployments
+          git pull origin new-deployments
           cd ..
           git add euler-interfaces
           git diff --quiet && git diff --staged --quiet || (git commit -m "Update euler-interfaces submodule" && git push)
