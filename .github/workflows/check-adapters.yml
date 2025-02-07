@@ -20,29 +20,38 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          submodules: false # Changed to false to handle submodule manually
+          submodules: false
 
       - name: Reset and update submodule
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
 
-          # Remove existing submodule if present
+          # Remove submodule entry from .git/config
+          git config --local --remove-section submodule.euler-interfaces || true
+
+          # Remove the submodule directory
           rm -rf euler-interfaces
+
+          # Remove the .git/modules directory
           rm -rf .git/modules/euler-interfaces
 
-          # Reinitialize submodule
-          git submodule update --init
+          # Remove the entry from .gitmodules
+          rm -f .gitmodules
 
-          # Update submodule to latest from new-deployments branch
-          cd euler-interfaces
-          git fetch origin
-          git checkout origin/new-deployments
-          cd ..
+          # Create new .gitmodules file
+          echo '[submodule "euler-interfaces"]' > .gitmodules
+          echo '    path = euler-interfaces' >> .gitmodules
+          echo '    url = https://github.com/euler-xyz/euler-interfaces' >> .gitmodules
+          echo '    branch = new-deployments' >> .gitmodules
 
-          # Commit submodule update if changed
-          git add euler-interfaces
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update euler-interfaces submodule" && git push)
+          # Initialize and update the submodule
+          git submodule init
+          git submodule add -b new-deployments https://github.com/euler-xyz/euler-interfaces
+
+          # Commit the changes if any
+          git add .gitmodules euler-interfaces
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Reset euler-interfaces submodule" && git push)
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
