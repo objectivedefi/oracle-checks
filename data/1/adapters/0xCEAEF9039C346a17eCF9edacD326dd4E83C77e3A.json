@@ -43,5 +43,7 @@
       "pass": true
     }
   ],
-  "label": "Fixed (1:1) - AUSD/USD"
+  "label": "Fixed (1:1) - AUSD/USD",
+  "methodology": "Exchange Rate",
+  "model": "Push"
 }

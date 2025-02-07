@@ -44,5 +44,7 @@
       "pass": true
     }
   ],
-  "label": "Chainlink - AAVE / USD (1%, 3600s)"
+  "label": "Chainlink - AAVE / USD (1%, 3600s)",
+  "methodology": "Market Price",
+  "model": "Push"
 }

@@ -44,5 +44,7 @@
       "pass": true
     }
   ],
-  "label": "Chainlink - CBETH / USD (0.15%, 1200s)"
+  "label": "Chainlink - CBETH / USD (0.15%, 1200s)",
+  "methodology": "Market Price",
+  "model": "Push"
 }

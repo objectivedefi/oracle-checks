@@ -44,5 +44,7 @@
       "pass": true
     }
   ],
-  "label": "RedStone - apxETH/ETH (1%, 86400s)"
+  "label": "RedStone - apxETH/ETH (1%, 86400s)",
+  "methodology": "Market Price",
+  "model": "Push"
 }

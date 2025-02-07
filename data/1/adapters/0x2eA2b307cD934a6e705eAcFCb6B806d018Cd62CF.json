@@ -44,5 +44,7 @@
       "pass": true
     }
   ],
-  "label": "Chainlink - USDC / ETH (1%, 86400s)"
+  "label": "Chainlink - USDC / ETH (1%, 86400s)",
+  "methodology": "Market Price",
+  "model": "Push"
 }

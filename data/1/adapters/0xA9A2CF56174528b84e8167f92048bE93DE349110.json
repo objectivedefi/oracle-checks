@@ -44,5 +44,7 @@
       "pass": false
     }
   ],
-  "label": "Resolv: Resolv RLP/USD Oracle"
+  "label": "Resolv: Resolv RLP/USD Oracle",
+  "methodology": "Unknown",
+  "model": "Push"
 }

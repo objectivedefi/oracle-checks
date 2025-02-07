@@ -37,5 +37,7 @@
       "pass": true
     }
   ],
-  "label": ""
+  "label": "RateProvider - 0x7a4EffD87C2f3C55CA251080b1343b605f327E3a/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+  "methodology": "Exchange Rate",
+  "model": "Push"
 }

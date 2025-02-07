@@ -44,5 +44,7 @@
       "pass": true
     }
   ],
-  "label": "Chainlink - BTC / USD (0.1%, 1200s)"
+  "label": "Chainlink - BTC / USD (0.1%, 1200s)",
+  "methodology": "Market Price",
+  "model": "Push"
 }

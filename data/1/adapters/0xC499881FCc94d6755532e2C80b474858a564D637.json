@@ -43,5 +43,7 @@
       "pass": true
     }
   ],
-  "label": "Fixed (1:1) - OETH/WETH"
+  "label": "Fixed (1:1) - OETH/WETH",
+  "methodology": "Exchange Rate",
+  "model": "Push"
 }

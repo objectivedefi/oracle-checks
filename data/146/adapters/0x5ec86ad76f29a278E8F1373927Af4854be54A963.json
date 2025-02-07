@@ -44,5 +44,7 @@
       "pass": true
     }
   ],
-  "label": "RedStone - scUSD_FUNDAMENTAL (0.5%, 21600s)"
+  "label": "RedStone - scUSD_FUNDAMENTAL (0.5%, 21600s)",
+  "methodology": "Exchange Rate",
+  "model": "Push"
 }

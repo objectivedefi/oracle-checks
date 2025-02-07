@@ -44,5 +44,7 @@
       "pass": true
     }
   ],
-  "label": ""
+  "label": "Pendle - wstUSR",
+  "methodology": "TWAP",
+  "model": "Push"
 }

@@ -44,5 +44,7 @@
       "pass": true
     }
   ],
-  "label": "Chainlink - USDP / USD (1%, 3600s)"
+  "label": "Chainlink - USDP / USD (1%, 3600s)",
+  "methodology": "Market Price",
+  "model": "Push"
 }

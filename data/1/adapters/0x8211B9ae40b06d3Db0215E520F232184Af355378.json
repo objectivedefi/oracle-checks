@@ -44,5 +44,7 @@
       "pass": true
     }
   ],
-  "label": "Chainlink - USDe / USD (0.5%, 86400s)"
+  "label": "Chainlink - USDe / USD (0.5%, 86400s)",
+  "methodology": "Market Price",
+  "model": "Push"
 }

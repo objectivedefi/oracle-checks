@@ -44,5 +44,7 @@
       "pass": true
     }
   ],
-  "label": "RedStone - ETHx (1%, 86400s)"
+  "label": "RedStone - ETHx (1%, 86400s)",
+  "methodology": "Market Price",
+  "model": "Push"
 }

@@ -43,5 +43,7 @@
       "pass": true
     }
   ],
-  "label": "Fixed (1:1) - USDO/USD"
+  "label": "Fixed (1:1) - USDO/USD",
+  "methodology": "Exchange Rate",
+  "model": "Push"
 }

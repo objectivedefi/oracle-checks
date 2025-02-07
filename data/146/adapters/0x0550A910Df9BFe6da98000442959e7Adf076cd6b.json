@@ -44,5 +44,7 @@
       "pass": true
     }
   ],
-  "label": "RedStone - USDC (0.5%, 21600s)"
+  "label": "RedStone - USDC (0.5%, 21600s)",
+  "methodology": "Market Price",
+  "model": "Push"
 }

@@ -43,5 +43,7 @@
       "pass": true
     }
   ],
-  "label": "Fixed (1:1) - RLUSD/USD"
+  "label": "Fixed (1:1) - RLUSD/USD",
+  "methodology": "Exchange Rate",
+  "model": "Push"
 }

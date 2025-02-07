@@ -44,5 +44,7 @@
       "pass": false
     }
   ],
-  "label": "Midas: Midas mBASIS/USD Oracle"
+  "label": "Midas: Midas mBASIS/USD Oracle",
+  "methodology": "Unknown",
+  "model": "Push"
 }

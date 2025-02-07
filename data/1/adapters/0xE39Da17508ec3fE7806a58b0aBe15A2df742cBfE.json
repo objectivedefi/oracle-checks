@@ -44,5 +44,7 @@
       "pass": true
     }
   ],
-  "label": "Chainlink - RETH / ETH (2%, 86400s)"
+  "label": "Chainlink - RETH / ETH (2%, 86400s)",
+  "methodology": "Market Price",
+  "model": "Push"
 }

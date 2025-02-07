@@ -44,5 +44,7 @@
       "pass": true
     }
   ],
-  "label": "Chainlink - USDC / USD (0.3%, 86400s)"
+  "label": "Chainlink - USDC / USD (0.3%, 86400s)",
+  "methodology": "Market Price",
+  "model": "Push"
 }

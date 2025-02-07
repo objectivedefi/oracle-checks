@@ -38,5 +38,7 @@
       "pass": true
     }
   ],
-  "label": ""
+  "label": "Chronicle - USDS/USD",
+  "methodology": "Unknown",
+  "model": "Push"
 }

@@ -44,5 +44,7 @@
       "pass": true
     }
   ],
-  "label": "RedStone - beraETH_FUNDAMENTAL (0.5%, 86400s)"
+  "label": "RedStone - beraETH_FUNDAMENTAL (0.5%, 86400s)",
+  "methodology": "Exchange Rate",
+  "model": "Push"
 }

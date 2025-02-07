@@ -44,5 +44,7 @@
       "pass": true
     }
   ],
-  "label": "Chainlink - WBTC / USD (0.05%, 86400s)"
+  "label": "Chainlink - WBTC / USD (0.05%, 86400s)",
+  "methodology": "Market Price",
+  "model": "Push"
 }

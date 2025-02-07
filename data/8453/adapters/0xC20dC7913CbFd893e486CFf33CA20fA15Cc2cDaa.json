@@ -43,5 +43,7 @@
       "pass": true
     }
   ],
-  "label": "Fixed (1:1) - USR/USD"
+  "label": "Fixed (1:1) - USR/USD",
+  "methodology": "Exchange Rate",
+  "model": "Push"
 }

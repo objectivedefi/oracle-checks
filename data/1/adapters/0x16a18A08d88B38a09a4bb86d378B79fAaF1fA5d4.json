@@ -43,5 +43,7 @@
       "pass": true
     }
   ],
-  "label": "Fixed (1:1) - USDM/USD"
+  "label": "Fixed (1:1) - USDM/USD",
+  "methodology": "Exchange Rate",
+  "model": "Push"
 }

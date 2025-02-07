@@ -44,5 +44,7 @@
       "pass": true
     }
   ],
-  "label": "Chainlink - UNI / USD (1%, 3600s)"
+  "label": "Chainlink - UNI / USD (1%, 3600s)",
+  "methodology": "Market Price",
+  "model": "Push"
 }

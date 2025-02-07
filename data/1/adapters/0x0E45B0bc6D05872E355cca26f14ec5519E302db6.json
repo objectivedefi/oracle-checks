@@ -44,5 +44,7 @@
       "pass": true
     }
   ],
-  "label": "RedStone - pzETH_FUNDAMENTAL (0.5%, 86400s)"
+  "label": "RedStone - pzETH_FUNDAMENTAL (0.5%, 86400s)",
+  "methodology": "Exchange Rate",
+  "model": "Push"
 }

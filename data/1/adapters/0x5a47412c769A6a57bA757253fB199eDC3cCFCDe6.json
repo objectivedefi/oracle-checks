@@ -38,5 +38,7 @@
       "pass": true
     }
   ],
-  "label": ""
+  "label": "Chronicle - SUSDS/USD",
+  "methodology": "Unknown",
+  "model": "Push"
 }

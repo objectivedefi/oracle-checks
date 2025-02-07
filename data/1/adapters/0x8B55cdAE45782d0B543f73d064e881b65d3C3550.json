@@ -70,5 +70,7 @@
       "pass": true
     }
   ],
-  "label": "Pyth - Crypto.ONDO/USD (120s, ±300bps)"
+  "label": "Pyth - Crypto.ONDO/USD (120s, ±300bps)",
+  "methodology": "Market Price",
+  "model": "Pull"
 }
