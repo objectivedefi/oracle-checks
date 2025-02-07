@@ -27,17 +27,16 @@ jobs:
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
 
-          # Remove submodule entry from .git/config
-          git config --local --remove-section submodule.euler-interfaces || true
+          # Remove submodule from index and working tree
+          git rm -f euler-interfaces || true
 
-          # Remove the submodule directory
+          # Remove the submodule directory and .git/modules
           rm -rf euler-interfaces
-
-          # Remove the .git/modules directory
           rm -rf .git/modules/euler-interfaces
 
-          # Remove the entry from .gitmodules
+          # Remove the entry from .gitmodules and commit
           rm -f .gitmodules
+          git commit -m "Remove old submodule" || true
 
           # Create new .gitmodules file
           echo '[submodule "euler-interfaces"]' > .gitmodules
@@ -45,9 +44,8 @@ jobs:
           echo '    url = https://github.com/euler-xyz/euler-interfaces' >> .gitmodules
           echo '    branch = new-deployments' >> .gitmodules
 
-          # Initialize and update the submodule
-          git submodule init
-          git submodule add -b new-deployments https://github.com/euler-xyz/euler-interfaces
+          # Add and initialize the submodule
+          git submodule add -f -b new-deployments https://github.com/euler-xyz/euler-interfaces
 
           # Commit the changes if any
           git add .gitmodules euler-interfaces
