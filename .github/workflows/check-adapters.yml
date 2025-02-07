@@ -20,20 +20,27 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          submodules: "recursive"
+          submodules: false # Changed to false to handle submodule manually
 
-      - name: Update submodules
+      - name: Reset and update submodule
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
-          git submodule update --init --recursive
+
+          # Remove existing submodule if present
+          rm -rf euler-interfaces
+          rm -rf .git/modules/euler-interfaces
+
+          # Reinitialize submodule
+          git submodule update --init
+
+          # Update submodule to latest from new-deployments branch
           cd euler-interfaces
-          git fetch --all
-          git remote set-branches origin '*'
-          git fetch origin new-deployments
-          git checkout new-deployments
-          git pull origin new-deployments
+          git fetch origin
+          git checkout origin/new-deployments
           cd ..
+
+          # Commit submodule update if changed
           git add euler-interfaces
           git diff --quiet && git diff --staged --quiet || (git commit -m "Update euler-interfaces submodule" && git push)
 
@@ -62,6 +69,6 @@ jobs:
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
-          git pull  # Ensure we have latest changes
-          git add -f data/  # Force add data directory even if gitignored
+          git pull
+          git add -f data/
           git diff --quiet && git diff --staged --quiet || (git commit -m "Update adapter check results" && git push)
