@@ -1,10 +1,11 @@
 import { chainIdToPythProxy } from "@objectivelabs/oracle-sdk";
-import { Address, parseUnits } from "viem";
+import { parseUnits } from "viem";
 
 import {
   assetConsistent,
   assetsDistinct,
   CheckResult,
+  chronicleFeedOfficial,
   existence,
   fixedRateOne,
   knownAggregatorV3Feed,
@@ -17,26 +18,24 @@ import {
   pythProxyOfficial,
   pythQuoteCorrespondence,
   pythStalenessRange,
+  pendlePoolOfficial,
 } from "./checks";
 import { chainConfigs } from "./config/chainConfigs";
 import { extractAssetAddresses } from "./extractAssetAddresses";
-import { AdapterToResults, CollectedData } from "./types";
-
-type Params = CollectedData & {
-  adapterAddresses: Address[];
-  chainId: number;
-};
+import { AdapterToResults, CollectedData, OracleMethodology, OracleModel } from "./types";
 
 export function runChecks({
-  adapterAddresses,
   chainId,
+  adapterAddresses,
   adapters,
   bytecodes,
   assets,
   chainlinkMetadata,
   redstoneMetadata,
   pythMetadata,
-}: Params): AdapterToResults {
+  chronicleFeeds,
+  pendleMetadata,
+}: CollectedData): AdapterToResults {
   const {
     fallbackAssets,
     minPushHeartbeatBuffer,
@@ -51,6 +50,8 @@ export function runChecks({
   adapters.forEach((adapter, index) => {
     const checks: CheckResult[] = [];
     let label: string = "";
+    let methodology: OracleMethodology = "Unknown";
+    let model: OracleModel = "Unknown";
 
     const existenceCheck = existence({
       chainId,
@@ -97,18 +98,30 @@ export function runChecks({
         otherRecognizedAggregatorV3Feeds,
       });
       label = aggregatorV3FeedCheck.label;
+      methodology = aggregatorV3FeedCheck.methodology;
+      model = "Push";
+
       const heartbeatCheck = pushHeartbeat({
         maxStaleness: adapter.maxStaleness,
         heartbeat: aggregatorV3FeedCheck.heartbeat,
         minHeartbeatBuffer: minPushHeartbeatBuffer,
       });
       checks.push(heartbeatCheck);
+    } else if (name === "ChronicleOracle") {
+      const chronicleFeedCheck = chronicleFeedOfficial({
+        adapter,
+        chronicleFeeds,
+      });
+      label = chronicleFeedCheck.label;
+      model = "Push";
     } else if (name === "PythOracle") {
       const pythFeedCheck = pythFeedOfficial({
         adapter,
         pythMetadata,
       });
       label = `Pyth - ${pythFeedCheck.feed?.attributes.symbol ?? "unknown feed"} (${adapter.maxStaleness}s, ±${adapter.maxConfWidth}bps)`;
+      methodology = pythFeedCheck.methodology;
+      model = "Pull";
       checks.push(pythFeedCheck.result);
 
       checks.push(
@@ -145,6 +158,8 @@ export function runChecks({
         }),
       );
       label = `Lido - wstETH/stETH`;
+      methodology = "Market Price";
+      model = "Push";
     } else if (name === "LidoFundamentalOracle") {
       checks.push(
         lidoFundamentalOfficial({
@@ -152,6 +167,8 @@ export function runChecks({
         }),
       );
       label = `Lido Fundamental - wstETH/ETH`;
+      methodology = "Exchange Rate";
+      model = "Push";
     } else if (name === "FixedRateOracle") {
       const baseAsset = assets.find((asset) => asset.address === adapter.base);
       const quoteAsset = assets.find((asset) => asset.address === adapter.quote);
@@ -170,11 +187,27 @@ export function runChecks({
       } else {
         label = `Unknown Fixed Rate Oracle`;
       }
+      methodology = "Exchange Rate";
+      model = "Push";
+    } else if (name === "RateProviderOracle") {
+      label = `RateProvider - ${adapter.base}/${adapter.quote}`;
+      methodology = "Exchange Rate";
+      model = "Push";
+    } else if (name === "PendleOracle") {
+      const pendlePoolCheck = pendlePoolOfficial({
+        adapter,
+        pendleMetadata,
+      });
+      label = pendlePoolCheck.label;
+      methodology = "TWAP";
+      model = "Push";
     }
 
     adapterToResults[adapter.address] = {
       checks,
       label,
+      methodology,
+      model,
     };
   });
 

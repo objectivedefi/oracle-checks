@@ -45,6 +45,14 @@ export const CHECKS: Record<string, CheckDefinition> = {
     id: "PYTH_QUOTE_CORRESPONDENCE",
     severity: "INFO",
   },
+  OFFICIAL_CHRONICLE_FEED: {
+    id: "OFFICIAL_CHRONICLE_FEED",
+    severity: "HIGH",
+  },
+  OFFICIAL_PENDLE_POOL: {
+    id: "OFFICIAL_PENDLE_POOL",
+    severity: "HIGH",
+  },
   UNUSUAL_FIXED_RATE: {
     id: "UNUSUAL_FIXED_RATE",
     severity: "MED",

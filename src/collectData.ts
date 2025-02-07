@@ -10,6 +10,7 @@ import {
   indexAdapters,
   indexAssets,
   indexChainlinkFeeds,
+  indexChronicleFeeds,
   indexIdleCDOs,
   indexIdleTranches,
   indexRedStoneFeeds,
@@ -100,6 +101,16 @@ export async function collectData(chainId: number): Promise<CollectedData> {
   });
   console.log(`${logPrefix} Indexed ${chainlinkFeeds.length} Chainlink feeds`);
 
+  const chronicleFeedAddresses = adapters
+    .filter((adapter) => adapter?.name === "ChronicleOracle")
+    .map(({ feed }) => feed);
+
+  const chronicleFeeds = await indexChronicleFeeds({
+    publicClient,
+    addresses: chronicleFeedAddresses,
+  });
+  console.log(`${logPrefix} Indexed ${chronicleFeeds.length} Chronicle feeds`);
+
   const redstoneFeeds = await indexRedStoneFeeds({
     publicClient,
     addresses: redstoneMetadata
@@ -138,13 +149,14 @@ export async function collectData(chainId: number): Promise<CollectedData> {
   console.log(`${logPrefix} Indexed ${assets.length} unique assets`);
 
   return {
+    chainId,
     adapterAddresses,
     adapters,
     bytecodes,
     routerAddresses,
     chainlinkMetadata,
     chainlinkFeeds,
-    chronicleFeeds: [], // todo
+    chronicleFeeds,
     idleCDOs,
     idleTranches,
     redstoneMetadata,

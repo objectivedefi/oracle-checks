@@ -1,0 +1,49 @@
+{
+  "name": "FixedRateOracle",
+  "address": "0x4FD36Cd1C23BE30db86679f391087fd8a984f893",
+  "chainId": 1,
+  "base": "0x66a1E37c9b0eAddca17d3662D6c05F4DECf3e110",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "rate": "1000000000000000000",
+  "checks": [
+    {
+      "id": "ADAPTER_EXISTS",
+      "severity": "HIGH",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "SOURCE_CODE_PROVENANCE",
+      "severity": "HIGH",
+      "message": "Contract metadata hash matches a known hash for FixedRateOracle: 0x1220a2cf89894c8279c71e1a46c4a73bbddc378bb9f479175fd3effdf4402d4ac8a4",
+      "pass": true
+    },
+    {
+      "id": "DISTINCT_ASSETS",
+      "severity": "HIGH",
+      "message": "No duplicates found",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x66a1E37c9b0eAddca17d3662D6c05F4DECf3e110 is USR (Resolv USD) with 18 decimals",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+      "pass": true
+    },
+    {
+      "id": "FIXED_RATE_ONE",
+      "severity": "HIGH",
+      "message": "Adapter has a fixed rate of 1",
+      "pass": true
+    }
+  ],
+  "label": "Fixed (1:1) - USR/USD",
+  "methodology": "Exchange Rate",
+  "model": "Push"
+}
