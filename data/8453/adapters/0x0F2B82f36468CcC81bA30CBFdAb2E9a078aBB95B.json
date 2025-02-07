@@ -1,0 +1,76 @@
+{
+  "name": "PythOracle",
+  "address": "0x0F2B82f36468CcC81bA30CBFdAb2E9a078aBB95B",
+  "chainId": 8453,
+  "base": "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "pyth": "0x8250f4aF4B972684F7b336503E2D6dFeDeB1487a",
+  "feedId": "0x6df640f3b8963d8f8358f791f352b8364513f6ab1cca5ed3f1f7b5448980e784",
+  "maxStaleness": "60",
+  "maxConfWidth": "300",
+  "checks": [
+    {
+      "id": "ADAPTER_EXISTS",
+      "severity": "HIGH",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "SOURCE_CODE_PROVENANCE",
+      "severity": "HIGH",
+      "message": "Contract metadata hash matches a known hash for PythOracle: 0x12209db9ab00545537efd012d6d5b5cc23ff14a60e28abf93b84abc92c6d22160f96",
+      "pass": true
+    },
+    {
+      "id": "DISTINCT_ASSETS",
+      "severity": "HIGH",
+      "message": "No duplicates found",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452 is wstETH (Wrapped liquid staked Ether 2.0) with 18 decimals",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+      "pass": true
+    },
+    {
+      "id": "OFFICIAL_PYTH_FEED",
+      "severity": "HIGH",
+      "message": "Adapter is connected to an official Pyth feed: WSTETH/USD",
+      "pass": true
+    },
+    {
+      "id": "PYTH_BASE_CORRESPONDENCE",
+      "severity": "INFO",
+      "message": "Base symbol (wstETH) matches Pyth feed base asset (WSTETH)",
+      "pass": true
+    },
+    {
+      "id": "PYTH_QUOTE_CORRESPONDENCE",
+      "severity": "INFO",
+      "message": "Quote symbol (USD) matches Pyth feed quote asset (USD)",
+      "pass": true
+    },
+    {
+      "id": "OFFICIAL_PYTH_PROXY",
+      "severity": "HIGH",
+      "message": "Adapter is connected to the official Pyth proxy",
+      "pass": true
+    },
+    {
+      "id": "PYTH_STALENESS_RANGE",
+      "severity": "HIGH",
+      "message": "Max staleness is within the recommended range (15 - 120 seconds).",
+      "pass": true
+    }
+  ],
+  "label": "Pyth - Crypto.WSTETH/USD (60s, ±300bps)",
+  "methodology": "Market Price",
+  "model": "Pull"
+}
