@@ -19,30 +19,12 @@
   },
   {
     "chainId": 42161,
-    "pt": "0x8Db96f2FcCf7Cdd74a60e8eFf5801df043cd11dE",
-    "market": "0x816F59FfA2239Fd7106F94eAbdC0a9547a892F2f",
-    "accountingAsset": "0x0000000000000000000000000000000000000000",
-    "underlyingAsset": "0x4186BFC76E2E237523CBC30FD220FE055156b41F",
-    "expiry": 1750896000,
-    "symbol": "rsETH"
-  },
-  {
-    "chainId": 42161,
     "pt": "0x0fc042b32a9A6191834eA12ffa04F2044D0EB302",
     "market": "0x4505ec38982Bb796B34D050ca8d765aCFF1aBdee",
     "accountingAsset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
     "underlyingAsset": "0x724dc807b04555b71ed48a6896b6F41593b8C637",
     "expiry": 1750896000,
     "symbol": "aUSDC"
-  },
-  {
-    "chainId": 42161,
-    "pt": "0x137f793505e7884CB70Ee5933c83447E85B1BD17",
-    "market": "0x0bD6890b3Bb15f16430546147734b254d0B03059",
-    "accountingAsset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
-    "underlyingAsset": "0x6DBd962b4f62D18F756b5DE57425574c4B8228D6",
-    "expiry": 1750896000,
-    "symbol": "dUSDC"
   },
   {
     "chainId": 42161,
@@ -55,12 +37,21 @@
   },
   {
     "chainId": 42161,
-    "pt": "0xB3eBcC844F1Eda040a3620267CDaAea6E14518A9",
-    "market": "0x3E4e3291Ed667FB4Dee680D19e5702eF8275493D",
-    "accountingAsset": "0x0000000000000000000000000000000000000000",
-    "underlyingAsset": "0x3d15fD46CE9e551498328B1C83071D9509E2C3a0",
+    "pt": "0x137f793505e7884CB70Ee5933c83447E85B1BD17",
+    "market": "0x0bD6890b3Bb15f16430546147734b254d0B03059",
+    "accountingAsset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "underlyingAsset": "0x6DBd962b4f62D18F756b5DE57425574c4B8228D6",
     "expiry": 1750896000,
-    "symbol": "uniETH"
+    "symbol": "dUSDC"
+  },
+  {
+    "chainId": 42161,
+    "pt": "0x8Db96f2FcCf7Cdd74a60e8eFf5801df043cd11dE",
+    "market": "0x816F59FfA2239Fd7106F94eAbdC0a9547a892F2f",
+    "accountingAsset": "0x0000000000000000000000000000000000000000",
+    "underlyingAsset": "0x4186BFC76E2E237523CBC30FD220FE055156b41F",
+    "expiry": 1750896000,
+    "symbol": "rsETH"
   },
   {
     "chainId": 42161,
@@ -70,6 +61,15 @@
     "underlyingAsset": "0x5979D7b546E38E414F7E9822514be443A4800529",
     "expiry": 1750896000,
     "symbol": "wstETH"
+  },
+  {
+    "chainId": 42161,
+    "pt": "0xB3eBcC844F1Eda040a3620267CDaAea6E14518A9",
+    "market": "0x3E4e3291Ed667FB4Dee680D19e5702eF8275493D",
+    "accountingAsset": "0x0000000000000000000000000000000000000000",
+    "underlyingAsset": "0x3d15fD46CE9e551498328B1C83071D9509E2C3a0",
+    "expiry": 1750896000,
+    "symbol": "uniETH"
   },
   {
     "chainId": 42161,
@@ -91,15 +91,6 @@
   },
   {
     "chainId": 42161,
-    "pt": "0x4a94091CAdD74BDf313B74d58EAc908C5fC53704",
-    "market": "0x9fF912568eB011D719B5F4E940f8135633F4bCDc",
-    "accountingAsset": "0xB688BA096b7Bb75d7841e47163Cd12D18B36A5bF",
-    "underlyingAsset": "0xB688BA096b7Bb75d7841e47163Cd12D18B36A5bF",
-    "expiry": 1743033600,
-    "symbol": "mPENDLE"
-  },
-  {
-    "chainId": 42161,
     "pt": "0x9D8eADeb4e7311e340A5EE39DbF62d7694F1aa85",
     "market": "0xF1De71573Ee482f13AE4DcF980e83bFAba8b233d",
     "accountingAsset": "0x7CbaF5a14D953fF896E5B3312031515c858737C8",
@@ -115,6 +106,15 @@
     "underlyingAsset": "0xd85E038593d7A098614721EaE955EC2022B9B91B",
     "expiry": 1743033600,
     "symbol": "gDAI"
+  },
+  {
+    "chainId": 42161,
+    "pt": "0x4a94091CAdD74BDf313B74d58EAc908C5fC53704",
+    "market": "0x9fF912568eB011D719B5F4E940f8135633F4bCDc",
+    "accountingAsset": "0xB688BA096b7Bb75d7841e47163Cd12D18B36A5bF",
+    "underlyingAsset": "0xB688BA096b7Bb75d7841e47163Cd12D18B36A5bF",
+    "expiry": 1743033600,
+    "symbol": "mPENDLE"
   },
   {
     "chainId": 42161,
