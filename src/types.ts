@@ -16,6 +16,7 @@ import { Address, Hex } from "viem";
 import { CheckResult } from "./checks";
 
 export type CollectedData = {
+  chainId: number;
   adapterAddresses: Address[];
   routerAddresses: Address[];
   chainlinkMetadata: ChainlinkMetadata;
@@ -32,10 +33,16 @@ export type CollectedData = {
   assets: Asset[];
 };
 
+export type OracleModel = "Unknown" | "Push" | "Pull";
+
+export type OracleMethodology = "Market Price" | "Exchange Rate" | "TWAP" | "Unknown";
+
 export type AdapterToResults = Record<
   Address,
   {
     checks: CheckResult[];
+    methodology: OracleMethodology;
+    model: OracleModel;
     label?: string;
   }
 >;

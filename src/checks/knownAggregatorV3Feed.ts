@@ -8,6 +8,7 @@ import { Address } from "viem";
 
 import { CheckResultWithId } from "./types";
 import { CHECKS, failCheck, passCheck } from "./utils";
+import { OracleMethodology } from "../types";
 
 type Params = {
   adapter: ChainlinkOracle | ChainlinkInfrequentOracle;
@@ -24,6 +25,7 @@ export function knownAggregatorV3Feed({
 }: Params): {
   result: CheckResultWithId;
   label: string;
+  methodology: OracleMethodology;
   heartbeat?: number;
 } {
   const matchingChainlinkFeed = chainlinkMetadata?.find(
@@ -37,6 +39,12 @@ export function knownAggregatorV3Feed({
   const matchingOtherFeed = otherRecognizedAggregatorV3Feeds[adapter.feed];
 
   if (matchingChainlinkFeed) {
+    const isExchangeRate =
+      matchingChainlinkFeed.docs?.productTypeCode === "ExRate" ||
+      matchingChainlinkFeed.docs?.productSubType === "Exchange Rate" ||
+      matchingChainlinkFeed.path?.toLowerCase().endsWith("exchange-rate");
+    matchingChainlinkFeed.name?.toLowerCase().endsWith("exchange rate");
+
     return {
       result: passCheck(
         CHECKS.RECOGNIZED_AGGREGATOR_V3_FEED,
@@ -44,8 +52,10 @@ export function knownAggregatorV3Feed({
       ),
       label: `Chainlink - ${matchingChainlinkFeed.name} (${matchingChainlinkFeed.threshold}%, ${matchingChainlinkFeed.heartbeat}s)`,
       heartbeat: matchingChainlinkFeed.heartbeat,
+      methodology: isExchangeRate ? "Exchange Rate" : "Market Price",
     };
   } else if (matchingRedstoneFeed) {
+    const isExchangeRate = matchingRedstoneFeed.symbol.includes("FUNDAMENTAL");
     return {
       result: passCheck(
         CHECKS.RECOGNIZED_AGGREGATOR_V3_FEED,
@@ -53,6 +63,7 @@ export function knownAggregatorV3Feed({
       ),
       label: `RedStone - ${matchingRedstoneFeed.symbol} (${matchingRedstoneFeed.deviationPercentage}%, ${matchingRedstoneFeed.heartbeat}s)`,
       heartbeat: matchingRedstoneFeed.heartbeat,
+      methodology: isExchangeRate ? "Exchange Rate" : "Market Price",
     };
   } else if (matchingOtherFeed) {
     return {
@@ -61,6 +72,7 @@ export function knownAggregatorV3Feed({
         `Adapter is connected to a recognized non-standard feed: ${matchingOtherFeed.description}`,
       ),
       label: `${matchingOtherFeed.provider}: ${matchingOtherFeed.description}`,
+      methodology: "Unknown",
     };
   } else {
     return {
@@ -69,6 +81,7 @@ export function knownAggregatorV3Feed({
         `Could not find matching Chainlink or RedStone feed for ${adapter.feed}`,
       ),
       label: `Unknown AggregatorV3 Feed`,
+      methodology: "Unknown",
     };
   }
 }
