@@ -1,0 +1,49 @@
+{
+  "name": "FixedRateOracle",
+  "address": "0x16a8760feB814AfC9e3748d09A46f602C8Ade027",
+  "chainId": 1,
+  "base": "0x35D8949372D46B7a3D5A56006AE77B215fc69bC0",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "rate": "1000000000000000000",
+  "checks": [
+    {
+      "id": "ADAPTER_EXISTS",
+      "severity": "HIGH",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "SOURCE_CODE_PROVENANCE",
+      "severity": "HIGH",
+      "message": "Contract metadata hash matches a known hash for FixedRateOracle: 0x1220e8c289af4809f49e3df0051daca5ab5acf5a0f020119f38a6cfce966ad9b20ea",
+      "pass": true
+    },
+    {
+      "id": "DISTINCT_ASSETS",
+      "severity": "HIGH",
+      "message": "No duplicates found",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is USD0++ (USD0 Liquid Bond) with 18 decimals",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+      "pass": true
+    },
+    {
+      "id": "FIXED_RATE_ONE",
+      "severity": "HIGH",
+      "message": "Adapter has a fixed rate of 1",
+      "pass": true
+    }
+  ],
+  "label": "Fixed (1:1) - USD0++/USD",
+  "methodology": "Exchange Rate",
+  "model": "Push"
+}
