@@ -1,0 +1,51 @@
+{
+  "name": "CrossAdapter",
+  "address": "0x4Db9Ec089929F08e6eab73A8b003d728B212C692",
+  "chainId": 8453,
+  "base": "0x5d746848005507DA0b1717C137A10C30AD9ee307",
+  "cross": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0xaAbfFEC2Decac5fE7A2C3C84a7C2381168F0004b",
+  "oracleCrossQuote": "0x27208F64626b294542d1aCBA6bB56950cfDa15B7",
+  "checks": [
+    {
+      "id": "ADAPTER_EXISTS",
+      "severity": "HIGH",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "SOURCE_CODE_PROVENANCE",
+      "severity": "HIGH",
+      "message": "Contract metadata hash matches a known hash for CrossAdapter: 0x122076d3b0be77e0e4ce25da47f4eee115d6ea7e00dbdd38208838161e90bebc3112",
+      "pass": true
+    },
+    {
+      "id": "DISTINCT_ASSETS",
+      "severity": "HIGH",
+      "message": "No duplicates found",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x5d746848005507DA0b1717C137A10C30AD9ee307 is PT-LBTC-29MAY2025 (PT Lombard LBTC 29MAY2025) with 8 decimals",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf is cbBTC (Coinbase Wrapped BTC) with 8 decimals",
+      "pass": true
+    }
+  ],
+  "label": "",
+  "methodology": "Unknown",
+  "model": "Unknown"
+}

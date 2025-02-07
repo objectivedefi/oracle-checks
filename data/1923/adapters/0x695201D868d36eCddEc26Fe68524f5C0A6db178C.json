@@ -1,0 +1,50 @@
+{
+  "name": "ChainlinkOracle",
+  "address": "0x695201D868d36eCddEc26Fe68524f5C0A6db178C",
+  "chainId": 1923,
+  "base": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0xddE3b77040cee3387C0cA661d1b619C3acA203b0",
+  "maxStaleness": "25200",
+  "checks": [
+    {
+      "id": "ADAPTER_EXISTS",
+      "severity": "HIGH",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "SOURCE_CODE_PROVENANCE",
+      "severity": "HIGH",
+      "message": "Contract metadata hash matches a known hash for ChainlinkOracle: 0x12207b071f27685666f8cbef91b267bca77c20f04b595df7efb0ecf2e56cae50988a",
+      "pass": true
+    },
+    {
+      "id": "DISTINCT_ASSETS",
+      "severity": "HIGH",
+      "message": "No duplicates found",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2 is sUSDe (Staked USDe) with 18 decimals",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+      "pass": true
+    },
+    {
+      "id": "PUSH_STALENESS_BUFFER",
+      "severity": "MED",
+      "message": "Adapter max staleness (25200) is sufficient for the feed's heartbeat (21600).",
+      "pass": true
+    }
+  ],
+  "label": "RedStone - sUSDe_FUNDAMENTAL (0.5%, 21600s)",
+  "methodology": "Exchange Rate",
+  "model": "Push"
+}

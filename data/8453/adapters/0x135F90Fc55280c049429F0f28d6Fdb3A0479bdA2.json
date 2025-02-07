@@ -1,0 +1,50 @@
+{
+  "name": "ChainlinkOracle",
+  "address": "0x135F90Fc55280c049429F0f28d6Fdb3A0479bdA2",
+  "chainId": 8453,
+  "base": "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0xDAe398520e2B67cd3f27aeF9Cf14D93D927f8250",
+  "maxStaleness": "90000",
+  "checks": [
+    {
+      "id": "ADAPTER_EXISTS",
+      "severity": "HIGH",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "SOURCE_CODE_PROVENANCE",
+      "severity": "HIGH",
+      "message": "Contract metadata hash matches a known hash for ChainlinkOracle: 0x122049d657c4096750bae86bf41488a2bb3cfa4eb87030a676aff76b9b6e59e9f6c0",
+      "pass": true
+    },
+    {
+      "id": "DISTINCT_ASSETS",
+      "severity": "HIGH",
+      "message": "No duplicates found",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42 is EURC (EURC) with 6 decimals",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+      "pass": true
+    },
+    {
+      "id": "PUSH_STALENESS_BUFFER",
+      "severity": "MED",
+      "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
+      "pass": true
+    }
+  ],
+  "label": "Chainlink - EURC / USD (0.3%, 86400s)",
+  "methodology": "Market Price",
+  "model": "Push"
+}

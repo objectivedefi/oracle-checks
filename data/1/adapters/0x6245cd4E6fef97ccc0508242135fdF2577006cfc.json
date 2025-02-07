@@ -1,0 +1,44 @@
+{
+  "name": "ChronicleOracle",
+  "address": "0x6245cd4E6fef97ccc0508242135fdF2577006cfc",
+  "chainId": 1,
+  "base": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0x74661a9ea74fD04975c6eBc6B155Abf8f885636c",
+  "maxStaleness": "46800",
+  "checks": [
+    {
+      "id": "ADAPTER_EXISTS",
+      "severity": "HIGH",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "SOURCE_CODE_PROVENANCE",
+      "severity": "HIGH",
+      "message": "Contract metadata hash matches a known hash for ChronicleOracle: 0x122086df19d9aea8aee7d71ac1fa1856664af677a130f0f3328e7de4f60ad04daf92",
+      "pass": true
+    },
+    {
+      "id": "DISTINCT_ASSETS",
+      "severity": "HIGH",
+      "message": "No duplicates found",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0xdC035D45d973E3EC169d2276DDab16f1e407384F is USDS (USDS Stablecoin) with 18 decimals",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+      "pass": true
+    }
+  ],
+  "label": "Chronicle - USDS/USD",
+  "methodology": "Unknown",
+  "model": "Push"
+}

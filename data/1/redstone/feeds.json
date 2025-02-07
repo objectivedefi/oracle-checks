@@ -1,0 +1,97 @@
+[
+  {
+    "address": "0x0d7697a15bce933cE8671Ba3D60ab062dA216C60",
+    "chainId": 1,
+    "decimals": 8,
+    "description": "Redstone Price Feed",
+    "version": "1",
+    "dataFeedId": "0x707a4554485f46554e44414d454e54414c000000000000000000000000000000",
+    "priceFeedAdapter": "0xd72a6BA4a87DDB33e801b3f1c7750b2d0911fC6C"
+  },
+  {
+    "address": "0xB39339B82DdCF89d12d987d1D4Db33aFdd40B6AA",
+    "chainId": 1,
+    "decimals": 8,
+    "description": "Redstone Price Feed",
+    "version": "1",
+    "dataFeedId": "0x5553443300000000000000000000000000000000000000000000000000000000",
+    "priceFeedAdapter": "0xd72a6BA4a87DDB33e801b3f1c7750b2d0911fC6C"
+  },
+  {
+    "address": "0xb347d2e3524D0F9e2321D84A2E9b2e60CbC4A836",
+    "chainId": 1,
+    "decimals": 8,
+    "description": "RedStone Price Feed for eUSD",
+    "version": "1",
+    "dataFeedId": "0x6555534400000000000000000000000000000000000000000000000000000000",
+    "priceFeedAdapter": "0xd72a6BA4a87DDB33e801b3f1c7750b2d0911fC6C"
+  },
+  {
+    "address": "0x4f67Fd74cff274Ef2942223c0f3166b856410AdD",
+    "chainId": 1,
+    "decimals": 8,
+    "description": "RedStone Price Feed for beraETH_FUNDAMENTAL",
+    "version": "1",
+    "dataFeedId": "0x626572614554485f46554e44414d454e54414c00000000000000000000000000",
+    "priceFeedAdapter": "0xd72a6BA4a87DDB33e801b3f1c7750b2d0911fC6C"
+  },
+  {
+    "address": "0xFaBEb1474C2Ab34838081BFdDcE4132f640E7D2d",
+    "chainId": 1,
+    "decimals": 8,
+    "description": "RedStone Price Feed for ETHx",
+    "version": "1",
+    "dataFeedId": "0x4554487800000000000000000000000000000000000000000000000000000000",
+    "priceFeedAdapter": "0xd72a6BA4a87DDB33e801b3f1c7750b2d0911fC6C"
+  },
+  {
+    "address": "0x19219BC90F48DeE4d5cF202E09c438FAacFd8Bea",
+    "chainId": 1,
+    "aggregator": "0x19219BC90F48DeE4d5cF202E09c438FAacFd8Bea",
+    "decimals": 8,
+    "description": "Redstone Price Feed",
+    "version": "1",
+    "dataFeedId": "0x6170784554482f45544800000000000000000000000000000000000000000000",
+    "priceFeedAdapter": "0x19219BC90F48DeE4d5cF202E09c438FAacFd8Bea"
+  },
+  {
+    "address": "0xdDb6F90fFb4d3257dd666b69178e5B3c5Bf41136",
+    "chainId": 1,
+    "aggregator": "0xdDb6F90fFb4d3257dd666b69178e5B3c5Bf41136",
+    "decimals": 8,
+    "description": "Redstone Price Feed",
+    "version": "1",
+    "dataFeedId": "0x7765455448000000000000000000000000000000000000000000000000000000",
+    "priceFeedAdapter": "0xdDb6F90fFb4d3257dd666b69178e5B3c5Bf41136"
+  },
+  {
+    "address": "0x8751F736E94F6CD167e8C5B97E245680FbD9CC36",
+    "chainId": 1,
+    "aggregator": "0x8751F736E94F6CD167e8C5B97E245680FbD9CC36",
+    "decimals": 8,
+    "description": "Redstone Price Feed",
+    "version": "1",
+    "dataFeedId": "0x77654554482f4554480000000000000000000000000000000000000000000000",
+    "priceFeedAdapter": "0x8751F736E94F6CD167e8C5B97E245680FbD9CC36"
+  },
+  {
+    "address": "0x3B9c09bde7776C32C518e2E787412A9bBaA7685F",
+    "chainId": 1,
+    "aggregator": "0x3B9c09bde7776C32C518e2E787412A9bBaA7685F",
+    "decimals": 8,
+    "description": "Redstone Price Feed",
+    "version": "1",
+    "dataFeedId": "0x4554482b2f455448000000000000000000000000000000000000000000000000",
+    "priceFeedAdapter": "0x3B9c09bde7776C32C518e2E787412A9bBaA7685F"
+  },
+  {
+    "address": "0xA736eAe8805dDeFFba40cAB8c99bCB309dEaBd9B",
+    "chainId": 1,
+    "aggregator": "0xA736eAe8805dDeFFba40cAB8c99bCB309dEaBd9B",
+    "decimals": 8,
+    "description": "Redstone Price Feed",
+    "version": "1",
+    "dataFeedId": "0x72734554482f4554480000000000000000000000000000000000000000000000",
+    "priceFeedAdapter": "0xA736eAe8805dDeFFba40cAB8c99bCB309dEaBd9B"
+  }
+]
