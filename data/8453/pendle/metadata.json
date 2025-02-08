@@ -10,15 +10,6 @@
   },
   {
     "chainId": 8453,
-    "pt": "0xc1e4d7CA05045dFBC654b67E11124901148b1266",
-    "market": "0x14936C9B8eb798cA6291c2d6CE5de2c6cB5f1f9C",
-    "accountingAsset": "0xA469B7Ee9ee773642b3e93E842e5D9b5BaA10067",
-    "underlyingAsset": "0xe31eE12bDFDD0573D634124611e85338e2cBF0cF",
-    "expiry": 1743033600,
-    "symbol": "sUSDz"
-  },
-  {
-    "chainId": 8453,
     "pt": "0x5d746848005507DA0b1717C137A10C30AD9ee307",
     "market": "0x727cEbAcfb10fFd353Fc221D06A862B437eC1735",
     "accountingAsset": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
@@ -28,12 +19,12 @@
   },
   {
     "chainId": 8453,
-    "pt": "0x2A9e9256E0d1Ad0f7f9d7c7248cb7e2f06072DeB",
-    "market": "0x3124D41708edbdC7995A55183e802E3D9d0D5Ef1",
-    "accountingAsset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-    "underlyingAsset": "0xEdc817A28E8B93B03976FBd4a3dDBc9f7D176c22",
-    "expiry": 1750896000,
-    "symbol": "mUSDC"
+    "pt": "0xc1e4d7CA05045dFBC654b67E11124901148b1266",
+    "market": "0x14936C9B8eb798cA6291c2d6CE5de2c6cB5f1f9C",
+    "accountingAsset": "0xA469B7Ee9ee773642b3e93E842e5D9b5BaA10067",
+    "underlyingAsset": "0xe31eE12bDFDD0573D634124611e85338e2cBF0cF",
+    "expiry": 1743033600,
+    "symbol": "sUSDz"
   },
   {
     "chainId": 8453,
@@ -52,6 +43,15 @@
     "underlyingAsset": "0x7FcD174E80f264448ebeE8c88a7C4476AAF58Ea6",
     "expiry": 1750896000,
     "symbol": "wsuperOETHb"
+  },
+  {
+    "chainId": 8453,
+    "pt": "0x2A9e9256E0d1Ad0f7f9d7c7248cb7e2f06072DeB",
+    "market": "0x3124D41708edbdC7995A55183e802E3D9d0D5Ef1",
+    "accountingAsset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "underlyingAsset": "0xEdc817A28E8B93B03976FBd4a3dDBc9f7D176c22",
+    "expiry": 1750896000,
+    "symbol": "mUSDC"
   },
   {
     "chainId": 8453,
