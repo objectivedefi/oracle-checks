@@ -5041,6 +5041,33 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x9c7CF045f964B45FFC6AA0Ffbffd7bb6d1b470A3",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "php-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "PHP / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "php-usd",
+    "proxyAddress": "0x3C7dB4D25deAb7c89660512C5494Dc9A3FC40f78",
+    "threshold": 0.3,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 18
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x9e6e40dC0A35D6eD96BB09D928261EB598523645",
     "contractType": "",
     "contractVersion": 6,
