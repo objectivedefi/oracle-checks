@@ -10,8 +10,9 @@
       "description": "APPLE INC / US DOLLAR",
       "display_symbol": "AAPL/USD",
       "nasdaq_symbol": "AAPL",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.AAPL/USD"
     }
   },
@@ -65,8 +66,9 @@
       "description": "AMC ENTERTAINMENT HOLDINGS INC / US DOLLAR",
       "display_symbol": "AMC/USD",
       "nasdaq_symbol": "AMC",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.AMC/USD"
     }
   },
@@ -81,8 +83,9 @@
       "description": "AMAZON.COM, INC. / US DOLLAR",
       "display_symbol": "AMZN/USD",
       "nasdaq_symbol": "AMZN",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.AMZN/USD"
     }
   },
@@ -388,8 +391,9 @@
       "description": "GENERAL ELECTRIC COMPANY / US DOLLAR",
       "display_symbol": "GE/USD",
       "nasdaq_symbol": "GE",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.GE/USD"
     }
   },
@@ -404,8 +408,9 @@
       "description": "GAMESTOP CORP. / US DOLLAR",
       "display_symbol": "GME/USD",
       "nasdaq_symbol": "GME",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.GME/USD"
     }
   },
@@ -446,8 +451,9 @@
       "description": "ALPHABET INC CLASS C / US DOLLAR",
       "display_symbol": "GOOG/USD",
       "nasdaq_symbol": "GOOG",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.GOOG/USD"
     }
   },
@@ -1156,8 +1162,9 @@
       "description": "AMGEN, INC. / US DOLLAR",
       "display_symbol": "AMGN/USD",
       "nasdaq_symbol": "AMGN",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.AMGN/USD"
     }
   },
@@ -1172,8 +1179,9 @@
       "description": "AMERICAN EXPRESS COMPANY / US DOLLAR",
       "display_symbol": "AXP/USD",
       "nasdaq_symbol": "AXP",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.AXP/USD"
     }
   },
@@ -1188,8 +1196,9 @@
       "description": "BOEING CO / US DOLLAR",
       "display_symbol": "BA/USD",
       "nasdaq_symbol": "BA",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.BA/USD"
     }
   },
@@ -1204,8 +1213,9 @@
       "description": "CATERPILLAR INC. / US DOLLAR",
       "display_symbol": "CAT/USD",
       "nasdaq_symbol": "CAT",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CAT/USD"
     }
   },
@@ -1220,8 +1230,9 @@
       "description": "SALESFORCE INC / US DOLLAR",
       "display_symbol": "CRM/USD",
       "nasdaq_symbol": "CRM",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CRM/USD"
     }
   },
@@ -1236,8 +1247,9 @@
       "description": "CISCO SYSTEMS INC / US DOLLAR",
       "display_symbol": "CSCO/USD",
       "nasdaq_symbol": "CSCO",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CSCO/USD"
     }
   },
@@ -1252,8 +1264,9 @@
       "description": "CHEVRON CORPORATION / US DOLLAR",
       "display_symbol": "CVX/USD",
       "nasdaq_symbol": "CVX",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CVX/USD"
     }
   },
@@ -1268,8 +1281,9 @@
       "description": "WALT DISNEY CO / US DOLLAR",
       "display_symbol": "DIS/USD",
       "nasdaq_symbol": "DIS",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.DIS/USD"
     }
   },
@@ -1284,8 +1298,9 @@
       "description": "DOW INC / US DOLLAR",
       "display_symbol": "DOW/USD",
       "nasdaq_symbol": "DOW",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.DOW/USD"
     }
   },
@@ -1300,8 +1315,9 @@
       "description": "GOLDMAN SACHS GROUP INC / US DOLLAR",
       "display_symbol": "GS/USD",
       "nasdaq_symbol": "GS",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.GS/USD"
     }
   },
@@ -2595,8 +2611,9 @@
       "display_symbol": "DIA/USD",
       "generic_symbol": "DIA",
       "nasdaq_symbol": "DIA",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.DIA/USD"
     }
   },
@@ -2789,6 +2806,7 @@
       "description": "ISHARES $ TREASURY BOND 1-3YR UCITS ETF / US DOLLAR",
       "display_symbol": "IBTA/USD",
       "generic_symbol": "IBTA",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C,1224/0800-1230,1225/C,1226/C,1231/0800-1230,0101/C",
       "symbol": "Equity.GB.IBTA/USD",
@@ -2804,6 +2822,7 @@
       "description": "ISHARES $ TREASURY BOND 0-1YR UCITS ETF / US DOLLAR",
       "display_symbol": "IB01/USD",
       "generic_symbol": "IB01",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C,1224/0800-1230,1225/C,1226/C,1231/0800-1230,0101/C",
       "symbol": "Equity.GB.IB01/USD",
@@ -2855,8 +2874,9 @@
       "description": "ISHARES US TREASURY BOND ETF / US DOLLAR",
       "display_symbol": "GOVT/USD",
       "nasdaq_symbol": "GOVT",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.GOVT/USD"
     }
   },
@@ -2871,8 +2891,9 @@
       "description": "ISHARES MSCI EAFE ETF / US DOLLAR",
       "display_symbol": "EFA/USD",
       "nasdaq_symbol": "EFA",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.EFA/USD"
     }
   },
@@ -2887,8 +2908,9 @@
       "description": "COINBASE GLOBAL INC / US DOLLAR",
       "display_symbol": "COIN/USD",
       "nasdaq_symbol": "COIN",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.COIN/USD"
     }
   },
@@ -2901,6 +2923,7 @@
       "description": "ISHARES CORE S&P 500 UCITS ETF / US DOLLAR",
       "display_symbol": "CSPX/USD",
       "generic_symbol": "CSPX",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C,1224/0800-1230,1225/C,1226/C,1231/0800-1230,0101/C",
       "symbol": "Equity.GB.CSPX/USD",
@@ -3594,8 +3617,9 @@
       "description": "ARK INNOVATION ETF / US DOLLAR",
       "display_symbol": "ARKK/USD",
       "nasdaq_symbol": "ARKK",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.ARKK/USD"
     }
   },
@@ -3610,8 +3634,9 @@
       "description": "ISHARES MSCI EMERGING MARKETS ETF / US DOLLAR",
       "display_symbol": "EEM/USD",
       "nasdaq_symbol": "EEM",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.EEM/USD"
     }
   },
@@ -3626,8 +3651,9 @@
       "description": "SPDR GOLD SHARES ETF / US DOLLAR",
       "display_symbol": "GLD/USD",
       "nasdaq_symbol": "GLD",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.GLD/USD"
     }
   },
@@ -3659,8 +3685,9 @@
       "description": "BLACKROCK INC / US DOLLAR",
       "display_symbol": "BLK/USD",
       "nasdaq_symbol": "BLK",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.BLK/USD"
     }
   },
@@ -3675,8 +3702,9 @@
       "description": "COUPANG INC - CLASS A / US DOLLAR",
       "display_symbol": "CPNG/USD",
       "nasdaq_symbol": "CPNG",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CPNG/USD"
     }
   },
@@ -3812,8 +3840,9 @@
       "description": "C3.AI INC / US DOLLAR",
       "display_symbol": "AI/USD",
       "nasdaq_symbol": "AI",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.AI/USD"
     }
   },
@@ -4939,6 +4968,7 @@
       "description": "AMUNDI ETF GOVIES 0-6 MONTHS EURO INVESTMENT GRADE UCITS ETF DR / EURO",
       "display_symbol": "C3M/EUR",
       "generic_symbol": "C3M",
+      "publish_interval": "5",
       "quote_currency": "EUR",
       "schedule": "CET;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
       "symbol": "Equity.FR.C3M/EUR"
@@ -4953,6 +4983,7 @@
       "description": "ISHARES CORE EURO STOXX 50 UCITS ETF EUR / EURO",
       "display_symbol": "EUE/EUR",
       "generic_symbol": "EUE",
+      "publish_interval": "5",
       "quote_currency": "EUR",
       "schedule": "CET;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
       "symbol": "Equity.IE.EUE/EUR"
@@ -4967,6 +4998,7 @@
       "description": "JACOBI FT WILSHIRE BITCOIN ETF / US DOLLAR",
       "display_symbol": "BCOIN/USD",
       "generic_symbol": "BCOIN",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "CET;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
       "symbol": "Equity.NL.BCOIN/USD"
@@ -5412,8 +5444,9 @@
       "description": "ARK 21SHARES BITCOIN ETF / US DOLLAR",
       "display_symbol": "ARKB/USD",
       "nasdaq_symbol": "ARKB",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.ARKB/USD"
     }
   },
@@ -5428,8 +5461,9 @@
       "description": "BITWISE BITCOIN ETF TRUST / US DOLLAR",
       "display_symbol": "BITB/USD",
       "nasdaq_symbol": "BITB",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.BITB/USD"
     }
   },
@@ -5444,8 +5478,9 @@
       "description": "GLOBAL X BLOCKCHAIN & BITCOIN STRATEGY ETF / US DOLLAR",
       "display_symbol": "BITS/USD",
       "nasdaq_symbol": "BITS",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.BITS/USD"
     }
   },
@@ -5460,8 +5495,9 @@
       "description": "INVESCO GALAXY BITCOIN ETF / US DOLLAR",
       "display_symbol": "BTCO/USD",
       "nasdaq_symbol": "BTCO",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.BTCO/USD"
     }
   },
@@ -5476,8 +5512,9 @@
       "description": "WISDOMTREE BITCOIN TRUST / US DOLLAR",
       "display_symbol": "BTCW/USD",
       "nasdaq_symbol": "BTCW",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.BTCW/USD"
     }
   },
@@ -5492,8 +5529,9 @@
       "description": "VALKYRIE BITCOIN STRATEGY ETF / US DOLLAR",
       "display_symbol": "BTF/USD",
       "nasdaq_symbol": "BTF",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.BTF/USD"
     }
   },
@@ -5508,8 +5546,9 @@
       "description": "HASHDEX BITCOIN ETF / US DOLLAR",
       "display_symbol": "DEFI/USD",
       "nasdaq_symbol": "DEFI",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.DEFI/USD"
     }
   },
@@ -5524,8 +5563,9 @@
       "description": "FRANKLIN BITCOIN ETF / US DOLLAR",
       "display_symbol": "EZBC/USD",
       "nasdaq_symbol": "EZBC",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.EZBC/USD"
     }
   },
@@ -5540,8 +5580,9 @@
       "description": "FIDELITY WISE ORIGIN BITCOIN TRUST / US DOLLAR",
       "display_symbol": "FBTC/USD",
       "nasdaq_symbol": "FBTC",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.FBTC/USD"
     }
   },
@@ -5556,8 +5597,9 @@
       "description": "GRAYSCALE BITCOIN TRUST / US DOLLAR",
       "display_symbol": "GBTC/USD",
       "nasdaq_symbol": "GBTC",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.GBTC/USD"
     }
   },
@@ -5606,8 +5648,9 @@
       "description": "VALKYRIE BITCOIN FUND / US DOLLAR",
       "display_symbol": "BRRR/USD",
       "nasdaq_symbol": "BRRR",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.BRRR/USD"
     }
   },
@@ -7656,8 +7699,9 @@
       "description": "ADOBE INC / US DOLLAR",
       "display_symbol": "ADBE/USD",
       "nasdaq_symbol": "ADBE",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.ADBE/USD"
     }
   },
@@ -7672,8 +7716,9 @@
       "description": "ADVANCED MICRO DEVICES INC / US DOLLAR",
       "display_symbol": "AMD/USD",
       "nasdaq_symbol": "AMD",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.AMD/USD"
     }
   },
@@ -8838,6 +8883,7 @@
       "description": "COSTCO WHOLESALE CORPORATION / US DOLLAR",
       "display_symbol": "COST/USD",
       "nasdaq_symbol": "COST",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.COST/USD"
@@ -8854,6 +8900,7 @@
       "description": "AIRBNB INC / US DOLLAR",
       "display_symbol": "ABNB/USD",
       "nasdaq_symbol": "ABNB",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.ABNB/USD"
@@ -8870,6 +8917,7 @@
       "description": "ANALOG DEVICES INC / US DOLLAR",
       "display_symbol": "ADI/USD",
       "nasdaq_symbol": "ADI",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.ADI/USD"
@@ -8886,6 +8934,7 @@
       "description": "AUTOMATIC DATA PROCESSING INC / US DOLLAR",
       "display_symbol": "ADP/USD",
       "nasdaq_symbol": "ADP",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.ADP/USD"
@@ -8902,6 +8951,7 @@
       "description": "AUTODESK INC / US DOLLAR",
       "display_symbol": "ADSK/USD",
       "nasdaq_symbol": "ADSK",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.ADSK/USD"
@@ -8918,6 +8968,7 @@
       "description": "AMERICAN ELECTRIC POWER COMPANY INC / US DOLLAR",
       "display_symbol": "AEP/USD",
       "nasdaq_symbol": "AEP",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.AEP/USD"
@@ -8934,6 +8985,7 @@
       "description": "ANSYS INC / US DOLLAR",
       "display_symbol": "ANSS/USD",
       "nasdaq_symbol": "ANSS",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.ANSS/USD"
@@ -8950,6 +9002,7 @@
       "description": "APPLOVIN CORPORATION / US DOLLAR",
       "display_symbol": "APP/USD",
       "nasdaq_symbol": "APP",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.APP/USD"
@@ -8966,6 +9019,7 @@
       "description": "ARM HOLDINGS PLC / US DOLLAR",
       "display_symbol": "ARM/USD",
       "nasdaq_symbol": "ARM",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.ARM/USD"
@@ -8982,6 +9036,7 @@
       "description": "ASML HOLDING NV / US DOLLAR",
       "display_symbol": "ASML/USD",
       "nasdaq_symbol": "ASML",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.ASML/USD"
@@ -8998,6 +9053,7 @@
       "description": "AXON ENTERPRISE INC / US DOLLAR",
       "display_symbol": "AXON/USD",
       "nasdaq_symbol": "AXON",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.AXON/USD"
@@ -9014,6 +9070,7 @@
       "description": "ASTRAZENECA PLC / US DOLLAR",
       "display_symbol": "AZN/USD",
       "nasdaq_symbol": "AZN",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.AZN/USD"
@@ -9030,6 +9087,7 @@
       "description": "BIOGEN INC / US DOLLAR",
       "display_symbol": "BIIB/USD",
       "nasdaq_symbol": "BIIB",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.BIIB/USD"
@@ -9046,6 +9104,7 @@
       "description": "BOOKING HOLDINGS INC / US DOLLAR",
       "display_symbol": "BKNG/USD",
       "nasdaq_symbol": "BKNG",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.BKNG/USD"
@@ -9062,6 +9121,7 @@
       "description": "BAKER HUGHES COMPANY / US DOLLAR",
       "display_symbol": "BKR/USD",
       "nasdaq_symbol": "BKR",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.BKR/USD"
@@ -9078,6 +9138,7 @@
       "description": "COCA-COLA EUROPACIFIC PARTNERS PLC / US DOLLAR",
       "display_symbol": "CCEP/USD",
       "nasdaq_symbol": "CCEP",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CCEP/USD"
@@ -9094,6 +9155,7 @@
       "description": "CADENCE DESIGN SYSTEMS INC / US DOLLAR",
       "display_symbol": "CDNS/USD",
       "nasdaq_symbol": "CDNS",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CDNS/USD"
@@ -9110,6 +9172,7 @@
       "description": "CDW CORPORATION / US DOLLAR",
       "display_symbol": "CDW/USD",
       "nasdaq_symbol": "CDW",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CDW/USD"
@@ -9126,6 +9189,7 @@
       "description": "CONSTELLATION ENERGY CORPORATION / US DOLLAR",
       "display_symbol": "CEG/USD",
       "nasdaq_symbol": "CEG",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CEG/USD"
@@ -9142,6 +9206,7 @@
       "description": "CHARTER COMMUNICATIONS INC / US DOLLAR",
       "display_symbol": "CHTR/USD",
       "nasdaq_symbol": "CHTR",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CHTR/USD"
@@ -9158,6 +9223,7 @@
       "description": "COMCAST CORPORATION / US DOLLAR",
       "display_symbol": "CMCSA/USD",
       "nasdaq_symbol": "CMCSA",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CMCSA/USD"
@@ -9174,6 +9240,7 @@
       "description": "COPART INC / US DOLLAR",
       "display_symbol": "CPRT/USD",
       "nasdaq_symbol": "CPRT",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CPRT/USD"
@@ -9190,6 +9257,7 @@
       "description": "CROWDSTRIKE HOLDINGS INC / US DOLLAR",
       "display_symbol": "CRWD/USD",
       "nasdaq_symbol": "CRWD",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CRWD/USD"
@@ -9206,6 +9274,7 @@
       "description": "COSTAR GROUP INC / US DOLLAR",
       "display_symbol": "CSGP/USD",
       "nasdaq_symbol": "CSGP",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CSGP/USD"
@@ -9222,6 +9291,7 @@
       "description": "CSX CORPORATION / US DOLLAR",
       "display_symbol": "CSX/USD",
       "nasdaq_symbol": "CSX",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CSX/USD"
@@ -9238,6 +9308,7 @@
       "description": "CINTAS CORPORATION / US DOLLAR",
       "display_symbol": "CTAS/USD",
       "nasdaq_symbol": "CTAS",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CTAS/USD"
@@ -9254,6 +9325,7 @@
       "description": "COGNIZANT TECHNOLOGY SOLUTIONS CORPORATION / US DOLLAR",
       "display_symbol": "CTSH/USD",
       "nasdaq_symbol": "CTSH",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CTSH/USD"
@@ -9270,6 +9342,7 @@
       "description": "DOORDASH INC / US DOLLAR",
       "display_symbol": "DASH/USD",
       "nasdaq_symbol": "DASH",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.DASH/USD"
@@ -9286,6 +9359,7 @@
       "description": "DATADOG INC / US DOLLAR",
       "display_symbol": "DDOG/USD",
       "nasdaq_symbol": "DDOG",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.DDOG/USD"
@@ -9302,6 +9376,7 @@
       "description": "DEXCOM INC / US DOLLAR",
       "display_symbol": "DXCM/USD",
       "nasdaq_symbol": "DXCM",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.DXCM/USD"
@@ -9318,6 +9393,7 @@
       "description": "ELECTRONIC ARTS INC / US DOLLAR",
       "display_symbol": "EA/USD",
       "nasdaq_symbol": "EA",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.EA/USD"
@@ -9334,6 +9410,7 @@
       "description": "EXELON CORPORATION / US DOLLAR",
       "display_symbol": "EXC/USD",
       "nasdaq_symbol": "EXC",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.EXC/USD"
@@ -9350,6 +9427,7 @@
       "description": "DIAMONDBACK ENERGY INC / US DOLLAR",
       "display_symbol": "FANG/USD",
       "nasdaq_symbol": "FANG",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.FANG/USD"
@@ -9366,6 +9444,7 @@
       "description": "FASTENAL COMPANY / US DOLLAR",
       "display_symbol": "FAST/USD",
       "nasdaq_symbol": "FAST",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.FAST/USD"
@@ -9382,6 +9461,7 @@
       "description": "FORTINET INC / US DOLLAR",
       "display_symbol": "FTNT/USD",
       "nasdaq_symbol": "FTNT",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.FTNT/USD"
@@ -9398,6 +9478,7 @@
       "description": "GE HEALTHCARE TECHNOLOGIES INC / US DOLLAR",
       "display_symbol": "GEHC/USD",
       "nasdaq_symbol": "GEHC",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.GEHC/USD"
@@ -9414,6 +9495,7 @@
       "description": "GLOBALFOUNDRIES INC / US DOLLAR",
       "display_symbol": "GFS/USD",
       "nasdaq_symbol": "GFS",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.GFS/USD"
@@ -9430,6 +9512,7 @@
       "description": "GILEAD SCIENCES INC / US DOLLAR",
       "display_symbol": "GILD/USD",
       "nasdaq_symbol": "GILD",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.GILD/USD"
@@ -10277,8 +10360,9 @@
       "description": "BROADCOM INC / US DOLLAR",
       "display_symbol": "AVGO/USD",
       "nasdaq_symbol": "AVGO",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;1224/0930-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.AVGO/USD"
     }
   },
@@ -10293,6 +10377,7 @@
       "description": "AGILENT TECHNOLOGIES INC / US DOLLAR",
       "display_symbol": "A/USD",
       "nasdaq_symbol": "A",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.A/USD"
@@ -10309,6 +10394,7 @@
       "description": "ABBVIE INC / US DOLLAR",
       "display_symbol": "ABBV/USD",
       "nasdaq_symbol": "ABBV",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.ABBV/USD"
@@ -10325,6 +10411,7 @@
       "description": "ABBOTT LABORATORIES / US DOLLAR",
       "display_symbol": "ABT/USD",
       "nasdaq_symbol": "ABT",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.ABT/USD"
@@ -10341,6 +10428,7 @@
       "description": "ARCH CAPITAL GROUP LTD / US DOLLAR",
       "display_symbol": "ACGL/USD",
       "nasdaq_symbol": "ACGL",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.ACGL/USD"
@@ -10357,6 +10445,7 @@
       "description": "ACCENTURE PLC / US DOLLAR",
       "display_symbol": "ACN/USD",
       "nasdaq_symbol": "ACN",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.ACN/USD"
@@ -10373,6 +10462,7 @@
       "description": "ARCHER-DANIELS-MIDLAND COMPANY / US DOLLAR",
       "display_symbol": "ADM/USD",
       "nasdaq_symbol": "ADM",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.ADM/USD"
@@ -10389,6 +10479,7 @@
       "description": "AMEREN CORPORATION / US DOLLAR",
       "display_symbol": "AEE/USD",
       "nasdaq_symbol": "AEE",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.AEE/USD"
@@ -10405,6 +10496,7 @@
       "description": "THE AES CORPORATION / US DOLLAR",
       "display_symbol": "AES/USD",
       "nasdaq_symbol": "AES",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.AES/USD"
@@ -10421,6 +10513,7 @@
       "description": "AFLAC INCORPORATED / US DOLLAR",
       "display_symbol": "AFL/USD",
       "nasdaq_symbol": "AFL",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.AFL/USD"
@@ -10437,6 +10530,7 @@
       "description": "AMERICAN INTERNATIONAL GROUP INC / US DOLLAR",
       "display_symbol": "AIG/USD",
       "nasdaq_symbol": "AIG",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.AIG/USD"
@@ -10453,6 +10547,7 @@
       "description": "ASSURANT INC / US DOLLAR",
       "display_symbol": "AIZ/USD",
       "nasdaq_symbol": "AIZ",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.AIZ/USD"
@@ -10469,6 +10564,7 @@
       "description": "ARTHUR J GALLAGHER & CO / US DOLLAR",
       "display_symbol": "AJG/USD",
       "nasdaq_symbol": "AJG",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.AJG/USD"
@@ -10485,6 +10581,7 @@
       "description": "AKAMAI TECHNOLOGIES INC / US DOLLAR",
       "display_symbol": "AKAM/USD",
       "nasdaq_symbol": "AKAM",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.AKAM/USD"
@@ -10501,6 +10598,7 @@
       "description": "ALBEMARLE CORPORATION / US DOLLAR",
       "display_symbol": "ALB/USD",
       "nasdaq_symbol": "ALB",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.ALB/USD"
@@ -10517,6 +10615,7 @@
       "description": "ALIGN TECHNOLOGY INC / US DOLLAR",
       "display_symbol": "ALGN/USD",
       "nasdaq_symbol": "ALGN",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.ALGN/USD"
@@ -10533,6 +10632,7 @@
       "description": "THE ALLSTATE CORPORATION / US DOLLAR",
       "display_symbol": "ALL/USD",
       "nasdaq_symbol": "ALL",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.ALL/USD"
@@ -10549,6 +10649,7 @@
       "description": "ALLEGION PLC / US DOLLAR",
       "display_symbol": "ALLE/USD",
       "nasdaq_symbol": "ALLE",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.ALLE/USD"
@@ -10565,6 +10666,7 @@
       "description": "APPLIED MATERIALS INC / US DOLLAR",
       "display_symbol": "AMAT/USD",
       "nasdaq_symbol": "AMAT",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.AMAT/USD"
@@ -10581,6 +10683,7 @@
       "description": "AMCOR PLC / US DOLLAR",
       "display_symbol": "AMCR/USD",
       "nasdaq_symbol": "AMCR",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.AMCR/USD"
@@ -10597,6 +10700,7 @@
       "description": "AMETEK INC / US DOLLAR",
       "display_symbol": "AME/USD",
       "nasdaq_symbol": "AME",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.AME/USD"
@@ -10613,6 +10717,7 @@
       "description": "AMERIPRISE FINANCIAL INC / US DOLLAR",
       "display_symbol": "AMP/USD",
       "nasdaq_symbol": "AMP",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.AMP/USD"
@@ -10629,6 +10734,7 @@
       "description": "AMERICAN TOWER CORPORATION / US DOLLAR",
       "display_symbol": "AMT/USD",
       "nasdaq_symbol": "AMT",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.AMT/USD"
@@ -10645,6 +10751,7 @@
       "description": "ARISTA NETWORKS INC / US DOLLAR",
       "display_symbol": "ANET/USD",
       "nasdaq_symbol": "ANET",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.ANET/USD"
@@ -10661,6 +10768,7 @@
       "description": "AON PLC / US DOLLAR",
       "display_symbol": "AON/USD",
       "nasdaq_symbol": "AON",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.AON/USD"
@@ -10677,6 +10785,7 @@
       "description": "A O SMITH CORPORATION / US DOLLAR",
       "display_symbol": "AOS/USD",
       "nasdaq_symbol": "AOS",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.AOS/USD"
@@ -10693,6 +10802,7 @@
       "description": "APA CORPORATION / US DOLLAR",
       "display_symbol": "APA/USD",
       "nasdaq_symbol": "APA",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.APA/USD"
@@ -10709,6 +10819,7 @@
       "description": "AIR PRODUCTS AND CHEMICALS INC / US DOLLAR",
       "display_symbol": "APD/USD",
       "nasdaq_symbol": "APD",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.APD/USD"
@@ -10725,6 +10836,7 @@
       "description": "AMPHENOL CORPORATION / US DOLLAR",
       "display_symbol": "APH/USD",
       "nasdaq_symbol": "APH",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.APH/USD"
@@ -10741,6 +10853,7 @@
       "description": "APOLLO GLOBAL MANAGEMENT INC / US DOLLAR",
       "display_symbol": "APO/USD",
       "nasdaq_symbol": "APO",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.APO/USD"
@@ -10757,6 +10870,7 @@
       "description": "APTIV PLC / US DOLLAR",
       "display_symbol": "APTV/USD",
       "nasdaq_symbol": "APTV",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.APTV/USD"
@@ -10773,6 +10887,7 @@
       "description": "ALEXANDRIA REAL ESTATE EQUITIES INC / US DOLLAR",
       "display_symbol": "ARE/USD",
       "nasdaq_symbol": "ARE",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.ARE/USD"
@@ -10789,6 +10904,7 @@
       "description": "ATMOS ENERGY CORPORATION / US DOLLAR",
       "display_symbol": "ATO/USD",
       "nasdaq_symbol": "ATO",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.ATO/USD"
@@ -10805,6 +10921,7 @@
       "description": "AVALONBAY COMMUNITIES INC / US DOLLAR",
       "display_symbol": "AVB/USD",
       "nasdaq_symbol": "AVB",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.AVB/USD"
@@ -10821,6 +10938,7 @@
       "description": "AVERY DENNISON CORPORATION / US DOLLAR",
       "display_symbol": "AVY/USD",
       "nasdaq_symbol": "AVY",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.AVY/USD"
@@ -10837,6 +10955,7 @@
       "description": "AMERICAN WATER WORKS COMPANY INC / US DOLLAR",
       "display_symbol": "AWK/USD",
       "nasdaq_symbol": "AWK",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.AWK/USD"
@@ -10853,6 +10972,7 @@
       "description": "AUTOZONE INC / US DOLLAR",
       "display_symbol": "AZO/USD",
       "nasdaq_symbol": "AZO",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.AZO/USD"
@@ -10869,6 +10989,7 @@
       "description": "BANK OF AMERICA CORPORATION / US DOLLAR",
       "display_symbol": "BAC/USD",
       "nasdaq_symbol": "BAC",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.BAC/USD"
@@ -10885,6 +11006,7 @@
       "description": "BALL CORPORATION / US DOLLAR",
       "display_symbol": "BALL/USD",
       "nasdaq_symbol": "BALL",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.BALL/USD"
@@ -10901,6 +11023,7 @@
       "description": "BAXTER INTERNATIONAL INC / US DOLLAR",
       "display_symbol": "BAX/USD",
       "nasdaq_symbol": "BAX",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.BAX/USD"
@@ -10917,6 +11040,7 @@
       "description": "BEST BUY CO INC / US DOLLAR",
       "display_symbol": "BBY/USD",
       "nasdaq_symbol": "BBY",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.BBY/USD"
@@ -10933,6 +11057,7 @@
       "description": "BECTON DICKINSON AND COMPANY / US DOLLAR",
       "display_symbol": "BDX/USD",
       "nasdaq_symbol": "BDX",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.BDX/USD"
@@ -10949,6 +11074,7 @@
       "description": "FRANKLIN RESOURCES INC / US DOLLAR",
       "display_symbol": "BEN/USD",
       "nasdaq_symbol": "BEN",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.BEN/USD"
@@ -10965,6 +11091,7 @@
       "description": "BROWN-FORMAN CORPORATION / US DOLLAR",
       "display_symbol": "BF-B/USD",
       "nasdaq_symbol": "BF-B",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.BF-B/USD"
@@ -10981,6 +11108,7 @@
       "description": "BUNGE GLOBAL SA / US DOLLAR",
       "display_symbol": "BG/USD",
       "nasdaq_symbol": "BG",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.BG/USD"
@@ -10997,6 +11125,7 @@
       "description": "THE BANK OF NEW YORK MELLON CORPORATION / US DOLLAR",
       "display_symbol": "BK/USD",
       "nasdaq_symbol": "BK",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.BK/USD"
@@ -11013,6 +11142,7 @@
       "description": "BUILDERS FIRSTSOURCE INC / US DOLLAR",
       "display_symbol": "BLDR/USD",
       "nasdaq_symbol": "BLDR",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.BLDR/USD"
@@ -11029,6 +11159,7 @@
       "description": "BRISTOL-MYERS SQUIBB COMPANY / US DOLLAR",
       "display_symbol": "BMY/USD",
       "nasdaq_symbol": "BMY",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.BMY/USD"
@@ -11045,6 +11176,7 @@
       "description": "BROADRIDGE FINANCIAL SOLUTIONS INC / US DOLLAR",
       "display_symbol": "BR/USD",
       "nasdaq_symbol": "BR",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.BR/USD"
@@ -11061,6 +11193,7 @@
       "description": "BERKSHIRE HATHAWAY INC CLASS A / US DOLLAR",
       "display_symbol": "BRK-A/USD",
       "nasdaq_symbol": "BRK-A",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.BRK-A/USD"
@@ -11077,6 +11210,7 @@
       "description": "BERKSHIRE HATHAWAY INC CLASS B / US DOLLAR",
       "display_symbol": "BRK-B/USD",
       "nasdaq_symbol": "BRK-B",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.BRK-B/USD"
@@ -11093,6 +11227,7 @@
       "description": "BROWN & BROWN INC / US DOLLAR",
       "display_symbol": "BRO/USD",
       "nasdaq_symbol": "BRO",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.BRO/USD"
@@ -11109,6 +11244,7 @@
       "description": "BOSTON SCIENTIFIC CORPORATION / US DOLLAR",
       "display_symbol": "BSX/USD",
       "nasdaq_symbol": "BSX",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.BSX/USD"
@@ -11125,6 +11261,7 @@
       "description": "BORGWARNER INC / US DOLLAR",
       "display_symbol": "BWA/USD",
       "nasdaq_symbol": "BWA",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.BWA/USD"
@@ -11141,6 +11278,7 @@
       "description": "BLACKSTONE INC / US DOLLAR",
       "display_symbol": "BX/USD",
       "nasdaq_symbol": "BX",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.BX/USD"
@@ -11157,6 +11295,7 @@
       "description": "BXP INC / US DOLLAR",
       "display_symbol": "BXP/USD",
       "nasdaq_symbol": "BXP",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.BXP/USD"
@@ -11173,6 +11312,7 @@
       "description": "CITIGROUP INC / US DOLLAR",
       "display_symbol": "C/USD",
       "nasdaq_symbol": "C",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.C/USD"
@@ -11189,6 +11329,7 @@
       "description": "CONAGRA BRANDS INC / US DOLLAR",
       "display_symbol": "CAG/USD",
       "nasdaq_symbol": "CAG",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CAG/USD"
@@ -11205,6 +11346,7 @@
       "description": "CARDINAL HEALTH INC / US DOLLAR",
       "display_symbol": "CAH/USD",
       "nasdaq_symbol": "CAH",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CAH/USD"
@@ -11221,6 +11363,7 @@
       "description": "CARRIER GLOBAL CORPORATION / US DOLLAR",
       "display_symbol": "CARR/USD",
       "nasdaq_symbol": "CARR",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CARR/USD"
@@ -11237,6 +11380,7 @@
       "description": "CHUBB LIMITED / US DOLLAR",
       "display_symbol": "CB/USD",
       "nasdaq_symbol": "CB",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CB/USD"
@@ -11253,6 +11397,7 @@
       "description": "CBOE GLOBAL MARKETS INC / US DOLLAR",
       "display_symbol": "CBOE/USD",
       "nasdaq_symbol": "CBOE",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CBOE/USD"
@@ -11269,6 +11414,7 @@
       "description": "CBRE GROUP INC / US DOLLAR",
       "display_symbol": "CBRE/USD",
       "nasdaq_symbol": "CBRE",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CBRE/USD"
@@ -11285,6 +11431,7 @@
       "description": "CROWN CASTLE INC / US DOLLAR",
       "display_symbol": "CCI/USD",
       "nasdaq_symbol": "CCI",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CCI/USD"
@@ -11301,6 +11448,7 @@
       "description": "CARNIVAL CORPORATION & PLC / US DOLLAR",
       "display_symbol": "CCL/USD",
       "nasdaq_symbol": "CCL",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CCL/USD"
@@ -11317,6 +11465,7 @@
       "description": "CELANESE CORPORATION / US DOLLAR",
       "display_symbol": "CE/USD",
       "nasdaq_symbol": "CE",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CE/USD"
@@ -11333,6 +11482,7 @@
       "description": "CF INDUSTRIES HOLDINGS INC / US DOLLAR",
       "display_symbol": "CF/USD",
       "nasdaq_symbol": "CF",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CF/USD"
@@ -11349,6 +11499,7 @@
       "description": "CITIZENS FINANCIAL GROUP INC / US DOLLAR",
       "display_symbol": "CFG/USD",
       "nasdaq_symbol": "CFG",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CFG/USD"
@@ -11365,6 +11516,7 @@
       "description": "CHURCH & DWIGHT CO INC / US DOLLAR",
       "display_symbol": "CHD/USD",
       "nasdaq_symbol": "CHD",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CHD/USD"
@@ -11381,6 +11533,7 @@
       "description": "CH ROBINSON WORLDWIDE INC / US DOLLAR",
       "display_symbol": "CHRW/USD",
       "nasdaq_symbol": "CHRW",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CHRW/USD"
@@ -11397,6 +11550,7 @@
       "description": "THE CIGNA GROUP / US DOLLAR",
       "display_symbol": "CI/USD",
       "nasdaq_symbol": "CI",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CI/USD"
@@ -11413,6 +11567,7 @@
       "description": "CINCINNATI FINANCIAL CORPORATION / US DOLLAR",
       "display_symbol": "CINF/USD",
       "nasdaq_symbol": "CINF",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CINF/USD"
@@ -11429,6 +11584,7 @@
       "description": "COLGATE-PALMOLIVE COMPANY / US DOLLAR",
       "display_symbol": "CL/USD",
       "nasdaq_symbol": "CL",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CL/USD"
@@ -11445,6 +11601,7 @@
       "description": "THE CLOROX COMPANY / US DOLLAR",
       "display_symbol": "CLX/USD",
       "nasdaq_symbol": "CLX",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CLX/USD"
@@ -11461,6 +11618,7 @@
       "description": "CME GROUP INC / US DOLLAR",
       "display_symbol": "CME/USD",
       "nasdaq_symbol": "CME",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CME/USD"
@@ -11477,6 +11635,7 @@
       "description": "CHIPOTLE MEXICAN GRILL INC / US DOLLAR",
       "display_symbol": "CMG/USD",
       "nasdaq_symbol": "CMG",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CMG/USD"
@@ -11493,6 +11652,7 @@
       "description": "CUMMINS INC / US DOLLAR",
       "display_symbol": "CMI/USD",
       "nasdaq_symbol": "CMI",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CMI/USD"
@@ -11509,6 +11669,7 @@
       "description": "CMS ENERGY CORPORATION / US DOLLAR",
       "display_symbol": "CMS/USD",
       "nasdaq_symbol": "CMS",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CMS/USD"
@@ -11525,6 +11686,7 @@
       "description": "CENTENE CORPORATION / US DOLLAR",
       "display_symbol": "CNC/USD",
       "nasdaq_symbol": "CNC",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CNC/USD"
@@ -11541,6 +11703,7 @@
       "description": "CENTERPOINT ENERGY INC / US DOLLAR",
       "display_symbol": "CNP/USD",
       "nasdaq_symbol": "CNP",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CNP/USD"
@@ -11557,6 +11720,7 @@
       "description": "CAPITAL ONE FINANCIAL CORPORATION / US DOLLAR",
       "display_symbol": "COF/USD",
       "nasdaq_symbol": "COF",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.COF/USD"
@@ -11573,6 +11737,7 @@
       "description": "THE COOPER COMPANIES INC / US DOLLAR",
       "display_symbol": "COO/USD",
       "nasdaq_symbol": "COO",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.COO/USD"
@@ -11589,6 +11754,7 @@
       "description": "CONOCOPHILLIPS / US DOLLAR",
       "display_symbol": "COP/USD",
       "nasdaq_symbol": "COP",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.COP/USD"
@@ -11605,6 +11771,7 @@
       "description": "CENCORA INC / US DOLLAR",
       "display_symbol": "COR/USD",
       "nasdaq_symbol": "COR",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.COR/USD"
@@ -11621,6 +11788,7 @@
       "description": "CORPAY INC / US DOLLAR",
       "display_symbol": "CPAY/USD",
       "nasdaq_symbol": "CPAY",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CPAY/USD"
@@ -11637,6 +11805,7 @@
       "description": "THE CAMPBELL'S COMPANY / US DOLLAR",
       "display_symbol": "CPB/USD",
       "nasdaq_symbol": "CPB",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CPB/USD"
@@ -11653,6 +11822,7 @@
       "description": "CAMDEN PROPERTY TRUST / US DOLLAR",
       "display_symbol": "CPT/USD",
       "nasdaq_symbol": "CPT",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CPT/USD"
@@ -11669,6 +11839,7 @@
       "description": "CHARLES RIVER LABORATORIES INTERNATIONAL INC / US DOLLAR",
       "display_symbol": "CRL/USD",
       "nasdaq_symbol": "CRL",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CRL/USD"
@@ -11685,6 +11856,7 @@
       "description": "COTERRA ENERGY INC / US DOLLAR",
       "display_symbol": "CTRA/USD",
       "nasdaq_symbol": "CTRA",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CTRA/USD"
@@ -11701,6 +11873,7 @@
       "description": "CORTEVA INC / US DOLLAR",
       "display_symbol": "CTVA/USD",
       "nasdaq_symbol": "CTVA",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CTVA/USD"
@@ -11717,6 +11890,7 @@
       "description": "CVS HEALTH CORPORATION / US DOLLAR",
       "display_symbol": "CVS/USD",
       "nasdaq_symbol": "CVS",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CVS/USD"
@@ -11733,6 +11907,7 @@
       "description": "CAESARS ENTERTAINMENT INC / US DOLLAR",
       "display_symbol": "CZR/USD",
       "nasdaq_symbol": "CZR",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.CZR/USD"
@@ -11749,6 +11924,7 @@
       "description": "DOMINION ENERGY INC / US DOLLAR",
       "display_symbol": "D/USD",
       "nasdaq_symbol": "D",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.D/USD"
@@ -11765,6 +11941,7 @@
       "description": "DELTA AIR LINES INC / US DOLLAR",
       "display_symbol": "DAL/USD",
       "nasdaq_symbol": "DAL",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.DAL/USD"
@@ -11781,6 +11958,7 @@
       "description": "DAYFORCE INC / US DOLLAR",
       "display_symbol": "DAY/USD",
       "nasdaq_symbol": "DAY",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.DAY/USD"
@@ -11797,6 +11975,7 @@
       "description": "DUPONT DE NEMOURS INC / US DOLLAR",
       "display_symbol": "DD/USD",
       "nasdaq_symbol": "DD",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.DD/USD"
@@ -11813,6 +11992,7 @@
       "description": "DEERE & COMPANY / US DOLLAR",
       "display_symbol": "DE/USD",
       "nasdaq_symbol": "DE",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.DE/USD"
@@ -11829,6 +12009,7 @@
       "description": "DECKERS OUTDOOR CORPORATION / US DOLLAR",
       "display_symbol": "DECK/USD",
       "nasdaq_symbol": "DECK",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.DECK/USD"
@@ -11845,6 +12026,7 @@
       "description": "DELL TECHNOLOGIES INC / US DOLLAR",
       "display_symbol": "DELL/USD",
       "nasdaq_symbol": "DELL",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.DELL/USD"
@@ -11861,6 +12043,7 @@
       "description": "DISCOVER FINANCIAL SERVICES / US DOLLAR",
       "display_symbol": "DFS/USD",
       "nasdaq_symbol": "DFS",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.DFS/USD"
@@ -11877,6 +12060,7 @@
       "description": "DOLLAR GENERAL CORPORATION / US DOLLAR",
       "display_symbol": "DG/USD",
       "nasdaq_symbol": "DG",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.DG/USD"
@@ -11893,6 +12077,7 @@
       "description": "QUEST DIAGNOSTICS INCORPORATED / US DOLLAR",
       "display_symbol": "DGX/USD",
       "nasdaq_symbol": "DGX",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.DGX/USD"
@@ -11909,6 +12094,7 @@
       "description": "DR HORTON INC / US DOLLAR",
       "display_symbol": "DHI/USD",
       "nasdaq_symbol": "DHI",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.DHI/USD"
@@ -11925,6 +12111,7 @@
       "description": "DANAHER CORPORATION / US DOLLAR",
       "display_symbol": "DHR/USD",
       "nasdaq_symbol": "DHR",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.DHR/USD"
@@ -11941,6 +12128,7 @@
       "description": "DIGITAL REALTY TRUST INC / US DOLLAR",
       "display_symbol": "DLR/USD",
       "nasdaq_symbol": "DLR",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.DLR/USD"
@@ -11957,6 +12145,7 @@
       "description": "DOLLAR TREE INC / US DOLLAR",
       "display_symbol": "DLTR/USD",
       "nasdaq_symbol": "DLTR",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.DLTR/USD"
@@ -11973,6 +12162,7 @@
       "description": "HEALTHPEAK PROPERTIES INC / US DOLLAR",
       "display_symbol": "DOC/USD",
       "nasdaq_symbol": "DOC",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.DOC/USD"
@@ -11989,6 +12179,7 @@
       "description": "DOVER CORPORATION / US DOLLAR",
       "display_symbol": "DOV/USD",
       "nasdaq_symbol": "DOV",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.DOV/USD"
@@ -12005,6 +12196,7 @@
       "description": "DOMINO'S PIZZA INC / US DOLLAR",
       "display_symbol": "DPZ/USD",
       "nasdaq_symbol": "DPZ",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.DPZ/USD"
@@ -12021,6 +12213,7 @@
       "description": "DARDEN RESTAURANTS INC / US DOLLAR",
       "display_symbol": "DRI/USD",
       "nasdaq_symbol": "DRI",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.DRI/USD"
@@ -12037,6 +12230,7 @@
       "description": "DTE ENERGY COMPANY / US DOLLAR",
       "display_symbol": "DTE/USD",
       "nasdaq_symbol": "DTE",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.DTE/USD"
@@ -12053,6 +12247,7 @@
       "description": "DUKE ENERGY CORPORATION / US DOLLAR",
       "display_symbol": "DUK/USD",
       "nasdaq_symbol": "DUK",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.DUK/USD"
@@ -12069,6 +12264,7 @@
       "description": "DAVITA INC / US DOLLAR",
       "display_symbol": "DVA/USD",
       "nasdaq_symbol": "DVA",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.DVA/USD"
@@ -12085,6 +12281,7 @@
       "description": "DEVON ENERGY CORPORATION / US DOLLAR",
       "display_symbol": "DVN/USD",
       "nasdaq_symbol": "DVN",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.DVN/USD"
@@ -12437,6 +12634,7 @@
       "description": "EBAY INC / US DOLLAR",
       "display_symbol": "EBAY/USD",
       "nasdaq_symbol": "EBAY",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.EBAY/USD"
@@ -12453,6 +12651,7 @@
       "description": "ECOLAB INC / US DOLLAR",
       "display_symbol": "ECL/USD",
       "nasdaq_symbol": "ECL",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.ECL/USD"
@@ -12469,6 +12668,7 @@
       "description": "CONSOLIDATED EDISON INC / US DOLLAR",
       "display_symbol": "ED/USD",
       "nasdaq_symbol": "ED",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.ED/USD"
@@ -12485,6 +12685,7 @@
       "description": "EQUIFAX INC / US DOLLAR",
       "display_symbol": "EFX/USD",
       "nasdaq_symbol": "EFX",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.EFX/USD"
@@ -12501,6 +12702,7 @@
       "description": "EVEREST GROUP LTD / US DOLLAR",
       "display_symbol": "EG/USD",
       "nasdaq_symbol": "EG",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.EG/USD"
@@ -12517,6 +12719,7 @@
       "description": "EDISON INTERNATIONAL / US DOLLAR",
       "display_symbol": "EIX/USD",
       "nasdaq_symbol": "EIX",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.EIX/USD"
@@ -12533,6 +12736,7 @@
       "description": "ELEVANCE HEALTH INC / US DOLLAR",
       "display_symbol": "ELV/USD",
       "nasdaq_symbol": "ELV",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.ELV/USD"
@@ -12549,6 +12753,7 @@
       "description": "EASTMAN CHEMICAL COMPANY / US DOLLAR",
       "display_symbol": "EMN/USD",
       "nasdaq_symbol": "EMN",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.EMN/USD"
@@ -12565,6 +12770,7 @@
       "description": "EMERSON ELECTRIC CO / US DOLLAR",
       "display_symbol": "EMR/USD",
       "nasdaq_symbol": "EMR",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.EMR/USD"
@@ -12581,6 +12787,7 @@
       "description": "ENPHASE ENERGY INC / US DOLLAR",
       "display_symbol": "ENPH/USD",
       "nasdaq_symbol": "ENPH",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.ENPH/USD"
@@ -12597,6 +12804,7 @@
       "description": "EOG RESOURCES INC / US DOLLAR",
       "display_symbol": "EOG/USD",
       "nasdaq_symbol": "EOG",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.EOG/USD"
@@ -12613,6 +12821,7 @@
       "description": "EPAM SYSTEMS INC / US DOLLAR",
       "display_symbol": "EPAM/USD",
       "nasdaq_symbol": "EPAM",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.EPAM/USD"
@@ -12629,6 +12838,7 @@
       "description": "EQUINIX INC / US DOLLAR",
       "display_symbol": "EQIX/USD",
       "nasdaq_symbol": "EQIX",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.EQIX/USD"
@@ -12645,6 +12855,7 @@
       "description": "EQUITY RESIDENTIAL / US DOLLAR",
       "display_symbol": "EQR/USD",
       "nasdaq_symbol": "EQR",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.EQR/USD"
@@ -12661,6 +12872,7 @@
       "description": "EQT CORPORATION / US DOLLAR",
       "display_symbol": "EQT/USD",
       "nasdaq_symbol": "EQT",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.EQT/USD"
@@ -12677,6 +12889,7 @@
       "description": "ERIE INDEMNITY COMPANY / US DOLLAR",
       "display_symbol": "ERIE/USD",
       "nasdaq_symbol": "ERIE",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.ERIE/USD"
@@ -12693,6 +12906,7 @@
       "description": "EVERSOURCE ENERGY / US DOLLAR",
       "display_symbol": "ES/USD",
       "nasdaq_symbol": "ES",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.ES/USD"
@@ -12709,6 +12923,7 @@
       "description": "ESSEX PROPERTY TRUST INC / US DOLLAR",
       "display_symbol": "ESS/USD",
       "nasdaq_symbol": "ESS",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.ESS/USD"
@@ -12725,6 +12940,7 @@
       "description": "EATON CORPORATION PLC / US DOLLAR",
       "display_symbol": "ETN/USD",
       "nasdaq_symbol": "ETN",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.ETN/USD"
@@ -12741,6 +12957,7 @@
       "description": "ENTERGY CORPORATION / US DOLLAR",
       "display_symbol": "ETR/USD",
       "nasdaq_symbol": "ETR",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.ETR/USD"
@@ -12757,6 +12974,7 @@
       "description": "EVERGY INC / US DOLLAR",
       "display_symbol": "EVRG/USD",
       "nasdaq_symbol": "EVRG",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.EVRG/USD"
@@ -12773,6 +12991,7 @@
       "description": "EDWARDS LIFESCIENCES CORPORATION / US DOLLAR",
       "display_symbol": "EW/USD",
       "nasdaq_symbol": "EW",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.EW/USD"
@@ -12789,6 +13008,7 @@
       "description": "EXPEDITORS INTERNATIONAL OF WASHINGTON INC / US DOLLAR",
       "display_symbol": "EXPD/USD",
       "nasdaq_symbol": "EXPD",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.EXPD/USD"
@@ -12805,6 +13025,7 @@
       "description": "EXPEDIA GROUP INC / US DOLLAR",
       "display_symbol": "EXPE/USD",
       "nasdaq_symbol": "EXPE",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.EXPE/USD"
@@ -12821,6 +13042,7 @@
       "description": "EXTRA SPACE STORAGE INC / US DOLLAR",
       "display_symbol": "EXR/USD",
       "nasdaq_symbol": "EXR",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.EXR/USD"
@@ -12837,6 +13059,7 @@
       "description": "FORD MOTOR COMPANY / US DOLLAR",
       "display_symbol": "F/USD",
       "nasdaq_symbol": "F",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.F/USD"
@@ -12853,6 +13076,7 @@
       "description": "FREEPORT-MCMORAN INC / US DOLLAR",
       "display_symbol": "FCX/USD",
       "nasdaq_symbol": "FCX",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.FCX/USD"
@@ -12869,6 +13093,7 @@
       "description": "FACTSET RESEARCH SYSTEMS INC / US DOLLAR",
       "display_symbol": "FDS/USD",
       "nasdaq_symbol": "FDS",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.FDS/USD"
@@ -12885,6 +13110,7 @@
       "description": "FEDEX CORPORATION / US DOLLAR",
       "display_symbol": "FDX/USD",
       "nasdaq_symbol": "FDX",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.FDX/USD"
@@ -12901,6 +13127,7 @@
       "description": "FIRSTENERGY CORP / US DOLLAR",
       "display_symbol": "FE/USD",
       "nasdaq_symbol": "FE",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.FE/USD"
@@ -12917,6 +13144,7 @@
       "description": "F5 INC / US DOLLAR",
       "display_symbol": "FFIV/USD",
       "nasdaq_symbol": "FFIV",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.FFIV/USD"
@@ -12933,6 +13161,7 @@
       "description": "FISERV INC / US DOLLAR",
       "display_symbol": "FI/USD",
       "nasdaq_symbol": "FI",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.FI/USD"
@@ -12949,6 +13178,7 @@
       "description": "FAIR ISAAC CORPORATION / US DOLLAR",
       "display_symbol": "FICO/USD",
       "nasdaq_symbol": "FICO",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.FICO/USD"
@@ -12965,6 +13195,7 @@
       "description": "FIDELITY NATIONAL INFORMATION SERVICES INC / US DOLLAR",
       "display_symbol": "FIS/USD",
       "nasdaq_symbol": "FIS",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.FIS/USD"
@@ -12981,6 +13212,7 @@
       "description": "FIFTH THIRD BANCORP / US DOLLAR",
       "display_symbol": "FITB/USD",
       "nasdaq_symbol": "FITB",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.FITB/USD"
@@ -12997,6 +13229,7 @@
       "description": "FMC CORPORATION / US DOLLAR",
       "display_symbol": "FMC/USD",
       "nasdaq_symbol": "FMC",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.FMC/USD"
@@ -13013,6 +13246,7 @@
       "description": "FOX CORPORATION / US DOLLAR",
       "display_symbol": "FOX/USD",
       "nasdaq_symbol": "FOX",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.FOX/USD"
@@ -13029,6 +13263,7 @@
       "description": "FOX CORPORATION / US DOLLAR",
       "display_symbol": "FOXA/USD",
       "nasdaq_symbol": "FOXA",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.FOXA/USD"
@@ -13045,6 +13280,7 @@
       "description": "FEDERAL REALTY INVESTMENT TRUST / US DOLLAR",
       "display_symbol": "FRT/USD",
       "nasdaq_symbol": "FRT",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.FRT/USD"
@@ -13061,6 +13297,7 @@
       "description": "FIRST SOLAR INC / US DOLLAR",
       "display_symbol": "FSLR/USD",
       "nasdaq_symbol": "FSLR",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.FSLR/USD"
@@ -13077,6 +13314,7 @@
       "description": "FORTIVE CORPORATION / US DOLLAR",
       "display_symbol": "FTV/USD",
       "nasdaq_symbol": "FTV",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.FTV/USD"
@@ -13093,6 +13331,7 @@
       "description": "GENERAL DYNAMICS CORPORATION / US DOLLAR",
       "display_symbol": "GD/USD",
       "nasdaq_symbol": "GD",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.GD/USD"
@@ -13109,6 +13348,7 @@
       "description": "GODADDY INC / US DOLLAR",
       "display_symbol": "GDDY/USD",
       "nasdaq_symbol": "GDDY",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.GDDY/USD"
@@ -13125,6 +13365,7 @@
       "description": "GEN DIGITAL INC / US DOLLAR",
       "display_symbol": "GEN/USD",
       "nasdaq_symbol": "GEN",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.GEN/USD"
@@ -13141,6 +13382,7 @@
       "description": "GE VERNOVA INC / US DOLLAR",
       "display_symbol": "GEV/USD",
       "nasdaq_symbol": "GEV",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.GEV/USD"
@@ -13157,6 +13399,7 @@
       "description": "GENERAL MILLS INC / US DOLLAR",
       "display_symbol": "GIS/USD",
       "nasdaq_symbol": "GIS",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.GIS/USD"
@@ -13173,6 +13416,7 @@
       "description": "GLOBE LIFE INC / US DOLLAR",
       "display_symbol": "GL/USD",
       "nasdaq_symbol": "GL",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.GL/USD"
@@ -13189,6 +13433,7 @@
       "description": "CORNING INCORPORATED / US DOLLAR",
       "display_symbol": "GLW/USD",
       "nasdaq_symbol": "GLW",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.GLW/USD"
@@ -13205,6 +13450,7 @@
       "description": "GENERAL MOTORS COMPANY / US DOLLAR",
       "display_symbol": "GM/USD",
       "nasdaq_symbol": "GM",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.GM/USD"
@@ -13221,6 +13467,7 @@
       "description": "GENERAC HOLDINGS INC / US DOLLAR",
       "display_symbol": "GNRC/USD",
       "nasdaq_symbol": "GNRC",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.GNRC/USD"
@@ -13237,6 +13484,7 @@
       "description": "ALPHABET INC CLASS A / US DOLLAR",
       "display_symbol": "GOOGL/USD",
       "nasdaq_symbol": "GOOGL",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.GOOGL/USD"
@@ -13253,6 +13501,7 @@
       "description": "GENUINE PARTS COMPANY / US DOLLAR",
       "display_symbol": "GPC/USD",
       "nasdaq_symbol": "GPC",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.GPC/USD"
@@ -13269,6 +13518,7 @@
       "description": "GLOBAL PAYMENTS INC / US DOLLAR",
       "display_symbol": "GPN/USD",
       "nasdaq_symbol": "GPN",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.GPN/USD"
@@ -13285,6 +13535,7 @@
       "description": "GARMIN LTD / US DOLLAR",
       "display_symbol": "GRMN/USD",
       "nasdaq_symbol": "GRMN",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.GRMN/USD"
@@ -13301,6 +13552,7 @@
       "description": "WW GRAINGER INC / US DOLLAR",
       "display_symbol": "GWW/USD",
       "nasdaq_symbol": "GWW",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.GWW/USD"
@@ -13317,6 +13569,7 @@
       "description": "HALLIBURTON COMPANY / US DOLLAR",
       "display_symbol": "HAL/USD",
       "nasdaq_symbol": "HAL",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.HAL/USD"
@@ -13333,6 +13586,7 @@
       "description": "HASBRO INC / US DOLLAR",
       "display_symbol": "HAS/USD",
       "nasdaq_symbol": "HAS",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.HAS/USD"
@@ -13349,6 +13603,7 @@
       "description": "HUNTINGTON BANCSHARES INCORPORATED / US DOLLAR",
       "display_symbol": "HBAN/USD",
       "nasdaq_symbol": "HBAN",
+      "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.HBAN/USD"
