@@ -12135,23 +12135,6 @@
     }
   },
   {
-    "id": "0x5d9f295f1afeaa993f9e07600158a1b8566c27e003a929d123f9b6c97164da0e",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "DLTR",
-      "cms_symbol": "DLTR",
-      "country": "US",
-      "cqs_symbol": "DLTR",
-      "description": "DOLLAR TREE INC / US DOLLAR",
-      "display_symbol": "DLTR/USD",
-      "nasdaq_symbol": "DLTR",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
-      "symbol": "Equity.US.DLTR/USD"
-    }
-  },
-  {
     "id": "0x0adae539549d8495edc5cfc14dfed8974fe440a8c195df187d1a75bb3bb7b441",
     "attributes": {
       "asset_type": "Equity",
