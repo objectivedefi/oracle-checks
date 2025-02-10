@@ -138,7 +138,7 @@
     "heartbeat": 86400
   },
   {
-    "symbol": "beraETH_FUNDAMENTAL",
+    "symbol": "beraSTONE_FUNDAMENTAL",
     "priceFeedAddress": "0x4f67Fd74cff274Ef2942223c0f3166b856410AdD",
     "deviationPercentage": 0.5,
     "heartbeat": 86400

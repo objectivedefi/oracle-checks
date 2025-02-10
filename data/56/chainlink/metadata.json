@@ -317,6 +317,7 @@
       "blockchainName": "Binance",
       "clicProductName": "LIT/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
+      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",

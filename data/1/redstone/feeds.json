@@ -30,9 +30,9 @@
     "address": "0x4f67Fd74cff274Ef2942223c0f3166b856410AdD",
     "chainId": 1,
     "decimals": 8,
-    "description": "RedStone Price Feed for beraETH_FUNDAMENTAL",
+    "description": "RedStone Price Feed for beraSTONE_FUNDAMENTAL",
     "version": "1",
-    "dataFeedId": "0x626572614554485f46554e44414d454e54414c00000000000000000000000000",
+    "dataFeedId": "0x6265726153544f4e455f46554e44414d454e54414c0000000000000000000000",
     "priceFeedAdapter": "0xd72a6BA4a87DDB33e801b3f1c7750b2d0911fC6C"
   },
   {

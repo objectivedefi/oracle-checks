@@ -44,6 +44,33 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x0B700bc408025A47567643fd55E0908b1D4fFB8d",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "aave-network-emergency-count-sonic",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1",
+    "name": "AAVE Network Emergency Count (Sonic)",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "aave-network-emergency-count-sonic",
+    "proxyAddress": "0xECB564e91f620fBFb59d0C4A41d7f10aDb0D1934",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 0
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x0BdbFF19543B20d0bc2d1eA08deE2be4C0b76743",
     "contractType": "",
     "contractVersion": 6,
