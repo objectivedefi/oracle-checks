@@ -1,5 +1,15 @@
 [
   {
+    "address": "0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3",
+    "chainId": 42161,
+    "accessController": "0x0000000000000000000000000000000000000000",
+    "aggregator": "0x2946220288DbBF77dF0030fCecc2a8348CbBE32C",
+    "decimals": 8,
+    "description": "USDC / USD",
+    "owner": "0x2F3b388EB017613eb51F06843DFEF12Db1fDD3c5",
+    "version": "4"
+  },
+  {
     "address": "0x639Fe6ab55C921f74e7fac1ee960C0B6293ba612",
     "chainId": 42161,
     "accessController": "0x0000000000000000000000000000000000000000",

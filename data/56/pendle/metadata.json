@@ -19,21 +19,21 @@
   },
   {
     "chainId": 56,
-    "pt": "0x04eb6B56ff53f457c8E857ca8D4fbC8d9a531c0C",
-    "market": "0xEDa1D0e1681D59dea451702963d6287b844Cb94C",
-    "accountingAsset": "0x0000000000000000000000000000000000000000",
-    "underlyingAsset": "0x52F24a5e03aee338Da5fd9Df68D2b6FAe1178827",
-    "expiry": 1750896000,
-    "symbol": "ankrBNB"
-  },
-  {
-    "chainId": 56,
     "pt": "0x5d1735B8E33BAe069708cEA245066dE1A12Cd38D",
     "market": "0x0921CcC98956B1599003Fd9739d5e66BF319A161",
     "accountingAsset": "0x0000000000000000000000000000000000000000",
     "underlyingAsset": "0xA07c5b74C9B40447a954e1466938b865b6BBea36",
     "expiry": 1750896000,
     "symbol": "vBNB"
+  },
+  {
+    "chainId": 56,
+    "pt": "0x04eb6B56ff53f457c8E857ca8D4fbC8d9a531c0C",
+    "market": "0xEDa1D0e1681D59dea451702963d6287b844Cb94C",
+    "accountingAsset": "0x0000000000000000000000000000000000000000",
+    "underlyingAsset": "0x52F24a5e03aee338Da5fd9Df68D2b6FAe1178827",
+    "expiry": 1750896000,
+    "symbol": "ankrBNB"
   },
   {
     "chainId": 56,

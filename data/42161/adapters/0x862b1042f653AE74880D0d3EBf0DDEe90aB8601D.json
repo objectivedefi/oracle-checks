@@ -1,0 +1,50 @@
+{
+  "name": "ChainlinkOracle",
+  "address": "0x862b1042f653AE74880D0d3EBf0DDEe90aB8601D",
+  "chainId": 42161,
+  "base": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3",
+  "maxStaleness": "90000",
+  "checks": [
+    {
+      "id": "ADAPTER_EXISTS",
+      "severity": "HIGH",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "SOURCE_CODE_PROVENANCE",
+      "severity": "HIGH",
+      "message": "Contract metadata hash matches a known hash for ChainlinkOracle: 0x122068d9e7e4e2538445fdf417e1aaea39b4d912f4ff74a42992ae75ac407fbcdeff",
+      "pass": true
+    },
+    {
+      "id": "DISTINCT_ASSETS",
+      "severity": "HIGH",
+      "message": "No duplicates found",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0xaf88d065e77c8cC2239327C5EDb3A432268e5831 is USDC (USD Coin) with 6 decimals",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+      "pass": true
+    },
+    {
+      "id": "PUSH_STALENESS_BUFFER",
+      "severity": "MED",
+      "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
+      "pass": true
+    }
+  ],
+  "label": "Chainlink - USDC / USD (0.1%, 86400s)",
+  "methodology": "Market Price",
+  "model": "Push"
+}
