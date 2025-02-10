@@ -1,6 +1,33 @@
 [
   {
     "compareOffchain": "",
+    "contractAddress": "0x00480f7Df64d3711940E956c2Ca0C47Cc48240eB",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "susds-usds-exchange-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "sUSDS / USDS Exchange Rate",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "susds-usds-exchange-rate",
+    "proxyAddress": "0x906B24a339b848369B24Dc9Ed368b947fB9693bf",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 18
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x00be872906C07d6d7D0eC3968b99C4e3D6Bd552a",
     "contractType": "",
     "contractVersion": 4,
@@ -3023,6 +3050,33 @@
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX"
     },
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0xD8341Fd0F84d0E5755CD419969BbD3Bf73e6Ab43",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "morpho-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "MORPHO / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "morpho-usd",
+    "proxyAddress": "0xe95e258bb6615d47515Fc849f8542dA651f12bF6",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
     "decimals": 8
   },
   {
