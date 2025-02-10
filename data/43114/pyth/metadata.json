@@ -1907,6 +1907,19 @@
     }
   },
   {
+    "id": "0x057345a7e9ef0f36dca8ad1c4e5788808b85f3084cc7b0d8cb29ac5012d88f0d",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "BLAST",
+      "description": "BLAST / US DOLLAR",
+      "display_symbol": "BLAST/USD",
+      "generic_symbol": "BLASTUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.BLAST/USD"
+    }
+  },
+  {
     "id": "0xd9912df360b5b7f21a122f15bdd5e27f62ce5e72bd316c291f7c86620e07fb2a",
     "attributes": {
       "asset_type": "Crypto",
