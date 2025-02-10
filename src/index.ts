@@ -21,6 +21,7 @@ async function runChecksForAllChains(): Promise<void> {
 
     const checkResults = runChecks(data);
 
+    const allResults = [];
     for (let i = 0; i < data.adapterAddresses.length; i++) {
       const address = data.adapterAddresses[i];
       const combined = {
@@ -30,8 +31,10 @@ async function runChecksForAllChains(): Promise<void> {
       };
 
       saveJSON(combined, `${dirPath}/adapters/${address}.json`);
+      allResults.push(combined);
     }
 
+    saveJSON(allResults, `${dirPath}/adapters/all.json`);
     console.log(`Wrote results to ${dirPath}`);
   }
 }

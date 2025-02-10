@@ -43,6 +43,7 @@ export async function collectData(chainId: number): Promise<CollectedData> {
   const redstoneMetadata = redstoneResult.status === "fulfilled" ? redstoneResult.value : [];
   const pythMetadata = pythResult.status === "fulfilled" ? pythResult.value : [];
   const pendleMetadata = pendleResult.status === "fulfilled" ? pendleResult.value : [];
+  pendleMetadata.sort((a, b) => a.pt.localeCompare(b.pt));
   console.log(`${logPrefix} Fetched oracle provider metadata`);
 
   const routerAddresses = await fetchDeployedRouters({
