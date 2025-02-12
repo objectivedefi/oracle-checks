@@ -15502,5 +15502,1110 @@
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.NWS/USD"
     }
+  },
+  {
+    "id": "0xe3a1aa2fe470ff336c23daa1184f79764a15ac3af2e99ac31ac05942f0befcde",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "NWSA",
+      "cms_symbol": "NWSA",
+      "country": "US",
+      "cqs_symbol": "NWSA",
+      "description": "NEWS CORPORATION / US DOLLAR",
+      "display_symbol": "NWSA/USD",
+      "nasdaq_symbol": "NWSA",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.NWSA/USD"
+    }
+  },
+  {
+    "id": "0xd2f530f73cad1b04094adbc1ef8d4525f67f2c812bae70af63e8027a9787d75c",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "O",
+      "cms_symbol": "O",
+      "country": "US",
+      "cqs_symbol": "O",
+      "description": "REALTY INCOME CORPORATION / US DOLLAR",
+      "display_symbol": "O/USD",
+      "nasdaq_symbol": "O",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.O/USD"
+    }
+  },
+  {
+    "id": "0x878b4560531e95bf028235e52d0e7116a022d3529326adc99c2d3a20994eb733",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "OKE",
+      "cms_symbol": "OKE",
+      "country": "US",
+      "cqs_symbol": "OKE",
+      "description": "ONEOK INC / US DOLLAR",
+      "display_symbol": "OKE/USD",
+      "nasdaq_symbol": "OKE",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.OKE/USD"
+    }
+  },
+  {
+    "id": "0x113967e03bb7a347e3669bcb49cf0c6cd27ddc38439c9f009dec0bf9f0edb137",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "OMC",
+      "cms_symbol": "OMC",
+      "country": "US",
+      "cqs_symbol": "OMC",
+      "description": "OMNICOM GROUP INC / US DOLLAR",
+      "display_symbol": "OMC/USD",
+      "nasdaq_symbol": "OMC",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.OMC/USD"
+    }
+  },
+  {
+    "id": "0xe47ff732eaeb6b4163902bdee61572659ddf326511917b1423bae93fcdf3153c",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "ORCL",
+      "cms_symbol": "ORCL",
+      "country": "US",
+      "cqs_symbol": "ORCL",
+      "description": "ORACLE CORPORATION / US DOLLAR",
+      "display_symbol": "ORCL/USD",
+      "nasdaq_symbol": "ORCL",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.ORCL/USD"
+    }
+  },
+  {
+    "id": "0x34df4b686b9b9b24d6c2d149e3b6d73df825ae85933c1c74965cc48bb10943f2",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "OTIS",
+      "cms_symbol": "OTIS",
+      "country": "US",
+      "cqs_symbol": "OTIS",
+      "description": "OTIS WORLDWIDE CORPORATION / US DOLLAR",
+      "display_symbol": "OTIS/USD",
+      "nasdaq_symbol": "OTIS",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.OTIS/USD"
+    }
+  },
+  {
+    "id": "0x54ba7b095dfa286f556cd41d4bfefe956ebd4df3d9eec8fe0188d0727f07e344",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "OXY",
+      "cms_symbol": "OXY",
+      "country": "US",
+      "cqs_symbol": "OXY",
+      "description": "OCCIDENTAL PETROLEUM CORPORATION / US DOLLAR",
+      "display_symbol": "OXY/USD",
+      "nasdaq_symbol": "OXY",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.OXY/USD"
+    }
+  },
+  {
+    "id": "0xd31273eefefa4e9a3458c593f2a9a284f011db9884867c682d02c84e70b55ec2",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "PARA",
+      "cms_symbol": "PARA",
+      "country": "US",
+      "cqs_symbol": "PARA",
+      "description": "PARAMOUNT GLOBAL / US DOLLAR",
+      "display_symbol": "PARA/USD",
+      "nasdaq_symbol": "PARA",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.PARA/USD"
+    }
+  },
+  {
+    "id": "0x2145839221f46430e99f5be8f32942291f56e248c142c42efcd978f35ddfdbb3",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "PAYC",
+      "cms_symbol": "PAYC",
+      "country": "US",
+      "cqs_symbol": "PAYC",
+      "description": "PAYCOM SOFTWARE INC / US DOLLAR",
+      "display_symbol": "PAYC/USD",
+      "nasdaq_symbol": "PAYC",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.PAYC/USD"
+    }
+  },
+  {
+    "id": "0x026e4a35b33c438e4c75b2bf8f5f8298b26165eff133b1da2b4559985ecab11e",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "PCG",
+      "cms_symbol": "PCG",
+      "country": "US",
+      "cqs_symbol": "PCG",
+      "description": "PG&E CORPORATION / US DOLLAR",
+      "display_symbol": "PCG/USD",
+      "nasdaq_symbol": "PCG",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.PCG/USD"
+    }
+  },
+  {
+    "id": "0xb0d68bb7055327a5ec773094129a00f6794ae064b9286a1b55eb2b975bc17dc0",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "PEG",
+      "cms_symbol": "PEG",
+      "country": "US",
+      "cqs_symbol": "PEG",
+      "description": "PUBLIC SERVICE ENTERPRISE GROUP INCORPORATED / US DOLLAR",
+      "display_symbol": "PEG/USD",
+      "nasdaq_symbol": "PEG",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.PEG/USD"
+    }
+  },
+  {
+    "id": "0x0704ad7547b3dfee329266ee53276349d48e4587cb08264a2818288f356efd1d",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "PFE",
+      "cms_symbol": "PFE",
+      "country": "US",
+      "cqs_symbol": "PFE",
+      "description": "PFIZER INC / US DOLLAR",
+      "display_symbol": "PFE/USD",
+      "nasdaq_symbol": "PFE",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.PFE/USD"
+    }
+  },
+  {
+    "id": "0xf2be31eeb67f9e2bb7228aaab13fd3a7b836cfc3e6832b876d488363c21dd24a",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "PFG",
+      "cms_symbol": "PFG",
+      "country": "US",
+      "cqs_symbol": "PFG",
+      "description": "PRINCIPAL FINANCIAL GROUP INC / US DOLLAR",
+      "display_symbol": "PFG/USD",
+      "nasdaq_symbol": "PFG",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.PFG/USD"
+    }
+  },
+  {
+    "id": "0x1ab9bd7ed68a12736e9feb89044e6ab23b1abfa7b66e06f85653752ec0a890e1",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "PGR",
+      "cms_symbol": "PGR",
+      "country": "US",
+      "cqs_symbol": "PGR",
+      "description": "THE PROGRESSIVE CORPORATION / US DOLLAR",
+      "display_symbol": "PGR/USD",
+      "nasdaq_symbol": "PGR",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.PGR/USD"
+    }
+  },
+  {
+    "id": "0x9c86a3b6d84699fcc4c0f2e76f34d4b70c6c8230803cb35ae89278de9c6932a9",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "PH",
+      "cms_symbol": "PH",
+      "country": "US",
+      "cqs_symbol": "PH",
+      "description": "PARKER-HANNIFIN CORPORATION / US DOLLAR",
+      "display_symbol": "PH/USD",
+      "nasdaq_symbol": "PH",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.PH/USD"
+    }
+  },
+  {
+    "id": "0xa8bf7d55b95d25528cfe20141ade2952147a135208ca590fcc2ccf756d9b5119",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "PHM",
+      "cms_symbol": "PHM",
+      "country": "US",
+      "cqs_symbol": "PHM",
+      "description": "PULTEGROUP INC / US DOLLAR",
+      "display_symbol": "PHM/USD",
+      "nasdaq_symbol": "PHM",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.PHM/USD"
+    }
+  },
+  {
+    "id": "0x84ce9993f3e19e52be7d567c8bf7714407cab2afa0d3a752ac09bc49b0153663",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "PKG",
+      "cms_symbol": "PKG",
+      "country": "US",
+      "cqs_symbol": "PKG",
+      "description": "PACKAGING CORPORATION OF AMERICA / US DOLLAR",
+      "display_symbol": "PKG/USD",
+      "nasdaq_symbol": "PKG",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.PKG/USD"
+    }
+  },
+  {
+    "id": "0x627b06aefb92e6b71c4a92f867c7df2718f73c25de2da7b3be1089cc1fe0e9b8",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "PLD",
+      "cms_symbol": "PLD",
+      "country": "US",
+      "cqs_symbol": "PLD",
+      "description": "PROLOGIS INC / US DOLLAR",
+      "display_symbol": "PLD/USD",
+      "nasdaq_symbol": "PLD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.PLD/USD"
+    }
+  },
+  {
+    "id": "0xa32f875eb39e23f087ea0db141b00857630c2c5011bfbe53a2a4d186f37cb583",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "PM",
+      "cms_symbol": "PM",
+      "country": "US",
+      "cqs_symbol": "PM",
+      "description": "PHILIP MORRIS INTERNATIONAL INC / US DOLLAR",
+      "display_symbol": "PM/USD",
+      "nasdaq_symbol": "PM",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.PM/USD"
+    }
+  },
+  {
+    "id": "0x424c3c551dcb2c25f9a9de69ebb83586ccd6dd2a79fd2c62650803b1acac3105",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "PNC",
+      "cms_symbol": "PNC",
+      "country": "US",
+      "cqs_symbol": "PNC",
+      "description": "THE PNC FINANCIAL SERVICES GROUP INC / US DOLLAR",
+      "display_symbol": "PNC/USD",
+      "nasdaq_symbol": "PNC",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.PNC/USD"
+    }
+  },
+  {
+    "id": "0x47c6ca824cb9b240f65ca58190a42df41cbc20dcee3803f313445828fe1b24b0",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "PNR",
+      "cms_symbol": "PNR",
+      "country": "US",
+      "cqs_symbol": "PNR",
+      "description": "PENTAIR PLC / US DOLLAR",
+      "display_symbol": "PNR/USD",
+      "nasdaq_symbol": "PNR",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.PNR/USD"
+    }
+  },
+  {
+    "id": "0x735a2411c6c532f7f871e5b7370e9e62bac91784a9a620992f5f9de8dcf366b2",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "PNW",
+      "cms_symbol": "PNW",
+      "country": "US",
+      "cqs_symbol": "PNW",
+      "description": "PINNACLE WEST CAPITAL CORPORATION / US DOLLAR",
+      "display_symbol": "PNW/USD",
+      "nasdaq_symbol": "PNW",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.PNW/USD"
+    }
+  },
+  {
+    "id": "0x365e9f0db7d3ece432d6882cd1b8f0b6211888f87094a7ec68946099efd684cb",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "PODD",
+      "cms_symbol": "PODD",
+      "country": "US",
+      "cqs_symbol": "PODD",
+      "description": "INSULET CORPORATION / US DOLLAR",
+      "display_symbol": "PODD/USD",
+      "nasdaq_symbol": "PODD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.PODD/USD"
+    }
+  },
+  {
+    "id": "0x6c7af6afdee5b983466211bcc8f5a2e3b92e0685a57a7537703fc02dfb1dd4cf",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "POOL",
+      "cms_symbol": "POOL",
+      "country": "US",
+      "cqs_symbol": "POOL",
+      "description": "POOL CORPORATION / US DOLLAR",
+      "display_symbol": "POOL/USD",
+      "nasdaq_symbol": "POOL",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.POOL/USD"
+    }
+  },
+  {
+    "id": "0x0a2d049aa48d4b77c4db199ae38a10a1e3d5130abd27b5cab7db548409da74d5",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "PPG",
+      "cms_symbol": "PPG",
+      "country": "US",
+      "cqs_symbol": "PPG",
+      "description": "PPG INDUSTRIES INC / US DOLLAR",
+      "display_symbol": "PPG/USD",
+      "nasdaq_symbol": "PPG",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.PPG/USD"
+    }
+  },
+  {
+    "id": "0x1542f78dd90dfacbc39b00223999d5b6790a2f976d251d11c47b4c06e39eb06c",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "PPL",
+      "cms_symbol": "PPL",
+      "country": "US",
+      "cqs_symbol": "PPL",
+      "description": "PPL CORPORATION / US DOLLAR",
+      "display_symbol": "PPL/USD",
+      "nasdaq_symbol": "PPL",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.PPL/USD"
+    }
+  },
+  {
+    "id": "0x6987f2cab2c2be6cb897220d99dd5665835e6d204f022d4b6d0701d9351b3138",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "PRU",
+      "cms_symbol": "PRU",
+      "country": "US",
+      "cqs_symbol": "PRU",
+      "description": "PRUDENTIAL FINANCIAL INC / US DOLLAR",
+      "display_symbol": "PRU/USD",
+      "nasdaq_symbol": "PRU",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.PRU/USD"
+    }
+  },
+  {
+    "id": "0x4b0077352f8790088c9e9c76d8490b06b94f75501c0027783ef310e378348d95",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "PSA",
+      "cms_symbol": "PSA",
+      "country": "US",
+      "cqs_symbol": "PSA",
+      "description": "PUBLIC STORAGE / US DOLLAR",
+      "display_symbol": "PSA/USD",
+      "nasdaq_symbol": "PSA",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.PSA/USD"
+    }
+  },
+  {
+    "id": "0x16b28b05e3491528ff9ece996c65075c3d2af3027131b11da425c6930b1e5932",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "PSX",
+      "cms_symbol": "PSX",
+      "country": "US",
+      "cqs_symbol": "PSX",
+      "description": "PHILLIPS 66 / US DOLLAR",
+      "display_symbol": "PSX/USD",
+      "nasdaq_symbol": "PSX",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.PSX/USD"
+    }
+  },
+  {
+    "id": "0x8890509a8bea0d0ec4791ea315042061eac7fbde3a77a91a2b33564d799348f5",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "PTC",
+      "cms_symbol": "PTC",
+      "country": "US",
+      "cqs_symbol": "PTC",
+      "description": "PTC INC / US DOLLAR",
+      "display_symbol": "PTC/USD",
+      "nasdaq_symbol": "PTC",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.PTC/USD"
+    }
+  },
+  {
+    "id": "0xa189b9eee6d023e3b79a726804aeb748d54e52cf6ebcebe0f7d5c8dae4988357",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "PWR",
+      "cms_symbol": "PWR",
+      "country": "US",
+      "cqs_symbol": "PWR",
+      "description": "QUANTA SERVICES INC / US DOLLAR",
+      "display_symbol": "PWR/USD",
+      "nasdaq_symbol": "PWR",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.PWR/USD"
+    }
+  },
+  {
+    "id": "0xd6782c6281afd154d34ebeb4a162352884dd1889ef09a430c10f98ee361019a3",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "RCL",
+      "cms_symbol": "RCL",
+      "country": "US",
+      "cqs_symbol": "RCL",
+      "description": "ROYAL CARIBBEAN CRUISES LTD / US DOLLAR",
+      "display_symbol": "RCL/USD",
+      "nasdaq_symbol": "RCL",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.RCL/USD"
+    }
+  },
+  {
+    "id": "0x6ae7403d57a08b736dfa40ee8294e6d5108f69280cbd9fe452ed445eb45e08c0",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "REG",
+      "cms_symbol": "REG",
+      "country": "US",
+      "cqs_symbol": "REG",
+      "description": "REGENCY CENTERS CORPORATION / US DOLLAR",
+      "display_symbol": "REG/USD",
+      "nasdaq_symbol": "REG",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.REG/USD"
+    }
+  },
+  {
+    "id": "0x14f4bd2b349f33dcc150c1874b863be7b1b39b190e508d9fc54a37397b29a1c4",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "RF",
+      "cms_symbol": "RF",
+      "country": "US",
+      "cqs_symbol": "RF",
+      "description": "REGIONS FINANCIAL CORPORATION / US DOLLAR",
+      "display_symbol": "RF/USD",
+      "nasdaq_symbol": "RF",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.RF/USD"
+    }
+  },
+  {
+    "id": "0x96bccfb1661326a6a9717d248fa743762d65da0798656b24108ea48d4982758f",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "RJF",
+      "cms_symbol": "RJF",
+      "country": "US",
+      "cqs_symbol": "RJF",
+      "description": "RAYMOND JAMES FINANCIAL INC / US DOLLAR",
+      "display_symbol": "RJF/USD",
+      "nasdaq_symbol": "RJF",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.RJF/USD"
+    }
+  },
+  {
+    "id": "0x80f271ae66ee740f4a8f2c2d33575592a6daf7f881133e4d8c0a4df0fc67315a",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "RL",
+      "cms_symbol": "RL",
+      "country": "US",
+      "cqs_symbol": "RL",
+      "description": "RALPH LAUREN CORPORATION / US DOLLAR",
+      "display_symbol": "RL/USD",
+      "nasdaq_symbol": "RL",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.RL/USD"
+    }
+  },
+  {
+    "id": "0xe9f11baaade6cf979251d4c9e6c30657ed29275952a04b125915e475c31a5e63",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "RMD",
+      "cms_symbol": "RMD",
+      "country": "US",
+      "cqs_symbol": "RMD",
+      "description": "RESMED INC / US DOLLAR",
+      "display_symbol": "RMD/USD",
+      "nasdaq_symbol": "RMD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.RMD/USD"
+    }
+  },
+  {
+    "id": "0xc531c5d85ae89ad23e0f455be0a9170e2924a4b6922d62d5b1e076023f7b7235",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "ROK",
+      "cms_symbol": "ROK",
+      "country": "US",
+      "cqs_symbol": "ROK",
+      "description": "ROCKWELL AUTOMATION INC / US DOLLAR",
+      "display_symbol": "ROK/USD",
+      "nasdaq_symbol": "ROK",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.ROK/USD"
+    }
+  },
+  {
+    "id": "0x0991357d942869150d5d10750b3e066855a56b1459b25dca044b59b9a3fbc779",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "ROL",
+      "cms_symbol": "ROL",
+      "country": "US",
+      "cqs_symbol": "ROL",
+      "description": "ROLLINS INC / US DOLLAR",
+      "display_symbol": "ROL/USD",
+      "nasdaq_symbol": "ROL",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.ROL/USD"
+    }
+  },
+  {
+    "id": "0xe3f0d3e53a6f645cd1d7e2927708a17d8bfb12b00c61b99d441f9ad590d2d8fe",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "RSG",
+      "cms_symbol": "RSG",
+      "country": "US",
+      "cqs_symbol": "RSG",
+      "description": "REPUBLIC SERVICES INC / US DOLLAR",
+      "display_symbol": "RSG/USD",
+      "nasdaq_symbol": "RSG",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.RSG/USD"
+    }
+  },
+  {
+    "id": "0x97c483cc4172de7ac1a3cc0814f442e4747e64008723f2705d6e9fdff3ba4d3d",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "RTX",
+      "cms_symbol": "RTX",
+      "country": "US",
+      "cqs_symbol": "RTX",
+      "description": "RTX CORPORATION / US DOLLAR",
+      "display_symbol": "RTX/USD",
+      "nasdaq_symbol": "RTX",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.RTX/USD"
+    }
+  },
+  {
+    "id": "0x4da5b5fc2f6dfde7d47fac2370940217dd0ce5c37e650f770e6611a974aab96c",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "RVTY",
+      "cms_symbol": "RVTY",
+      "country": "US",
+      "cqs_symbol": "RVTY",
+      "description": "REVVITY INC / US DOLLAR",
+      "display_symbol": "RVTY/USD",
+      "nasdaq_symbol": "RVTY",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.RVTY/USD"
+    }
+  },
+  {
+    "id": "0x15d10cdf550966316121a3e07b86eec98be08afa1f3abc634818156d32094b31",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SBAC",
+      "cms_symbol": "SBAC",
+      "country": "US",
+      "cqs_symbol": "SBAC",
+      "description": "SBA COMMUNICATIONS CORPORATION / US DOLLAR",
+      "display_symbol": "SBAC/USD",
+      "nasdaq_symbol": "SBAC",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.SBAC/USD"
+    }
+  },
+  {
+    "id": "0xd437b2f1470d5f007f18a5565eaab1ed182d97204d80b7dd3dac29839f61c9e6",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SCHW",
+      "cms_symbol": "SCHW",
+      "country": "US",
+      "cqs_symbol": "SCHW",
+      "description": "THE CHARLES SCHWAB CORPORATION / US DOLLAR",
+      "display_symbol": "SCHW/USD",
+      "nasdaq_symbol": "SCHW",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.SCHW/USD"
+    }
+  },
+  {
+    "id": "0x5418e711244ca3c599e0f6a2b3b217833e81f110ae53afadd4a0809808c7baae",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SHW",
+      "cms_symbol": "SHW",
+      "country": "US",
+      "cqs_symbol": "SHW",
+      "description": "THE SHERWIN-WILLIAMS COMPANY / US DOLLAR",
+      "display_symbol": "SHW/USD",
+      "nasdaq_symbol": "SHW",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.SHW/USD"
+    }
+  },
+  {
+    "id": "0x9794052f000f3bc2bfa29662035ca0fa65d316ab901e2b4d4238a2bc30637ee6",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SJM",
+      "cms_symbol": "SJM",
+      "country": "US",
+      "cqs_symbol": "SJM",
+      "description": "THE J M SMUCKER COMPANY / US DOLLAR",
+      "display_symbol": "SJM/USD",
+      "nasdaq_symbol": "SJM",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.SJM/USD"
+    }
+  },
+  {
+    "id": "0x8042b087e06b64b7a40056782d48c8add189943d8354c56726e655f46e65320f",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SLB",
+      "cms_symbol": "SLB",
+      "country": "US",
+      "cqs_symbol": "SLB",
+      "description": "SCHLUMBERGER LIMITED / US DOLLAR",
+      "display_symbol": "SLB/USD",
+      "nasdaq_symbol": "SLB",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.SLB/USD"
+    }
+  },
+  {
+    "id": "0x8f34132a42f8bb7a47568d77a910f97174a30719e16904e9f2915d5b2c6c2d52",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SMCI",
+      "cms_symbol": "SMCI",
+      "country": "US",
+      "cqs_symbol": "SMCI",
+      "description": "SUPER MICRO COMPUTER INC / US DOLLAR",
+      "display_symbol": "SMCI/USD",
+      "nasdaq_symbol": "SMCI",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.SMCI/USD"
+    }
+  },
+  {
+    "id": "0x40ee2e8a06ac2de84d6cea61c4519a35755d59c255c545db964c5e2ed840a1e8",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SNA",
+      "cms_symbol": "SNA",
+      "country": "US",
+      "cqs_symbol": "SNA",
+      "description": "SNAP-ON INCORPORATED / US DOLLAR",
+      "display_symbol": "SNA/USD",
+      "nasdaq_symbol": "SNA",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.SNA/USD"
+    }
+  },
+  {
+    "id": "0x650293cd51d63cac28ecb03823af05d8192dad724156af6ed4a90b1708057bf2",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SO",
+      "cms_symbol": "SO",
+      "country": "US",
+      "cqs_symbol": "SO",
+      "description": "THE SOUTHERN COMPANY / US DOLLAR",
+      "display_symbol": "SO/USD",
+      "nasdaq_symbol": "SO",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.SO/USD"
+    }
+  },
+  {
+    "id": "0xd96aa551f05f1e84366a7b32afb363aadbcf5357d2caca43bcefdb3e65eccb11",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SOLV",
+      "cms_symbol": "SOLV",
+      "country": "US",
+      "cqs_symbol": "SOLV",
+      "description": "SOLVENTUM CORPORATION / US DOLLAR",
+      "display_symbol": "SOLV/USD",
+      "nasdaq_symbol": "SOLV",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.SOLV/USD"
+    }
+  },
+  {
+    "id": "0xe5b009001bb93e2c5405c6c1f24a2ea178f378997cfd2e3fa8103bcc8df66985",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SPG",
+      "cms_symbol": "SPG",
+      "country": "US",
+      "cqs_symbol": "SPG",
+      "description": "SIMON PROPERTY GROUP INC / US DOLLAR",
+      "display_symbol": "SPG/USD",
+      "nasdaq_symbol": "SPG",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.SPG/USD"
+    }
+  },
+  {
+    "id": "0xe7268062e142570f97cfba327f14e3153d1d4d8f6a4f84e59b72940ee87ecdb9",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SPGI",
+      "cms_symbol": "SPGI",
+      "country": "US",
+      "cqs_symbol": "SPGI",
+      "description": "S&P GLOBAL INC / US DOLLAR",
+      "display_symbol": "SPGI/USD",
+      "nasdaq_symbol": "SPGI",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.SPGI/USD"
+    }
+  },
+  {
+    "id": "0x2b6b8daa571caf41933359e3fa3e1497db49fa39bb0964f02e4fee4e3035b22a",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SRE",
+      "cms_symbol": "SRE",
+      "country": "US",
+      "cqs_symbol": "SRE",
+      "description": "SEMPRA / US DOLLAR",
+      "display_symbol": "SRE/USD",
+      "nasdaq_symbol": "SRE",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.SRE/USD"
+    }
+  },
+  {
+    "id": "0xc8688938e7493b4849467d88d1cac1518f13d9cee69742982120439acdf2c83a",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "STE",
+      "cms_symbol": "STE",
+      "country": "US",
+      "cqs_symbol": "STE",
+      "description": "STERIS PLC / US DOLLAR",
+      "display_symbol": "STE/USD",
+      "nasdaq_symbol": "STE",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.STE/USD"
+    }
+  },
+  {
+    "id": "0x3bc436e6c024059b3493e4332b32d0cbdd2b8ecf84544261838137eb1f299525",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "STLD",
+      "cms_symbol": "STLD",
+      "country": "US",
+      "cqs_symbol": "STLD",
+      "description": "STEEL DYNAMICS INC / US DOLLAR",
+      "display_symbol": "STLD/USD",
+      "nasdaq_symbol": "STLD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.STLD/USD"
+    }
+  },
+  {
+    "id": "0xa72ff152372a1a9b75e40c7da828be1e53129bfb0338436afab007bad29aa42c",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "STT",
+      "cms_symbol": "STT",
+      "country": "US",
+      "cqs_symbol": "STT",
+      "description": "STATE STREET CORPORATION / US DOLLAR",
+      "display_symbol": "STT/USD",
+      "nasdaq_symbol": "STT",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.STT/USD"
+    }
+  },
+  {
+    "id": "0x0b7fc35cea4acfa65e49a718292e0b31b453072e3af39afbfd2925da5c3ab65d",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "STX",
+      "cms_symbol": "STX",
+      "country": "US",
+      "cqs_symbol": "STX",
+      "description": "SEAGATE TECHNOLOGY HOLDINGS PLC / US DOLLAR",
+      "display_symbol": "STX/USD",
+      "nasdaq_symbol": "STX",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.STX/USD"
+    }
+  },
+  {
+    "id": "0xbcbe7f4f918381ad7891595dabea1c1a0b662e48cc533d48f308aa4883a0802d",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "STZ",
+      "cms_symbol": "STZ",
+      "country": "US",
+      "cqs_symbol": "STZ",
+      "description": "CONSTELLATION BRANDS INC / US DOLLAR",
+      "display_symbol": "STZ/USD",
+      "nasdaq_symbol": "STZ",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.STZ/USD"
+    }
+  },
+  {
+    "id": "0xc7ba1f80f10774038310eb30adc31c69103f9e3030262ef4e0a6ce9d6c44488f",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SW",
+      "cms_symbol": "SW",
+      "country": "US",
+      "cqs_symbol": "SW",
+      "description": "SMURFIT WESTROCK PLC / US DOLLAR",
+      "display_symbol": "SW/USD",
+      "nasdaq_symbol": "SW",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.SW/USD"
+    }
+  },
+  {
+    "id": "0xcc7233f28c816dae39aa0bd524029f89e5951bd308523228ecac6891d7a18a7b",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SWK",
+      "cms_symbol": "SWK",
+      "country": "US",
+      "cqs_symbol": "SWK",
+      "description": "STANLEY BLACK & DECKER INC / US DOLLAR",
+      "display_symbol": "SWK/USD",
+      "nasdaq_symbol": "SWK",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.SWK/USD"
+    }
+  },
+  {
+    "id": "0x431349b17e1ee2605695615baffd31e44290477089c02536bb2926dfa36850b8",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SWKS",
+      "cms_symbol": "SWKS",
+      "country": "US",
+      "cqs_symbol": "SWKS",
+      "description": "SKYWORKS SOLUTIONS INC / US DOLLAR",
+      "display_symbol": "SWKS/USD",
+      "nasdaq_symbol": "SWKS",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.SWKS/USD"
+    }
+  },
+  {
+    "id": "0x19182efb2c0ed89266ee1db3a1e8d3e46c9af1542232ed168e88bcb38db3b64f",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SYF",
+      "cms_symbol": "SYF",
+      "country": "US",
+      "cqs_symbol": "SYF",
+      "description": "SYNCHRONY FINANCIAL / US DOLLAR",
+      "display_symbol": "SYF/USD",
+      "nasdaq_symbol": "SYF",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.SYF/USD"
+    }
+  },
+  {
+    "id": "0x1e2fea8c5028e09489fbcb31014e9e7833e08eea78922eaa69d96cf1b37206c2",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SYK",
+      "cms_symbol": "SYK",
+      "country": "US",
+      "cqs_symbol": "SYK",
+      "description": "STRYKER CORPORATION / US DOLLAR",
+      "display_symbol": "SYK/USD",
+      "nasdaq_symbol": "SYK",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.SYK/USD"
+    }
+  },
+  {
+    "id": "0xda937ffe337d2111782ba3910b7b4191764724c3adc69e3074d5da7e25a7dfb4",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SYY",
+      "cms_symbol": "SYY",
+      "country": "US",
+      "cqs_symbol": "SYY",
+      "description": "SYSCO CORPORATION / US DOLLAR",
+      "display_symbol": "SYY/USD",
+      "nasdaq_symbol": "SYY",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.SYY/USD"
+    }
   }
 ]
