@@ -14620,5 +14620,734 @@
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.IBERA/USD"
     }
+  },
+  {
+    "id": "0x00456705ae9007ea761e95c724035a23a62fe9e444bbc744e11af7f050ab53c3",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "BYUSD",
+      "description": "BERACHAIN PYUSD / US DOLLAR",
+      "display_symbol": "BYUSD/USD",
+      "generic_symbol": "BYUSDUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.BYUSD/USD"
+    }
+  },
+  {
+    "id": "0x9ef5c07d65a72e5c21b6e9c3540ad54c4034cf5dba889252ba2312b6fdc45d74",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "CAR",
+      "description": "CENTRAL AFRICAN REPUBLIC MEME / US DOLLAR",
+      "display_symbol": "CAR/USD",
+      "generic_symbol": "CARUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.CAR/USD"
+    }
+  },
+  {
+    "id": "0xa7adc417fe7e862494b488e89d88ab23f468661b63542d8f719da8f77e34c51f",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "EUL",
+      "description": "EULER / US DOLLAR",
+      "display_symbol": "EUL/USD",
+      "generic_symbol": "EULUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.EUL/USD"
+    }
+  },
+  {
+    "id": "0xb620ba83044577029da7e4ded7a2abccf8e6afc2a0d4d26d89ccdd39ec109025",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "IP",
+      "description": "STORY PROTOCOL / US DOLLAR",
+      "display_symbol": "IP/USD",
+      "generic_symbol": "IPUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.IP/USD"
+    }
+  },
+  {
+    "id": "0x965369da7ca6a5aaa698f9a8a356a5cf901ca3b9eefd07f160c6ab12d9e98eb4",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "JAILSTOOL",
+      "description": "STOOL PRISONDENTE / US DOLLAR",
+      "display_symbol": "JAILSTOOL/USD",
+      "generic_symbol": "JAILSTOOLUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.JAILSTOOL/USD"
+    }
+  },
+  {
+    "id": "0x3c987d95da67ceb12705b22448200568c15b6242796cacc21c11f622e74cfffb",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "LAYER",
+      "description": "SOLAYER / US DOLLAR",
+      "display_symbol": "LAYER/USD",
+      "generic_symbol": "LAYERUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.LAYER/USD"
+    }
+  },
+  {
+    "id": "0xcd15e2b78e5f12e0a77929a17b4aa612089d18f1ea33ee9b867dda7607502817",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "M",
+      "description": "MANTIS / US DOLLAR",
+      "display_symbol": "M/USD",
+      "generic_symbol": "MUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.M/USD"
+    }
+  },
+  {
+    "id": "0xddf0dd319060db4561b5aa8f84a94816d33579f8dc2af2d8f74583bce20cd260",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "NECT",
+      "description": "BERABORROW NECTAR / US DOLLAR",
+      "display_symbol": "NECT/USD",
+      "generic_symbol": "NECTUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.NECT/USD"
+    }
+  },
+  {
+    "id": "0x0bb28b82f08477fadbf9607fc8408ff61ca129fae40adc7a8d2ab8945f97ee74",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "RED",
+      "description": "REDSTONE / US DOLLAR",
+      "display_symbol": "RED/USD",
+      "generic_symbol": "REDUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.RED/USD"
+    }
+  },
+  {
+    "id": "0xf864ee3bcd0c651511c4a12a9996eba319c7546dd9a225f807b0cdf44449d6d3",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "SAVUSD",
+      "contract_id": "avax: 0x06d47F3fb376649c3A9Dafe069B3D6E35572219E",
+      "description": "STAKED AVANT PROTOCOL US DOLLAR / AVANT PROTOCOL US DOLLAR REDEMPTION RATE",
+      "display_symbol": "SAVUSD/AVUSD",
+      "generic_symbol": "SAVUSDAVUSD",
+      "quote_currency": "AVUSD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.SAVUSD/AVUSD.RR"
+    }
+  },
+  {
+    "id": "0x3450d9fbb8c3cf749578315668e21fabb4cd78dcfda1c1cba698b804bae2db2a",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "TOSHI",
+      "description": "TOSHI / US DOLLAR",
+      "display_symbol": "TOSHI/USD",
+      "generic_symbol": "TOSHIUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.TOSHI/USD"
+    }
+  },
+  {
+    "id": "0x3541d1f0244f81487aa72ac3c65b5c4fabd354cd4e43867ba45e3d7f36433406",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "TST",
+      "description": "TEST TOKEN / US DOLLAR",
+      "display_symbol": "TST/USD",
+      "generic_symbol": "TSTUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.TST/USD"
+    }
+  },
+  {
+    "id": "0x512a79cc65f49531f0bbb72956353e79ecdc1e4a6e5241847196c1f9a11d8a52",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "USR",
+      "contract_id": "eth: 0x7f45180d6fFd0435D8dD695fd01320E6999c261c",
+      "description": "RESOLV USR / US DOLLAR REDEMPTION RATE",
+      "display_symbol": "USR/USD",
+      "generic_symbol": "USRUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.USR/USD.RR"
+    }
+  },
+  {
+    "id": "0x48f63b34e37948d05754540e68e0d3166798302c85ccf91d795f6654e264b04b",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "ZKETH",
+      "contract_id": "zk: 0xb72207E1FB50f341415999732A20B6D25d8127aa",
+      "description": "WRAPPED ZK BRANDED ETH / DINERO STAKED ETH REDEMPTION RATE",
+      "display_symbol": "ZKETH/PXETH",
+      "generic_symbol": "ZKETHPXETH",
+      "quote_currency": "PXETH",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.ZKETH/PXETH.RR"
+    }
+  },
+  {
+    "id": "0xce8211e981a578b4ba9f2f7eb01c40643dc1d0860f57178d76c9bec95c88462f",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "EL",
+      "cms_symbol": "EL",
+      "country": "US",
+      "cqs_symbol": "EL",
+      "description": "THE ESTEE LAUDER COMPANIES INC / US DOLLAR",
+      "display_symbol": "EL/USD",
+      "nasdaq_symbol": "EL",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.EL/USD"
+    }
+  },
+  {
+    "id": "0x639db3fe6951d2465bd722768242e68eb0285f279cb4fa97f677ee8f80f1f1c0",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MA",
+      "cms_symbol": "MA",
+      "country": "US",
+      "cqs_symbol": "MA",
+      "description": "MASTERCARD INCORPORATED / US DOLLAR",
+      "display_symbol": "MA/USD",
+      "nasdaq_symbol": "MA",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.MA/USD"
+    }
+  },
+  {
+    "id": "0x8b624894cc6534a0442a22cce2324c3950fc74c848e7f10faf028ae160a762d6",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MAA",
+      "cms_symbol": "MAA",
+      "country": "US",
+      "cqs_symbol": "MAA",
+      "description": "MID-AMERICA APARTMENT COMMUNITIES INC / US DOLLAR",
+      "display_symbol": "MAA/USD",
+      "nasdaq_symbol": "MAA",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.MAA/USD"
+    }
+  },
+  {
+    "id": "0x40dc86c2c74546803ea869c71c0aebd332d83ca417e7c60f41b71919f8d8421e",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MAS",
+      "cms_symbol": "MAS",
+      "country": "US",
+      "cqs_symbol": "MAS",
+      "description": "MASCO CORPORATION / US DOLLAR",
+      "display_symbol": "MAS/USD",
+      "nasdaq_symbol": "MAS",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.MAS/USD"
+    }
+  },
+  {
+    "id": "0x374c080d60c3d055199df45e3c54accd5f04f190f61cd050dae28dd2519871a6",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MCK",
+      "cms_symbol": "MCK",
+      "country": "US",
+      "cqs_symbol": "MCK",
+      "description": "MCKESSON CORPORATION / US DOLLAR",
+      "display_symbol": "MCK/USD",
+      "nasdaq_symbol": "MCK",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.MCK/USD"
+    }
+  },
+  {
+    "id": "0x81ec776dd73898187779458dcd0c282a91322c7bd5fcb38b565f1b94bd8adff0",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MCO",
+      "cms_symbol": "MCO",
+      "country": "US",
+      "cqs_symbol": "MCO",
+      "description": "MOODY'S CORPORATION / US DOLLAR",
+      "display_symbol": "MCO/USD",
+      "nasdaq_symbol": "MCO",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.MCO/USD"
+    }
+  },
+  {
+    "id": "0x1d762c633d4166a8d061518e187047afda1868cc524990262d8144e39dbb815f",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MDT",
+      "cms_symbol": "MDT",
+      "country": "US",
+      "cqs_symbol": "MDT",
+      "description": "MEDTRONIC PLC / US DOLLAR",
+      "display_symbol": "MDT/USD",
+      "nasdaq_symbol": "MDT",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.MDT/USD"
+    }
+  },
+  {
+    "id": "0xa1603db75317c40a21301cc11d58ffd69bea273f3473bfed479b4325300fc721",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MET",
+      "cms_symbol": "MET",
+      "country": "US",
+      "cqs_symbol": "MET",
+      "description": "METLIFE INC / US DOLLAR",
+      "display_symbol": "MET/USD",
+      "nasdaq_symbol": "MET",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.MET/USD"
+    }
+  },
+  {
+    "id": "0x3600d9719b640ae821b323d2aecb55534136f5b4a8711245ac9a8e088ae3ae56",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MGM",
+      "cms_symbol": "MGM",
+      "country": "US",
+      "cqs_symbol": "MGM",
+      "description": "MGM RESORTS INTERNATIONAL / US DOLLAR",
+      "display_symbol": "MGM/USD",
+      "nasdaq_symbol": "MGM",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.MGM/USD"
+    }
+  },
+  {
+    "id": "0x11a23693e76395d2f0d2b0300d27e3e342732420ab79e2ea9f586985330e3ecb",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MHK",
+      "cms_symbol": "MHK",
+      "country": "US",
+      "cqs_symbol": "MHK",
+      "description": "MOHAWK INDUSTRIES INC / US DOLLAR",
+      "display_symbol": "MHK/USD",
+      "nasdaq_symbol": "MHK",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.MHK/USD"
+    }
+  },
+  {
+    "id": "0xf84d53799267676ca75d07bae921233dcc9d856d1b7616a728fdad0a71ed6159",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MKC",
+      "cms_symbol": "MKC",
+      "country": "US",
+      "cqs_symbol": "MKC",
+      "description": "MCCORMICK & COMPANY INCORPORATED / US DOLLAR",
+      "display_symbol": "MKC/USD",
+      "nasdaq_symbol": "MKC",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.MKC/USD"
+    }
+  },
+  {
+    "id": "0x088802f5582891ff3b0f7f853ec4a609a715f2ce5b4f61ba3769784b165ca3fd",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MKTX",
+      "cms_symbol": "MKTX",
+      "country": "US",
+      "cqs_symbol": "MKTX",
+      "description": "MARKETAXESS HOLDINGS INC / US DOLLAR",
+      "display_symbol": "MKTX/USD",
+      "nasdaq_symbol": "MKTX",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.MKTX/USD"
+    }
+  },
+  {
+    "id": "0x58dfd9c50639f1a6c7ea8a1a94d07d69989b51a4265801420895c292fd68e7d4",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MLM",
+      "cms_symbol": "MLM",
+      "country": "US",
+      "cqs_symbol": "MLM",
+      "description": "MARTIN MARIETTA MATERIALS INC / US DOLLAR",
+      "display_symbol": "MLM/USD",
+      "nasdaq_symbol": "MLM",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.MLM/USD"
+    }
+  },
+  {
+    "id": "0x0226ff84f3cf3752d80319b0fc4b5dc4d039408e7c5f7bf44bb642f8be2fdc8d",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MMC",
+      "cms_symbol": "MMC",
+      "country": "US",
+      "cqs_symbol": "MMC",
+      "description": "MARSH & MCLENNAN COMPANIES INC / US DOLLAR",
+      "display_symbol": "MMC/USD",
+      "nasdaq_symbol": "MMC",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.MMC/USD"
+    }
+  },
+  {
+    "id": "0xad17639d5c5f937b0069f09a455c613c5b6feb8cf0ffb725de3942af96c0434b",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MO",
+      "cms_symbol": "MO",
+      "country": "US",
+      "cqs_symbol": "MO",
+      "description": "ALTRIA GROUP INC / US DOLLAR",
+      "display_symbol": "MO/USD",
+      "nasdaq_symbol": "MO",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.MO/USD"
+    }
+  },
+  {
+    "id": "0xf9754453fb83c7fdbae0d515438ca2a5cc6458bdb191a4df649bfbbe9c2ff29c",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MOH",
+      "cms_symbol": "MOH",
+      "country": "US",
+      "cqs_symbol": "MOH",
+      "description": "MOLINA HEALTHCARE INC / US DOLLAR",
+      "display_symbol": "MOH/USD",
+      "nasdaq_symbol": "MOH",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.MOH/USD"
+    }
+  },
+  {
+    "id": "0x1521ce20ce13ff348ed80f54bc37127d2755caf524b9ad65e8ce881f85ed5054",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MOS",
+      "cms_symbol": "MOS",
+      "country": "US",
+      "cqs_symbol": "MOS",
+      "description": "THE MOSAIC COMPANY / US DOLLAR",
+      "display_symbol": "MOS/USD",
+      "nasdaq_symbol": "MOS",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.MOS/USD"
+    }
+  },
+  {
+    "id": "0xf324ae399346b21a3f40e9a07984750dfde9a9d7b40999fb1c6d98a4243f5eed",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MPC",
+      "cms_symbol": "MPC",
+      "country": "US",
+      "cqs_symbol": "MPC",
+      "description": "MARATHON PETROLEUM CORPORATION / US DOLLAR",
+      "display_symbol": "MPC/USD",
+      "nasdaq_symbol": "MPC",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.MPC/USD"
+    }
+  },
+  {
+    "id": "0xe51d5a490b7ff684e72104f092096d33ad8f6d0bbc617fbe893e23358f8e1c72",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MPWR",
+      "cms_symbol": "MPWR",
+      "country": "US",
+      "cqs_symbol": "MPWR",
+      "description": "MONOLITHIC POWER SYSTEMS INC / US DOLLAR",
+      "display_symbol": "MPWR/USD",
+      "nasdaq_symbol": "MPWR",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.MPWR/USD"
+    }
+  },
+  {
+    "id": "0x4083b0b1471123cf4d3e8edee7890940cafad866f06cadae638c23e555a1f4fc",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MRNA",
+      "cms_symbol": "MRNA",
+      "country": "US",
+      "cqs_symbol": "MRNA",
+      "description": "MODERNA INC / US DOLLAR",
+      "display_symbol": "MRNA/USD",
+      "nasdaq_symbol": "MRNA",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.MRNA/USD"
+    }
+  },
+  {
+    "id": "0x97b55381ff94c6c0a22f3e0c8cdc2186a3561bf3dfe3cfaebf4786c9318b770f",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MS",
+      "cms_symbol": "MS",
+      "country": "US",
+      "cqs_symbol": "MS",
+      "description": "MORGAN STANLEY / US DOLLAR",
+      "display_symbol": "MS/USD",
+      "nasdaq_symbol": "MS",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.MS/USD"
+    }
+  },
+  {
+    "id": "0xcb9be05a0205676c4959845ada37452d3b9613d6602addd0ec223bdb33d81c8b",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MSCI",
+      "cms_symbol": "MSCI",
+      "country": "US",
+      "cqs_symbol": "MSCI",
+      "description": "MSCI INC / US DOLLAR",
+      "display_symbol": "MSCI/USD",
+      "nasdaq_symbol": "MSCI",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.MSCI/USD"
+    }
+  },
+  {
+    "id": "0xcc7851b525bd7f0d8ce00e409d59d6cd5ecdfbc5a2df1aaee3c4948426976100",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MSI",
+      "cms_symbol": "MSI",
+      "country": "US",
+      "cqs_symbol": "MSI",
+      "description": "MOTOROLA SOLUTIONS INC / US DOLLAR",
+      "display_symbol": "MSI/USD",
+      "nasdaq_symbol": "MSI",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.MSI/USD"
+    }
+  },
+  {
+    "id": "0x1525917fe1d100b6af40bb6f40f71059a6a4c52a1849c964ef33a06412bc9f46",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MTB",
+      "cms_symbol": "MTB",
+      "country": "US",
+      "cqs_symbol": "MTB",
+      "description": "M&T BANK CORPORATION / US DOLLAR",
+      "display_symbol": "MTB/USD",
+      "nasdaq_symbol": "MTB",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.MTB/USD"
+    }
+  },
+  {
+    "id": "0x17106e7bc45a7a3c48db3eff47617a7eac3c67bd2e15dbee5285db744d3f2cd7",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MTCH",
+      "cms_symbol": "MTCH",
+      "country": "US",
+      "cqs_symbol": "MTCH",
+      "description": "MATCH GROUP INC / US DOLLAR",
+      "display_symbol": "MTCH/USD",
+      "nasdaq_symbol": "MTCH",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.MTCH/USD"
+    }
+  },
+  {
+    "id": "0x3d35ab79cabfe67134efe88b5526ff9340121f4641d3f33728fb6801afdb07f2",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MTD",
+      "cms_symbol": "MTD",
+      "country": "US",
+      "cqs_symbol": "MTD",
+      "description": "METTLER-TOLEDO INTERNATIONAL INC / US DOLLAR",
+      "display_symbol": "MTD/USD",
+      "nasdaq_symbol": "MTD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.MTD/USD"
+    }
+  },
+  {
+    "id": "0xa57ad8d2031a938779bcda698f28eebfac20c3d0b9b88a7e8452a84b34fa6be2",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "NCLH",
+      "cms_symbol": "NCLH",
+      "country": "US",
+      "cqs_symbol": "NCLH",
+      "description": "NORWEGIAN CRUISE LINE HOLDINGS LTD / US DOLLAR",
+      "display_symbol": "NCLH/USD",
+      "nasdaq_symbol": "NCLH",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.NCLH/USD"
+    }
+  },
+  {
+    "id": "0x1d4ad1c94a6828b41d3165abd4ee59491a9cc9194e2b8a672fc0aa2ad228ab47",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "NDAQ",
+      "cms_symbol": "NDAQ",
+      "country": "US",
+      "cqs_symbol": "NDAQ",
+      "description": "NASDAQ INC / US DOLLAR",
+      "display_symbol": "NDAQ/USD",
+      "nasdaq_symbol": "NDAQ",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.NDAQ/USD"
+    }
+  },
+  {
+    "id": "0x6727509d8f206c8615b61a01039caa23b45271196e603daebb0366d5e864666f",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "NDSN",
+      "cms_symbol": "NDSN",
+      "country": "US",
+      "cqs_symbol": "NDSN",
+      "description": "NORDSON CORPORATION / US DOLLAR",
+      "display_symbol": "NDSN/USD",
+      "nasdaq_symbol": "NDSN",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.NDSN/USD"
+    }
+  },
+  {
+    "id": "0xb058f7874b57f820aa7ff6034a8515add8095b5831e83fc8d02c1dccd4ac099c",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "NEE",
+      "cms_symbol": "NEE",
+      "country": "US",
+      "cqs_symbol": "NEE",
+      "description": "NEXTERA ENERGY INC / US DOLLAR",
+      "display_symbol": "NEE/USD",
+      "nasdaq_symbol": "NEE",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.NEE/USD"
+    }
+  },
+  {
+    "id": "0x29caf4d900d3080e56306ac41a9856735b89cb4df6813dd7b83e9eb96c04700d",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "NEM",
+      "cms_symbol": "NEM",
+      "country": "US",
+      "cqs_symbol": "NEM",
+      "description": "NEWMONT CORPORATION / US DOLLAR",
+      "display_symbol": "NEM/USD",
+      "nasdaq_symbol": "NEM",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.NEM/USD"
+    }
+  },
+  {
+    "id": "0xe526b83aaac81d79736671ff6b948326194290a0c2f34a711df3e34b8afa6000",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "NI",
+      "cms_symbol": "NI",
+      "country": "US",
+      "cqs_symbol": "NI",
+      "description": "NISOURCE INC / US DOLLAR",
+      "display_symbol": "NI/USD",
+      "nasdaq_symbol": "NI",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.NI/USD"
+    }
   }
 ]
