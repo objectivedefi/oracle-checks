@@ -28870,6 +28870,33 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x92e6B837362FABe1aDF1D11a4255884e5f4dD939",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "bera-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "BERA / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "bera-usd",
+    "proxyAddress": "0x4f861F14246229530a881D32C8d26D78b8c48BE6",
+    "threshold": 0.3,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x931405Ec93013ecf492CBfc49341a869e5379Eb3",
     "contractType": "",
     "contractVersion": 4,

@@ -2118,7 +2118,9 @@
     "assetName": "",
     "feedCategory": "",
     "feedType": "",
-    "docs": {},
+    "docs": {
+      "marketHours": "Forex"
+    },
     "decimals": 8
   },
   {
