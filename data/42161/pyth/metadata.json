@@ -8272,6 +8272,20 @@
     }
   },
   {
+    "id": "0xe6fa9b7a0c336223d62a6c1574cf17ba8e5fd88bed48a8258d352a04271aefcc",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "FRUSDT",
+      "contract_id": "arb: 0x7378292384751b208BD8609ca8D45F027539FA5c",
+      "description": "FRACTALITY LR TETHER / TETHER REDEMPTION RATE",
+      "display_symbol": "FRUSDT/USDT",
+      "generic_symbol": "FRUSDTUSDT",
+      "quote_currency": "USDT",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.FRUSDT/USDT.RR"
+    }
+  },
+  {
     "id": "0x8a757d54e5d34c7ff1aea8502a2d968686027a304d00418092aaf7e60ed98d95",
     "attributes": {
       "asset_type": "Crypto",
