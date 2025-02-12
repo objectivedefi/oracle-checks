@@ -5187,19 +5187,6 @@
     }
   },
   {
-    "id": "0xe393449f6aff8a4b6d3e1165a7c9ebec103685f3b41e60db4277b5b6d10e7326",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "USDY",
-      "description": "ONDO US DOLLAR YIELD / US DOLLAR",
-      "display_symbol": "USDY/USD",
-      "generic_symbol": "USDYUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.USDY/USD"
-    }
-  },
-  {
     "id": "0xef3f94c52ecc3a624fa0fa51ab2b562f70d8f98ff505bb36cbc08c22b1aff628",
     "attributes": {
       "asset_type": "Crypto",
@@ -5262,19 +5249,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.METH/USD"
-    }
-  },
-  {
-    "id": "0x0a0408d619e9380abad35060f9192039ed5042fa6f82301d0e48bb52be830996",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "JUP",
-      "description": "JUPITER / US DOLLAR",
-      "display_symbol": "JUP/USD",
-      "generic_symbol": "JUPUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.JUP/USD"
     }
   },
   {
@@ -5366,19 +5340,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.AUDIO/USD"
-    }
-  },
-  {
-    "id": "0x688aa41b26a19db08855aaf87723a0eda91b8a830b782c3215bca3b208fad81a",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "DODO",
-      "description": "DODO / US DOLLAR",
-      "display_symbol": "DODO/USD",
-      "generic_symbol": "DODOUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.DODO/USD"
     }
   },
   {
@@ -15640,40 +15601,6 @@
     }
   },
   {
-    "id": "0x2145839221f46430e99f5be8f32942291f56e248c142c42efcd978f35ddfdbb3",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "PAYC",
-      "cms_symbol": "PAYC",
-      "country": "US",
-      "cqs_symbol": "PAYC",
-      "description": "PAYCOM SOFTWARE INC / US DOLLAR",
-      "display_symbol": "PAYC/USD",
-      "nasdaq_symbol": "PAYC",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
-      "symbol": "Equity.US.PAYC/USD"
-    }
-  },
-  {
-    "id": "0x026e4a35b33c438e4c75b2bf8f5f8298b26165eff133b1da2b4559985ecab11e",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "PCG",
-      "cms_symbol": "PCG",
-      "country": "US",
-      "cqs_symbol": "PCG",
-      "description": "PG&E CORPORATION / US DOLLAR",
-      "display_symbol": "PCG/USD",
-      "nasdaq_symbol": "PCG",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
-      "symbol": "Equity.US.PCG/USD"
-    }
-  },
-  {
     "id": "0xb0d68bb7055327a5ec773094129a00f6794ae064b9286a1b55eb2b975bc17dc0",
     "attributes": {
       "asset_type": "Equity",
@@ -15977,23 +15904,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.PSA/USD"
-    }
-  },
-  {
-    "id": "0x16b28b05e3491528ff9ece996c65075c3d2af3027131b11da425c6930b1e5932",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "PSX",
-      "cms_symbol": "PSX",
-      "country": "US",
-      "cqs_symbol": "PSX",
-      "description": "PHILLIPS 66 / US DOLLAR",
-      "display_symbol": "PSX/USD",
-      "nasdaq_symbol": "PSX",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
-      "symbol": "Equity.US.PSX/USD"
     }
   },
   {
@@ -16606,20 +16516,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.SYY/USD"
-    }
-  },
-  {
-    "id": "0x34471f3bcaecba4cf2b6f25bc6c365216869add332d0ed2e88e542e3a3bcc2c7",
-    "attributes": {
-      "asset_type": "Crypto Redemption Rate",
-      "base": "VIP",
-      "contract_id": "story: 0x20Cb9DCb6FC306c31325bdA6221AA5e067B9Da51",
-      "description": "VERIO IP / IP REDEMPTION RATE",
-      "display_symbol": "VIP/IP",
-      "generic_symbol": "VIPIP",
-      "quote_currency": "IP",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.VIP/IP.RR"
     }
   }
 ]

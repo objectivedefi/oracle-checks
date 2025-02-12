@@ -14307,23 +14307,6 @@
     }
   },
   {
-    "id": "0xd15031bc3bf24bc63cc48cf6d24a7a83b242a628be400b3db58fef089a4da854",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "KMX",
-      "cms_symbol": "KMX",
-      "country": "US",
-      "cqs_symbol": "KMX",
-      "description": "CARMAX INC / US DOLLAR",
-      "display_symbol": "KMX/USD",
-      "nasdaq_symbol": "KMX",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
-      "symbol": "Equity.US.KMX/USD"
-    }
-  },
-  {
     "id": "0xff6a38e7adcdaf6d9e02c4c597defcdd328c1e4fe98977c8cc6b27a2673e4f8b",
     "attributes": {
       "asset_type": "Equity",
@@ -14474,40 +14457,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.LKQ/USD"
-    }
-  },
-  {
-    "id": "0x70dcf5fd56553d0023693e4b590336a8c9bcfd0d98dd9f093b1f697820d98325",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "LLY",
-      "cms_symbol": "LLY",
-      "country": "US",
-      "cqs_symbol": "LLY",
-      "description": "ELI LILLY AND COMPANY / US DOLLAR",
-      "display_symbol": "LLY/USD",
-      "nasdaq_symbol": "LLY",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
-      "symbol": "Equity.US.LLY/USD"
-    }
-  },
-  {
-    "id": "0x0cfd0022c6dce91015449034e1189551e6037a51b60b820ddc9a255e9782c3c0",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "LNT",
-      "cms_symbol": "LNT",
-      "country": "US",
-      "cqs_symbol": "LNT",
-      "description": "ALLIANT ENERGY CORPORATION / US DOLLAR",
-      "display_symbol": "LNT/USD",
-      "nasdaq_symbol": "LNT",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
-      "symbol": "Equity.US.LNT/USD"
     }
   },
   {

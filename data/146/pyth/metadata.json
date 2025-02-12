@@ -13814,23 +13814,6 @@
     }
   },
   {
-    "id": "0x492f2b794efb3721b4243406d73cf68f34097b103ba690d0dbcafddb5a10cb7e",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "HUBB",
-      "cms_symbol": "HUBB",
-      "country": "US",
-      "cqs_symbol": "HUBB",
-      "description": "HUBBELL INCORPORATED / US DOLLAR",
-      "display_symbol": "HUBB/USD",
-      "nasdaq_symbol": "HUBB",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
-      "symbol": "Equity.US.HUBB/USD"
-    }
-  },
-  {
     "id": "0x6469e80c4a4a3bed520e0882051c6f0dbc8d57c217b16662db6cfd3f6288de2c",
     "attributes": {
       "asset_type": "Equity",
@@ -13947,23 +13930,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.INVH/USD"
-    }
-  },
-  {
-    "id": "0xd7b753e70cea474508a2f0cd0ae5b7ac67662eb648a88afe68f04759464ccc8d",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "IP",
-      "cms_symbol": "IP",
-      "country": "US",
-      "cqs_symbol": "IP",
-      "description": "INTERNATIONAL PAPER COMPANY / US DOLLAR",
-      "display_symbol": "IP/USD",
-      "nasdaq_symbol": "IP",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
-      "symbol": "Equity.US.IP/USD"
     }
   },
   {
