@@ -181,6 +181,7 @@
   },
   {
     "symbol": "BUIDL_FUNDAMENTAL",
+    "priceFeedAddress": "0xb9BD795BB71012c0F3cd1D9c9A4c686F2d3524A4",
     "deviationPercentage": 0.1,
     "heartbeat": 86400
   },
