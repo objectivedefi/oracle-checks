@@ -1219,6 +1219,33 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x326698A9b7152b45CDB70aE33331c69305C039ea",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "anon-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "ANON / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "anon-usd",
+    "proxyAddress": "0x59F075967F0abB7E9FA623CbaAb7560704D67D15",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x32f67C5e0c4A184A5eBf5ACDE79a42dBb39Fdb5c",
     "contractType": "",
     "contractVersion": 4,
@@ -5635,6 +5662,33 @@
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX"
     },
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0xfa8a26D5C443B480e9779692605Ac3101631a737",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "deusd-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "deUSD / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "deusd-usd",
+    "proxyAddress": "0x04e6b67c9875c15C26E2672dF11E1A34161E7B93",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
     "decimals": 8
   },
   {

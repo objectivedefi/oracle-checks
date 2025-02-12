@@ -1183,6 +1183,33 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x2e28a984aac100130F97B112e48E163d525bb398",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "deusd-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "deUSD / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "deusd-usd",
+    "proxyAddress": "0xa2b9BFb5CE1c7ABBC6609de17e5968eA2c20a5f1",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x2e4c363449E2EC7E93cd9ed4F3843c2CA4497108",
     "contractType": "",
     "contractVersion": 4,
@@ -1261,6 +1288,33 @@
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX"
     },
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x30De7e208Cc038673a42EA9F90b7de0F744F6C79",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "anon-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "ANON / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "anon-usd",
+    "proxyAddress": "0x38ACD8CA9612737D2Ba42881b544626A8E18b061",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
     "decimals": 8
   },
   {
@@ -29014,6 +29068,33 @@
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX"
     },
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x9b9b43029aA05729b5c391CfBB4150087eF42950",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "usdx-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "USDX / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "usdx-usd",
+    "proxyAddress": "0x68148201f743eFE9AfC2Bc62F9d6D5672d118Bb3",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
     "decimals": 8
   },
   {
