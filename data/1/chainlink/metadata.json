@@ -957,7 +957,7 @@
       "blockchainName": "Ethereum",
       "clicProductName": "C3M/EUR-RefPrice-DF-Ethereum-001",
       "deliveryChannelCode": "DF",
-      "marketHours": "MI_ETF",
+      "marketHours": "Euronext_ Milan",
       "productSubType": "Reference",
       "productType": "Price",
       "productTypeCode": "RefPrice",
