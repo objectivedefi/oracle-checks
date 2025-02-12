@@ -16607,5 +16607,19 @@
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.SYY/USD"
     }
+  },
+  {
+    "id": "0x34471f3bcaecba4cf2b6f25bc6c365216869add332d0ed2e88e542e3a3bcc2c7",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "VIP",
+      "contract_id": "story: 0x20Cb9DCb6FC306c31325bdA6221AA5e067B9Da51",
+      "description": "VERIO IP / IP REDEMPTION RATE",
+      "display_symbol": "VIP/IP",
+      "generic_symbol": "VIPIP",
+      "quote_currency": "IP",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.VIP/IP.RR"
+    }
   }
 ]
