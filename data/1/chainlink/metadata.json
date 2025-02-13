@@ -198,6 +198,33 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x06f277De95041c15e15270A144AfcF572a2F636E",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "deusd-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "deUSD / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "deusd-usd",
+    "proxyAddress": "0x471a6299C027Bd81ed4D66069dc510Bd0569f4F8",
+    "threshold": 2,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x072eC2295E72815f4D0c6B378D67De0be9781100",
     "contractType": "",
     "contractVersion": 6,
@@ -6513,43 +6540,6 @@
       "quoteAssetClic": "USD_FX"
     },
     "decimals": 8
-  },
-  {
-    "compareOffchain": "",
-    "contractAddress": "0xBD5B19E511306C6C610EFFaf93594A2f02d72Ed9",
-    "contractType": "",
-    "contractVersion": 6,
-    "decimalPlaces": null,
-    "ens": "eurr-reserves",
-    "formatDecimalPlaces": null,
-    "healthPrice": "",
-    "heartbeat": 86400,
-    "history": null,
-    "multiply": "1000000",
-    "name": "EURR Reserves",
-    "pair": [
-      "",
-      ""
-    ],
-    "path": "eurr-reserves",
-    "proxyAddress": "0x652Ac4468688f277fB84b26940e736a20A87Ac2d",
-    "threshold": 1,
-    "valuePrefix": "€",
-    "assetName": "Euro (EUR)",
-    "feedCategory": "custom",
-    "feedType": "Fiat",
-    "docs": {
-      "assetClass": "Fiat",
-      "baseAsset": "EURR",
-      "blockchainName": "Ethereum",
-      "issuer": "StablR",
-      "porAuditor": "The Network Firm",
-      "porSource": "Third-party",
-      "porType": "Off-chain",
-      "productType": "Proof of Reserve",
-      "productTypeCode": "PoR"
-    },
-    "decimals": 6
   },
   {
     "compareOffchain": "",
