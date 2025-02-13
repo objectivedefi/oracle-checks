@@ -192,6 +192,24 @@
     "heartbeat": 86400
   },
   {
+    "symbol": "egETH_FUNDAMENTAL",
+    "priceFeedAddress": "0x4914B59AB7f030d605c336CDc3f7470a2e16A53b",
+    "deviationPercentage": 0.5,
+    "heartbeat": 86400
+  },
+  {
+    "symbol": "USR",
+    "priceFeedAddress": "0x107Dd3391A6357248f2093698014e7c6130779Ee",
+    "deviationPercentage": 0.2,
+    "heartbeat": 86400
+  },
+  {
+    "symbol": "bfBTC_FUNDAMENTAL",
+    "priceFeedAddress": "0xe0d290eBA865A6CA14c1C9bFD9CD839FA8d54543",
+    "deviationPercentage": 0.5,
+    "heartbeat": 86400
+  },
+  {
     "symbol": "apxETH/ETH",
     "priceFeedAddress": "0x19219BC90F48DeE4d5cF202E09c438FAacFd8Bea",
     "deviationPercentage": 1,

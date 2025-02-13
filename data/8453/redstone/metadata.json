@@ -48,6 +48,12 @@
     "heartbeat": 86400
   },
   {
+    "symbol": "USR",
+    "priceFeedAddress": "0x4BAD96DD1C7D541270a0C92e1D4e5f12EEEA7a57",
+    "deviationPercentage": 0.2,
+    "heartbeat": 86400
+  },
+  {
     "symbol": "bsdETH/ETH",
     "priceFeedAddress": "0xC49F0Dd98F38C525A7ce15E73E60675456F3a161",
     "deviationPercentage": 0.5,
