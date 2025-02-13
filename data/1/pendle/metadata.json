@@ -199,6 +199,15 @@
   },
   {
     "chainId": 1,
+    "pt": "0x27eB97233f6228704eA64Bb272fc8eecE68FD9f4",
+    "market": "0x82D810ededb09614144900F914e75Dd76700f19d",
+    "accountingAsset": "0x4628f13651eaD6793F8d838B34B8f8522Fb0cc52",
+    "underlyingAsset": "0xc372CCdD24Bb0753CEB78bBaC4D24EB7dE4aBE4e",
+    "expiry": 1753920000,
+    "symbol": "GHO-USR"
+  },
+  {
+    "chainId": 1,
     "pt": "0x293811f161fBFea8f417e222B226BB821548Ba63",
     "market": "0x44474D98d1484C26E8d296a43a721998731Cf775",
     "accountingAsset": "0xf4d2888d29D722226FafA5d9B24F9164c092421E",
