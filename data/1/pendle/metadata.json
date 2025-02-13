@@ -780,7 +780,7 @@
     "accountingAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
     "underlyingAsset": "0xF7DE3c70F2db39a188A81052d2f3C8e3e217822a",
     "expiry": 1744848000,
-    "symbol": "ysUSDC"
+    "symbol": "SuperUSDC"
   },
   {
     "chainId": 1,
