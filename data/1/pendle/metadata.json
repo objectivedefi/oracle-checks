@@ -775,6 +775,15 @@
   },
   {
     "chainId": 1,
+    "pt": "0x8fa8dA847BC3E8a945Bae061C73af74df6375a95",
+    "market": "0x1Bd1AE9D7A377E63cD0c584A2C42B8C614937e81",
+    "accountingAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "underlyingAsset": "0xF7DE3c70F2db39a188A81052d2f3C8e3e217822a",
+    "expiry": 1744848000,
+    "symbol": "ysUSDC"
+  },
+  {
+    "chainId": 1,
     "pt": "0x9014F29610E904c8269726c74ebc79f5d512DAfD",
     "market": "0x30e0dC9a1D33EAc83211a1113de238b3Ce826950",
     "accountingAsset": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
