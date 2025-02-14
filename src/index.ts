@@ -9,6 +9,7 @@ async function runChecksForAllChains(): Promise<void> {
     const dirPath = `./data/${chainId}`;
 
     const data = await collectData(+chainId);
+    saveJSON(data.assets, `${dirPath}/assets.json`);
     saveJSON(data.chainlinkFeeds, `${dirPath}/chainlink/feeds.json`);
     saveJSON(data.chainlinkMetadata, `${dirPath}/chainlink/metadata.json`);
     saveJSON(data.chronicleFeeds, `${dirPath}/chronicle/feeds.json`);
