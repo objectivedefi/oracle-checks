@@ -9,7 +9,6 @@ async function runChecksForAllChains(): Promise<void> {
     const dirPath = `./data/${chainId}`;
 
     const data = await collectData(+chainId);
-    saveJSON(data.assets, `${dirPath}/assets.json`);
     saveJSON(data.chainlinkFeeds, `${dirPath}/chainlink/feeds.json`);
     saveJSON(data.chainlinkMetadata, `${dirPath}/chainlink/metadata.json`);
     saveJSON(data.chronicleFeeds, `${dirPath}/chronicle/feeds.json`);
@@ -19,6 +18,11 @@ async function runChecksForAllChains(): Promise<void> {
     saveJSON(data.pendleMetadata, `${dirPath}/pendle/metadata.json`);
     saveJSON(data.redstoneFeeds, `${dirPath}/redstone/feeds.json`);
     saveJSON(data.redstoneMetadata, `${dirPath}/redstone/metadata.json`);
+
+    data.assets.forEach((asset) => {
+      saveJSON(asset, `${dirPath}/assets/${asset.address}.json`);
+    });
+    saveJSON(data.assets, `${dirPath}/assets/all.json`);
 
     const checkResults = runChecks(data);
 

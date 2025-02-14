@@ -52,12 +52,18 @@ export async function collectData(chainId: number): Promise<CollectedData> {
   });
   console.log(`${logPrefix} Fetched ${routerAddresses.length} router addresses`);
 
-  let adapterAddresses = await indexRouterHistoricalAdapters({
+  const historicalAdapterAddresses = await indexRouterHistoricalAdapters({
     publicClient,
     routerAddresses,
     fromBlock,
   });
-  adapterAddresses = adapterAddresses.filter((address) => address !== zeroAddress);
+  const csvAdapterAddresses = chainConfigs[chainId].oracleAdaptersAddresses;
+
+  const adapterAddresses = Array.from(
+    new Set(
+      [...historicalAdapterAddresses, ...csvAdapterAddresses].filter((a) => a !== zeroAddress),
+    ),
+  );
 
   console.log(`${logPrefix} Found ${adapterAddresses.length} unique adapters in router history`);
 
