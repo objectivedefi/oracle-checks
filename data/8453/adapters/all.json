@@ -1430,5 +1430,8 @@
     "label": "Fixed (non-standard) - undefined/USDC",
     "methodology": "Exchange Rate",
     "model": "Push"
+  },
+  {
+    "address": "0xca1C079587F932A5B2b7255bFb30082EEEAd12Fe"
   }
 ]
