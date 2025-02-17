@@ -1,0 +1,76 @@
+{
+  "name": "PythOracle",
+  "address": "0x34718C5519dfc2d2dFD9cd151410D8b0578c83B9",
+  "chainId": 8453,
+  "base": "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "pyth": "0x8250f4aF4B972684F7b336503E2D6dFeDeB1487a",
+  "feedId": "0x76fa85158bf14ede77087fe3ae472f66213f6ea2f5b411cb2de472794990fa5c",
+  "maxStaleness": "60",
+  "maxConfWidth": "300",
+  "checks": [
+    {
+      "id": "ADAPTER_EXISTS",
+      "severity": "HIGH",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "SOURCE_CODE_PROVENANCE",
+      "severity": "HIGH",
+      "message": "Contract metadata hash matches a known hash for PythOracle: 0x12209db9ab00545537efd012d6d5b5cc23ff14a60e28abf93b84abc92c6d22160f96",
+      "pass": true
+    },
+    {
+      "id": "DISTINCT_ASSETS",
+      "severity": "HIGH",
+      "message": "No duplicates found",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42 is EURC (EURC) with 6 decimals",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+      "pass": true
+    },
+    {
+      "id": "OFFICIAL_PYTH_FEED",
+      "severity": "HIGH",
+      "message": "Adapter is connected to an official Pyth feed: EURC/USD",
+      "pass": true
+    },
+    {
+      "id": "PYTH_BASE_CORRESPONDENCE",
+      "severity": "INFO",
+      "message": "Base symbol (EURC) matches Pyth feed base asset (EURC)",
+      "pass": true
+    },
+    {
+      "id": "PYTH_QUOTE_CORRESPONDENCE",
+      "severity": "INFO",
+      "message": "Quote symbol (USD) matches Pyth feed quote asset (USD)",
+      "pass": true
+    },
+    {
+      "id": "OFFICIAL_PYTH_PROXY",
+      "severity": "HIGH",
+      "message": "Adapter is connected to the official Pyth proxy",
+      "pass": true
+    },
+    {
+      "id": "PYTH_STALENESS_RANGE",
+      "severity": "HIGH",
+      "message": "Max staleness is within the recommended range (30 - 300 seconds).",
+      "pass": true
+    }
+  ],
+  "label": "Pyth - Crypto.EURC/USD (60s, ±300bps)",
+  "methodology": "Market Price",
+  "model": "Pull"
+}

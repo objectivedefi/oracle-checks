@@ -1,0 +1,44 @@
+{
+  "name": "ChronicleOracle",
+  "address": "0xa73E4A743135c16A36CfC746699d7F53bb00aA7a",
+  "chainId": 8453,
+  "base": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0xb440E51E834bb2b3fee1a4517a4DB17bbdF588c6",
+  "maxStaleness": "5400",
+  "checks": [
+    {
+      "id": "ADAPTER_EXISTS",
+      "severity": "HIGH",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "SOURCE_CODE_PROVENANCE",
+      "severity": "HIGH",
+      "message": "Contract metadata hash matches a known hash for ChronicleOracle: 0x12202e01d438f5c4b4f15d795efac17c4d3427d9725abc03f899e5d02b6998b64aba",
+      "pass": true
+    },
+    {
+      "id": "DISTINCT_ASSETS",
+      "severity": "HIGH",
+      "message": "No duplicates found",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913 is USDC (USD Coin) with 6 decimals",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+      "pass": true
+    }
+  ],
+  "label": "Chronicle - USDC/USD",
+  "methodology": "Unknown",
+  "model": "Push"
+}

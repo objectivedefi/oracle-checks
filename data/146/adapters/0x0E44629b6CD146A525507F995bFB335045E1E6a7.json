@@ -1,0 +1,76 @@
+{
+  "name": "PythOracle",
+  "address": "0x0E44629b6CD146A525507F995bFB335045E1E6a7",
+  "chainId": 146,
+  "base": "0xE8a41c62BB4d5863C6eadC96792cFE90A1f37C47",
+  "quote": "0x3bcE5CB273F0F148010BbEa2470e7b5df84C7812",
+  "pyth": "0x2880aB155794e7179c9eE2e38200202908C17B43",
+  "feedId": "0xb680422b70915df562e4802bd8679112ff0f6b0a29ec2c3762ae2720eda01e58",
+  "maxStaleness": "60",
+  "maxConfWidth": "300",
+  "checks": [
+    {
+      "id": "ADAPTER_EXISTS",
+      "severity": "HIGH",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "SOURCE_CODE_PROVENANCE",
+      "severity": "HIGH",
+      "message": "Contract metadata hash mismatch for PythOracle: got 0x122074fdfdb3b8069cb8858ed412fa5f27c7d92c64a57f0d1f51d2d764c7c85473d2, expected one of 0x1220f9155b7907a46982476065d75a7f4cc5920c9c43a6399479f847b6f11e48bd68, 0x1220b35e8842c40b4c90cef9861ee91311e2f2acbd8ecfdf216d4726f81b9432721f, 0x122036f3e70a84fc574aa2e095c94651099d69a883268e7e8034abbe1b22179cfefa, 0x1220665cf9cd8995c0adad76fc2323ab10da067f370f98ae7c9274ad2a8b6581f44a, 0x1220fba0bce2bf102553ecd23e12bb631973b5013b10d705cf7fc994d0e42877d2c0, 0x12209dbb70d12bdff6bb916789206bdd641058efc8c5d7de6fba6bf4148077bcee57, 0x122044b16fa48a1396d7254ad68e021914cc0485f42a69eea003035927f9aeed1f56, 0x1220f246a4266166da46653e2028acf10ef9a9ddb00fb781aed7daa0b77c51379c09, 0x12209db9ab00545537efd012d6d5b5cc23ff14a60e28abf93b84abc92c6d22160f96",
+      "pass": false
+    },
+    {
+      "id": "DISTINCT_ASSETS",
+      "severity": "HIGH",
+      "message": "No duplicates found",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0xE8a41c62BB4d5863C6eadC96792cFE90A1f37C47 is wstkscETH (Wrapped stkscETH) with 18 decimals",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x3bcE5CB273F0F148010BbEa2470e7b5df84C7812 is scETH (Sonic ETH) with 18 decimals",
+      "pass": true
+    },
+    {
+      "id": "OFFICIAL_PYTH_FEED",
+      "severity": "HIGH",
+      "message": "Adapter is connected to an official Pyth feed: WSTKSCETH/SCETH",
+      "pass": true
+    },
+    {
+      "id": "PYTH_BASE_CORRESPONDENCE",
+      "severity": "INFO",
+      "message": "Base symbol (wstkscETH) matches Pyth feed base asset (WSTKSCETH)",
+      "pass": true
+    },
+    {
+      "id": "PYTH_QUOTE_CORRESPONDENCE",
+      "severity": "INFO",
+      "message": "Quote symbol (scETH) matches Pyth feed quote asset (SCETH)",
+      "pass": true
+    },
+    {
+      "id": "OFFICIAL_PYTH_PROXY",
+      "severity": "HIGH",
+      "message": "Adapter is connected to the official Pyth proxy",
+      "pass": true
+    },
+    {
+      "id": "PYTH_STALENESS_RANGE",
+      "severity": "HIGH",
+      "message": "Max staleness is within the recommended range (30 - 300 seconds).",
+      "pass": true
+    }
+  ],
+  "label": "Pyth - Crypto.WSTKSCETH/SCETH.RR (60s, ±300bps)",
+  "methodology": "Exchange Rate",
+  "model": "Pull"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "RedstoneCoreOracle",
+  "address": "0xd5950Bc3763Af2f61Cb8cE96e68345E0de1919B8",
+  "chainId": 1,
+  "base": "0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feedId": "0x7273455448000000000000000000000000000000000000000000000000000000",
+  "feedDecimals": 8,
+  "maxStaleness": "120",
+  "checks": [
+    {
+      "id": "ADAPTER_EXISTS",
+      "severity": "HIGH",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "SOURCE_CODE_PROVENANCE",
+      "severity": "HIGH",
+      "message": "Contract metadata hash matches a known hash for RedstoneCoreOracle: 0x1220b91ac3ca26a68bf539f1d0b96b675c6e329e73fa0afe944f154daa5bcdb0e272",
+      "pass": true
+    },
+    {
+      "id": "DISTINCT_ASSETS",
+      "severity": "HIGH",
+      "message": "No duplicates found",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7 is rsETH (rsETH) with 18 decimals",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+      "pass": true
+    }
+  ],
+  "label": "",
+  "methodology": "Unknown",
+  "model": "Unknown"
+}

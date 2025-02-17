@@ -1,0 +1,44 @@
+{
+  "name": "ChronicleOracle",
+  "address": "0x03eCA93727e268FcA65baea35912014B6F446142",
+  "chainId": 8453,
+  "base": "0x4200000000000000000000000000000000000006",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0x152598809FB59db55cA76f89a192Fb23555531D8",
+  "maxStaleness": "5400",
+  "checks": [
+    {
+      "id": "ADAPTER_EXISTS",
+      "severity": "HIGH",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "SOURCE_CODE_PROVENANCE",
+      "severity": "HIGH",
+      "message": "Contract metadata hash matches a known hash for ChronicleOracle: 0x12202e01d438f5c4b4f15d795efac17c4d3427d9725abc03f899e5d02b6998b64aba",
+      "pass": true
+    },
+    {
+      "id": "DISTINCT_ASSETS",
+      "severity": "HIGH",
+      "message": "No duplicates found",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x4200000000000000000000000000000000000006 is WETH (Wrapped Ether) with 18 decimals",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+      "pass": true
+    }
+  ],
+  "label": "Chronicle - ETH/USD",
+  "methodology": "Unknown",
+  "model": "Push"
+}

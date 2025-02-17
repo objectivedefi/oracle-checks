@@ -1,11 +1,51 @@
 [
   {
+    "address": "0xB88BAc61a4Ca37C43a3725912B1f472c9A5bc061",
+    "chainId": 8453,
+    "accessController": "0x0000000000000000000000000000000000000000",
+    "aggregator": "0x04030d2F38Bc799aF9B0AaB5757ADC98000D7DeD",
+    "decimals": 18,
+    "description": "wstETH-stETH Exchange Rate",
+    "owner": "0xf0Db7318A51a21C413CaDd4AbDC1E8a500fE5B1b",
+    "version": "4"
+  },
+  {
     "address": "0x7e860098F58bBFC8648a4311b374B1D669a2bc6B",
     "chainId": 8453,
     "accessController": "0x0000000000000000000000000000000000000000",
     "aggregator": "0x0Ee7145e1370653533e2F2E824424bE2AA95A4Aa",
     "decimals": 8,
     "description": "USDC / USD",
+    "owner": "0xf0Db7318A51a21C413CaDd4AbDC1E8a500fE5B1b",
+    "version": "4"
+  },
+  {
+    "address": "0x868a501e68F3D1E89CfC0D22F6b22E8dabce5F04",
+    "chainId": 8453,
+    "accessController": "0x0000000000000000000000000000000000000000",
+    "aggregator": "0x16f542BC40723DfE8976A334564eF0c3CfD602Fd",
+    "decimals": 18,
+    "description": "cbETH-ETH Exchange Rate",
+    "owner": "0xf0Db7318A51a21C413CaDd4AbDC1E8a500fE5B1b",
+    "version": "4"
+  },
+  {
+    "address": "0x35e9D7001819Ea3B39Da906aE6b06A62cfe2c181",
+    "chainId": 8453,
+    "accessController": "0x0000000000000000000000000000000000000000",
+    "aggregator": "0x19e6821Ee47a4c23E5971fEBeE29f78C2e514DC8",
+    "decimals": 18,
+    "description": "weETH / eETH Exchange Rate",
+    "owner": "0xf0Db7318A51a21C413CaDd4AbDC1E8a500fE5B1b",
+    "version": "4"
+  },
+  {
+    "address": "0xC4300B7CF0646F0Fe4C5B2ACFCCC4dCA1346f5d8",
+    "chainId": 8453,
+    "accessController": "0x0000000000000000000000000000000000000000",
+    "aggregator": "0x233A45BF331B35440D45e9BEB1fdF2FbB7B4e3D2",
+    "decimals": 18,
+    "description": "ezETH / ETH Exchange Rate",
     "owner": "0xf0Db7318A51a21C413CaDd4AbDC1E8a500fE5B1b",
     "version": "4"
   },

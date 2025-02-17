@@ -1,0 +1,42 @@
+{
+  "name": "IdleTranchesOracle",
+  "address": "0xFc15ec9c88ca6FE3edd96465E7c4092e57427c62",
+  "chainId": 1,
+  "tranche": "0x45054c6753b4Bce40C5d54418DabC20b070F85bE",
+  "underlying": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+  "checks": [
+    {
+      "id": "ADAPTER_EXISTS",
+      "severity": "HIGH",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "SOURCE_CODE_PROVENANCE",
+      "severity": "HIGH",
+      "message": "Contract metadata hash matches a known hash for IdleTranchesOracle: 0x12205fab90911f9465e9f90d80ef81361680dedc1af9c5ec17910c1ac452ebbcb893",
+      "pass": true
+    },
+    {
+      "id": "DISTINCT_ASSETS",
+      "severity": "HIGH",
+      "message": "No duplicates found",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x45054c6753b4Bce40C5d54418DabC20b070F85bE is AA_idle_Fasanara (IdleCDO AA Tranche - idle_Fasanara) with 18 decimals",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 is USDC (USD Coin) with 6 decimals",
+      "pass": true
+    }
+  ],
+  "label": "",
+  "methodology": "Unknown",
+  "model": "Unknown"
+}

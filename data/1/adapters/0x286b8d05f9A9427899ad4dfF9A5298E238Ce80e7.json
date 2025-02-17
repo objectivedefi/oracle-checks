@@ -1,0 +1,43 @@
+{
+  "name": "RateProviderOracle",
+  "address": "0x286b8d05f9A9427899ad4dfF9A5298E238Ce80e7",
+  "chainId": 1,
+  "base": "0xae78736Cd615f374D3085123A210448E74Fc6393",
+  "quote": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+  "rateProvider": "0x1a8F81c256aee9C640e14bB0453ce247ea0DFE6F",
+  "checks": [
+    {
+      "id": "ADAPTER_EXISTS",
+      "severity": "HIGH",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "SOURCE_CODE_PROVENANCE",
+      "severity": "HIGH",
+      "message": "Contract metadata hash matches a known hash for RateProviderOracle: 0x1220f2352f54dc7c4c46d6469718ea090c3b9630a9116d4666c7d258da5d7885e795",
+      "pass": true
+    },
+    {
+      "id": "DISTINCT_ASSETS",
+      "severity": "HIGH",
+      "message": "No duplicates found",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0xae78736Cd615f374D3085123A210448E74Fc6393 is rETH (Rocket Pool ETH) with 18 decimals",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 is WETH (Wrapped Ether) with 18 decimals",
+      "pass": true
+    }
+  ],
+  "label": "RateProvider - 0xae78736Cd615f374D3085123A210448E74Fc6393/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+  "methodology": "Exchange Rate",
+  "model": "Push"
+}

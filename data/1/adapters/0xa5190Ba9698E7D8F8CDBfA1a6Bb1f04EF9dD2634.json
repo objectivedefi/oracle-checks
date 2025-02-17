@@ -1,0 +1,45 @@
+{
+  "name": "RedstoneCoreOracle",
+  "address": "0xa5190Ba9698E7D8F8CDBfA1a6Bb1f04EF9dD2634",
+  "chainId": 1,
+  "base": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feedId": "0x4d4b520000000000000000000000000000000000000000000000000000000000",
+  "feedDecimals": 8,
+  "maxStaleness": "120",
+  "checks": [
+    {
+      "id": "ADAPTER_EXISTS",
+      "severity": "HIGH",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "SOURCE_CODE_PROVENANCE",
+      "severity": "HIGH",
+      "message": "Contract metadata hash matches a known hash for RedstoneCoreOracle: 0x1220b91ac3ca26a68bf539f1d0b96b675c6e329e73fa0afe944f154daa5bcdb0e272",
+      "pass": true
+    },
+    {
+      "id": "DISTINCT_ASSETS",
+      "severity": "HIGH",
+      "message": "No duplicates found",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2 is a special designator address",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+      "pass": true
+    }
+  ],
+  "label": "",
+  "methodology": "Unknown",
+  "model": "Unknown"
+}

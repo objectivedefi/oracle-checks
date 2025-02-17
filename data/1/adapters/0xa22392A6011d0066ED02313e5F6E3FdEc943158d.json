@@ -1,0 +1,45 @@
+{
+  "name": "RedstoneCoreOracle",
+  "address": "0xa22392A6011d0066ED02313e5F6E3FdEc943158d",
+  "chainId": 1,
+  "base": "0x5E8422345238F34275888049021821E8E08CAa1f",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feedId": "0x6672784554480000000000000000000000000000000000000000000000000000",
+  "feedDecimals": 8,
+  "maxStaleness": "120",
+  "checks": [
+    {
+      "id": "ADAPTER_EXISTS",
+      "severity": "HIGH",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "SOURCE_CODE_PROVENANCE",
+      "severity": "HIGH",
+      "message": "Contract metadata hash matches a known hash for RedstoneCoreOracle: 0x1220b91ac3ca26a68bf539f1d0b96b675c6e329e73fa0afe944f154daa5bcdb0e272",
+      "pass": true
+    },
+    {
+      "id": "DISTINCT_ASSETS",
+      "severity": "HIGH",
+      "message": "No duplicates found",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x5E8422345238F34275888049021821E8E08CAa1f is frxETH (Frax Ether) with 18 decimals",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+      "pass": true
+    }
+  ],
+  "label": "",
+  "methodology": "Unknown",
+  "model": "Unknown"
+}

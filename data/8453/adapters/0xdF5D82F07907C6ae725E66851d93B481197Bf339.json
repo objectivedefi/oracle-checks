@@ -1,0 +1,43 @@
+{
+  "name": "RateProviderOracle",
+  "address": "0xdF5D82F07907C6ae725E66851d93B481197Bf339",
+  "chainId": 8453,
+  "base": "0xB6fe221Fe9EeF5aBa221c348bA20A1Bf5e73624c",
+  "quote": "0x4200000000000000000000000000000000000006",
+  "rateProvider": "0x039f7205C2cBa4535C2575123Ac3D657263892c4",
+  "checks": [
+    {
+      "id": "ADAPTER_EXISTS",
+      "severity": "HIGH",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "SOURCE_CODE_PROVENANCE",
+      "severity": "HIGH",
+      "message": "Contract metadata hash mismatch for RateProviderOracle: got 0x12205e8fbfeda47b46436ef6d9cd7a7abb748d11d070d428bcc1313059127c46e111, expected one of 0x12204dfb13d1f41e79fd65f5c46409e631f3fe4ae9f840a8266957f79aecfff1b955, 0x1220f2352f54dc7c4c46d6469718ea090c3b9630a9116d4666c7d258da5d7885e795, 0x12205e85b75821595a40fc99b7d2d472063c543dcac101ef1bc8ddc2524c867f3aab",
+      "pass": false
+    },
+    {
+      "id": "DISTINCT_ASSETS",
+      "severity": "HIGH",
+      "message": "No duplicates found",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0xB6fe221Fe9EeF5aBa221c348bA20A1Bf5e73624c is rETH (Rocket Pool ETH) with 18 decimals",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x4200000000000000000000000000000000000006 is WETH (Wrapped Ether) with 18 decimals",
+      "pass": true
+    }
+  ],
+  "label": "RateProvider - 0xB6fe221Fe9EeF5aBa221c348bA20A1Bf5e73624c/0x4200000000000000000000000000000000000006",
+  "methodology": "Exchange Rate",
+  "model": "Push"
+}

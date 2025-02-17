@@ -1,0 +1,50 @@
+{
+  "name": "PendleOracle",
+  "address": "0xaD630626c8555965307e8A2C0Df6FEe700032648",
+  "chainId": 8453,
+  "base": "0xec443e7E0e745348E500084892C89218B3ba4683",
+  "quote": "0x35E5dB674D8e93a03d814FA0ADa70731efe8a4b9",
+  "pendleMarket": "0xE15578523937ed7F08E8F7a1Fa8a021E07025a08",
+  "twapWindow": "900",
+  "checks": [
+    {
+      "id": "ADAPTER_EXISTS",
+      "severity": "HIGH",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "SOURCE_CODE_PROVENANCE",
+      "severity": "HIGH",
+      "message": "Contract metadata hash mismatch for PendleOracle: got 0x12206cb0f4b432754cc2226baaa5a825d331cdd5d67f047e8f8085cb34c2a13ac4c7, expected one of 0x122046ab86b5153aa2a61ffad4545a71a89edd4a2a4ff65d106a19cddce4d81d7b47, 0x12207f25a0f27ca83891a73ceda39e6b00aa9f8fb3225505557020529b217c3a5d62, 0x1220e3c00e1a4ced46e1bfd47dcc9d456af1a0a17c76f1039cafef62a352e8b8a9bd, 0x122026b1cc67ec90e1ad83c8d4904cf6465d6dc98db94d42b5764a34817d7d54b183, 0x12204b2f608da04885c43f1bd83139f5773c54982ecf78961a563ffcebc616596863",
+      "pass": false
+    },
+    {
+      "id": "DISTINCT_ASSETS",
+      "severity": "HIGH",
+      "message": "No duplicates found",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0xec443e7E0e745348E500084892C89218B3ba4683 is PT-USR-24APR2025 (PT Resolv USD 24APR2025) with 18 decimals",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x35E5dB674D8e93a03d814FA0ADa70731efe8a4b9 is USR (Resolv USD) with 18 decimals",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0xE15578523937ed7F08E8F7a1Fa8a021E07025a08 is PENDLE-LPT (Pendle Market) with 18 decimals",
+      "pass": true
+    }
+  ],
+  "label": "Pendle - USR",
+  "methodology": "TWAP",
+  "model": "Push"
+}

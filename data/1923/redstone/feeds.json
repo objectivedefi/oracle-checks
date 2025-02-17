@@ -81,6 +81,15 @@
     "priceFeedAdapter": "0x24c8964338Deb5204B096039147B8e8C3AEa42Cc"
   },
   {
+    "address": "0x24eDD61cdA334bFf871A80DEB135073a7d7a9187",
+    "chainId": 1923,
+    "decimals": 8,
+    "description": "RedStone Price Feed for SWELL/ETH",
+    "version": "1",
+    "dataFeedId": "0x5357454c4c2f4554480000000000000000000000000000000000000000000000",
+    "priceFeedAdapter": "0x24c8964338Deb5204B096039147B8e8C3AEa42Cc"
+  },
+  {
     "address": "0xddE3b77040cee3387C0cA661d1b619C3acA203b0",
     "chainId": 1923,
     "decimals": 8,

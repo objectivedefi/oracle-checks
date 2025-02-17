@@ -1,0 +1,45 @@
+{
+  "name": "RedstoneCoreOracle",
+  "address": "0xfDE0600A4b2dF2ebA557269B99cC3335fCD20568",
+  "chainId": 1,
+  "base": "0xE72B141DF173b999AE7c1aDcbF60Cc9833Ce56a8",
+  "quote": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+  "feedId": "0x4554482b2f455448000000000000000000000000000000000000000000000000",
+  "feedDecimals": 8,
+  "maxStaleness": "120",
+  "checks": [
+    {
+      "id": "ADAPTER_EXISTS",
+      "severity": "HIGH",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "SOURCE_CODE_PROVENANCE",
+      "severity": "HIGH",
+      "message": "Contract metadata hash matches a known hash for RedstoneCoreOracle: 0x1220b91ac3ca26a68bf539f1d0b96b675c6e329e73fa0afe944f154daa5bcdb0e272",
+      "pass": true
+    },
+    {
+      "id": "DISTINCT_ASSETS",
+      "severity": "HIGH",
+      "message": "No duplicates found",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0xE72B141DF173b999AE7c1aDcbF60Cc9833Ce56a8 is ETH+ (ETHPlus) with 18 decimals",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 is WETH (Wrapped Ether) with 18 decimals",
+      "pass": true
+    }
+  ],
+  "label": "",
+  "methodology": "Unknown",
+  "model": "Unknown"
+}

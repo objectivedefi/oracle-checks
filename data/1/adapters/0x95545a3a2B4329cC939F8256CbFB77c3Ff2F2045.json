@@ -1,0 +1,43 @@
+{
+  "name": "RateProviderOracle",
+  "address": "0x95545a3a2B4329cC939F8256CbFB77c3Ff2F2045",
+  "chainId": 1,
+  "base": "0xBe9895146f7AF43049ca1c1AE358B0541Ea49704",
+  "quote": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+  "rateProvider": "0x7311E4BB8a72e7B300c5B8BDE4de6CdaA822a5b1",
+  "checks": [
+    {
+      "id": "ADAPTER_EXISTS",
+      "severity": "HIGH",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "SOURCE_CODE_PROVENANCE",
+      "severity": "HIGH",
+      "message": "Contract metadata hash matches a known hash for RateProviderOracle: 0x1220f2352f54dc7c4c46d6469718ea090c3b9630a9116d4666c7d258da5d7885e795",
+      "pass": true
+    },
+    {
+      "id": "DISTINCT_ASSETS",
+      "severity": "HIGH",
+      "message": "No duplicates found",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0xBe9895146f7AF43049ca1c1AE358B0541Ea49704 is cbETH (Coinbase Wrapped Staked ETH) with 18 decimals",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 is WETH (Wrapped Ether) with 18 decimals",
+      "pass": true
+    }
+  ],
+  "label": "RateProvider - 0xBe9895146f7AF43049ca1c1AE358B0541Ea49704/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+  "methodology": "Exchange Rate",
+  "model": "Push"
+}
