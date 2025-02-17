@@ -65,7 +65,9 @@ export async function collectData(chainId: number): Promise<CollectedData> {
     ),
   );
 
-  console.log(`${logPrefix} Found ${adapterAddresses.length} unique adapters in router history`);
+  console.log(
+    `${logPrefix} Found ${adapterAddresses.length} unique adapters (${historicalAdapterAddresses.length} in router history, ${csvAdapterAddresses.length} in csv)`,
+  );
 
   const addressBatches = batchArray(adapterAddresses, BATCH_SIZE);
 
