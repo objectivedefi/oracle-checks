@@ -1685,19 +1685,6 @@
     }
   },
   {
-    "id": "0x2356af9529a1064d41e32d617e2ce1dca5733afa901daba9e2b68dee5d53ecf9",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "CAKE",
-      "description": "PANCAKESWAP / US DOLLAR",
-      "display_symbol": "CAKE/USD",
-      "generic_symbol": "CAKEUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.CAKE/USD"
-    }
-  },
-  {
     "id": "0x15ecddd26d49e1a8f1de9376ebebc03916ede873447c1255d2d5891b92ce5717",
     "attributes": {
       "asset_type": "Crypto",
@@ -1826,19 +1813,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.APT/USD"
-    }
-  },
-  {
-    "id": "0x097d687437374051c75160d648800f021086bc8edf469f11284491fda8192315",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "BTT",
-      "description": "BITTORRENT / US DOLLAR",
-      "display_symbol": "BTT/USD",
-      "generic_symbol": "BTTUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.BTT/USD"
     }
   },
   {
@@ -7856,19 +7830,6 @@
     }
   },
   {
-    "id": "0x91519e3e48571e1232a85a938e714da19fe5ce05107f3eebb8a870b2e8020169",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "ME",
-      "description": "MAGIC EDEN / US DOLLAR",
-      "display_symbol": "ME/USD",
-      "generic_symbol": "MEUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.ME/USD"
-    }
-  },
-  {
     "id": "0xd98869edbb4a0d2803dc1054405bceb1ddc546bfc9a3d0e31bb0e0448e6181e1",
     "attributes": {
       "asset_type": "Crypto",
@@ -7974,19 +7935,6 @@
       "quote_currency": "USD",
       "schedule": "GMT;0100-2200,0100-2200,0100-2200,0100-2200,0100-2145,C,C;1224/0100-1900,1225/C,1226/0600-2200,1231/0100-2000,0101/C,0102/0600-2200",
       "symbol": "Commodities.UKOILSPOT"
-    }
-  },
-  {
-    "id": "0x8ae2df78eec18e436b1a796f6448cf6228880dd95ff93b565264cad71cc212ef",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "AAA",
-      "description": "AAA CAT / US DOLLAR",
-      "display_symbol": "AAA/USD",
-      "generic_symbol": "AAAUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.AAA/USD"
     }
   },
   {
