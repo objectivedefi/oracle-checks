@@ -45,7 +45,8 @@
       "pass": true
     }
   ],
-  "label": "",
+  "label": "Cross - EURA/EUR/USD",
   "methodology": "Unknown",
-  "model": "Unknown"
+  "model": "Unknown",
+  "provider": "Cross"
 }

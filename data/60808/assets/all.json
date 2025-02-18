@@ -28,6 +28,13 @@
     "decimals": 18
   },
   {
+    "address": "0xe75D0fB2C24A55cA1e3F96781a2bCC7bdba058F0",
+    "chainId": 60808,
+    "name": "Bridged USDC (BOB)",
+    "symbol": "USDC.e",
+    "decimals": 6
+  },
+  {
     "address": "0xBBa2eF945D523C4e2608C9E1214C2Cc64D4fc2e2",
     "chainId": 60808,
     "name": "tBTC v2",
@@ -40,12 +47,5 @@
     "name": "uniBTC",
     "symbol": "uniBTC",
     "decimals": 8
-  },
-  {
-    "address": "0xe75D0fB2C24A55cA1e3F96781a2bCC7bdba058F0",
-    "chainId": 60808,
-    "name": "Bridged USDC (BOB)",
-    "symbol": "USDC.e",
-    "decimals": 6
   }
 ]

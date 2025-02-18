@@ -45,7 +45,8 @@
       "pass": true
     }
   ],
-  "label": "",
+  "label": "Cross - PT-LBTC-29MAY2025/cbBTC/USD",
   "methodology": "Unknown",
-  "model": "Unknown"
+  "model": "Unknown",
+  "provider": "Cross"
 }

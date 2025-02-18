@@ -40,5 +40,6 @@
   ],
   "label": "Chronicle - CBBTC/USDC",
   "methodology": "Unknown",
-  "model": "Push"
+  "model": "Push",
+  "provider": "Chronicle"
 }

@@ -36,7 +36,8 @@
       "pass": true
     }
   ],
-  "label": "",
+  "label": "Idle - AA_idle_Fasanara/USDC",
   "methodology": "Unknown",
-  "model": "Unknown"
+  "model": "Unknown",
+  "provider": "Idle"
 }

@@ -39,7 +39,8 @@
       "pass": true
     }
   ],
-  "label": "",
+  "label": "Redstone Pull - USDT/USD",
   "methodology": "Unknown",
-  "model": "Unknown"
+  "model": "Pull",
+  "provider": "RedStone Pull"
 }

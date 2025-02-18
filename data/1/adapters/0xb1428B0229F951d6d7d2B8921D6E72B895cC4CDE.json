@@ -46,5 +46,6 @@
   ],
   "label": "Chainlink - LINK / ETH (1%, 21600s)",
   "methodology": "Market Price",
-  "model": "Push"
+  "model": "Push",
+  "provider": "Chainlink"
 }

@@ -47,7 +47,8 @@
     ],
     "label": "RedStone - USDC (0.5%, 21600s)",
     "methodology": "Market Price",
-    "model": "Push"
+    "model": "Push",
+    "provider": "RedStone"
   },
   {
     "name": "ChainlinkOracle",
@@ -97,7 +98,8 @@
     ],
     "label": "Chainlink - ETH / USD (0.5%, 86400s)",
     "methodology": "Market Price",
-    "model": "Push"
+    "model": "Push",
+    "provider": "Chainlink"
   },
   {
     "name": "ChainlinkOracle",
@@ -147,7 +149,8 @@
     ],
     "label": "Chainlink - USDC / USD (0.3%, 86400s)",
     "methodology": "Market Price",
-    "model": "Push"
+    "model": "Push",
+    "provider": "Chainlink"
   },
   {
     "name": "CrossAdapter",
@@ -196,9 +199,10 @@
         "pass": true
       }
     ],
-    "label": "",
+    "label": "Cross - scETH/WETH/USD",
     "methodology": "Unknown",
-    "model": "Unknown"
+    "model": "Unknown",
+    "provider": "Cross"
   },
   {
     "name": "ChainlinkOracle",
@@ -248,7 +252,8 @@
     ],
     "label": "RedStone - scUSD_FUNDAMENTAL (0.5%, 21600s)",
     "methodology": "Exchange Rate",
-    "model": "Push"
+    "model": "Push",
+    "provider": "RedStone"
   },
   {
     "name": "CrossAdapter",
@@ -297,9 +302,10 @@
         "pass": true
       }
     ],
-    "label": "",
+    "label": "Cross - wstkscETH/WETH/USD",
     "methodology": "Unknown",
-    "model": "Unknown"
+    "model": "Unknown",
+    "provider": "Cross"
   },
   {
     "name": "CrossAdapter",
@@ -348,9 +354,10 @@
         "pass": true
       }
     ],
-    "label": "",
+    "label": "Cross - wstkscUSD/scUSD/USD",
     "methodology": "Unknown",
-    "model": "Unknown"
+    "model": "Unknown",
+    "provider": "Cross"
   },
   {
     "name": "ChainlinkOracle",
@@ -400,7 +407,8 @@
     ],
     "label": "Chainlink - S / USD (0.5%, 86400s)",
     "methodology": "Market Price",
-    "model": "Push"
+    "model": "Push",
+    "provider": "Chainlink"
   },
   {
     "name": "CrossAdapter",
@@ -449,9 +457,10 @@
         "pass": true
       }
     ],
-    "label": "",
+    "label": "Cross - stS/wS/USD",
     "methodology": "Unknown",
-    "model": "Unknown"
+    "model": "Unknown",
+    "provider": "Cross"
   },
   {
     "name": "CrossAdapter",
@@ -500,9 +509,10 @@
         "pass": true
       }
     ],
-    "label": "",
+    "label": "Cross - OS/wS/USD",
     "methodology": "Unknown",
-    "model": "Unknown"
+    "model": "Unknown",
+    "provider": "Cross"
   },
   {
     "name": "FixedRateOracle",
@@ -551,7 +561,8 @@
     ],
     "label": "Fixed (1:1) - OS/wS",
     "methodology": "Exchange Rate",
-    "model": "Push"
+    "model": "Push",
+    "provider": "Fixed Rate"
   },
   {
     "name": "PythOracle",
@@ -627,7 +638,8 @@
     ],
     "label": "Pyth - Crypto.WSTKSCETH/SCETH.RR (60s, ±300bps)",
     "methodology": "Exchange Rate",
-    "model": "Pull"
+    "model": "Pull",
+    "provider": "Pyth"
   },
   {
     "name": "PythOracle",
@@ -703,7 +715,8 @@
     ],
     "label": "Pyth - Crypto.WSTKSCUSD/SCUSD.RR (60s, ±300bps)",
     "methodology": "Exchange Rate",
-    "model": "Pull"
+    "model": "Pull",
+    "provider": "Pyth"
   },
   {
     "name": "ChainlinkOracle",
@@ -753,7 +766,8 @@
     ],
     "label": "RedStone - stS_FUNDAMENTAL (0.5%, 21600s)",
     "methodology": "Exchange Rate",
-    "model": "Push"
+    "model": "Push",
+    "provider": "RedStone"
   },
   {
     "name": "ChainlinkOracle",
@@ -803,7 +817,8 @@
     ],
     "label": "RedStone - scETH_FUNDAMENTAL (0.5%, 21600s)",
     "methodology": "Exchange Rate",
-    "model": "Push"
+    "model": "Push",
+    "provider": "RedStone"
   },
   {
     "name": "CrossAdapter",
@@ -852,8 +867,9 @@
         "pass": true
       }
     ],
-    "label": "",
+    "label": "Cross - wstkscETH/scETH/WETH",
     "methodology": "Unknown",
-    "model": "Unknown"
+    "model": "Unknown",
+    "provider": "Cross"
   }
 ]

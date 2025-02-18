@@ -45,7 +45,8 @@
       "pass": true
     }
   ],
-  "label": "",
+  "label": "Cross - PT-wstUSR-27MAR2025/USR/USD",
   "methodology": "Unknown",
-  "model": "Unknown"
+  "model": "Unknown",
+  "provider": "Cross"
 }

@@ -46,5 +46,6 @@
   ],
   "label": "RedStone - USD3 (0.5%, 86400s)",
   "methodology": "Market Price",
-  "model": "Push"
+  "model": "Push",
+  "provider": "RedStone"
 }

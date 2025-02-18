@@ -46,5 +46,6 @@
   ],
   "label": "Pendle - wstUSR",
   "methodology": "TWAP",
-  "model": "Push"
+  "model": "Push",
+  "provider": "Pendle"
 }

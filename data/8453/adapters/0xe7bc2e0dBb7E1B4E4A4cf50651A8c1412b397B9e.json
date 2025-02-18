@@ -40,5 +40,6 @@
   ],
   "label": "Chronicle - WSTETH/USD",
   "methodology": "Unknown",
-  "model": "Push"
+  "model": "Push",
+  "provider": "Chronicle"
 }

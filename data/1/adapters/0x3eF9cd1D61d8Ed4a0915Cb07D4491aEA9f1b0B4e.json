@@ -45,7 +45,8 @@
       "pass": true
     }
   ],
-  "label": "",
+  "label": "Cross - PT-EBTC-26DEC2024/eBTC/BTC",
   "methodology": "Unknown",
-  "model": "Unknown"
+  "model": "Unknown",
+  "provider": "Cross"
 }

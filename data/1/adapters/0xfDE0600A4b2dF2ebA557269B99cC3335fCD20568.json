@@ -39,7 +39,8 @@
       "pass": true
     }
   ],
-  "label": "",
+  "label": "Redstone Pull - ETH+/WETH",
   "methodology": "Unknown",
-  "model": "Unknown"
+  "model": "Pull",
+  "provider": "RedStone Pull"
 }

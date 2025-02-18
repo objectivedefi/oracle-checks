@@ -44,5 +44,6 @@
   ],
   "label": "Fixed (non-standard) - undefined/USDC",
   "methodology": "Exchange Rate",
-  "model": "Push"
+  "model": "Push",
+  "provider": "Fixed Rate"
 }

@@ -46,5 +46,6 @@
   ],
   "label": "Pendle - sUSDe",
   "methodology": "TWAP",
-  "model": "Push"
+  "model": "Push",
+  "provider": "Pendle"
 }

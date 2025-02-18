@@ -1,11 +1,11 @@
 {
-  "name": "ChainlinkOracle",
-  "address": "0x27208F64626b294542d1aCBA6bB56950cfDa15B7",
-  "chainId": 8453,
-  "base": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+  "name": "ChainlinkInfrequentOracle",
+  "address": "0x74b77011c244bD7EDff34E4cbf23fe41DeFA313d",
+  "chainId": 60808,
+  "base": "0xe75D0fB2C24A55cA1e3F96781a2bCC7bdba058F0",
   "quote": "0x0000000000000000000000000000000000000348",
-  "feed": "0x64c911996D3c6aC71f9b455B1E8E7266BcbD848F",
-  "maxStaleness": "4800",
+  "feed": "0xD3C586Eec1C6C3eC41D276a23944dea080eDCf7f",
+  "maxStaleness": "31536000",
   "checks": [
     {
       "id": "ADAPTER_EXISTS",
@@ -16,7 +16,7 @@
     {
       "id": "SOURCE_CODE_PROVENANCE",
       "severity": "HIGH",
-      "message": "Contract metadata hash matches a known hash for ChainlinkOracle: 0x1220f845d68829d96b6729958026d7d354231a3769dd7781c5008a2bc49e702c7d89",
+      "message": "Contract metadata hash matches a known hash for ChainlinkInfrequentOracle: 0x1220bbc39c409d4697c843913afb02e2a76062f903f0e904eb2b5790988f5a21482e",
       "pass": true
     },
     {
@@ -28,7 +28,7 @@
     {
       "id": "CONSISTENT_ASSET",
       "severity": "HIGH",
-      "message": "Asset 0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf is cbBTC (Coinbase Wrapped BTC) with 8 decimals",
+      "message": "Asset 0xe75D0fB2C24A55cA1e3F96781a2bCC7bdba058F0 is USDC.e (Bridged USDC (BOB)) with 6 decimals",
       "pass": true
     },
     {
@@ -40,12 +40,12 @@
     {
       "id": "PUSH_STALENESS_BUFFER",
       "severity": "MED",
-      "message": "Adapter max staleness (4800) is sufficient for the feed's heartbeat (1200).",
-      "pass": true
+      "message": "Feed heartbeat is unknown",
+      "pass": false
     }
   ],
-  "label": "Chainlink - BTC / USD (0.1%, 1200s)",
-  "methodology": "Market Price",
+  "label": "Unknown AggregatorV3 Feed",
+  "methodology": "Unknown",
   "model": "Push",
-  "provider": "Chainlink"
+  "provider": "Unknown"
 }

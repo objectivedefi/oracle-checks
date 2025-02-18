@@ -72,5 +72,6 @@
   ],
   "label": "Pyth - Crypto.EURC/USD (60s, ±300bps)",
   "methodology": "Market Price",
-  "model": "Pull"
+  "model": "Pull",
+  "provider": "Pyth"
 }

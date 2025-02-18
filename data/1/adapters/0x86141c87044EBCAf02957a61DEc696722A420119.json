@@ -46,5 +46,6 @@
   ],
   "label": "Chainlink - AAVE / USD (1%, 3600s)",
   "methodology": "Market Price",
-  "model": "Push"
+  "model": "Push",
+  "provider": "Chainlink"
 }

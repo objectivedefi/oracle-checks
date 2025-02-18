@@ -51,5 +51,6 @@
   ],
   "label": "Lido Fundamental - wstETH/ETH",
   "methodology": "Exchange Rate",
-  "model": "Push"
+  "model": "Push",
+  "provider": "Lido Fundamental"
 }

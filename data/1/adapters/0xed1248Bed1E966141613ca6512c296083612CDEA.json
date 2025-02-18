@@ -46,5 +46,6 @@
   ],
   "label": "Pendle - pumpBTC",
   "methodology": "TWAP",
-  "model": "Push"
+  "model": "Push",
+  "provider": "Pendle"
 }

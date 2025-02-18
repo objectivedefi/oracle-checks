@@ -46,5 +46,6 @@
   ],
   "label": "RedStone - wstETH/stETH (0.5%, 21600s)",
   "methodology": "Market Price",
-  "model": "Push"
+  "model": "Push",
+  "provider": "RedStone"
 }

@@ -46,5 +46,6 @@
   ],
   "label": "Resolv: Resolv RLP/USD Oracle",
   "methodology": "Unknown",
-  "model": "Push"
+  "model": "Push",
+  "provider": "Resolv"
 }

@@ -37,7 +37,8 @@
       "pass": true
     }
   ],
-  "label": "RateProvider - 0xFAe103DC9cf190eD75350761e95403b7b8aFa6c0/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+  "label": "RateProvider - rswETH/WETH",
   "methodology": "Exchange Rate",
-  "model": "Push"
+  "model": "Push",
+  "provider": "Rate Provider"
 }

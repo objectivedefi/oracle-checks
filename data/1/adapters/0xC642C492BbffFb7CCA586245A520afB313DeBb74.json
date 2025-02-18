@@ -72,5 +72,6 @@
   ],
   "label": "Pyth - Crypto.FDUSD/USD (120s, ±300bps)",
   "methodology": "Market Price",
-  "model": "Pull"
+  "model": "Pull",
+  "provider": "Pyth"
 }

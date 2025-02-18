@@ -46,5 +46,6 @@
   ],
   "label": "Chainlink - wstETH-stETH Exchange Rate (1e-7%, 86400s)",
   "methodology": "Exchange Rate",
-  "model": "Push"
+  "model": "Push",
+  "provider": "Chainlink"
 }

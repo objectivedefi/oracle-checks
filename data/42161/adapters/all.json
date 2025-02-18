@@ -47,7 +47,8 @@
     ],
     "label": "Chainlink - WBTC / USD (0.05%, 86400s)",
     "methodology": "Market Price",
-    "model": "Push"
+    "model": "Push",
+    "provider": "Chainlink"
   },
   {
     "name": "ChainlinkOracle",
@@ -97,7 +98,8 @@
     ],
     "label": "Chainlink - WBTC / USD (0.05%, 86400s)",
     "methodology": "Market Price",
-    "model": "Push"
+    "model": "Push",
+    "provider": "Chainlink"
   },
   {
     "name": "ChainlinkOracle",
@@ -147,7 +149,8 @@
     ],
     "label": "Chainlink - ETH / USD (0.05%, 86400s)",
     "methodology": "Market Price",
-    "model": "Push"
+    "model": "Push",
+    "provider": "Chainlink"
   },
   {
     "name": "ChainlinkOracle",
@@ -197,6 +200,7 @@
     ],
     "label": "Chainlink - USDC / USD (0.1%, 86400s)",
     "methodology": "Market Price",
-    "model": "Push"
+    "model": "Push",
+    "provider": "Chainlink"
   }
 ]

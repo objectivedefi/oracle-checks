@@ -46,5 +46,6 @@
   ],
   "label": "Unknown AggregatorV3 Feed",
   "methodology": "Unknown",
-  "model": "Push"
+  "model": "Push",
+  "provider": "Unknown"
 }

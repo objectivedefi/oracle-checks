@@ -47,7 +47,8 @@
     ],
     "label": "Chainlink - ETH / USD (0.15%, 1200s)",
     "methodology": "Market Price",
-    "model": "Push"
+    "model": "Push",
+    "provider": "Chainlink"
   },
   {
     "name": "CrossAdapter",
@@ -96,9 +97,10 @@
         "pass": true
       }
     ],
-    "label": "",
+    "label": "Cross - wstETH/WETH/USD",
     "methodology": "Unknown",
-    "model": "Unknown"
+    "model": "Unknown",
+    "provider": "Cross"
   },
   {
     "name": "ChainlinkOracle",
@@ -148,7 +150,8 @@
     ],
     "label": "Chainlink - CBETH / USD (0.15%, 1200s)",
     "methodology": "Market Price",
-    "model": "Push"
+    "model": "Push",
+    "provider": "Chainlink"
   },
   {
     "name": "CrossAdapter",
@@ -197,9 +200,10 @@
         "pass": true
       }
     ],
-    "label": "",
+    "label": "Cross - weETH/WETH/USD",
     "methodology": "Unknown",
-    "model": "Unknown"
+    "model": "Unknown",
+    "provider": "Cross"
   },
   {
     "name": "ChainlinkOracle",
@@ -249,7 +253,8 @@
     ],
     "label": "Chainlink - USDC / USD (0.3%, 86400s)",
     "methodology": "Market Price",
-    "model": "Push"
+    "model": "Push",
+    "provider": "Chainlink"
   },
   {
     "name": "ChainlinkOracle",
@@ -299,7 +304,8 @@
     ],
     "label": "Chainlink - EURC / USD (0.3%, 86400s)",
     "methodology": "Market Price",
-    "model": "Push"
+    "model": "Push",
+    "provider": "Chainlink"
   },
   {
     "name": "CrossAdapter",
@@ -348,9 +354,10 @@
         "pass": true
       }
     ],
-    "label": "",
+    "label": "Cross - cbBTC/USDC/USD",
     "methodology": "Unknown",
-    "model": "Unknown"
+    "model": "Unknown",
+    "provider": "Cross"
   },
   {
     "name": "CrossAdapter",
@@ -399,9 +406,10 @@
         "pass": true
       }
     ],
-    "label": "",
+    "label": "Cross - LBTC/BTC/USD",
     "methodology": "Unknown",
-    "model": "Unknown"
+    "model": "Unknown",
+    "provider": "Cross"
   },
   {
     "name": "CrossAdapter",
@@ -450,9 +458,10 @@
         "pass": true
       }
     ],
-    "label": "",
+    "label": "Cross - cbETH/WETH/USD",
     "methodology": "Unknown",
-    "model": "Unknown"
+    "model": "Unknown",
+    "provider": "Cross"
   },
   {
     "name": "CrossAdapter",
@@ -501,9 +510,10 @@
         "pass": true
       }
     ],
-    "label": "",
+    "label": "Cross - ezETH/WETH/USD",
     "methodology": "Unknown",
-    "model": "Unknown"
+    "model": "Unknown",
+    "provider": "Cross"
   },
   {
     "name": "CrossAdapter",
@@ -552,9 +562,10 @@
         "pass": true
       }
     ],
-    "label": "",
+    "label": "Cross - rETH/WETH/USD",
     "methodology": "Unknown",
-    "model": "Unknown"
+    "model": "Unknown",
+    "provider": "Cross"
   },
   {
     "name": "ChainlinkOracle",
@@ -604,7 +615,8 @@
     ],
     "label": "Chainlink - AERO / USD (0.5%, 86400s)",
     "methodology": "Market Price",
-    "model": "Push"
+    "model": "Push",
+    "provider": "Chainlink"
   },
   {
     "name": "FixedRateOracle",
@@ -653,7 +665,8 @@
     ],
     "label": "Fixed (1:1) - USR/USD",
     "methodology": "Exchange Rate",
-    "model": "Push"
+    "model": "Push",
+    "provider": "Fixed Rate"
   },
   {
     "name": "CrossAdapter",
@@ -702,9 +715,10 @@
         "pass": true
       }
     ],
-    "label": "",
+    "label": "Cross - PT-LBTC-29MAY2025/cbBTC/USD",
     "methodology": "Unknown",
-    "model": "Unknown"
+    "model": "Unknown",
+    "provider": "Cross"
   },
   {
     "name": "ChainlinkOracle",
@@ -754,7 +768,8 @@
     ],
     "label": "Chainlink - BTC / USD (0.1%, 1200s)",
     "methodology": "Market Price",
-    "model": "Push"
+    "model": "Push",
+    "provider": "Chainlink"
   },
   {
     "name": "ChainlinkOracle",
@@ -804,7 +819,8 @@
     ],
     "label": "Chainlink - USDC / USD (0.3%, 86400s)",
     "methodology": "Market Price",
-    "model": "Push"
+    "model": "Push",
+    "provider": "Chainlink"
   },
   {
     "name": "CrossAdapter",
@@ -853,9 +869,10 @@
         "pass": true
       }
     ],
-    "label": "",
+    "label": "Cross - LBTC/BTC/USD",
     "methodology": "Unknown",
-    "model": "Unknown"
+    "model": "Unknown",
+    "provider": "Cross"
   },
   {
     "name": "PythOracle",
@@ -931,7 +948,8 @@
     ],
     "label": "Pyth - Crypto.WSTETH/USD (60s, ±300bps)",
     "methodology": "Market Price",
-    "model": "Pull"
+    "model": "Pull",
+    "provider": "Pyth"
   },
   {
     "name": "FixedRateOracle",
@@ -980,7 +998,8 @@
     ],
     "label": "Fixed (1:1) - superOETHb/USD",
     "methodology": "Exchange Rate",
-    "model": "Push"
+    "model": "Push",
+    "provider": "Fixed Rate"
   },
   {
     "name": "ChainlinkOracle",
@@ -1030,7 +1049,8 @@
     ],
     "label": "Chainlink - USDz / USD (0.5%, 86400s)",
     "methodology": "Market Price",
-    "model": "Push"
+    "model": "Push",
+    "provider": "Chainlink"
   },
   {
     "name": "PythOracle",
@@ -1106,7 +1126,8 @@
     ],
     "label": "Pyth - Crypto.ETH/USD (60s, ±300bps)",
     "methodology": "Market Price",
-    "model": "Pull"
+    "model": "Pull",
+    "provider": "Pyth"
   },
   {
     "name": "PythOracle",
@@ -1182,7 +1203,8 @@
     ],
     "label": "Pyth - Crypto.USDC/USD (60s, ±300bps)",
     "methodology": "Market Price",
-    "model": "Pull"
+    "model": "Pull",
+    "provider": "Pyth"
   },
   {
     "name": "ChronicleOracle",
@@ -1226,7 +1248,8 @@
     ],
     "label": "Chronicle - WSTETH/USD",
     "methodology": "Unknown",
-    "model": "Push"
+    "model": "Push",
+    "provider": "Chronicle"
   },
   {
     "name": "CrossAdapter",
@@ -1275,9 +1298,10 @@
         "pass": true
       }
     ],
-    "label": "",
+    "label": "Cross - PT-USR-24APR2025/USR/USD",
     "methodology": "Unknown",
-    "model": "Unknown"
+    "model": "Unknown",
+    "provider": "Cross"
   },
   {
     "name": "ChainlinkOracle",
@@ -1327,7 +1351,8 @@
     ],
     "label": "Chainlink - USDS / USD (0.5%, 86400s)",
     "methodology": "Market Price",
-    "model": "Push"
+    "model": "Push",
+    "provider": "Chainlink"
   },
   {
     "name": "CrossAdapter",
@@ -1376,9 +1401,10 @@
         "pass": true
       }
     ],
-    "label": "",
+    "label": "Cross - sUSDS/USDS/USD",
     "methodology": "Unknown",
-    "model": "Unknown"
+    "model": "Unknown",
+    "provider": "Cross"
   },
   {
     "address": "0x176b59faD000cd22c819EB1b85eE4dD1f61b9b89"
@@ -1429,7 +1455,8 @@
     ],
     "label": "Fixed (non-standard) - undefined/USDC",
     "methodology": "Exchange Rate",
-    "model": "Push"
+    "model": "Push",
+    "provider": "Fixed Rate"
   },
   {
     "address": "0xca1C079587F932A5B2b7255bFb30082EEEAd12Fe"
@@ -1485,7 +1512,8 @@
     ],
     "label": "Chainlink - cbETH-ETH Exchange Rate (0.5%, 86400s)",
     "methodology": "Exchange Rate",
-    "model": "Push"
+    "model": "Push",
+    "provider": "Chainlink"
   },
   {
     "name": "ChainlinkOracle",
@@ -1535,7 +1563,8 @@
     ],
     "label": "Chainlink - wstETH-stETH Exchange Rate (1e-7%, 86400s)",
     "methodology": "Exchange Rate",
-    "model": "Push"
+    "model": "Push",
+    "provider": "Chainlink"
   },
   {
     "name": "ChronicleOracle",
@@ -1579,7 +1608,8 @@
     ],
     "label": "Chronicle - CBETH/USD",
     "methodology": "Unknown",
-    "model": "Push"
+    "model": "Push",
+    "provider": "Chronicle"
   },
   {
     "name": "ChronicleOracle",
@@ -1623,7 +1653,8 @@
     ],
     "label": "Chronicle - ETH/USD",
     "methodology": "Unknown",
-    "model": "Push"
+    "model": "Push",
+    "provider": "Chronicle"
   },
   {
     "name": "ChronicleOracle",
@@ -1667,7 +1698,8 @@
     ],
     "label": "Chronicle - USDC/USD",
     "methodology": "Unknown",
-    "model": "Push"
+    "model": "Push",
+    "provider": "Chronicle"
   },
   {
     "name": "ChronicleOracle",
@@ -1711,7 +1743,8 @@
     ],
     "label": "Chronicle - CBBTC/USDC",
     "methodology": "Unknown",
-    "model": "Push"
+    "model": "Push",
+    "provider": "Chronicle"
   },
   {
     "name": "PythOracle",
@@ -1787,7 +1820,8 @@
     ],
     "label": "Pyth - Crypto.CBETH/USD (60s, ±300bps)",
     "methodology": "Market Price",
-    "model": "Pull"
+    "model": "Pull",
+    "provider": "Pyth"
   },
   {
     "name": "PythOracle",
@@ -1863,7 +1897,8 @@
     ],
     "label": "Pyth - Crypto.EURC/USD (60s, ±300bps)",
     "methodology": "Market Price",
-    "model": "Pull"
+    "model": "Pull",
+    "provider": "Pyth"
   },
   {
     "name": "ChainlinkOracle",
@@ -1913,7 +1948,8 @@
     ],
     "label": "Chainlink - weETH / eETH Exchange Rate (0.5%, 86400s)",
     "methodology": "Exchange Rate",
-    "model": "Push"
+    "model": "Push",
+    "provider": "Chainlink"
   },
   {
     "name": "ChainlinkOracle",
@@ -1963,7 +1999,8 @@
     ],
     "label": "Chainlink - BTC / USD (0.1%, 1200s)",
     "methodology": "Market Price",
-    "model": "Push"
+    "model": "Push",
+    "provider": "Chainlink"
   },
   {
     "name": "ChainlinkOracle",
@@ -2013,7 +2050,8 @@
     ],
     "label": "RedStone - LBTC_FUNDAMENTAL (1%, 86400s)",
     "methodology": "Exchange Rate",
-    "model": "Push"
+    "model": "Push",
+    "provider": "RedStone"
   },
   {
     "name": "ChainlinkOracle",
@@ -2063,7 +2101,8 @@
     ],
     "label": "Chainlink - ezETH / ETH Exchange Rate (0.5%, 86400s)",
     "methodology": "Exchange Rate",
-    "model": "Push"
+    "model": "Push",
+    "provider": "Chainlink"
   },
   {
     "name": "RateProviderOracle",
@@ -2104,9 +2143,10 @@
         "pass": true
       }
     ],
-    "label": "RateProvider - 0xB6fe221Fe9EeF5aBa221c348bA20A1Bf5e73624c/0x4200000000000000000000000000000000000006",
+    "label": "RateProvider - rETH/WETH",
     "methodology": "Exchange Rate",
-    "model": "Push"
+    "model": "Push",
+    "provider": "Rate Provider"
   },
   {
     "name": "PendleOracle",
@@ -2156,7 +2196,8 @@
     ],
     "label": "Pendle - LBTC",
     "methodology": "TWAP",
-    "model": "Push"
+    "model": "Push",
+    "provider": "Pendle"
   },
   {
     "name": "FixedRateOracle",
@@ -2205,7 +2246,8 @@
     ],
     "label": "Fixed (1:1) - LBTC/BTC",
     "methodology": "Exchange Rate",
-    "model": "Push"
+    "model": "Push",
+    "provider": "Fixed Rate"
   },
   {
     "name": "PendleOracle",
@@ -2255,6 +2297,7 @@
     ],
     "label": "Pendle - USR",
     "methodology": "TWAP",
-    "model": "Push"
+    "model": "Push",
+    "provider": "Pendle"
   }
 ]

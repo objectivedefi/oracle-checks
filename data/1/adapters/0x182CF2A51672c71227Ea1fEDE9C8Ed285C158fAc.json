@@ -46,5 +46,6 @@
   ],
   "label": "Pendle - USD0++",
   "methodology": "TWAP",
-  "model": "Push"
+  "model": "Push",
+  "provider": "Pendle"
 }

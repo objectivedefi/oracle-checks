@@ -44,5 +44,6 @@
   ],
   "label": "Lido - wstETH/stETH",
   "methodology": "Market Price",
-  "model": "Push"
+  "model": "Push",
+  "provider": "Lido"
 }

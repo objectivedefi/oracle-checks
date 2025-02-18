@@ -72,5 +72,6 @@
   ],
   "label": "Pyth - Crypto.WSTKSCUSD/SCUSD.RR (60s, ±300bps)",
   "methodology": "Exchange Rate",
-  "model": "Pull"
+  "model": "Pull",
+  "provider": "Pyth"
 }

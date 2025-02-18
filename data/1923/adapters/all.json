@@ -47,7 +47,8 @@
     ],
     "label": "RedStone - ETH (0.5%, 21600s)",
     "methodology": "Market Price",
-    "model": "Push"
+    "model": "Push",
+    "provider": "RedStone"
   },
   {
     "name": "CrossAdapter",
@@ -96,9 +97,10 @@
         "pass": true
       }
     ],
-    "label": "",
+    "label": "Cross - wstETH/WETH/USD",
     "methodology": "Unknown",
-    "model": "Unknown"
+    "model": "Unknown",
+    "provider": "Cross"
   },
   {
     "name": "CrossAdapter",
@@ -147,9 +149,10 @@
         "pass": true
       }
     ],
-    "label": "",
+    "label": "Cross - weETH/WETH/USD",
     "methodology": "Unknown",
-    "model": "Unknown"
+    "model": "Unknown",
+    "provider": "Cross"
   },
   {
     "name": "CrossAdapter",
@@ -198,9 +201,10 @@
         "pass": true
       }
     ],
-    "label": "",
+    "label": "Cross - ezETH/WETH/USD",
     "methodology": "Unknown",
-    "model": "Unknown"
+    "model": "Unknown",
+    "provider": "Cross"
   },
   {
     "name": "CrossAdapter",
@@ -249,9 +253,10 @@
         "pass": true
       }
     ],
-    "label": "",
+    "label": "Cross - rsETH/WETH/USD",
     "methodology": "Unknown",
-    "model": "Unknown"
+    "model": "Unknown",
+    "provider": "Cross"
   },
   {
     "name": "CrossAdapter",
@@ -300,9 +305,10 @@
         "pass": true
       }
     ],
-    "label": "",
+    "label": "Cross - swETH/WETH/USD",
     "methodology": "Unknown",
-    "model": "Unknown"
+    "model": "Unknown",
+    "provider": "Cross"
   },
   {
     "name": "CrossAdapter",
@@ -351,9 +357,10 @@
         "pass": true
       }
     ],
-    "label": "",
+    "label": "Cross - rswETH/WETH/USD",
     "methodology": "Unknown",
-    "model": "Unknown"
+    "model": "Unknown",
+    "provider": "Cross"
   },
   {
     "name": "CrossAdapter",
@@ -402,9 +409,10 @@
         "pass": true
       }
     ],
-    "label": "",
+    "label": "Cross - pzETH/WETH/USD",
     "methodology": "Unknown",
-    "model": "Unknown"
+    "model": "Unknown",
+    "provider": "Cross"
   },
   {
     "name": "ChainlinkOracle",
@@ -454,7 +462,8 @@
     ],
     "label": "RedStone - USDe (0.5%, 21600s)",
     "methodology": "Market Price",
-    "model": "Push"
+    "model": "Push",
+    "provider": "RedStone"
   },
   {
     "name": "ChainlinkOracle",
@@ -504,7 +513,8 @@
     ],
     "label": "RedStone - sUSDe_FUNDAMENTAL (0.5%, 21600s)",
     "methodology": "Exchange Rate",
-    "model": "Push"
+    "model": "Push",
+    "provider": "RedStone"
   },
   {
     "name": "CrossAdapter",
@@ -553,9 +563,10 @@
         "pass": true
       }
     ],
-    "label": "",
+    "label": "Cross - SWELL/WETH/USD",
     "methodology": "Unknown",
-    "model": "Unknown"
+    "model": "Unknown",
+    "provider": "Cross"
   },
   {
     "name": "ChainlinkOracle",
@@ -605,7 +616,8 @@
     ],
     "label": "RedStone - wstETH/stETH (0.5%, 21600s)",
     "methodology": "Market Price",
-    "model": "Push"
+    "model": "Push",
+    "provider": "RedStone"
   },
   {
     "name": "ChainlinkOracle",
@@ -655,7 +667,8 @@
     ],
     "label": "RedStone - weETH_FUNDAMENTAL (0.5%, 21600s)",
     "methodology": "Exchange Rate",
-    "model": "Push"
+    "model": "Push",
+    "provider": "RedStone"
   },
   {
     "name": "ChainlinkOracle",
@@ -705,7 +718,8 @@
     ],
     "label": "RedStone - ezETH_FUNDAMENTAL (0.5%, 21600s)",
     "methodology": "Exchange Rate",
-    "model": "Push"
+    "model": "Push",
+    "provider": "RedStone"
   },
   {
     "name": "ChainlinkOracle",
@@ -755,7 +769,8 @@
     ],
     "label": "RedStone - rsETH_FUNDAMENTAL (0.5%, 21600s)",
     "methodology": "Exchange Rate",
-    "model": "Push"
+    "model": "Push",
+    "provider": "RedStone"
   },
   {
     "name": "ChainlinkOracle",
@@ -805,7 +820,8 @@
     ],
     "label": "RedStone - swETH_FUNDAMENTAL (0.5%, 21600s)",
     "methodology": "Exchange Rate",
-    "model": "Push"
+    "model": "Push",
+    "provider": "RedStone"
   },
   {
     "name": "ChainlinkOracle",
@@ -855,7 +871,8 @@
     ],
     "label": "RedStone - rswETH_FUNDAMENTAL (0.5%, 21600s)",
     "methodology": "Exchange Rate",
-    "model": "Push"
+    "model": "Push",
+    "provider": "RedStone"
   },
   {
     "name": "ChainlinkOracle",
@@ -905,7 +922,8 @@
     ],
     "label": "RedStone - pzETH_FUNDAMENTAL (0.5%, 21600s)",
     "methodology": "Exchange Rate",
-    "model": "Push"
+    "model": "Push",
+    "provider": "RedStone"
   },
   {
     "name": "ChainlinkOracle",
@@ -955,7 +973,8 @@
     ],
     "label": "RedStone - SWELL/ETH (0.5%, 21600s)",
     "methodology": "Market Price",
-    "model": "Push"
+    "model": "Push",
+    "provider": "RedStone"
   },
   {
     "name": "FixedRateOracle",
@@ -1004,6 +1023,7 @@
     ],
     "label": "Fixed (1:1) - USDe/USD",
     "methodology": "Exchange Rate",
-    "model": "Push"
+    "model": "Push",
+    "provider": "Fixed Rate"
   }
 ]
