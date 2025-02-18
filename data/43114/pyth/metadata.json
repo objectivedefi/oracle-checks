@@ -7529,6 +7529,20 @@
     }
   },
   {
+    "id": "0x0f1554349e2f83a3e151db0aaae2dfc4f93fee4994fdd27bd59dc6488a1d9723",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "HTON",
+      "contract_id": "ton: EQCLyZHP4Xe8fpchQz76O-_RmUhaVc_9BAoGyJrwJrcbz2eZ",
+      "description": "HIPO STAKED TON / TON REDEMPTION RATE",
+      "display_symbol": "HTON/TON",
+      "generic_symbol": "HTONTON",
+      "quote_currency": "TON",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.HTON/TON.RR"
+    }
+  },
+  {
     "id": "0x192b93a6021cb52313a79ac6c6be72fe138201d9aa29042f402a8304f01e4d53",
     "attributes": {
       "asset_type": "Crypto",
@@ -7582,6 +7596,19 @@
     }
   },
   {
+    "id": "0x8fdceac00b70233b81634cc11df59940823922396cfb91c037f79411b2a57a84",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "CLND",
+      "description": "COLEND / US DOLLAR",
+      "display_symbol": "CLND/USD",
+      "generic_symbol": "CLNDUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.CLND/USD"
+    }
+  },
+  {
     "id": "0x41f858bae36e7ee3f4a3a6d4f176f0893d4a261460a52763350d00f8648195ee",
     "attributes": {
       "asset_type": "Crypto",
@@ -7632,6 +7659,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.SUSD/USD.RR"
+    }
+  },
+  {
+    "id": "0x67d49e3942c752eac76f1e055cdefdb7d1120fad8d9f8559e7d887db119194ec",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "SUSDZ",
+      "contract_id": "eth: 0x547213367cfB08ab418E7b54d7883b2C2AA27Fd7",
+      "description": "STAKED ANZEN USDZ / ANZEN USDZ REDEMPTION RATE",
+      "display_symbol": "SUSDZ/USDZ",
+      "generic_symbol": "SUSDZUSDZ",
+      "quote_currency": "USDZ",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.SUSDZ/USDZ.RR"
     }
   },
   {
@@ -8900,6 +8941,23 @@
     }
   },
   {
+    "id": "0x3d3b04f0e32bd28246e6fd6d0e863e621827a6da9e979e7a7df5516aa28e9591",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "ADSK",
+      "cms_symbol": "ADSK",
+      "country": "US",
+      "cqs_symbol": "ADSK",
+      "description": "AUTODESK INC / US DOLLAR",
+      "display_symbol": "ADSK/USD",
+      "nasdaq_symbol": "ADSK",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.ADSK/USD"
+    }
+  },
+  {
     "id": "0xef333b80d26fb3630c870da74de7a52b4c5f40ead3cfd841a9d0fa6bb4186b5b",
     "attributes": {
       "asset_type": "Equity",
@@ -9475,6 +9533,23 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.IDXX/USD"
+    }
+  },
+  {
+    "id": "0x43ef64ff6af44e0648f0328ee56e88fee57943b0aa077c24ef175bb9ecd37133",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "INTU",
+      "cms_symbol": "INTU",
+      "country": "US",
+      "cqs_symbol": "INTU",
+      "description": "INTUIT INC / US DOLLAR",
+      "display_symbol": "INTU/USD",
+      "nasdaq_symbol": "INTU",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.INTU/USD"
     }
   },
   {
@@ -10374,6 +10449,23 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.ACN/USD"
+    }
+  },
+  {
+    "id": "0x0c4659250a9acd91536227c64e4d8dd65074ec21c3537ca554ea2aaeee00dd95",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "ADM",
+      "cms_symbol": "ADM",
+      "country": "US",
+      "cqs_symbol": "ADM",
+      "description": "ARCHER-DANIELS-MIDLAND COMPANY / US DOLLAR",
+      "display_symbol": "ADM/USD",
+      "nasdaq_symbol": "ADM",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.ADM/USD"
     }
   },
   {

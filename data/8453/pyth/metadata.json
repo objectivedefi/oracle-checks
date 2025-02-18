@@ -3692,6 +3692,23 @@
     }
   },
   {
+    "id": "0x5557d206aa0dd037fc082f03bbd78653f01465d280ea930bc93251f0eb60c707",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "CPNG",
+      "cms_symbol": "CPNG",
+      "country": "US",
+      "cqs_symbol": "CPNG",
+      "description": "COUPANG INC - CLASS A / US DOLLAR",
+      "display_symbol": "CPNG/USD",
+      "nasdaq_symbol": "CPNG",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.CPNG/USD"
+    }
+  },
+  {
     "id": "0xe1e80251e5f5184f2195008382538e847fafc36f751896889dd3d1b1f6111f09",
     "attributes": {
       "asset_type": "Equity",
@@ -11010,6 +11027,23 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.BAX/USD"
+    }
+  },
+  {
+    "id": "0x1de9dba93a2de170417a6e113204ec0a7fcb594643a14e590a3d6ba1adef0017",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BBY",
+      "cms_symbol": "BBY",
+      "country": "US",
+      "cqs_symbol": "BBY",
+      "description": "BEST BUY CO INC / US DOLLAR",
+      "display_symbol": "BBY/USD",
+      "nasdaq_symbol": "BBY",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.BBY/USD"
     }
   },
   {

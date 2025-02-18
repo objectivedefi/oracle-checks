@@ -314,6 +314,20 @@
     }
   },
   {
+    "id": "0xa995d00bb36a63cef7fd2c287dc105fc8f3d93779f062f09551b0af3e81ec30b",
+    "attributes": {
+      "asset_type": "FX",
+      "base": "EUR",
+      "description": "EURO / US DOLLAR",
+      "display_symbol": "EUR/USD",
+      "generic_symbol": "EURUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
+      "symbol": "FX.EUR/USD",
+      "tenor": "Spot"
+    }
+  },
+  {
     "id": "0xc80657b7f6f3eac27218d09d5a4e54e47b25768d9f5e10ac15fe2cf900881400",
     "attributes": {
       "asset_type": "Crypto",
@@ -841,6 +855,20 @@
     }
   },
   {
+    "id": "0x3112b03a41c910ed446852aacf67118cb1bec67b2cd0b9a214c58cc0eaa2ecca",
+    "attributes": {
+      "asset_type": "FX",
+      "base": "USD",
+      "description": "US DOLLAR / CANADIAN DOLLAR",
+      "display_symbol": "USD/CAD",
+      "generic_symbol": "USDCAD",
+      "quote_currency": "CAD",
+      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
+      "symbol": "FX.USD/CAD",
+      "tenor": "Spot"
+    }
+  },
+  {
     "id": "0x0b1e3297e69f162877b577b0d6a47a0d63b2392bc8499e6540da4187a63e28f8",
     "attributes": {
       "asset_type": "FX",
@@ -1274,6 +1302,23 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.DOW/USD"
+    }
+  },
+  {
+    "id": "0x9c68c0c6999765cf6e27adf75ed551b34403126d3b0d5b686a2addb147ed4554",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "GS",
+      "cms_symbol": "GS",
+      "country": "US",
+      "cqs_symbol": "GS",
+      "description": "GOLDMAN SACHS GROUP INC / US DOLLAR",
+      "display_symbol": "GS/USD",
+      "nasdaq_symbol": "GS",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.GS/USD"
     }
   },
   {
@@ -4076,6 +4121,19 @@
     }
   },
   {
+    "id": "0x9375299e31c0deb9c6bc378e6329aab44cb48ec655552a70d4b9050346a30378",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "MKR",
+      "description": "MAKER / US DOLLAR",
+      "display_symbol": "MKR/USD",
+      "generic_symbol": "MKRUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.MKR/USD"
+    }
+  },
+  {
     "id": "0x3b4e266cfd796c642603073a8471f1bdb876a9c03ded525e4472a722298c4219",
     "attributes": {
       "asset_type": "Crypto",
@@ -4359,6 +4417,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.PENDLE/USD"
+    }
+  },
+  {
+    "id": "0xc8cf45412be4268bef8f76a8b0d60971c6e57ab57919083b8e9f12ba72adeeb6",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "RDNT",
+      "description": "RADIANT / US DOLLAR",
+      "display_symbol": "RDNT/USD",
+      "generic_symbol": "RDNTUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.RDNT/USD"
     }
   },
   {
@@ -5077,6 +5148,19 @@
     }
   },
   {
+    "id": "0x0bbf28e9a841a1cc788f6a361b17ca072d0ea3098a1e5df1c3922d06719579ff",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "PYTH",
+      "description": "PYTH NETWORK / US DOLLAR",
+      "display_symbol": "PYTH/USD",
+      "generic_symbol": "PYTHUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.PYTH/USD"
+    }
+  },
+  {
     "id": "0xffd11c5a1cfd42f80afb2df4d9f264c15f956d68153335374ec10722edd70472",
     "attributes": {
       "asset_type": "Crypto",
@@ -5256,6 +5340,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.TENET/USD"
+    }
+  },
+  {
+    "id": "0x17cd845b16e874485b2684f8b8d1517d744105dbb904eec30222717f4bc9ee0d",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "AFSUI",
+      "description": "AFTERMATH STAKED SUI / US DOLLAR",
+      "display_symbol": "AFSUI/USD",
+      "generic_symbol": "AFSUIUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.AFSUI/USD"
     }
   },
   {
@@ -5521,6 +5618,23 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.HODL/USD"
+    }
+  },
+  {
+    "id": "0x9db6bc1e6e9e5e60f6884e1cd8e4399cca9d0454c6e7234ad79680cf139748f5",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "IBIT",
+      "cms_symbol": "IBIT",
+      "country": "US",
+      "cqs_symbol": "IBIT",
+      "description": "ISHARES BITCOIN TRUST / US DOLLAR",
+      "display_symbol": "IBIT/USD",
+      "nasdaq_symbol": "IBIT",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.IBIT/USD"
     }
   },
   {
@@ -6012,6 +6126,19 @@
     }
   },
   {
+    "id": "0xfb7565b77267ba3f6ef770bed5d7f9b22b8542db676dbd9b934a2fcf945f4371",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "RSR",
+      "description": "RESERVE RIGHTS / US DOLLAR",
+      "display_symbol": "RSR/USD",
+      "generic_symbol": "RSRUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.RSR/USD"
+    }
+  },
+  {
     "id": "0x83aac6fae150e8850204ef5dce696c05ae2efa335a41c7e5c112bc73e5cbae35",
     "attributes": {
       "asset_type": "Crypto",
@@ -6441,6 +6568,19 @@
     }
   },
   {
+    "id": "0x12d65f1ff0624e4fe2cb450040cc7ba1db91914ad29e4c1a1d339494f078a92b",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "TOKEN",
+      "description": "TOKENFI / US DOLLAR",
+      "display_symbol": "TOKEN/USD",
+      "generic_symbol": "TOKENUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.TOKEN/USD"
+    }
+  },
+  {
     "id": "0x2805c8894235111024c54253267f2b325be23763d534d2051742e39234b5835a",
     "attributes": {
       "asset_type": "Crypto",
@@ -6825,6 +6965,33 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.SIVR/USD"
+    }
+  },
+  {
+    "id": "0x9653c4d72e11ee2bddc3b13c289d713c98b2b60dede97f3b1ebb7ef9aea31683",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "SLVLUSD",
+      "contract_id": "eth: 0x4737D9b4592B40d51e110b94c9C043c6654067Ae",
+      "description": "STAKED LEVEL US DOLLAR / US DOLLAR REDEMPTION RATE",
+      "display_symbol": "SLVLUSD/USD",
+      "generic_symbol": "SLVLUSDUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.SLVLUSD/USD.RR"
+    }
+  },
+  {
+    "id": "0x053e0a17cc9282f191a6e60165dabd4a4861a8847c06eb34f54e07155eebedba",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "BABYDOGE",
+      "description": "BABY DOGE COIN / US DOLLAR",
+      "display_symbol": "BABYDOGE/USD",
+      "generic_symbol": "BABYDOGEUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.BABYDOGE/USD"
     }
   },
   {
@@ -7235,6 +7402,20 @@
       "quote_currency": "NEAR",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.STNEAR/NEAR.RR"
+    }
+  },
+  {
+    "id": "0x9145e059026a4d5a46f3b96408f7e572e33b3257b9c2dbe8dba551c772762002",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "STTON",
+      "contract_id": "ton: EQDNhy-nxYFgUqzfUzImBEP67JqsyMIcyk2S5_RwNNEYku0k",
+      "description": "BEMO STAKED TON / TON REDEMPTION RATE",
+      "display_symbol": "STTON/TON",
+      "generic_symbol": "STTONTON",
+      "quote_currency": "TON",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.STTON/TON.RR"
     }
   },
   {
@@ -16255,6 +16436,23 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.STE/USD"
+    }
+  },
+  {
+    "id": "0x3bc436e6c024059b3493e4332b32d0cbdd2b8ecf84544261838137eb1f299525",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "STLD",
+      "cms_symbol": "STLD",
+      "country": "US",
+      "cqs_symbol": "STLD",
+      "description": "STEEL DYNAMICS INC / US DOLLAR",
+      "display_symbol": "STLD/USD",
+      "nasdaq_symbol": "STLD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.STLD/USD"
     }
   },
   {
