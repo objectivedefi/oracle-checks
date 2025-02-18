@@ -1,0 +1,50 @@
+{
+  "name": "ChainlinkInfrequentOracle",
+  "address": "0xf2b8616744502851343c52da76e9adfb97f08b91",
+  "chainId": 60808,
+  "base": "0x03C7054BCB39f7b2e5B2c7AcB37583e32D70Cfa3",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0xb81131B6368b3F0a83af09dB4E39Ac23DA96C2Db",
+  "maxStaleness": "7200",
+  "checks": [
+    {
+      "id": "ADAPTER_EXISTS",
+      "severity": "HIGH",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "SOURCE_CODE_PROVENANCE",
+      "severity": "HIGH",
+      "message": "Contract metadata hash matches a known hash for ChainlinkInfrequentOracle: 0x1220bbc39c409d4697c843913afb02e2a76062f903f0e904eb2b5790988f5a21482e",
+      "pass": true
+    },
+    {
+      "id": "DISTINCT_ASSETS",
+      "severity": "HIGH",
+      "message": "No duplicates found",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x03C7054BCB39f7b2e5B2c7AcB37583e32D70Cfa3 is WBTC (Wrapped BTC) with 8 decimals",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+      "pass": true
+    },
+    {
+      "id": "PUSH_STALENESS_BUFFER",
+      "severity": "MED",
+      "message": "Feed heartbeat is unknown",
+      "pass": false
+    }
+  ],
+  "label": "Unknown AggregatorV3 Feed",
+  "methodology": "Unknown",
+  "model": "Push"
+}
