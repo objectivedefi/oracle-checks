@@ -1,16 +1,23 @@
 [
   {
-    "address": "0x541FD749419CA806a8bc7da8ac23D346f2dF8B77",
+    "address": "0x03C7054BCB39f7b2e5B2c7AcB37583e32D70Cfa3",
     "chainId": 60808,
-    "name": "Solv BTC",
-    "symbol": "SolvBTC",
-    "decimals": 18
+    "name": "Wrapped BTC",
+    "symbol": "WBTC",
+    "decimals": 8
   },
   {
     "address": "0x0000000000000000000000000000000000000348",
     "chainId": 1,
     "name": "U.S. Dollar",
     "symbol": "USD",
+    "decimals": 18
+  },
+  {
+    "address": "0x541FD749419CA806a8bc7da8ac23D346f2dF8B77",
+    "chainId": 60808,
+    "name": "Solv BTC",
+    "symbol": "SolvBTC",
     "decimals": 18
   },
   {
@@ -32,13 +39,6 @@
     "chainId": 60808,
     "name": "uniBTC",
     "symbol": "uniBTC",
-    "decimals": 8
-  },
-  {
-    "address": "0x03C7054BCB39f7b2e5B2c7AcB37583e32D70Cfa3",
-    "chainId": 60808,
-    "name": "Wrapped BTC",
-    "symbol": "WBTC",
     "decimals": 8
   },
   {
