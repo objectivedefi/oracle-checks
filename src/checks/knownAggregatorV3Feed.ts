@@ -26,6 +26,7 @@ export function knownAggregatorV3Feed({
   result: CheckResultWithId;
   label: string;
   methodology: OracleMethodology;
+  provider: string;
   heartbeat?: number;
 } {
   const matchingChainlinkFeed = chainlinkMetadata?.find(
@@ -53,6 +54,7 @@ export function knownAggregatorV3Feed({
       label: `Chainlink - ${matchingChainlinkFeed.name} (${matchingChainlinkFeed.threshold}%, ${matchingChainlinkFeed.heartbeat}s)`,
       heartbeat: matchingChainlinkFeed.heartbeat,
       methodology: isExchangeRate ? "Exchange Rate" : "Market Price",
+      provider: "Chainlink",
     };
   } else if (matchingRedstoneFeed) {
     const isExchangeRate = matchingRedstoneFeed.symbol.includes("FUNDAMENTAL");
@@ -64,6 +66,7 @@ export function knownAggregatorV3Feed({
       label: `RedStone - ${matchingRedstoneFeed.symbol} (${matchingRedstoneFeed.deviationPercentage}%, ${matchingRedstoneFeed.heartbeat}s)`,
       heartbeat: matchingRedstoneFeed.heartbeat,
       methodology: isExchangeRate ? "Exchange Rate" : "Market Price",
+      provider: "RedStone",
     };
   } else if (matchingOtherFeed) {
     return {
@@ -73,15 +76,17 @@ export function knownAggregatorV3Feed({
       ),
       label: `${matchingOtherFeed.provider}: ${matchingOtherFeed.description}`,
       methodology: "Unknown",
+      provider: matchingOtherFeed.provider,
     };
   } else {
     return {
       result: failCheck(
         CHECKS.RECOGNIZED_AGGREGATOR_V3_FEED,
-        `Could not find matching Chainlink or RedStone feed for ${adapter.feed}`,
+        `Could not find matching recognized AggregatorV3 feed for ${adapter.feed}`,
       ),
       label: `Unknown AggregatorV3 Feed`,
       methodology: "Unknown",
+      provider: "Unknown",
     };
   }
 }

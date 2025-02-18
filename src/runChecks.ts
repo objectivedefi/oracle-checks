@@ -52,6 +52,7 @@ export function runChecks({
     let label: string = "";
     let methodology: OracleMethodology = "Unknown";
     let model: OracleModel = "Unknown";
+    let provider: string = "Unknown";
 
     const existenceCheck = existence({
       chainId,
@@ -99,6 +100,7 @@ export function runChecks({
       });
       label = aggregatorV3FeedCheck.label;
       methodology = aggregatorV3FeedCheck.methodology;
+      provider = aggregatorV3FeedCheck.provider;
       model = "Push";
 
       const heartbeatCheck = pushHeartbeat({
@@ -114,6 +116,7 @@ export function runChecks({
       });
       label = chronicleFeedCheck.label;
       model = "Push";
+      provider = "Chronicle";
     } else if (name === "PythOracle") {
       const pythFeedCheck = pythFeedOfficial({
         adapter,
@@ -122,6 +125,7 @@ export function runChecks({
       label = `Pyth - ${pythFeedCheck.feed?.attributes.symbol ?? "unknown feed"} (${adapter.maxStaleness}s, ±${adapter.maxConfWidth}bps)`;
       methodology = pythFeedCheck.methodology;
       model = "Pull";
+      provider = "Pyth";
       checks.push(pythFeedCheck.result);
 
       checks.push(
@@ -160,6 +164,7 @@ export function runChecks({
       label = `Lido - wstETH/stETH`;
       methodology = "Market Price";
       model = "Push";
+      provider = "Lido";
     } else if (name === "LidoFundamentalOracle") {
       checks.push(
         lidoFundamentalOfficial({
@@ -169,6 +174,7 @@ export function runChecks({
       label = `Lido Fundamental - wstETH/ETH`;
       methodology = "Exchange Rate";
       model = "Push";
+      provider = "Lido Fundamental";
     } else if (name === "FixedRateOracle") {
       const baseAsset = assets.find((asset) => asset.address === adapter.base);
       const quoteAsset = assets.find((asset) => asset.address === adapter.quote);
@@ -189,10 +195,12 @@ export function runChecks({
       }
       methodology = "Exchange Rate";
       model = "Push";
+      provider = "Fixed Rate";
     } else if (name === "RateProviderOracle") {
       label = `RateProvider - ${adapter.base}/${adapter.quote}`;
       methodology = "Exchange Rate";
       model = "Push";
+      provider = "Rate Provider";
     } else if (name === "PendleOracle") {
       const pendlePoolCheck = pendlePoolOfficial({
         adapter,
@@ -201,6 +209,7 @@ export function runChecks({
       label = pendlePoolCheck.label;
       methodology = "TWAP";
       model = "Push";
+      provider = "Pendle";
     }
 
     adapterToResults[adapter.address] = {
@@ -208,6 +217,7 @@ export function runChecks({
       label,
       methodology,
       model,
+      provider,
     };
   });
 

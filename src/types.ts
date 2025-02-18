@@ -43,6 +43,7 @@ export type AdapterToResults = Record<
     checks: CheckResult[];
     methodology: OracleMethodology;
     model: OracleModel;
+    provider: string;
     label?: string;
   }
 >;
