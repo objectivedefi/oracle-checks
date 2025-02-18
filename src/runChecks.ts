@@ -197,7 +197,9 @@ export function runChecks({
       model = "Push";
       provider = "Fixed Rate";
     } else if (name === "RateProviderOracle") {
-      label = `RateProvider - ${adapter.base}/${adapter.quote}`;
+      const baseAsset = assets.find((asset) => asset.address === adapter.base);
+      const quoteAsset = assets.find((asset) => asset.address === adapter.quote);
+      label = `RateProvider - ${baseAsset?.symbol}/${quoteAsset?.symbol}`;
       methodology = "Exchange Rate";
       model = "Push";
       provider = "Rate Provider";
@@ -210,8 +212,45 @@ export function runChecks({
       methodology = "TWAP";
       model = "Push";
       provider = "Pendle";
+    } else if (name === "UniswapV3Oracle") {
+      const tokenASymbol = assets.find((asset) => asset.address === adapter.tokenA)?.symbol;
+      const tokenBSymbol = assets.find((asset) => asset.address === adapter.tokenB)?.symbol;
+      label = `Uniswap V3 - ${tokenASymbol}/${tokenBSymbol}`;
+      methodology = "TWAP";
+      model = "Push";
+      provider = "Uniswap V3";
+    } else if (name === "RedstoneCoreOracle") {
+      const baseSymbol = assets.find((asset) => asset.address === adapter.base)?.symbol;
+      const quoteSymbol = assets.find((asset) => asset.address === adapter.quote)?.symbol;
+      label = `Redstone Pull - ${baseSymbol}/${quoteSymbol}`;
+      methodology = "Unknown";
+      model = "Pull";
+      provider = "RedStone Pull";
+    } else if (name === "IdleTranchesOracle") {
+      const trancheSymbol = assets.find((asset) => asset.address === adapter.tranche)?.symbol;
+      const underlyingSymbol = assets.find((asset) => asset.address === adapter.underlying)?.symbol;
+      label = `Idle - ${trancheSymbol}/${underlyingSymbol}`;
+      methodology = "Unknown";
+      model = "Unknown";
+      provider = "Idle";
+    } else if (name === "SwaapSafeguardOracle") {
+      const safeguardPoolSymbol = assets.find(
+        (asset) => asset.address === adapter.safeguardPool,
+      )?.symbol;
+      const quoteSymbol = assets.find((asset) => asset.address === adapter.quote)?.symbol;
+      label = `Swaap Safeguard - ${safeguardPoolSymbol}/${quoteSymbol}`;
+      methodology = "Unknown";
+      model = "Unknown";
+      provider = "Swaap";
+    } else if (name === "CrossAdapter") {
+      const baseSymbol = assets.find((asset) => asset.address === adapter.base)?.symbol;
+      const crossSymbol = assets.find((asset) => asset.address === adapter.cross)?.symbol;
+      const quoteSymbol = assets.find((asset) => asset.address === adapter.quote)?.symbol;
+      label = `Cross - ${baseSymbol}/${crossSymbol}/${quoteSymbol}`;
+      methodology = "Unknown";
+      model = "Unknown";
+      provider = "Cross";
     }
-
     adapterToResults[adapter.address] = {
       checks,
       label,
