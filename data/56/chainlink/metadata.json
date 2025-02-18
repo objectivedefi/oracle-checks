@@ -802,6 +802,33 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x27E96cBD8db24eb35509d8c4E820972861f74EA0",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "usdx-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "USDX / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "usdx-usd",
+    "proxyAddress": "0x456B24c40eBe99962892b1b274E3e8b08f21cCB9",
+    "threshold": 0.3,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x297542a584BDfa1F1C450ae3542137790C60B1EB",
     "contractType": "",
     "contractVersion": 6,
@@ -4872,6 +4899,33 @@
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
     },
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0xb3702a35Ac809b6c556f23c2d3523425fBFcb805",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "usda-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "USDa / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "usda-usd",
+    "proxyAddress": "0x5461Bc63f5cd5521f7037d449A0C2a95b3879919",
+    "threshold": 0.3,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
     "decimals": 8
   },
   {
