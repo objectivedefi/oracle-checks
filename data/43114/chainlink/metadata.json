@@ -316,6 +316,33 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x1Fba5168339E2C0cC01Dc334E9B43D97cf2150a0",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "exchange-rate-ggavax-avax",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "Exchange Rate ggAVAX / AVAX",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "exchange-rate-ggavax-avax",
+    "proxyAddress": "0xA5ecED13b233BcF5c58BFbada5247d5B2893cB9a",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 18
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x1c4841636a4848d474892E7408312804D3f9a43F",
     "contractType": "",
     "contractVersion": 6,
