@@ -15,6 +15,12 @@
         "pass": true
       },
       {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
+      },
+      {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
         "message": "Contract metadata hash matches a known hash for ChainlinkOracle: 0x122049d657c4096750bae86bf41488a2bb3cfa4eb87030a676aff76b9b6e59e9f6c0",
@@ -48,7 +54,8 @@
     "label": "Chainlink - ETH / USD (0.15%, 1200s)",
     "methodology": "Market Price",
     "model": "Push",
-    "provider": "Chainlink"
+    "provider": "Chainlink",
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -64,6 +71,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -100,7 +113,8 @@
     "label": "Cross - wstETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
-    "provider": "Cross"
+    "provider": "Cross",
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -115,6 +129,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -151,7 +171,8 @@
     "label": "Chainlink - CBETH / USD (0.15%, 1200s)",
     "methodology": "Market Price",
     "model": "Push",
-    "provider": "Chainlink"
+    "provider": "Chainlink",
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -167,6 +188,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -203,7 +230,8 @@
     "label": "Cross - weETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
-    "provider": "Cross"
+    "provider": "Cross",
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -218,6 +246,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -254,7 +288,8 @@
     "label": "Chainlink - USDC / USD (0.3%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
-    "provider": "Chainlink"
+    "provider": "Chainlink",
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -269,6 +304,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -305,7 +346,8 @@
     "label": "Chainlink - EURC / USD (0.3%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
-    "provider": "Chainlink"
+    "provider": "Chainlink",
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -321,6 +363,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -357,7 +405,8 @@
     "label": "Cross - cbBTC/USDC/USD",
     "methodology": "Unknown",
     "model": "Unknown",
-    "provider": "Cross"
+    "provider": "Cross",
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -373,6 +422,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -409,7 +464,8 @@
     "label": "Cross - LBTC/BTC/USD",
     "methodology": "Unknown",
     "model": "Unknown",
-    "provider": "Cross"
+    "provider": "Cross",
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -425,6 +481,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -461,7 +523,8 @@
     "label": "Cross - cbETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
-    "provider": "Cross"
+    "provider": "Cross",
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -477,6 +540,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -513,7 +582,8 @@
     "label": "Cross - ezETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
-    "provider": "Cross"
+    "provider": "Cross",
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -529,6 +599,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -565,7 +641,8 @@
     "label": "Cross - rETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
-    "provider": "Cross"
+    "provider": "Cross",
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -580,6 +657,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -616,7 +699,8 @@
     "label": "Chainlink - AERO / USD (0.5%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
-    "provider": "Chainlink"
+    "provider": "Chainlink",
+    "whitelisted": true
   },
   {
     "name": "FixedRateOracle",
@@ -630,6 +714,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -666,7 +756,8 @@
     "label": "Fixed (1:1) - USR/USD",
     "methodology": "Exchange Rate",
     "model": "Push",
-    "provider": "Fixed Rate"
+    "provider": "Fixed Rate",
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -682,6 +773,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -718,7 +815,8 @@
     "label": "Cross - PT-LBTC-29MAY2025/cbBTC/USD",
     "methodology": "Unknown",
     "model": "Unknown",
-    "provider": "Cross"
+    "provider": "Cross",
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -734,6 +832,12 @@
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
         "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is not whitelisted in the adapter registry",
+        "pass": false
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -769,7 +873,8 @@
     "label": "Chainlink - BTC / USD (0.1%, 1200s)",
     "methodology": "Market Price",
     "model": "Push",
-    "provider": "Chainlink"
+    "provider": "Chainlink",
+    "whitelisted": false
   },
   {
     "name": "ChainlinkOracle",
@@ -785,6 +890,12 @@
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
         "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is not whitelisted in the adapter registry",
+        "pass": false
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -820,7 +931,8 @@
     "label": "Chainlink - USDC / USD (0.3%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
-    "provider": "Chainlink"
+    "provider": "Chainlink",
+    "whitelisted": false
   },
   {
     "name": "CrossAdapter",
@@ -836,6 +948,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -872,7 +990,8 @@
     "label": "Cross - LBTC/BTC/USD",
     "methodology": "Unknown",
     "model": "Unknown",
-    "provider": "Cross"
+    "provider": "Cross",
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -889,6 +1008,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -949,7 +1074,8 @@
     "label": "Pyth - Crypto.WSTETH/USD (60s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
-    "provider": "Pyth"
+    "provider": "Pyth",
+    "whitelisted": true
   },
   {
     "name": "FixedRateOracle",
@@ -964,6 +1090,12 @@
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
         "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is not whitelisted in the adapter registry",
+        "pass": false
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -999,7 +1131,8 @@
     "label": "Fixed (1:1) - superOETHb/USD",
     "methodology": "Exchange Rate",
     "model": "Push",
-    "provider": "Fixed Rate"
+    "provider": "Fixed Rate",
+    "whitelisted": false
   },
   {
     "name": "ChainlinkOracle",
@@ -1014,6 +1147,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -1050,7 +1189,8 @@
     "label": "Chainlink - USDz / USD (0.5%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
-    "provider": "Chainlink"
+    "provider": "Chainlink",
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -1067,6 +1207,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -1127,7 +1273,8 @@
     "label": "Pyth - Crypto.ETH/USD (60s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
-    "provider": "Pyth"
+    "provider": "Pyth",
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -1144,6 +1291,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -1204,7 +1357,8 @@
     "label": "Pyth - Crypto.USDC/USD (60s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
-    "provider": "Pyth"
+    "provider": "Pyth",
+    "whitelisted": true
   },
   {
     "name": "ChronicleOracle",
@@ -1219,6 +1373,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -1249,7 +1409,8 @@
     "label": "Chronicle - WSTETH/USD",
     "methodology": "Unknown",
     "model": "Push",
-    "provider": "Chronicle"
+    "provider": "Chronicle",
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -1265,6 +1426,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -1301,7 +1468,8 @@
     "label": "Cross - PT-USR-24APR2025/USR/USD",
     "methodology": "Unknown",
     "model": "Unknown",
-    "provider": "Cross"
+    "provider": "Cross",
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -1316,6 +1484,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -1352,7 +1526,8 @@
     "label": "Chainlink - USDS / USD (0.5%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
-    "provider": "Chainlink"
+    "provider": "Chainlink",
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -1368,6 +1543,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -1404,7 +1585,8 @@
     "label": "Cross - sUSDS/USDS/USD",
     "methodology": "Unknown",
     "model": "Unknown",
-    "provider": "Cross"
+    "provider": "Cross",
+    "whitelisted": true
   },
   {
     "address": "0x176b59faD000cd22c819EB1b85eE4dD1f61b9b89"
@@ -1421,6 +1603,12 @@
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
         "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is not whitelisted in the adapter registry",
+        "pass": false
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -1456,7 +1644,8 @@
     "label": "Fixed (non-standard) - undefined/USDC",
     "methodology": "Exchange Rate",
     "model": "Push",
-    "provider": "Fixed Rate"
+    "provider": "Fixed Rate",
+    "whitelisted": false
   },
   {
     "address": "0xca1C079587F932A5B2b7255bFb30082EEEAd12Fe"
@@ -1477,6 +1666,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -1513,7 +1708,8 @@
     "label": "Chainlink - cbETH-ETH Exchange Rate (0.5%, 86400s)",
     "methodology": "Exchange Rate",
     "model": "Push",
-    "provider": "Chainlink"
+    "provider": "Chainlink",
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -1528,6 +1724,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -1564,7 +1766,8 @@
     "label": "Chainlink - wstETH-stETH Exchange Rate (1e-7%, 86400s)",
     "methodology": "Exchange Rate",
     "model": "Push",
-    "provider": "Chainlink"
+    "provider": "Chainlink",
+    "whitelisted": true
   },
   {
     "name": "ChronicleOracle",
@@ -1579,6 +1782,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -1609,7 +1818,8 @@
     "label": "Chronicle - CBETH/USD",
     "methodology": "Unknown",
     "model": "Push",
-    "provider": "Chronicle"
+    "provider": "Chronicle",
+    "whitelisted": true
   },
   {
     "name": "ChronicleOracle",
@@ -1624,6 +1834,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -1654,7 +1870,8 @@
     "label": "Chronicle - ETH/USD",
     "methodology": "Unknown",
     "model": "Push",
-    "provider": "Chronicle"
+    "provider": "Chronicle",
+    "whitelisted": true
   },
   {
     "name": "ChronicleOracle",
@@ -1669,6 +1886,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -1699,7 +1922,8 @@
     "label": "Chronicle - USDC/USD",
     "methodology": "Unknown",
     "model": "Push",
-    "provider": "Chronicle"
+    "provider": "Chronicle",
+    "whitelisted": true
   },
   {
     "name": "ChronicleOracle",
@@ -1715,6 +1939,12 @@
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
         "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is not whitelisted in the adapter registry",
+        "pass": false
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -1744,7 +1974,8 @@
     "label": "Chronicle - CBBTC/USDC",
     "methodology": "Unknown",
     "model": "Push",
-    "provider": "Chronicle"
+    "provider": "Chronicle",
+    "whitelisted": false
   },
   {
     "name": "PythOracle",
@@ -1761,6 +1992,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -1821,7 +2058,8 @@
     "label": "Pyth - Crypto.CBETH/USD (60s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
-    "provider": "Pyth"
+    "provider": "Pyth",
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -1838,6 +2076,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -1898,7 +2142,8 @@
     "label": "Pyth - Crypto.EURC/USD (60s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
-    "provider": "Pyth"
+    "provider": "Pyth",
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -1913,6 +2158,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -1949,7 +2200,8 @@
     "label": "Chainlink - weETH / eETH Exchange Rate (0.5%, 86400s)",
     "methodology": "Exchange Rate",
     "model": "Push",
-    "provider": "Chainlink"
+    "provider": "Chainlink",
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -1965,6 +2217,12 @@
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
         "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is not whitelisted in the adapter registry",
+        "pass": false
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -2000,7 +2258,8 @@
     "label": "Chainlink - BTC / USD (0.1%, 1200s)",
     "methodology": "Market Price",
     "model": "Push",
-    "provider": "Chainlink"
+    "provider": "Chainlink",
+    "whitelisted": false
   },
   {
     "name": "ChainlinkOracle",
@@ -2015,6 +2274,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -2051,7 +2316,8 @@
     "label": "RedStone - LBTC_FUNDAMENTAL (1%, 86400s)",
     "methodology": "Exchange Rate",
     "model": "Push",
-    "provider": "RedStone"
+    "provider": "RedStone",
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -2066,6 +2332,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -2102,7 +2374,8 @@
     "label": "Chainlink - ezETH / ETH Exchange Rate (0.5%, 86400s)",
     "methodology": "Exchange Rate",
     "model": "Push",
-    "provider": "Chainlink"
+    "provider": "Chainlink",
+    "whitelisted": true
   },
   {
     "name": "RateProviderOracle",
@@ -2116,6 +2389,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -2146,7 +2425,8 @@
     "label": "RateProvider - rETH/WETH",
     "methodology": "Exchange Rate",
     "model": "Push",
-    "provider": "Rate Provider"
+    "provider": "Rate Provider",
+    "whitelisted": true
   },
   {
     "name": "PendleOracle",
@@ -2162,6 +2442,12 @@
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
         "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is not whitelisted in the adapter registry",
+        "pass": false
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -2197,7 +2483,8 @@
     "label": "Pendle - LBTC",
     "methodology": "TWAP",
     "model": "Push",
-    "provider": "Pendle"
+    "provider": "Pendle",
+    "whitelisted": false
   },
   {
     "name": "FixedRateOracle",
@@ -2212,6 +2499,12 @@
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
         "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is not whitelisted in the adapter registry",
+        "pass": false
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -2247,7 +2540,8 @@
     "label": "Fixed (1:1) - LBTC/BTC",
     "methodology": "Exchange Rate",
     "model": "Push",
-    "provider": "Fixed Rate"
+    "provider": "Fixed Rate",
+    "whitelisted": false
   },
   {
     "name": "PendleOracle",
@@ -2263,6 +2557,12 @@
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
         "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is not whitelisted in the adapter registry",
+        "pass": false
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -2298,6 +2598,91 @@
     "label": "Pendle - USR",
     "methodology": "TWAP",
     "model": "Push",
-    "provider": "Pendle"
+    "provider": "Pendle",
+    "whitelisted": false
+  },
+  {
+    "name": "PythOracle",
+    "address": "0x64F9a04610b1CeA9E7a628bFA161dC84975D6BC1",
+    "chainId": 8453,
+    "base": "0x5875eEE11Cf8398102FdAd704C9E96607675467a",
+    "quote": "0x820C137fa70C8691f0e44Dc420a5e53c168921Dc",
+    "pyth": "0x8250f4aF4B972684F7b336503E2D6dFeDeB1487a",
+    "feedId": "0x6968a8641208463d17ae3b9cfa0e4841a7aa7a5d54122b9f692b84fe9ce3409f",
+    "maxStaleness": "60",
+    "maxConfWidth": "300",
+    "checks": [
+      {
+        "id": "ADAPTER_EXISTS",
+        "severity": "HIGH",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is not whitelisted in the adapter registry",
+        "pass": false
+      },
+      {
+        "id": "SOURCE_CODE_PROVENANCE",
+        "severity": "HIGH",
+        "message": "Contract metadata hash matches a known hash for PythOracle: 0x122074fdfdb3b8069cb8858ed412fa5f27c7d92c64a57f0d1f51d2d764c7c85473d2",
+        "pass": true
+      },
+      {
+        "id": "DISTINCT_ASSETS",
+        "severity": "HIGH",
+        "message": "No duplicates found",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x5875eEE11Cf8398102FdAd704C9E96607675467a is sUSDS (Savings USDS) with 18 decimals",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x820C137fa70C8691f0e44Dc420a5e53c168921Dc is USDS (USDS Stablecoin) with 18 decimals",
+        "pass": true
+      },
+      {
+        "id": "OFFICIAL_PYTH_FEED",
+        "severity": "HIGH",
+        "message": "Adapter is connected to an official Pyth feed: SUSDS/USDS",
+        "pass": true
+      },
+      {
+        "id": "PYTH_BASE_CORRESPONDENCE",
+        "severity": "INFO",
+        "message": "Base symbol (sUSDS) matches Pyth feed base asset (SUSDS)",
+        "pass": true
+      },
+      {
+        "id": "PYTH_QUOTE_CORRESPONDENCE",
+        "severity": "INFO",
+        "message": "Quote symbol (USDS) matches Pyth feed quote asset (USDS)",
+        "pass": true
+      },
+      {
+        "id": "OFFICIAL_PYTH_PROXY",
+        "severity": "HIGH",
+        "message": "Adapter is connected to the official Pyth proxy",
+        "pass": true
+      },
+      {
+        "id": "PYTH_STALENESS_RANGE",
+        "severity": "HIGH",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
+        "pass": true
+      }
+    ],
+    "label": "Pyth - Crypto.SUSDS/USDS.RR (60s, ±300bps)",
+    "methodology": "Exchange Rate",
+    "model": "Pull",
+    "provider": "Pyth",
+    "whitelisted": false
   }
 ]

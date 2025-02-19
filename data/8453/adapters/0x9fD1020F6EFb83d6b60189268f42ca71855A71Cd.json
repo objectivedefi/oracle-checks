@@ -15,6 +15,12 @@
       "pass": true
     },
     {
+      "id": "ADAPTER_REGISTRY",
+      "severity": "HIGH",
+      "message": "Adapter is whitelisted in the adapter registry",
+      "pass": true
+    },
+    {
       "id": "SOURCE_CODE_PROVENANCE",
       "severity": "HIGH",
       "message": "Contract metadata hash matches a known hash for CrossAdapter: 0x12206ba07b8f10f6cf5ede3fe831ea2866cace8300f96fe139faba00931ad0afe239",
@@ -48,5 +54,6 @@
   "label": "Cross - LBTC/BTC/USD",
   "methodology": "Unknown",
   "model": "Unknown",
-  "provider": "Cross"
+  "provider": "Cross",
+  "whitelisted": true
 }

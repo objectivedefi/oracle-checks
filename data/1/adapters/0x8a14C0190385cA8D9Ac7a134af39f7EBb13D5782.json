@@ -14,6 +14,12 @@
       "pass": true
     },
     {
+      "id": "ADAPTER_REGISTRY",
+      "severity": "HIGH",
+      "message": "Adapter is whitelisted in the adapter registry",
+      "pass": true
+    },
+    {
       "id": "SOURCE_CODE_PROVENANCE",
       "severity": "HIGH",
       "message": "Contract metadata hash matches a known hash for ChainlinkOracle: 0x122037912c427d1bd3b0d2c1e307ba434d832c2b266de1bad79e7ad1f560ac02d8b0",
@@ -47,5 +53,6 @@
   "label": "RedStone - LBTC_FUNDAMENTAL (1%, 86400s)",
   "methodology": "Exchange Rate",
   "model": "Push",
-  "provider": "RedStone"
+  "provider": "RedStone",
+  "whitelisted": true
 }

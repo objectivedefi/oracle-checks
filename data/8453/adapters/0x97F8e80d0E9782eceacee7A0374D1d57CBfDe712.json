@@ -15,6 +15,12 @@
       "pass": true
     },
     {
+      "id": "ADAPTER_REGISTRY",
+      "severity": "HIGH",
+      "message": "Adapter is whitelisted in the adapter registry",
+      "pass": true
+    },
+    {
       "id": "SOURCE_CODE_PROVENANCE",
       "severity": "HIGH",
       "message": "Contract metadata hash matches a known hash for CrossAdapter: 0x1220d671bf81345b3455efc1560d59fc4aff6202c6bc79e5ab6beeda5d430206907a",
@@ -48,5 +54,6 @@
   "label": "Cross - cbETH/WETH/USD",
   "methodology": "Unknown",
   "model": "Unknown",
-  "provider": "Cross"
+  "provider": "Cross",
+  "whitelisted": true
 }

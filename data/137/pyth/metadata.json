@@ -16621,5 +16621,18 @@
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.VIP/IP.RR"
     }
+  },
+  {
+    "id": "0x7302dee641a08507c297a7b0c8b3efa74a48a3baa6c040acab1e5209692b7e59",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "KAITO",
+      "description": "KAITO / US DOLLAR",
+      "display_symbol": "KAITO/USD",
+      "generic_symbol": "KAITOUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.KAITO/USD"
+    }
   }
 ]

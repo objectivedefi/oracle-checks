@@ -15,6 +15,12 @@
       "pass": true
     },
     {
+      "id": "ADAPTER_REGISTRY",
+      "severity": "HIGH",
+      "message": "Adapter was revoked from the adapter registry at 2025-02-19T18:46:23.000Z",
+      "pass": false
+    },
+    {
       "id": "SOURCE_CODE_PROVENANCE",
       "severity": "HIGH",
       "message": "Contract metadata hash matches a known hash for RedstoneCoreOracle: 0x1220b91ac3ca26a68bf539f1d0b96b675c6e329e73fa0afe944f154daa5bcdb0e272",
@@ -42,5 +48,6 @@
   "label": "Redstone Pull - pxETH/USD",
   "methodology": "Unknown",
   "model": "Pull",
-  "provider": "RedStone Pull"
+  "provider": "RedStone Pull",
+  "whitelisted": false
 }

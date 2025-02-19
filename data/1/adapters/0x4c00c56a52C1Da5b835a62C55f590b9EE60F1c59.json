@@ -15,6 +15,12 @@
       "pass": true
     },
     {
+      "id": "ADAPTER_REGISTRY",
+      "severity": "HIGH",
+      "message": "Adapter is whitelisted in the adapter registry",
+      "pass": true
+    },
+    {
       "id": "SOURCE_CODE_PROVENANCE",
       "severity": "HIGH",
       "message": "Contract metadata hash matches a known hash for CrossAdapter: 0x12203ef3d98afa2f48032322ef7735d828275b6f3c7b44167a997cc7cf00c12ca7f1",
@@ -48,5 +54,6 @@
   "label": "Cross - SolvBTC/BTC/USD",
   "methodology": "Unknown",
   "model": "Unknown",
-  "provider": "Cross"
+  "provider": "Cross",
+  "whitelisted": true
 }

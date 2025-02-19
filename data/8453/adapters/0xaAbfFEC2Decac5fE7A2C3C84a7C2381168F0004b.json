@@ -14,6 +14,12 @@
       "pass": true
     },
     {
+      "id": "ADAPTER_REGISTRY",
+      "severity": "HIGH",
+      "message": "Adapter is not whitelisted in the adapter registry",
+      "pass": false
+    },
+    {
       "id": "SOURCE_CODE_PROVENANCE",
       "severity": "HIGH",
       "message": "Contract metadata hash matches a known hash for PendleOracle: 0x122046ab86b5153aa2a61ffad4545a71a89edd4a2a4ff65d106a19cddce4d81d7b47",
@@ -47,5 +53,6 @@
   "label": "Pendle - LBTC",
   "methodology": "TWAP",
   "model": "Push",
-  "provider": "Pendle"
+  "provider": "Pendle",
+  "whitelisted": false
 }

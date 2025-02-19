@@ -15,6 +15,12 @@
         "pass": true
       },
       {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is not whitelisted in the adapter registry",
+        "pass": false
+      },
+      {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
         "message": "Contract metadata hash matches a known hash for ChainlinkOracle: 0x122068d9e7e4e2538445fdf417e1aaea39b4d912f4ff74a42992ae75ac407fbcdeff",
@@ -48,7 +54,8 @@
     "label": "Chainlink - WBTC / USD (0.05%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
-    "provider": "Chainlink"
+    "provider": "Chainlink",
+    "whitelisted": false
   },
   {
     "name": "ChainlinkOracle",
@@ -64,6 +71,12 @@
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
         "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is not whitelisted in the adapter registry",
+        "pass": false
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -99,7 +112,8 @@
     "label": "Chainlink - WBTC / USD (0.05%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
-    "provider": "Chainlink"
+    "provider": "Chainlink",
+    "whitelisted": false
   },
   {
     "name": "ChainlinkOracle",
@@ -115,6 +129,12 @@
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
         "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is not whitelisted in the adapter registry",
+        "pass": false
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -150,7 +170,8 @@
     "label": "Chainlink - ETH / USD (0.05%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
-    "provider": "Chainlink"
+    "provider": "Chainlink",
+    "whitelisted": false
   },
   {
     "name": "ChainlinkOracle",
@@ -166,6 +187,12 @@
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
         "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is not whitelisted in the adapter registry",
+        "pass": false
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -201,6 +228,7 @@
     "label": "Chainlink - USDC / USD (0.1%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
-    "provider": "Chainlink"
+    "provider": "Chainlink",
+    "whitelisted": false
   }
 ]

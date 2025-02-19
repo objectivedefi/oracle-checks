@@ -14,6 +14,12 @@
       "pass": true
     },
     {
+      "id": "ADAPTER_REGISTRY",
+      "severity": "HIGH",
+      "message": "Adapter is not whitelisted in the adapter registry",
+      "pass": false
+    },
+    {
       "id": "SOURCE_CODE_PROVENANCE",
       "severity": "HIGH",
       "message": "Contract metadata hash matches a known hash for PendleOracle: 0x1220e3c00e1a4ced46e1bfd47dcc9d456af1a0a17c76f1039cafef62a352e8b8a9bd",
@@ -47,5 +53,6 @@
   "label": "Pendle - LBTC (Corn)",
   "methodology": "TWAP",
   "model": "Push",
-  "provider": "Pendle"
+  "provider": "Pendle",
+  "whitelisted": false
 }

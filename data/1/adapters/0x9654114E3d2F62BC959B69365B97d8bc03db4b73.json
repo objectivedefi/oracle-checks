@@ -14,6 +14,12 @@
       "pass": true
     },
     {
+      "id": "ADAPTER_REGISTRY",
+      "severity": "HIGH",
+      "message": "Adapter is whitelisted in the adapter registry",
+      "pass": true
+    },
+    {
       "id": "SOURCE_CODE_PROVENANCE",
       "severity": "HIGH",
       "message": "Contract metadata hash matches a known hash for ChainlinkOracle: 0x1220371540ee03fa604ae156b8669db3c5b7408fa6a01151dc1166eed29b9d51d458",
@@ -47,5 +53,6 @@
   "label": "RedStone - beraSTONE_FUNDAMENTAL (0.5%, 86400s)",
   "methodology": "Exchange Rate",
   "model": "Push",
-  "provider": "RedStone"
+  "provider": "RedStone",
+  "whitelisted": true
 }

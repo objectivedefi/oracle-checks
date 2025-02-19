@@ -15,6 +15,12 @@
       "pass": true
     },
     {
+      "id": "ADAPTER_REGISTRY",
+      "severity": "HIGH",
+      "message": "Adapter is whitelisted in the adapter registry",
+      "pass": true
+    },
+    {
       "id": "SOURCE_CODE_PROVENANCE",
       "severity": "HIGH",
       "message": "Contract metadata hash matches a known hash for CrossAdapter: 0x1220000ce956a3ce362a23d2ca73b65a2ddc23aea872ca3bfa77ddef2dd9a21d7edc",
@@ -48,5 +54,6 @@
   "label": "Cross - PT-LBTC-27MAR2025/WBTC/USD",
   "methodology": "Unknown",
   "model": "Unknown",
-  "provider": "Cross"
+  "provider": "Cross",
+  "whitelisted": true
 }

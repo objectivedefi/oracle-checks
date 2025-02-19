@@ -14,6 +14,12 @@
       "pass": true
     },
     {
+      "id": "ADAPTER_REGISTRY",
+      "severity": "HIGH",
+      "message": "Adapter is whitelisted in the adapter registry",
+      "pass": true
+    },
+    {
       "id": "SOURCE_CODE_PROVENANCE",
       "severity": "HIGH",
       "message": "Contract metadata hash matches a known hash for ChainlinkInfrequentOracle: 0x1220f8ee89e91ed459a7edaf943852893c96be22808b8130aef97af88c71a71cdd5f",
@@ -47,5 +53,6 @@
   "label": "Midas: Midas mTBILL/USD Oracle",
   "methodology": "Unknown",
   "model": "Push",
-  "provider": "Midas"
+  "provider": "Midas",
+  "whitelisted": true
 }

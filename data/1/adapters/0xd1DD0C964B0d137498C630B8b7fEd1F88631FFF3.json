@@ -12,6 +12,12 @@
       "pass": true
     },
     {
+      "id": "ADAPTER_REGISTRY",
+      "severity": "HIGH",
+      "message": "Adapter is not whitelisted in the adapter registry",
+      "pass": false
+    },
+    {
       "id": "SOURCE_CODE_PROVENANCE",
       "severity": "HIGH",
       "message": "Contract metadata hash matches a known hash for LidoOracle: 0x1220bdaf2ec9d3b449864cabcdf1cfad6809785e19a57168331c8a300ba30e7eef33",
@@ -45,5 +51,6 @@
   "label": "Lido - wstETH/stETH",
   "methodology": "Market Price",
   "model": "Push",
-  "provider": "Lido"
+  "provider": "Lido",
+  "whitelisted": false
 }

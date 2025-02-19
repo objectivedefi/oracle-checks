@@ -14,6 +14,12 @@
       "pass": true
     },
     {
+      "id": "ADAPTER_REGISTRY",
+      "severity": "HIGH",
+      "message": "Adapter is whitelisted in the adapter registry",
+      "pass": true
+    },
+    {
       "id": "SOURCE_CODE_PROVENANCE",
       "severity": "HIGH",
       "message": "Contract metadata hash matches a known hash for ChainlinkOracle: 0x1220f845d68829d96b6729958026d7d354231a3769dd7781c5008a2bc49e702c7d89",
@@ -47,5 +53,6 @@
   "label": "Chainlink - USDS / USD (0.5%, 86400s)",
   "methodology": "Market Price",
   "model": "Push",
-  "provider": "Chainlink"
+  "provider": "Chainlink",
+  "whitelisted": true
 }

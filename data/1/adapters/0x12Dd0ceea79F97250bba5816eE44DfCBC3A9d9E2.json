@@ -14,6 +14,12 @@
       "pass": true
     },
     {
+      "id": "ADAPTER_REGISTRY",
+      "severity": "HIGH",
+      "message": "Adapter was revoked from the adapter registry at 2024-09-03T19:36:23.000Z",
+      "pass": false
+    },
+    {
       "id": "SOURCE_CODE_PROVENANCE",
       "severity": "HIGH",
       "message": "Contract metadata hash matches a known hash for ChainlinkOracle: 0x12207458f598e96ece1cfe9f8eda97a5cd2dc539fbe7b0901d4d3cd079e6e6aec585",
@@ -47,5 +53,6 @@
   "label": "Chainlink - TBTC / USD (2%, 86400s)",
   "methodology": "Market Price",
   "model": "Push",
-  "provider": "Chainlink"
+  "provider": "Chainlink",
+  "whitelisted": false
 }

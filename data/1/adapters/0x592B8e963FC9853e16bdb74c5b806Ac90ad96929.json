@@ -14,6 +14,12 @@
       "pass": true
     },
     {
+      "id": "ADAPTER_REGISTRY",
+      "severity": "HIGH",
+      "message": "Adapter is not whitelisted in the adapter registry",
+      "pass": false
+    },
+    {
       "id": "SOURCE_CODE_PROVENANCE",
       "severity": "HIGH",
       "message": "Contract metadata hash matches a known hash for ChainlinkOracle: 0x1220a0fa2b06551f1068b24b951f255f737875f78cf1beb35dbc16557d589139426e",
@@ -47,5 +53,6 @@
   "label": "Chainlink - LBTC / BTC (0.5%, 86400s)",
   "methodology": "Market Price",
   "model": "Push",
-  "provider": "Chainlink"
+  "provider": "Chainlink",
+  "whitelisted": false
 }

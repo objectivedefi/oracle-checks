@@ -16,6 +16,12 @@
       "pass": true
     },
     {
+      "id": "ADAPTER_REGISTRY",
+      "severity": "HIGH",
+      "message": "Adapter is whitelisted in the adapter registry",
+      "pass": true
+    },
+    {
       "id": "SOURCE_CODE_PROVENANCE",
       "severity": "HIGH",
       "message": "Contract metadata hash matches a known hash for PythOracle: 0x1220f246a4266166da46653e2028acf10ef9a9ddb00fb781aed7daa0b77c51379c09",
@@ -73,5 +79,6 @@
   "label": "Pyth - Crypto.DEUSD/USD (120s, ±300bps)",
   "methodology": "Market Price",
   "model": "Pull",
-  "provider": "Pyth"
+  "provider": "Pyth",
+  "whitelisted": true
 }

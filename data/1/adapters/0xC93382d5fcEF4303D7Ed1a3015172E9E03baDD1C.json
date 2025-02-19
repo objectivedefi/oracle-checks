@@ -16,6 +16,12 @@
       "pass": true
     },
     {
+      "id": "ADAPTER_REGISTRY",
+      "severity": "HIGH",
+      "message": "Adapter is whitelisted in the adapter registry",
+      "pass": true
+    },
+    {
       "id": "SOURCE_CODE_PROVENANCE",
       "severity": "HIGH",
       "message": "Contract metadata hash matches a known hash for PythOracle: 0x1220b35e8842c40b4c90cef9861ee91311e2f2acbd8ecfdf216d4726f81b9432721f",
@@ -73,5 +79,6 @@
   "label": "Pyth - Crypto.ILV/USD (120s, ±300bps)",
   "methodology": "Market Price",
   "model": "Pull",
-  "provider": "Pyth"
+  "provider": "Pyth",
+  "whitelisted": true
 }

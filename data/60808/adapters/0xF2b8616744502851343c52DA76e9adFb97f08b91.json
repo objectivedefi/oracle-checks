@@ -14,6 +14,12 @@
       "pass": true
     },
     {
+      "id": "ADAPTER_REGISTRY",
+      "severity": "HIGH",
+      "message": "Adapter is whitelisted in the adapter registry",
+      "pass": true
+    },
+    {
       "id": "SOURCE_CODE_PROVENANCE",
       "severity": "HIGH",
       "message": "Contract metadata hash matches a known hash for ChainlinkInfrequentOracle: 0x1220bbc39c409d4697c843913afb02e2a76062f903f0e904eb2b5790988f5a21482e",
@@ -47,5 +53,6 @@
   "label": "Unknown AggregatorV3 Feed",
   "methodology": "Unknown",
   "model": "Push",
-  "provider": "Unknown"
+  "provider": "Unknown",
+  "whitelisted": true
 }

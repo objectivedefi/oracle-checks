@@ -12,6 +12,12 @@
       "pass": true
     },
     {
+      "id": "ADAPTER_REGISTRY",
+      "severity": "HIGH",
+      "message": "Adapter is not whitelisted in the adapter registry",
+      "pass": false
+    },
+    {
       "id": "SOURCE_CODE_PROVENANCE",
       "severity": "HIGH",
       "message": "Contract metadata hash matches a known hash for IdleTranchesOracle: 0x12205fab90911f9465e9f90d80ef81361680dedc1af9c5ec17910c1ac452ebbcb893",
@@ -39,5 +45,6 @@
   "label": "Idle - AA_idle_Fasanara/USDC",
   "methodology": "Unknown",
   "model": "Unknown",
-  "provider": "Idle"
+  "provider": "Idle",
+  "whitelisted": false
 }

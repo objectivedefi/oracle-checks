@@ -15,6 +15,12 @@
         "pass": true
       },
       {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
+      },
+      {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
         "message": "Contract metadata hash matches a known hash for ChainlinkOracle: 0x12207467179ef746bb6e36f68f73af401f9adbc850668280191bde07d8d3dc475fd1",
@@ -48,7 +54,8 @@
     "label": "RedStone - ETH (0.5%, 21600s)",
     "methodology": "Market Price",
     "model": "Push",
-    "provider": "RedStone"
+    "provider": "RedStone",
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -64,6 +71,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -100,7 +113,8 @@
     "label": "Cross - wstETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
-    "provider": "Cross"
+    "provider": "Cross",
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -116,6 +130,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -152,7 +172,8 @@
     "label": "Cross - weETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
-    "provider": "Cross"
+    "provider": "Cross",
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -168,6 +189,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -204,7 +231,8 @@
     "label": "Cross - ezETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
-    "provider": "Cross"
+    "provider": "Cross",
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -220,6 +248,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -256,7 +290,8 @@
     "label": "Cross - rsETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
-    "provider": "Cross"
+    "provider": "Cross",
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -272,6 +307,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -308,7 +349,8 @@
     "label": "Cross - swETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
-    "provider": "Cross"
+    "provider": "Cross",
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -324,6 +366,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -360,7 +408,8 @@
     "label": "Cross - rswETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
-    "provider": "Cross"
+    "provider": "Cross",
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -376,6 +425,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -412,7 +467,8 @@
     "label": "Cross - pzETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
-    "provider": "Cross"
+    "provider": "Cross",
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -427,6 +483,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -463,7 +525,8 @@
     "label": "RedStone - USDe (0.5%, 21600s)",
     "methodology": "Market Price",
     "model": "Push",
-    "provider": "RedStone"
+    "provider": "RedStone",
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -478,6 +541,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -514,7 +583,8 @@
     "label": "RedStone - sUSDe_FUNDAMENTAL (0.5%, 21600s)",
     "methodology": "Exchange Rate",
     "model": "Push",
-    "provider": "RedStone"
+    "provider": "RedStone",
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -530,6 +600,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -566,7 +642,8 @@
     "label": "Cross - SWELL/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
-    "provider": "Cross"
+    "provider": "Cross",
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -581,6 +658,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -617,7 +700,8 @@
     "label": "RedStone - wstETH/stETH (0.5%, 21600s)",
     "methodology": "Market Price",
     "model": "Push",
-    "provider": "RedStone"
+    "provider": "RedStone",
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -632,6 +716,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -668,7 +758,8 @@
     "label": "RedStone - weETH_FUNDAMENTAL (0.5%, 21600s)",
     "methodology": "Exchange Rate",
     "model": "Push",
-    "provider": "RedStone"
+    "provider": "RedStone",
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -683,6 +774,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -719,7 +816,8 @@
     "label": "RedStone - ezETH_FUNDAMENTAL (0.5%, 21600s)",
     "methodology": "Exchange Rate",
     "model": "Push",
-    "provider": "RedStone"
+    "provider": "RedStone",
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -734,6 +832,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -770,7 +874,8 @@
     "label": "RedStone - rsETH_FUNDAMENTAL (0.5%, 21600s)",
     "methodology": "Exchange Rate",
     "model": "Push",
-    "provider": "RedStone"
+    "provider": "RedStone",
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -785,6 +890,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -821,7 +932,8 @@
     "label": "RedStone - swETH_FUNDAMENTAL (0.5%, 21600s)",
     "methodology": "Exchange Rate",
     "model": "Push",
-    "provider": "RedStone"
+    "provider": "RedStone",
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -836,6 +948,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -872,7 +990,8 @@
     "label": "RedStone - rswETH_FUNDAMENTAL (0.5%, 21600s)",
     "methodology": "Exchange Rate",
     "model": "Push",
-    "provider": "RedStone"
+    "provider": "RedStone",
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -887,6 +1006,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -923,7 +1048,8 @@
     "label": "RedStone - pzETH_FUNDAMENTAL (0.5%, 21600s)",
     "methodology": "Exchange Rate",
     "model": "Push",
-    "provider": "RedStone"
+    "provider": "RedStone",
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -938,6 +1064,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -974,7 +1106,8 @@
     "label": "RedStone - SWELL/ETH (0.5%, 21600s)",
     "methodology": "Market Price",
     "model": "Push",
-    "provider": "RedStone"
+    "provider": "RedStone",
+    "whitelisted": true
   },
   {
     "name": "FixedRateOracle",
@@ -988,6 +1121,12 @@
         "id": "ADAPTER_EXISTS",
         "severity": "HIGH",
         "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
         "pass": true
       },
       {
@@ -1024,6 +1163,7 @@
     "label": "Fixed (1:1) - USDe/USD",
     "methodology": "Exchange Rate",
     "model": "Push",
-    "provider": "Fixed Rate"
+    "provider": "Fixed Rate",
+    "whitelisted": true
   }
 ]

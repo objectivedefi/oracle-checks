@@ -13,6 +13,12 @@
       "pass": true
     },
     {
+      "id": "ADAPTER_REGISTRY",
+      "severity": "HIGH",
+      "message": "Adapter is whitelisted in the adapter registry",
+      "pass": true
+    },
+    {
       "id": "SOURCE_CODE_PROVENANCE",
       "severity": "HIGH",
       "message": "Contract metadata hash matches a known hash for RateProviderOracle: 0x12205e85b75821595a40fc99b7d2d472063c543dcac101ef1bc8ddc2524c867f3aab",
@@ -40,5 +46,6 @@
   "label": "RateProvider - eBTC/BTC",
   "methodology": "Exchange Rate",
   "model": "Push",
-  "provider": "Rate Provider"
+  "provider": "Rate Provider",
+  "whitelisted": true
 }

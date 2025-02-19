@@ -13,6 +13,12 @@
       "pass": true
     },
     {
+      "id": "ADAPTER_REGISTRY",
+      "severity": "HIGH",
+      "message": "Adapter is whitelisted in the adapter registry",
+      "pass": true
+    },
+    {
       "id": "SOURCE_CODE_PROVENANCE",
       "severity": "HIGH",
       "message": "Contract metadata hash matches a known hash for RateProviderOracle: 0x1220f2352f54dc7c4c46d6469718ea090c3b9630a9116d4666c7d258da5d7885e795",
@@ -40,5 +46,6 @@
   "label": "RateProvider - osETH/WETH",
   "methodology": "Exchange Rate",
   "model": "Push",
-  "provider": "Rate Provider"
+  "provider": "Rate Provider",
+  "whitelisted": true
 }

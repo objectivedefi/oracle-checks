@@ -14,6 +14,12 @@
       "pass": true
     },
     {
+      "id": "ADAPTER_REGISTRY",
+      "severity": "HIGH",
+      "message": "Adapter is not whitelisted in the adapter registry",
+      "pass": false
+    },
+    {
       "id": "SOURCE_CODE_PROVENANCE",
       "severity": "HIGH",
       "message": "Contract metadata hash matches a known hash for ChainlinkInfrequentOracle: 0x122051b020741b88cb6fdb202c837bdc2e3311d316d2b9e399aff499d000ac0d7fce",
@@ -47,5 +53,6 @@
   "label": "Resolv: Resolv RLP/USD Oracle",
   "methodology": "Unknown",
   "model": "Push",
-  "provider": "Resolv"
+  "provider": "Resolv",
+  "whitelisted": false
 }

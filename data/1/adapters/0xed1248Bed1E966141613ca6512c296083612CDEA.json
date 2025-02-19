@@ -14,6 +14,12 @@
       "pass": true
     },
     {
+      "id": "ADAPTER_REGISTRY",
+      "severity": "HIGH",
+      "message": "Adapter is whitelisted in the adapter registry",
+      "pass": true
+    },
+    {
       "id": "SOURCE_CODE_PROVENANCE",
       "severity": "HIGH",
       "message": "Contract metadata hash matches a known hash for PendleOracle: 0x12204b2f608da04885c43f1bd83139f5773c54982ecf78961a563ffcebc616596863",
@@ -47,5 +53,6 @@
   "label": "Pendle - pumpBTC",
   "methodology": "TWAP",
   "model": "Push",
-  "provider": "Pendle"
+  "provider": "Pendle",
+  "whitelisted": true
 }

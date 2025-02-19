@@ -13,6 +13,12 @@
       "pass": true
     },
     {
+      "id": "ADAPTER_REGISTRY",
+      "severity": "HIGH",
+      "message": "Adapter is not whitelisted in the adapter registry",
+      "pass": false
+    },
+    {
       "id": "SOURCE_CODE_PROVENANCE",
       "severity": "HIGH",
       "message": "Contract metadata hash matches a known hash for FixedRateOracle: 0x1220e8c289af4809f49e3df0051daca5ab5acf5a0f020119f38a6cfce966ad9b20ea",
@@ -46,5 +52,6 @@
   "label": "Fixed (1:1) - USD0++/USD",
   "methodology": "Exchange Rate",
   "model": "Push",
-  "provider": "Fixed Rate"
+  "provider": "Fixed Rate",
+  "whitelisted": false
 }
