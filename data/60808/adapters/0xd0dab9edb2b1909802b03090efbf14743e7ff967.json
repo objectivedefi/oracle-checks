@@ -1,6 +1,6 @@
 {
   "name": "ChainlinkInfrequentOracle",
-  "address": "0xd0dab9edb2b1909802b03090efbf14743e7ff967",
+  "address": "0xD0dAb9eDb2b1909802B03090eFBF14743E7Ff967",
   "chainId": 60808,
   "base": "0x03C7054BCB39f7b2e5B2c7AcB37583e32D70Cfa3",
   "quote": "0x0000000000000000000000000000000000000348",
