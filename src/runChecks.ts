@@ -19,6 +19,7 @@ import {
   pythQuoteCorrespondence,
   pythStalenessRange,
   pendlePoolOfficial,
+  registry,
 } from "./checks";
 import { chainConfigs } from "./config/chainConfigs";
 import { extractAssetAddresses } from "./extractAssetAddresses";
@@ -27,6 +28,7 @@ import { AdapterToResults, CollectedData, OracleMethodology, OracleModel } from 
 export function runChecks({
   chainId,
   adapterAddresses,
+  adapterRegistryEntries,
   adapters,
   bytecodes,
   assets,
@@ -65,6 +67,11 @@ export function runChecks({
       label = "Unknown adapter";
       return;
     }
+
+    const registryCheck = registry({
+      entry: adapterRegistryEntries[adapterAddresses[index]],
+    });
+    checks.push(registryCheck);
 
     checks.push(
       knownMetadataHash({
@@ -257,6 +264,7 @@ export function runChecks({
       methodology,
       model,
       provider,
+      whitelisted: registryCheck.pass,
     };
   });
 

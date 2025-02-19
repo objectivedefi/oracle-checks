@@ -34,6 +34,7 @@ export function getAddressesForChain(chainId: number): SystemAddresses {
 
   return {
     oracleRouterFactory: peripheryAddresses.oracleRouterFactory,
+    oracleAdapterRegistry: peripheryAddresses.oracleAdapterRegistry,
     oracleAdaptersAddresses,
   };
 }

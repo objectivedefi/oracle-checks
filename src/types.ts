@@ -10,6 +10,7 @@ import {
   IdleCDO,
   IdleTranche,
   PendleMetadata,
+  RegistryEntry,
 } from "@objectivelabs/oracle-sdk";
 import { Address, Hex } from "viem";
 
@@ -19,6 +20,7 @@ export type CollectedData = {
   chainId: number;
   adapterAddresses: Address[];
   routerAddresses: Address[];
+  adapterRegistryEntries: Record<Address, RegistryEntry>;
   chainlinkMetadata: ChainlinkMetadata;
   redstoneMetadata: RedStoneMetadata;
   pythMetadata: PythMetadata;
@@ -40,10 +42,11 @@ export type OracleMethodology = "Market Price" | "Exchange Rate" | "TWAP" | "Unk
 export type AdapterToResults = Record<
   Address,
   {
-    checks: CheckResult[];
+    label?: string;
+    provider: string;
+    whitelisted: boolean;
     methodology: OracleMethodology;
     model: OracleModel;
-    provider: string;
-    label?: string;
+    checks: CheckResult[];
   }
 >;

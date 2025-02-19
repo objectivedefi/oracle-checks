@@ -2,11 +2,16 @@ import fs from "fs";
 
 import {
   Adapter,
+  Asset,
+  ChainlinkFeed,
+  ChronicleFeed,
   fetchChainlinkMetadata,
   fetchDeployedRouters,
   fetchPendleMetadata,
   fetchPythMetadata,
   fetchRedStoneMetadata,
+  IdleCDO,
+  IdleTranche,
   indexAdapters,
   indexAssets,
   indexChainlinkFeeds,
@@ -14,7 +19,9 @@ import {
   indexIdleCDOs,
   indexIdleTranches,
   indexRedStoneFeeds,
+  indexRegistry,
   indexRouterHistoricalAdapters,
+  RedStoneFeed,
 } from "@objectivelabs/oracle-sdk";
 import { Address, getAddress, Hex, zeroAddress } from "viem";
 
@@ -27,7 +34,8 @@ import { CollectedData } from "./types";
 const BATCH_SIZE = 50;
 
 export async function collectData(chainId: number): Promise<CollectedData> {
-  const { publicClient, oracleRouterFactory, fromBlock } = chainConfigs[chainId];
+  const { publicClient, oracleRouterFactory, oracleAdapterRegistry, fromBlock } =
+    chainConfigs[chainId];
 
   const logPrefix = `[${chainId} ${publicClient.chain?.name}]`;
   console.log(`${logPrefix} Begin data collection step`);
@@ -52,23 +60,34 @@ export async function collectData(chainId: number): Promise<CollectedData> {
   });
   console.log(`${logPrefix} Fetched ${routerAddresses.length} router addresses`);
 
+  const adapterRegistryEntries = await indexRegistry({
+    publicClient,
+    snapshotRegistry: oracleAdapterRegistry,
+    fromBlock,
+  });
+  console.log(
+    `${logPrefix} Indexed ${Object.keys(adapterRegistryEntries).length} adapter registry entries`,
+  );
+
   const historicalAdapterAddresses = await indexRouterHistoricalAdapters({
     publicClient,
     routerAddresses,
     fromBlock,
   });
+
   const csvAdapterAddresses = chainConfigs[chainId].oracleAdaptersAddresses;
+  const adapterRegistryAddresses = Object.keys(adapterRegistryEntries);
 
   const adapterAddresses = Array.from(
     new Set(
-      [...historicalAdapterAddresses, ...csvAdapterAddresses]
+      [...historicalAdapterAddresses, ...csvAdapterAddresses, ...adapterRegistryAddresses]
         .filter((a) => a !== zeroAddress)
         .map((a) => getAddress(a)),
     ),
   );
 
   console.log(
-    `${logPrefix} Found ${adapterAddresses.length} unique adapters (${historicalAdapterAddresses.length} in router history, ${csvAdapterAddresses.length} in csv)`,
+    `${logPrefix} Found ${adapterAddresses.length} unique adapters (${historicalAdapterAddresses.length} in router history, ${csvAdapterAddresses.length} in csv, ${adapterRegistryAddresses.length} in adapter registry)`,
   );
 
   const addressBatches = batchArray(adapterAddresses, BATCH_SIZE);
@@ -100,69 +119,93 @@ export async function collectData(chainId: number): Promise<CollectedData> {
     )
     .map(({ feed }) => feed);
 
-  const chainlinkFeeds = await indexChainlinkFeeds({
-    publicClient,
-    addresses: chainlinkMetadata
-      .map((metadata) => metadata.proxyAddress as Address)
-      .filter(
-        (proxyAddress) =>
-          !!proxyAddress &&
-          aggregatorV3Feeds.some((feed) => feed.toLowerCase() === proxyAddress.toLowerCase()),
-      ),
-  });
-  console.log(`${logPrefix} Indexed ${chainlinkFeeds.length} Chainlink feeds`);
+  const chainlinkFeedAddresses = chainlinkMetadata
+    .map((metadata) => metadata.proxyAddress as Address)
+    .filter(
+      (proxyAddress) =>
+        !!proxyAddress &&
+        aggregatorV3Feeds.some((feed) => feed.toLowerCase() === proxyAddress.toLowerCase()),
+    );
+
+  let chainlinkFeeds: ChainlinkFeed[] = [];
+  if (chainlinkFeedAddresses.length > 0) {
+    chainlinkFeeds = await indexChainlinkFeeds({
+      publicClient,
+      addresses: chainlinkFeedAddresses,
+    });
+    console.log(`${logPrefix} Indexed ${chainlinkFeeds.length} Chainlink feeds`);
+  }
 
   const chronicleFeedAddresses = adapters
     .filter((adapter) => adapter?.name === "ChronicleOracle")
     .map(({ feed }) => feed);
 
-  const chronicleFeeds = await indexChronicleFeeds({
-    publicClient,
-    addresses: chronicleFeedAddresses,
-  });
-  console.log(`${logPrefix} Indexed ${chronicleFeeds.length} Chronicle feeds`);
+  let chronicleFeeds: ChronicleFeed[] = [];
+  if (chronicleFeedAddresses.length > 0) {
+    chronicleFeeds = await indexChronicleFeeds({
+      publicClient,
+      addresses: chronicleFeedAddresses,
+    });
+    console.log(`${logPrefix} Indexed ${chronicleFeeds.length} Chronicle feeds`);
+  }
 
-  const redstoneFeeds = await indexRedStoneFeeds({
-    publicClient,
-    addresses: redstoneMetadata
-      .map((metadata) => metadata.priceFeedAddress)
-      .filter(
-        (priceFeedAddress) =>
-          !!priceFeedAddress &&
-          aggregatorV3Feeds.some((feed) => feed.toLowerCase() === priceFeedAddress.toLowerCase()),
-      ),
-  });
-  console.log(`${logPrefix} Indexed ${redstoneFeeds.length} RedStone feeds`);
+  const redstoneFeedAddresses = redstoneMetadata
+    .map((metadata) => metadata.priceFeedAddress)
+    .filter(
+      (priceFeedAddress) =>
+        !!priceFeedAddress &&
+        aggregatorV3Feeds.some((feed) => feed.toLowerCase() === priceFeedAddress.toLowerCase()),
+    );
+  let redstoneFeeds: RedStoneFeed[] = [];
+  if (redstoneFeedAddresses.length > 0) {
+    redstoneFeeds = await indexRedStoneFeeds({
+      publicClient,
+      addresses: redstoneFeedAddresses,
+    });
+    console.log(`${logPrefix} Indexed ${redstoneFeeds.length} RedStone feeds`);
+  }
 
   const idleOracles = adapters.filter((adapter) => adapter?.name === "IdleTranchesOracle");
 
   const idleCDOAddresses = idleOracles.map(({ cdo }) => cdo);
-  const idleCDOs = await indexIdleCDOs({
-    publicClient,
-    addresses: idleCDOAddresses,
-  });
+  let idleCDOs: IdleCDO[] = [];
+  if (idleCDOAddresses.length > 0) {
+    idleCDOs = await indexIdleCDOs({
+      publicClient,
+      addresses: idleCDOAddresses,
+    });
+    console.log(`${logPrefix} Indexed ${idleCDOs.length} IdleCDOs`);
+  }
 
   const idleTrancheAddresses = idleOracles.map(({ tranche }) => tranche);
-  const idleTranches = await indexIdleTranches({
-    publicClient,
-    addresses: idleTrancheAddresses,
-  });
+  let idleTranches: IdleTranche[] = [];
+  if (idleTrancheAddresses.length > 0) {
+    idleTranches = await indexIdleTranches({
+      publicClient,
+      addresses: idleTrancheAddresses,
+    });
+    console.log(`${logPrefix} Indexed ${idleTranches.length} IdleTranches`);
+  }
 
   const assetAddresses = Array.from(
     new Set(adapters.flatMap((adapter) => extractAssetAddresses(adapter))),
   );
 
-  const assets = await indexAssets({
-    publicClient,
-    addresses: assetAddresses,
-    fallbacks: fallbackAssets,
-  });
-  console.log(`${logPrefix} Indexed ${assets.length} unique assets`);
+  let assets: Asset[] = [];
+  if (assetAddresses.length > 0) {
+    assets = await indexAssets({
+      publicClient,
+      addresses: assetAddresses,
+      fallbacks: fallbackAssets,
+    });
+    console.log(`${logPrefix} Indexed ${assets.length} unique assets`);
+  }
 
   return {
     chainId,
     adapterAddresses,
     adapters,
+    adapterRegistryEntries,
     bytecodes,
     routerAddresses,
     chainlinkMetadata,
