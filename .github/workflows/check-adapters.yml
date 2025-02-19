@@ -43,10 +43,10 @@ jobs:
           echo '[submodule "euler-interfaces"]' > .gitmodules
           echo '    path = euler-interfaces' >> .gitmodules
           echo '    url = https://github.com/euler-xyz/euler-interfaces' >> .gitmodules
-          echo '    branch = new-deployments' >> .gitmodules
+          echo '    branch = master' >> .gitmodules
 
           # Add and initialize the submodule
-          git submodule add -f -b new-deployments https://github.com/euler-xyz/euler-interfaces
+          git submodule add -f -b master https://github.com/euler-xyz/euler-interfaces
 
           # Commit the changes if any
           git add .gitmodules euler-interfaces
