@@ -16,7 +16,7 @@ import {
   indexRedStoneFeeds,
   indexRouterHistoricalAdapters,
 } from "@objectivelabs/oracle-sdk";
-import { Address, Hex, zeroAddress } from "viem";
+import { Address, getAddress, Hex, zeroAddress } from "viem";
 
 import { batchArray } from "./batchArray";
 import { chainConfigs } from "./config/chainConfigs";
@@ -61,7 +61,9 @@ export async function collectData(chainId: number): Promise<CollectedData> {
 
   const adapterAddresses = Array.from(
     new Set(
-      [...historicalAdapterAddresses, ...csvAdapterAddresses].filter((a) => a !== zeroAddress),
+      [...historicalAdapterAddresses, ...csvAdapterAddresses]
+        .filter((a) => a !== zeroAddress)
+        .map((a) => getAddress(a)),
     ),
   );
 
