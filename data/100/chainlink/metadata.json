@@ -347,7 +347,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "UMA",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -674,7 +674,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Ziliqa",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",

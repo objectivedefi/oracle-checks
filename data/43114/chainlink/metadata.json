@@ -530,7 +530,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Basic Attention Token",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
