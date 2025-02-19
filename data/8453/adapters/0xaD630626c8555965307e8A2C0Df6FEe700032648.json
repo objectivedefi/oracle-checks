@@ -16,8 +16,8 @@
     {
       "id": "SOURCE_CODE_PROVENANCE",
       "severity": "HIGH",
-      "message": "Contract metadata hash mismatch for PendleOracle: got 0x12206cb0f4b432754cc2226baaa5a825d331cdd5d67f047e8f8085cb34c2a13ac4c7, expected one of 0x122046ab86b5153aa2a61ffad4545a71a89edd4a2a4ff65d106a19cddce4d81d7b47, 0x12207f25a0f27ca83891a73ceda39e6b00aa9f8fb3225505557020529b217c3a5d62, 0x1220e3c00e1a4ced46e1bfd47dcc9d456af1a0a17c76f1039cafef62a352e8b8a9bd, 0x122026b1cc67ec90e1ad83c8d4904cf6465d6dc98db94d42b5764a34817d7d54b183, 0x12204b2f608da04885c43f1bd83139f5773c54982ecf78961a563ffcebc616596863",
-      "pass": false
+      "message": "Contract metadata hash matches a known hash for PendleOracle: 0x12206cb0f4b432754cc2226baaa5a825d331cdd5d67f047e8f8085cb34c2a13ac4c7",
+      "pass": true
     },
     {
       "id": "DISTINCT_ASSETS",
