@@ -76,7 +76,7 @@
       "pass": true
     }
   ],
-  "label": "Pyth - Crypto.WSTKSCETH/SCETH.RR (60s, ±300bps)",
+  "label": "Crypto.WSTKSCETH/SCETH.RR (60s, ±300bps)",
   "methodology": "Exchange Rate",
   "model": "Pull",
   "provider": "Pyth",

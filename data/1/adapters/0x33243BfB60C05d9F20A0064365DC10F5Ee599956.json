@@ -76,7 +76,7 @@
       "pass": true
     }
   ],
-  "label": "Pyth - Crypto.ENA/USD (120s, ±300bps)",
+  "label": "Crypto.ENA/USD (120s, ±300bps)",
   "methodology": "Market Price",
   "model": "Pull",
   "provider": "Pyth",

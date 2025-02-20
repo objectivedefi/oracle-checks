@@ -50,7 +50,7 @@
       "pass": true
     }
   ],
-  "label": "Chainlink - RDNT / USD (2%, 86400s)",
+  "label": "RDNT / USD (2%, 86400s)",
   "methodology": "Market Price",
   "model": "Push",
   "provider": "Chainlink",

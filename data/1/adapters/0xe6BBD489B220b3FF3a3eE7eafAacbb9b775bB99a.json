@@ -76,7 +76,7 @@
       "pass": true
     }
   ],
-  "label": "Pyth - Crypto.USD0/USD (120s, ±300bps)",
+  "label": "Crypto.USD0/USD (120s, ±300bps)",
   "methodology": "Market Price",
   "model": "Pull",
   "provider": "Pyth",

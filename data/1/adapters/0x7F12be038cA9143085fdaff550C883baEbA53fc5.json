@@ -51,7 +51,7 @@
       "pass": true
     }
   ],
-  "label": "Cross - cbBTC/USDC/USD",
+  "label": "cbBTC/USDC/USD",
   "methodology": "Unknown",
   "model": "Unknown",
   "provider": "Cross",

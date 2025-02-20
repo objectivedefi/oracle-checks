@@ -50,7 +50,7 @@
       "pass": true
     }
   ],
-  "label": "Chainlink - DAI / USD (0.25%, 3600s)",
+  "label": "DAI / USD (0.25%, 3600s)",
   "methodology": "Market Price",
   "model": "Push",
   "provider": "Chainlink",

@@ -50,7 +50,7 @@
       "pass": true
     }
   ],
-  "label": "Chainlink - LDO / ETH (2%, 86400s)",
+  "label": "LDO / ETH (2%, 86400s)",
   "methodology": "Market Price",
   "model": "Push",
   "provider": "Chainlink",

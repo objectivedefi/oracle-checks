@@ -50,7 +50,7 @@
       "pass": true
     }
   ],
-  "label": "RedStone - osETH/ETH (0.5%, 86400s)",
+  "label": "osETH/ETH (0.5%, 86400s)",
   "methodology": "Market Price",
   "model": "Push",
   "provider": "RedStone",

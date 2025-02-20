@@ -50,7 +50,7 @@
       "pass": true
     }
   ],
-  "label": "RedStone - USDe (0.5%, 21600s)",
+  "label": "USDe (0.5%, 21600s)",
   "methodology": "Market Price",
   "model": "Push",
   "provider": "RedStone",

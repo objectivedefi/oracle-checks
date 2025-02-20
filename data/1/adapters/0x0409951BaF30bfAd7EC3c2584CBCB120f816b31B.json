@@ -50,7 +50,7 @@
       "pass": true
     }
   ],
-  "label": "Chainlink - 1INCH / ETH (2%, 86400s)",
+  "label": "1INCH / ETH (2%, 86400s)",
   "methodology": "Market Price",
   "model": "Push",
   "provider": "Chainlink",

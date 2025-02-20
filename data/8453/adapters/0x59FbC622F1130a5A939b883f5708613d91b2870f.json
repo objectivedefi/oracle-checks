@@ -44,7 +44,7 @@
       "pass": true
     }
   ],
-  "label": "Chronicle - CBETH/USD",
+  "label": "CBETH/USD",
   "methodology": "Unknown",
   "model": "Push",
   "provider": "Chronicle",

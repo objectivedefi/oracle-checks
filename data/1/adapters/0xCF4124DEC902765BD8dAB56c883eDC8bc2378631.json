@@ -49,7 +49,7 @@
       "pass": true
     }
   ],
-  "label": "Fixed (1:1) - cUSDOUSDC/USD",
+  "label": "1:1 cUSDOUSDC/USD",
   "methodology": "Exchange Rate",
   "model": "Push",
   "provider": "Fixed Rate",

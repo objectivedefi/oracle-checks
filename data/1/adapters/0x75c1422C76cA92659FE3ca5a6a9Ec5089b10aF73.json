@@ -45,7 +45,7 @@
       "pass": true
     }
   ],
-  "label": "Redstone Pull - osETH/USD",
+  "label": "osETH/USD",
   "methodology": "Unknown",
   "model": "Pull",
   "provider": "RedStone Pull",

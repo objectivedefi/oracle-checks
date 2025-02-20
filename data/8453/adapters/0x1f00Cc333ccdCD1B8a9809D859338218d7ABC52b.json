@@ -50,7 +50,7 @@
       "pass": true
     }
   ],
-  "label": "Chainlink - cbETH-ETH Exchange Rate (0.5%, 86400s)",
+  "label": "cbETH-ETH Exchange Rate (0.5%, 86400s)",
   "methodology": "Exchange Rate",
   "model": "Push",
   "provider": "Chainlink",

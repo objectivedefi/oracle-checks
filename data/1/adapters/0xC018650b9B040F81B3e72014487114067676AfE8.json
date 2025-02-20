@@ -45,7 +45,7 @@
       "pass": true
     }
   ],
-  "label": "Redstone Pull - EURC/USD",
+  "label": "EURC/USD",
   "methodology": "Unknown",
   "model": "Pull",
   "provider": "RedStone Pull",

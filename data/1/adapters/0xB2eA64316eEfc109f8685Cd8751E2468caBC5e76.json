@@ -45,7 +45,7 @@
       "pass": true
     }
   ],
-  "label": "Redstone Pull - apxETH/USD",
+  "label": "apxETH/USD",
   "methodology": "Unknown",
   "model": "Pull",
   "provider": "RedStone Pull",

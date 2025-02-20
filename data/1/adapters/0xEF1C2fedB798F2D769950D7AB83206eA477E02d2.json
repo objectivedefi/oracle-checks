@@ -43,7 +43,7 @@
       "pass": true
     }
   ],
-  "label": "RateProvider - ynETH/WETH",
+  "label": "ynETH/WETH",
   "methodology": "Exchange Rate",
   "model": "Push",
   "provider": "Rate Provider",

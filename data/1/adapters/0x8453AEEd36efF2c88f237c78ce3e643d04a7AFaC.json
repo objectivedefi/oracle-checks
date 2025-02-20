@@ -50,7 +50,7 @@
       "pass": true
     }
   ],
-  "label": "Chainlink - EUR / USD (0.15%, 86400s)",
+  "label": "EUR / USD (0.15%, 86400s)",
   "methodology": "Market Price",
   "model": "Push",
   "provider": "Chainlink",

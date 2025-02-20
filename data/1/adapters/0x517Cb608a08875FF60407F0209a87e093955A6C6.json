@@ -43,7 +43,7 @@
       "pass": true
     }
   ],
-  "label": "RateProvider - amphrETH/WETH",
+  "label": "amphrETH/WETH",
   "methodology": "Exchange Rate",
   "model": "Push",
   "provider": "Rate Provider",

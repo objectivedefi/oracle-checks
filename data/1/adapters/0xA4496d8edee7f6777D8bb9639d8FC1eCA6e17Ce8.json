@@ -51,7 +51,7 @@
       "pass": true
     }
   ],
-  "label": "Cross - pumpBTC/BTC/USD",
+  "label": "pumpBTC/BTC/USD",
   "methodology": "Unknown",
   "model": "Unknown",
   "provider": "Cross",

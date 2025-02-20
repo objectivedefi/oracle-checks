@@ -50,7 +50,7 @@
       "pass": true
     }
   ],
-  "label": "Chainlink - TUSD / ETH (1%, 86400s)",
+  "label": "TUSD / ETH (1%, 86400s)",
   "methodology": "Market Price",
   "model": "Push",
   "provider": "Chainlink",

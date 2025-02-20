@@ -51,7 +51,7 @@
       "pass": true
     }
   ],
-  "label": "Cross - cbBTC/BTC/WETH",
+  "label": "cbBTC/BTC/WETH",
   "methodology": "Unknown",
   "model": "Unknown",
   "provider": "Cross",

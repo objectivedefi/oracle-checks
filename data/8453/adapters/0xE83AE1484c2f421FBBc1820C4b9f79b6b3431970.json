@@ -50,7 +50,7 @@
       "pass": true
     }
   ],
-  "label": "Chainlink - wstETH-stETH Exchange Rate (1e-7%, 86400s)",
+  "label": "wstETH-stETH Exchange Rate (1e-7%, 86400s)",
   "methodology": "Exchange Rate",
   "model": "Push",
   "provider": "Chainlink",

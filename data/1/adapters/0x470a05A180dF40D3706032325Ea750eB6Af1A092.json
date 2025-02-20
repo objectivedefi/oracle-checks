@@ -50,7 +50,7 @@
       "pass": true
     }
   ],
-  "label": "Chainlink - LUSD / USD (1%, 3600s)",
+  "label": "LUSD / USD (1%, 3600s)",
   "methodology": "Market Price",
   "model": "Push",
   "provider": "Chainlink",

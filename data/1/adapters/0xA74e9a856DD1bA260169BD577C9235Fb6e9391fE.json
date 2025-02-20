@@ -50,7 +50,7 @@
       "pass": true
     }
   ],
-  "label": "Chainlink - UNI / ETH (2%, 86400s)",
+  "label": "UNI / ETH (2%, 86400s)",
   "methodology": "Market Price",
   "model": "Push",
   "provider": "Chainlink",

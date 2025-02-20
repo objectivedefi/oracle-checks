@@ -50,7 +50,7 @@
       "pass": true
     }
   ],
-  "label": "Pendle - LBTC",
+  "label": "LBTC",
   "methodology": "TWAP",
   "model": "Push",
   "provider": "Pendle",

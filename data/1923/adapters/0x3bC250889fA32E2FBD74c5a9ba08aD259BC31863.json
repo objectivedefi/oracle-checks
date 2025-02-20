@@ -51,7 +51,7 @@
       "pass": true
     }
   ],
-  "label": "Cross - weETH/WETH/USD",
+  "label": "weETH/WETH/USD",
   "methodology": "Unknown",
   "model": "Unknown",
   "provider": "Cross",

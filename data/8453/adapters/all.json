@@ -51,7 +51,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - ETH / USD (0.15%, 1200s)",
+    "label": "ETH / USD (0.15%, 1200s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -110,7 +110,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - wstETH/WETH/USD",
+    "label": "wstETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -168,7 +168,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - CBETH / USD (0.15%, 1200s)",
+    "label": "CBETH / USD (0.15%, 1200s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -227,7 +227,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - weETH/WETH/USD",
+    "label": "weETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -285,7 +285,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - USDC / USD (0.3%, 86400s)",
+    "label": "USDC / USD (0.3%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -343,7 +343,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - EURC / USD (0.3%, 86400s)",
+    "label": "EURC / USD (0.3%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -402,7 +402,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - cbBTC/USDC/USD",
+    "label": "cbBTC/USDC/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -461,7 +461,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - LBTC/BTC/USD",
+    "label": "LBTC/BTC/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -520,7 +520,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - cbETH/WETH/USD",
+    "label": "cbETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -579,7 +579,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - ezETH/WETH/USD",
+    "label": "ezETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -638,7 +638,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - rETH/WETH/USD",
+    "label": "rETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -696,7 +696,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - AERO / USD (0.5%, 86400s)",
+    "label": "AERO / USD (0.5%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -753,7 +753,7 @@
         "pass": true
       }
     ],
-    "label": "Fixed (1:1) - USR/USD",
+    "label": "1:1 USR/USD",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
@@ -812,7 +812,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - PT-LBTC-29MAY2025/cbBTC/USD",
+    "label": "PT-LBTC-29MAY2025/cbBTC/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -870,7 +870,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - BTC / USD (0.1%, 1200s)",
+    "label": "BTC / USD (0.1%, 1200s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -928,7 +928,7 @@
         "pass": false
       }
     ],
-    "label": "Chainlink - USDC / USD (0.3%, 86400s)",
+    "label": "USDC / USD (0.3%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -987,7 +987,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - LBTC/BTC/USD",
+    "label": "LBTC/BTC/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -1071,7 +1071,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.WSTETH/USD (60s, ±300bps)",
+    "label": "Crypto.WSTETH/USD (60s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -1128,7 +1128,7 @@
         "pass": true
       }
     ],
-    "label": "Fixed (1:1) - superOETHb/USD",
+    "label": "1:1 superOETHb/USD",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
@@ -1186,7 +1186,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - USDz / USD (0.5%, 86400s)",
+    "label": "USDz / USD (0.5%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -1270,7 +1270,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.ETH/USD (60s, ±300bps)",
+    "label": "Crypto.ETH/USD (60s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -1354,7 +1354,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.USDC/USD (60s, ±300bps)",
+    "label": "Crypto.USDC/USD (60s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -1406,7 +1406,7 @@
         "pass": true
       }
     ],
-    "label": "Chronicle - WSTETH/USD",
+    "label": "WSTETH/USD",
     "methodology": "Unknown",
     "model": "Push",
     "provider": "Chronicle",
@@ -1465,7 +1465,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - PT-USR-24APR2025/USR/USD",
+    "label": "PT-USR-24APR2025/USR/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -1523,7 +1523,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - USDS / USD (0.5%, 86400s)",
+    "label": "USDS / USD (0.5%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -1582,7 +1582,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - sUSDS/USDS/USD",
+    "label": "sUSDS/USDS/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -1641,7 +1641,7 @@
         "pass": false
       }
     ],
-    "label": "Fixed (non-standard) - undefined/USDC",
+    "label": "Unknown Fixed Rate Oracle",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
@@ -1705,7 +1705,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - cbETH-ETH Exchange Rate (0.5%, 86400s)",
+    "label": "cbETH-ETH Exchange Rate (0.5%, 86400s)",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Chainlink",
@@ -1763,7 +1763,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - wstETH-stETH Exchange Rate (1e-7%, 86400s)",
+    "label": "wstETH-stETH Exchange Rate (1e-7%, 86400s)",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Chainlink",
@@ -1815,7 +1815,7 @@
         "pass": true
       }
     ],
-    "label": "Chronicle - CBETH/USD",
+    "label": "CBETH/USD",
     "methodology": "Unknown",
     "model": "Push",
     "provider": "Chronicle",
@@ -1867,7 +1867,7 @@
         "pass": true
       }
     ],
-    "label": "Chronicle - ETH/USD",
+    "label": "ETH/USD",
     "methodology": "Unknown",
     "model": "Push",
     "provider": "Chronicle",
@@ -1919,7 +1919,7 @@
         "pass": true
       }
     ],
-    "label": "Chronicle - USDC/USD",
+    "label": "USDC/USD",
     "methodology": "Unknown",
     "model": "Push",
     "provider": "Chronicle",
@@ -1971,7 +1971,7 @@
         "pass": true
       }
     ],
-    "label": "Chronicle - CBBTC/USDC",
+    "label": "CBBTC/USDC",
     "methodology": "Unknown",
     "model": "Push",
     "provider": "Chronicle",
@@ -2055,7 +2055,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.CBETH/USD (60s, ±300bps)",
+    "label": "Crypto.CBETH/USD (60s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -2139,7 +2139,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.EURC/USD (60s, ±300bps)",
+    "label": "Crypto.EURC/USD (60s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -2197,7 +2197,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - weETH / eETH Exchange Rate (0.5%, 86400s)",
+    "label": "weETH / eETH Exchange Rate (0.5%, 86400s)",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Chainlink",
@@ -2255,7 +2255,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - BTC / USD (0.1%, 1200s)",
+    "label": "BTC / USD (0.1%, 1200s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -2313,7 +2313,7 @@
         "pass": true
       }
     ],
-    "label": "RedStone - LBTC_FUNDAMENTAL (1%, 86400s)",
+    "label": "LBTC_FUNDAMENTAL (1%, 86400s)",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "RedStone",
@@ -2371,7 +2371,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - ezETH / ETH Exchange Rate (0.5%, 86400s)",
+    "label": "ezETH / ETH Exchange Rate (0.5%, 86400s)",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Chainlink",
@@ -2422,7 +2422,7 @@
         "pass": true
       }
     ],
-    "label": "RateProvider - rETH/WETH",
+    "label": "rETH/WETH",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Rate Provider",
@@ -2480,7 +2480,7 @@
         "pass": true
       }
     ],
-    "label": "Pendle - LBTC",
+    "label": "LBTC",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
@@ -2537,7 +2537,7 @@
         "pass": true
       }
     ],
-    "label": "Fixed (1:1) - LBTC/BTC",
+    "label": "1:1 LBTC/BTC",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
@@ -2595,7 +2595,7 @@
         "pass": true
       }
     ],
-    "label": "Pendle - USR",
+    "label": "USR",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
@@ -2679,7 +2679,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.SUSDS/USDS.RR (60s, ±300bps)",
+    "label": "Crypto.SUSDS/USDS.RR (60s, ±300bps)",
     "methodology": "Exchange Rate",
     "model": "Pull",
     "provider": "Pyth",

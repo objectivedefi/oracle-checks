@@ -45,7 +45,7 @@
       "pass": true
     }
   ],
-  "label": "Redstone Pull - pufETH/USD",
+  "label": "pufETH/USD",
   "methodology": "Unknown",
   "model": "Pull",
   "provider": "RedStone Pull",

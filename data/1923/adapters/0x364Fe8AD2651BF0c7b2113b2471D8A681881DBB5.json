@@ -50,7 +50,7 @@
       "pass": true
     }
   ],
-  "label": "RedStone - rsETH_FUNDAMENTAL (0.5%, 21600s)",
+  "label": "rsETH_FUNDAMENTAL (0.5%, 21600s)",
   "methodology": "Exchange Rate",
   "model": "Push",
   "provider": "RedStone",

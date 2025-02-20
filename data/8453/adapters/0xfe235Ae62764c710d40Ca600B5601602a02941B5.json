@@ -48,7 +48,7 @@
       "pass": false
     }
   ],
-  "label": "Fixed (non-standard) - undefined/USDC",
+  "label": "Unknown Fixed Rate Oracle",
   "methodology": "Exchange Rate",
   "model": "Push",
   "provider": "Fixed Rate",

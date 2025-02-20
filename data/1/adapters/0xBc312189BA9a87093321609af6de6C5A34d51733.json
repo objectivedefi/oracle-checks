@@ -50,7 +50,7 @@
       "pass": true
     }
   ],
-  "label": "Chainlink - DAI / ETH (1%, 86400s)",
+  "label": "DAI / ETH (1%, 86400s)",
   "methodology": "Market Price",
   "model": "Push",
   "provider": "Chainlink",

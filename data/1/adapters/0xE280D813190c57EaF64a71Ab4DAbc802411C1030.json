@@ -50,7 +50,7 @@
       "pass": true
     }
   ],
-  "label": "Chainlink - ENS / USD (2%, 86400s)",
+  "label": "ENS / USD (2%, 86400s)",
   "methodology": "Market Price",
   "model": "Push",
   "provider": "Chainlink",

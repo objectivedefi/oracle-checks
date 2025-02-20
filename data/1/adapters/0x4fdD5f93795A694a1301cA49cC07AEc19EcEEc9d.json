@@ -45,7 +45,7 @@
       "pass": true
     }
   ],
-  "label": "Redstone Pull - sfrxETH/WETH",
+  "label": "sfrxETH/WETH",
   "methodology": "Unknown",
   "model": "Pull",
   "provider": "RedStone Pull",

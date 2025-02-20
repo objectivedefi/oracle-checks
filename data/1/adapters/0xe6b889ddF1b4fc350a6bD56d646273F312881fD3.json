@@ -43,7 +43,7 @@
       "pass": true
     }
   ],
-  "label": "RateProvider - eBTC/BTC",
+  "label": "eBTC/BTC",
   "methodology": "Exchange Rate",
   "model": "Push",
   "provider": "Rate Provider",

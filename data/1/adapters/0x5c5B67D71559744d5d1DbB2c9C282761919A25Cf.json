@@ -44,7 +44,7 @@
       "pass": true
     }
   ],
-  "label": "Chronicle - MKR/USD",
+  "label": "MKR/USD",
   "methodology": "Unknown",
   "model": "Push",
   "provider": "Chronicle",

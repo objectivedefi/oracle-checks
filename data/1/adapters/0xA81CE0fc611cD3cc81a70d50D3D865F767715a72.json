@@ -45,7 +45,7 @@
       "pass": true
     }
   ],
-  "label": "Redstone Pull - FXS/USD",
+  "label": "FXS/USD",
   "methodology": "Unknown",
   "model": "Pull",
   "provider": "RedStone Pull",

@@ -45,7 +45,7 @@
       "pass": true
     }
   ],
-  "label": "Redstone Pull - UNI/USD",
+  "label": "UNI/USD",
   "methodology": "Unknown",
   "model": "Pull",
   "provider": "RedStone Pull",

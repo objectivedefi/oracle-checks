@@ -50,7 +50,7 @@
       "pass": true
     }
   ],
-  "label": "Chainlink - CRV / ETH (2%, 86400s)",
+  "label": "CRV / ETH (2%, 86400s)",
   "methodology": "Market Price",
   "model": "Push",
   "provider": "Chainlink",

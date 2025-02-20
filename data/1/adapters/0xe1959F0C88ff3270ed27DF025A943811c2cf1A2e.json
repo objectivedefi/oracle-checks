@@ -50,7 +50,7 @@
       "pass": true
     }
   ],
-  "label": "RedStone - ezETH/ETH (1%, 43200s)",
+  "label": "ezETH/ETH (1%, 43200s)",
   "methodology": "Market Price",
   "model": "Push",
   "provider": "RedStone",

@@ -44,7 +44,7 @@
       "pass": true
     }
   ],
-  "label": "Chronicle - USDS/USD",
+  "label": "USDS/USD",
   "methodology": "Unknown",
   "model": "Push",
   "provider": "Chronicle",

@@ -50,7 +50,7 @@
       "pass": true
     }
   ],
-  "label": "Chainlink - RPL / USD (2%, 86400s)",
+  "label": "RPL / USD (2%, 86400s)",
   "methodology": "Market Price",
   "model": "Push",
   "provider": "Chainlink",

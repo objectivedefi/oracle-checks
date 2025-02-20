@@ -43,7 +43,7 @@
       "pass": true
     }
   ],
-  "label": "RateProvider - steakLRT/WETH",
+  "label": "steakLRT/WETH",
   "methodology": "Exchange Rate",
   "model": "Push",
   "provider": "Rate Provider",

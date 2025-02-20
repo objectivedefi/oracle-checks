@@ -44,7 +44,7 @@
       "pass": true
     }
   ],
-  "label": "Chronicle - WSTETH/USD",
+  "label": "WSTETH/USD",
   "methodology": "Unknown",
   "model": "Push",
   "provider": "Chronicle",

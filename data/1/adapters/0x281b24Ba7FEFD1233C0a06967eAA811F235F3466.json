@@ -45,7 +45,7 @@
       "pass": true
     }
   ],
-  "label": "Redstone Pull - eUSD/USD",
+  "label": "eUSD/USD",
   "methodology": "Unknown",
   "model": "Pull",
   "provider": "RedStone Pull",

@@ -50,7 +50,7 @@
       "pass": true
     }
   ],
-  "label": "Chainlink - ETH / BTC (0.5%, 3600s)",
+  "label": "ETH / BTC (0.5%, 3600s)",
   "methodology": "Market Price",
   "model": "Push",
   "provider": "Chainlink",

@@ -50,7 +50,7 @@
       "pass": true
     }
   ],
-  "label": "Chainlink - USDM / USD (0.5%, 86400s)",
+  "label": "USDM / USD (0.5%, 86400s)",
   "methodology": "Market Price",
   "model": "Push",
   "provider": "Chainlink",

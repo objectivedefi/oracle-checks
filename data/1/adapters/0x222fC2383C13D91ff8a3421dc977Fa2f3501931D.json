@@ -45,7 +45,7 @@
       "pass": true
     }
   ],
-  "label": "Redstone Pull - ezETH/USD",
+  "label": "ezETH/USD",
   "methodology": "Unknown",
   "model": "Pull",
   "provider": "RedStone Pull",

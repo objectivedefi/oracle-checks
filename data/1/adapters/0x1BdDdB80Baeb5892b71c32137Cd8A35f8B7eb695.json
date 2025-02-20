@@ -43,7 +43,7 @@
       "pass": true
     }
   ],
-  "label": "RateProvider - ETHx/WETH",
+  "label": "ETHx/WETH",
   "methodology": "Exchange Rate",
   "model": "Push",
   "provider": "Rate Provider",

@@ -51,7 +51,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - ETH / USD (0.5%, 3600s)",
+    "label": "ETH / USD (0.5%, 3600s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -110,7 +110,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - wstETH/stETH/USD",
+    "label": "wstETH/stETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -168,7 +168,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - USDC / USD (0.25%, 86400s)",
+    "label": "USDC / USD (0.25%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -226,7 +226,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - USDT / USD (0.25%, 86400s)",
+    "label": "USDT / USD (0.25%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -284,7 +284,7 @@
         "pass": true
       }
     ],
-    "label": "RedStone - apxETH/ETH (1%, 86400s)",
+    "label": "apxETH/ETH (1%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
@@ -342,7 +342,7 @@
         "pass": true
       }
     ],
-    "label": "RedStone - pzETH_FUNDAMENTAL (0.5%, 86400s)",
+    "label": "pzETH_FUNDAMENTAL (0.5%, 86400s)",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "RedStone",
@@ -401,7 +401,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - wstETH/stETH/WETH",
+    "label": "wstETH/stETH/WETH",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -459,7 +459,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - TBTC / USD (2%, 86400s)",
+    "label": "TBTC / USD (2%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -512,7 +512,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - wstETH/USD",
+    "label": "wstETH/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -565,7 +565,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - weETH/USD",
+    "label": "weETH/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -618,7 +618,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - ETHx/USD",
+    "label": "ETHx/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -671,7 +671,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - USDT/USD",
+    "label": "USDT/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -755,7 +755,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.CBETH/USD (120s, ±300bps)",
+    "label": "Crypto.CBETH/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -808,7 +808,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - USDC/USD",
+    "label": "USDC/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -861,7 +861,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - ezETH/USD",
+    "label": "ezETH/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -914,7 +914,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - rswETH/USD",
+    "label": "rswETH/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -967,7 +967,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - pufETH/USD",
+    "label": "pufETH/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -1020,7 +1020,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - crvUSD/USD",
+    "label": "crvUSD/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -1073,7 +1073,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - USDe/USD",
+    "label": "USDe/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -1126,7 +1126,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - WBTC/USD",
+    "label": "WBTC/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -1184,7 +1184,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - TBTC / USD (2%, 86400s)",
+    "label": "TBTC / USD (2%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -1242,7 +1242,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - STETH / USD (1%, 3600s)",
+    "label": "STETH / USD (1%, 3600s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -1295,7 +1295,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - WETH/USD",
+    "label": "WETH/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -1353,7 +1353,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - ezETH / ETH (0.5%, 86400s)",
+    "label": "ezETH / ETH (0.5%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -1437,7 +1437,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.WSTETH/USD (120s, ±300bps)",
+    "label": "Crypto.WSTETH/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -1521,7 +1521,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.ETH/USD (120s, ±300bps)",
+    "label": "Crypto.ETH/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -1605,7 +1605,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.USDC/USD (120s, ±300bps)",
+    "label": "Crypto.USDC/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -1657,7 +1657,7 @@
         "pass": true
       }
     ],
-    "label": "Chronicle - WSTETH/USD",
+    "label": "WSTETH/USD",
     "methodology": "Unknown",
     "model": "Push",
     "provider": "Chronicle",
@@ -1715,7 +1715,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - USDe / USD (0.5%, 86400s)",
+    "label": "USDe / USD (0.5%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -1773,7 +1773,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - CRVUSD / USD (0.5%, 86400s)",
+    "label": "CRVUSD / USD (0.5%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -1831,7 +1831,7 @@
         "pass": true
       }
     ],
-    "label": "RedStone - weETH (1%, 21600s)",
+    "label": "weETH (1%, 21600s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
@@ -1889,7 +1889,7 @@
         "pass": true
       }
     ],
-    "label": "RedStone - ETHx (1%, 86400s)",
+    "label": "ETHx (1%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
@@ -1948,7 +1948,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - cbETH/WETH/USD",
+    "label": "cbETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -2007,7 +2007,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - ezETH/WETH/USD",
+    "label": "ezETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -2066,7 +2066,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - rswETH/WETH/USD",
+    "label": "rswETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -2125,7 +2125,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - WBTC/BTC/USD",
+    "label": "WBTC/BTC/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -2209,7 +2209,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.SUSDE/USD (120s, ±300bps)",
+    "label": "Crypto.SUSDE/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -2293,7 +2293,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.USDE/USD (120s, ±300bps)",
+    "label": "Crypto.USDE/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -2351,7 +2351,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - GHO / USD (0.5%, 86400s)",
+    "label": "GHO / USD (0.5%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -2409,7 +2409,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - DAI / USD (0.25%, 3600s)",
+    "label": "DAI / USD (0.25%, 3600s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -2467,7 +2467,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - USDP / USD (1%, 3600s)",
+    "label": "USDP / USD (1%, 3600s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -2525,7 +2525,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - PYUSD / USD (0.3%, 86400s)",
+    "label": "PYUSD / USD (0.3%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -2583,7 +2583,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - TUSD / USD (0.3%, 86400s)",
+    "label": "TUSD / USD (0.3%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -2642,7 +2642,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - ETHx/WETH/USD",
+    "label": "ETHx/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -2701,7 +2701,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - weETH/WETH/USD",
+    "label": "weETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -2753,7 +2753,7 @@
         "pass": true
       }
     ],
-    "label": "Chronicle - ETH/USD",
+    "label": "ETH/USD",
     "methodology": "Unknown",
     "model": "Push",
     "provider": "Chronicle",
@@ -2837,7 +2837,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.SDAI/USD (120s, ±300bps)",
+    "label": "Crypto.SDAI/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -2895,7 +2895,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - sUSDe / USD (0.5%, 86400s)",
+    "label": "sUSDe / USD (0.5%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -2953,7 +2953,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - 1INCH / USD (1%, 86400s)",
+    "label": "1INCH / USD (1%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -3011,7 +3011,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - UNI / USD (1%, 3600s)",
+    "label": "UNI / USD (1%, 3600s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -3069,7 +3069,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - BAL / USD (2%, 86400s)",
+    "label": "BAL / USD (2%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -3127,7 +3127,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - LINK / USD (1%, 3600s)",
+    "label": "LINK / USD (1%, 3600s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -3185,7 +3185,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - CVX / USD (2%, 86400s)",
+    "label": "CVX / USD (2%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -3243,7 +3243,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - AAVE / USD (1%, 3600s)",
+    "label": "AAVE / USD (1%, 3600s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -3327,7 +3327,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.ENA/USD (120s, ±300bps)",
+    "label": "Crypto.ENA/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -3390,7 +3390,7 @@
         "pass": true
       }
     ],
-    "label": "Lido Fundamental - wstETH/ETH",
+    "label": "wstETH/ETH",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Lido Fundamental",
@@ -3448,7 +3448,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - weETH / ETH (0.5%, 86400s)",
+    "label": "weETH / ETH (0.5%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -3502,7 +3502,7 @@
         "pass": true
       }
     ],
-    "label": "RateProvider - agETH/WETH",
+    "label": "agETH/WETH",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Rate Provider",
@@ -3560,7 +3560,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - RSETH / ETH (0.5%, 86400s)",
+    "label": "RSETH / ETH (0.5%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -3617,7 +3617,7 @@
         "pass": true
       }
     ],
-    "label": "Fixed (1:1) - USD0/USD",
+    "label": "1:1 USD0/USD",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
@@ -3674,7 +3674,7 @@
         "pass": true
       }
     ],
-    "label": "Fixed (1:1) - USDA/USD",
+    "label": "1:1 USDA/USD",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
@@ -3732,7 +3732,7 @@
         "pass": true
       }
     ],
-    "label": "RedStone - eUSD (1%, 86400s)",
+    "label": "eUSD (1%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
@@ -3791,7 +3791,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - ETH+/WETH/USD",
+    "label": "ETH+/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -3849,7 +3849,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - USDC / ETH (1%, 86400s)",
+    "label": "USDC / ETH (1%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -3907,7 +3907,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - CBETH / ETH (1%, 86400s)",
+    "label": "CBETH / ETH (1%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -3965,7 +3965,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - RETH / ETH (2%, 86400s)",
+    "label": "RETH / ETH (2%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -4022,7 +4022,7 @@
         "pass": true
       }
     ],
-    "label": "Fixed (1:1) - OETH/WETH",
+    "label": "1:1 OETH/WETH",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
@@ -4080,7 +4080,7 @@
         "pass": true
       }
     ],
-    "label": "RedStone - ETH+/ETH (0.5%, 86400s)",
+    "label": "ETH+/ETH (0.5%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
@@ -4138,7 +4138,7 @@
         "pass": true
       }
     ],
-    "label": "RedStone - weETH/ETH (0.5%, 86400s)",
+    "label": "weETH/ETH (0.5%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
@@ -4189,7 +4189,7 @@
         "pass": true
       }
     ],
-    "label": "RateProvider - ezETH/WETH",
+    "label": "ezETH/WETH",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Rate Provider",
@@ -4247,7 +4247,7 @@
         "pass": true
       }
     ],
-    "label": "RedStone - rsETH/ETH (1%, 86400s)",
+    "label": "rsETH/ETH (1%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
@@ -4298,7 +4298,7 @@
         "pass": true
       }
     ],
-    "label": "RateProvider - amphrETH/WETH",
+    "label": "amphrETH/WETH",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Rate Provider",
@@ -4349,7 +4349,7 @@
         "pass": true
       }
     ],
-    "label": "RateProvider - steakLRT/WETH",
+    "label": "steakLRT/WETH",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Rate Provider",
@@ -4400,7 +4400,7 @@
         "pass": true
       }
     ],
-    "label": "RateProvider - rstETH/WETH",
+    "label": "rstETH/WETH",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Rate Provider",
@@ -4484,7 +4484,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.USDY/USD (120s, ±300bps)",
+    "label": "Crypto.USDY/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -4543,7 +4543,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - cbBTC/BTC/USD",
+    "label": "cbBTC/BTC/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -4595,7 +4595,7 @@
         "pass": true
       }
     ],
-    "label": "Chronicle - USDS/USD",
+    "label": "USDS/USD",
     "methodology": "Unknown",
     "model": "Push",
     "provider": "Chronicle",
@@ -4647,7 +4647,7 @@
         "pass": true
       }
     ],
-    "label": "Chronicle - SUSDS/USD",
+    "label": "SUSDS/USD",
     "methodology": "Unknown",
     "model": "Push",
     "provider": "Chronicle",
@@ -4704,7 +4704,7 @@
         "pass": true
       }
     ],
-    "label": "Fixed (1:1) - wM/USD",
+    "label": "1:1 wM/USD",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
@@ -4761,7 +4761,7 @@
         "pass": true
       }
     ],
-    "label": "Fixed (1:1) - AUSD/USD",
+    "label": "1:1 AUSD/USD",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
@@ -4820,7 +4820,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - TRYB/TRY/USD",
+    "label": "TRYB/TRY/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -4878,7 +4878,7 @@
         "pass": true
       }
     ],
-    "label": "RedStone - USD3 (0.5%, 86400s)",
+    "label": "USD3 (0.5%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
@@ -4936,7 +4936,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - cbBTC / USD (2%, 86400s)",
+    "label": "cbBTC / USD (2%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -5020,7 +5020,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.BIFI/USD (120s, ±300bps)",
+    "label": "Crypto.BIFI/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -5079,7 +5079,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - PT-sUSDE-27MAR2025/USDe/USD",
+    "label": "PT-sUSDE-27MAR2025/USDe/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -5137,7 +5137,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - MKR / USD (1%, 3600s)",
+    "label": "MKR / USD (1%, 3600s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -5196,7 +5196,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - pufETH/WETH/USD",
+    "label": "pufETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -5280,7 +5280,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.ONDO/USD (120s, ±300bps)",
+    "label": "Crypto.ONDO/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -5339,7 +5339,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - LDO/WETH/USD",
+    "label": "LDO/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -5397,7 +5397,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - GRT / USD (2%, 86400s)",
+    "label": "GRT / USD (2%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -5456,7 +5456,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - LBTC/BTC/USD",
+    "label": "LBTC/BTC/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -5515,7 +5515,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - rsETH/WETH/USD",
+    "label": "rsETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -5599,7 +5599,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.METH/USD (120s, ±300bps)",
+    "label": "Crypto.METH/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -5683,7 +5683,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.PAXG/USD (120s, ±300bps)",
+    "label": "Crypto.PAXG/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -5767,7 +5767,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.EURC/USD (120s, ±300bps)",
+    "label": "Crypto.EURC/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -5824,7 +5824,7 @@
         "pass": true
       }
     ],
-    "label": "Fixed (1:1) - mTBILL/USD",
+    "label": "1:1 mTBILL/USD",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
@@ -5883,7 +5883,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - cbBTC/USDC/USD",
+    "label": "cbBTC/USDC/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -5935,7 +5935,7 @@
         "pass": true
       }
     ],
-    "label": "Chronicle - SKY/USD",
+    "label": "SKY/USD",
     "methodology": "Unknown",
     "model": "Push",
     "provider": "Chronicle",
@@ -5994,7 +5994,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - mETH/WETH/USD",
+    "label": "mETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -6081,7 +6081,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.WBTC/USD (120s, ±300bps)",
+    "label": "Crypto.WBTC/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -6140,7 +6140,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - eBTC/BTC/USD",
+    "label": "eBTC/BTC/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -6230,7 +6230,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.BTC/USD (120s, ±300bps)",
+    "label": "Crypto.BTC/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -6314,7 +6314,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.BTC/USD (120s, ±300bps)",
+    "label": "Crypto.BTC/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -6398,7 +6398,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.BTC/USD (120s, ±300bps)",
+    "label": "Crypto.BTC/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -6482,7 +6482,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.BTC/USD (120s, ±300bps)",
+    "label": "Crypto.BTC/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -6541,7 +6541,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - PT-EBTC-26DEC2024/eBTC/USD",
+    "label": "PT-EBTC-26DEC2024/eBTC/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -6600,7 +6600,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - PT-LBTC-27MAR2025/WBTC/USD",
+    "label": "PT-LBTC-27MAR2025/WBTC/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -6659,7 +6659,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - LBTC/BTC/USD",
+    "label": "LBTC/BTC/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -6718,7 +6718,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - eBTC/BTC/USD",
+    "label": "eBTC/BTC/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -6802,7 +6802,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.CBBTC/USD (120s, ±300bps)",
+    "label": "Crypto.CBBTC/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -6886,7 +6886,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.TBTC/USD (120s, ±300bps)",
+    "label": "Crypto.TBTC/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -6945,7 +6945,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - pumpBTC/BTC/USD",
+    "label": "pumpBTC/BTC/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -7004,7 +7004,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - SolvBTC/BTC/USD",
+    "label": "SolvBTC/BTC/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -7088,7 +7088,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.USD0/USD (120s, ±300bps)",
+    "label": "Crypto.USD0/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -7172,7 +7172,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.USD0++/USD (120s, ±300bps)",
+    "label": "Crypto.USD0++/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -7231,7 +7231,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - PT-cornLBTC-26DEC2024/WBTC/USD",
+    "label": "PT-cornLBTC-26DEC2024/WBTC/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -7290,7 +7290,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - PT-corn-eBTC-27MAR2025/WBTC/USD",
+    "label": "PT-corn-eBTC-27MAR2025/WBTC/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -7349,7 +7349,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - PT-corn-pumpBTC-26DEC2024/WBTC/USD",
+    "label": "PT-corn-pumpBTC-26DEC2024/WBTC/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -7408,7 +7408,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - PT-pumpBTC-27MAR2025/WBTC/USD",
+    "label": "PT-pumpBTC-27MAR2025/WBTC/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -7467,7 +7467,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - PT-corn-SolvBTC.BBN-26DEC2024/WBTC/USD",
+    "label": "PT-corn-SolvBTC.BBN-26DEC2024/WBTC/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -7526,7 +7526,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - PT-USD0++-27MAR2025/USD0++/USD",
+    "label": "PT-USD0++-27MAR2025/USD0++/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -7585,7 +7585,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - PT-USD0++-26JUN2025/USD0++/USD",
+    "label": "PT-USD0++-26JUN2025/USD0++/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -7669,7 +7669,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.WEETH/USD (120s, ±300bps)",
+    "label": "Crypto.WEETH/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -7753,7 +7753,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.USDT/USD (120s, ±300bps)",
+    "label": "Crypto.USDT/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -7810,7 +7810,7 @@
         "pass": true
       }
     ],
-    "label": "Fixed (1:1) - USR/USD",
+    "label": "1:1 USR/USD",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
@@ -7867,7 +7867,7 @@
         "pass": true
       }
     ],
-    "label": "Fixed (1:1) - USDL/USD",
+    "label": "1:1 USDL/USD",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
@@ -7957,7 +7957,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.G/USD (120s, ±300bps)",
+    "label": "Crypto.G/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -8014,7 +8014,7 @@
         "pass": true
       }
     ],
-    "label": "Fixed (1:1) - USRUSDC/USD",
+    "label": "1:1 USRUSDC/USD",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
@@ -8073,7 +8073,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - AA_idle_Fasanara/USDC/USD",
+    "label": "AA_idle_Fasanara/USDC/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -8132,7 +8132,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - mBTC/BTC/USD",
+    "label": "mBTC/BTC/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -8216,7 +8216,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.FDUSD/USD (120s, ±300bps)",
+    "label": "Crypto.FDUSD/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -8300,7 +8300,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.PYUSD/USD (120s, ±300bps)",
+    "label": "Crypto.PYUSD/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -8357,7 +8357,7 @@
         "pass": true
       }
     ],
-    "label": "Fixed (1:1) - RLUSD/USD",
+    "label": "1:1 RLUSD/USD",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
@@ -8414,7 +8414,7 @@
         "pass": true
       }
     ],
-    "label": "Fixed (1:1) - USDM/USD",
+    "label": "1:1 USDM/USD",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
@@ -8498,7 +8498,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.USDS/USD (120s, ±300bps)",
+    "label": "Crypto.USDS/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -8582,7 +8582,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.DAI/USD (120s, ±300bps)",
+    "label": "Crypto.DAI/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -8666,7 +8666,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.DEUSD/USD (120s, ±300bps)",
+    "label": "Crypto.DEUSD/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -8783,7 +8783,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - PT-USD0++-30JAN2025/USD0++/USD",
+    "label": "PT-USD0++-30JAN2025/USD0++/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -8842,7 +8842,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - PT-sUSDE-29MAY2025/USDe/USD",
+    "label": "PT-sUSDE-29MAY2025/USDe/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -8901,7 +8901,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - PT-USDe-27MAR2025/USDe/USD",
+    "label": "PT-USDe-27MAR2025/USDe/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -8960,7 +8960,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - cbETH/WETH/USD",
+    "label": "cbETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -9019,7 +9019,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - weETH/WETH/USD",
+    "label": "weETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -9078,7 +9078,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - ezETH/WETH/USD",
+    "label": "ezETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -9137,7 +9137,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - rETH/WETH/USD",
+    "label": "rETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -9196,7 +9196,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - mETH/WETH/USD",
+    "label": "mETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -9255,7 +9255,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - rsETH/WETH/USD",
+    "label": "rsETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -9314,7 +9314,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - ETHx/WETH/USD",
+    "label": "ETHx/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -9373,7 +9373,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - LBTC/BTC/USD",
+    "label": "LBTC/BTC/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -9432,7 +9432,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - SolvBTC/BTC/USD",
+    "label": "SolvBTC/BTC/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -9491,7 +9491,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - PT-wstUSR-27MAR2025/USR/USD",
+    "label": "PT-wstUSR-27MAR2025/USR/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -9607,7 +9607,7 @@
         "pass": true
       }
     ],
-    "label": "Pendle - wstUSR",
+    "label": "wstUSR",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
@@ -9666,7 +9666,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - ynETH/WETH/USD",
+    "label": "ynETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -9724,7 +9724,7 @@
         "pass": true
       }
     ],
-    "label": "RedStone - beraSTONE_FUNDAMENTAL (0.5%, 86400s)",
+    "label": "beraSTONE_FUNDAMENTAL (0.5%, 86400s)",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "RedStone",
@@ -9781,7 +9781,7 @@
         "pass": true
       }
     ],
-    "label": "Fixed (1:1) - USDC/USD",
+    "label": "1:1 USDC/USD",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
@@ -9838,7 +9838,7 @@
         "pass": true
       }
     ],
-    "label": "Fixed (1:1) - cUSDOUSDC/USD",
+    "label": "1:1 cUSDOUSDC/USD",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
@@ -9895,7 +9895,7 @@
         "pass": true
       }
     ],
-    "label": "Fixed (1:1) - USDO/USD",
+    "label": "1:1 USDO/USD",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
@@ -9952,7 +9952,7 @@
         "pass": true
       }
     ],
-    "label": "Fixed (1:1) - USD0++/USD",
+    "label": "1:1 USD0++/USD",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
@@ -10008,7 +10008,7 @@
         "pass": true
       }
     ],
-    "label": "Lido - wstETH/stETH",
+    "label": "wstETH/stETH",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Lido",
@@ -10060,7 +10060,7 @@
         "pass": true
       }
     ],
-    "label": "Chronicle - MKR/USD",
+    "label": "MKR/USD",
     "methodology": "Unknown",
     "model": "Push",
     "provider": "Chronicle",
@@ -10118,7 +10118,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - 1INCH / ETH (2%, 86400s)",
+    "label": "1INCH / ETH (2%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -10176,7 +10176,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - AAVE / ETH (2%, 86400s)",
+    "label": "AAVE / ETH (2%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -10234,7 +10234,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - AGEUR / EUR (1%, 86400s)",
+    "label": "AGEUR / EUR (1%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -10292,7 +10292,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - BAL / ETH (2%, 86400s)",
+    "label": "BAL / ETH (2%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -10350,7 +10350,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - BTC / USD (0.5%, 3600s)",
+    "label": "BTC / USD (0.5%, 3600s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -10408,7 +10408,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - CRV / ETH (2%, 86400s)",
+    "label": "CRV / ETH (2%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -10466,7 +10466,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - CRV / USD (1%, 86400s)",
+    "label": "CRV / USD (1%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -10524,7 +10524,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - CVX / ETH (2%, 86400s)",
+    "label": "CVX / ETH (2%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -10582,7 +10582,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - DAI / ETH (1%, 86400s)",
+    "label": "DAI / ETH (1%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -10640,7 +10640,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - ENS / USD (2%, 86400s)",
+    "label": "ENS / USD (2%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -10698,7 +10698,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - ETH / BTC (0.5%, 3600s)",
+    "label": "ETH / BTC (0.5%, 3600s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -10756,7 +10756,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - ETHx / ETH (0.5%, 86400s)",
+    "label": "ETHx / ETH (0.5%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -10814,7 +10814,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - EUR / USD (0.15%, 86400s)",
+    "label": "EUR / USD (0.15%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -10872,7 +10872,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - FRAX / ETH (2%, 86400s)",
+    "label": "FRAX / ETH (2%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -10930,7 +10930,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - FRAX / USD (1%, 3600s)",
+    "label": "FRAX / USD (1%, 3600s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -10988,7 +10988,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - FXS / USD (2%, 86400s)",
+    "label": "FXS / USD (2%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -11046,7 +11046,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - GRT / ETH (2%, 3600s)",
+    "label": "GRT / ETH (2%, 3600s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -11104,7 +11104,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - LDO / ETH (2%, 86400s)",
+    "label": "LDO / ETH (2%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -11162,7 +11162,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - LINK / ETH (1%, 21600s)",
+    "label": "LINK / ETH (1%, 21600s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -11220,7 +11220,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - LUSD / USD (1%, 3600s)",
+    "label": "LUSD / USD (1%, 3600s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -11278,7 +11278,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - mETH / ETH (0.5%, 86400s)",
+    "label": "mETH / ETH (0.5%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -11336,7 +11336,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - MKR / ETH (1%, 86400s)",
+    "label": "MKR / ETH (1%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -11394,7 +11394,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - RDNT / USD (2%, 86400s)",
+    "label": "RDNT / USD (2%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -11452,7 +11452,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - rswETH / ETH (0.5%, 86400s)",
+    "label": "rswETH / ETH (0.5%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -11510,7 +11510,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - SNX / ETH (2%, 86400s)",
+    "label": "SNX / ETH (2%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -11568,7 +11568,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - SNX / USD (1%, 86400s)",
+    "label": "SNX / USD (1%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -11626,7 +11626,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - STETH / ETH (0.5%, 86400s)",
+    "label": "STETH / ETH (0.5%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -11684,7 +11684,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - STG / USD (5%, 86400s)",
+    "label": "STG / USD (5%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -11742,7 +11742,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - SUSD / ETH (1%, 86400s)",
+    "label": "SUSD / ETH (1%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -11800,7 +11800,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - SUSHI / ETH (2%, 86400s)",
+    "label": "SUSHI / ETH (2%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -11858,7 +11858,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - SUSHI / USD (1%, 3600s)",
+    "label": "SUSHI / USD (1%, 3600s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -11916,7 +11916,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - SWETH / ETH (0.5%, 86400s)",
+    "label": "SWETH / ETH (0.5%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -11974,7 +11974,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - TUSD / ETH (1%, 86400s)",
+    "label": "TUSD / ETH (1%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -12032,7 +12032,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - UNI / ETH (2%, 86400s)",
+    "label": "UNI / ETH (2%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -12090,7 +12090,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - USDT / ETH (1%, 86400s)",
+    "label": "USDT / ETH (1%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -12148,7 +12148,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - WBTC / BTC (2%, 86400s)",
+    "label": "WBTC / BTC (2%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -12206,7 +12206,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - YFI / ETH (1%, 86400s)",
+    "label": "YFI / ETH (1%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -12264,7 +12264,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - YFI / USD (1%, 3600s)",
+    "label": "YFI / USD (1%, 3600s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -12348,7 +12348,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.1INCH/USD (120s, ±300bps)",
+    "label": "Crypto.1INCH/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -12432,7 +12432,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.AAVE/USD (120s, ±300bps)",
+    "label": "Crypto.AAVE/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -12516,7 +12516,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.EURA/USD (120s, ±300bps)",
+    "label": "Crypto.EURA/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -12600,7 +12600,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.BAL/USD (120s, ±300bps)",
+    "label": "Crypto.BAL/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -12684,7 +12684,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.CRV/USD (120s, ±300bps)",
+    "label": "Crypto.CRV/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -12768,7 +12768,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.CVX/USD (120s, ±300bps)",
+    "label": "Crypto.CVX/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -12852,7 +12852,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.ENS/USD (120s, ±300bps)",
+    "label": "Crypto.ENS/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -12936,7 +12936,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.ETHFI/USD (120s, ±300bps)",
+    "label": "Crypto.ETHFI/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -13020,7 +13020,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.EZETH/USD (120s, ±300bps)",
+    "label": "Crypto.EZETH/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -13104,7 +13104,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.FRAX/USD (120s, ±300bps)",
+    "label": "Crypto.FRAX/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -13188,7 +13188,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.FRXETH/USD (120s, ±300bps)",
+    "label": "Crypto.FRXETH/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -13272,7 +13272,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.FXS/USD (120s, ±300bps)",
+    "label": "Crypto.FXS/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -13356,7 +13356,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.GHO/USD (120s, ±300bps)",
+    "label": "Crypto.GHO/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -13440,7 +13440,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.GNO/USD (120s, ±300bps)",
+    "label": "Crypto.GNO/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -13524,7 +13524,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.GRT/USD (120s, ±300bps)",
+    "label": "Crypto.GRT/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -13608,7 +13608,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.ILV/USD (120s, ±300bps)",
+    "label": "Crypto.ILV/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -13692,7 +13692,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.LDO/USD (120s, ±300bps)",
+    "label": "Crypto.LDO/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -13776,7 +13776,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.LINK/USD (120s, ±300bps)",
+    "label": "Crypto.LINK/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -13860,7 +13860,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.LQTY/USD (120s, ±300bps)",
+    "label": "Crypto.LQTY/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -13944,7 +13944,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.LUSD/USD (120s, ±300bps)",
+    "label": "Crypto.LUSD/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -14028,7 +14028,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.MKR/USD (120s, ±300bps)",
+    "label": "Crypto.MKR/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -14112,7 +14112,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.MNT/USD (120s, ±300bps)",
+    "label": "Crypto.MNT/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -14196,7 +14196,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.PENDLE/USD (120s, ±300bps)",
+    "label": "Crypto.PENDLE/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -14280,7 +14280,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.PUFETH/USD (120s, ±300bps)",
+    "label": "Crypto.PUFETH/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -14364,7 +14364,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.PXETH/USD (120s, ±300bps)",
+    "label": "Crypto.PXETH/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -14448,7 +14448,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.RDNT/USD (120s, ±300bps)",
+    "label": "Crypto.RDNT/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -14532,7 +14532,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.RETH/USD (120s, ±300bps)",
+    "label": "Crypto.RETH/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -14616,7 +14616,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.RPL/USD (120s, ±300bps)",
+    "label": "Crypto.RPL/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -14700,7 +14700,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.RSETH/USD (120s, ±300bps)",
+    "label": "Crypto.RSETH/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -14784,7 +14784,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.RSR/USD (120s, ±300bps)",
+    "label": "Crypto.RSR/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -14868,7 +14868,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.RSWETH/USD (120s, ±300bps)",
+    "label": "Crypto.RSWETH/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -14952,7 +14952,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.SAFE/USD (120s, ±300bps)",
+    "label": "Crypto.SAFE/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -15036,7 +15036,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.SFRXETH/USD (120s, ±300bps)",
+    "label": "Crypto.SFRXETH/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -15120,7 +15120,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.SNX/USD (120s, ±300bps)",
+    "label": "Crypto.SNX/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -15204,7 +15204,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.STG/USD (120s, ±300bps)",
+    "label": "Crypto.STG/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -15288,7 +15288,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.SUSHI/USD (120s, ±300bps)",
+    "label": "Crypto.SUSHI/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -15372,7 +15372,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.SWETH/USD (120s, ±300bps)",
+    "label": "Crypto.SWETH/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -15456,7 +15456,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.TUSD/USD (120s, ±300bps)",
+    "label": "Crypto.TUSD/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -15540,7 +15540,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.UNI/USD (120s, ±300bps)",
+    "label": "Crypto.UNI/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -15624,7 +15624,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.USDP/USD (120s, ±300bps)",
+    "label": "Crypto.USDP/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -15708,7 +15708,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.WLD/USD (120s, ±300bps)",
+    "label": "Crypto.WLD/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -15792,7 +15792,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.WOO/USD (120s, ±300bps)",
+    "label": "Crypto.WOO/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -15876,7 +15876,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.XAUT/USD (120s, ±300bps)",
+    "label": "Crypto.XAUT/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -15960,7 +15960,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.YFI/USD (120s, ±300bps)",
+    "label": "Crypto.YFI/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -16018,7 +16018,7 @@
         "pass": true
       }
     ],
-    "label": "RedStone - ETHx/ETH (0.5%, 86400s)",
+    "label": "ETHx/ETH (0.5%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
@@ -16076,7 +16076,7 @@
         "pass": true
       }
     ],
-    "label": "RedStone - osETH/ETH (0.5%, 86400s)",
+    "label": "osETH/ETH (0.5%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
@@ -16134,7 +16134,7 @@
         "pass": true
       }
     ],
-    "label": "RedStone - SWETH/ETH (0.5%, 21600s)",
+    "label": "SWETH/ETH (0.5%, 21600s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
@@ -16192,7 +16192,7 @@
         "pass": true
       }
     ],
-    "label": "RedStone - ezETH/ETH (1%, 43200s)",
+    "label": "ezETH/ETH (1%, 43200s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
@@ -16250,7 +16250,7 @@
         "pass": true
       }
     ],
-    "label": "RedStone - rswETH/ETH (1%, 86400s)",
+    "label": "rswETH/ETH (1%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
@@ -16308,7 +16308,7 @@
         "pass": true
       }
     ],
-    "label": "RedStone - USDe (0.2%, 86400s)",
+    "label": "USDe (0.2%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
@@ -16366,7 +16366,7 @@
         "pass": true
       }
     ],
-    "label": "RedStone - sUSDe (0.2%, 86400s)",
+    "label": "sUSDe (0.2%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
@@ -16424,7 +16424,7 @@
         "pass": true
       }
     ],
-    "label": "RedStone - pufETH/ETH (1%, 86400s)",
+    "label": "pufETH/ETH (1%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
@@ -16482,7 +16482,7 @@
         "pass": true
       }
     ],
-    "label": "RedStone - sfrxETH/ETH (0.5%, 21600s)",
+    "label": "sfrxETH/ETH (0.5%, 21600s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
@@ -16541,7 +16541,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - EURA/EUR/USD",
+    "label": "EURA/EUR/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -16600,7 +16600,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - rETH/WETH/USD",
+    "label": "rETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -16659,7 +16659,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - sUSD/WETH/USD",
+    "label": "sUSD/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -16718,7 +16718,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - swETH/WETH/USD",
+    "label": "swETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -16777,7 +16777,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - osETH/WETH/USD",
+    "label": "osETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -16836,7 +16836,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - swETH/WETH/USD",
+    "label": "swETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -16895,7 +16895,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - rsETH/WETH/USD",
+    "label": "rsETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -16954,7 +16954,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - ezETH/WETH/USD",
+    "label": "ezETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -17013,7 +17013,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - rswETH/WETH/USD",
+    "label": "rswETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -17072,7 +17072,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - sfrxETH/WETH/USD",
+    "label": "sfrxETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -17131,7 +17131,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - apxETH/WETH/USD",
+    "label": "apxETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -17184,7 +17184,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - DAI/USD",
+    "label": "DAI/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -17237,7 +17237,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - FXS/USD",
+    "label": "FXS/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -17290,7 +17290,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - FRAX/USD",
+    "label": "FRAX/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -17343,7 +17343,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - wstETH/WETH",
+    "label": "wstETH/WETH",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -17396,7 +17396,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - swETH/USD",
+    "label": "swETH/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -17449,7 +17449,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - swETH/WETH",
+    "label": "swETH/WETH",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -17502,7 +17502,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - LUSD/USD",
+    "label": "LUSD/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -17555,7 +17555,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - GHO/USD",
+    "label": "GHO/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -17608,7 +17608,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - AAVE/USD",
+    "label": "AAVE/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -17661,7 +17661,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - MNT/USD",
+    "label": "MNT/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -17714,7 +17714,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - ETHx/WETH",
+    "label": "ETHx/WETH",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -17767,7 +17767,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - weETH/WETH",
+    "label": "weETH/WETH",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -17820,7 +17820,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - weETH/WETH",
+    "label": "weETH/WETH",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -17873,7 +17873,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - rETH/USD",
+    "label": "rETH/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -17926,7 +17926,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - rETH/WETH",
+    "label": "rETH/WETH",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -17979,7 +17979,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - osETH/USD",
+    "label": "osETH/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -18032,7 +18032,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - UNI/USD",
+    "label": "UNI/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -18085,7 +18085,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - LINK/USD",
+    "label": "LINK/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -18138,7 +18138,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - CRV/USD",
+    "label": "CRV/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -18191,7 +18191,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - MKR/USD",
+    "label": "MKR/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -18244,7 +18244,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - wUSDM/USD",
+    "label": "wUSDM/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -18297,7 +18297,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - frxETH/USD",
+    "label": "frxETH/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -18350,7 +18350,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - eUSD/USD",
+    "label": "eUSD/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -18403,7 +18403,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - RSR/USD",
+    "label": "RSR/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -18456,7 +18456,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - sfrxETH/WETH",
+    "label": "sfrxETH/WETH",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -18509,7 +18509,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - rsETH/USD",
+    "label": "rsETH/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -18562,7 +18562,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - rsETH/WETH",
+    "label": "rsETH/WETH",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -18615,7 +18615,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - sUSDe/USD",
+    "label": "sUSDe/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -18668,7 +18668,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - rswETH/WETH",
+    "label": "rswETH/WETH",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -18721,7 +18721,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - rsETH/WETH",
+    "label": "rsETH/WETH",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -18774,7 +18774,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - rswETH/WETH",
+    "label": "rswETH/WETH",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -18827,7 +18827,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - osETH/WETH",
+    "label": "osETH/WETH",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -18880,7 +18880,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - pxETH/USD",
+    "label": "pxETH/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -18933,7 +18933,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - pxETH/WETH",
+    "label": "pxETH/WETH",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -18986,7 +18986,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - apxETH/USD",
+    "label": "apxETH/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -19039,7 +19039,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - apxETH/WETH",
+    "label": "apxETH/WETH",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -19092,7 +19092,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - EURC/USD",
+    "label": "EURC/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -19145,7 +19145,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - EURA/USD",
+    "label": "EURA/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -19198,7 +19198,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - CVX/USD",
+    "label": "CVX/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -19251,7 +19251,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - ETH+/USD",
+    "label": "ETH+/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -19304,7 +19304,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - ETH+/WETH",
+    "label": "ETH+/WETH",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -19357,7 +19357,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - sDAI/USD",
+    "label": "sDAI/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -19410,7 +19410,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - sfrxETH/USD",
+    "label": "sfrxETH/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -19463,7 +19463,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - ezETH/WETH",
+    "label": "ezETH/WETH",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -19516,7 +19516,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - pufETH/WETH",
+    "label": "pufETH/WETH",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -19569,7 +19569,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - LDO/USD",
+    "label": "LDO/USD",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -19622,7 +19622,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - pufETH/WETH",
+    "label": "pufETH/WETH",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -19675,7 +19675,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - ezETH/WETH",
+    "label": "ezETH/WETH",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -19728,7 +19728,7 @@
         "pass": true
       }
     ],
-    "label": "Redstone Pull - mETH/WETH",
+    "label": "mETH/WETH",
     "methodology": "Unknown",
     "model": "Pull",
     "provider": "RedStone Pull",
@@ -19787,7 +19787,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - wstETH/WETH/USD",
+    "label": "wstETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -19845,7 +19845,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - RPL / USD (2%, 86400s)",
+    "label": "RPL / USD (2%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -19903,7 +19903,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - RSR / USD (2%, 86400s)",
+    "label": "RSR / USD (2%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -19969,7 +19969,7 @@
         "pass": true
       }
     ],
-    "label": "Fixed (1:1) - M/USD",
+    "label": "1:1 M/USD",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
@@ -20020,7 +20020,7 @@
         "pass": true
       }
     ],
-    "label": "RateProvider - rETH/WETH",
+    "label": "rETH/WETH",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Rate Provider",
@@ -20071,7 +20071,7 @@
         "pass": true
       }
     ],
-    "label": "RateProvider - osETH/WETH",
+    "label": "osETH/WETH",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Rate Provider",
@@ -20122,7 +20122,7 @@
         "pass": true
       }
     ],
-    "label": "RateProvider - weETH/WETH",
+    "label": "weETH/WETH",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Rate Provider",
@@ -20173,7 +20173,7 @@
         "pass": true
       }
     ],
-    "label": "RateProvider - rswETH/WETH",
+    "label": "rswETH/WETH",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Rate Provider",
@@ -20224,7 +20224,7 @@
         "pass": true
       }
     ],
-    "label": "RateProvider - ETHx/WETH",
+    "label": "ETHx/WETH",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Rate Provider",
@@ -20275,7 +20275,7 @@
         "pass": true
       }
     ],
-    "label": "RateProvider - pufETH/WETH",
+    "label": "pufETH/WETH",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Rate Provider",
@@ -20326,7 +20326,7 @@
         "pass": true
       }
     ],
-    "label": "RateProvider - ynETH/WETH",
+    "label": "ynETH/WETH",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Rate Provider",
@@ -20377,7 +20377,7 @@
         "pass": true
       }
     ],
-    "label": "RateProvider - swETH/WETH",
+    "label": "swETH/WETH",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Rate Provider",
@@ -20428,7 +20428,7 @@
         "pass": true
       }
     ],
-    "label": "RateProvider - sfrxETH/WETH",
+    "label": "sfrxETH/WETH",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Rate Provider",
@@ -20479,7 +20479,7 @@
         "pass": true
       }
     ],
-    "label": "RateProvider - cbETH/WETH",
+    "label": "cbETH/WETH",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Rate Provider",
@@ -20530,7 +20530,7 @@
         "pass": true
       }
     ],
-    "label": "RateProvider - rsETH/WETH",
+    "label": "rsETH/WETH",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Rate Provider",
@@ -20587,7 +20587,7 @@
         "pass": true
       }
     ],
-    "label": "Fixed (1:1) - amphrBTC/BTC",
+    "label": "1:1 amphrBTC/BTC",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
@@ -20644,7 +20644,7 @@
         "pass": true
       }
     ],
-    "label": "Fixed (1:1) - cbBTC/BTC",
+    "label": "1:1 cbBTC/BTC",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
@@ -20703,7 +20703,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - amphrBTC/BTC/WETH",
+    "label": "amphrBTC/BTC/WETH",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -20762,7 +20762,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - cbBTC/BTC/WETH",
+    "label": "cbBTC/BTC/WETH",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -20820,7 +20820,7 @@
         "pass": true
       }
     ],
-    "label": "RedStone - LBTC_FUNDAMENTAL (1%, 86400s)",
+    "label": "LBTC_FUNDAMENTAL (1%, 86400s)",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "RedStone",
@@ -20878,7 +20878,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - USD0 / USD (0.5%, 86400s)",
+    "label": "USD0 / USD (0.5%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -20936,7 +20936,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - USDM / USD (0.5%, 86400s)",
+    "label": "USDM / USD (0.5%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -20988,7 +20988,7 @@
         "pass": true
       }
     ],
-    "label": "Chronicle - CBBTC/USDC",
+    "label": "CBBTC/USDC",
     "methodology": "Unknown",
     "model": "Push",
     "provider": "Chronicle",
@@ -21046,7 +21046,7 @@
         "pass": true
       }
     ],
-    "label": "Pendle - eBTC",
+    "label": "eBTC",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
@@ -21104,7 +21104,7 @@
         "pass": true
       }
     ],
-    "label": "Pendle - LBTC (Corn)",
+    "label": "LBTC (Corn)",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
@@ -21155,7 +21155,7 @@
         "pass": true
       }
     ],
-    "label": "RateProvider - eBTC/BTC",
+    "label": "eBTC/BTC",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Rate Provider",
@@ -21213,7 +21213,7 @@
         "pass": true
       }
     ],
-    "label": "RedStone - SolvBTC (0.5%, 21600s)",
+    "label": "SolvBTC (0.5%, 21600s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
@@ -21272,7 +21272,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - cbBTC/USDC/WETH",
+    "label": "cbBTC/USDC/WETH",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -21331,7 +21331,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - PT-EBTC-26DEC2024/eBTC/BTC",
+    "label": "PT-EBTC-26DEC2024/eBTC/BTC",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -21390,7 +21390,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - PT-cornLBTC-26DEC2024/WBTC/BTC",
+    "label": "PT-cornLBTC-26DEC2024/WBTC/BTC",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -21448,7 +21448,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - TRY / USD (0.5%, 86400s)",
+    "label": "TRY / USD (0.5%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -21505,7 +21505,7 @@
         "pass": true
       }
     ],
-    "label": "Fixed (1:1) - TRYB/TRY",
+    "label": "1:1 TRYB/TRY",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
@@ -21564,7 +21564,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - sfrxETH/WETH/USD",
+    "label": "sfrxETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -21623,7 +21623,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - rswETH/WETH/USD",
+    "label": "rswETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -21740,7 +21740,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - osETH/WETH/USD",
+    "label": "osETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -21801,7 +21801,7 @@
         "pass": true
       }
     ],
-    "label": "Pendle - sUSDe",
+    "label": "sUSDe",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
@@ -21885,7 +21885,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.EIGEN/USD (120s, ±300bps)",
+    "label": "Crypto.EIGEN/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -21969,7 +21969,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.STRK/USD (120s, ±300bps)",
+    "label": "Crypto.STRK/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -22027,7 +22027,7 @@
         "pass": true
       }
     ],
-    "label": "Pendle - LBTC",
+    "label": "LBTC",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
@@ -22084,7 +22084,7 @@
         "pass": true
       }
     ],
-    "label": "Fixed (1:1) - SolvBTC/BTC",
+    "label": "1:1 SolvBTC/BTC",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
@@ -22141,7 +22141,7 @@
         "pass": true
       }
     ],
-    "label": "Fixed (1:1) - pumpBTC/BTC",
+    "label": "1:1 pumpBTC/BTC",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
@@ -22225,7 +22225,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.BTC/USD (120s, ±300bps)",
+    "label": "Crypto.BTC/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -22283,7 +22283,7 @@
         "pass": true
       }
     ],
-    "label": "Pendle - eBTC (Corn)",
+    "label": "eBTC (Corn)",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
@@ -22341,7 +22341,7 @@
         "pass": true
       }
     ],
-    "label": "Pendle - pumpBTC",
+    "label": "pumpBTC",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
@@ -22399,7 +22399,7 @@
         "pass": true
       }
     ],
-    "label": "Pendle - PumpBTC (Corn)",
+    "label": "PumpBTC (Corn)",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
@@ -22457,7 +22457,7 @@
         "pass": true
       }
     ],
-    "label": "Pendle - SolvBTC.BBN (Corn)",
+    "label": "SolvBTC.BBN (Corn)",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
@@ -22515,7 +22515,7 @@
         "pass": true
       }
     ],
-    "label": "Pendle - USD0++",
+    "label": "USD0++",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
@@ -22573,7 +22573,7 @@
         "pass": true
       }
     ],
-    "label": "Pendle - USD0++",
+    "label": "USD0++",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
@@ -22747,7 +22747,7 @@
         "pass": true
       }
     ],
-    "label": "Pendle - sUSDe",
+    "label": "sUSDe",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
@@ -22797,7 +22797,7 @@
         "pass": true
       }
     ],
-    "label": "Idle - AA_idle_Fasanara/USDC",
+    "label": "AA_idle_Fasanara/USDC",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Idle",
@@ -22855,7 +22855,7 @@
         "pass": true
       }
     ],
-    "label": "Pendle - USD0++",
+    "label": "USD0++",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
@@ -22913,7 +22913,7 @@
         "pass": true
       }
     ],
-    "label": "Pendle - USDe",
+    "label": "USDe",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
@@ -22997,7 +22997,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.USDA/USD (120s, ±300bps)",
+    "label": "Crypto.USDA/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
@@ -23054,7 +23054,7 @@
         "pass": true
       }
     ],
-    "label": "Fixed (1:1) - USDa/USD",
+    "label": "1:1 USDa/USD",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
@@ -23124,7 +23124,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - LBTC / BTC (0.5%, 86400s)",
+    "label": "LBTC / BTC (0.5%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -23182,7 +23182,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - solvBTC / BTC (1%, 86400s)",
+    "label": "solvBTC / BTC (1%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -23266,7 +23266,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.METH/ETH.RR (120s, ±300bps)",
+    "label": "Crypto.METH/ETH.RR (120s, ±300bps)",
     "methodology": "Exchange Rate",
     "model": "Pull",
     "provider": "Pyth",
@@ -23324,7 +23324,7 @@
         "pass": true
       }
     ],
-    "label": "Pendle - eBTC",
+    "label": "eBTC",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
@@ -23383,7 +23383,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - PT-EBTC-26JUN2025/eBTC/USD",
+    "label": "PT-EBTC-26JUN2025/eBTC/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -23441,7 +23441,7 @@
         "pass": true
       }
     ],
-    "label": "Pendle - LBTC (Corn)",
+    "label": "LBTC (Corn)",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
@@ -23500,7 +23500,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - PT-cornLBTC-27FEB2025/WBTC/USD",
+    "label": "PT-cornLBTC-27FEB2025/WBTC/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -23559,7 +23559,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - beraSTONE/WETH/USD",
+    "label": "beraSTONE/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -23617,7 +23617,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - RPL / USD (2%, 86400s)",
+    "label": "RPL / USD (2%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -23675,7 +23675,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - RSR / USD (2%, 86400s)",
+    "label": "RSR / USD (2%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",

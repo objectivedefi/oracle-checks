@@ -50,7 +50,7 @@
       "pass": true
     }
   ],
-  "label": "RedStone - rswETH/ETH (1%, 86400s)",
+  "label": "rswETH/ETH (1%, 86400s)",
   "methodology": "Market Price",
   "model": "Push",
   "provider": "RedStone",

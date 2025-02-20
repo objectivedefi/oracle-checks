@@ -49,7 +49,7 @@
       "pass": true
     }
   ],
-  "label": "Fixed (1:1) - pumpBTC/BTC",
+  "label": "1:1 pumpBTC/BTC",
   "methodology": "Exchange Rate",
   "model": "Push",
   "provider": "Fixed Rate",

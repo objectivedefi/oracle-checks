@@ -45,7 +45,7 @@
       "pass": true
     }
   ],
-  "label": "Redstone Pull - rsETH/WETH",
+  "label": "rsETH/WETH",
   "methodology": "Unknown",
   "model": "Pull",
   "provider": "RedStone Pull",

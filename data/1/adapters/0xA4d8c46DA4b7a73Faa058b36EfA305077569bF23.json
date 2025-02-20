@@ -50,7 +50,7 @@
       "pass": true
     }
   ],
-  "label": "Chainlink - SUSHI / USD (1%, 3600s)",
+  "label": "SUSHI / USD (1%, 3600s)",
   "methodology": "Market Price",
   "model": "Push",
   "provider": "Chainlink",

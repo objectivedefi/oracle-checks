@@ -51,7 +51,7 @@
       "pass": true
     }
   ],
-  "label": "Cross - amphrBTC/BTC/WETH",
+  "label": "amphrBTC/BTC/WETH",
   "methodology": "Unknown",
   "model": "Unknown",
   "provider": "Cross",

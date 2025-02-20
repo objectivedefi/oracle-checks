@@ -50,7 +50,7 @@
       "pass": true
     }
   ],
-  "label": "Chainlink - AGEUR / EUR (1%, 86400s)",
+  "label": "AGEUR / EUR (1%, 86400s)",
   "methodology": "Market Price",
   "model": "Push",
   "provider": "Chainlink",

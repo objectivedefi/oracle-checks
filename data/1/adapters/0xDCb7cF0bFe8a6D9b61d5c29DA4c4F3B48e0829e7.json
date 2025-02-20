@@ -76,7 +76,7 @@
       "pass": true
     }
   ],
-  "label": "Pyth - Crypto.METH/ETH.RR (120s, ±300bps)",
+  "label": "Crypto.METH/ETH.RR (120s, ±300bps)",
   "methodology": "Exchange Rate",
   "model": "Pull",
   "provider": "Pyth",

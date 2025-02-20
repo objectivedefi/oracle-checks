@@ -43,7 +43,7 @@
       "pass": true
     }
   ],
-  "label": "RateProvider - ezETH/WETH",
+  "label": "ezETH/WETH",
   "methodology": "Exchange Rate",
   "model": "Push",
   "provider": "Rate Provider",

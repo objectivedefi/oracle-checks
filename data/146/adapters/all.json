@@ -51,7 +51,7 @@
         "pass": true
       }
     ],
-    "label": "RedStone - USDC (0.5%, 21600s)",
+    "label": "USDC (0.5%, 21600s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
@@ -109,7 +109,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - ETH / USD (0.5%, 86400s)",
+    "label": "ETH / USD (0.5%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -167,7 +167,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - USDC / USD (0.3%, 86400s)",
+    "label": "USDC / USD (0.3%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -226,7 +226,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - scETH/WETH/USD",
+    "label": "scETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -284,7 +284,7 @@
         "pass": true
       }
     ],
-    "label": "RedStone - scUSD_FUNDAMENTAL (0.5%, 21600s)",
+    "label": "scUSD_FUNDAMENTAL (0.5%, 21600s)",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "RedStone",
@@ -343,7 +343,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - wstkscETH/WETH/USD",
+    "label": "wstkscETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -402,7 +402,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - wstkscUSD/scUSD/USD",
+    "label": "wstkscUSD/scUSD/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -460,7 +460,7 @@
         "pass": true
       }
     ],
-    "label": "Chainlink - S / USD (0.5%, 86400s)",
+    "label": "S / USD (0.5%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -519,7 +519,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - stS/wS/USD",
+    "label": "stS/wS/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -578,7 +578,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - OS/wS/USD",
+    "label": "OS/wS/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -635,7 +635,7 @@
         "pass": true
       }
     ],
-    "label": "Fixed (1:1) - OS/wS",
+    "label": "1:1 OS/wS",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
@@ -719,7 +719,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.WSTKSCETH/SCETH.RR (60s, ±300bps)",
+    "label": "Crypto.WSTKSCETH/SCETH.RR (60s, ±300bps)",
     "methodology": "Exchange Rate",
     "model": "Pull",
     "provider": "Pyth",
@@ -803,7 +803,7 @@
         "pass": true
       }
     ],
-    "label": "Pyth - Crypto.WSTKSCUSD/SCUSD.RR (60s, ±300bps)",
+    "label": "Crypto.WSTKSCUSD/SCUSD.RR (60s, ±300bps)",
     "methodology": "Exchange Rate",
     "model": "Pull",
     "provider": "Pyth",
@@ -861,7 +861,7 @@
         "pass": true
       }
     ],
-    "label": "RedStone - stS_FUNDAMENTAL (0.5%, 21600s)",
+    "label": "stS_FUNDAMENTAL (0.5%, 21600s)",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "RedStone",
@@ -919,7 +919,7 @@
         "pass": true
       }
     ],
-    "label": "RedStone - scETH_FUNDAMENTAL (0.5%, 21600s)",
+    "label": "scETH_FUNDAMENTAL (0.5%, 21600s)",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "RedStone",
@@ -978,7 +978,7 @@
         "pass": true
       }
     ],
-    "label": "Cross - wstkscETH/scETH/WETH",
+    "label": "wstkscETH/scETH/WETH",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",

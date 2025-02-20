@@ -76,7 +76,7 @@
       "pass": true
     }
   ],
-  "label": "Pyth - Crypto.SUSDS/USDS.RR (60s, ±300bps)",
+  "label": "Crypto.SUSDS/USDS.RR (60s, ±300bps)",
   "methodology": "Exchange Rate",
   "model": "Pull",
   "provider": "Pyth",

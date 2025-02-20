@@ -44,7 +44,7 @@
       "pass": true
     }
   ],
-  "label": "Chronicle - CBBTC/USDC",
+  "label": "CBBTC/USDC",
   "methodology": "Unknown",
   "model": "Push",
   "provider": "Chronicle",

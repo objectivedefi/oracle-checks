@@ -50,7 +50,7 @@
       "pass": true
     }
   ],
-  "label": "Chainlink - GRT / ETH (2%, 3600s)",
+  "label": "GRT / ETH (2%, 3600s)",
   "methodology": "Market Price",
   "model": "Push",
   "provider": "Chainlink",

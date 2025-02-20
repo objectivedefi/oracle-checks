@@ -49,7 +49,7 @@
       "pass": true
     }
   ],
-  "label": "Fixed (1:1) - amphrBTC/BTC",
+  "label": "1:1 amphrBTC/BTC",
   "methodology": "Exchange Rate",
   "model": "Push",
   "provider": "Fixed Rate",

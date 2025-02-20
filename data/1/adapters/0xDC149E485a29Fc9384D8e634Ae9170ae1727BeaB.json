@@ -51,7 +51,7 @@
       "pass": true
     }
   ],
-  "label": "Cross - cbBTC/USDC/WETH",
+  "label": "cbBTC/USDC/WETH",
   "methodology": "Unknown",
   "model": "Unknown",
   "provider": "Cross",

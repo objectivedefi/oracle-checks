@@ -51,7 +51,7 @@
       "pass": true
     }
   ],
-  "label": "Cross - wstkscETH/scETH/WETH",
+  "label": "wstkscETH/scETH/WETH",
   "methodology": "Unknown",
   "model": "Unknown",
   "provider": "Cross",

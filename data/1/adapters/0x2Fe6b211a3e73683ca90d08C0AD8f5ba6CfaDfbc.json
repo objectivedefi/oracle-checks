@@ -43,7 +43,7 @@
       "pass": true
     }
   ],
-  "label": "RateProvider - swETH/WETH",
+  "label": "swETH/WETH",
   "methodology": "Exchange Rate",
   "model": "Push",
   "provider": "Rate Provider",

@@ -51,7 +51,7 @@
       "pass": true
     }
   ],
-  "label": "Cross - sUSDS/USDS/USD",
+  "label": "sUSDS/USDS/USD",
   "methodology": "Unknown",
   "model": "Unknown",
   "provider": "Cross",

@@ -50,7 +50,7 @@
       "pass": true
     }
   ],
-  "label": "Chainlink - RSR / USD (2%, 86400s)",
+  "label": "RSR / USD (2%, 86400s)",
   "methodology": "Market Price",
   "model": "Push",
   "provider": "Chainlink",

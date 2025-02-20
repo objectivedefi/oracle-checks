@@ -50,7 +50,7 @@
       "pass": true
     }
   ],
-  "label": "Chainlink - FXS / USD (2%, 86400s)",
+  "label": "FXS / USD (2%, 86400s)",
   "methodology": "Market Price",
   "model": "Push",
   "provider": "Chainlink",

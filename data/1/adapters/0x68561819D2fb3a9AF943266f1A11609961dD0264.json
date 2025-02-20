@@ -50,7 +50,7 @@
       "pass": true
     }
   ],
-  "label": "Pendle - sUSDe",
+  "label": "sUSDe",
   "methodology": "TWAP",
   "model": "Push",
   "provider": "Pendle",

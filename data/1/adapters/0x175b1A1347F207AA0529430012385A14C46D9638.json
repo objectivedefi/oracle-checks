@@ -50,7 +50,7 @@
       "pass": true
     }
   ],
-  "label": "RedStone - weETH (1%, 21600s)",
+  "label": "weETH (1%, 21600s)",
   "methodology": "Market Price",
   "model": "Push",
   "provider": "RedStone",

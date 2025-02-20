@@ -51,7 +51,7 @@
       "pass": true
     }
   ],
-  "label": "Cross - wstkscETH/WETH/USD",
+  "label": "wstkscETH/WETH/USD",
   "methodology": "Unknown",
   "model": "Unknown",
   "provider": "Cross",

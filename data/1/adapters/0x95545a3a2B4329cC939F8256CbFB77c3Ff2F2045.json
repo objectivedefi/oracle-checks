@@ -43,7 +43,7 @@
       "pass": true
     }
   ],
-  "label": "RateProvider - cbETH/WETH",
+  "label": "cbETH/WETH",
   "methodology": "Exchange Rate",
   "model": "Push",
   "provider": "Rate Provider",

@@ -50,7 +50,7 @@
       "pass": true
     }
   ],
-  "label": "Pendle - USD0++",
+  "label": "USD0++",
   "methodology": "TWAP",
   "model": "Push",
   "provider": "Pendle",

@@ -43,7 +43,7 @@
       "pass": true
     }
   ],
-  "label": "RateProvider - sfrxETH/WETH",
+  "label": "sfrxETH/WETH",
   "methodology": "Exchange Rate",
   "model": "Push",
   "provider": "Rate Provider",
