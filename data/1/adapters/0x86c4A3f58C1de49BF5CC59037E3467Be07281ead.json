@@ -22,7 +22,7 @@
     {
       "id": "SOURCE_CODE_PROVENANCE",
       "severity": "HIGH",
-      "message": "Contract metadata hash matches a known hash for PendleOracle: 0x12207f25a0f27ca83891a73ceda39e6b00aa9f8fb3225505557020529b217c3a5d62",
+      "message": "Contract metadata hash matches a known hash",
       "pass": true
     },
     {

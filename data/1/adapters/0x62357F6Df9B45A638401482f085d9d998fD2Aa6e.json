@@ -21,7 +21,7 @@
     {
       "id": "SOURCE_CODE_PROVENANCE",
       "severity": "HIGH",
-      "message": "Contract metadata hash matches a known hash for FixedRateOracle: 0x12201648c06b0f055bb1fbd717bba8d321c6e4b0d8a8ec7115ef339564219ce83d76",
+      "message": "Contract metadata hash matches a known hash",
       "pass": true
     },
     {

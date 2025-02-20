@@ -23,7 +23,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for ChainlinkOracle: 0x122049d657c4096750bae86bf41488a2bb3cfa4eb87030a676aff76b9b6e59e9f6c0",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -82,7 +82,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for CrossAdapter: 0x1220d671bf81345b3455efc1560d59fc4aff6202c6bc79e5ab6beeda5d430206907a",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -140,7 +140,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for ChainlinkOracle: 0x122049d657c4096750bae86bf41488a2bb3cfa4eb87030a676aff76b9b6e59e9f6c0",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -199,7 +199,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for CrossAdapter: 0x1220b5f7dc9bbc9ab62e39e760d9f819ede1468e3b981adb14109f5135e2b08ade44",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -257,7 +257,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for ChainlinkOracle: 0x122049d657c4096750bae86bf41488a2bb3cfa4eb87030a676aff76b9b6e59e9f6c0",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -315,7 +315,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for ChainlinkOracle: 0x122049d657c4096750bae86bf41488a2bb3cfa4eb87030a676aff76b9b6e59e9f6c0",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -374,7 +374,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for CrossAdapter: 0x1220d671bf81345b3455efc1560d59fc4aff6202c6bc79e5ab6beeda5d430206907a",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -433,7 +433,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for CrossAdapter: 0x12206ba07b8f10f6cf5ede3fe831ea2866cace8300f96fe139faba00931ad0afe239",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -492,7 +492,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for CrossAdapter: 0x1220d671bf81345b3455efc1560d59fc4aff6202c6bc79e5ab6beeda5d430206907a",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -551,7 +551,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for CrossAdapter: 0x1220b5f7dc9bbc9ab62e39e760d9f819ede1468e3b981adb14109f5135e2b08ade44",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -610,7 +610,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for CrossAdapter: 0x1220b5f7dc9bbc9ab62e39e760d9f819ede1468e3b981adb14109f5135e2b08ade44",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -668,7 +668,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for ChainlinkOracle: 0x1220a0fa2b06551f1068b24b951f255f737875f78cf1beb35dbc16557d589139426e",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -725,7 +725,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for FixedRateOracle: 0x1220e2d8412dbbe23f966635aa2d8efd77bed60dc4c37d6dd550986a20dcd568583e",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -784,7 +784,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for CrossAdapter: 0x122076d3b0be77e0e4ce25da47f4eee115d6ea7e00dbdd38208838161e90bebc3112",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -842,7 +842,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for ChainlinkOracle: 0x1220f845d68829d96b6729958026d7d354231a3769dd7781c5008a2bc49e702c7d89",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -900,7 +900,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for ChainlinkOracle: 0x1220f845d68829d96b6729958026d7d354231a3769dd7781c5008a2bc49e702c7d89",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -959,7 +959,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for CrossAdapter: 0x1220b3cc7c3e75fe99bb5e9a0e8f23d607f853121df1e1192f9fd45f19150f355547",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -1019,7 +1019,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for PythOracle: 0x12209db9ab00545537efd012d6d5b5cc23ff14a60e28abf93b84abc92c6d22160f96",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -1100,7 +1100,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for FixedRateOracle: 0x12206f7a3c8b1db06a65d27e867d185d6386d05ef62075907d338c6fe11d460a65cb",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -1158,7 +1158,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for ChainlinkOracle: 0x1220a0fa2b06551f1068b24b951f255f737875f78cf1beb35dbc16557d589139426e",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -1218,7 +1218,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for PythOracle: 0x12209db9ab00545537efd012d6d5b5cc23ff14a60e28abf93b84abc92c6d22160f96",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -1302,7 +1302,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for PythOracle: 0x12209db9ab00545537efd012d6d5b5cc23ff14a60e28abf93b84abc92c6d22160f96",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -1384,7 +1384,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for ChronicleOracle: 0x12202e01d438f5c4b4f15d795efac17c4d3427d9725abc03f899e5d02b6998b64aba",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -1437,7 +1437,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for CrossAdapter: 0x1220a4262c82170fd0c0dc9e86ea7fbbf1c91e7f88bef6d30fac44879b5dc3732581",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -1495,7 +1495,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for ChainlinkOracle: 0x1220f845d68829d96b6729958026d7d354231a3769dd7781c5008a2bc49e702c7d89",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -1554,7 +1554,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for CrossAdapter: 0x12207735f11546112ad626f2e4f3fcd4f405f93df57007773515566100ca3f8fb273",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -1613,7 +1613,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash mismatch for FixedRateOracle: got 0x12200ac8742e971c54328c841f86ac9a37a41613155fe5bb62567e2f1b2c7f075c31, expected one of 0x12206f7a3c8b1db06a65d27e867d185d6386d05ef62075907d338c6fe11d460a65cb, 0x1220a406df41152e077489669f37327384a1b02cf2df23942e30f1c9b899b080e92b, 0x1220e8c289af4809f49e3df0051daca5ab5acf5a0f020119f38a6cfce966ad9b20ea, 0x12201648c06b0f055bb1fbd717bba8d321c6e4b0d8a8ec7115ef339564219ce83d76, 0x1220090ab20ad84ef141453ddd15d3c0f010a585d1832b37e5fcd94c777631596d87, 0x1220a2cf89894c8279c71e1a46c4a73bbddc378bb9f479175fd3effdf4402d4ac8a4, 0x12207c925e7c49ccfc72dcb60928d654197360461115fa2ab6bd262f3c74a5ada60f, 0x1220e2d8412dbbe23f966635aa2d8efd77bed60dc4c37d6dd550986a20dcd568583e, 0x12206a4fd603d9b281de4d443492f76e732435d1ed00cb825654c48b09b09e3dfa96",
+        "message": "Contract metadata hash is not recognized",
         "pass": false
       },
       {
@@ -1677,7 +1677,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for ChainlinkOracle: 0x122049d657c4096750bae86bf41488a2bb3cfa4eb87030a676aff76b9b6e59e9f6c0",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -1735,7 +1735,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for ChainlinkOracle: 0x122049d657c4096750bae86bf41488a2bb3cfa4eb87030a676aff76b9b6e59e9f6c0",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -1793,7 +1793,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for ChronicleOracle: 0x12202e01d438f5c4b4f15d795efac17c4d3427d9725abc03f899e5d02b6998b64aba",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -1845,7 +1845,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for ChronicleOracle: 0x12202e01d438f5c4b4f15d795efac17c4d3427d9725abc03f899e5d02b6998b64aba",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -1897,7 +1897,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for ChronicleOracle: 0x12202e01d438f5c4b4f15d795efac17c4d3427d9725abc03f899e5d02b6998b64aba",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -1949,7 +1949,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for ChronicleOracle: 0x12202e01d438f5c4b4f15d795efac17c4d3427d9725abc03f899e5d02b6998b64aba",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -2003,7 +2003,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for PythOracle: 0x12209db9ab00545537efd012d6d5b5cc23ff14a60e28abf93b84abc92c6d22160f96",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -2087,7 +2087,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for PythOracle: 0x12209db9ab00545537efd012d6d5b5cc23ff14a60e28abf93b84abc92c6d22160f96",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -2169,7 +2169,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for ChainlinkOracle: 0x1220a0fa2b06551f1068b24b951f255f737875f78cf1beb35dbc16557d589139426e",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -2227,7 +2227,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for ChainlinkOracle: 0x1220a4185d886b9662f147a997fcc018b62a1054bb89cf87f5822deb1f77b23c7481",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -2285,7 +2285,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for ChainlinkOracle: 0x1220a4185d886b9662f147a997fcc018b62a1054bb89cf87f5822deb1f77b23c7481",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -2343,7 +2343,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for ChainlinkOracle: 0x1220a0fa2b06551f1068b24b951f255f737875f78cf1beb35dbc16557d589139426e",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -2400,7 +2400,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for RateProviderOracle: 0x12205e8fbfeda47b46436ef6d9cd7a7abb748d11d070d428bcc1313059127c46e111",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -2452,7 +2452,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for PendleOracle: 0x122046ab86b5153aa2a61ffad4545a71a89edd4a2a4ff65d106a19cddce4d81d7b47",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -2509,7 +2509,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for FixedRateOracle: 0x12206f7a3c8b1db06a65d27e867d185d6386d05ef62075907d338c6fe11d460a65cb",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -2567,7 +2567,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for PendleOracle: 0x12206cb0f4b432754cc2226baaa5a825d331cdd5d67f047e8f8085cb34c2a13ac4c7",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {
@@ -2627,7 +2627,7 @@
       {
         "id": "SOURCE_CODE_PROVENANCE",
         "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash for PythOracle: 0x122074fdfdb3b8069cb8858ed412fa5f27c7d92c64a57f0d1f51d2d764c7c85473d2",
+        "message": "Contract metadata hash matches a known hash",
         "pass": true
       },
       {

@@ -24,7 +24,7 @@
     {
       "id": "SOURCE_CODE_PROVENANCE",
       "severity": "HIGH",
-      "message": "Contract metadata hash matches a known hash for PythOracle: 0x1220f246a4266166da46653e2028acf10ef9a9ddb00fb781aed7daa0b77c51379c09",
+      "message": "Contract metadata hash matches a known hash",
       "pass": true
     },
     {

@@ -23,7 +23,7 @@
     {
       "id": "SOURCE_CODE_PROVENANCE",
       "severity": "HIGH",
-      "message": "Contract metadata hash matches a known hash for CrossAdapter: 0x1220b5f7dc9bbc9ab62e39e760d9f819ede1468e3b981adb14109f5135e2b08ade44",
+      "message": "Contract metadata hash matches a known hash",
       "pass": true
     },
     {

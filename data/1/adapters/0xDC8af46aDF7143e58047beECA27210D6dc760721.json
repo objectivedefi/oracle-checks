@@ -22,7 +22,7 @@
     {
       "id": "SOURCE_CODE_PROVENANCE",
       "severity": "HIGH",
-      "message": "Contract metadata hash matches a known hash for ChronicleOracle: 0x1220df07b13a00ad1771723e9c31e206e9361a7cb296a0a8526cf2583ee4823dbc8a",
+      "message": "Contract metadata hash matches a known hash",
       "pass": true
     },
     {

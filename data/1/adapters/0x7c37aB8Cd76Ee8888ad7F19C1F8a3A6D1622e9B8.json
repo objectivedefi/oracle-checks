@@ -21,7 +21,7 @@
     {
       "id": "SOURCE_CODE_PROVENANCE",
       "severity": "HIGH",
-      "message": "Contract metadata hash matches a known hash for LidoFundamentalOracle: 0x12201c2f2982416f75f5146c028d57d2eb05f891dd8a571e3e6178dfd0ed268cfb27",
+      "message": "Contract metadata hash matches a known hash",
       "pass": true
     },
     {

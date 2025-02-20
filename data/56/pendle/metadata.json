@@ -64,6 +64,15 @@
   },
   {
     "chainId": 56,
+    "pt": "0xa3De5349b50baab12B9578a31f29eaA5d6682895",
+    "market": "0x9E515a7115C86d7314159DbdAb41E555d5330Dfe",
+    "accountingAsset": "0x5A110fC00474038f6c02E89C707D638602EA44B5",
+    "underlyingAsset": "0x917AF46B3C3c6e1Bb7286B9F59637Fb7C65851Fb",
+    "expiry": 1748476800,
+    "symbol": "asUSDF"
+  },
+  {
+    "chainId": 56,
     "pt": "0xE8F1C9804770e11Ab73395bE54686Ad656601E9e",
     "market": "0x1d9D27f0b89181cF1593aC2B36A37B444Eb66bEE",
     "accountingAsset": "0x0000000000000000000000000000000000000000",

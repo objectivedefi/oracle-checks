@@ -20,7 +20,7 @@
     {
       "id": "SOURCE_CODE_PROVENANCE",
       "severity": "HIGH",
-      "message": "Contract metadata hash matches a known hash for IdleTranchesOracle: 0x12205fab90911f9465e9f90d80ef81361680dedc1af9c5ec17910c1ac452ebbcb893",
+      "message": "Contract metadata hash matches a known hash",
       "pass": true
     },
     {

@@ -22,7 +22,7 @@
     {
       "id": "SOURCE_CODE_PROVENANCE",
       "severity": "HIGH",
-      "message": "Contract metadata hash matches a known hash for ChainlinkOracle: 0x1220a0fa2b06551f1068b24b951f255f737875f78cf1beb35dbc16557d589139426e",
+      "message": "Contract metadata hash matches a known hash",
       "pass": true
     },
     {
