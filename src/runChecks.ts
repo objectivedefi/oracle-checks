@@ -191,7 +191,7 @@ export function runChecks({
           quoteAsset,
         }),
       );
-      if (baseAsset && quoteAsset) {
+      if (adapter.rate && baseAsset && quoteAsset) {
         if (adapter.rate === parseUnits("1", quoteAsset.decimals)) {
           label = `1:1 ${baseAsset.symbol}/${quoteAsset.symbol}`;
         } else {
