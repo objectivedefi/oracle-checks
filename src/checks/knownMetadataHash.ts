@@ -38,18 +38,10 @@ export function knownMetadataHash({
   const expectedHash = allowedMetadataHashes.find((hash) => metadataHash === hash);
 
   if (metadataHash !== expectedHash) {
-    return failCheck(
-      CHECKS.SOURCE_CODE_PROVENANCE,
-      `Contract metadata hash mismatch for ${
-        adapter.name
-      }: got ${metadataHash}, expected one of ${allowedMetadataHashes.join(", ")}`,
-    );
+    return failCheck(CHECKS.SOURCE_CODE_PROVENANCE, `Contract metadata hash is not recognized`);
   }
 
-  return passCheck(
-    CHECKS.SOURCE_CODE_PROVENANCE,
-    `Contract metadata hash matches a known hash for ${adapter.name}: ${expectedHash}`,
-  );
+  return passCheck(CHECKS.SOURCE_CODE_PROVENANCE, `Contract metadata hash matches a known hash`);
 }
 
 function extractMetadataHash(bytecode: Hex): string | null {
