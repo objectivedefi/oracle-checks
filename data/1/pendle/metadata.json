@@ -361,6 +361,15 @@
   },
   {
     "chainId": 1,
+    "pt": "0x3f26dc58f2537975353F8acCc6432C1FA4ce9b98",
+    "market": "0x928e2E42f3B21C9Af0E0454d7bB3884e5D36e1BE",
+    "accountingAsset": "0x004E9C3EF86bc1ca1f0bB5C7662861Ee93350568",
+    "underlyingAsset": "0x004E9C3EF86bc1ca1f0bB5C7662861Ee93350568",
+    "expiry": 1750896000,
+    "symbol": "uniBTC"
+  },
+  {
+    "chainId": 1,
     "pt": "0x40b7B4aB1E95e28DF06971581276966FDF95688E",
     "market": "0x7561C5CCfe41A26B33944B58C70D6a3CB63E881c",
     "accountingAsset": "0x97Ad75064b20fb2B2447feD4fa953bF7F007a706",
@@ -424,6 +433,15 @@
   },
   {
     "chainId": 1,
+    "pt": "0x4f62A7a25a4fD6Ae386e957284aFB5FBF1E1f32c",
+    "market": "0xb6B2cf977c512bcD195B58e2cCFB3fB15535cB19",
+    "accountingAsset": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+    "underlyingAsset": "0xd9D920AA40f578ab794426F5C90F6C731D159DEf",
+    "expiry": 1750896000,
+    "symbol": "SolvBTC.BBN"
+  },
+  {
+    "chainId": 1,
     "pt": "0x500F4Ac4B1cFae7De51799eCf5bD09649A8b05D3",
     "market": "0xAD016C9565A4aEEC6d4cFC8a01c648eCbea1A602",
     "accountingAsset": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
@@ -439,6 +457,15 @@
     "underlyingAsset": "0x83599937c2C9bEA0E0E8ac096c6f32e86486b410",
     "expiry": 1744243200,
     "symbol": "liquidBeraETH"
+  },
+  {
+    "chainId": 1,
+    "pt": "0x50D2C7992b802Eef16c04FeADAB310f31866a545",
+    "market": "0x85667e484a32d884010Cf16427D90049CCf46e97",
+    "accountingAsset": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+    "underlyingAsset": "0x90D2af7d622ca3141efA4d8f1F24d86E5974Cc8F",
+    "expiry": 1748476800,
+    "symbol": "eUSDe"
   },
   {
     "chainId": 1,
@@ -574,6 +601,15 @@
     "underlyingAsset": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497",
     "expiry": 1727308800,
     "symbol": "sUSDe"
+  },
+  {
+    "chainId": 1,
+    "pt": "0x6cA4d5d2eCb72E3Bbf17543B3367746B80D22694",
+    "market": "0x931F7eA0c31c14914a452d341bc5Cb5d996BE71d",
+    "accountingAsset": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+    "underlyingAsset": "0x8236a87084f8B84306f72007F36F2618A5634494",
+    "expiry": 1750896000,
+    "symbol": "LBTC"
   },
   {
     "chainId": 1,
@@ -799,6 +835,15 @@
     "underlyingAsset": "0x38EA452219524Bb87e18dE1C24D3bB59510BD783",
     "expiry": 1719446400,
     "symbol": "USDT"
+  },
+  {
+    "chainId": 1,
+    "pt": "0x917459337CaAC939D41d7493B3999f571D20D667",
+    "market": "0xf6906f99E2ce8cF2D7098216DA87e261b13554c8",
+    "accountingAsset": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+    "underlyingAsset": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+    "expiry": 1753920000,
+    "symbol": "USDe"
   },
   {
     "chainId": 1,
