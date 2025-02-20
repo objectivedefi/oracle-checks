@@ -25,13 +25,13 @@ export function chronicleFeedOfficial({ adapter, chronicleFeeds }: Params): {
         `Adapter is connected to an official Chronicle feed: ${description}`,
       ),
       feed: matchingChronicleFeed,
-      label: `Chronicle - ${description}`,
+      label: description,
     };
   } else {
     return {
-      result: failCheck(CHECKS.OFFICIAL_CHRONICLE_FEED, "Could not find matching Pyth feed"),
+      result: failCheck(CHECKS.OFFICIAL_CHRONICLE_FEED, "Could not find matching Chronicle feed"),
       feed: undefined,
-      label: `Chronicle - Unknown`,
+      label: `Unknown`,
     };
   }
 }

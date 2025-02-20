@@ -1,5 +1,5 @@
 import { chainIdToPythProxy } from "@objectivelabs/oracle-sdk";
-import { parseUnits } from "viem";
+import { formatUnits, parseUnits } from "viem";
 
 import {
   assetConsistent,
@@ -129,7 +129,7 @@ export function runChecks({
         adapter,
         pythMetadata,
       });
-      label = `Pyth - ${pythFeedCheck.feed?.attributes.symbol ?? "unknown feed"} (${adapter.maxStaleness}s, ±${adapter.maxConfWidth}bps)`;
+      label = `${pythFeedCheck.feed?.attributes.symbol ?? "unknown feed"} (${adapter.maxStaleness}s, ±${adapter.maxConfWidth}bps)`;
       methodology = pythFeedCheck.methodology;
       model = "Pull";
       provider = "Pyth";
@@ -168,7 +168,7 @@ export function runChecks({
           adapter,
         }),
       );
-      label = `Lido - wstETH/stETH`;
+      label = `wstETH/stETH`;
       methodology = "Market Price";
       model = "Push";
       provider = "Lido";
@@ -178,7 +178,7 @@ export function runChecks({
           adapter,
         }),
       );
-      label = `Lido Fundamental - wstETH/ETH`;
+      label = `wstETH/ETH`;
       methodology = "Exchange Rate";
       model = "Push";
       provider = "Lido Fundamental";
@@ -193,9 +193,9 @@ export function runChecks({
       );
       if (baseAsset && quoteAsset) {
         if (adapter.rate === parseUnits("1", quoteAsset.decimals)) {
-          label = `Fixed (1:1) - ${baseAsset.symbol}/${quoteAsset.symbol}`;
+          label = `1:1 ${baseAsset.symbol}/${quoteAsset.symbol}`;
         } else {
-          label = `Fixed (non-standard) - ${baseAsset.symbol}/${quoteAsset.symbol}`;
+          label = `1:${formatUnits(adapter.rate, quoteAsset.decimals)} ${baseAsset.symbol}/${quoteAsset.symbol}`;
         }
       } else {
         label = `Unknown Fixed Rate Oracle`;
@@ -206,7 +206,7 @@ export function runChecks({
     } else if (name === "RateProviderOracle") {
       const baseAsset = assets.find((asset) => asset.address === adapter.base);
       const quoteAsset = assets.find((asset) => asset.address === adapter.quote);
-      label = `RateProvider - ${baseAsset?.symbol}/${quoteAsset?.symbol}`;
+      label = `${baseAsset?.symbol}/${quoteAsset?.symbol}`;
       methodology = "Exchange Rate";
       model = "Push";
       provider = "Rate Provider";
@@ -222,21 +222,21 @@ export function runChecks({
     } else if (name === "UniswapV3Oracle") {
       const tokenASymbol = assets.find((asset) => asset.address === adapter.tokenA)?.symbol;
       const tokenBSymbol = assets.find((asset) => asset.address === adapter.tokenB)?.symbol;
-      label = `Uniswap V3 - ${tokenASymbol}/${tokenBSymbol}`;
+      label = `${tokenASymbol}/${tokenBSymbol}`;
       methodology = "TWAP";
       model = "Push";
       provider = "Uniswap V3";
     } else if (name === "RedstoneCoreOracle") {
       const baseSymbol = assets.find((asset) => asset.address === adapter.base)?.symbol;
       const quoteSymbol = assets.find((asset) => asset.address === adapter.quote)?.symbol;
-      label = `Redstone Pull - ${baseSymbol}/${quoteSymbol}`;
+      label = `${baseSymbol}/${quoteSymbol}`;
       methodology = "Unknown";
       model = "Pull";
       provider = "RedStone Pull";
     } else if (name === "IdleTranchesOracle") {
       const trancheSymbol = assets.find((asset) => asset.address === adapter.tranche)?.symbol;
       const underlyingSymbol = assets.find((asset) => asset.address === adapter.underlying)?.symbol;
-      label = `Idle - ${trancheSymbol}/${underlyingSymbol}`;
+      label = `${trancheSymbol}/${underlyingSymbol}`;
       methodology = "Unknown";
       model = "Unknown";
       provider = "Idle";
@@ -245,7 +245,7 @@ export function runChecks({
         (asset) => asset.address === adapter.safeguardPool,
       )?.symbol;
       const quoteSymbol = assets.find((asset) => asset.address === adapter.quote)?.symbol;
-      label = `Swaap Safeguard - ${safeguardPoolSymbol}/${quoteSymbol}`;
+      label = `${safeguardPoolSymbol}/${quoteSymbol}`;
       methodology = "Unknown";
       model = "Unknown";
       provider = "Swaap";
@@ -253,7 +253,7 @@ export function runChecks({
       const baseSymbol = assets.find((asset) => asset.address === adapter.base)?.symbol;
       const crossSymbol = assets.find((asset) => asset.address === adapter.cross)?.symbol;
       const quoteSymbol = assets.find((asset) => asset.address === adapter.quote)?.symbol;
-      label = `Cross - ${baseSymbol}/${crossSymbol}/${quoteSymbol}`;
+      label = `${baseSymbol}/${crossSymbol}/${quoteSymbol}`;
       methodology = "Unknown";
       model = "Unknown";
       provider = "Cross";

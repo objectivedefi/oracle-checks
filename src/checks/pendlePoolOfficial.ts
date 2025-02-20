@@ -19,7 +19,7 @@ export function pendlePoolOfficial({ adapter, pendleMetadata }: Params): {
         CHECKS.OFFICIAL_PENDLE_POOL,
         `Adapter is connected to an official Pendle pool: ${matchingPendlePool.symbol}`,
       ),
-      label: `Pendle - ${matchingPendlePool.symbol}`,
+      label: `${matchingPendlePool.symbol}`,
     };
   } else {
     return {
@@ -27,7 +27,7 @@ export function pendlePoolOfficial({ adapter, pendleMetadata }: Params): {
         CHECKS.OFFICIAL_PENDLE_POOL,
         "Could not find matching Pendle pool in the official list",
       ),
-      label: `Pendle - Unknown pool`,
+      label: `Unknown pool`,
     };
   }
 }
