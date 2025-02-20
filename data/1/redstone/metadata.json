@@ -210,6 +210,24 @@
     "heartbeat": 86400
   },
   {
+    "symbol": "HLScope_FUNDAMENTAL",
+    "priceFeedAddress": "0x1f14a50bA904A28CF6088e71B6a15561074398d7",
+    "deviationPercentage": 0.5,
+    "heartbeat": 86400
+  },
+  {
+    "symbol": "ACRED_FUNDAMENTAL",
+    "priceFeedAddress": "0xD6BcbbC87bFb6c8964dDc73DC3EaE6d08865d51C",
+    "deviationPercentage": 0.1,
+    "heartbeat": 86400
+  },
+  {
+    "symbol": "USUAL",
+    "priceFeedAddress": "0x2240AE461B34CC56D654ba5FA5830A243Ca54840",
+    "deviationPercentage": 0.5,
+    "heartbeat": 86400
+  },
+  {
     "symbol": "apxETH/ETH",
     "priceFeedAddress": "0x19219BC90F48DeE4d5cF202E09c438FAacFd8Bea",
     "deviationPercentage": 1,
