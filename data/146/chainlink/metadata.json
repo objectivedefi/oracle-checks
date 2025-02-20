@@ -138,6 +138,33 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x266774811c2DF245726cEd8CbF9795eACbA4ef66",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "lbtc-btc",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "LBTC / BTC",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "lbtc-btc",
+    "proxyAddress": "0xA63b1614D17536C22fDB4c1a58023E35d08Cccef",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x2E312Ad65A48400F69BDE7ff74886f7F23b07D26",
     "contractType": "",
     "contractVersion": 6,
