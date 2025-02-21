@@ -4595,6 +4595,33 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x92615843016d046678ED9176d02287db083faC62",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "usdl-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "USDL / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "usdl-usd",
+    "proxyAddress": "0x8697D23509F328F90135933de0Dde38Eb86d4893",
+    "threshold": 1,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x94Ac91B209043162e6761942563A9f1F8dd75209",
     "contractType": "",
     "contractVersion": 6,
