@@ -333,7 +333,7 @@
     ],
     "path": "exchange-rate-ggavax-avax",
     "proxyAddress": "0xA5ecED13b233BcF5c58BFbada5247d5B2893cB9a",
-    "threshold": 1e-7,
+    "threshold": 0.05,
     "valuePrefix": "",
     "assetName": "",
     "feedCategory": "",
