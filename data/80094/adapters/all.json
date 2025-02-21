@@ -1,1 +1,996 @@
-[]
+[
+  {
+    "name": "ChainlinkOracle",
+    "address": "0xe6D9C66C0416C1c88Ca5F777D81a7F424D4Fa87b",
+    "chainId": 80094,
+    "base": "0x6969696969696969696969696969696969696969",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x29d2fEC890B037B2d34f061F9a50f76F85ddBcAE",
+    "maxStaleness": "25200",
+    "checks": [
+      {
+        "id": "ADAPTER_EXISTS",
+        "severity": "HIGH",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is not whitelisted in the adapter registry",
+        "pass": false
+      },
+      {
+        "id": "SOURCE_CODE_PROVENANCE",
+        "severity": "HIGH",
+        "message": "Contract metadata hash matches a known hash",
+        "pass": true
+      },
+      {
+        "id": "DISTINCT_ASSETS",
+        "severity": "HIGH",
+        "message": "No duplicates found",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x6969696969696969696969696969696969696969 is WBERA (Wrapped Bera) with 18 decimals",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "pass": true
+      },
+      {
+        "id": "PUSH_STALENESS_BUFFER",
+        "severity": "MED",
+        "message": "Adapter max staleness (25200) is sufficient for the feed's heartbeat (21600).",
+        "pass": true
+      }
+    ],
+    "label": "BERA (0.5%, 21600s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "RedStone",
+    "whitelisted": false
+  },
+  {
+    "name": "PythOracle",
+    "address": "0xcbA35E68A1cb2f2ca0ca4895DE33cd61A3B9DBC1",
+    "chainId": 80094,
+    "base": "0x6969696969696969696969696969696969696969",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "pyth": "0x2880aB155794e7179c9eE2e38200202908C17B43",
+    "feedId": "0x962088abcfdbdb6e30db2e340c8cf887d9efb311b1f2f17b155a63dbb6d40265",
+    "maxStaleness": "120",
+    "maxConfWidth": "300",
+    "checks": [
+      {
+        "id": "ADAPTER_EXISTS",
+        "severity": "HIGH",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is not whitelisted in the adapter registry",
+        "pass": false
+      },
+      {
+        "id": "SOURCE_CODE_PROVENANCE",
+        "severity": "HIGH",
+        "message": "Contract metadata hash matches a known hash",
+        "pass": true
+      },
+      {
+        "id": "DISTINCT_ASSETS",
+        "severity": "HIGH",
+        "message": "No duplicates found",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x6969696969696969696969696969696969696969 is WBERA (Wrapped Bera) with 18 decimals",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "pass": true
+      },
+      {
+        "id": "OFFICIAL_PYTH_FEED",
+        "severity": "HIGH",
+        "message": "Adapter is connected to an official Pyth feed: BERA/USD",
+        "pass": true
+      },
+      {
+        "id": "PYTH_BASE_CORRESPONDENCE",
+        "severity": "INFO",
+        "message": "Base symbol (WBERA) does not match Pyth feed base asset (BERA)",
+        "pass": false
+      },
+      {
+        "id": "PYTH_QUOTE_CORRESPONDENCE",
+        "severity": "INFO",
+        "message": "Quote symbol (USD) matches Pyth feed quote asset (USD)",
+        "pass": true
+      },
+      {
+        "id": "OFFICIAL_PYTH_PROXY",
+        "severity": "HIGH",
+        "message": "Adapter is connected to the official Pyth proxy",
+        "pass": true
+      },
+      {
+        "id": "PYTH_STALENESS_RANGE",
+        "severity": "HIGH",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
+        "pass": true
+      }
+    ],
+    "label": "Crypto.BERA/USD (120s, ±300bps)",
+    "methodology": "Market Price",
+    "model": "Pull",
+    "provider": "Pyth",
+    "whitelisted": false
+  },
+  {
+    "name": "ChainlinkInfrequentOracle",
+    "address": "0xFC40B9415fF4591EC304f3c18509A6Dc28C408cA",
+    "chainId": 80094,
+    "base": "0x6969696969696969696969696969696969696969",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x56bB889004709B6d90B7810C006fc21c29827c77",
+    "maxStaleness": "90000",
+    "checks": [
+      {
+        "id": "ADAPTER_EXISTS",
+        "severity": "HIGH",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is not whitelisted in the adapter registry",
+        "pass": false
+      },
+      {
+        "id": "SOURCE_CODE_PROVENANCE",
+        "severity": "HIGH",
+        "message": "Contract metadata hash matches a known hash",
+        "pass": true
+      },
+      {
+        "id": "DISTINCT_ASSETS",
+        "severity": "HIGH",
+        "message": "No duplicates found",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x6969696969696969696969696969696969696969 is WBERA (Wrapped Bera) with 18 decimals",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "pass": true
+      },
+      {
+        "id": "PUSH_STALENESS_BUFFER",
+        "severity": "MED",
+        "message": "Feed heartbeat is unknown",
+        "pass": false
+      }
+    ],
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
+    "model": "Push",
+    "provider": "Unknown",
+    "whitelisted": false
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0xf7129a6280DCFfF6149792186b54C818ea4D80D6",
+    "chainId": 80094,
+    "base": "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x3587a73AA02519335A8a6053a97657BECe0bC2Cc",
+    "maxStaleness": "90000",
+    "checks": [
+      {
+        "id": "ADAPTER_EXISTS",
+        "severity": "HIGH",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is not whitelisted in the adapter registry",
+        "pass": false
+      },
+      {
+        "id": "SOURCE_CODE_PROVENANCE",
+        "severity": "HIGH",
+        "message": "Contract metadata hash matches a known hash",
+        "pass": true
+      },
+      {
+        "id": "DISTINCT_ASSETS",
+        "severity": "HIGH",
+        "message": "No duplicates found",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590 is WETH (WETH) with 18 decimals",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "pass": true
+      },
+      {
+        "id": "PUSH_STALENESS_BUFFER",
+        "severity": "MED",
+        "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
+        "pass": true
+      }
+    ],
+    "label": "ETH (0.5%, 86400s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "RedStone",
+    "whitelisted": false
+  },
+  {
+    "name": "PythOracle",
+    "address": "0xbaD0e1DA7D39A21455Acef570cF9F3A8881F5e23",
+    "chainId": 80094,
+    "base": "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "pyth": "0x2880aB155794e7179c9eE2e38200202908C17B43",
+    "feedId": "0xff61491a931112ddf1bd8147cd1b641375f79f5825126d665480874634fd0ace",
+    "maxStaleness": "120",
+    "maxConfWidth": "300",
+    "checks": [
+      {
+        "id": "ADAPTER_EXISTS",
+        "severity": "HIGH",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is not whitelisted in the adapter registry",
+        "pass": false
+      },
+      {
+        "id": "SOURCE_CODE_PROVENANCE",
+        "severity": "HIGH",
+        "message": "Contract metadata hash matches a known hash",
+        "pass": true
+      },
+      {
+        "id": "DISTINCT_ASSETS",
+        "severity": "HIGH",
+        "message": "No duplicates found",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590 is WETH (WETH) with 18 decimals",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "pass": true
+      },
+      {
+        "id": "OFFICIAL_PYTH_FEED",
+        "severity": "HIGH",
+        "message": "Adapter is connected to an official Pyth feed: ETH/USD",
+        "pass": true
+      },
+      {
+        "id": "PYTH_BASE_CORRESPONDENCE",
+        "severity": "INFO",
+        "message": "Base symbol (WETH) matches Pyth feed base asset (ETH)",
+        "pass": true
+      },
+      {
+        "id": "PYTH_QUOTE_CORRESPONDENCE",
+        "severity": "INFO",
+        "message": "Quote symbol (USD) matches Pyth feed quote asset (USD)",
+        "pass": true
+      },
+      {
+        "id": "OFFICIAL_PYTH_PROXY",
+        "severity": "HIGH",
+        "message": "Adapter is connected to the official Pyth proxy",
+        "pass": true
+      },
+      {
+        "id": "PYTH_STALENESS_RANGE",
+        "severity": "HIGH",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
+        "pass": true
+      }
+    ],
+    "label": "Crypto.ETH/USD (120s, ±300bps)",
+    "methodology": "Market Price",
+    "model": "Pull",
+    "provider": "Pyth",
+    "whitelisted": false
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0xF2b8616744502851343c52DA76e9adFb97f08b91",
+    "chainId": 80094,
+    "base": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0xa8a94Da411425634e3Ed6C331a32ab4fd774aa43",
+    "maxStaleness": "90000",
+    "checks": [
+      {
+        "id": "ADAPTER_EXISTS",
+        "severity": "HIGH",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is not whitelisted in the adapter registry",
+        "pass": false
+      },
+      {
+        "id": "SOURCE_CODE_PROVENANCE",
+        "severity": "HIGH",
+        "message": "Contract metadata hash matches a known hash",
+        "pass": true
+      },
+      {
+        "id": "DISTINCT_ASSETS",
+        "severity": "HIGH",
+        "message": "No duplicates found",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x0555E30da8f98308EdB960aa94C0Db47230d2B9c is WBTC (Wrapped BTC) with 8 decimals",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "pass": true
+      },
+      {
+        "id": "PUSH_STALENESS_BUFFER",
+        "severity": "MED",
+        "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
+        "pass": true
+      }
+    ],
+    "label": "BTC (0.5%, 86400s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "RedStone",
+    "whitelisted": false
+  },
+  {
+    "name": "PythOracle",
+    "address": "0xFaAF6eD6dCD936dA3F4EF105d326D6464529206f",
+    "chainId": 80094,
+    "base": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "pyth": "0x2880aB155794e7179c9eE2e38200202908C17B43",
+    "feedId": "0xe62df6c8b4a85fe1a67db44dc12de5db330f7ac66b72dc658afedf0f4a415b43",
+    "maxStaleness": "120",
+    "maxConfWidth": "300",
+    "checks": [
+      {
+        "id": "ADAPTER_EXISTS",
+        "severity": "HIGH",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is not whitelisted in the adapter registry",
+        "pass": false
+      },
+      {
+        "id": "SOURCE_CODE_PROVENANCE",
+        "severity": "HIGH",
+        "message": "Contract metadata hash matches a known hash",
+        "pass": true
+      },
+      {
+        "id": "DISTINCT_ASSETS",
+        "severity": "HIGH",
+        "message": "No duplicates found",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x0555E30da8f98308EdB960aa94C0Db47230d2B9c is WBTC (Wrapped BTC) with 8 decimals",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "pass": true
+      },
+      {
+        "id": "OFFICIAL_PYTH_FEED",
+        "severity": "HIGH",
+        "message": "Adapter is connected to an official Pyth feed: BTC/USD",
+        "pass": true
+      },
+      {
+        "id": "PYTH_BASE_CORRESPONDENCE",
+        "severity": "INFO",
+        "message": "Base symbol (WBTC) does not match Pyth feed base asset (BTC)",
+        "pass": false
+      },
+      {
+        "id": "PYTH_QUOTE_CORRESPONDENCE",
+        "severity": "INFO",
+        "message": "Quote symbol (USD) matches Pyth feed quote asset (USD)",
+        "pass": true
+      },
+      {
+        "id": "OFFICIAL_PYTH_PROXY",
+        "severity": "HIGH",
+        "message": "Adapter is connected to the official Pyth proxy",
+        "pass": true
+      },
+      {
+        "id": "PYTH_STALENESS_RANGE",
+        "severity": "HIGH",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
+        "pass": true
+      }
+    ],
+    "label": "Crypto.BTC/USD (120s, ±300bps)",
+    "methodology": "Market Price",
+    "model": "Pull",
+    "provider": "Pyth",
+    "whitelisted": false
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0x997d72fb46690f304C7DB92df9AA823323fb23B2",
+    "chainId": 80094,
+    "base": "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x2D4f3199a80b848F3d094745F3Bbd4224892654e",
+    "maxStaleness": "90000",
+    "checks": [
+      {
+        "id": "ADAPTER_EXISTS",
+        "severity": "HIGH",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is not whitelisted in the adapter registry",
+        "pass": false
+      },
+      {
+        "id": "SOURCE_CODE_PROVENANCE",
+        "severity": "HIGH",
+        "message": "Contract metadata hash matches a known hash",
+        "pass": true
+      },
+      {
+        "id": "DISTINCT_ASSETS",
+        "severity": "HIGH",
+        "message": "No duplicates found",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce is HONEY (Honey) with 18 decimals",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "pass": true
+      },
+      {
+        "id": "PUSH_STALENESS_BUFFER",
+        "severity": "MED",
+        "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
+        "pass": true
+      }
+    ],
+    "label": "HONEY (0.5%, 86400s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "RedStone",
+    "whitelisted": false
+  },
+  {
+    "name": "PythOracle",
+    "address": "0xEd29690A4d7f1b63807957fb71149A8dcfD820a4",
+    "chainId": 80094,
+    "base": "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "pyth": "0x2880aB155794e7179c9eE2e38200202908C17B43",
+    "feedId": "0xf67b033925d73d43ba4401e00308d9b0f26ab4fbd1250e8b5407b9eaade7e1f4",
+    "maxStaleness": "120",
+    "maxConfWidth": "300",
+    "checks": [
+      {
+        "id": "ADAPTER_EXISTS",
+        "severity": "HIGH",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is not whitelisted in the adapter registry",
+        "pass": false
+      },
+      {
+        "id": "SOURCE_CODE_PROVENANCE",
+        "severity": "HIGH",
+        "message": "Contract metadata hash matches a known hash",
+        "pass": true
+      },
+      {
+        "id": "DISTINCT_ASSETS",
+        "severity": "HIGH",
+        "message": "No duplicates found",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce is HONEY (Honey) with 18 decimals",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "pass": true
+      },
+      {
+        "id": "OFFICIAL_PYTH_FEED",
+        "severity": "HIGH",
+        "message": "Adapter is connected to an official Pyth feed: HONEY/USD",
+        "pass": true
+      },
+      {
+        "id": "PYTH_BASE_CORRESPONDENCE",
+        "severity": "INFO",
+        "message": "Base symbol (HONEY) matches Pyth feed base asset (HONEY)",
+        "pass": true
+      },
+      {
+        "id": "PYTH_QUOTE_CORRESPONDENCE",
+        "severity": "INFO",
+        "message": "Quote symbol (USD) matches Pyth feed quote asset (USD)",
+        "pass": true
+      },
+      {
+        "id": "OFFICIAL_PYTH_PROXY",
+        "severity": "HIGH",
+        "message": "Adapter is connected to the official Pyth proxy",
+        "pass": true
+      },
+      {
+        "id": "PYTH_STALENESS_RANGE",
+        "severity": "HIGH",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
+        "pass": true
+      }
+    ],
+    "label": "Crypto.HONEY/USD (120s, ±300bps)",
+    "methodology": "Market Price",
+    "model": "Pull",
+    "provider": "Pyth",
+    "whitelisted": false
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0x5ad9C6117ceB1981CfCB89BEb6Bd29c9157aB5b3",
+    "chainId": 80094,
+    "base": "0x549943e04f40284185054145c6E4e9568C1D3241",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x4BAD96DD1C7D541270a0C92e1D4e5f12EEEA7a57",
+    "maxStaleness": "90000",
+    "checks": [
+      {
+        "id": "ADAPTER_EXISTS",
+        "severity": "HIGH",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is not whitelisted in the adapter registry",
+        "pass": false
+      },
+      {
+        "id": "SOURCE_CODE_PROVENANCE",
+        "severity": "HIGH",
+        "message": "Contract metadata hash matches a known hash",
+        "pass": true
+      },
+      {
+        "id": "DISTINCT_ASSETS",
+        "severity": "HIGH",
+        "message": "No duplicates found",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x549943e04f40284185054145c6E4e9568C1D3241 is USDC.e (Bridged USDC (Stargate)) with 6 decimals",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "pass": true
+      },
+      {
+        "id": "PUSH_STALENESS_BUFFER",
+        "severity": "MED",
+        "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
+        "pass": true
+      }
+    ],
+    "label": "USDC (0.1%, 86400s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "RedStone",
+    "whitelisted": false
+  },
+  {
+    "name": "PythOracle",
+    "address": "0xA436dF7C3a77D88D1eC9275B5744BdCC187982f2",
+    "chainId": 80094,
+    "base": "0x549943e04f40284185054145c6E4e9568C1D3241",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "pyth": "0x2880aB155794e7179c9eE2e38200202908C17B43",
+    "feedId": "0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a",
+    "maxStaleness": "120",
+    "maxConfWidth": "300",
+    "checks": [
+      {
+        "id": "ADAPTER_EXISTS",
+        "severity": "HIGH",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is not whitelisted in the adapter registry",
+        "pass": false
+      },
+      {
+        "id": "SOURCE_CODE_PROVENANCE",
+        "severity": "HIGH",
+        "message": "Contract metadata hash matches a known hash",
+        "pass": true
+      },
+      {
+        "id": "DISTINCT_ASSETS",
+        "severity": "HIGH",
+        "message": "No duplicates found",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x549943e04f40284185054145c6E4e9568C1D3241 is USDC.e (Bridged USDC (Stargate)) with 6 decimals",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "pass": true
+      },
+      {
+        "id": "OFFICIAL_PYTH_FEED",
+        "severity": "HIGH",
+        "message": "Adapter is connected to an official Pyth feed: USDC/USD",
+        "pass": true
+      },
+      {
+        "id": "PYTH_BASE_CORRESPONDENCE",
+        "severity": "INFO",
+        "message": "Base symbol (USDC.e) does not match Pyth feed base asset (USDC)",
+        "pass": false
+      },
+      {
+        "id": "PYTH_QUOTE_CORRESPONDENCE",
+        "severity": "INFO",
+        "message": "Quote symbol (USD) matches Pyth feed quote asset (USD)",
+        "pass": true
+      },
+      {
+        "id": "OFFICIAL_PYTH_PROXY",
+        "severity": "HIGH",
+        "message": "Adapter is connected to the official Pyth proxy",
+        "pass": true
+      },
+      {
+        "id": "PYTH_STALENESS_RANGE",
+        "severity": "HIGH",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
+        "pass": true
+      }
+    ],
+    "label": "Crypto.USDC/USD (120s, ±300bps)",
+    "methodology": "Market Price",
+    "model": "Pull",
+    "provider": "Pyth",
+    "whitelisted": false
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0x255Bee201D2526BBf2753DF6A6057f23431A3E1C",
+    "chainId": 80094,
+    "base": "0xEc901DA9c68E90798BbBb74c11406A32A70652C3",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x6A1c87d11dDe3D1d52c24f8EC59B91019f14170D",
+    "maxStaleness": "90000",
+    "checks": [
+      {
+        "id": "ADAPTER_EXISTS",
+        "severity": "HIGH",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is not whitelisted in the adapter registry",
+        "pass": false
+      },
+      {
+        "id": "SOURCE_CODE_PROVENANCE",
+        "severity": "HIGH",
+        "message": "Contract metadata hash matches a known hash",
+        "pass": true
+      },
+      {
+        "id": "DISTINCT_ASSETS",
+        "severity": "HIGH",
+        "message": "No duplicates found",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0xEc901DA9c68E90798BbBb74c11406A32A70652C3 is STONE (StakeStone Ether) with 18 decimals",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "pass": true
+      },
+      {
+        "id": "PUSH_STALENESS_BUFFER",
+        "severity": "MED",
+        "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
+        "pass": true
+      }
+    ],
+    "label": "STONE (0.5%, 86400s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "RedStone",
+    "whitelisted": false
+  },
+  {
+    "name": "PythOracle",
+    "address": "0x74B221fAC3000e94A3618357ddA27d8333f3FC1e",
+    "chainId": 80094,
+    "base": "0xEc901DA9c68E90798BbBb74c11406A32A70652C3",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "pyth": "0x2880aB155794e7179c9eE2e38200202908C17B43",
+    "feedId": "0x4dcc2fb96fb89a802ef9712f6bd2246d3607cf95ca5540cb24490d37003f8c46",
+    "maxStaleness": "120",
+    "maxConfWidth": "300",
+    "checks": [
+      {
+        "id": "ADAPTER_EXISTS",
+        "severity": "HIGH",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is not whitelisted in the adapter registry",
+        "pass": false
+      },
+      {
+        "id": "SOURCE_CODE_PROVENANCE",
+        "severity": "HIGH",
+        "message": "Contract metadata hash matches a known hash",
+        "pass": true
+      },
+      {
+        "id": "DISTINCT_ASSETS",
+        "severity": "HIGH",
+        "message": "No duplicates found",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0xEc901DA9c68E90798BbBb74c11406A32A70652C3 is STONE (StakeStone Ether) with 18 decimals",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "pass": true
+      },
+      {
+        "id": "OFFICIAL_PYTH_FEED",
+        "severity": "HIGH",
+        "message": "Adapter is connected to an official Pyth feed: STONE/USD",
+        "pass": true
+      },
+      {
+        "id": "PYTH_BASE_CORRESPONDENCE",
+        "severity": "INFO",
+        "message": "Base symbol (STONE) matches Pyth feed base asset (STONE)",
+        "pass": true
+      },
+      {
+        "id": "PYTH_QUOTE_CORRESPONDENCE",
+        "severity": "INFO",
+        "message": "Quote symbol (USD) matches Pyth feed quote asset (USD)",
+        "pass": true
+      },
+      {
+        "id": "OFFICIAL_PYTH_PROXY",
+        "severity": "HIGH",
+        "message": "Adapter is connected to the official Pyth proxy",
+        "pass": true
+      },
+      {
+        "id": "PYTH_STALENESS_RANGE",
+        "severity": "HIGH",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
+        "pass": true
+      }
+    ],
+    "label": "Crypto.STONE/USD (120s, ±300bps)",
+    "methodology": "Market Price",
+    "model": "Pull",
+    "provider": "Pyth",
+    "whitelisted": false
+  },
+  {
+    "name": "PythOracle",
+    "address": "0x63ee8491f9ca4826d70196AF16F25199d211EA48",
+    "chainId": 80094,
+    "base": "0x688e72142674041f8f6Af4c808a4045cA1D6aC82",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "pyth": "0x2880aB155794e7179c9eE2e38200202908C17B43",
+    "feedId": "0x00456705ae9007ea761e95c724035a23a62fe9e444bbc744e11af7f050ab53c3",
+    "maxStaleness": "120",
+    "maxConfWidth": "300",
+    "checks": [
+      {
+        "id": "ADAPTER_EXISTS",
+        "severity": "HIGH",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is not whitelisted in the adapter registry",
+        "pass": false
+      },
+      {
+        "id": "SOURCE_CODE_PROVENANCE",
+        "severity": "HIGH",
+        "message": "Contract metadata hash matches a known hash",
+        "pass": true
+      },
+      {
+        "id": "DISTINCT_ASSETS",
+        "severity": "HIGH",
+        "message": "No duplicates found",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x688e72142674041f8f6Af4c808a4045cA1D6aC82 is BYUSD (BYUSD) with 6 decimals",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "pass": true
+      },
+      {
+        "id": "OFFICIAL_PYTH_FEED",
+        "severity": "HIGH",
+        "message": "Adapter is connected to an official Pyth feed: BYUSD/USD",
+        "pass": true
+      },
+      {
+        "id": "PYTH_BASE_CORRESPONDENCE",
+        "severity": "INFO",
+        "message": "Base symbol (BYUSD) matches Pyth feed base asset (BYUSD)",
+        "pass": true
+      },
+      {
+        "id": "PYTH_QUOTE_CORRESPONDENCE",
+        "severity": "INFO",
+        "message": "Quote symbol (USD) matches Pyth feed quote asset (USD)",
+        "pass": true
+      },
+      {
+        "id": "OFFICIAL_PYTH_PROXY",
+        "severity": "HIGH",
+        "message": "Adapter is connected to the official Pyth proxy",
+        "pass": true
+      },
+      {
+        "id": "PYTH_STALENESS_RANGE",
+        "severity": "HIGH",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
+        "pass": true
+      }
+    ],
+    "label": "Crypto.BYUSD/USD (120s, ±300bps)",
+    "methodology": "Market Price",
+    "model": "Pull",
+    "provider": "Pyth",
+    "whitelisted": false
+  }
+]
