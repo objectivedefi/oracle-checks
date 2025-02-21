@@ -4993,7 +4993,7 @@
     ],
     "path": "bat-usd",
     "proxyAddress": "0x2346Ce62bd732c62618944E51cbFa09D985d86D2",
-    "threshold": 0,
+    "threshold": 0.25,
     "valuePrefix": "",
     "assetName": "Basic Attention Token",
     "feedCategory": "medium",

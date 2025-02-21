@@ -34279,7 +34279,7 @@
     ],
     "path": "susds-usds-exchange-rate",
     "proxyAddress": "0x2483326d19f780Fb082f333Fe124e4C075B207ba",
-    "threshold": 1e-7,
+    "threshold": 0.05,
     "valuePrefix": "",
     "assetName": "",
     "feedCategory": "",
