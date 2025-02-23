@@ -46,8 +46,8 @@
     {
       "id": "PUSH_STALENESS_BUFFER",
       "severity": "MED",
-      "message": "Feed heartbeat is unknown",
-      "pass": false
+      "message": "Adapter max staleness (7200) is sufficient for the feed's heartbeat (3600).",
+      "pass": true
     }
   ],
   "label": "BTC/USD (0.5%, 3600s)",
