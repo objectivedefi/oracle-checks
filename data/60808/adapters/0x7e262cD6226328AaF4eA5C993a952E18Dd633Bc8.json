@@ -50,9 +50,9 @@
       "pass": false
     }
   ],
-  "label": "Unknown AggregatorV3 Feed",
+  "label": "BTC/USD (1%, 86400s)",
   "methodology": "Unknown",
   "model": "Push",
-  "provider": "Unknown",
+  "provider": "API3",
   "whitelisted": true
 }

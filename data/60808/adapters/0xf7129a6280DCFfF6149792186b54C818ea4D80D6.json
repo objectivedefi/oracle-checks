@@ -50,9 +50,9 @@
       "pass": false
     }
   ],
-  "label": "Unknown AggregatorV3 Feed",
+  "label": "BTC/USD (0.5%, 3600s)",
   "methodology": "Unknown",
   "model": "Push",
-  "provider": "Unknown",
+  "provider": "RedStone",
   "whitelisted": true
 }

@@ -8724,7 +8724,7 @@
         "pass": false
       }
     ],
-    "label": "Midas: Midas mBASIS/USD Oracle",
+    "label": "Midas mBASIS/USD Oracle ",
     "methodology": "Unknown",
     "model": "Push",
     "provider": "Midas",
@@ -9549,7 +9549,7 @@
         "pass": false
       }
     ],
-    "label": "Resolv: Resolv RLP/USD Oracle",
+    "label": "Resolv RLP/USD Oracle ",
     "methodology": "Unknown",
     "model": "Push",
     "provider": "Resolv",
@@ -21681,7 +21681,7 @@
         "pass": false
       }
     ],
-    "label": "Midas: Midas mTBILL/USD Oracle",
+    "label": "Midas mTBILL/USD Oracle ",
     "methodology": "Unknown",
     "model": "Push",
     "provider": "Midas",
@@ -22631,7 +22631,7 @@
         "pass": false
       }
     ],
-    "label": "Midas: Midas mBTC/BTC Oracle",
+    "label": "Midas mBTC/BTC Oracle ",
     "methodology": "Unknown",
     "model": "Push",
     "provider": "Midas",
@@ -22689,7 +22689,7 @@
         "pass": false
       }
     ],
-    "label": "MEV Capital: MEV Capital ETH+/USD Oracle",
+    "label": "MEV Capital ETH+/USD Oracle ",
     "methodology": "Unknown",
     "model": "Push",
     "provider": "MEV Capital",

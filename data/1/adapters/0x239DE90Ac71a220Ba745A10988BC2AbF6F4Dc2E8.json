@@ -50,7 +50,7 @@
       "pass": false
     }
   ],
-  "label": "MEV Capital: MEV Capital ETH+/USD Oracle",
+  "label": "MEV Capital ETH+/USD Oracle ",
   "methodology": "Unknown",
   "model": "Push",
   "provider": "MEV Capital",

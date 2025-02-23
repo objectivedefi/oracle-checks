@@ -50,7 +50,7 @@
       "pass": false
     }
   ],
-  "label": "Midas: Midas mTBILL/USD Oracle",
+  "label": "Midas mTBILL/USD Oracle ",
   "methodology": "Unknown",
   "model": "Push",
   "provider": "Midas",
