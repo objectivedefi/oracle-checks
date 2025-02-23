@@ -86,6 +86,7 @@ export function knownAggregatorV3Feed({
         `Adapter is connected to a recognized non-standard feed: ${matchingOtherFeed.description}`,
       ),
       label: `${matchingOtherFeed.description} ${labelExtra}`,
+      heartbeat: matchingOtherFeed.heartbeat,
       methodology: "Unknown",
       provider: matchingOtherFeed.provider,
     };
