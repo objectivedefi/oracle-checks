@@ -12,7 +12,10 @@ export type CheckConfig = SystemAddresses & {
   minPushHeartbeatBuffer: number;
   pythStalenessLowerBound: number;
   pythStalenessUpperBound: number;
-  otherRecognizedAggregatorV3Feeds: Record<string, { provider: string; description: string }>;
+  otherRecognizedAggregatorV3Feeds: Record<
+    string,
+    { provider: string; description: string; heartbeat?: number; threshold?: number }
+  >;
   metadataHashes: Record<string, string[]>;
   fallbackAssets: Asset[];
 };

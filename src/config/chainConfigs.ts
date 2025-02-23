@@ -162,7 +162,32 @@ export const chainConfigs: Record<number, CheckConfig> = {
     fromBlock: 11481883n,
     metadataHashes,
     fallbackAssets,
-    otherRecognizedAggregatorV3Feeds: {},
+    otherRecognizedAggregatorV3Feeds: {
+      "0xCAc4d304032a46C8D0947396B7cBb07986826A36": {
+        provider: "API3",
+        description: "BTC/USD",
+        threshold: 1,
+        heartbeat: 86400,
+      },
+      "0xD3C586Eec1C6C3eC41D276a23944dea080eDCf7f": {
+        provider: "API3",
+        description: "USDC/USD",
+        threshold: 1,
+        heartbeat: 86400,
+      },
+      "0xb81131B6368b3F0a83af09dB4E39Ac23DA96C2Db": {
+        provider: "RedStone",
+        description: "BTC/USD",
+        threshold: 0.5,
+        heartbeat: 3600,
+      },
+      "0x24c8964338Deb5204B096039147B8e8C3AEa42Cc": {
+        provider: "RedStone",
+        description: "USDC/USD",
+        threshold: 0.5,
+        heartbeat: 3600,
+      },
+    },
     ...defaultBounds,
     ...getAddressesForChain(bob.id),
   },

@@ -14,7 +14,10 @@ type Params = {
   adapter: ChainlinkOracle | ChainlinkInfrequentOracle;
   chainlinkMetadata?: ChainlinkMetadata;
   redstoneMetadata?: RedStoneMetadata;
-  otherRecognizedAggregatorV3Feeds: Record<Address, { provider: string; description: string }>;
+  otherRecognizedAggregatorV3Feeds: Record<
+    Address,
+    { provider: string; description: string; threshold?: number; heartbeat?: number }
+  >;
 };
 
 export function knownAggregatorV3Feed({
@@ -69,12 +72,20 @@ export function knownAggregatorV3Feed({
       provider: "RedStone",
     };
   } else if (matchingOtherFeed) {
+    let labelExtra = "";
+    if (matchingOtherFeed.threshold && matchingOtherFeed.heartbeat) {
+      labelExtra = `(${matchingOtherFeed.threshold}%, ${matchingOtherFeed.heartbeat}s)`;
+    } else if (matchingOtherFeed.threshold) {
+      labelExtra = `(${matchingOtherFeed.threshold}%)`;
+    } else if (matchingOtherFeed.heartbeat) {
+      labelExtra = `(${matchingOtherFeed.heartbeat}s)`;
+    }
     return {
       result: passCheck(
         CHECKS.RECOGNIZED_AGGREGATOR_V3_FEED,
         `Adapter is connected to a recognized non-standard feed: ${matchingOtherFeed.description}`,
       ),
-      label: `${matchingOtherFeed.provider}: ${matchingOtherFeed.description}`,
+      label: `${matchingOtherFeed.description} ${labelExtra}`,
       methodology: "Unknown",
       provider: matchingOtherFeed.provider,
     };
