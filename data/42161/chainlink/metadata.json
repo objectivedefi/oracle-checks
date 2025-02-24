@@ -26614,7 +26614,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "Ethena USDe",
-    "feedCategory": "",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -26625,6 +26625,7 @@
       "blockchainName": "Global",
       "clicProductName": "USDe/USD-RefPrice-DS-Premium-Global-003",
       "deliveryChannelCode": "DS",
+      "feedCategory": "low",
       "feedType": "Crypto",
       "marketHours": "Crypto",
       "productSubType": "Reference",
@@ -26646,6 +26647,9 @@
         "operator": "mercury-chainlink-2"
       },
       {
+        "operator": "mercury-galaxy-2"
+      },
+      {
         "operator": "mercury-dexTrac-2"
       },
       {
@@ -26664,28 +26668,25 @@
         "operator": "mercury-linkRiver-2"
       },
       {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
         "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
       },
       {
         "operator": "mercury-validationCloud-2"
       },
       {
         "operator": "mercury-tiingo-2"
-      },
-      {
-        "operator": "mercury-pierTwo-2"
-      },
-      {
-        "operator": "mercury-galaxy-2"
-      },
-      {
-        "operator": "mercury-syncnode-2"
-      },
-      {
-        "operator": "mercury-newRoad-2"
-      },
-      {
-        "operator": "mercury-simplyVC-2"
       }
     ]
   },
