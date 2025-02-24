@@ -16634,5 +16634,84 @@
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.KAITO/USD"
     }
+  },
+  {
+    "id": "0xac3d02825eef9c311197bcdd3ef789b2c7db97739af8f6aeca8374c55b022572",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "ARC",
+      "description": "AI RIG COMPLEX / US DOLLAR",
+      "display_symbol": "ARC/USD",
+      "generic_symbol": "ARCUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.ARC/USD"
+    }
+  },
+  {
+    "id": "0xb0e25851305040478afe2f7ba29d29e8677dc521f93322400d6c4cab7a2a5ec0",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "BERAETH",
+      "description": "BERACHAIN STAKED ETHEREUM / US DOLLAR",
+      "display_symbol": "BERAETH/USD",
+      "generic_symbol": "BERAETHUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.BERAETH/USD"
+    }
+  },
+  {
+    "id": "0x8bb3695875f9c33594097b0e0a1daa881aa81290088f0eac3a07b700fc7612ba",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "HONEY",
+      "contract_id": "bera: 0xA4aFef880F5cE1f63c9fb48F661E27F8B4216401",
+      "description": "BERACHAIN HONEY / US DOLLAR REDEMPTION RATE",
+      "display_symbol": "HONEY/USD",
+      "generic_symbol": "HONEYUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.HONEY/USD.RR"
+    }
+  },
+  {
+    "id": "0x3a8c0214e4fb7f1dd7792ed4d5b2971372e52f088fcd9cc02309253cbdc4a70e",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "OHM",
+      "description": "OLYMPUS DAO / US DOLLAR",
+      "display_symbol": "OHM/USD",
+      "generic_symbol": "OHMUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.OHM/USD"
+    }
+  },
+  {
+    "id": "0xffd5448b844f5e7eeafbf36c47c7d4791a3cb86f5cefe02a7ba7864b22d81137",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "STBGT",
+      "description": "STRIDE STAKED BERACHAIN GOVERNANCE TOKEN / US DOLLAR",
+      "display_symbol": "STBGT/USD",
+      "generic_symbol": "STBGTUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.STBGT/USD"
+    }
+  },
+  {
+    "id": "0xd9415ce949e55c9e0234ef5ce0474af584d87c5ac664bcb0b9facc60b4c345bf",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "SUPERSUI",
+      "description": "METASTABLE SUPERSUI / US DOLLAR",
+      "display_symbol": "SUPERSUI/USD",
+      "generic_symbol": "SUPERSUIUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.SUPERSUI/USD"
+    }
   }
 ]

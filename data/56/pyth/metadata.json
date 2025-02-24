@@ -16634,5 +16634,18 @@
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.KAITO/USD"
     }
+  },
+  {
+    "id": "0xac3d02825eef9c311197bcdd3ef789b2c7db97739af8f6aeca8374c55b022572",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "ARC",
+      "description": "AI RIG COMPLEX / US DOLLAR",
+      "display_symbol": "ARC/USD",
+      "generic_symbol": "ARCUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.ARC/USD"
+    }
   }
 ]
