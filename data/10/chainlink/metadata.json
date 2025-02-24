@@ -2386,6 +2386,33 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x6131C96D9a73126c3B68bB1f4998eeE0708ffc10",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "usr-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "USR / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "usr-usd",
+    "proxyAddress": "0x8281Af165B4380c7aa2445F1c93C150EaD336022",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x647dA0ebfD5314aF3Bd53eA40541c6B67169e6D0",
     "contractType": "",
     "contractVersion": 4,
@@ -3282,6 +3309,33 @@
       "quoteAssetClic": "USD_FX"
     },
     "decimals": 8
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x864d81b461b27906261c695B3E38B98F4D1A3E63",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "wstusr-stusr-exchange-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "wstUSR / stUSR Exchange Rate",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "wstusr-stusr-exchange-rate",
+    "proxyAddress": "0xe3Ec83f2EE37f7AF2B2711e8aF7554D01B963550",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 18
   },
   {
     "compareOffchain": "",

@@ -35,6 +35,20 @@
     "decimals": 6
   },
   {
+    "address": "0xA45d4121b3D47719FF57a947A9d961539Ba33204",
+    "chainId": 60808,
+    "name": "Lombard Staked Bitcoin",
+    "symbol": "LBTC",
+    "decimals": 8
+  },
+  {
+    "address": "0x9998e05030Aee3Af9AD3df35A34F5C51e1628779",
+    "chainId": 60808,
+    "name": "Hybrid Bitcoin",
+    "symbol": "HybridBTC.pendle",
+    "decimals": 8
+  },
+  {
     "address": "0xBBa2eF945D523C4e2608C9E1214C2Cc64D4fc2e2",
     "chainId": 60808,
     "name": "tBTC v2",
@@ -46,20 +60,6 @@
     "chainId": 60808,
     "name": "uniBTC",
     "symbol": "uniBTC",
-    "decimals": 8
-  },
-  {
-    "address": "0x9998e05030Aee3Af9AD3df35A34F5C51e1628779",
-    "chainId": 60808,
-    "name": "Hybrid Bitcoin",
-    "symbol": "HybridBTC.pendle",
-    "decimals": 8
-  },
-  {
-    "address": "0xA45d4121b3D47719FF57a947A9d961539Ba33204",
-    "chainId": 60808,
-    "name": "Lombard Staked Bitcoin",
-    "symbol": "LBTC",
     "decimals": 8
   }
 ]
