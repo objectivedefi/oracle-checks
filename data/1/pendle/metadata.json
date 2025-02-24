@@ -1027,6 +1027,15 @@
   },
   {
     "chainId": 1,
+    "pt": "0xae4bE3acD95B6a4Ac5A0524ab95dA90c721f6C83",
+    "market": "0x35a18CD59a214c9e797e14b1191b700EEa251f6A",
+    "accountingAsset": "0x66a1E37c9b0eAddca17d3662D6c05F4DECf3e110",
+    "underlyingAsset": "0x66a1E37c9b0eAddca17d3662D6c05F4DECf3e110",
+    "expiry": 1748476800,
+    "symbol": "USR"
+  },
+  {
+    "chainId": 1,
     "pt": "0xAE5099C39f023C91d3dd55244CAFB36225B0850E",
     "market": "0xbBf399db59A845066aAFce9AE55e68c505FA97B7",
     "accountingAsset": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
