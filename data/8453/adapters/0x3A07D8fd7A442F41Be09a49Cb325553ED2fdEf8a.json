@@ -1,0 +1,57 @@
+{
+  "name": "FixedRateOracle",
+  "address": "0x3A07D8fd7A442F41Be09a49Cb325553ED2fdEf8a",
+  "chainId": 8453,
+  "base": "0xDBFeFD2e8460a6Ee4955A68582F85708BAEA60A3",
+  "quote": "0x4200000000000000000000000000000000000006",
+  "rate": "1000000000000000000",
+  "checks": [
+    {
+      "id": "ADAPTER_EXISTS",
+      "severity": "HIGH",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "ADAPTER_REGISTRY",
+      "severity": "HIGH",
+      "message": "Adapter is not whitelisted in the adapter registry",
+      "pass": false
+    },
+    {
+      "id": "SOURCE_CODE_PROVENANCE",
+      "severity": "HIGH",
+      "message": "Contract metadata hash matches a known hash",
+      "pass": true
+    },
+    {
+      "id": "DISTINCT_ASSETS",
+      "severity": "HIGH",
+      "message": "No duplicates found",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0xDBFeFD2e8460a6Ee4955A68582F85708BAEA60A3 is superOETHb (Super OETH) with 18 decimals",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x4200000000000000000000000000000000000006 is WETH (Wrapped Ether) with 18 decimals",
+      "pass": true
+    },
+    {
+      "id": "FIXED_RATE_ONE",
+      "severity": "HIGH",
+      "message": "Adapter has a fixed rate of 1",
+      "pass": true
+    }
+  ],
+  "label": "1:1 superOETHb/WETH",
+  "methodology": "Exchange Rate",
+  "model": "Push",
+  "provider": "Fixed Rate",
+  "whitelisted": false
+}

@@ -40,6 +40,16 @@
     "version": "4"
   },
   {
+    "address": "0xe8dD07CCf5BC4922424140E44Eb970F5950725ef",
+    "chainId": 8453,
+    "accessController": "0x0000000000000000000000000000000000000000",
+    "aggregator": "0x222d25e4dEacAb0eE03E0cb282Ab3F602dED6EF2",
+    "decimals": 18,
+    "description": "wrsETH-ETH Exchange Rate",
+    "owner": "0xf0Db7318A51a21C413CaDd4AbDC1E8a500fE5B1b",
+    "version": "4"
+  },
+  {
     "address": "0xC4300B7CF0646F0Fe4C5B2ACFCCC4dCA1346f5d8",
     "chainId": 8453,
     "accessController": "0x0000000000000000000000000000000000000000",
