@@ -16713,5 +16713,1815 @@
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.SUPERSUI/USD"
     }
+  },
+  {
+    "id": "0xd5d5fc8564bb97b1262562da878e4892fe5f08e3bcff85230963c5d86c76b1ec",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "TETH",
+      "contract_id": "eth: 0xD11c452fc99cF405034ee446803b6F6c1F6d5ED8",
+      "description": "TREEHOUSE ETHEREUM / WRAPPED STETH REDEMPTION RATE",
+      "display_symbol": "TETH/WSTHETH",
+      "generic_symbol": "TETHWSTHETH",
+      "quote_currency": "WSTHETH",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.TETH/WSTHETH.RR"
+    }
+  },
+  {
+    "id": "0x41827044d61d411b307f78a25b3b4f8b27f2e26b22f4ef9381c1041f65039c8a",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "USA-D",
+      "description": "US ASYMMETRY DOLLAR / US DOLLAR",
+      "display_symbol": "USA-D/USD",
+      "generic_symbol": "USA-DUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.USA-D/USD"
+    }
+  },
+  {
+    "id": "0xdaa58c6a3ce7d4b9c46c32a6e646012c17c4a2b24c08dd8c5e476118b855a7da",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "USDG",
+      "description": "GLOBAL DOLLAR / US DOLLAR",
+      "display_symbol": "USDG/USD",
+      "generic_symbol": "USDGUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.USDG/USD"
+    }
+  },
+  {
+    "id": "0x1a78b5829a99f1d2897917dae2a02266c0210535a995a2e9d0692613bbc89e27",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "WSTHYPE",
+      "contract_id": "hype: 0xfFaa4a3D97fE9107Cef8a3F48c069F577Ff76cC1",
+      "description": "WRAPPED STAKED HYPE / STAKED HYPE REDEMPTION RATE",
+      "display_symbol": "WSTHYPE/STHYPE",
+      "generic_symbol": "WSTHYPESTHYPE",
+      "quote_currency": "STHYPE",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.WSTHYPE/STHYPE.RR"
+    }
+  },
+  {
+    "id": "0x94b6550984918f5952e60c482e807d58afbc9f0b2c989511ee0dc1dd15afeb1b",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "YLBTCLST",
+      "contract_id": "eth: 0x6c87ac8ff5515D8D97f20530aE6a9398d277E5f9",
+      "description": "CIAN YIELD LAYER BITCOIN LST / BITCOIN REDEMPTION RATE",
+      "display_symbol": "YLBTCLST/BTC",
+      "generic_symbol": "YLBTCLSTBTC",
+      "quote_currency": "BTC",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.YLBTCLST/BTC.RR"
+    }
+  },
+  {
+    "id": "0xf9d9f3248759efe09860a4a778f7874a57f5b5b657eadc73ca21ec1170e981e0",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "YLRSETH",
+      "contract_id": "eth: 0x5A11de1CdB529E2946Ef8d9108f45fec180B4De7",
+      "description": "CIAN YIELD LAYER KELP DAO RESTAKED ETH  / KELP DAO RESTAKED ETH REDEMPTION RATE",
+      "display_symbol": "YLRSETH/ETH",
+      "generic_symbol": "YLRSETHETH",
+      "quote_currency": "ETH",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.YLRSETH/ETH.RR"
+    }
+  },
+  {
+    "id": "0xebd6bb633e9f3107b31b8685871ffaf3a3a283b3cbf9683dc508f5609820228e",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "YLSTETH",
+      "contract_id": "eth: 0x6a44c78716C80fCb3B95A19832D12eBc6613014A",
+      "description": "CIAN YIELD LAYER STAKED ETHEREUM / ETHEREUM REDEMPTION RATE",
+      "display_symbol": "YLSTETH/ETH",
+      "generic_symbol": "YLSTETHETH",
+      "quote_currency": "ETH",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.YLSTETH/ETH.RR"
+    }
+  },
+  {
+    "id": "0x741f2ecf4436868e4642db088fa33f9858954b992285129c9b03917dcb067ecc",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "YNETHX",
+      "contract_id": "eth: 0x657d9ABA1DBb59e53f9F3eCAA878447dCfC96dCb",
+      "description": "YIELDNEST ETHEREUM MAX / WRAPPED ETHEREUM REDEMPTION RATE",
+      "display_symbol": "YNETHX/WETH",
+      "generic_symbol": "YNETHXWETH",
+      "quote_currency": "WETH",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.YNETHX/WETH.RR"
+    }
+  },
+  {
+    "id": "0x7afd29f3c35f70a59fb5f491026f1a3e1dad2578932c0cf12e5d6875df6fda4d",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "AAF",
+      "cms_symbol": "AAF",
+      "country": "GB",
+      "cqs_symbol": "AAF",
+      "description": "AIRTEL AFRICA PLC / BRITISH POUND",
+      "display_symbol": "AAF/GBP",
+      "nasdaq_symbol": "AAF",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.AAF/GBP"
+    }
+  },
+  {
+    "id": "0x6933a1dfe481cefd8f6d96c53e8d3260af5848f6793bc2c2bf0f9ef9a9ecd999",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "AAL",
+      "cms_symbol": "AAL",
+      "country": "GB",
+      "cqs_symbol": "AAL",
+      "description": "ANGLO AMERICAN / BRITISH POUND",
+      "display_symbol": "AAL/GBP",
+      "nasdaq_symbol": "AAL",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.AAL/GBP"
+    }
+  },
+  {
+    "id": "0x72bd42358798e4c7b20e608f0d4dd704db6566ac889fe709161ad6ad01f416d3",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "ABF",
+      "cms_symbol": "ABF",
+      "country": "GB",
+      "cqs_symbol": "ABF",
+      "description": "ASSOCIATED BRITISH FOODS PLC / BRITISH POUND",
+      "display_symbol": "ABF/GBP",
+      "nasdaq_symbol": "ABF",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.ABF/GBP"
+    }
+  },
+  {
+    "id": "0x733fe4ffe6704fc2bc69981e1db69699250c0c561bb129d41599d22908d0d2a4",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "ADM",
+      "cms_symbol": "ADM",
+      "country": "GB",
+      "cqs_symbol": "ADM",
+      "description": "ADMIRAL GROUP / BRITISH POUND",
+      "display_symbol": "ADM/GBP",
+      "nasdaq_symbol": "ADM",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.ADM/GBP"
+    }
+  },
+  {
+    "id": "0x040bdbbf8d4cf58e053ebe527aed51a6f7b9a3ebd9fe07d2884e537417b51f82",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "AHT",
+      "cms_symbol": "AHT",
+      "country": "GB",
+      "cqs_symbol": "AHT",
+      "description": "ASHTEAD GROUP PLC / BRITISH POUND",
+      "display_symbol": "AHT/GBP",
+      "nasdaq_symbol": "AHT",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.AHT/GBP"
+    }
+  },
+  {
+    "id": "0x9fd3794898be3dfe3951ed9ec2306d317cfb714ad7239bf189b47a96d679f114",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "ALW",
+      "cms_symbol": "ALW",
+      "country": "GB",
+      "cqs_symbol": "ALW",
+      "description": "ALLIANCE WITAN PLC / BRITISH POUND",
+      "display_symbol": "ALW/GBP",
+      "nasdaq_symbol": "ALW",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.ALW/GBP"
+    }
+  },
+  {
+    "id": "0xcb6b4b7241ca3f475a0b342b2fa1056edb3bbe85b833de87a91964cb97c6c7ab",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "ANTO",
+      "cms_symbol": "ANTO",
+      "country": "GB",
+      "cqs_symbol": "ANTO",
+      "description": "ANTOFAGASTA PLC / BRITISH POUND",
+      "display_symbol": "ANTO/GBP",
+      "nasdaq_symbol": "ANTO",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.ANTO/GBP"
+    }
+  },
+  {
+    "id": "0xa2226626945592475e25a17bc769508a07e95a6378b836c538c7cee4867ab28e",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "AUTO",
+      "cms_symbol": "AUTO",
+      "country": "GB",
+      "cqs_symbol": "AUTO",
+      "description": "AUTO TRADER GROUP PLC / BRITISH POUND",
+      "display_symbol": "AUTO/GBP",
+      "nasdaq_symbol": "AUTO",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.AUTO/GBP"
+    }
+  },
+  {
+    "id": "0xc04c79e6ba7d90eefa087a70f606fdc3bfecadbbb2dacc9dbc5d68e26ba13002",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "AV",
+      "cms_symbol": "AV",
+      "country": "GB",
+      "cqs_symbol": "AV",
+      "description": "AVIVA PLC / BRITISH POUND",
+      "display_symbol": "AV/GBP",
+      "nasdaq_symbol": "AV",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.AV/GBP"
+    }
+  },
+  {
+    "id": "0xa637b76c2fc7f928fab462a999fc65ecd8493142d8d6e1c67b96a352d0d20b08",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "AZN",
+      "cms_symbol": "AZN",
+      "country": "GB",
+      "cqs_symbol": "AZN",
+      "description": "ASTRAZENECA PLC / BRITISH POUND",
+      "display_symbol": "AZN/GBP",
+      "nasdaq_symbol": "AZN",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.AZN/GBP"
+    }
+  },
+  {
+    "id": "0x6f107ff8ec8d9c02b6180538be5167196eb0d7bcc42d7e737ee84524b2be191e",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BA",
+      "cms_symbol": "BA",
+      "country": "GB",
+      "cqs_symbol": "BA",
+      "description": "BAE SYSTEMS PLC / BRITISH POUND",
+      "display_symbol": "BA/GBP",
+      "nasdaq_symbol": "BA",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.BA/GBP"
+    }
+  },
+  {
+    "id": "0xa60cc52c5587ceab4a122a9a76f52edcfed73509a076441bad681dc04a0ebb59",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BARC",
+      "cms_symbol": "BARC",
+      "country": "GB",
+      "cqs_symbol": "BARC",
+      "description": "BARCLAYS PLC / BRITISH POUND",
+      "display_symbol": "BARC/GBP",
+      "nasdaq_symbol": "BARC",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.BARC/GBP"
+    }
+  },
+  {
+    "id": "0xd702a51d5b5179e0d207051e8f133e0cf16b026fb8b363ac039fa65d6c8ea6eb",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BATS",
+      "cms_symbol": "BATS",
+      "country": "GB",
+      "cqs_symbol": "BATS",
+      "description": "BRITISH AMERICAN TOBACCO PLC / BRITISH POUND",
+      "display_symbol": "BATS/GBP",
+      "nasdaq_symbol": "BATS",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.BATS/GBP"
+    }
+  },
+  {
+    "id": "0x6fcc8aa358c7643b3c81ffd016ac80776addedd99eb643ce81826a27739b4750",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BEZ",
+      "cms_symbol": "BEZ",
+      "country": "GB",
+      "cqs_symbol": "BEZ",
+      "description": "BEAZLEY PLC / BRITISH POUND",
+      "display_symbol": "BEZ/GBP",
+      "nasdaq_symbol": "BEZ",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.BEZ/GBP"
+    }
+  },
+  {
+    "id": "0xad47427cedeb8fcfef5b44c9e36ad34098fbaeb374a545b1a3f37f6ce39deae7",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BKG",
+      "cms_symbol": "BKG",
+      "country": "GB",
+      "cqs_symbol": "BKG",
+      "description": "BERKELEY GROUP HOLDINGS PLC / BRITISH POUND",
+      "display_symbol": "BKG/GBP",
+      "nasdaq_symbol": "BKG",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.BKG/GBP"
+    }
+  },
+  {
+    "id": "0xa7e208af4e00879b57e9ea4a10288ae4f6ee93abc33eefad9ea23484ddf87211",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BLND",
+      "cms_symbol": "BLND",
+      "country": "GB",
+      "cqs_symbol": "BLND",
+      "description": "BRITISH LAND CO PLC / BRITISH POUND",
+      "display_symbol": "BLND/GBP",
+      "nasdaq_symbol": "BLND",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.BLND/GBP"
+    }
+  },
+  {
+    "id": "0xea48f26a559f137aa0f530a5bbf9467b2c0a5a44df7819c56717464e7bef0ec2",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BNZL",
+      "cms_symbol": "BNZL",
+      "country": "GB",
+      "cqs_symbol": "BNZL",
+      "description": "BUNZL PLC / BRITISH POUND",
+      "display_symbol": "BNZL/GBP",
+      "nasdaq_symbol": "BNZL",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.BNZL/GBP"
+    }
+  },
+  {
+    "id": "0x1fb5b82a43cafadad1e148ebc874bbdba1dd1ece9fe6f5559ccfbae1669e79c9",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BP",
+      "cms_symbol": "BP",
+      "country": "GB",
+      "cqs_symbol": "BP",
+      "description": "BP PLC / BRITISH POUND",
+      "display_symbol": "BP/GBP",
+      "nasdaq_symbol": "BP",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.BP/GBP"
+    }
+  },
+  {
+    "id": "0x96295040b6801e18e480904a28fb6efb1b859a2683b804505ac188361b4db223",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BTA",
+      "cms_symbol": "BTA",
+      "country": "GB",
+      "cqs_symbol": "BTA",
+      "description": "BT GROUP PLC / BRITISH POUND",
+      "display_symbol": "BTA/GBP",
+      "nasdaq_symbol": "BTA",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.BTA/GBP"
+    }
+  },
+  {
+    "id": "0xd689e62fae0e72002ff44db79937dc66627d237b571345607fe746ad01d866fe",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BTRW",
+      "cms_symbol": "BTRW",
+      "country": "GB",
+      "cqs_symbol": "BTRW",
+      "description": "BARRATT REDROW PLC / BRITISH POUND",
+      "display_symbol": "BTRW/GBP",
+      "nasdaq_symbol": "BTRW",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.BTRW/GBP"
+    }
+  },
+  {
+    "id": "0x6a62a570cde075c5d1d728c7e8ffb876d3d943fb7da3b2f72f6e32c8ce454181",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "CCH",
+      "cms_symbol": "CCH",
+      "country": "GB",
+      "cqs_symbol": "CCH",
+      "description": "COCA-COLA HBC AG / BRITISH POUND",
+      "display_symbol": "CCH/GBP",
+      "nasdaq_symbol": "CCH",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.CCH/GBP"
+    }
+  },
+  {
+    "id": "0xaf4096a8c681312295ae72d877a4e6a627ea5ebd5928b1eb754caf55a75e2f92",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "CNA",
+      "cms_symbol": "CNA",
+      "country": "GB",
+      "cqs_symbol": "CNA",
+      "description": "CENTRICA PLC / BRITISH POUND",
+      "display_symbol": "CNA/GBP",
+      "nasdaq_symbol": "CNA",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.CNA/GBP"
+    }
+  },
+  {
+    "id": "0x5c1d2b8d904d8076cadda4310c5d0cb9dd41eef03850e07b16a7bec7cb256590",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "CPG",
+      "cms_symbol": "CPG",
+      "country": "GB",
+      "cqs_symbol": "CPG",
+      "description": "COMPASS GROUP PLC / BRITISH POUND",
+      "display_symbol": "CPG/GBP",
+      "nasdaq_symbol": "CPG",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.CPG/GBP"
+    }
+  },
+  {
+    "id": "0xbd01f61828479cdb79344c29cc27cff529cc6ac03595762df4db668e0edb69ee",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "CRDA",
+      "cms_symbol": "CRDA",
+      "country": "GB",
+      "cqs_symbol": "CRDA",
+      "description": "CRODA INTERNATIONAL PLC / BRITISH POUND",
+      "display_symbol": "CRDA/GBP",
+      "nasdaq_symbol": "CRDA",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.CRDA/GBP"
+    }
+  },
+  {
+    "id": "0x2c43b5ffda4ddef90f9261d6705f00fe9e7440670eea3adca9c8c7675471d4d5",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "CTEC",
+      "cms_symbol": "CTEC",
+      "country": "GB",
+      "cqs_symbol": "CTEC",
+      "description": "CONVATEC GROUP PLC / BRITISH POUND",
+      "display_symbol": "CTEC/GBP",
+      "nasdaq_symbol": "CTEC",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.CTEC/GBP"
+    }
+  },
+  {
+    "id": "0x683b07c0113c6eb7cb1dcaa72ca7d2775235a8fb2bb052e951c4fe72a2f9c15f",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "DCC",
+      "cms_symbol": "DCC",
+      "country": "GB",
+      "cqs_symbol": "DCC",
+      "description": "DCC PLC / BRITISH POUND",
+      "display_symbol": "DCC/GBP",
+      "nasdaq_symbol": "DCC",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.DCC/GBP"
+    }
+  },
+  {
+    "id": "0xfe4b5108a2382891f862ca80628acb316abaf0d1c110c2ca9c87ba27670ba83b",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "DGE",
+      "cms_symbol": "DGE",
+      "country": "GB",
+      "cqs_symbol": "DGE",
+      "description": "DIAGEO PLC / BRITISH POUND",
+      "display_symbol": "DGE/GBP",
+      "nasdaq_symbol": "DGE",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.DGE/GBP"
+    }
+  },
+  {
+    "id": "0x034d1f6d28b211c84e7902b24eb209e463ffb798ee940943c2835366b5320cab",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "DPLM",
+      "cms_symbol": "DPLM",
+      "country": "GB",
+      "cqs_symbol": "DPLM",
+      "description": "DIPLOMA PLC / BRITISH POUND",
+      "display_symbol": "DPLM/GBP",
+      "nasdaq_symbol": "DPLM",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.DPLM/GBP"
+    }
+  },
+  {
+    "id": "0x9a01dced50be45e47b6e22144a6706dbc8226128248fd5ae4096cf8d1c2ac90d",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "EDV",
+      "cms_symbol": "EDV",
+      "country": "GB",
+      "cqs_symbol": "EDV",
+      "description": "ENDEAVOUR MINING PLC / BRITISH POUND",
+      "display_symbol": "EDV/GBP",
+      "nasdaq_symbol": "EDV",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.EDV/GBP"
+    }
+  },
+  {
+    "id": "0x2956b3738f8f1a0007008b5f490ec230ccf1c1a0998bdfb8ad230ea5957c5e2a",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "ENT",
+      "cms_symbol": "ENT",
+      "country": "GB",
+      "cqs_symbol": "ENT",
+      "description": "ENTAIN PLC / BRITISH POUND",
+      "display_symbol": "ENT/GBP",
+      "nasdaq_symbol": "ENT",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.ENT/GBP"
+    }
+  },
+  {
+    "id": "0xa23381e9a952b39dfea3593e84c41e412ad4dfedac29981d348eb1742263f6d1",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "EXPN",
+      "cms_symbol": "EXPN",
+      "country": "GB",
+      "cqs_symbol": "EXPN",
+      "description": "EXPERIAN PLC / BRITISH POUND",
+      "display_symbol": "EXPN/GBP",
+      "nasdaq_symbol": "EXPN",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.EXPN/GBP"
+    }
+  },
+  {
+    "id": "0x0d54f44453f2068ee0910a7abf931af611c675049f3c2ece1a7084aac69c4593",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "EZJ",
+      "cms_symbol": "EZJ",
+      "country": "GB",
+      "cqs_symbol": "EZJ",
+      "description": "EASYJET PLC / BRITISH POUND",
+      "display_symbol": "EZJ/GBP",
+      "nasdaq_symbol": "EZJ",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.EZJ/GBP"
+    }
+  },
+  {
+    "id": "0xe7718a55c812787267b06ff8f7f42a7d82a5f92406b343fcf09db8d095360832",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "FCIT",
+      "cms_symbol": "FCIT",
+      "country": "GB",
+      "cqs_symbol": "FCIT",
+      "description": "F&C INVESTMENT TRUST PLC / BRITISH POUND",
+      "display_symbol": "FCIT/GBP",
+      "nasdaq_symbol": "FCIT",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.FCIT/GBP"
+    }
+  },
+  {
+    "id": "0x98309bfbdd38714f62daae9fa0f145ea11445b8c8648ec0003b19bbd13585785",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "FRES",
+      "cms_symbol": "FRES",
+      "country": "GB",
+      "cqs_symbol": "FRES",
+      "description": "FRESNILLO / BRITISH POUND",
+      "display_symbol": "FRES/GBP",
+      "nasdaq_symbol": "FRES",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.FRES/GBP"
+    }
+  },
+  {
+    "id": "0xab5ac3a797d02f0159cea2097c4576ebb29afd60f7b7a6845617e8295a206d20",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "GAW",
+      "cms_symbol": "GAW",
+      "country": "GB",
+      "cqs_symbol": "GAW",
+      "description": "GAMES WORKSHOP GROUP / BRITISH POUND",
+      "display_symbol": "GAW/GBP",
+      "nasdaq_symbol": "GAW",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.GAW/GBP"
+    }
+  },
+  {
+    "id": "0x8f9c6d4c66c67ad15b0a872e06ac223753ebda26f84b48a501f760d49fad0631",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "GLEN",
+      "cms_symbol": "GLEN",
+      "country": "GB",
+      "cqs_symbol": "GLEN",
+      "description": "GLENCORE PLC / BRITISH POUND",
+      "display_symbol": "GLEN/GBP",
+      "nasdaq_symbol": "GLEN",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.GLEN/GBP"
+    }
+  },
+  {
+    "id": "0x755cd5b667d6abd763ce30327fd98681689cb27e2337ab3296ea54f82e059f2e",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "GSK",
+      "cms_symbol": "GSK",
+      "country": "GB",
+      "cqs_symbol": "GSK",
+      "description": "GSK PLC / BRITISH POUND",
+      "display_symbol": "GSK/GBP",
+      "nasdaq_symbol": "GSK",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.GSK/GBP"
+    }
+  },
+  {
+    "id": "0x5a4159cbc9d623070fd6f70b9edb7bc4fdc9dcd1d9be2a30e9bb02fdce8eb09a",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "HIK",
+      "cms_symbol": "HIK",
+      "country": "GB",
+      "cqs_symbol": "HIK",
+      "description": "HIKMA PHARMACEUTICALS / BRITISH POUND",
+      "display_symbol": "HIK/GBP",
+      "nasdaq_symbol": "HIK",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.HIK/GBP"
+    }
+  },
+  {
+    "id": "0xcdf8e84d7dbec5d8aed6997f0d6d0da7454426d8e6a3afbf85a13a44b9f5a678",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "HL",
+      "cms_symbol": "HL",
+      "country": "GB",
+      "cqs_symbol": "HL",
+      "description": "HARGREAVES LANSDOWN PLC / BRITISH POUND",
+      "display_symbol": "HL/GBP",
+      "nasdaq_symbol": "HL",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.HL/GBP"
+    }
+  },
+  {
+    "id": "0x3146b6ae143235d85a3cdff8be210b2a4629dd1c20ed634fa046a2e63b184c42",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "HLMA",
+      "cms_symbol": "HLMA",
+      "country": "GB",
+      "cqs_symbol": "HLMA",
+      "description": "HALMA PLC / BRITISH POUND",
+      "display_symbol": "HLMA/GBP",
+      "nasdaq_symbol": "HLMA",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.HLMA/GBP"
+    }
+  },
+  {
+    "id": "0x0a9ad2666c0bf241cf67a83ee8f3ac7ae38dfbc24d83bc00675fee5569f72074",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "HLN",
+      "cms_symbol": "HLN",
+      "country": "GB",
+      "cqs_symbol": "HLN",
+      "description": "HALEON PLC / BRITISH POUND",
+      "display_symbol": "HLN/GBP",
+      "nasdaq_symbol": "HLN",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.HLN/GBP"
+    }
+  },
+  {
+    "id": "0x23ae36a89ccacc8ed0d3a933546fb2db0065bf4c8d56161293cb7e3521a8c331",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "HSBA",
+      "cms_symbol": "HSBA",
+      "country": "GB",
+      "cqs_symbol": "HSBA",
+      "description": "HSBC HOLDINGS PLC / BRITISH POUND",
+      "display_symbol": "HSBA/GBP",
+      "nasdaq_symbol": "HSBA",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.HSBA/GBP"
+    }
+  },
+  {
+    "id": "0x2c294be2b538a817e375ce2727ed6d3a027d728e3627bb03c97d554d940ba55c",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "HSX",
+      "cms_symbol": "HSX",
+      "country": "GB",
+      "cqs_symbol": "HSX",
+      "description": "HISCOX LTD / BRITISH POUND",
+      "display_symbol": "HSX/GBP",
+      "nasdaq_symbol": "HSX",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.HSX/GBP"
+    }
+  },
+  {
+    "id": "0x0270c75fbb9d695c30a09cd5c247675d80f75340274252c6742eea62d11c317c",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "HWDN",
+      "cms_symbol": "HWDN",
+      "country": "GB",
+      "cqs_symbol": "HWDN",
+      "description": "HOWDEN JOINERY GROUP PLC / BRITISH POUND",
+      "display_symbol": "HWDN/GBP",
+      "nasdaq_symbol": "HWDN",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.HWDN/GBP"
+    }
+  },
+  {
+    "id": "0x99f0d376ff77efbabfa09202bf6f19a8716a1c43657b32c921e1bbd852b629c3",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "IAG",
+      "cms_symbol": "IAG",
+      "country": "GB",
+      "cqs_symbol": "IAG",
+      "description": "INTERNATIONAL CONSOLIDATED AIRLINES GROUP SA / BRITISH POUND",
+      "display_symbol": "IAG/GBP",
+      "nasdaq_symbol": "IAG",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.IAG/GBP"
+    }
+  },
+  {
+    "id": "0x6b989b5fcc1e1d81808f2a85486af2ba82a0ef9023cfefc1c269c9d47ec57081",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "ICG",
+      "cms_symbol": "ICG",
+      "country": "GB",
+      "cqs_symbol": "ICG",
+      "description": "INTERMEDIATE CAPITAL GROUP PLC / BRITISH POUND",
+      "display_symbol": "ICG/GBP",
+      "nasdaq_symbol": "ICG",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.ICG/GBP"
+    }
+  },
+  {
+    "id": "0x3c6a628b82864989754205afbafd0f69c756cb1af351af8bc744ecfbceb85c6f",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "IHG",
+      "cms_symbol": "IHG",
+      "country": "GB",
+      "cqs_symbol": "IHG",
+      "description": "INTERCONTINENTAL HOTELS GROUP PLC / BRITISH POUND",
+      "display_symbol": "IHG/GBP",
+      "nasdaq_symbol": "IHG",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.IHG/GBP"
+    }
+  },
+  {
+    "id": "0x07b9c356e71df39385d541c0d7564c00825e25a5d9cb38e983f7711bb319695c",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "III",
+      "cms_symbol": "III",
+      "country": "GB",
+      "cqs_symbol": "III",
+      "description": "3I GROUP PLC / BRITISH POUND",
+      "display_symbol": "III/GBP",
+      "nasdaq_symbol": "III",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.III/GBP"
+    }
+  },
+  {
+    "id": "0x968825d1093b823a437448576bda4c54c691c681a7e84605386043ea969caa6d",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "IMB",
+      "cms_symbol": "IMB",
+      "country": "GB",
+      "cqs_symbol": "IMB",
+      "description": "IMPERIAL BRANDS GROUP / BRITISH POUND",
+      "display_symbol": "IMB/GBP",
+      "nasdaq_symbol": "IMB",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.IMB/GBP"
+    }
+  },
+  {
+    "id": "0x963bc79ec349e0a95fe4c0f62d0a4ff1c2c2ae7bad6dbac0eff05b7ebdc4bc24",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "IMI",
+      "cms_symbol": "IMI",
+      "country": "GB",
+      "cqs_symbol": "IMI",
+      "description": "IMI PLC / BRITISH POUND",
+      "display_symbol": "IMI/GBP",
+      "nasdaq_symbol": "IMI",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.IMI/GBP"
+    }
+  },
+  {
+    "id": "0x597813341c4bc9f3c6c5538fa03dbabb1c1a971de9df3367409c9b6b648efa90",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "INF",
+      "cms_symbol": "INF",
+      "country": "GB",
+      "cqs_symbol": "INF",
+      "description": "INFORMA PLC / BRITISH POUND",
+      "display_symbol": "INF/GBP",
+      "nasdaq_symbol": "INF",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.INF/GBP"
+    }
+  },
+  {
+    "id": "0x11aca907d2bdfcd7b4d62fd15ac40fb9cb73760322d0f9ab0386503f4745c445",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "ISF",
+      "cms_symbol": "ISF",
+      "country": "GB",
+      "cqs_symbol": "ISF",
+      "description": "ISHARES CORE FTSE 100 UCITS ETF DIST / BRITISH POUND",
+      "display_symbol": "ISF/GBP",
+      "nasdaq_symbol": "ISF",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.ISF/GBP"
+    }
+  },
+  {
+    "id": "0x7678cd55ad35547dd012c118b95be15a1b6e60e6a0095301941472a729d66bf1",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "ITRK",
+      "cms_symbol": "ITRK",
+      "country": "GB",
+      "cqs_symbol": "ITRK",
+      "description": "INTERTEK GROUP PLC / BRITISH POUND",
+      "display_symbol": "ITRK/GBP",
+      "nasdaq_symbol": "ITRK",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.ITRK/GBP"
+    }
+  },
+  {
+    "id": "0x5364ca7da542969c6977f06dbb21386d39184e9b556d2e5ca9e6c67f1766bd1e",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "JD",
+      "cms_symbol": "JD",
+      "country": "GB",
+      "cqs_symbol": "JD",
+      "description": "JD SPORTS FASHION PLC / BRITISH POUND",
+      "display_symbol": "JD/GBP",
+      "nasdaq_symbol": "JD",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.JD/GBP"
+    }
+  },
+  {
+    "id": "0x379581431238c4848597628126b5c1ffabe1911e151508ecd00e0a31957187c0",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "KGF",
+      "cms_symbol": "KGF",
+      "country": "GB",
+      "cqs_symbol": "KGF",
+      "description": "KINGFISHER / BRITISH POUND",
+      "display_symbol": "KGF/GBP",
+      "nasdaq_symbol": "KGF",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.KGF/GBP"
+    }
+  },
+  {
+    "id": "0xbec4c1932e5db9ade321ce7934b5f31d532ec70922034b5b2f75b4985ce8de4c",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "LAND",
+      "cms_symbol": "LAND",
+      "country": "GB",
+      "cqs_symbol": "LAND",
+      "description": "LAND SECURITIES GROUP PLC / BRITISH POUND",
+      "display_symbol": "LAND/GBP",
+      "nasdaq_symbol": "LAND",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.LAND/GBP"
+    }
+  },
+  {
+    "id": "0x4a5717b6ac4ac00479bc9edadbdb420a257f662674d0443b65b9f2f68d38b648",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "LGEN",
+      "cms_symbol": "LGEN",
+      "country": "GB",
+      "cqs_symbol": "LGEN",
+      "description": "LEGAL & GENERAL GROUP PLC / BRITISH POUND",
+      "display_symbol": "LGEN/GBP",
+      "nasdaq_symbol": "LGEN",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.LGEN/GBP"
+    }
+  },
+  {
+    "id": "0x3d3b5f16b89d24f26daf0fdfdf98278a1e03b89ed8468e068a1dd58fd396c815",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "LLOY",
+      "cms_symbol": "LLOY",
+      "country": "GB",
+      "cqs_symbol": "LLOY",
+      "description": "LLOYDS BANKING GROUP PLC / BRITISH POUND",
+      "display_symbol": "LLOY/GBP",
+      "nasdaq_symbol": "LLOY",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.LLOY/GBP"
+    }
+  },
+  {
+    "id": "0x45d6ece82e3596f017a815fafa768ee201275589e0342389cfaeb7966582ad74",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "LMP",
+      "cms_symbol": "LMP",
+      "country": "GB",
+      "cqs_symbol": "LMP",
+      "description": "LONDONMETRIC PROPERTY PLC / BRITISH POUND",
+      "display_symbol": "LMP/GBP",
+      "nasdaq_symbol": "LMP",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.LMP/GBP"
+    }
+  },
+  {
+    "id": "0xab429f879290f2c0fd37e84a6b8e0c3a3d5fbfc106bac7e71664cf44d84e4f91",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "LSEG",
+      "cms_symbol": "LSEG",
+      "country": "GB",
+      "cqs_symbol": "LSEG",
+      "description": "LONDON STOCK EXCHANGE GROUP PLC / BRITISH POUND",
+      "display_symbol": "LSEG/GBP",
+      "nasdaq_symbol": "LSEG",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.LSEG/GBP"
+    }
+  },
+  {
+    "id": "0xac3eaae8586a3bb2c644021309963f09065f8f878bea83768eb7d60561d8fefe",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MKS",
+      "cms_symbol": "MKS",
+      "country": "GB",
+      "cqs_symbol": "MKS",
+      "description": "MARKS & SPENCER GROUP PLC / BRITISH POUND",
+      "display_symbol": "MKS/GBP",
+      "nasdaq_symbol": "MKS",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.MKS/GBP"
+    }
+  },
+  {
+    "id": "0x1d2c2dbf3b483a0895f24f0295103cd74fa841f743da32d78085dc02ee4a4156",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MNDI",
+      "cms_symbol": "MNDI",
+      "country": "GB",
+      "cqs_symbol": "MNDI",
+      "description": "MONDI PLC / BRITISH POUND",
+      "display_symbol": "MNDI/GBP",
+      "nasdaq_symbol": "MNDI",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.MNDI/GBP"
+    }
+  },
+  {
+    "id": "0x178d0d973d4cabb0323fb50aa043e9f9d384d904d70340a4e794e20e6d5986e6",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MNG",
+      "cms_symbol": "MNG",
+      "country": "GB",
+      "cqs_symbol": "MNG",
+      "description": "M&G PLC / BRITISH POUND",
+      "display_symbol": "MNG/GBP",
+      "nasdaq_symbol": "MNG",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.MNG/GBP"
+    }
+  },
+  {
+    "id": "0x73fd681bf8a157d8cd5e9aed978a474d7fed699402e370d863e8020516a83444",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MRO",
+      "cms_symbol": "MRO",
+      "country": "GB",
+      "cqs_symbol": "MRO",
+      "description": "MELROSE INDUSTRIES PLC / BRITISH POUND",
+      "display_symbol": "MRO/GBP",
+      "nasdaq_symbol": "MRO",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.MRO/GBP"
+    }
+  },
+  {
+    "id": "0x0c1b04494d698f8f5d772822c47248153a32aea9fc07fd542c376d487efa30d8",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "NG",
+      "cms_symbol": "NG",
+      "country": "GB",
+      "cqs_symbol": "NG",
+      "description": "NATIONAL GRID / BRITISH POUND",
+      "display_symbol": "NG/GBP",
+      "nasdaq_symbol": "NG",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.NG/GBP"
+    }
+  },
+  {
+    "id": "0xaa8aa008443dd20c6f569c653fb0f44bb3fdeed6f26084cb6a0a4785c95c0f62",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "NWG",
+      "cms_symbol": "NWG",
+      "country": "GB",
+      "cqs_symbol": "NWG",
+      "description": "NATWEST GROUP PLC / BRITISH POUND",
+      "display_symbol": "NWG/GBP",
+      "nasdaq_symbol": "NWG",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.NWG/GBP"
+    }
+  },
+  {
+    "id": "0x4242a7777bc209a5f05cce7611ee3ab037281baf8bee7848ae96b6ec1840483d",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "NXT",
+      "cms_symbol": "NXT",
+      "country": "GB",
+      "cqs_symbol": "NXT",
+      "description": "NEXT PLC / BRITISH POUND",
+      "display_symbol": "NXT/GBP",
+      "nasdaq_symbol": "NXT",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.NXT/GBP"
+    }
+  },
+  {
+    "id": "0x420c0521619ff01100f053cdfd27b06f25c59a98256bf9d10b97b5f500e3488c",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "PHNX",
+      "cms_symbol": "PHNX",
+      "country": "GB",
+      "cqs_symbol": "PHNX",
+      "description": "PHOENIX GROUP HOLDINGS PLC / BRITISH POUND",
+      "display_symbol": "PHNX/GBP",
+      "nasdaq_symbol": "PHNX",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.PHNX/GBP"
+    }
+  },
+  {
+    "id": "0xdb30d3be7afb5b4c472a02502c43a48a5c0c295d8d4b1a850114c491f297133c",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "PRU",
+      "cms_symbol": "PRU",
+      "country": "GB",
+      "cqs_symbol": "PRU",
+      "description": "PRUDENTIAL PLC / BRITISH POUND",
+      "display_symbol": "PRU/GBP",
+      "nasdaq_symbol": "PRU",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.PRU/GBP"
+    }
+  },
+  {
+    "id": "0x2ad321b77e925225e0000e3a618ac75076f290257533847287b53e6b51eab6bc",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "PSH",
+      "cms_symbol": "PSH",
+      "country": "GB",
+      "cqs_symbol": "PSH",
+      "description": "PERSHING SQUARE HOLDINGS LTD / BRITISH POUND",
+      "display_symbol": "PSH/GBP",
+      "nasdaq_symbol": "PSH",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.PSH/GBP"
+    }
+  },
+  {
+    "id": "0x5f0be72c8df13ed6bc403ed1f0395c5323d7ec148e5d57cbd5a8c7000be7d5e2",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "PSN",
+      "cms_symbol": "PSN",
+      "country": "GB",
+      "cqs_symbol": "PSN",
+      "description": "PERSIMMON PLC / BRITISH POUND",
+      "display_symbol": "PSN/GBP",
+      "nasdaq_symbol": "PSN",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.PSN/GBP"
+    }
+  },
+  {
+    "id": "0x8fe8b63b83c0961c059c24dcbb03ac9966b586662a0146e0321df923dde60818",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "PSON",
+      "cms_symbol": "PSON",
+      "country": "GB",
+      "cqs_symbol": "PSON",
+      "description": "PEARSON PLC / BRITISH POUND",
+      "display_symbol": "PSON/GBP",
+      "nasdaq_symbol": "PSON",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.PSON/GBP"
+    }
+  },
+  {
+    "id": "0x6c6e7b3af79a3843cbd07181d1e5ae3de8757b587afac09df94b239630db4d5c",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "REL",
+      "cms_symbol": "REL",
+      "country": "GB",
+      "cqs_symbol": "REL",
+      "description": "RELX PLC / BRITISH POUND",
+      "display_symbol": "REL/GBP",
+      "nasdaq_symbol": "REL",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.REL/GBP"
+    }
+  },
+  {
+    "id": "0xd21c420077ba3c132b9f9f5615786db26cf5dcd334fab5475d600416b194eda2",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "RIO",
+      "cms_symbol": "RIO",
+      "country": "GB",
+      "cqs_symbol": "RIO",
+      "description": "RIO TINTO PLC / BRITISH POUND",
+      "display_symbol": "RIO/GBP",
+      "nasdaq_symbol": "RIO",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.RIO/GBP"
+    }
+  },
+  {
+    "id": "0x095a86c0a5767f8b5372b4c85a117ef07fc3bb59b6981ace5186fdc0558b2669",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "RKT",
+      "cms_symbol": "RKT",
+      "country": "GB",
+      "cqs_symbol": "RKT",
+      "description": "RECKITT BENCKISER GROUP PLC / BRITISH POUND",
+      "display_symbol": "RKT/GBP",
+      "nasdaq_symbol": "RKT",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.RKT/GBP"
+    }
+  },
+  {
+    "id": "0x6be78abf6e4da7a4f4381f306c4accaa87aa7a969f7fea3782981adf3f838384",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "RMV",
+      "cms_symbol": "RMV",
+      "country": "GB",
+      "cqs_symbol": "RMV",
+      "description": "RIGHTMOVE PLC / BRITISH POUND",
+      "display_symbol": "RMV/GBP",
+      "nasdaq_symbol": "RMV",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.RMV/GBP"
+    }
+  },
+  {
+    "id": "0xe54d0c3cef618e85839218bd7c79712d2b2b479b4e5905a31e9a45f0c25c2af3",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "RR",
+      "cms_symbol": "RR",
+      "country": "GB",
+      "cqs_symbol": "RR",
+      "description": "ROLLS ROYCE HOLDINGS PLC / BRITISH POUND",
+      "display_symbol": "RR/GBP",
+      "nasdaq_symbol": "RR",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.RR/GBP"
+    }
+  },
+  {
+    "id": "0x4342f2527ffb83124666d7d5a8176c93261a5c1c55a31a817bd78c6a117449c9",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "RTO",
+      "cms_symbol": "RTO",
+      "country": "GB",
+      "cqs_symbol": "RTO",
+      "description": "RENTOKIL INITIAL PLC / BRITISH POUND",
+      "display_symbol": "RTO/GBP",
+      "nasdaq_symbol": "RTO",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.RTO/GBP"
+    }
+  },
+  {
+    "id": "0x882883b2c3ccf9fc413967f4ea1938dfc9fed358654459a61f1616eabf1ece80",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SBRY",
+      "cms_symbol": "SBRY",
+      "country": "GB",
+      "cqs_symbol": "SBRY",
+      "description": "SAINSBURY J PLC / BRITISH POUND",
+      "display_symbol": "SBRY/GBP",
+      "nasdaq_symbol": "SBRY",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.SBRY/GBP"
+    }
+  },
+  {
+    "id": "0x3af52229ecfae9740e9de7cb2350af8103011bc3a4aaed9093f0c63dc7d5d106",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SDR",
+      "cms_symbol": "SDR",
+      "country": "GB",
+      "cqs_symbol": "SDR",
+      "description": "SCHRODERS PLC / BRITISH POUND",
+      "display_symbol": "SDR/GBP",
+      "nasdaq_symbol": "SDR",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.SDR/GBP"
+    }
+  },
+  {
+    "id": "0x4838fb4b15b5f3bef939c8e3d423c6b5fb191e40a481cbe3eb8bf64cae712583",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SGE",
+      "cms_symbol": "SGE",
+      "country": "GB",
+      "cqs_symbol": "SGE",
+      "description": "SAGE GROUP PLC / BRITISH POUND",
+      "display_symbol": "SGE/GBP",
+      "nasdaq_symbol": "SGE",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.SGE/GBP"
+    }
+  },
+  {
+    "id": "0x85a3293cca41e75c2f0dafe18cc0e6694e9a9ecc92395a97e4a395825cd18c88",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SGRO",
+      "cms_symbol": "SGRO",
+      "country": "GB",
+      "cqs_symbol": "SGRO",
+      "description": "SEGRO PLC / BRITISH POUND",
+      "display_symbol": "SGRO/GBP",
+      "nasdaq_symbol": "SGRO",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.SGRO/GBP"
+    }
+  },
+  {
+    "id": "0xc972c864b4247e56c9b040862e87b19d5f9d1ad2afda2af49506300fb4c269de",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SHEL",
+      "cms_symbol": "SHEL",
+      "country": "GB",
+      "cqs_symbol": "SHEL",
+      "description": "SHELL PLC / BRITISH POUND",
+      "display_symbol": "SHEL/GBP",
+      "nasdaq_symbol": "SHEL",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.SHEL/GBP"
+    }
+  },
+  {
+    "id": "0xe0a315d0fadbfcf706515ebcedcd506aeb00139af35cd319825ca8df05e19c1d",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SMDS",
+      "cms_symbol": "SMDS",
+      "country": "GB",
+      "cqs_symbol": "SMDS",
+      "description": "SMITH DS / BRITISH POUND",
+      "display_symbol": "SMDS/GBP",
+      "nasdaq_symbol": "SMDS",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.SMDS/GBP"
+    }
+  },
+  {
+    "id": "0x8da11d224f395cea6d99b5bce91950bc81a95d8791600a2637790fb333f99e67",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SMIN",
+      "cms_symbol": "SMIN",
+      "country": "GB",
+      "cqs_symbol": "SMIN",
+      "description": "SMITHS GROUP PLC / BRITISH POUND",
+      "display_symbol": "SMIN/GBP",
+      "nasdaq_symbol": "SMIN",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.SMIN/GBP"
+    }
+  },
+  {
+    "id": "0xfbceeec3e08fa0907cd5790f1ca32ebfa31dc45d619fecd6186b1dab0ff7c4a3",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SMT",
+      "cms_symbol": "SMT",
+      "country": "GB",
+      "cqs_symbol": "SMT",
+      "description": "SCOTTISH MORTGAGE INVESTMENT TRUST PLC / BRITISH POUND",
+      "display_symbol": "SMT/GBP",
+      "nasdaq_symbol": "SMT",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.SMT/GBP"
+    }
+  },
+  {
+    "id": "0x46c71d965035a8d8659de74885f0f3fe805287bac7b50b65b8eb3f3ef41c74ee",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SN",
+      "cms_symbol": "SN",
+      "country": "GB",
+      "cqs_symbol": "SN",
+      "description": "SMITH & NEPHEW PLC / BRITISH POUND",
+      "display_symbol": "SN/GBP",
+      "nasdaq_symbol": "SN",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.SN/GBP"
+    }
+  },
+  {
+    "id": "0xc9854722061e0d255f8eff067019a9f74b4f92d9b8b8c08151fa882885edbb84",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SPX",
+      "cms_symbol": "SPX",
+      "country": "GB",
+      "cqs_symbol": "SPX",
+      "description": "SPIRAX GROUP PLC / BRITISH POUND",
+      "display_symbol": "SPX/GBP",
+      "nasdaq_symbol": "SPX",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.SPX/GBP"
+    }
+  },
+  {
+    "id": "0x1ce91489704e9636877742cc68cdd30bf9541c638aa1c111641ea2718546179f",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SSE",
+      "cms_symbol": "SSE",
+      "country": "GB",
+      "cqs_symbol": "SSE",
+      "description": "SSE PLC / BRITISH POUND",
+      "display_symbol": "SSE/GBP",
+      "nasdaq_symbol": "SSE",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.SSE/GBP"
+    }
+  },
+  {
+    "id": "0x3c38ca8a994518101b0c0f716f1cd8c9a6539ec685ac2dcab732e795a1d22f94",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "STAN",
+      "cms_symbol": "STAN",
+      "country": "GB",
+      "cqs_symbol": "STAN",
+      "description": "STANDARD CHARTERED PLC / BRITISH POUND",
+      "display_symbol": "STAN/GBP",
+      "nasdaq_symbol": "STAN",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.STAN/GBP"
+    }
+  },
+  {
+    "id": "0xc204f66d8fc6a1e08b207970cfc237b2f4610fff10d2af17fb3809b3ac33ffde",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "STJ",
+      "cms_symbol": "STJ",
+      "country": "GB",
+      "cqs_symbol": "STJ",
+      "description": "ST JAMES'S PLACE PLC / BRITISH POUND",
+      "display_symbol": "STJ/GBP",
+      "nasdaq_symbol": "STJ",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.STJ/GBP"
+    }
+  },
+  {
+    "id": "0x1a0ab11f6df1b2ff257776a746782243a1dc9bb0597cfc8c4a07ac772b03dc5e",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SVT",
+      "cms_symbol": "SVT",
+      "country": "GB",
+      "cqs_symbol": "SVT",
+      "description": "SEVERN TRENT PLC / BRITISH POUND",
+      "display_symbol": "SVT/GBP",
+      "nasdaq_symbol": "SVT",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.SVT/GBP"
+    }
+  },
+  {
+    "id": "0x16368d5be7aa57db21860c4692c82449556fdc2490af15c13dd0e190170d7a1b",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "TSCO",
+      "cms_symbol": "TSCO",
+      "country": "GB",
+      "cqs_symbol": "TSCO",
+      "description": "TESCO PLC / BRITISH POUND",
+      "display_symbol": "TSCO/GBP",
+      "nasdaq_symbol": "TSCO",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.TSCO/GBP"
+    }
+  },
+  {
+    "id": "0x8be4ab9f8e5864fc5802e376de48d1d5a9d80873657f8dd9175b66d7ab0cb89b",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "TW",
+      "cms_symbol": "TW",
+      "country": "GB",
+      "cqs_symbol": "TW",
+      "description": "TAYLOR WIMPEY PLC / BRITISH POUND",
+      "display_symbol": "TW/GBP",
+      "nasdaq_symbol": "TW",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.TW/GBP"
+    }
+  },
+  {
+    "id": "0xe2fd4ae39decd0a3e91aab639c506124feadaf6573776d4838be31e053f34bcf",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "ULVR",
+      "cms_symbol": "ULVR",
+      "country": "GB",
+      "cqs_symbol": "ULVR",
+      "description": "UNILEVER PLC / BRITISH POUND",
+      "display_symbol": "ULVR/GBP",
+      "nasdaq_symbol": "ULVR",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.ULVR/GBP"
+    }
+  },
+  {
+    "id": "0x9116f5730a120f668848a858a2f2563a629b816ce78c37c3a85b5d4a6e031dc8",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "UTG",
+      "cms_symbol": "UTG",
+      "country": "GB",
+      "cqs_symbol": "UTG",
+      "description": "UNITE GROUP / BRITISH POUND",
+      "display_symbol": "UTG/GBP",
+      "nasdaq_symbol": "UTG",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.UTG/GBP"
+    }
+  },
+  {
+    "id": "0x9089a28f8cc25753d75676afc2f96ecf35703a33d495a8d0583d0160c379af1a",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "UU",
+      "cms_symbol": "UU",
+      "country": "GB",
+      "cqs_symbol": "UU",
+      "description": "UNITED UTILITIES GROUP PLC / BRITISH POUND",
+      "display_symbol": "UU/GBP",
+      "nasdaq_symbol": "UU",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.UU/GBP"
+    }
+  },
+  {
+    "id": "0x8a88e69ffd466c12b429fe65d8c45fbdc181b340bc23fcc623ef7c8a637e92d1",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "VOD",
+      "cms_symbol": "VOD",
+      "country": "GB",
+      "cqs_symbol": "VOD",
+      "description": "VODAFONE GROUP PLC / BRITISH POUND",
+      "display_symbol": "VOD/GBP",
+      "nasdaq_symbol": "VOD",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.VOD/GBP"
+    }
+  },
+  {
+    "id": "0x16191e61f0ae3ebbdaf568d9617ac572ca3ce3f4fd6c4759d5c2ddfb312b350f",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "WEIR",
+      "cms_symbol": "WEIR",
+      "country": "GB",
+      "cqs_symbol": "WEIR",
+      "description": "WEIR GROUP PLC / BRITISH POUND",
+      "display_symbol": "WEIR/GBP",
+      "nasdaq_symbol": "WEIR",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.WEIR/GBP"
+    }
+  },
+  {
+    "id": "0x62ecc2c34d56b195828e851e3f25c907452ce0c8c1324dede50e663b400d22d5",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "WPP",
+      "cms_symbol": "WPP",
+      "country": "GB",
+      "cqs_symbol": "WPP",
+      "description": "WPP PLC / BRITISH POUND",
+      "display_symbol": "WPP/GBP",
+      "nasdaq_symbol": "WPP",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.WPP/GBP"
+    }
   }
 ]
