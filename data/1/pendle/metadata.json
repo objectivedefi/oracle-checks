@@ -424,6 +424,15 @@
   },
   {
     "chainId": 1,
+    "pt": "0x4D4062bAD41E03b1cdee4C06263F96EB81832341",
+    "market": "0x1C71752a6C10D66375702aaFAd4B6D20393702Cf",
+    "accountingAsset": "0x7C1156E515aA1A2E851674120074968C905aAF37",
+    "underlyingAsset": "0x4737D9b4592B40d51e110b94c9C043c6654067Ae",
+    "expiry": 1748476800,
+    "symbol": "slvlUSD"
+  },
+  {
+    "chainId": 1,
     "pt": "0x4Ef516d5F8644D19CAAdf352E2c97ec346b6b986",
     "market": "0xD75FC2B1ca52e72163787D1C370650F952E75DD7",
     "accountingAsset": "0x8A60E489004Ca22d775C5F2c657598278d17D9c2",
@@ -916,6 +925,15 @@
     "underlyingAsset": "0xF469fBD2abcd6B9de8E169d128226C0Fc90a012e",
     "expiry": 1743033600,
     "symbol": "pumpBTC"
+  },
+  {
+    "chainId": 1,
+    "pt": "0x9BcA74F805AB0a22DDD0886dB0942199a0feBa71",
+    "market": "0xE45d2CE15aBbA3c67b9fF1E7A69225C855d3DA82",
+    "accountingAsset": "0x7C1156E515aA1A2E851674120074968C905aAF37",
+    "underlyingAsset": "0x7C1156E515aA1A2E851674120074968C905aAF37",
+    "expiry": 1748476800,
+    "symbol": "lvlUSD"
   },
   {
     "chainId": 1,
