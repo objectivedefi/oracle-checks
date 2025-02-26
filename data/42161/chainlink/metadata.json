@@ -21386,6 +21386,7 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
       "assetName": "Flow",
       "baseAsset": "FLOW",
       "baseAssetClic": "FLOW_CR",
@@ -21766,6 +21767,7 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
       "assetName": "Jito",
       "baseAsset": "JTO",
       "baseAssetClic": "JTO_CR",
@@ -21860,6 +21862,7 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
       "assetName": "Decentraland",
       "baseAsset": "MANA",
       "baseAssetClic": "MANA_CR",
@@ -22339,6 +22342,7 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
       "assetName": "The Sandbox",
       "baseAsset": "SAND",
       "baseAssetClic": "SAND_CR",
@@ -22816,6 +22820,7 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
       "assetName": "Synthetix Network",
       "baseAsset": "SNX",
       "clicProductName": "SNX/USD-RefPrice-DS-Premium-Global-003",
@@ -24062,6 +24067,7 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
       "assetName": "Sei",
       "baseAsset": "SEI",
       "baseAssetClic": "SEI_CR",
@@ -24345,6 +24351,7 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
       "assetName": "Celestia",
       "baseAsset": "TIA",
       "baseAssetClic": "TIA_CR",
@@ -24922,6 +24929,7 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
       "assetName": "Tezos",
       "baseAsset": "XTZ",
       "baseAssetClic": "XTZ_CR",
@@ -25403,6 +25411,7 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
       "assetName": "Stellar",
       "baseAsset": "XLM",
       "baseAssetClic": "XLM_CR",
@@ -25687,6 +25696,7 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
       "assetName": "The Graph",
       "baseAsset": "GRT",
       "baseAssetClic": "GRT_CR",
@@ -27037,6 +27047,7 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
       "assetName": "Internet Computer Protocol",
       "baseAsset": "ICP",
       "baseAssetClic": "ICP_CR",
@@ -27999,6 +28010,7 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
       "assetName": "Maker",
       "baseAsset": "MKR",
       "clicProductName": "MKR/USD-RefPrice-DS-Premium-Global-003",
@@ -28383,6 +28395,7 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
       "assetName": "Illuvium",
       "baseAsset": "ILV",
       "baseAssetClic": "ILV_CR",
@@ -28478,6 +28491,7 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
       "assetName": "Polygon",
       "baseAsset": "POL",
       "baseAssetClic": "POL_CR",
@@ -29443,6 +29457,7 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
       "assetName": "Pendle",
       "baseAsset": "PENDLE",
       "baseAssetClic": "PENDLE_CR",
@@ -30021,6 +30036,7 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
       "assetName": "ZKsync",
       "baseAsset": "ZK",
       "baseAssetClic": "ZK_CR",
@@ -30047,6 +30063,9 @@
         "operator": "mercury-chainlink-2"
       },
       {
+        "operator": "mercury-galaxy-2"
+      },
+      {
         "operator": "mercury-dexTrac-2"
       },
       {
@@ -30065,28 +30084,25 @@
         "operator": "mercury-linkRiver-2"
       },
       {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
         "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
       },
       {
         "operator": "mercury-validationCloud-2"
       },
       {
         "operator": "mercury-tiingo-2"
-      },
-      {
-        "operator": "mercury-pierTwo-2"
-      },
-      {
-        "operator": "mercury-galaxy-2"
-      },
-      {
-        "operator": "mercury-syncnode-2"
-      },
-      {
-        "operator": "mercury-newRoad-2"
-      },
-      {
-        "operator": "mercury-simplyVC-2"
       }
     ]
   },
@@ -30499,7 +30515,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "Immutable",
-    "feedCategory": "",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -30510,6 +30526,7 @@
       "blockchainName": "Global",
       "clicProductName": "IMX/USD-RefPrice-DS-Premium-Global-003",
       "deliveryChannelCode": "DS",
+      "feedCategory": "low",
       "feedType": "Crypto",
       "marketHours": "Crypto",
       "productSubType": "Reference",
@@ -32128,6 +32145,7 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
       "assetName": "LayerZero",
       "baseAsset": "ZRO",
       "clicProductName": "ZRO/USD-RefPrice-DS-Premium-Global-003",
@@ -32153,6 +32171,9 @@
         "operator": "mercury-chainlink-2"
       },
       {
+        "operator": "mercury-galaxy-2"
+      },
+      {
         "operator": "mercury-dexTrac-2"
       },
       {
@@ -32171,28 +32192,25 @@
         "operator": "mercury-linkRiver-2"
       },
       {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
         "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
       },
       {
         "operator": "mercury-validationCloud-2"
       },
       {
         "operator": "mercury-tiingo-2"
-      },
-      {
-        "operator": "mercury-pierTwo-2"
-      },
-      {
-        "operator": "mercury-galaxy-2"
-      },
-      {
-        "operator": "mercury-syncnode-2"
-      },
-      {
-        "operator": "mercury-newRoad-2"
-      },
-      {
-        "operator": "mercury-simplyVC-2"
       }
     ]
   },
@@ -32415,6 +32433,7 @@
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
       "assetName": "Lido DAO",
       "baseAsset": "LDO",
       "clicProductName": "LDO/USD-RefPrice-DS-Premium-Global-003",
@@ -32521,9 +32540,7 @@
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX",
-      "underlyingAsset": "ETH",
-      "underlyingAssetClic": "ETH_CR"
+      "quoteAssetClic": "USD_FX"
     },
     "decimals": 18,
     "feedId": "0x0003fb73b717523a65721ee943f35ee7ca447dc623433c0f645126b7721c57d9",
