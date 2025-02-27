@@ -18,7 +18,7 @@
     ],
     "path": "susds-usds-exchange-rate",
     "proxyAddress": "0x906B24a339b848369B24Dc9Ed368b947fB9693bf",
-    "threshold": 1e-7,
+    "threshold": 0.05,
     "valuePrefix": "",
     "assetName": "",
     "feedCategory": "",
