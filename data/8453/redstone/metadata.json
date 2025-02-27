@@ -54,6 +54,12 @@
     "heartbeat": 86400
   },
   {
+    "symbol": "KAITO",
+    "priceFeedAddress": "0x3fd49f2146FE0e10c4AE7E3fE04b3d5126385Ac4",
+    "deviationPercentage": 0.5,
+    "heartbeat": 86400
+  },
+  {
     "symbol": "bsdETH/ETH",
     "priceFeedAddress": "0xC49F0Dd98F38C525A7ce15E73E60675456F3a161",
     "deviationPercentage": 0.5,
