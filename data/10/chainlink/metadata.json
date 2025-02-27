@@ -930,6 +930,7 @@
     "docs": {
       "assetClass": "Crypto",
       "baseAsset": "TRX",
+      "baseAssetClic": "TRX_CR",
       "blockchainName": "Optimism",
       "clicProductName": "TRX/USD-RefPrice-DF-Optimism-001",
       "deliveryChannelCode": "DF",
@@ -5677,6 +5678,7 @@
     "docs": {
       "assetClass": "Crypto",
       "baseAsset": "LTC",
+      "baseAssetClic": "LTC_CR",
       "blockchainName": "Optimism",
       "clicProductName": "LTC/USD-RefPrice-DF-Optimism-001",
       "deliveryChannelCode": "DF",

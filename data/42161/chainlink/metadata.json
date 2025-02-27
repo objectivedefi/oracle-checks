@@ -4522,6 +4522,7 @@
     "docs": {
       "assetClass": "Crypto",
       "baseAsset": "LTC",
+      "baseAssetClic": "LTC_CR",
       "blockchainName": "Matic",
       "clicProductName": "LTC/USD-RefPrice-DF-Matic-001",
       "deliveryChannelCode": "DF",
@@ -36769,7 +36770,8 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX",
-      "underlyingAsset": "USD"
+      "underlyingAsset": "USD",
+      "underlyingAssetClic": "USD_FX"
     },
     "decimals": 8
   },
