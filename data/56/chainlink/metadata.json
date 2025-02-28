@@ -429,7 +429,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Wing Finance",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -889,7 +889,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "DAI",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1328,7 +1328,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "WINkLink",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1411,7 +1411,7 @@
     "threshold": 0.2,
     "valuePrefix": "",
     "assetName": "Uniswap",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2020,7 +2020,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Cosmos",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2423,7 +2423,7 @@
     "threshold": 0.2,
     "valuePrefix": "",
     "assetName": "PancakeSwap",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3021,7 +3021,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Nuls",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3154,6 +3154,7 @@
       "blockchainName": "Binance",
       "clicProductName": "FTM/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
+      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -3858,7 +3859,7 @@
     "threshold": 0.3,
     "valuePrefix": "",
     "assetName": "True USD",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4146,7 +4147,7 @@
     "threshold": 0.3,
     "valuePrefix": "",
     "assetName": "Venus",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5076,7 +5077,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Tezos",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5116,7 +5117,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "STEPN",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5361,7 +5362,7 @@
     "threshold": 0.1,
     "valuePrefix": "",
     "assetName": "DAI",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",

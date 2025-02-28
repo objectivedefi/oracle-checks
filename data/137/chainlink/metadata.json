@@ -305,7 +305,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "Decentraland",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -667,7 +667,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Mantra DAO",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -747,7 +747,7 @@
     "threshold": 0.01,
     "valuePrefix": "",
     "assetName": "True USD",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1074,7 +1074,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "DAI",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1316,7 +1316,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "Chiliz",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1396,7 +1396,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Quant",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1845,7 +1845,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "USDS",
-    "feedCategory": "high",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3188,6 +3188,7 @@
       "blockchainName": "Matic",
       "clicProductName": "FTM/USD-RefPrice-DF-Matic-001",
       "deliveryChannelCode": "DF",
+      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -3302,7 +3303,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "Tezos",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3700,7 +3701,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "Uniswap",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3820,7 +3821,7 @@
     "threshold": 0.25,
     "valuePrefix": "",
     "assetName": "Synthetix Network",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3900,7 +3901,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "APE Coin",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4958,7 +4959,7 @@
     "threshold": 0.25,
     "valuePrefix": "",
     "assetName": "Basic Attention Token",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5118,7 +5119,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Ethena USDe",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5687,7 +5688,7 @@
     "threshold": 0,
     "valuePrefix": "",
     "assetName": "DAI",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",

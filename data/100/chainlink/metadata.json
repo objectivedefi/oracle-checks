@@ -184,7 +184,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Uniswap",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -387,7 +387,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Synthetix Network",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -674,7 +674,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Ziliqa",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1066,7 +1066,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Ren",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1389,7 +1389,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "DAI",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1515,7 +1515,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Lido Staked Ether",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",

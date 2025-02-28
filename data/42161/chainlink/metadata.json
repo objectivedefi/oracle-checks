@@ -4324,7 +4324,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "ApeCoin",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4683,6 +4683,7 @@
       "blockchainName": "Arbitrum",
       "clicProductName": "USD+/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
+      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -4839,7 +4840,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Synthetix Network",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -19436,7 +19437,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Rocket Pool",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -19752,7 +19753,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "PancakeSwap",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -33800,7 +33801,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Official Melania Meme",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -34005,7 +34006,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Magic",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -34607,6 +34608,7 @@
       "blockchainName": "Arbitrum",
       "clicProductName": "FTM/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
+      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -34767,7 +34769,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Cosmos",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -35049,7 +35051,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Celestia",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -35478,7 +35480,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Venus",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -36060,7 +36062,7 @@
     "threshold": 2,
     "valuePrefix": "",
     "assetName": "Bittensor",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -36263,7 +36265,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Ethena USDe",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -36671,7 +36673,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Official Trump",
-    "feedCategory": "new",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -36711,7 +36713,7 @@
     "threshold": 0.3,
     "valuePrefix": "",
     "assetName": "Lido Staked Ether",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -36754,7 +36756,7 @@
     "threshold": 0.3,
     "valuePrefix": "",
     "assetName": "True USD",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -36976,7 +36978,7 @@
     "threshold": 0.1,
     "valuePrefix": "",
     "assetName": "DAI",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -37059,7 +37061,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Xai",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -37182,7 +37184,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "JOE",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -38152,6 +38154,7 @@
       "blockchainName": "Arbitrum",
       "clicProductName": "USDM/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
+      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -38579,7 +38582,7 @@
     "threshold": 0.15,
     "valuePrefix": "",
     "assetName": "Uniswap",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",

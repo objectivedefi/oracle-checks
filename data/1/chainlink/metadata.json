@@ -1366,7 +1366,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "Lido Staked ETH",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1819,7 +1819,7 @@
     "threshold": 2,
     "valuePrefix": "",
     "assetName": "Bittensor",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1898,7 +1898,7 @@
     "threshold": 0.3,
     "valuePrefix": "",
     "assetName": "PayPal USD",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2185,7 +2185,7 @@
     "threshold": 2,
     "valuePrefix": "",
     "assetName": "Avail",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2794,7 +2794,7 @@
     "threshold": 0.3,
     "valuePrefix": "",
     "assetName": "USDS",
-    "feedCategory": "high",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3326,7 +3326,7 @@
     "threshold": 2,
     "valuePrefix": "",
     "assetName": "Ethereum Name Service",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3448,7 +3448,7 @@
     "threshold": 0.25,
     "valuePrefix": "",
     "assetName": "DAI",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3698,7 +3698,7 @@
     "threshold": 2,
     "valuePrefix": "",
     "assetName": "Swell",
-    "feedCategory": "new",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3747,6 +3747,7 @@
       "blockchainName": "Ethereum",
       "clicProductName": "FTM/ETH-RefPrice-DF-Ethereum-001",
       "deliveryChannelCode": "DF",
+      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -3815,6 +3816,7 @@
       "blockchainName": "Ethereum",
       "clicProductName": "USDM/USD-RefPrice-DF-Ethereum-001",
       "deliveryChannelCode": "DF",
+      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -4096,7 +4098,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "DAI",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4180,7 +4182,7 @@
     "threshold": 2,
     "valuePrefix": "",
     "assetName": "APECoin",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4550,7 +4552,7 @@
     "threshold": 2,
     "valuePrefix": "",
     "assetName": "Rocket Pool",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -7316,7 +7318,7 @@
     "threshold": 2,
     "valuePrefix": "",
     "assetName": "Ren",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -7638,7 +7640,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "Pax Dollar",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -7930,7 +7932,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "Synthetix Network",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -8096,7 +8098,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Ethena USDe",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -8433,7 +8435,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "Uniswap",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -8918,7 +8920,7 @@
     "threshold": 0.3,
     "valuePrefix": "",
     "assetName": "True USD",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",

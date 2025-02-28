@@ -105,7 +105,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Synthetix Network",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -557,7 +557,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Basic Attention Token",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -915,7 +915,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "AUSD",
-    "feedCategory": "high",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1119,7 +1119,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Trader Joe",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1211,6 +1211,7 @@
       "blockchainName": "Avalanche",
       "clicProductName": "FTM/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
+      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -1405,7 +1406,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Beam",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1958,7 +1959,7 @@
     "threshold": 0.1,
     "valuePrefix": "",
     "assetName": "DAI",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2204,7 +2205,7 @@
     "threshold": 0.15,
     "valuePrefix": "",
     "assetName": "Uniswap",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2568,7 +2569,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "True USD",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2815,7 +2816,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Decentraland",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3185,7 +3186,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Chiliz",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",

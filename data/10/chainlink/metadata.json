@@ -466,7 +466,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Lido Staked Ether",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -518,6 +518,7 @@
       "blockchainName": "Optimism",
       "clicProductName": "FTM/USD-RefPrice-DF-Optimism-001",
       "deliveryChannelCode": "DF",
+      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -1006,6 +1007,7 @@
       "blockchainName": "Optimism",
       "clicProductName": "USDM/USD-RefPrice-DF-Optimism-001",
       "deliveryChannelCode": "DF",
+      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -1392,7 +1394,7 @@
     "threshold": 0.2,
     "valuePrefix": "",
     "assetName": "APECoin",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2082,7 +2084,7 @@
     "threshold": 0.2,
     "valuePrefix": "",
     "assetName": "Synthetix Network",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2285,7 +2287,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Celestia",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2601,7 +2603,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Harmony",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2805,7 +2807,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Ethena USDe",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2848,7 +2850,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Tezos",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3170,7 +3172,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Cosmos",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3293,7 +3295,7 @@
     "threshold": 0.2,
     "valuePrefix": "",
     "assetName": "Uniswap",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3934,7 +3936,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Rocket Pool",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4538,7 +4540,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Pyth Network",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5061,7 +5063,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Blur",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5100,7 +5102,7 @@
     "threshold": 0.1,
     "valuePrefix": "",
     "assetName": "DAI",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5590,7 +5592,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Memecoin",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
