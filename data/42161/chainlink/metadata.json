@@ -39134,6 +39134,33 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0xDf8a3fc9bC6fA89F1b630e58f6eB4b874f24C165",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "rseth-eth-exchange-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "rsETH / ETH Exchange Rate",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "rseth-eth-exchange-rate",
+    "proxyAddress": "0x3A917e6B5732dFCc4A45257e3930979fAE6a3737",
+    "threshold": 0.05,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 18
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0xE5B5Be82015444c04B281CF4aFa6A99130ED83a2",
     "contractType": "",
     "contractVersion": 4,
