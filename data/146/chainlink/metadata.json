@@ -329,6 +329,33 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0xcdEb81F86ee3Fc0cF6cbF6505b5a624460777732",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "unibtc-btc-exchange-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "uniBTC / BTC Exchange Rate",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "unibtc-btc-exchange-rate",
+    "proxyAddress": "0x960BDD1dFD20d7c98fa482D793C3dedD73A113a3",
+    "threshold": 0.01,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 18
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0xdD234767F6368629fdf50CB21090AA69C9F56651",
     "contractType": "",
     "contractVersion": 6,
