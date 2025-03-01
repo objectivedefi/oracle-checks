@@ -6473,6 +6473,19 @@
     }
   },
   {
+    "id": "0xce78914f5aa6494591e123a5d5a8623fd85fe0fd247b97552177b48c2859eb1a",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "WTI2M",
+      "description": "WTI CRUDE OIL - 2 MONTH",
+      "display_symbol": "WTI2M/USD",
+      "generic_symbol": "WTI2M",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;1224/0000-1345,1225/1800-2400,1231/0000-1700,0101/1800-2400,0120/1800-2400",
+      "symbol": "Commodities.WTI2M"
+    }
+  },
+  {
     "id": "0xc1ef96cd5a8c25e780ddc7e9e1dfaa9809e6a82ab8b58dbf233c47e9501f0176",
     "attributes": {
       "asset_type": "Commodities",
