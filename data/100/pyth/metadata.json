@@ -6447,6 +6447,19 @@
     }
   },
   {
+    "id": "0x6c4005cf9cc3c55690d8ad84a6487d5226f7fe732df55bfcfb76865061b0c10b",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "BRENT3M",
+      "description": "BRENT CRUDE OIL - 3 MONTH",
+      "display_symbol": "BRENT3M/USD",
+      "generic_symbol": "BRENT3M",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800,C,1800-2400;1224/0000-1400&2000-2400,1225/C,0101/C,0418/C",
+      "symbol": "Commodities.BRENT3M"
+    }
+  },
+  {
     "id": "0xeca3fb7e6be5be55a01678ee00f6405b9e4986e32d539ccd2a06a57e0c615880",
     "attributes": {
       "asset_type": "Commodities",
