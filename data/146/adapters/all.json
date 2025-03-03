@@ -1002,8 +1002,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -1040,7 +1040,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -1060,8 +1060,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -1098,7 +1098,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -1120,8 +1120,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -1182,7 +1182,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -1202,8 +1202,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -1240,7 +1240,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -1262,8 +1262,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -1324,7 +1324,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -1346,8 +1346,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -1408,7 +1408,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -1430,8 +1430,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -1492,7 +1492,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -1514,8 +1514,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -1576,7 +1576,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -1598,8 +1598,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -1660,7 +1660,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -1682,8 +1682,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -1744,6 +1744,6 @@
     "methodology": "Exchange Rate",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   }
 ]
