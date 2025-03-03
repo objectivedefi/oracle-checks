@@ -12399,10 +12399,10 @@
     "id": "0x8b66bf97961dcd47336fe8467a4c7fd86e6c0bc77ebfbe91ab106a56d3a3513a",
     "attributes": {
       "asset_type": "Crypto",
-      "base": "VELODROMEVELO",
+      "base": "VELO",
       "description": "VELODROME FINANCE / US DOLLAR",
       "display_symbol": "VELO/USD",
-      "generic_symbol": "VELODROMEVELOUSD",
+      "generic_symbol": "VELOUSD",
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.VELODROME.VELO/USD"
