@@ -1165,5 +1165,121 @@
     "model": "Push",
     "provider": "Fixed Rate",
     "whitelisted": true
+  },
+  {
+    "name": "FixedRateOracle",
+    "address": "0x7e262cD6226328AaF4eA5C993a952E18Dd633Bc8",
+    "chainId": 1923,
+    "base": "0x4661407fC224E5432D7f528a20EF8906E453A8f3",
+    "quote": "0x4200000000000000000000000000000000000006",
+    "rate": "1000000000000000000",
+    "checks": [
+      {
+        "id": "ADAPTER_EXISTS",
+        "severity": "HIGH",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is not whitelisted in the adapter registry",
+        "pass": false
+      },
+      {
+        "id": "SOURCE_CODE_PROVENANCE",
+        "severity": "HIGH",
+        "message": "Contract metadata hash matches a known hash",
+        "pass": true
+      },
+      {
+        "id": "DISTINCT_ASSETS",
+        "severity": "HIGH",
+        "message": "No duplicates found",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x4661407fC224E5432D7f528a20EF8906E453A8f3 is msETH (Metronome Synth ETH) with 18 decimals",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x4200000000000000000000000000000000000006 is WETH (Wrapped Ether) with 18 decimals",
+        "pass": true
+      },
+      {
+        "id": "FIXED_RATE_ONE",
+        "severity": "HIGH",
+        "message": "Adapter has a fixed rate of 1",
+        "pass": true
+      }
+    ],
+    "label": "1:1 msETH/WETH",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "Fixed Rate",
+    "whitelisted": false
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x74b77011c244bD7EDff34E4cbf23fe41DeFA313d",
+    "chainId": 1923,
+    "base": "0x4661407fC224E5432D7f528a20EF8906E453A8f3",
+    "cross": "0x4200000000000000000000000000000000000006",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x7e262cD6226328AaF4eA5C993a952E18Dd633Bc8",
+    "oracleCrossQuote": "0x4db6B034fAa745cab945B2333EEcF7f3FbB07050",
+    "checks": [
+      {
+        "id": "ADAPTER_EXISTS",
+        "severity": "HIGH",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is not whitelisted in the adapter registry",
+        "pass": false
+      },
+      {
+        "id": "SOURCE_CODE_PROVENANCE",
+        "severity": "HIGH",
+        "message": "Contract metadata hash matches a known hash",
+        "pass": true
+      },
+      {
+        "id": "DISTINCT_ASSETS",
+        "severity": "HIGH",
+        "message": "No duplicates found",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x4661407fC224E5432D7f528a20EF8906E453A8f3 is msETH (Metronome Synth ETH) with 18 decimals",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x4200000000000000000000000000000000000006 is WETH (Wrapped Ether) with 18 decimals",
+        "pass": true
+      }
+    ],
+    "label": "msETH/WETH/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": false
   }
 ]
