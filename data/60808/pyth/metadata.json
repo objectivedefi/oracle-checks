@@ -19431,5 +19431,70 @@
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.WYNN/USD"
     }
+  },
+  {
+    "id": "0x853d8ab1fd2382e2228f8832fc05a05cd3907b0606222d219fd0ca4ed5814a48",
+    "attributes": {
+      "asset_type": "Rates",
+      "base": "BGCR",
+      "description": "BROAD GENERAL COLLATERAL RATE",
+      "display_symbol": "BGCR %",
+      "generic_symbol": "BGCR",
+      "quote_currency": "%",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;0101/C,0120/C,0217/C,0526/C,0619/C,0704/C,0901/C,1013/C,1111/C,1127/C,1225/C",
+      "symbol": "Rates.BGCR"
+    }
+  },
+  {
+    "id": "0x7b4dec92f417eaaa9505157f49aa76893e70a53e9704bc48c0c77b0b45d7b3da",
+    "attributes": {
+      "asset_type": "Rates",
+      "base": "EFFR",
+      "description": "EFFECTIVE FEDERAL RUNDS RATE",
+      "display_symbol": "EFFR %",
+      "generic_symbol": "EFFR",
+      "quote_currency": "%",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;0101/C,0120/C,0217/C,0526/C,0619/C,0704/C,0901/C,1013/C,1111/C,1127/C,1225/C",
+      "symbol": "Rates.EFFR"
+    }
+  },
+  {
+    "id": "0xaf83c3680722a0b0139414679efade7265f9f7e8e4aa91d233ca1d0a3aabaac6",
+    "attributes": {
+      "asset_type": "Rates",
+      "base": "OBFR",
+      "description": "OVERNIGHT BANK FUNDING RATE",
+      "display_symbol": "OBFR %",
+      "generic_symbol": "OBFR",
+      "quote_currency": "%",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;0101/C,0120/C,0217/C,0526/C,0619/C,0704/C,0901/C,1013/C,1111/C,1127/C,1225/C",
+      "symbol": "Rates.OBFR"
+    }
+  },
+  {
+    "id": "0x044ef00dd70c35d87865db76e66c945ce1cfbe2d5d3467e5a04321e2c5fdae9d",
+    "attributes": {
+      "asset_type": "Rates",
+      "base": "SOCR",
+      "description": "SECURED OVERNIGHT FINANCING RATE",
+      "display_symbol": "SOCR %",
+      "generic_symbol": "SOCR",
+      "quote_currency": "%",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;0101/C,0120/C,0217/C,0526/C,0619/C,0704/C,0901/C,1013/C,1111/C,1127/C,1225/C",
+      "symbol": "Rates.SOCR"
+    }
+  },
+  {
+    "id": "0x41b939f91bc6c3e3f270a0d1ade8e8d0dcb6b4a6268e372ee375540eeb674a03",
+    "attributes": {
+      "asset_type": "Rates",
+      "base": "TGCR",
+      "description": "TRI-PARTY GENERAL COLLATERAL RATE",
+      "display_symbol": "TGCR %",
+      "generic_symbol": "TGCR",
+      "quote_currency": "%",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;0101/C,0120/C,0217/C,0526/C,0619/C,0704/C,0901/C,1013/C,1111/C,1127/C,1225/C",
+      "symbol": "Rates.TGCR"
+    }
   }
 ]
