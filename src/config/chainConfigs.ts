@@ -46,6 +46,18 @@ export const chainConfigs: Record<number, CheckConfig> = {
         provider: "Midas",
         description: "Midas mBTC/BTC Oracle",
       },
+      "0x698dA5D987a71b68EbF30C1555cfd38F190406b7": {
+        provider: "Midas",
+        description: "Midas mEDGE/USD Oracle",
+      },
+      "0x5f09Aff8B9b1f488B7d1bbaD4D89648579e55d61": {
+        provider: "Midas",
+        description: "Midas mMEV/USD Oracle",
+      },
+      "0x0a2a51f2f206447dE3E3a80FCf92240244722395": {
+        provider: "Midas",
+        description: "Midas mRe7YIELD/USD Oracle",
+      },
       "0xf87d2F4d42856f0B6Eae140Aaf78bF0F777e9936": {
         provider: "MEV Capital",
         description: "MEV Capital ETH+/USD Oracle",
