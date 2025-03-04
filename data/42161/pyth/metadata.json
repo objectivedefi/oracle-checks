@@ -19472,16 +19472,16 @@
     }
   },
   {
-    "id": "0x044ef00dd70c35d87865db76e66c945ce1cfbe2d5d3467e5a04321e2c5fdae9d",
+    "id": "0x0f5fd558019a7cad9eaa012cd7228c65f2b7ed31db3f66ec557087a769df0f67",
     "attributes": {
       "asset_type": "Rates",
-      "base": "SOCR",
+      "base": "SOFR",
       "description": "SECURED OVERNIGHT FINANCING RATE",
-      "display_symbol": "SOCR %",
-      "generic_symbol": "SOCR",
+      "display_symbol": "SOFR %",
+      "generic_symbol": "SOFR",
       "quote_currency": "%",
       "schedule": "America/New_York;O,O,O,O,O,O,O;0101/C,0120/C,0217/C,0526/C,0619/C,0704/C,0901/C,1013/C,1111/C,1127/C,1225/C",
-      "symbol": "Rates.SOCR"
+      "symbol": "Rates.SOFR"
     }
   },
   {
