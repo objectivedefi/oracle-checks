@@ -144,6 +144,12 @@
     "chainId": 8453
   },
   {
+    "address": "0x5C9354370A88E09Ad70edAcaFe30263D1902973a",
+    "chainId": 8453,
+    "name": "CREDIFI",
+    "symbol": "CRDT"
+  },
+  {
     "address": "0x727cEbAcfb10fFd353Fc221D06A862B437eC1735",
     "chainId": 8453,
     "name": "Pendle Market",
