@@ -288,6 +288,33 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x901696563727e64DAD3e263efa3a100c4B8180ea",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "scusd-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "SCUSD / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "scusd-usd",
+    "proxyAddress": "0xACE5e348a341a740004304c2c228Af1A4581920F",
+    "threshold": 0.3,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0xBb223278eCE74329276099E71d0F0be70Ba74faC",
     "contractType": "",
     "contractVersion": 6,
