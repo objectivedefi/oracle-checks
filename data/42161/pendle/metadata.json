@@ -289,15 +289,6 @@
   },
   {
     "chainId": 42161,
-    "pt": "0x96015D0Fb97139567a9ba675951816a0Bb719E3c",
-    "market": "0x7D49E5Adc0EAAD9C027857767638613253eF125f",
-    "accountingAsset": "0x4277f8F2c384827B5273592FF7CeBd9f2C1ac258",
-    "underlyingAsset": "0x1aDDD80E6039594eE970E5872D247bf0414C8903",
-    "expiry": 1711584000,
-    "symbol": "GLP [deprecated]"
-  },
-  {
-    "chainId": 42161,
     "pt": "0x9741CAc1a22Ff3615FA074fD0B439975a5E137e9",
     "market": "0xFd8AeE8FCC10aac1897F8D5271d112810C79e022",
     "accountingAsset": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
