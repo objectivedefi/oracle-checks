@@ -26,13 +26,13 @@
   {
     "symbol": "sUSDe_FUNDAMENTAL",
     "priceFeedAddress": "0x197225B3B017eb9b72Ac356D6B3c267d0c04c57c",
-    "deviationPercentage": 0.25,
+    "deviationPercentage": 0.15,
     "heartbeat": 86400
   },
   {
     "symbol": "USDe",
     "priceFeedAddress": "0xbbF121624c3b85C929Ac83872bf6c86b0976A55e",
-    "deviationPercentage": 0.25,
+    "deviationPercentage": 0.15,
     "heartbeat": 86400
   },
   {

@@ -37,6 +37,15 @@
   },
   {
     "chainId": 1,
+    "pt": "0x0B48a647e55a84D7FE25DACf8cA0ea79BdF4caE5",
+    "market": "0xdFAAB89058dAcA36759Aafa80BebBC6dBf4C2e4e",
+    "accountingAsset": "0x0000000000000000000000000000000000000000",
+    "underlyingAsset": "0xc824A08dB624942c5E5F330d56530cD1598859fD",
+    "expiry": 1750896000,
+    "symbol": "hgETH"
+  },
+  {
+    "chainId": 1,
     "pt": "0x0Ba11DEe8b63f08EA25d0cc733601e8C15325a8D",
     "market": "0x0eB3f11ed8ca69813744868D02D83D4Fbf72841e",
     "accountingAsset": "0x22Fc5A29bd3d6CCe19a06f844019fd506fCe4455",
