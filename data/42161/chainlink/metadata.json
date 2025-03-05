@@ -7612,9 +7612,6 @@
         "operator": "mercury-chainlink-3"
       },
       {
-        "operator": "mercury-galaxy-3"
-      },
-      {
         "operator": "mercury-dexTrac-3"
       },
       {
@@ -7633,25 +7630,28 @@
         "operator": "mercury-linkRiver-3"
       },
       {
-        "operator": "mercury-newRoad-3"
-      },
-      {
-        "operator": "mercury-pierTwo-3"
-      },
-      {
-        "operator": "mercury-simplyVC-3"
-      },
-      {
         "operator": "mercury-snzPool-3"
-      },
-      {
-        "operator": "mercury-syncnode-3"
       },
       {
         "operator": "mercury-validationCloud-3"
       },
       {
         "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
       }
     ]
   },
@@ -8843,16 +8843,18 @@
     "proxyAddress": null,
     "threshold": 0,
     "valuePrefix": "",
-    "assetName": "Flow",
+    "assetName": "FLOW (dapper labs)",
     "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Crypto",
-      "assetName": "Flow",
+      "assetName": "FLOW (dapper labs)",
+      "baseAssetClic": "FLOW_CR",
       "feedCategory": "low",
       "feedType": "Crypto",
-      "hidden": true
+      "hidden": true,
+      "quoteAssetClic": "USD_FX"
     },
     "decimals": 18,
     "feedId": "0x000326d639ef951c35d1f9cded8e60528ad4fd7b455c1371f7c2da88bc48a97b",
@@ -10026,11 +10028,14 @@
     "proxyAddress": null,
     "threshold": 0,
     "valuePrefix": "",
-    "assetName": "",
+    "assetName": "Memecoin",
     "feedCategory": "",
     "feedType": "",
     "docs": {
-      "hidden": true
+      "assetName": "Memecoin",
+      "baseAssetClic": "MEME_CR",
+      "hidden": true,
+      "quoteAssetClic": "USD_FX"
     },
     "decimals": 18,
     "feedId": "0x000336f511e981366c696285aa1fed0fdc44304b1ee38a7aa198c2f588d0ab4c",
@@ -10042,9 +10047,6 @@
       },
       {
         "operator": "mercury-chainlink-3"
-      },
-      {
-        "operator": "mercury-galaxy-3"
       },
       {
         "operator": "mercury-dexTrac-3"
@@ -10065,25 +10067,28 @@
         "operator": "mercury-linkRiver-3"
       },
       {
-        "operator": "mercury-newRoad-3"
-      },
-      {
-        "operator": "mercury-pierTwo-3"
-      },
-      {
-        "operator": "mercury-simplyVC-3"
-      },
-      {
         "operator": "mercury-snzPool-3"
-      },
-      {
-        "operator": "mercury-syncnode-3"
       },
       {
         "operator": "mercury-validationCloud-3"
       },
       {
         "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
       }
     ]
   },
@@ -10896,13 +10901,13 @@
     "proxyAddress": null,
     "threshold": 0,
     "valuePrefix": "",
-    "assetName": "AI",
+    "assetName": "Sleepless AI",
     "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Crypto",
-      "assetName": "AI",
+      "assetName": "Sleepless AI",
       "baseAsset": "AI",
       "baseAssetClic": "AI_CR",
       "clicProductName": "AI/USD-RefPrice-DSstaging-Premium-Global-003",
@@ -11169,11 +11174,14 @@
     "proxyAddress": null,
     "threshold": 0,
     "valuePrefix": "",
-    "assetName": "",
+    "assetName": "PAX Gold",
     "feedCategory": "",
     "feedType": "",
     "docs": {
-      "hidden": true
+      "assetName": "PAX Gold",
+      "baseAssetClic": "PAXG_CR",
+      "hidden": true,
+      "quoteAssetClic": "USD_FX"
     },
     "decimals": 18,
     "feedId": "0x000350299c5dcdeb20a8f5b0222b2b0c754e91111fc871e4e3d5f7b5dfd8e3c3",
@@ -11185,9 +11193,6 @@
       },
       {
         "operator": "mercury-chainlink-3"
-      },
-      {
-        "operator": "mercury-galaxy-3"
       },
       {
         "operator": "mercury-dexTrac-3"
@@ -11208,25 +11213,28 @@
         "operator": "mercury-linkRiver-3"
       },
       {
-        "operator": "mercury-newRoad-3"
-      },
-      {
-        "operator": "mercury-pierTwo-3"
-      },
-      {
-        "operator": "mercury-simplyVC-3"
-      },
-      {
         "operator": "mercury-snzPool-3"
-      },
-      {
-        "operator": "mercury-syncnode-3"
       },
       {
         "operator": "mercury-validationCloud-3"
       },
       {
         "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
       }
     ]
   },
@@ -11743,9 +11751,6 @@
         "operator": "mercury-chainlink-3"
       },
       {
-        "operator": "mercury-galaxy-3"
-      },
-      {
         "operator": "mercury-dexTrac-3"
       },
       {
@@ -11764,25 +11769,28 @@
         "operator": "mercury-linkRiver-3"
       },
       {
-        "operator": "mercury-newRoad-3"
-      },
-      {
-        "operator": "mercury-pierTwo-3"
-      },
-      {
-        "operator": "mercury-simplyVC-3"
-      },
-      {
         "operator": "mercury-snzPool-3"
-      },
-      {
-        "operator": "mercury-syncnode-3"
       },
       {
         "operator": "mercury-validationCloud-3"
       },
       {
         "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
       }
     ]
   },
@@ -12539,11 +12547,14 @@
     "proxyAddress": null,
     "threshold": 0,
     "valuePrefix": "",
-    "assetName": "",
+    "assetName": "Worldcoin",
     "feedCategory": "",
     "feedType": "",
     "docs": {
-      "hidden": true
+      "assetName": "Worldcoin",
+      "baseAssetClic": "WLD_CR",
+      "hidden": true,
+      "quoteAssetClic": "USD_FX"
     },
     "decimals": 18,
     "feedId": "0x00036c4052ad86f144f34345b3ed36271f93c5dea654c6b8511bb908251db442",
@@ -12555,9 +12566,6 @@
       },
       {
         "operator": "mercury-chainlink-3"
-      },
-      {
-        "operator": "mercury-galaxy-3"
       },
       {
         "operator": "mercury-dexTrac-3"
@@ -12578,25 +12586,28 @@
         "operator": "mercury-linkRiver-3"
       },
       {
-        "operator": "mercury-newRoad-3"
-      },
-      {
-        "operator": "mercury-pierTwo-3"
-      },
-      {
-        "operator": "mercury-simplyVC-3"
-      },
-      {
         "operator": "mercury-snzPool-3"
-      },
-      {
-        "operator": "mercury-syncnode-3"
       },
       {
         "operator": "mercury-validationCloud-3"
       },
       {
         "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
       }
     ]
   },
@@ -16955,11 +16966,14 @@
     "proxyAddress": null,
     "threshold": 0,
     "valuePrefix": "",
-    "assetName": "",
+    "assetName": "ORDI",
     "feedCategory": "",
     "feedType": "",
     "docs": {
-      "hidden": true
+      "assetName": "ORDI",
+      "baseAssetClic": "ORDI_CR",
+      "hidden": true,
+      "quoteAssetClic": "USD_FX"
     },
     "decimals": 18,
     "feedId": "0x0003c567687631acf808b17344c1993865ad2ee262d4b7431ee5b226317852ea",
@@ -16971,9 +16985,6 @@
       },
       {
         "operator": "mercury-chainlink-3"
-      },
-      {
-        "operator": "mercury-galaxy-3"
       },
       {
         "operator": "mercury-dexTrac-3"
@@ -16994,25 +17005,28 @@
         "operator": "mercury-linkRiver-3"
       },
       {
-        "operator": "mercury-newRoad-3"
-      },
-      {
-        "operator": "mercury-pierTwo-3"
-      },
-      {
-        "operator": "mercury-simplyVC-3"
-      },
-      {
         "operator": "mercury-snzPool-3"
-      },
-      {
-        "operator": "mercury-syncnode-3"
       },
       {
         "operator": "mercury-validationCloud-3"
       },
       {
         "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
       }
     ]
   },
@@ -17069,9 +17083,6 @@
         "operator": "mercury-chainlink-3"
       },
       {
-        "operator": "mercury-galaxy-3"
-      },
-      {
         "operator": "mercury-dexTrac-3"
       },
       {
@@ -17090,25 +17101,28 @@
         "operator": "mercury-linkRiver-3"
       },
       {
-        "operator": "mercury-newRoad-3"
-      },
-      {
-        "operator": "mercury-pierTwo-3"
-      },
-      {
-        "operator": "mercury-simplyVC-3"
-      },
-      {
         "operator": "mercury-snzPool-3"
-      },
-      {
-        "operator": "mercury-syncnode-3"
       },
       {
         "operator": "mercury-validationCloud-3"
       },
       {
         "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
       }
     ]
   },
@@ -17481,16 +17495,18 @@
     "proxyAddress": null,
     "threshold": 0,
     "valuePrefix": "",
-    "assetName": "Tezos",
+    "assetName": "Tezos Token",
     "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Crypto",
-      "assetName": "Tezos",
+      "assetName": "Tezos Token",
+      "baseAssetClic": "XTZ_CR",
       "feedCategory": "low",
       "feedType": "Crypto",
-      "hidden": true
+      "hidden": true,
+      "quoteAssetClic": "USD_FX"
     },
     "decimals": 18,
     "feedId": "0x0003ce850b7e3c6aad77881e70ce80401e5f02c20ab0f610c17c6ed16269ad7e",
@@ -17729,13 +17745,13 @@
     "proxyAddress": null,
     "threshold": 0,
     "valuePrefix": "",
-    "assetName": "NEIRO",
+    "assetName": "Neiro on ETH",
     "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Crypto",
-      "assetName": "NEIRO",
+      "assetName": "Neiro on ETH",
       "baseAsset": "NEIRO",
       "baseAssetClic": "NEIRO_CR",
       "clicProductName": "NEIRO/USD-RefPrice-DSstaging-Premium-Global-003",
@@ -18085,13 +18101,13 @@
     "proxyAddress": null,
     "threshold": 0,
     "valuePrefix": "",
-    "assetName": "ENS",
+    "assetName": "Ethereum Name Service",
     "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Crypto",
-      "assetName": "ENS",
+      "assetName": "Ethereum Name Service",
       "baseAsset": "ENS",
       "baseAssetClic": "ENS_CR",
       "clicProductName": "ENS/USD-RefPrice-DSstaging-Premium-Global-003",
@@ -18955,11 +18971,14 @@
     "proxyAddress": null,
     "threshold": 0,
     "valuePrefix": "",
-    "assetName": "",
+    "assetName": "Ethena",
     "feedCategory": "",
     "feedType": "",
     "docs": {
-      "hidden": true
+      "assetName": "Ethena",
+      "baseAssetClic": "ENA_CR",
+      "hidden": true,
+      "quoteAssetClic": "USD_FX"
     },
     "decimals": 18,
     "feedId": "0x0003ee80ad023c5f939d65a75a705d5c61a7455ffd4036c2e024c39151e6c710",
@@ -18971,9 +18990,6 @@
       },
       {
         "operator": "mercury-chainlink-3"
-      },
-      {
-        "operator": "mercury-galaxy-3"
       },
       {
         "operator": "mercury-dexTrac-3"
@@ -18994,25 +19010,28 @@
         "operator": "mercury-linkRiver-3"
       },
       {
-        "operator": "mercury-newRoad-3"
-      },
-      {
-        "operator": "mercury-pierTwo-3"
-      },
-      {
-        "operator": "mercury-simplyVC-3"
-      },
-      {
         "operator": "mercury-snzPool-3"
-      },
-      {
-        "operator": "mercury-syncnode-3"
       },
       {
         "operator": "mercury-validationCloud-3"
       },
       {
         "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
       }
     ]
   },
@@ -23432,13 +23451,13 @@
     "proxyAddress": null,
     "threshold": 0,
     "valuePrefix": "",
-    "assetName": "Flow",
+    "assetName": "FLOW (dapper labs)",
     "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Crypto",
-      "assetName": "Flow",
+      "assetName": "FLOW (dapper labs)",
       "baseAsset": "FLOW",
       "baseAssetClic": "FLOW_CR",
       "clicProductName": "FLOW/USD-RefPrice-DS-Premium-Global-003",
@@ -27165,13 +27184,13 @@
     "proxyAddress": null,
     "threshold": 0,
     "valuePrefix": "",
-    "assetName": "Tezos",
+    "assetName": "Tezos Token",
     "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Crypto",
-      "assetName": "Tezos",
+      "assetName": "Tezos Token",
       "baseAsset": "XTZ",
       "baseAssetClic": "XTZ_CR",
       "clicProductName": "XTZ/USD-RefPrice-DS-Premium-Global-003",
@@ -30914,13 +30933,13 @@
     "proxyAddress": null,
     "threshold": 0,
     "valuePrefix": "",
-    "assetName": "ENS",
+    "assetName": "Ethereum Name Service",
     "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Crypto",
-      "assetName": "ENS",
+      "assetName": "Ethereum Name Service",
       "baseAsset": "Ethereum Name Service",
       "baseAssetClic": "ENS_CR",
       "blockchainName": "Global",
