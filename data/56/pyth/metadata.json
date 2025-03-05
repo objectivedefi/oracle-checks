@@ -1728,7 +1728,7 @@
     "attributes": {
       "asset_type": "Crypto Index",
       "base": "GMSOL",
-      "description": "GMSOL / US DOLLAR",
+      "description": "GMCI SOL / US DOLLAR",
       "display_symbol": "GMSOL/USD",
       "generic_symbol": "GMSOLUSD",
       "quote_currency": "USD",
@@ -12613,17 +12613,17 @@
     }
   },
   {
-    "id": "0x1b7297cdb238264525e53ffeb2d57b2e307df429d04e0efcdc45a043bd294301",
+    "id": "0x90e2ceba5fc73ea08dad36244eb54a936f9b2f12e41ef0d87b1d5fc2639d0550",
     "attributes": {
       "asset_type": "Crypto Redemption Rate",
       "base": "TETH",
       "contract_id": "eth: 0xD11c452fc99cF405034ee446803b6F6c1F6d5ED8",
-      "description": "TREEHOUSE ETHEREUM / ETHEREUM REDEMPTION RATE",
-      "display_symbol": "TETH/ETH",
-      "generic_symbol": "TETHETH",
-      "quote_currency": "ETH",
+      "description": "TREEHOUSE ETHEREUM / WRAPPED STETH REDEMPTION RATE",
+      "display_symbol": "TETH/WSTETH",
+      "generic_symbol": "TETHWSTETH",
+      "quote_currency": "WSTETH",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.TREEHOUSE.TETH/ETH.RR"
+      "symbol": "Crypto.TETH/WSTETH.RR"
     }
   },
   {
@@ -16739,17 +16739,20 @@
     }
   },
   {
-    "id": "0xd5d5fc8564bb97b1262562da878e4892fe5f08e3bcff85230963c5d86c76b1ec",
+    "id": "0x2ad21b845aafc10e9de5e1057ef74f4ca8b7d03595d81f35b61b458c04d21621",
     "attributes": {
-      "asset_type": "Crypto Redemption Rate",
-      "base": "TETH",
-      "contract_id": "eth: 0xD11c452fc99cF405034ee446803b6F6c1F6d5ED8",
-      "description": "TREEHOUSE ETHEREUM / WRAPPED STETH REDEMPTION RATE",
-      "display_symbol": "TETH/WSTHETH",
-      "generic_symbol": "TETHWSTHETH",
-      "quote_currency": "WSTHETH",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.TETH/WSTHETH.RR"
+      "asset_type": "Equity",
+      "base": "CANG",
+      "cms_symbol": "CANG",
+      "country": "US",
+      "cqs_symbol": "CANG",
+      "description": "CANGO INC / US DOLLAR",
+      "display_symbol": "CANG/USD",
+      "nasdaq_symbol": "CANG",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.CANG/USD"
     }
   },
   {
@@ -19495,6 +19498,139 @@
       "quote_currency": "%",
       "schedule": "America/New_York;O,O,O,O,O,O,O;0101/C,0120/C,0217/C,0526/C,0619/C,0704/C,0901/C,1013/C,1111/C,1127/C,1225/C",
       "symbol": "Rates.TGCR"
+    }
+  },
+  {
+    "id": "0xbbd64ff659ae683ff3917cf99ee78bd9c56fa4dc7ae1c387a3e21dcf641e811f",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "ANA",
+      "description": "NIRVANA / US DOLLAR",
+      "display_symbol": "ANA/USD",
+      "generic_symbol": "ANAUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.ANA/USD"
+    }
+  },
+  {
+    "id": "0xb01f0e62fddc755699aba1551726075edc84d3a3c1e9b2a126debee83a942e3c",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "ASBNB",
+      "contract_id": "bnb: 0x2F31ab8950c50080E77999fa456372f276952fD8",
+      "description": "ASTHERUS STAKED BNB / LISTA STAKED BNB REDEMPTION RATE",
+      "display_symbol": "ASBNB/SLISBNB",
+      "generic_symbol": "ASBNBSLISBNB",
+      "quote_currency": "SLISBNB",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.ASBNB/SLISBNB.RR"
+    }
+  },
+  {
+    "id": "0xf2bc80352bbee0bfecf26c7f645c62ff79dff4f5bc27c3dbc8b0b6c2c290f4dd",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "FRXUSD",
+      "contract_id": "eth: 0xcf62f905562626cfcdd2261162a51fd02fc9c5b6",
+      "description": "FRAX US DOLLAR / STAKED FRAX US DOLLAR REDEMPTION RATE",
+      "display_symbol": "FRXUSD/SFRXUSD",
+      "generic_symbol": "FRXUSDSFRXUSD",
+      "quote_currency": "SFRXUSD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.FRXUSD/SFRXUSD.RR"
+    }
+  },
+  {
+    "id": "0x7c53208632935ba5122c3cf65a0f4b3e72ba4955b49ad6ba0acf3d9ba405aef3",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "FRXUSD",
+      "description": "FRAX US DOLLAR / US DOLLAR",
+      "display_symbol": "FRXUSD/USD",
+      "generic_symbol": "FRXUSDUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.FRXUSD/USD"
+    }
+  },
+  {
+    "id": "0xd90813d7fc7f4f5d786f3a6a35701aff4f628db0ecd998de66be0ff8264c67a2",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "HENLO",
+      "description": "HENLO BERACHAIN / US DOLLAR",
+      "display_symbol": "HENLO/USD",
+      "generic_symbol": "HENLOUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.HENLO/USD"
+    }
+  },
+  {
+    "id": "0x7d80a0d7344c6632c5ed2b85016f32aed4f831294e274739d92bb9e32df5b22f",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "LBGT",
+      "description": "LIQUID BERA GOVERNANCE TOKEN / US DOLLAR",
+      "display_symbol": "LBGT/USD",
+      "generic_symbol": "LBGTUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.LBGT/USD"
+    }
+  },
+  {
+    "id": "0x8ba8899372f32b0b6b418006e654406facb6b6c8f24c1287cc7a86626e303d78",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "OGN",
+      "description": "ORIGIN PROTOCOL / US DOLLAR",
+      "display_symbol": "OGN/USD",
+      "generic_symbol": "OGNUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.OGN/USD"
+    }
+  },
+  {
+    "id": "0x6f02ad2b8a307411fc3baedb9876e83efe9fa9f5b752aab8c99f4742c9e5f5d5",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "SHADOW",
+      "description": "SHADOW / US DOLLAR",
+      "display_symbol": "SHADOW/USD",
+      "generic_symbol": "SHADOWUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.SHADOW/USD"
+    }
+  },
+  {
+    "id": "0xebdf9652e12bfd7701ac6e72452cf5fcb9e796d463e983579bf6e7a26d834880",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "SLISBNB",
+      "description": "LISTA STAKED BNB / US DOLLAR",
+      "display_symbol": "SLISBNB/USD",
+      "generic_symbol": "SLISBNBUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.SLISBNB/USD"
+    }
+  },
+  {
+    "id": "0x1997bb9bdde99431e222562f1d659c901a075fbf82502a8155d96fb2c7e33991",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "STIP",
+      "contract_id": "ip: 0xd07Faed671decf3C5A6cc038dAD97c8EFDb507c0",
+      "description": "META POOL STAKED STORY PROTOCOL / STORY PROTOCOL REDEMPTION RATE",
+      "display_symbol": "STIP/IP",
+      "generic_symbol": "STIPIP",
+      "quote_currency": "IP",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.STIP/IP.RR"
     }
   }
 ]
