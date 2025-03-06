@@ -12,8 +12,8 @@
     "multiply": "1000000000000000000",
     "name": "CROAK/USD-RefPrice-mainnet-production",
     "pair": [
-      "",
-      ""
+      "CROAK",
+      "USD"
     ],
     "path": "croak-usd-refprice-mainnet-production",
     "proxyAddress": null,
@@ -108,8 +108,8 @@
     "multiply": "1000000000000000000",
     "name": "BROCCOLI/USD-RefPrice-mainnet-production",
     "pair": [
-      "",
-      ""
+      "BROCCOLI",
+      "USD"
     ],
     "path": "broccoli-usd-refprice-mainnet-production",
     "proxyAddress": null,
@@ -366,8 +366,8 @@
     "multiply": "1000000000000000000",
     "name": "PAIN/USD-RefPrice-mainnet-production",
     "pair": [
-      "",
-      ""
+      "PAIN",
+      "USD"
     ],
     "path": "pain-usd-refprice-mainnet-production",
     "proxyAddress": null,
@@ -462,8 +462,8 @@
     "multiply": "1000000000000000000",
     "name": "OM/USD-RefPrice-mainnet-staging",
     "pair": [
-      "",
-      ""
+      "OM",
+      "USD"
     ],
     "path": "om-usd-refprice-mainnet-staging",
     "proxyAddress": null,
@@ -558,8 +558,8 @@
     "multiply": "1000000000000000000",
     "name": "MORPHO/USD-RefPrice-mainnet-staging",
     "pair": [
-      "",
-      ""
+      "MORPHO",
+      "USD"
     ],
     "path": "morpho-usd-refprice-mainnet-staging",
     "proxyAddress": null,
@@ -831,8 +831,8 @@
     "multiply": "1000000000000000000",
     "name": "VVV/USD-RefPrice-mainnet-production",
     "pair": [
-      "",
-      ""
+      "VVV",
+      "USD"
     ],
     "path": "vvv-usd-refprice-mainnet-production",
     "proxyAddress": null,
@@ -926,8 +926,8 @@
     "multiply": "1000000000000000000",
     "name": "ezETH/USD-RefPrice-mainnet-production",
     "pair": [
-      "",
-      ""
+      "ezETH",
+      "USD"
     ],
     "path": "ezeth-usd-refprice-mainnet-production",
     "proxyAddress": null,
@@ -1102,8 +1102,8 @@
     "multiply": "1000000000000000000",
     "name": "SUSDE/USD-RefPrice-mainnet-production",
     "pair": [
-      "",
-      ""
+      "SUSDE",
+      "USD"
     ],
     "path": "susde-usd-refprice-mainnet-production",
     "proxyAddress": null,
@@ -1197,8 +1197,8 @@
     "multiply": "1000000000000000000",
     "name": "AIXBT/USD-RefPrice-mainnet-production",
     "pair": [
-      "",
-      ""
+      "AIXBT",
+      "USD"
     ],
     "path": "aixbt-usd-refprice-mainnet-production",
     "proxyAddress": null,
@@ -1373,8 +1373,8 @@
     "multiply": "1000000000000000000",
     "name": "cbBTC/USD-RefPrice-mainnet-production",
     "pair": [
-      "",
-      ""
+      "cbBTC",
+      "USD"
     ],
     "path": "cbbtc-usd-refprice-mainnet-production",
     "proxyAddress": null,
@@ -1468,8 +1468,8 @@
     "multiply": "1000000000000000000",
     "name": "WSTETH/USD-RefPrice-mainnet-staging",
     "pair": [
-      "",
-      ""
+      "WSTETH",
+      "USD"
     ],
     "path": "wsteth-usd-refprice-mainnet-staging",
     "proxyAddress": null,
@@ -1564,8 +1564,8 @@
     "multiply": "1000000000000000000",
     "name": "LBTC/USD-RefPrice-mainnet-staging",
     "pair": [
-      "",
-      ""
+      "LBTC",
+      "USD"
     ],
     "path": "lbtc-usd-refprice-mainnet-staging",
     "proxyAddress": null,
@@ -1660,8 +1660,8 @@
     "multiply": "1000000000000000000",
     "name": "IP/USD-RefPrice-mainnet-staging",
     "pair": [
-      "",
-      ""
+      "IP",
+      "USD"
     ],
     "path": "ip-usd-refprice-mainnet-staging",
     "proxyAddress": null,
@@ -1756,8 +1756,8 @@
     "multiply": "1000000000000000000",
     "name": "ezETH/USD-RefPrice-mainnet-staging",
     "pair": [
-      "",
-      ""
+      "ezETH",
+      "USD"
     ],
     "path": "ezeth-usd-refprice-mainnet-staging",
     "proxyAddress": null,
@@ -1850,10 +1850,105 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "wBTC/USD-RefPrice-mainnet-production",
+    "pair": [
+      "wBTC",
+      "USD"
+    ],
+    "path": "wbtc-usd-refprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Wrapped Bitcoin",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Wrapped Bitcoin",
+      "baseAsset": "wBTC",
+      "baseAssetClic": "WBTC_CR",
+      "clicProductName": "wBTC/USD-RefPrice-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 18,
+    "feedId": "0x00034a95e798013fd8bc6ac56707488e1c4622e5dffa9f3c2fe99f8105b4fa5b",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "LBTC/USD-RefPrice-mainnet-production",
     "pair": [
-      "",
-      ""
+      "LBTC",
+      "USD"
     ],
     "path": "lbtc-usd-refprice-mainnet-production",
     "proxyAddress": null,
@@ -1947,8 +2042,8 @@
     "multiply": "1000000000000000000",
     "name": "cbBTC/USD-RefPrice-mainnet-staging",
     "pair": [
-      "",
-      ""
+      "cbBTC",
+      "USD"
     ],
     "path": "cbbtc-usd-refprice-mainnet-staging",
     "proxyAddress": null,
@@ -2124,8 +2219,8 @@
     "multiply": "1000000000000000000",
     "name": "OM/USD-RefPrice-mainnet-production",
     "pair": [
-      "",
-      ""
+      "OM",
+      "USD"
     ],
     "path": "om-usd-refprice-mainnet-production",
     "proxyAddress": null,
@@ -2315,8 +2410,8 @@
     "multiply": "1000000000000000000",
     "name": "NEIROETH/USD-RefPrice-mainnet-production",
     "pair": [
-      "",
-      ""
+      "NEIROETH",
+      "USD"
     ],
     "path": "neiroeth-usd-refprice-mainnet-production",
     "proxyAddress": null,
@@ -2815,8 +2910,8 @@
     "multiply": "1000000000000000000",
     "name": "VVV/USD-RefPrice-mainnet-staging",
     "pair": [
-      "",
-      ""
+      "VVV",
+      "USD"
     ],
     "path": "vvv-usd-refprice-mainnet-staging",
     "proxyAddress": null,
@@ -2911,8 +3006,8 @@
     "multiply": "1000000000000000000",
     "name": "GRIFFAIN/USD-RefPrice-mainnet-staging",
     "pair": [
-      "",
-      ""
+      "GRIFFAIN",
+      "USD"
     ],
     "path": "griffain-usd-refprice-mainnet-staging",
     "proxyAddress": null,
@@ -3007,8 +3102,8 @@
     "multiply": "1000000000000000000",
     "name": "USUAL/USD-RefPrice-mainnet-production",
     "pair": [
-      "",
-      ""
+      "USUAL",
+      "USD"
     ],
     "path": "usual-usd-refprice-mainnet-production",
     "proxyAddress": null,
@@ -3102,8 +3197,8 @@
     "multiply": "1000000000000000000",
     "name": "NEIROETH/USD-RefPrice-mainnet-staging",
     "pair": [
-      "",
-      ""
+      "NEIROETH",
+      "USD"
     ],
     "path": "neiroeth-usd-refprice-mainnet-staging",
     "proxyAddress": null,
@@ -3198,8 +3293,8 @@
     "multiply": "1000000000000000000",
     "name": "wBTC/USD-RefPrice-mainnet-staging",
     "pair": [
-      "",
-      ""
+      "wBTC",
+      "USD"
     ],
     "path": "wbtc-usd-refprice-mainnet-staging",
     "proxyAddress": null,
@@ -3375,18 +3470,35 @@
     "multiply": "1000000000000000000",
     "name": "BERA/USD-RefPrice-mainnet-staging",
     "pair": [
-      "",
-      ""
+      "BERA",
+      "USD"
     ],
     "path": "bera-usd-refprice-mainnet-staging",
     "proxyAddress": null,
     "threshold": 0,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
+    "assetName": "Berachain",
+    "feedCategory": "low",
+    "feedType": "Crypto",
     "docs": {
-      "hidden": true
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Berachain",
+      "baseAsset": "BERA",
+      "baseAssetClic": "BERA_CR",
+      "blockchainName": "Global",
+      "clicProductName": "BERA/USD-RefPrice-DS-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "schema": "Premium"
     },
     "decimals": 18,
     "feedId": "0x0003b891ab9d692585c88c3cd2daf705ac819ff63ab76dacf400efd72235d01c",
@@ -3456,8 +3568,8 @@
     "multiply": "1000000000000000000",
     "name": "S/USD-RefPrice-mainnet-production",
     "pair": [
-      "",
-      ""
+      "S",
+      "USD"
     ],
     "path": "s-usd-refprice-mainnet-production",
     "proxyAddress": null,
@@ -3551,8 +3663,8 @@
     "multiply": "1000000000000000000",
     "name": "PNUT/USD-RefPrice-mainnet-staging",
     "pair": [
-      "",
-      ""
+      "PNUT",
+      "USD"
     ],
     "path": "pnut-usd-refprice-mainnet-staging",
     "proxyAddress": null,
@@ -3743,8 +3855,8 @@
     "multiply": "1000000000000000000",
     "name": "SPX/USD-RefPrice-mainnet-production",
     "pair": [
-      "",
-      ""
+      "SPX",
+      "USD"
     ],
     "path": "spx-usd-refprice-mainnet-production",
     "proxyAddress": null,
@@ -3838,8 +3950,8 @@
     "multiply": "1000000000000000000",
     "name": "HYPE/USD-RefPrice-mainnet-staging",
     "pair": [
-      "",
-      ""
+      "HYPE",
+      "USD"
     ],
     "path": "hype-usd-refprice-mainnet-staging",
     "proxyAddress": null,
@@ -3934,8 +4046,8 @@
     "multiply": "1000000000000000000",
     "name": "POPCAT/USD-RefPrice-mainnet-production",
     "pair": [
-      "",
-      ""
+      "POPCAT",
+      "USD"
     ],
     "path": "popcat-usd-refprice-mainnet-production",
     "proxyAddress": null,
@@ -4110,8 +4222,8 @@
     "multiply": "1000000000000000000",
     "name": "HYPE/USD-RefPrice-mainnet-production",
     "pair": [
-      "",
-      ""
+      "HYPE",
+      "USD"
     ],
     "path": "hype-usd-refprice-mainnet-production",
     "proxyAddress": null,
@@ -4205,8 +4317,8 @@
     "multiply": "1000000000000000000",
     "name": "MORPHO/USD-RefPrice-mainnet-production",
     "pair": [
-      "",
-      ""
+      "MORPHO",
+      "USD"
     ],
     "path": "morpho-usd-refprice-mainnet-production",
     "proxyAddress": null,
@@ -4396,8 +4508,8 @@
     "multiply": "1000000000000000000",
     "name": "WSTETH/USD-RefPrice-mainnet-production",
     "pair": [
-      "",
-      ""
+      "WSTETH",
+      "USD"
     ],
     "path": "wsteth-usd-refprice-mainnet-production",
     "proxyAddress": null,
@@ -4492,8 +4604,8 @@
     "multiply": "1000000000000000000",
     "name": "CAKE/USD-RefPrice-mainnet-production",
     "pair": [
-      "",
-      ""
+      "CAKE",
+      "USD"
     ],
     "path": "cake-usd-refprice-mainnet-production",
     "proxyAddress": null,
@@ -4587,8 +4699,8 @@
     "multiply": "1000000000000000000",
     "name": "IP/USD-RefPrice-mainnet-production",
     "pair": [
-      "",
-      ""
+      "IP",
+      "USD"
     ],
     "path": "ip-usd-refprice-mainnet-production",
     "proxyAddress": null,
@@ -4682,8 +4794,8 @@
     "multiply": "1000000000000000000",
     "name": "PNUT/USD-RefPrice-mainnet-production",
     "pair": [
-      "",
-      ""
+      "PNUT",
+      "USD"
     ],
     "path": "pnut-usd-refprice-mainnet-production",
     "proxyAddress": null,
@@ -4777,8 +4889,8 @@
     "multiply": "1000000000000000000",
     "name": "SUSDE/USD-RefPrice-mainnet-staging",
     "pair": [
-      "",
-      ""
+      "SUSDE",
+      "USD"
     ],
     "path": "susde-usd-refprice-mainnet-staging",
     "proxyAddress": null,
@@ -4954,8 +5066,8 @@
     "multiply": "1000000000000000000",
     "name": "GRIFFAIN/USD-RefPrice-mainnet-production",
     "pair": [
-      "",
-      ""
+      "GRIFFAIN",
+      "USD"
     ],
     "path": "griffain-usd-refprice-mainnet-production",
     "proxyAddress": null,
