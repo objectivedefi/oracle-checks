@@ -150,6 +150,24 @@
     "symbol": "CRDT"
   },
   {
+    "address": "0xFFCEeE1d319934fEF2CE60d39666e9bbe04D35Bd",
+    "chainId": 8453
+  },
+  {
+    "address": "0x1d198Cf976a67CaC09B3bEFEB7A8cb5A7c440272",
+    "chainId": 8453,
+    "name": "Ghost Dollar",
+    "symbol": "GHOST",
+    "decimals": 6
+  },
+  {
+    "address": "0xf7465088C8BeE9eD48e8c1Efd39E3CAFe0cA9547",
+    "chainId": 8453,
+    "name": "Piggy Pound",
+    "symbol": "PIGGY",
+    "decimals": 18
+  },
+  {
     "address": "0x727cEbAcfb10fFd353Fc221D06A862B437eC1735",
     "chainId": 8453,
     "name": "Pendle Market",
