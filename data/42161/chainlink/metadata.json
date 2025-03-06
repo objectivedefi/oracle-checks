@@ -6821,6 +6821,33 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x3AA743F761e03458D41d36019e2B505Ed2057a04",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "yusd-usd-exchange-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "yUSD / USD Exchange Rate",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "yusd-usd-exchange-rate",
+    "proxyAddress": "0x875C69Da7AE092E4Dc277171e9c373718DDB25E2",
+    "threshold": 0.05,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 18
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x3E9C84fA8251e0EC00647d2FcCbE43D850bE8647",
     "contractType": "",
     "contractVersion": 4,
