@@ -2694,6 +2694,33 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x55fbFB9F8D4d03BEc3c466eaFBf35F973704661E",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "usdtb-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "USDtb / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "usdtb-usd",
+    "proxyAddress": "0x66704DAD467A7cA508B3be15865D9B9F3E186c90",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x563F9b302aF72aeeb8A411228CDc65b30cA1CB75",
     "contractType": "",
     "contractVersion": 6,
