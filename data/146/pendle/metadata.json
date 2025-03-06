@@ -1,6 +1,15 @@
 [
   {
     "chainId": 146,
+    "pt": "0x420df605D062F8611EFb3F203BF258159b8FfFdE",
+    "market": "0x3aeF1d372d0a7a7E482F465Bc14A42D78f920392",
+    "accountingAsset": "0x0000000000000000000000000000000000000000",
+    "underlyingAsset": "0xE5DA20F15420aD15DE0fa650600aFc998bbE3955",
+    "expiry": 1748476800,
+    "symbol": "stS"
+  },
+  {
+    "chainId": 146,
     "pt": "0xa2161E75EDf50d70544e6588788A5732A3105c00",
     "market": "0xd14117baf6EC5D12BE68CD06e763A4B82C9B6d1D",
     "accountingAsset": "0x455d5f11Fea33A8fa9D3e285930b478B6bF85265",
