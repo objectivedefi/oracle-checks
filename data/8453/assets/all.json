@@ -174,6 +174,13 @@
     "symbol": "CRDT"
   },
   {
+    "address": "0xdCf5130274753c8050aB061B1a1DCbf583f5bFd0",
+    "chainId": 8453,
+    "name": "ViciCoin",
+    "symbol": "VCNT",
+    "decimals": 18
+  },
+  {
     "address": "0x727cEbAcfb10fFd353Fc221D06A862B437eC1735",
     "chainId": 8453,
     "name": "Pendle Market",
