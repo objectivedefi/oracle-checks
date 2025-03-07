@@ -16800,7 +16800,7 @@
     "attributes": {
       "asset_type": "Crypto Redemption Rate",
       "base": "YLBTCLST",
-      "contract_id": "eth: 0x6c87ac8ff5515D8D97f20530aE6a9398d277E5f9",
+      "contract_id": "eth: 0x6c77bdE03952BbcB923815d90A73a7eD7EC895D1",
       "description": "CIAN YIELD LAYER BITCOIN LST / BITCOIN REDEMPTION RATE",
       "display_symbol": "YLBTCLST/BTC",
       "generic_symbol": "YLBTCLSTBTC",
@@ -16814,13 +16814,13 @@
     "attributes": {
       "asset_type": "Crypto Redemption Rate",
       "base": "YLRSETH",
-      "contract_id": "eth: 0x5A11de1CdB529E2946Ef8d9108f45fec180B4De7",
+      "contract_id": "eth: 0xd87a19fF681AE98BF10d2220D1AE3Fbd374ADE4e",
       "description": "CIAN YIELD LAYER KELP DAO RESTAKED ETH  / KELP DAO RESTAKED ETH REDEMPTION RATE",
-      "display_symbol": "YLRSETH/ETH",
-      "generic_symbol": "YLRSETHETH",
-      "quote_currency": "ETH",
+      "display_symbol": "YLRSETH/RSETH",
+      "generic_symbol": "YLRSETHRSETH",
+      "quote_currency": "RSETH",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.YLRSETH/ETH.RR"
+      "symbol": "Crypto.YLRSETH/RSETH.RR"
     }
   },
   {
@@ -16828,7 +16828,7 @@
     "attributes": {
       "asset_type": "Crypto Redemption Rate",
       "base": "YLSTETH",
-      "contract_id": "eth: 0x6a44c78716C80fCb3B95A19832D12eBc6613014A",
+      "contract_id": "eth: 0xB13aa2d0345b0439b064f26B82D8dCf3f508775d",
       "description": "CIAN YIELD LAYER STAKED ETHEREUM / ETHEREUM REDEMPTION RATE",
       "display_symbol": "YLSTETH/ETH",
       "generic_symbol": "YLSTETHETH",
