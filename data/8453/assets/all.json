@@ -181,6 +181,12 @@
     "decimals": 18
   },
   {
+    "address": "0xa681432113FAeF36F48761489c39D7336cf6526a",
+    "chainId": 8453,
+    "name": "CREDIT",
+    "symbol": "CRDT"
+  },
+  {
     "address": "0x727cEbAcfb10fFd353Fc221D06A862B437eC1735",
     "chainId": 8453,
     "name": "Pendle Market",
