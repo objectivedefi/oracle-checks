@@ -17515,23 +17515,6 @@
     }
   },
   {
-    "id": "0x3146b6ae143235d85a3cdff8be210b2a4629dd1c20ed634fa046a2e63b184c42",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "HLMA",
-      "cms_symbol": "HLMA",
-      "country": "GB",
-      "cqs_symbol": "HLMA",
-      "description": "HALMA PLC / BRITISH POUND",
-      "display_symbol": "HLMA/GBP",
-      "nasdaq_symbol": "HLMA",
-      "publish_interval": "5",
-      "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
-      "symbol": "Equity.GB.HLMA/GBP"
-    }
-  },
-  {
     "id": "0x0a9ad2666c0bf241cf67a83ee8f3ac7ae38dfbc24d83bc00675fee5569f72074",
     "attributes": {
       "asset_type": "Equity",
