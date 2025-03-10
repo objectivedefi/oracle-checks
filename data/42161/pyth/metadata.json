@@ -16637,7 +16637,7 @@
     "attributes": {
       "asset_type": "Crypto Redemption Rate",
       "base": "VIP",
-      "contract_id": "story: 0x20Cb9DCb6FC306c31325bdA6221AA5e067B9Da51",
+      "contract_id": "story: 0xf6701A6A20639f0E765bA7FF66FD4f49815F1a27",
       "description": "VERIO IP / IP REDEMPTION RATE",
       "display_symbol": "VIP/IP",
       "generic_symbol": "VIPIP",
@@ -19738,6 +19738,61 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.LVLUSD/USD.RR"
+    }
+  },
+  {
+    "id": "0xa6a9e999d34b0c2a34c2cdc0a5f6922e375853109e2386426f8a9ec682692a6c",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "MATICX",
+      "contract_id": "eth: 0xf03A7Eb46d01d9EcAA104558C732Cf82f6B6B645",
+      "description": "STADER STAKED MATIC / MATIC REDEMPTION RATE",
+      "display_symbol": "MATICX/MATIC",
+      "generic_symbol": "MATICXMATIC",
+      "quote_currency": "MATIC",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.MATICX/MATIC.RR"
+    }
+  },
+  {
+    "id": "0x748f752e089f3018381c905e3640dd079ff145e68ebcaf1774a7d47b9cab7854",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "SKI",
+      "description": "SKI MASK DOG / US DOLLAR",
+      "display_symbol": "SKI/USD",
+      "generic_symbol": "SKIUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.SKI/USD"
+    }
+  },
+  {
+    "id": "0x940b0948d828c46bff5fc3a3204fc032092b5b4239ef9364f33e01d37437ba65",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "WANS",
+      "contract_id": "sonic: 0xfA85Fe5A8F5560e9039C04f2b0a90dE1415aBD70",
+      "description": "WRAPPED ANGLES STAKED SONIC / ANGLES STAKED SONIC REDEMPTION RATE",
+      "display_symbol": "WANS/ANS",
+      "generic_symbol": "WANSANS",
+      "quote_currency": "ANS",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.WANS/ANS.RR"
+    }
+  },
+  {
+    "id": "0xc124681acdaed361c1dbd9c817022323c9beabec7d7a67eafca148260ff78c6a",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "YNBTCK",
+      "contract_id": "bnb: 0x78839cE14a8213779128Ee4da6D75E1326606A56",
+      "description": "YIELD NEST RESTAKED BITCOIN /  BITCOIN REDEMPTION RATE",
+      "display_symbol": "YNBTCK/BTC",
+      "generic_symbol": "YNBTCKBTC",
+      "quote_currency": "BTC",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.YNBTCK/BTC.RR"
     }
   }
 ]
