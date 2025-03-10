@@ -19632,5 +19632,112 @@
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.STIP/IP.RR"
     }
+  },
+  {
+    "id": "0xa6cdf5ac29a2bb75c2d1347e85362b703c7c8090a21d358e6b4155294e5b3159",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "ALP",
+      "contract_id": "spl: 4bQRutgDJs6vuh6ZcWaPVXiQaBzbHketjbCDjL4oRN34",
+      "description": "ADRENA LIQUIDITY PROVIDER TOKEN / US DOLLAR REDEMPTION RATE",
+      "display_symbol": "ALP/USD",
+      "generic_symbol": "ALPUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.ALP/USD.RR"
+    }
+  },
+  {
+    "id": "0xcdeeb502653d7b57918b60014a9d753644b7458088a74d252d5fb36e755ee186",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "BENJI",
+      "description": "BASENJI / US DOLLAR",
+      "display_symbol": "BENJI/USD",
+      "generic_symbol": "BENJIUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.BENJI/USD"
+    }
+  },
+  {
+    "id": "0x17392e15ef0b746ae7cfe25a97b0d66f4bb2792a39ebeb46bbffab8b1d2544d5",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "CLANKER",
+      "description": "TOKENBOT / US DOLLAR",
+      "display_symbol": "CLANKER/USD",
+      "generic_symbol": "CLANKERUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.CLANKER/USD"
+    }
+  },
+  {
+    "id": "0x5f30ff1377afb8cdbfd5ddba62312c77cc329557fde4b6aae2c29b5b6ef8908b",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "DOGINME",
+      "description": "DOGINME / US DOLLAR",
+      "display_symbol": "DOGINME/USD",
+      "generic_symbol": "DOGINMEUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.DOGINME/USD"
+    }
+  },
+  {
+    "id": "0x3e9961b890c4e77e9009c1a6d81dc556e24a3c190b02d1682c8f545c53b1d4a2",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "INF",
+      "contract_id": "sol: AYhux5gJzCoeoc1PoJ1VxwPDe22RwcvpHviLDD1oCGvW",
+      "description": "SANCTUM INFINITY / SOLANA REDEMPTION RATE",
+      "display_symbol": "INF/SOL",
+      "generic_symbol": "INFSOL",
+      "quote_currency": "SOL",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.INF/SOL.RR"
+    }
+  },
+  {
+    "id": "0xf3b6440c31770075330a0110e5f50c753958f0e7b180c362e30d09e3f5a37969",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "KEYCAT",
+      "description": "KEYBOARD CAT / US DOLLAR",
+      "display_symbol": "KEYCAT/USD",
+      "generic_symbol": "KEYCATUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.KEYCAT/USD"
+    }
+  },
+  {
+    "id": "0xa57e29fe0a3e6165a55a42675d94aaf27e1b0183e7dfa1b7e9e3514c70f622d0",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "LION",
+      "description": "LOADED LIONS / US DOLLAR",
+      "display_symbol": "LION/USD",
+      "generic_symbol": "LIONUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.LION/USD"
+    }
+  },
+  {
+    "id": "0x8b1e8e689fbb95ece35155a8b42cb9f1b14208a2f6507866a9a90e8dc955289a",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "LVLUSD",
+      "contract_id": "eth: 0x29759944834e08acE755dcEA71491413f7e2CBAD",
+      "description": "LEVEL US DOLLAR / US DOLLAR REDEMPTION RATE",
+      "display_symbol": "LVLUSD/USD",
+      "generic_symbol": "LVLUSDUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.LVLUSD/USD.RR"
+    }
   }
 ]
