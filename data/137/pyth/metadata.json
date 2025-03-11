@@ -19799,13 +19799,13 @@
     "id": "0x7a5a6c2b45d51dc59ddcf39ae9cac66d1c2443ae7fee4490a006f1dbb73862e5",
     "attributes": {
       "asset_type": "Crypto",
-      "base": "TEST",
-      "description": "TEST / US DOLLAR",
-      "display_symbol": "TEST/USD",
-      "generic_symbol": "TESTUSD",
+      "base": "TEST1",
+      "description": "TEST1 / US DOLLAR",
+      "display_symbol": "TEST1/USD",
+      "generic_symbol": "TEST1USD",
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.TEST/USD"
+      "symbol": "Crypto.TEST1/USD"
     }
   },
   {

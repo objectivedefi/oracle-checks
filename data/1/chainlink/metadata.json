@@ -3004,6 +3004,33 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x5b7544c54E78777AFdD09620912AdBa36503BF91",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "soneium-healthcheck",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1",
+    "name": "Soneium Healthcheck",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "soneium-hc",
+    "proxyAddress": "0x498b4e83001acc364b2a73f827e9aB4B034ea215",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 0
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x5e2420cACE3650622f62B2713B2B3727FC8bCDd1",
     "contractType": "",
     "contractVersion": 6,
@@ -3638,6 +3665,33 @@
     "feedType": "",
     "docs": {},
     "decimals": 8
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x786ba26Ee47097E6A5086E742aEf5Efbc6A93447",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "ink-healthcheck",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1",
+    "name": "Ink Healthcheck",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "ink-hc",
+    "proxyAddress": "0x9656D3A00402bD9c18EeF89b29ca6810734ABCAd",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 0
   },
   {
     "compareOffchain": "",
@@ -4725,6 +4779,33 @@
     "feedType": "",
     "docs": {},
     "decimals": 8
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x931f90Ee9515B4b842A34A0c1f7047CBF10d1138",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "unichain-healthcheck",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1",
+    "name": "Unichain Healthcheck",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "unichain-hc",
+    "proxyAddress": "0x5d8017CDC949AA0a6c00999B970892456d4f5fF3",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 0
   },
   {
     "compareOffchain": "",
