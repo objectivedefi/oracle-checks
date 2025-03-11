@@ -19794,5 +19794,31 @@
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.YNBTCK/BTC.RR"
     }
+  },
+  {
+    "id": "0x7a5a6c2b45d51dc59ddcf39ae9cac66d1c2443ae7fee4490a006f1dbb73862e5",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "TEST",
+      "description": "TEST / US DOLLAR",
+      "display_symbol": "TEST/USD",
+      "generic_symbol": "TESTUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.TEST/USD"
+    }
+  },
+  {
+    "id": "0xb4ae8f99fe948c259bf1c419a8ef3c99f31b6bfbd11b2bd5e960d5ba395ce66e",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "TEST2",
+      "description": "TEST2 / US DOLLAR",
+      "display_symbol": "TEST2/USD",
+      "generic_symbol": "TEST2USD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.TEST2/USD"
+    }
   }
 ]

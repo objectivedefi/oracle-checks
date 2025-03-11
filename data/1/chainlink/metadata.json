@@ -3173,6 +3173,36 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x64c67984A458513C6BAb23a815916B1b1075cf3a",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 3600,
+    "history": null,
+    "multiply": "100000000",
+    "name": "LINK / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "link-usd-svr",
+    "proxyAddress": "0x76F8C9E423C228E83DCB11d17F0Bd8aEB0Ca01bb",
+    "secondaryProxyAddress": "0xC7e9b623ed51F033b32AE7f1282b1AD62C28C183",
+    "threshold": 1,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "hidden": true
+    },
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x658Aa21601C8c0bB511C21999F7cad35B6A15192",
     "contractType": "",
     "contractVersion": 6,
@@ -8302,6 +8332,36 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0xcd07B31D85756098334eDdC92DE755dEae8FE62f",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 3600,
+    "history": null,
+    "multiply": "100000000",
+    "name": "AAVE / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "aave-usd-svr",
+    "proxyAddress": "0xbd7F896e60B650C01caf2d7279a1148189A68884",
+    "secondaryProxyAddress": "0xF02C1e2A3B77c1cacC72f72B44f7d0a4c62e4a85",
+    "threshold": 1,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "hidden": true
+    },
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0xced238b8B9D39f2B1CD42adbEeFBB85cd46C14F2",
     "contractType": "",
     "contractVersion": 6,
@@ -8588,6 +8648,36 @@
       "productTypeCode": "NAV"
     },
     "decimals": 6
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0xdc715c751f1cc129A6b47fEDC87D9918a4580502",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 3600,
+    "history": null,
+    "multiply": "100000000",
+    "name": "BTC / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "btc-usd-svr",
+    "proxyAddress": "0x85355da30ee4b35F4B30759Bd49a1EBE3fc41Bdb",
+    "secondaryProxyAddress": "0xb41E773f507F7a7EA890b1afB7d2b660c30C8B0A",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "hidden": true
+    },
+    "decimals": 8
   },
   {
     "compareOffchain": "",
