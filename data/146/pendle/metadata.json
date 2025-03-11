@@ -19,6 +19,15 @@
   },
   {
     "chainId": 146,
+    "pt": "0x930441Aa7Ab17654dF5663781CA0C02CC17e6643",
+    "market": "0x3F5EA53d1160177445B1898afbB16da111182418",
+    "accountingAsset": "0x29219dd400f2Bf60E5a23d13Be72B486D4038894",
+    "underlyingAsset": "0x578Ee1ca3a8E1b54554Da1Bf7C583506C4CD11c6",
+    "expiry": 1755129600,
+    "symbol": "aUSDC"
+  },
+  {
+    "chainId": 146,
     "pt": "0xa2161E75EDf50d70544e6588788A5732A3105c00",
     "market": "0xd14117baf6EC5D12BE68CD06e763A4B82C9B6d1D",
     "accountingAsset": "0x455d5f11Fea33A8fa9D3e285930b478B6bF85265",
