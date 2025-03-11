@@ -1085,6 +1085,13 @@
     "decimals": 18
   },
   {
+    "address": "0x4F8E1426A9d10bddc11d26042ad270F16cCb95F2",
+    "chainId": 1,
+    "name": "YieldFi Stable Token",
+    "symbol": "sUSD",
+    "decimals": 18
+  },
+  {
     "address": "0xB4EFd85c19999D84251304bDA99E90B92300Bd93",
     "chainId": 1,
     "name": "Rocket Pool",
