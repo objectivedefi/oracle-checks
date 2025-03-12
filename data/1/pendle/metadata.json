@@ -1432,6 +1432,15 @@
   },
   {
     "chainId": 1,
+    "pt": "0xe9824E10345Ecd5Cd43fC07d550e76159d0327c6",
+    "market": "0xEDda7526EC81055F2af99d51D968FC2FBca9Ee96",
+    "accountingAsset": "0x004E9C3EF86bc1ca1f0bB5C7662861Ee93350568",
+    "underlyingAsset": "0xB1Cdf3C96000330f018b7d7dF5bEe5E7F9E13b62",
+    "expiry": 1747872000,
+    "symbol": "uniBTC (Corn Concrete)"
+  },
+  {
+    "chainId": 1,
     "pt": "0xeA1180804bDBA8aC04E2a4406B11fb7970c474f1",
     "market": "0x8539B41CA14148d1F7400d399723827a80579414",
     "accountingAsset": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
