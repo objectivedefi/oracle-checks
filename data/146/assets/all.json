@@ -77,6 +77,13 @@
     "decimals": 6
   },
   {
+    "address": "0xa2161E75EDf50d70544e6588788A5732A3105c00",
+    "chainId": 146,
+    "name": "PT Wrapped stkscETH 29MAY2025",
+    "symbol": "PT-wstkscETH-29MAY2025",
+    "decimals": 18
+  },
+  {
     "address": "0x541FD749419CA806a8bc7da8ac23D346f2dF8B77",
     "chainId": 146,
     "name": "Solv BTC",
@@ -95,13 +102,6 @@
     "chainId": 146,
     "name": "HeyAnon",
     "symbol": "Anon",
-    "decimals": 18
-  },
-  {
-    "address": "0xa2161E75EDf50d70544e6588788A5732A3105c00",
-    "chainId": 146,
-    "name": "PT Wrapped stkscETH 29MAY2025",
-    "symbol": "PT-wstkscETH-29MAY2025",
     "decimals": 18
   }
 ]
