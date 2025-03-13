@@ -73,6 +73,15 @@
   },
   {
     "chainId": 42161,
+    "pt": "0x1942ee88b2ed1A848251f071Fb658922Ec8Fd4d9",
+    "market": "0xCAf560681233b54c996ba06C71566FD30F32C973",
+    "accountingAsset": "0x3EaBE18eAE267D1B57f917aBa085bb5906114600",
+    "underlyingAsset": "0x37227785a1f4545ed914690e395e4CFE96B8319f",
+    "expiry": 1750896000,
+    "symbol": "ePENDLE"
+  },
+  {
+    "chainId": 42161,
     "pt": "0x1c27Ad8a19Ba026ADaBD615F6Bc77158130cfBE4",
     "market": "0x952083cde7aaa11AB8449057F7de23A970AA8472",
     "accountingAsset": "0x35fA164735182de50811E8e2E824cFb9B6118ac2",
