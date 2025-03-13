@@ -9824,23 +9824,6 @@
     }
   },
   {
-    "id": "0x3d739102be847ba442365931b384aeba9b48eda30c25553d30b5ec697da29c41",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "NXPI",
-      "cms_symbol": "NXPI",
-      "country": "US",
-      "cqs_symbol": "NXPI",
-      "description": "NXP SEMICONDUCTORS NV / US DOLLAR",
-      "display_symbol": "NXPI/USD",
-      "nasdaq_symbol": "NXPI",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
-      "symbol": "Equity.US.NXPI/USD"
-    }
-  },
-  {
     "id": "0x4b8faa3f61c5764a6662179f8aa41c0cb36cb84d796be6d953944ecae87fdc94",
     "attributes": {
       "asset_type": "Equity",
