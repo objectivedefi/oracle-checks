@@ -367,8 +367,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
-        "pass": true
+        "message": "Adapter was revoked from the adapter registry at 2025-03-13T12:47:47.000Z",
+        "pass": false
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -429,7 +429,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": true
+    "whitelisted": false
   },
   {
     "name": "PythOracle",
@@ -451,8 +451,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -513,7 +513,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
