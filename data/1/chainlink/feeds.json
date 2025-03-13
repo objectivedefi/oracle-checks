@@ -240,6 +240,16 @@
     "version": "6"
   },
   {
+    "address": "0xfF30586cD0F29eD462364C7e81375FC0C71219b1",
+    "chainId": 1,
+    "accessController": "0x0000000000000000000000000000000000000000",
+    "aggregator": "0x592700e4FcDd674dC54d2681DED3B63f54F63f9A",
+    "decimals": 8,
+    "description": "USDS / USD",
+    "owner": "0x21f73D42Eb58Ba49dDB685dc29D3bF5c0f0373CA",
+    "version": "6"
+  },
+  {
     "address": "0x2665701293fCbEB223D11A08D826563EDcCE423A",
     "chainId": 1,
     "accessController": "0x0000000000000000000000000000000000000000",
