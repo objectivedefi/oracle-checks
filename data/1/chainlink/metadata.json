@@ -5463,6 +5463,33 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0xA216602297953BDE22582E7B2D5633d2F404d798",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "trump-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "TRUMP / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "trump-usd",
+    "proxyAddress": "0x7f0347903F413a6C4c540f39145E2a2249639931",
+    "threshold": 5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0xA3c0D69CedFf5b173Bc496074003dCe9C503e861",
     "contractType": "",
     "contractVersion": 6,
