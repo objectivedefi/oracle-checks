@@ -16123,23 +16123,6 @@
     }
   },
   {
-    "id": "0x80f271ae66ee740f4a8f2c2d33575592a6daf7f881133e4d8c0a4df0fc67315a",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "RL",
-      "cms_symbol": "RL",
-      "country": "US",
-      "cqs_symbol": "RL",
-      "description": "RALPH LAUREN CORPORATION / US DOLLAR",
-      "display_symbol": "RL/USD",
-      "nasdaq_symbol": "RL",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
-      "symbol": "Equity.US.RL/USD"
-    }
-  },
-  {
     "id": "0xe9f11baaade6cf979251d4c9e6c30657ed29275952a04b125915e475c31a5e63",
     "attributes": {
       "asset_type": "Equity",
