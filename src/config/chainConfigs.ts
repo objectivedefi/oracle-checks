@@ -102,7 +102,16 @@ export const chainConfigs: Record<number, CheckConfig> = {
     fromBlock: 5324531n,
     metadataHashes,
     fallbackAssets,
-    otherRecognizedAggregatorV3Feeds: {},
+    otherRecognizedAggregatorV3Feeds: {
+      "0x575Ad5F473FC1a7B8B2ACe86988E6df156483b03": {
+        provider: "MEV Linear Discount",
+        description: "MEV Linear Discount Oracle PT-wstkscUSD-29MAY2025/USD",
+      },
+      "0xdc55D8D3276ce1224122196B3D75E7074B6e32D6": {
+        provider: "MEV Linear Discount",
+        description: "MEV Linear Discount Oracle PT-wstkscETH-29MAY2025/USD",
+      },
+    },
     ...defaultBounds,
     ...getAddressesForChain(sonic.id),
   },

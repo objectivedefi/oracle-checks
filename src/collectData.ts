@@ -18,9 +18,11 @@ import {
   indexChronicleFeeds,
   indexIdleCDOs,
   indexIdleTranches,
+  indexMevLinearDiscountFeeds,
   indexRedStoneFeeds,
   indexRegistry,
   indexRouterHistoricalAdapters,
+  MevLinearDiscountFeed,
   RedStoneFeed,
 } from "@objectivelabs/oracle-sdk";
 import { Address, getAddress, Hex, zeroAddress } from "viem";
@@ -34,8 +36,13 @@ import { CollectedData } from "./types";
 const BATCH_SIZE = 50;
 
 export async function collectData(chainId: number): Promise<CollectedData> {
-  const { publicClient, oracleRouterFactory, oracleAdapterRegistry, fromBlock } =
-    chainConfigs[chainId];
+  const {
+    publicClient,
+    oracleRouterFactory,
+    oracleAdapterRegistry,
+    fromBlock,
+    otherRecognizedAggregatorV3Feeds,
+  } = chainConfigs[chainId];
 
   const logPrefix = `[${chainId} ${publicClient.chain?.name}]`;
   console.log(`${logPrefix} Begin data collection step`);
@@ -165,6 +172,19 @@ export async function collectData(chainId: number): Promise<CollectedData> {
     console.log(`${logPrefix} Indexed ${redstoneFeeds.length} RedStone feeds`);
   }
 
+  const mevLinearDiscountFeedAddresses = Object.entries(otherRecognizedAggregatorV3Feeds)
+    .filter(([_, { provider }]) => provider === "MEV Linear Discount")
+    .map(([address]) => address);
+
+  let mevLinearDiscountFeeds: MevLinearDiscountFeed[] = [];
+  if (mevLinearDiscountFeedAddresses.length > 0) {
+    mevLinearDiscountFeeds = await indexMevLinearDiscountFeeds({
+      publicClient,
+      addresses: mevLinearDiscountFeedAddresses as `0x${string}`[],
+    });
+    console.log(`${logPrefix} Indexed ${mevLinearDiscountFeeds.length} MEV Linear Discount feeds`);
+  }
+
   const idleOracles = adapters.filter((adapter) => adapter?.name === "IdleTranchesOracle");
 
   const idleCDOAddresses = idleOracles.map(({ cdo }) => cdo);
@@ -217,6 +237,7 @@ export async function collectData(chainId: number): Promise<CollectedData> {
     redstoneFeeds,
     pythMetadata,
     pendleMetadata,
+    mevLinearDiscountFeeds,
     assets,
   };
 }

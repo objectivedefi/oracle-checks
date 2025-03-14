@@ -11,6 +11,7 @@ import {
   IdleTranche,
   PendleMetadata,
   RegistryEntry,
+  MevLinearDiscountFeed,
 } from "@objectivelabs/oracle-sdk";
 import { Address, Hex } from "viem";
 
@@ -28,6 +29,7 @@ export type CollectedData = {
   chainlinkFeeds: ChainlinkFeed[];
   redstoneFeeds: RedStoneFeed[];
   chronicleFeeds: ChronicleFeed[];
+  mevLinearDiscountFeeds: MevLinearDiscountFeed[];
   idleCDOs: IdleCDO[];
   idleTranches: IdleTranche[];
   adapters: (Adapter | null)[];

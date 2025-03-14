@@ -18,6 +18,7 @@ async function runChecksForAllChains(): Promise<void> {
     saveJSON(data.pendleMetadata, `${dirPath}/pendle/metadata.json`);
     saveJSON(data.redstoneFeeds, `${dirPath}/redstone/feeds.json`);
     saveJSON(data.redstoneMetadata, `${dirPath}/redstone/metadata.json`);
+    saveJSON(data.mevLinearDiscountFeeds, `${dirPath}/mev-linear-discount/feeds.json`);
 
     data.assets.forEach((asset) => {
       saveJSON(asset, `${dirPath}/assets/${asset.address}.json`);
