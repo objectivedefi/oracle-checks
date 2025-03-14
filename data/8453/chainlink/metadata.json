@@ -20,11 +20,24 @@
     "proxyAddress": "0x906B24a339b848369B24Dc9Ed368b947fB9693bf",
     "threshold": 0.05,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
+    "assetName": "sUSDS / USDS Exchange Rate",
+    "feedCategory": "custom",
+    "feedType": "Crypto",
     "docs": {
-      "hidden": true
+      "assetClass": "Crypto",
+      "baseAsset": "sUSDS",
+      "baseAssetClic": "sUSDS_CR",
+      "blockchainName": "Base",
+      "clicProductName": "sUSDS/USDS-ExRate-DF-Base-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Exchange Rate",
+      "productType": "Price",
+      "productTypeCode": "ExRate",
+      "quoteAsset": "sUSDS",
+      "quoteAssetClic": "sUSDS_CR",
+      "underlyingAsset": "USDS",
+      "underlyingAssetClic": "USDS_CR"
     },
     "decimals": 18
   },

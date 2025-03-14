@@ -66,7 +66,9 @@
     "assetName": "",
     "feedCategory": "",
     "feedType": "",
-    "docs": {},
+    "docs": {
+      "hidden": true
+    },
     "decimals": 0
   },
   {
@@ -90,10 +92,23 @@
     "proxyAddress": "0xc76dFb89fF298145b417d221B2c747d84952e01d",
     "threshold": 0.5,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "assetName": "Sonic",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "baseAsset": "S",
+      "baseAssetClic": "S_CR",
+      "blockchainName": "Sonic",
+      "clicProductName": "BTC/USD-RefPrice-DF-Sonic-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
     "decimals": 8
   },
   {
@@ -157,10 +172,24 @@
     "proxyAddress": "0xA63b1614D17536C22fDB4c1a58023E35d08Cccef",
     "threshold": 0.5,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "assetName": "LBTC / BTC",
+    "feedCategory": "medium",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Pegged Asset",
+      "baseAsset": "LBTC",
+      "baseAssetClic": "LBTC_CR",
+      "blockchainName": "Sonic",
+      "clicProductName": "LBTC/BTC-RefPrice-DF-Sonic-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "BTC",
+      "quoteAssetClic": "BTC_CR"
+    },
     "decimals": 8
   },
   {
@@ -391,10 +420,24 @@
     "proxyAddress": "0x960BDD1dFD20d7c98fa482D793C3dedD73A113a3",
     "threshold": 0.01,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "assetName": "uniBTC / BTC Exchange Rate",
+    "feedCategory": "custom",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Pegged Asset",
+      "baseAsset": "uniBTC",
+      "baseAssetClic": "uniBTC_CR",
+      "blockchainName": "Sonic",
+      "clicProductName": "uniBTC/BTC-ExRate-DF-Sonic-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Exchange rate",
+      "productType": "Price",
+      "productTypeCode": "ExRate",
+      "quoteAsset": "BTC",
+      "quoteAssetClic": "BTC_CR"
+    },
     "decimals": 18
   },
   {

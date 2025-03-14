@@ -10,6 +10,102 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "BROCCOLI/USD-RefPrice-mainnet-staging",
+    "pair": [
+      "BROCCOLI",
+      "USD"
+    ],
+    "path": "broccoli-usd-refprice-mainnet-staging",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Broccoli",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Broccoli",
+      "baseAsset": "BROCCOLI",
+      "baseAssetClic": "BROCCOLI_CR",
+      "clicProductName": "BROCCOLI/USD-RefPrice-DSStaging-Premium-Global-002",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 18,
+    "feedId": "0x0002044eba1449edd2b3cd1392bf74f6d3b286dd4cb1e3acf9eb2f0b2092a1f8",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-3"
+      },
+      {
+        "operator": "mercury-chainlink-3"
+      },
+      {
+        "operator": "mercury-dexTrac-3"
+      },
+      {
+        "operator": "mercury-fiews-3"
+      },
+      {
+        "operator": "mercury-inotel-3"
+      },
+      {
+        "operator": "mercury-linkForest-3"
+      },
+      {
+        "operator": "mercury-linkPool-3"
+      },
+      {
+        "operator": "mercury-linkRiver-3"
+      },
+      {
+        "operator": "mercury-snzPool-3"
+      },
+      {
+        "operator": "mercury-validationCloud-3"
+      },
+      {
+        "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "CROAK/USD-RefPrice-mainnet-production",
     "pair": [
       "CROAK",
@@ -188,6 +284,198 @@
       },
       {
         "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "PAIN/USD-RefPrice-mainnet-staging",
+    "pair": [
+      "PAIN",
+      "USD"
+    ],
+    "path": "pain-usd-refprice-mainnet-staging",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Pain",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Pain",
+      "baseAsset": "PAIN",
+      "baseAssetClic": "PAIN_CR",
+      "clicProductName": "PAIN/USD-RefPrice-DSStaging-Premium-Global-002",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 18,
+    "feedId": "0x00022e7f045cf08946568de4d21dfd31993352ae1abf8e378e387184ef2351a3",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-3"
+      },
+      {
+        "operator": "mercury-chainlink-3"
+      },
+      {
+        "operator": "mercury-dexTrac-3"
+      },
+      {
+        "operator": "mercury-fiews-3"
+      },
+      {
+        "operator": "mercury-inotel-3"
+      },
+      {
+        "operator": "mercury-linkForest-3"
+      },
+      {
+        "operator": "mercury-linkPool-3"
+      },
+      {
+        "operator": "mercury-linkRiver-3"
+      },
+      {
+        "operator": "mercury-snzPool-3"
+      },
+      {
+        "operator": "mercury-validationCloud-3"
+      },
+      {
+        "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "CROAK/USD-RefPrice-mainnet-staging",
+    "pair": [
+      "CROAK",
+      "USD"
+    ],
+    "path": "croak-usd-refprice-mainnet-staging",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Croak",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Croak",
+      "baseAsset": "CROAK",
+      "baseAssetClic": "CROAK_CR",
+      "clicProductName": "CROAK/USD-RefPrice-DSStaging-Premium-Global-002",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 18,
+    "feedId": "0x000272998ddce81149763d50e67371bcaa0c9fd70efaa43f7406b4dd94d4db64",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-3"
+      },
+      {
+        "operator": "mercury-chainlink-3"
+      },
+      {
+        "operator": "mercury-dexTrac-3"
+      },
+      {
+        "operator": "mercury-fiews-3"
+      },
+      {
+        "operator": "mercury-inotel-3"
+      },
+      {
+        "operator": "mercury-linkForest-3"
+      },
+      {
+        "operator": "mercury-linkPool-3"
+      },
+      {
+        "operator": "mercury-linkRiver-3"
+      },
+      {
+        "operator": "mercury-snzPool-3"
+      },
+      {
+        "operator": "mercury-validationCloud-3"
+      },
+      {
+        "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
       }
     ]
   },
@@ -684,6 +972,184 @@
     },
     "decimals": 18,
     "feedId": "0x00030cde9b70e154c225ca5329f8a00bfbfa539e0b150532b422e38b3d353d12",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-3"
+      },
+      {
+        "operator": "mercury-chainlink-3"
+      },
+      {
+        "operator": "mercury-dexTrac-3"
+      },
+      {
+        "operator": "mercury-fiews-3"
+      },
+      {
+        "operator": "mercury-inotel-3"
+      },
+      {
+        "operator": "mercury-linkForest-3"
+      },
+      {
+        "operator": "mercury-linkPool-3"
+      },
+      {
+        "operator": "mercury-linkRiver-3"
+      },
+      {
+        "operator": "mercury-snzPool-3"
+      },
+      {
+        "operator": "mercury-validationCloud-3"
+      },
+      {
+        "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "AXL/USD-RefPrice-mainnet-staging",
+    "pair": [
+      "AXL",
+      "USD"
+    ],
+    "path": "axl-usd-refprice-mainnet-staging",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Axelar",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Axelar",
+      "baseAsset": "AXL",
+      "baseAssetClic": "AXL_CR",
+      "clicProductName": "AXL/USD-RefPrice-DSStaging-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 18,
+    "feedId": "0x00030f36d761d4c65cfa054fdae8e08aaa9beb273aa92da80626fae6c8de40fc",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-3"
+      },
+      {
+        "operator": "mercury-chainlink-3"
+      },
+      {
+        "operator": "mercury-dexTrac-3"
+      },
+      {
+        "operator": "mercury-fiews-3"
+      },
+      {
+        "operator": "mercury-inotel-3"
+      },
+      {
+        "operator": "mercury-linkForest-3"
+      },
+      {
+        "operator": "mercury-linkPool-3"
+      },
+      {
+        "operator": "mercury-linkRiver-3"
+      },
+      {
+        "operator": "mercury-snzPool-3"
+      },
+      {
+        "operator": "mercury-validationCloud-3"
+      },
+      {
+        "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "STETH/USD-RefPrice-mainnet-staging",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "steth-usd-refprice-mainnet-staging",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "clicProductName": "undefined-DSStaging-Premium-Global-003",
+      "hidden": true
+    },
+    "decimals": 18,
+    "feedId": "0x000312efb5bd814945addfde171d76c6812cc0049970937b85244c427f12a9eb",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -1850,6 +2316,102 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "IOTX/USD-RefPrice-mainnet-staging",
+    "pair": [
+      "IOTX",
+      "USD"
+    ],
+    "path": "iotx-usd-refprice-mainnet-staging",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "IoTeX",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "IoTeX",
+      "baseAsset": "IOTX",
+      "baseAssetClic": "IOTX_CR",
+      "clicProductName": "IOTX/USD-RefPrice-DSStaging-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 18,
+    "feedId": "0x0003457c727fbd649a89e604ce331a36691768fc65bc5a85690040a275b4fc84",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-3"
+      },
+      {
+        "operator": "mercury-chainlink-3"
+      },
+      {
+        "operator": "mercury-dexTrac-3"
+      },
+      {
+        "operator": "mercury-fiews-3"
+      },
+      {
+        "operator": "mercury-inotel-3"
+      },
+      {
+        "operator": "mercury-linkForest-3"
+      },
+      {
+        "operator": "mercury-linkPool-3"
+      },
+      {
+        "operator": "mercury-linkRiver-3"
+      },
+      {
+        "operator": "mercury-snzPool-3"
+      },
+      {
+        "operator": "mercury-validationCloud-3"
+      },
+      {
+        "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "wBTC/USD-RefPrice-mainnet-production",
     "pair": [
       "wBTC",
@@ -2503,6 +3065,102 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "EOS/USD-RefPrice-mainnet-staging",
+    "pair": [
+      "EOS",
+      "USD"
+    ],
+    "path": "eos-usd-refprice-mainnet-staging",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Eos",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Eos",
+      "baseAsset": "EOS",
+      "baseAssetClic": "EOS_CR",
+      "clicProductName": "EOS/USD-RefPrice-DSStaging-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 18,
+    "feedId": "0x00036c4b95538d476eb43d4754e24468be5b550153d33aa2a7253195fcfc3354",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-3"
+      },
+      {
+        "operator": "mercury-chainlink-3"
+      },
+      {
+        "operator": "mercury-dexTrac-3"
+      },
+      {
+        "operator": "mercury-fiews-3"
+      },
+      {
+        "operator": "mercury-inotel-3"
+      },
+      {
+        "operator": "mercury-linkForest-3"
+      },
+      {
+        "operator": "mercury-linkPool-3"
+      },
+      {
+        "operator": "mercury-linkRiver-3"
+      },
+      {
+        "operator": "mercury-snzPool-3"
+      },
+      {
+        "operator": "mercury-validationCloud-3"
+      },
+      {
+        "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "DODO/USD-RefPrice-mainnet-staging",
     "pair": [
       "",
@@ -2746,6 +3404,102 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "DASH/USD-RefPrice-mainnet-staging",
+    "pair": [
+      "DASH",
+      "USD"
+    ],
+    "path": "dash-usd-refprice-mainnet-staging",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "DASH",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "DASH",
+      "baseAsset": "DASH",
+      "baseAssetClic": "DASH_CR",
+      "clicProductName": "DASH/USD-RefPrice-DSStaging-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 18,
+    "feedId": "0x00037e64a97fd30b81a00e0199654b4711c95d36cd4b40642c12a3a010658dbc",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-3"
+      },
+      {
+        "operator": "mercury-chainlink-3"
+      },
+      {
+        "operator": "mercury-dexTrac-3"
+      },
+      {
+        "operator": "mercury-fiews-3"
+      },
+      {
+        "operator": "mercury-inotel-3"
+      },
+      {
+        "operator": "mercury-linkForest-3"
+      },
+      {
+        "operator": "mercury-linkPool-3"
+      },
+      {
+        "operator": "mercury-linkRiver-3"
+      },
+      {
+        "operator": "mercury-snzPool-3"
+      },
+      {
+        "operator": "mercury-validationCloud-3"
+      },
+      {
+        "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "TRU/USD-RefPrice-mainnet-staging",
     "pair": [
       "",
@@ -2763,6 +3517,102 @@
     },
     "decimals": 18,
     "feedId": "0x00038260dc2d034595007b15998a3608870f82cd92412533bc204b58c2666df8",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-3"
+      },
+      {
+        "operator": "mercury-chainlink-3"
+      },
+      {
+        "operator": "mercury-dexTrac-3"
+      },
+      {
+        "operator": "mercury-fiews-3"
+      },
+      {
+        "operator": "mercury-inotel-3"
+      },
+      {
+        "operator": "mercury-linkForest-3"
+      },
+      {
+        "operator": "mercury-linkPool-3"
+      },
+      {
+        "operator": "mercury-linkRiver-3"
+      },
+      {
+        "operator": "mercury-snzPool-3"
+      },
+      {
+        "operator": "mercury-validationCloud-3"
+      },
+      {
+        "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "LQTY/USD-RefPrice-mainnet-staging",
+    "pair": [
+      "LQTY",
+      "USD"
+    ],
+    "path": "lqty-usd-refprice-mainnet-staging",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Liquity",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Liquity",
+      "baseAsset": "LQTY",
+      "baseAssetClic": "LQTY_CR",
+      "clicProductName": "LQTY/USD-RefPrice-DSStaging-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 18,
+    "feedId": "0x000387ae64a27a41d33ee1cc202194464a1f29ead347d870e6e57929cc54eac8",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -2908,6 +3758,102 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "XDC/USD-RefPrice-mainnet-staging",
+    "pair": [
+      "XDC",
+      "USD"
+    ],
+    "path": "xdc-usd-refprice-mainnet-staging",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "XDC Network",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "XDC Network",
+      "baseAsset": "XDC",
+      "baseAssetClic": "XDC_CR",
+      "clicProductName": "XDC/USD-RefPrice-DSStaging-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 18,
+    "feedId": "0x00038cb30f846593d69f68fa7a8305e012baa83e8e077e29657acc006bdfe8e5",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-3"
+      },
+      {
+        "operator": "mercury-chainlink-3"
+      },
+      {
+        "operator": "mercury-dexTrac-3"
+      },
+      {
+        "operator": "mercury-fiews-3"
+      },
+      {
+        "operator": "mercury-inotel-3"
+      },
+      {
+        "operator": "mercury-linkForest-3"
+      },
+      {
+        "operator": "mercury-linkPool-3"
+      },
+      {
+        "operator": "mercury-linkRiver-3"
+      },
+      {
+        "operator": "mercury-snzPool-3"
+      },
+      {
+        "operator": "mercury-validationCloud-3"
+      },
+      {
+        "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "VVV/USD-RefPrice-mainnet-staging",
     "pair": [
       "VVV",
@@ -2940,6 +3886,102 @@
     },
     "decimals": 18,
     "feedId": "0x00038e921e93d9ecd91d8f2c3dd9664cd2032c26e27b9df9240442b5c4e410b9",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-3"
+      },
+      {
+        "operator": "mercury-chainlink-3"
+      },
+      {
+        "operator": "mercury-dexTrac-3"
+      },
+      {
+        "operator": "mercury-fiews-3"
+      },
+      {
+        "operator": "mercury-inotel-3"
+      },
+      {
+        "operator": "mercury-linkForest-3"
+      },
+      {
+        "operator": "mercury-linkPool-3"
+      },
+      {
+        "operator": "mercury-linkRiver-3"
+      },
+      {
+        "operator": "mercury-snzPool-3"
+      },
+      {
+        "operator": "mercury-validationCloud-3"
+      },
+      {
+        "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "DYM/USD-RefPrice-mainnet-staging",
+    "pair": [
+      "DYM",
+      "USD"
+    ],
+    "path": "dym-usd-refprice-mainnet-staging",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Dymension",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Dymension",
+      "baseAsset": "DYM",
+      "baseAssetClic": "DYM_CR",
+      "clicProductName": "DYM/USD-RefPrice-DSStaging-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 18,
+    "feedId": "0x000390e43d32ca0e4c08b328502419827f36c34dd73784ddb152afa4fb05b8da",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -3100,6 +4142,198 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "CATI/USD-RefPrice-mainnet-staging",
+    "pair": [
+      "CATI",
+      "USD"
+    ],
+    "path": "cati-usd-refprice-mainnet-staging",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Catizen",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Catizen",
+      "baseAsset": "CATI",
+      "baseAssetClic": "CATI_CR",
+      "clicProductName": "CATI/USD-RefPrice-DSStaging-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 18,
+    "feedId": "0x0003979c022e82766360571ffa2b4e8493423ffe82742666522cea8ec527f47f",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-3"
+      },
+      {
+        "operator": "mercury-chainlink-3"
+      },
+      {
+        "operator": "mercury-dexTrac-3"
+      },
+      {
+        "operator": "mercury-fiews-3"
+      },
+      {
+        "operator": "mercury-inotel-3"
+      },
+      {
+        "operator": "mercury-linkForest-3"
+      },
+      {
+        "operator": "mercury-linkPool-3"
+      },
+      {
+        "operator": "mercury-linkRiver-3"
+      },
+      {
+        "operator": "mercury-snzPool-3"
+      },
+      {
+        "operator": "mercury-validationCloud-3"
+      },
+      {
+        "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "ALPACA/USD-RefPrice-mainnet-staging",
+    "pair": [
+      "ALPACA",
+      "USD"
+    ],
+    "path": "alpaca-usd-refprice-mainnet-staging",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Alpaca Finance",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Alpaca Finance",
+      "baseAsset": "ALPACA",
+      "baseAssetClic": "ALPACA_CR",
+      "clicProductName": "ALPACA/USD-RefPrice-DSStaging-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 18,
+    "feedId": "0x0003980d8a813f15165d346567b12cb36dc34b1d2640f6a2fd888a0f3de14200",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-3"
+      },
+      {
+        "operator": "mercury-chainlink-3"
+      },
+      {
+        "operator": "mercury-dexTrac-3"
+      },
+      {
+        "operator": "mercury-fiews-3"
+      },
+      {
+        "operator": "mercury-inotel-3"
+      },
+      {
+        "operator": "mercury-linkForest-3"
+      },
+      {
+        "operator": "mercury-linkPool-3"
+      },
+      {
+        "operator": "mercury-linkRiver-3"
+      },
+      {
+        "operator": "mercury-snzPool-3"
+      },
+      {
+        "operator": "mercury-validationCloud-3"
+      },
+      {
+        "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "USUAL/USD-RefPrice-mainnet-production",
     "pair": [
       "USUAL",
@@ -3181,6 +4415,198 @@
       },
       {
         "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "WEN/USD-RefPrice-mainnet-staging",
+    "pair": [
+      "WEN",
+      "USD"
+    ],
+    "path": "wen-usd-refprice-mainnet-staging",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "WEN",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "WEN",
+      "baseAsset": "WEN",
+      "baseAssetClic": "WEN_CR",
+      "clicProductName": "WEN/USD-RefPrice-DSStaging-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 18,
+    "feedId": "0x0003a970b4e119a9d1a44715fe1841a91a5e249acd7b0ac8773269caddfe9bcb",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-3"
+      },
+      {
+        "operator": "mercury-chainlink-3"
+      },
+      {
+        "operator": "mercury-dexTrac-3"
+      },
+      {
+        "operator": "mercury-fiews-3"
+      },
+      {
+        "operator": "mercury-inotel-3"
+      },
+      {
+        "operator": "mercury-linkForest-3"
+      },
+      {
+        "operator": "mercury-linkPool-3"
+      },
+      {
+        "operator": "mercury-linkRiver-3"
+      },
+      {
+        "operator": "mercury-snzPool-3"
+      },
+      {
+        "operator": "mercury-validationCloud-3"
+      },
+      {
+        "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "HBAR/USD-RefPrice-mainnet-staging",
+    "pair": [
+      "HBAR",
+      "USD"
+    ],
+    "path": "hbar-usd-refprice-mainnet-staging",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Hedera Hashgraph",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Hedera Hashgraph",
+      "baseAsset": "HBAR",
+      "baseAssetClic": "HBAR_CR",
+      "clicProductName": "HBAR/USD-RefPrice-DSStaging-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 18,
+    "feedId": "0x0003aa0c2a357e2ec03fc89b24f45edb4879fb829afaef2335f6f9707729e113",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-3"
+      },
+      {
+        "operator": "mercury-chainlink-3"
+      },
+      {
+        "operator": "mercury-dexTrac-3"
+      },
+      {
+        "operator": "mercury-fiews-3"
+      },
+      {
+        "operator": "mercury-inotel-3"
+      },
+      {
+        "operator": "mercury-linkForest-3"
+      },
+      {
+        "operator": "mercury-linkPool-3"
+      },
+      {
+        "operator": "mercury-linkRiver-3"
+      },
+      {
+        "operator": "mercury-snzPool-3"
+      },
+      {
+        "operator": "mercury-validationCloud-3"
+      },
+      {
+        "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
       }
     ]
   },
@@ -3468,6 +4894,102 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "ETC/USD-RefPrice-mainnet-staging",
+    "pair": [
+      "ETC",
+      "USD"
+    ],
+    "path": "etc-usd-refprice-mainnet-staging",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Ethereum Classic",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Ethereum Classic",
+      "baseAsset": "ETC",
+      "baseAssetClic": "ETC_CR",
+      "clicProductName": "ETC/USD-RefPrice-DSStaging-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 18,
+    "feedId": "0x0003b65db59a353d9b5bf969981557c6024add290cedad23ed1fd1fb798ac023",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-3"
+      },
+      {
+        "operator": "mercury-chainlink-3"
+      },
+      {
+        "operator": "mercury-dexTrac-3"
+      },
+      {
+        "operator": "mercury-fiews-3"
+      },
+      {
+        "operator": "mercury-inotel-3"
+      },
+      {
+        "operator": "mercury-linkForest-3"
+      },
+      {
+        "operator": "mercury-linkPool-3"
+      },
+      {
+        "operator": "mercury-linkRiver-3"
+      },
+      {
+        "operator": "mercury-snzPool-3"
+      },
+      {
+        "operator": "mercury-validationCloud-3"
+      },
+      {
+        "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "BERA/USD-RefPrice-mainnet-staging",
     "pair": [
       "BERA",
@@ -3502,6 +5024,102 @@
     },
     "decimals": 18,
     "feedId": "0x0003b891ab9d692585c88c3cd2daf705ac819ff63ab76dacf400efd72235d01c",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-3"
+      },
+      {
+        "operator": "mercury-chainlink-3"
+      },
+      {
+        "operator": "mercury-dexTrac-3"
+      },
+      {
+        "operator": "mercury-fiews-3"
+      },
+      {
+        "operator": "mercury-inotel-3"
+      },
+      {
+        "operator": "mercury-linkForest-3"
+      },
+      {
+        "operator": "mercury-linkPool-3"
+      },
+      {
+        "operator": "mercury-linkRiver-3"
+      },
+      {
+        "operator": "mercury-snzPool-3"
+      },
+      {
+        "operator": "mercury-validationCloud-3"
+      },
+      {
+        "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "HNT/USD-RefPrice-mainnet-staging",
+    "pair": [
+      "HNT",
+      "USD"
+    ],
+    "path": "hnt-usd-refprice-mainnet-staging",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Helium Network Token",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Helium Network Token",
+      "baseAsset": "HNT",
+      "baseAssetClic": "HNT_CR",
+      "clicProductName": "HNT/USD-RefPrice-DSStaging-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 18,
+    "feedId": "0x0003baa4cd78fc912fe6169198dd60ff9ee98ae8fd58e54c362334e6dfd4d6a3",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -3853,6 +5471,102 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "CELO/USD-RefPrice-mainnet-staging",
+    "pair": [
+      "CELO",
+      "USD"
+    ],
+    "path": "celo-usd-refprice-mainnet-staging",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Celo",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Celo",
+      "baseAsset": "CELO",
+      "baseAssetClic": "CELO_CR",
+      "clicProductName": "CELO/USD-RefPrice-DSStaging-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 18,
+    "feedId": "0x0003c536822c08c787842da8c160f4396f183b59cc6d178c964856ff75e35208",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-3"
+      },
+      {
+        "operator": "mercury-chainlink-3"
+      },
+      {
+        "operator": "mercury-dexTrac-3"
+      },
+      {
+        "operator": "mercury-fiews-3"
+      },
+      {
+        "operator": "mercury-inotel-3"
+      },
+      {
+        "operator": "mercury-linkForest-3"
+      },
+      {
+        "operator": "mercury-linkPool-3"
+      },
+      {
+        "operator": "mercury-linkRiver-3"
+      },
+      {
+        "operator": "mercury-snzPool-3"
+      },
+      {
+        "operator": "mercury-validationCloud-3"
+      },
+      {
+        "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "SPX/USD-RefPrice-mainnet-production",
     "pair": [
       "SPX",
@@ -3934,6 +5648,184 @@
       },
       {
         "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "BTC/USD-RefPrice-mainnet-staging",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "btc-usd-refprice-mainnet-staging",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "clicProductName": "BTC/USD-RefPrice-DSStaging-Premium-Global-003",
+      "hidden": true
+    },
+    "decimals": 18,
+    "feedId": "0x0003c62ab0e125347c1f257dfe52b792554009d6797b3c537f7602cb32da97ed",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-3"
+      },
+      {
+        "operator": "mercury-chainlink-3"
+      },
+      {
+        "operator": "mercury-dexTrac-3"
+      },
+      {
+        "operator": "mercury-fiews-3"
+      },
+      {
+        "operator": "mercury-inotel-3"
+      },
+      {
+        "operator": "mercury-linkForest-3"
+      },
+      {
+        "operator": "mercury-linkPool-3"
+      },
+      {
+        "operator": "mercury-linkRiver-3"
+      },
+      {
+        "operator": "mercury-snzPool-3"
+      },
+      {
+        "operator": "mercury-validationCloud-3"
+      },
+      {
+        "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "DUSK/USD-RefPrice-mainnet-staging",
+    "pair": [
+      "DUSK",
+      "USD"
+    ],
+    "path": "dusk-usd-refprice-mainnet-staging",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Dusk",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Dusk",
+      "baseAsset": "DUSK",
+      "baseAssetClic": "DUSK_CR",
+      "clicProductName": "DUSK/USD-RefPrice-DSStaging-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 18,
+    "feedId": "0x0003c6b843f691618eba24a4e80be0f6c3cfb43da2ca953b70aa2ded718e71ed",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-3"
+      },
+      {
+        "operator": "mercury-chainlink-3"
+      },
+      {
+        "operator": "mercury-dexTrac-3"
+      },
+      {
+        "operator": "mercury-fiews-3"
+      },
+      {
+        "operator": "mercury-inotel-3"
+      },
+      {
+        "operator": "mercury-linkForest-3"
+      },
+      {
+        "operator": "mercury-linkPool-3"
+      },
+      {
+        "operator": "mercury-linkRiver-3"
+      },
+      {
+        "operator": "mercury-snzPool-3"
+      },
+      {
+        "operator": "mercury-validationCloud-3"
+      },
+      {
+        "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
       }
     ]
   },
@@ -4220,6 +6112,102 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "KAVA/USD-RefPrice-mainnet-staging",
+    "pair": [
+      "KAVA",
+      "USD"
+    ],
+    "path": "kava-usd-refprice-mainnet-staging",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Kava",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Kava",
+      "baseAsset": "KAVA",
+      "baseAssetClic": "KAVA_CR",
+      "clicProductName": "KAVA/USD-RefPrice-DSStaging-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 18,
+    "feedId": "0x0003d093f46cde80c289248f398388b65bebf561eed4044fadd2845c9ca11d62",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-3"
+      },
+      {
+        "operator": "mercury-chainlink-3"
+      },
+      {
+        "operator": "mercury-dexTrac-3"
+      },
+      {
+        "operator": "mercury-fiews-3"
+      },
+      {
+        "operator": "mercury-inotel-3"
+      },
+      {
+        "operator": "mercury-linkForest-3"
+      },
+      {
+        "operator": "mercury-linkPool-3"
+      },
+      {
+        "operator": "mercury-linkRiver-3"
+      },
+      {
+        "operator": "mercury-snzPool-3"
+      },
+      {
+        "operator": "mercury-validationCloud-3"
+      },
+      {
+        "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "HYPE/USD-RefPrice-mainnet-production",
     "pair": [
       "HYPE",
@@ -4442,6 +6430,102 @@
     },
     "decimals": 18,
     "feedId": "0x0003e28c2295fd783749f26b1c27de49e131979a65ced4a621c373e45464f5b0",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-3"
+      },
+      {
+        "operator": "mercury-chainlink-3"
+      },
+      {
+        "operator": "mercury-dexTrac-3"
+      },
+      {
+        "operator": "mercury-fiews-3"
+      },
+      {
+        "operator": "mercury-inotel-3"
+      },
+      {
+        "operator": "mercury-linkForest-3"
+      },
+      {
+        "operator": "mercury-linkPool-3"
+      },
+      {
+        "operator": "mercury-linkRiver-3"
+      },
+      {
+        "operator": "mercury-snzPool-3"
+      },
+      {
+        "operator": "mercury-validationCloud-3"
+      },
+      {
+        "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "TRB/USD-RefPrice-mainnet-staging",
+    "pair": [
+      "TRB",
+      "USD"
+    ],
+    "path": "trb-usd-refprice-mainnet-staging",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Tellor Tributes",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Tellor Tributes",
+      "baseAsset": "TRB",
+      "baseAssetClic": "TRB_CR",
+      "clicProductName": "TRB/USD-RefPrice-DSStaging-Premium-Global-003",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 18,
+    "feedId": "0x0003e77cbd64b0eb1d49c649903f59ae4e2b6800e27115d705fe4dd28b7d36d5",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
