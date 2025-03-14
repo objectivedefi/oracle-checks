@@ -636,10 +636,10 @@
         "pass": false
       }
     ],
-    "label": "Unknown AggregatorV3 Feed",
+    "label": "MEV Linear Discount Oracle PT-wstkscUSD-29MAY2025/USD ",
     "methodology": "Unknown",
     "model": "Push",
-    "provider": "Unknown",
+    "provider": "MEV Linear Discount",
     "whitelisted": true
   },
   {
@@ -694,10 +694,10 @@
         "pass": false
       }
     ],
-    "label": "Unknown AggregatorV3 Feed",
+    "label": "MEV Linear Discount Oracle PT-wstkscETH-29MAY2025/USD ",
     "methodology": "Unknown",
     "model": "Push",
-    "provider": "Unknown",
+    "provider": "MEV Linear Discount",
     "whitelisted": true
   },
   {
