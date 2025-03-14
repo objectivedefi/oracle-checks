@@ -516,6 +516,65 @@
     "whitelisted": true
   },
   {
+    "name": "CrossAdapter",
+    "address": "0x575Ffc02361368A2708c00bC7e299d1cD1c89f8A",
+    "chainId": 80094,
+    "base": "0xecAc9C5F704e954931349Da37F60E39f515c11c1",
+    "cross": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0xB92B9341be191895e8C68b170aC4528839fFe0b2",
+    "oracleCrossQuote": "0xF2b8616744502851343c52DA76e9adFb97f08b91",
+    "checks": [
+      {
+        "id": "ADAPTER_EXISTS",
+        "severity": "HIGH",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is not whitelisted in the adapter registry",
+        "pass": false
+      },
+      {
+        "id": "SOURCE_CODE_PROVENANCE",
+        "severity": "HIGH",
+        "message": "Contract metadata hash matches a known hash",
+        "pass": true
+      },
+      {
+        "id": "DISTINCT_ASSETS",
+        "severity": "HIGH",
+        "message": "No duplicates found",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0xecAc9C5F704e954931349Da37F60E39f515c11c1 is LBTC (Lombard Staked Bitcoin) with 8 decimals",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x0555E30da8f98308EdB960aa94C0Db47230d2B9c is WBTC (Wrapped BTC) with 8 decimals",
+        "pass": true
+      }
+    ],
+    "label": "LBTC/WBTC/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": false
+  },
+  {
     "name": "PythOracle",
     "address": "0xcbA35E68A1cb2f2ca0ca4895DE33cd61A3B9DBC1",
     "chainId": 80094,
@@ -1076,5 +1135,63 @@
     "model": "Pull",
     "provider": "Pyth",
     "whitelisted": true
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0xB92B9341be191895e8C68b170aC4528839fFe0b2",
+    "chainId": 80094,
+    "base": "0xecAc9C5F704e954931349Da37F60E39f515c11c1",
+    "quote": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+    "feed": "0x84AD474c33c9cCefB1a2D8b77Bdd88bDc592f96b",
+    "maxStaleness": "90000",
+    "checks": [
+      {
+        "id": "ADAPTER_EXISTS",
+        "severity": "HIGH",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is not whitelisted in the adapter registry",
+        "pass": false
+      },
+      {
+        "id": "SOURCE_CODE_PROVENANCE",
+        "severity": "HIGH",
+        "message": "Contract metadata hash matches a known hash",
+        "pass": true
+      },
+      {
+        "id": "DISTINCT_ASSETS",
+        "severity": "HIGH",
+        "message": "No duplicates found",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0xecAc9C5F704e954931349Da37F60E39f515c11c1 is LBTC (Lombard Staked Bitcoin) with 8 decimals",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x0555E30da8f98308EdB960aa94C0Db47230d2B9c is WBTC (Wrapped BTC) with 8 decimals",
+        "pass": true
+      },
+      {
+        "id": "PUSH_STALENESS_BUFFER",
+        "severity": "MED",
+        "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
+        "pass": true
+      }
+    ],
+    "label": "LBTC_FUNDAMENTAL (0.25%, 86400s)",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "RedStone",
+    "whitelisted": false
   }
 ]

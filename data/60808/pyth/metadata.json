@@ -19820,5 +19820,18 @@
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.TEST2/USD"
     }
+  },
+  {
+    "id": "0x25ac38864cd1802a9441e82d4b3e0a4eed9938a1849b8d2dcd788e631e3b288c",
+    "attributes": {
+      "asset_type": "Rates",
+      "base": "US3Y",
+      "description": "UNITED STATES 3 YEAR GOVERNMENT BONDS YIELD",
+      "display_symbol": "US3Y %",
+      "generic_symbol": "US3Y",
+      "quote_currency": "%",
+      "schedule": "America/New_York;0800-1700,0800-1700,0800-1700,0800-1700,0800-1700,C,C;1224/0800-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Rates.US3Y"
+    }
   }
 ]
