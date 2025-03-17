@@ -12561,15 +12561,14 @@
   {
     "id": "0xb2fb54966d4d30afbb77cc9dce9d43c52f0f575e7d41dcab6ff3dbfe15ad4559",
     "attributes": {
-      "asset_type": "Crypto Redemption Rate",
+      "asset_type": "Crypto Index",
       "base": "CRT",
-      "contract_id": "spl: FfCRL34rkJiMiX5emNDrYp3MdWH2mES3FvDQyFppqgpJ",
-      "description": "CARROT YIELD BEARING TOKEN / US DOLLAR REDEMPTION RATE",
+      "description": "CARROT YIELD BEARING TOKEN / US DOLLAR",
       "display_symbol": "CRT/USD",
       "generic_symbol": "CRTUSD",
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.CRT/USD.RR"
+      "symbol": "Crypto.Index.CRT/USD"
     }
   },
   {
@@ -19531,14 +19530,14 @@
     "id": "0xf2bc80352bbee0bfecf26c7f645c62ff79dff4f5bc27c3dbc8b0b6c2c290f4dd",
     "attributes": {
       "asset_type": "Crypto Redemption Rate",
-      "base": "FRXUSD",
+      "base": "SFRXUSD",
       "contract_id": "eth: 0xcf62f905562626cfcdd2261162a51fd02fc9c5b6",
-      "description": "FRAX US DOLLAR / STAKED FRAX US DOLLAR REDEMPTION RATE",
-      "display_symbol": "FRXUSD/SFRXUSD",
-      "generic_symbol": "FRXUSDSFRXUSD",
-      "quote_currency": "SFRXUSD",
+      "description": "STAKED FRAX US DOLLAR / FRAX US DOLLAR REDEMPTION RATE",
+      "display_symbol": "SFRXUSD/FRXUSD",
+      "generic_symbol": "SFRXUSDFRXUSD",
+      "quote_currency": "FRXUSD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.FRXUSD/SFRXUSD.RR"
+      "symbol": "Crypto.SFRXUSD/FRXUSD.RR"
     }
   },
   {
@@ -19832,6 +19831,33 @@
       "quote_currency": "%",
       "schedule": "America/New_York;0800-1700,0800-1700,0800-1700,0800-1700,0800-1700,C,C;1224/0800-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Rates.US3Y"
+    }
+  },
+  {
+    "id": "0x8f749681c078ce4ef65cd220994f25735b80264fca4386dd57b31eacf7e4610b",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "FHYPE",
+      "contract_id": "hype: 0x34a70Db6c0E3d5f93d7026fa6dCd6e11adFd56C5",
+      "description": "HYPERFLASH STAKED HYPERLIQUID / HYPERLIQUID REDEMPTION RATE",
+      "display_symbol": "FHYPE/HYPE",
+      "generic_symbol": "FHYPEHYPE",
+      "quote_currency": "HYPE",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.FHYPE/HYPE.RR"
+    }
+  },
+  {
+    "id": "0x19f463beb47cb398cf2e2c8037f1d0073583cf18209c91a636f051d755ce0662",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "STS",
+      "description": "BEETS STAKED SONIC / US DOLLAR",
+      "display_symbol": "STS/USD",
+      "generic_symbol": "STSUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.STS/USD"
     }
   }
 ]
