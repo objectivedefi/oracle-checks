@@ -1092,6 +1092,13 @@
     "decimals": 18
   },
   {
+    "address": "0xD11c452fc99cF405034ee446803b6F6c1F6d5ED8",
+    "chainId": 1,
+    "name": "Treehouse ETH",
+    "symbol": "tETH",
+    "decimals": 18
+  },
+  {
     "address": "0xB4EFd85c19999D84251304bDA99E90B92300Bd93",
     "chainId": 1,
     "name": "Rocket Pool",

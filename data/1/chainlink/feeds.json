@@ -150,6 +150,16 @@
     "version": "6"
   },
   {
+    "address": "0x7B2Fb2c667af80Bccc0B2556378352dFDE2be914",
+    "chainId": 1,
+    "accessController": "0x0000000000000000000000000000000000000000",
+    "aggregator": "0x3737f955897310f7cAcbc5Cc5da9362aaD18B38c",
+    "decimals": 18,
+    "description": "tETH / wstETH Exchange Rate",
+    "owner": "0x21f73D42Eb58Ba49dDB685dc29D3bF5c0f0373CA",
+    "version": "6"
+  },
+  {
     "address": "0x8f1dF6D7F2db73eECE86a18b4381F4707b918FB1",
     "chainId": 1,
     "accessController": "0x0000000000000000000000000000000000000000",
