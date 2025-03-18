@@ -2669,6 +2669,33 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x66Fe0094194F73e23469a5d279B2057327D55819",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "trumatic-matic-exchange-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "TRUMATIC / MATIC Exchange Rate",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "trumatic-matic-exchange-rate",
+    "proxyAddress": "0xed7051d55eeaF85E36053D6b0f2C51E59625B047",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 18
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x670eD927ca98c5f712499879E35098e9ecc78F4f",
     "contractType": "",
     "contractVersion": 6,
