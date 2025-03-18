@@ -16738,6 +16738,23 @@
     }
   },
   {
+    "id": "0x2ad21b845aafc10e9de5e1057ef74f4ca8b7d03595d81f35b61b458c04d21621",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "CANG",
+      "cms_symbol": "CANG",
+      "country": "US",
+      "cqs_symbol": "CANG",
+      "description": "CANGO INC / US DOLLAR",
+      "display_symbol": "CANG/USD",
+      "nasdaq_symbol": "CANG",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.CANG/USD"
+    }
+  },
+  {
     "id": "0x41827044d61d411b307f78a25b3b4f8b27f2e26b22f4ef9381c1041f65039c8a",
     "attributes": {
       "asset_type": "Crypto",
