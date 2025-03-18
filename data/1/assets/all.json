@@ -1099,6 +1099,13 @@
     "decimals": 18
   },
   {
+    "address": "0x8E0789d39db454DBE9f4a77aCEF6dc7c69f6D552",
+    "chainId": 1,
+    "name": "Inception Symbiotic Restaked wstETH",
+    "symbol": "inwstETHs",
+    "decimals": 18
+  },
+  {
     "address": "0xB4EFd85c19999D84251304bDA99E90B92300Bd93",
     "chainId": 1,
     "name": "Rocket Pool",
