@@ -19452,7 +19452,7 @@
     "attributes": {
       "asset_type": "Rates",
       "base": "EFFR",
-      "description": "EFFECTIVE FEDERAL RUNDS RATE",
+      "description": "EFFECTIVE FEDERAL FUNDS RATE",
       "display_symbol": "EFFR %",
       "generic_symbol": "EFFR",
       "quote_currency": "%",
