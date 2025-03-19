@@ -1,6 +1,15 @@
 [
   {
     "chainId": 146,
+    "pt": "0x15C2B34593E47253eD3fd1115887c5C2D73D5722",
+    "market": "0x4A54C1EB9125A5e3De8cC44f618dB45055952674",
+    "accountingAsset": "0xCC0966D8418d412c599A6421b760a847eB169A8c",
+    "underlyingAsset": "0xCC0966D8418d412c599A6421b760a847eB169A8c",
+    "expiry": 1750896000,
+    "symbol": "SolvBTC.BBN"
+  },
+  {
+    "chainId": 146,
     "pt": "0x420df605D062F8611EFb3F203BF258159b8FfFdE",
     "market": "0x3aeF1d372d0a7a7E482F465Bc14A42D78f920392",
     "accountingAsset": "0x0000000000000000000000000000000000000000",

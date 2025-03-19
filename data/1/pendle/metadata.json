@@ -181,6 +181,15 @@
   },
   {
     "chainId": 1,
+    "pt": "0x23E60d1488525bf4685f53b3aa8E676c30321066",
+    "market": "0x09fA04Aac9c6d1c6131352EE950CD67ecC6d4fB9",
+    "accountingAsset": "0x66a1E37c9b0eAddca17d3662D6c05F4DECf3e110",
+    "underlyingAsset": "0x1202F5C7b4B9E47a1A484E8B270be34dbbC75055",
+    "expiry": 1758758400,
+    "symbol": "wstUSR"
+  },
+  {
+    "chainId": 1,
     "pt": "0x248241244356D18f63d0c16082996839ecB0C7bF",
     "market": "0xcDBD5ff3E03b6828Db9C32e2131A60ABA5137901",
     "accountingAsset": "0x0000000000000000000000000000000000000000",

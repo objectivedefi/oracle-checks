@@ -451,6 +451,15 @@
   },
   {
     "chainId": 42161,
+    "pt": "0xBDcf887B8c8aC9FB27876C5376695008b13dbC63",
+    "market": "0xFF4d6991658c5844856FAEF5da9232C252896FCa",
+    "accountingAsset": "0x6491c05A82219b8D1479057361ff1654749b876b",
+    "underlyingAsset": "0xdDb46999F8891663a8F2828d25298f70416d7610",
+    "expiry": 1756339200,
+    "symbol": "sUSDS"
+  },
+  {
+    "chainId": 42161,
     "pt": "0xBFd3A44f673f4d4dF9b1Ec126C4a5F602F0380Ad",
     "market": "0x9bC62257Ffe7D0f7c52A019E6Fc0AF3102F8F44E",
     "accountingAsset": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
