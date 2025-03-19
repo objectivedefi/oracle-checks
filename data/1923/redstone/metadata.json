@@ -106,5 +106,11 @@
     "priceFeedAddress": "0x5ED849a45B4608952161f45483F4B95BCEa7f8f0",
     "deviationPercentage": 0.5,
     "heartbeat": 21600
+  },
+  {
+    "symbol": "KING_FUNDAMENTAL",
+    "priceFeedAddress": "0xc555c100DB24dF36D406243642C169CC5A937f09",
+    "deviationPercentage": 0.5,
+    "heartbeat": 21600
   }
 ]
