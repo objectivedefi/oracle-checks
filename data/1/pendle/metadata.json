@@ -1081,6 +1081,15 @@
   },
   {
     "chainId": 1,
+    "pt": "0xaE666C484C28a3376Ea8929A4DE6c378621d62a6",
+    "market": "0x86D27c49A6a7A2BC033B5d67a21F93d62894CCb9",
+    "accountingAsset": "0x0000000000000000000000000000000000000000",
+    "underlyingAsset": "0xf951E335afb289353dc249e82926178EaC7DEd78",
+    "expiry": 1750896000,
+    "symbol": "swETH"
+  },
+  {
+    "chainId": 1,
     "pt": "0xAfA002De2DADb57B2b04e32aa4F42a69AdEBF2FD",
     "market": "0x403829bCE022844f66cDB2911D2260526d4eb843",
     "accountingAsset": "0x57e114B691Db790C35207b2e685D4A43181e6061",
