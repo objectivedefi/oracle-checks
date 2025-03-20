@@ -12809,23 +12809,6 @@
     }
   },
   {
-    "id": "0x8a6a338e7cd256a83e4f27d7cf7ebe4983cae694a00762ef25c6c7da5607124e",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "EOG",
-      "cms_symbol": "EOG",
-      "country": "US",
-      "cqs_symbol": "EOG",
-      "description": "EOG RESOURCES INC / US DOLLAR",
-      "display_symbol": "EOG/USD",
-      "nasdaq_symbol": "EOG",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
-      "symbol": "Equity.US.EOG/USD"
-    }
-  },
-  {
     "id": "0x71964eba24eb7fb3b8be60d8c2a4809f1eb6574cba978cab0795b65ba6f32646",
     "attributes": {
       "asset_type": "Equity",
