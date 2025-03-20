@@ -728,6 +728,13 @@
     "decimals": 18
   },
   {
+    "address": "0xD11c452fc99cF405034ee446803b6F6c1F6d5ED8",
+    "chainId": 1,
+    "name": "Treehouse ETH",
+    "symbol": "tETH",
+    "decimals": 18
+  },
+  {
     "address": "0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8",
     "chainId": 1,
     "name": "EURA (previously agEUR)",
@@ -1096,13 +1103,6 @@
     "chainId": 1,
     "name": "YieldFi Stable Token",
     "symbol": "sUSD",
-    "decimals": 18
-  },
-  {
-    "address": "0xD11c452fc99cF405034ee446803b6F6c1F6d5ED8",
-    "chainId": 1,
-    "name": "Treehouse ETH",
-    "symbol": "tETH",
     "decimals": 18
   },
   {
