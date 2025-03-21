@@ -30,6 +30,16 @@
     "version": "6"
   },
   {
+    "address": "0xc0990e0989141a5F535a2a24b6Af65618CC83d32",
+    "chainId": 43114,
+    "accessController": "0x0000000000000000000000000000000000000000",
+    "aggregator": "0x8273492CC60D6aD10914d5Ad10De564553302913",
+    "decimals": 18,
+    "description": "SolvBTC.BBN / SolvBTC Exchange Rate",
+    "owner": "0x75d8a28B87F5A88849542A7e1Ac838F19b5D34C7",
+    "version": "6"
+  },
+  {
     "address": "0x976B3D034E162d8bD72D6b9C989d545b839003b0",
     "chainId": 43114,
     "accessController": "0x0000000000000000000000000000000000000000",
