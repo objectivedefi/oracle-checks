@@ -224,6 +224,7 @@ export const chainConfigs: Record<number, CheckConfig> = {
       },
     }),
     fromBlock: 786266n,
+    maxBlockRange: 100000n,
     metadataHashes,
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {},

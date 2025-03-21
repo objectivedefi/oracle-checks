@@ -9,6 +9,7 @@ export type SystemAddresses = {
 export type CheckConfig = SystemAddresses & {
   publicClient: PublicClient;
   fromBlock: bigint;
+  maxBlockRange?: bigint;
   minPushHeartbeatBuffer: number;
   pythStalenessLowerBound: number;
   pythStalenessUpperBound: number;
