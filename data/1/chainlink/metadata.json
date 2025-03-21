@@ -3015,8 +3015,9 @@
     "proxyAddress": "0xC8cd82067eA907EA4af81b625d2bB653E21b5156",
     "threshold": 2,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
+    "valueSuffix": "ETH",
+    "assetName": "eETH",
+    "feedCategory": "custom",
     "feedType": "",
     "docs": {
       "assetClass": "Crypto",
