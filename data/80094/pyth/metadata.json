@@ -19786,7 +19786,7 @@
       "asset_type": "Crypto Redemption Rate",
       "base": "YNBTCK",
       "contract_id": "bnb: 0x78839cE14a8213779128Ee4da6D75E1326606A56",
-      "description": "YIELD NEST RESTAKED BITCOIN /  BITCOIN REDEMPTION RATE",
+      "description": "YIELDNEST RESTAKED BITCOIN /  BITCOIN REDEMPTION RATE",
       "display_symbol": "YNBTCK/BTC",
       "generic_symbol": "YNBTCKBTC",
       "quote_currency": "BTC",
@@ -19858,6 +19858,119 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.STS/USD"
+    }
+  },
+  {
+    "id": "0xa5fcd936b0178a425663f150dd87175bd8c374bff2ebc1e833ea73a67f721ca2",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "BMT",
+      "description": "BUBBLEMAPS / US DOLLAR",
+      "display_symbol": "BMT/USD",
+      "generic_symbol": "BMTUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.BMT/USD"
+    }
+  },
+  {
+    "id": "0x6a96e75bce787de27eefe3f191e13f0b2c66ceefb7fbbeb4177f4d6f113e45f0",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "INK",
+      "description": "INK FINANCE / US DOLLAR",
+      "display_symbol": "INK/USD",
+      "generic_symbol": "INKUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.INK/USD"
+    }
+  },
+  {
+    "id": "0x9e3cadc2a8a0ebfd765b34d5ee5de77a4add3114672fc0b8d3ad09ac56940069",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "LHYPE",
+      "description": "LOOPED HYPE / US DOLLAR",
+      "display_symbol": "LHYPE/USD",
+      "generic_symbol": "LHYPEUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.LHYPE/USD"
+    }
+  },
+  {
+    "id": "0x2dc7f272d3010abe4de48755a50fcf5bd9eefd3b4af01d8f39f6c80ae51544fe",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "OUSDT",
+      "description": "OPEN USDT / US DOLLAR",
+      "display_symbol": "OUSDT/USD",
+      "generic_symbol": "OUSDTUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.OUSDT/USD"
+    }
+  },
+  {
+    "id": "0xe7f14a58b2ce19f896b0d4f88d93933ec55e7a91cea94d9dbb43ad3fd6350440",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "SYUSD",
+      "description": "SYNNAX US DOLLAR / US DOLLAR",
+      "display_symbol": "SYUSD/USD",
+      "generic_symbol": "SYUSDUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.SYUSD/USD"
+    }
+  },
+  {
+    "id": "0xaf2a90410d6fdcaad452c6081fb7ec26cd6bffbe18b6dbc894f310e6e49585ee",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "XUSD",
+      "contract_id": "eth: 0xE2Fc85BfB48C4cF147921fBE110cf92Ef9f26F94",
+      "description": "STAKED STREAM US DOLLAR / USD COIN REDEMPTION RATE",
+      "display_symbol": "XUSD/USDC",
+      "generic_symbol": "XUSDUSDC",
+      "quote_currency": "USDC",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.XUSD/USDC.RR"
+    }
+  },
+  {
+    "id": "0x33e3853fe3382522aec843bcc3e795bc62ef9d48a47fe2ea7e777926a7ac70f7",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MCHI",
+      "cms_symbol": "MCHI",
+      "country": "US",
+      "cqs_symbol": "MCHI",
+      "description": "ISHARES MSCI CHINA ETF / US DOLLAR",
+      "display_symbol": "MCHI/USD",
+      "nasdaq_symbol": "MCHI",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.MCHI/USD"
+    }
+  },
+  {
+    "id": "0xcdea273301806de445b481e91a8dbe292ba23fcff8f7dec2053311555a0656c3",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "STRK",
+      "cms_symbol": "STRK",
+      "country": "US",
+      "cqs_symbol": "STRK",
+      "description": "MICROSTRATEGY INCORPORATED / US DOLLAR",
+      "display_symbol": "STRK/USD",
+      "nasdaq_symbol": "STRK",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.STRK/USD"
     }
   }
 ]
