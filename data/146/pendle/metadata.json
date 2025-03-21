@@ -28,6 +28,15 @@
   },
   {
     "chainId": 146,
+    "pt": "0x789cA09b0B4bcc83062d817C43206f96bd464015",
+    "market": "0x9700C4C218237550EAd3a78022d43215A717e5e7",
+    "accountingAsset": "0x0C4E186Eae8aCAA7F7de1315D5AD174BE39Ec987",
+    "underlyingAsset": "0xfA85Fe5A8F5560e9039C04f2b0a90dE1415aBD70",
+    "expiry": 1756339200,
+    "symbol": "wanS"
+  },
+  {
+    "chainId": 146,
     "pt": "0x930441Aa7Ab17654dF5663781CA0C02CC17e6643",
     "market": "0x3F5EA53d1160177445B1898afbB16da111182418",
     "accountingAsset": "0x29219dd400f2Bf60E5a23d13Be72B486D4038894",
