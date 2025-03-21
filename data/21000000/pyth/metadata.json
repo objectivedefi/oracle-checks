@@ -11845,6 +11845,23 @@
     }
   },
   {
+    "id": "0xffd5fb797551c47a8afbe371a3223489615969197332e02a412d79cd59a8423f",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "CRL",
+      "cms_symbol": "CRL",
+      "country": "US",
+      "cqs_symbol": "CRL",
+      "description": "CHARLES RIVER LABORATORIES INTERNATIONAL INC / US DOLLAR",
+      "display_symbol": "CRL/USD",
+      "nasdaq_symbol": "CRL",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.CRL/USD"
+    }
+  },
+  {
     "id": "0x5f28e3b079837ccba948864610ef7a436235aaed53d3b3c72e1c2b2d2d825407",
     "attributes": {
       "asset_type": "Equity",
