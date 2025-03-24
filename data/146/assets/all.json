@@ -91,6 +91,13 @@
     "decimals": 18
   },
   {
+    "address": "0x420df605D062F8611EFb3F203BF258159b8FfFdE",
+    "chainId": 146,
+    "name": "PT Beets Staked Sonic 29MAY2025",
+    "symbol": "PT-stS-29MAY2025",
+    "decimals": 18
+  },
+  {
     "address": "0x541FD749419CA806a8bc7da8ac23D346f2dF8B77",
     "chainId": 146,
     "name": "Solv BTC",
@@ -109,13 +116,6 @@
     "chainId": 146,
     "name": "HeyAnon",
     "symbol": "Anon",
-    "decimals": 18
-  },
-  {
-    "address": "0x420df605D062F8611EFb3F203BF258159b8FfFdE",
-    "chainId": 146,
-    "name": "PT Beets Staked Sonic 29MAY2025",
-    "symbol": "PT-stS-29MAY2025",
     "decimals": 18
   }
 ]
