@@ -2451,7 +2451,7 @@
         "pass": true
       }
     ],
-    "label": "LBTC",
+    "label": "Unknown pool",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
@@ -3341,7 +3341,7 @@
         "pass": true
       }
     ],
-    "label": "USR",
+    "label": "Unknown pool",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
