@@ -84,17 +84,17 @@
     "decimals": 6
   },
   {
-    "address": "0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd",
-    "chainId": 43114,
-    "name": "JoeToken",
-    "symbol": "JOE",
-    "decimals": 18
-  },
-  {
     "address": "0xA25EaF2906FA1a3a13EdAc9B9657108Af7B703e3",
     "chainId": 43114,
     "name": "GoGoPool Liquid Staking Token",
     "symbol": "ggAVAX",
+    "decimals": 18
+  },
+  {
+    "address": "0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd",
+    "chainId": 43114,
+    "name": "JoeToken",
+    "symbol": "JOE",
     "decimals": 18
   }
 ]
