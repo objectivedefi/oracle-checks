@@ -89,5 +89,26 @@
     "name": "Nectar",
     "symbol": "NECT",
     "decimals": 18
+  },
+  {
+    "address": "0x6fc6545d5cDE268D5C7f1e476D444F39c995120d",
+    "chainId": 80094,
+    "name": "Berachain Staked ETH",
+    "symbol": "beraETH",
+    "decimals": 18
+  },
+  {
+    "address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+    "chainId": 80094,
+    "name": "USDe",
+    "symbol": "USDe",
+    "decimals": 18
+  },
+  {
+    "address": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
+    "chainId": 80094,
+    "name": "Staked USDe",
+    "symbol": "sUSDe",
+    "decimals": 18
   }
 ]

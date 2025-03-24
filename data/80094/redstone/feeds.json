@@ -27,6 +27,24 @@
     "priceFeedAdapter": "0x24c8964338Deb5204B096039147B8e8C3AEa42Cc"
   },
   {
+    "address": "0x197225B3B017eb9b72Ac356D6B3c267d0c04c57c",
+    "chainId": 80094,
+    "decimals": 8,
+    "description": "RedStone Price Feed for sUSDe_FUNDAMENTAL",
+    "version": "1",
+    "dataFeedId": "0x73555344655f46554e44414d454e54414c000000000000000000000000000000",
+    "priceFeedAdapter": "0x24c8964338Deb5204B096039147B8e8C3AEa42Cc"
+  },
+  {
+    "address": "0xbbF121624c3b85C929Ac83872bf6c86b0976A55e",
+    "chainId": 80094,
+    "decimals": 8,
+    "description": "RedStone Price Feed for USDe",
+    "version": "1",
+    "dataFeedId": "0x5553446500000000000000000000000000000000000000000000000000000000",
+    "priceFeedAdapter": "0x24c8964338Deb5204B096039147B8e8C3AEa42Cc"
+  },
+  {
     "address": "0x6A1c87d11dDe3D1d52c24f8EC59B91019f14170D",
     "chainId": 80094,
     "decimals": 8,
@@ -60,6 +78,15 @@
     "description": "RedStone Price Feed for NECT",
     "version": "1",
     "dataFeedId": "0x4e45435400000000000000000000000000000000000000000000000000000000",
+    "priceFeedAdapter": "0x24c8964338Deb5204B096039147B8e8C3AEa42Cc"
+  },
+  {
+    "address": "0xcA727511c9d542AAb9eF406d24E5bbbE4567c22d",
+    "chainId": 80094,
+    "decimals": 8,
+    "description": "RedStone Price Feed for beraETH_FUNDAMENTAL/USD",
+    "version": "1",
+    "dataFeedId": "0x626572614554485f46554e44414d454e54414c2f555344000000000000000000",
     "priceFeedAdapter": "0x24c8964338Deb5204B096039147B8e8C3AEa42Cc"
   },
   {
