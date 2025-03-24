@@ -56,6 +56,13 @@
     "decimals": 6
   },
   {
+    "address": "0x24dE8771bC5DdB3362Db529Fc3358F2df3A0E346",
+    "chainId": 43114,
+    "name": "avUSD",
+    "symbol": "avUSD",
+    "decimals": 18
+  },
+  {
     "address": "0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd",
     "chainId": 43114,
     "name": "JoeToken",
@@ -74,13 +81,6 @@
     "chainId": 43114,
     "name": "SolvBTC Babylon",
     "symbol": "SolvBTC.BBN",
-    "decimals": 18
-  },
-  {
-    "address": "0x24dE8771bC5DdB3362Db529Fc3358F2df3A0E346",
-    "chainId": 43114,
-    "name": "avUSD",
-    "symbol": "avUSD",
     "decimals": 18
   },
   {
