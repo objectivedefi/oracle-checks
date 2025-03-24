@@ -406,6 +406,9 @@
     "whitelisted": true
   },
   {
+    "address": "0x06d47F3fb376649c3A9Dafe069B3D6E35572219E"
+  },
+  {
     "name": "ChainlinkOracle",
     "address": "0x255Bee201D2526BBf2753DF6A6057f23431A3E1C",
     "chainId": 43114,
@@ -751,8 +754,5 @@
     "model": "Unknown",
     "provider": "Cross",
     "whitelisted": true
-  },
-  {
-    "address": "0x06d47F3fb376649c3A9Dafe069B3D6E35572219E"
   }
 ]

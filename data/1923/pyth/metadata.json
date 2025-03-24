@@ -20084,5 +20084,48 @@
       "symbol": "FX.USD/TWD",
       "tenor": "Spot"
     }
+  },
+  {
+    "id": "0x9267d133d6a8d510f8117a6de30f2ac1fe7fbe5d52785408b1074abcf2325ddf",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "K",
+      "description": "KINTO / US DOLLAR",
+      "display_symbol": "K/USD",
+      "generic_symbol": "KUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.K/USD"
+    }
+  },
+  {
+    "id": "0xeba0732395fae9dec4bae12e52760b35fc1c5671e2da8b449c9af4efe5d54341",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "WAL",
+      "description": "WALRUS PROTOCOL / US DOLLAR",
+      "display_symbol": "WAL/USD",
+      "generic_symbol": "WALUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.WAL/USD"
+    }
+  },
+  {
+    "id": "0x55e9d82de00129d0fb368bc89d1ee59146b80a8772f8a972febac3f65ed3151f",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "RIO",
+      "cms_symbol": "RIO",
+      "country": "US",
+      "cqs_symbol": "RIO",
+      "description": "RIO TINTO GROUP / US DOLLAR",
+      "display_symbol": "RIO/USD",
+      "nasdaq_symbol": "RIO",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.RIO/USD"
+    }
   }
 ]
