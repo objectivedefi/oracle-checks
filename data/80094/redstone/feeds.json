@@ -54,6 +54,15 @@
     "priceFeedAdapter": "0x24c8964338Deb5204B096039147B8e8C3AEa42Cc"
   },
   {
+    "address": "0x5e21f6530f656A38caE4F55500944753F662D184",
+    "chainId": 80094,
+    "decimals": 8,
+    "description": "RedStone Price Feed for NECT",
+    "version": "1",
+    "dataFeedId": "0x4e45435400000000000000000000000000000000000000000000000000000000",
+    "priceFeedAdapter": "0x24c8964338Deb5204B096039147B8e8C3AEa42Cc"
+  },
+  {
     "address": "0x29d2fEC890B037B2d34f061F9a50f76F85ddBcAE",
     "chainId": 80094,
     "decimals": 8,

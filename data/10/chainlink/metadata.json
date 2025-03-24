@@ -4387,6 +4387,33 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0xD654CaF9177dD29dd76550f27F80C3B92Ddc734E",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "hai-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "HAI / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "hai-usd",
+    "proxyAddress": "0xF4d48d48C177C4CcBb95F8cbe62619A80a992A99",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0xDa6fCf88c718eCEB18c2c08A543562b1146F4996",
     "contractType": "",
     "contractVersion": 4,
