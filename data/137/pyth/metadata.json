@@ -4069,19 +4069,6 @@
     }
   },
   {
-    "id": "0xb9ccc817bfeded3926af791f09f76c5ffbc9b789cac6e9699ec333a79cacbe2a",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "KNC",
-      "description": "KYBER NETWORK CRYSTAL V2 / US DOLLAR",
-      "display_symbol": "KNC/USD",
-      "generic_symbol": "KNCUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.KNC/USD"
-    }
-  },
-  {
     "id": "0xdedebc9e4d916d10b76cfbc21ccaacaf622ab1fc7f7ba586a0de0eba76f12f3f",
     "attributes": {
       "asset_type": "Crypto",
