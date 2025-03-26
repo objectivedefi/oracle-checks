@@ -20917,7 +20917,7 @@
       {
         "id": "CONSISTENT_ASSET",
         "severity": "HIGH",
-        "message": "Asset 0x64047dD3288276d70A4F8B5Df54668c8403f877F is amphrBTC (Amphor Restaked BTC) with 18 decimals",
+        "message": "Asset 0x64047dD3288276d70A4F8B5Df54668c8403f877F is amphrBTC (Amphor Restaked BTC) with 8 decimals",
         "pass": true
       },
       {
@@ -21033,7 +21033,7 @@
       {
         "id": "CONSISTENT_ASSET",
         "severity": "HIGH",
-        "message": "Asset 0x64047dD3288276d70A4F8B5Df54668c8403f877F is amphrBTC (Amphor Restaked BTC) with 18 decimals",
+        "message": "Asset 0x64047dD3288276d70A4F8B5Df54668c8403f877F is amphrBTC (Amphor Restaked BTC) with 8 decimals",
         "pass": true
       },
       {

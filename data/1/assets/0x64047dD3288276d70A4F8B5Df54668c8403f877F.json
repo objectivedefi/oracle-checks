@@ -3,5 +3,5 @@
   "chainId": 1,
   "name": "Amphor Restaked BTC",
   "symbol": "amphrBTC",
-  "decimals": 18
+  "decimals": 8
 }
