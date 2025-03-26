@@ -6,7 +6,7 @@ import { runChecks } from "./runChecks";
 
 async function runChecksForAllChains(): Promise<void> {
   cleanDataDir();
-  for (const chainId of [sonic.id]) {
+  for (const chainId of Object.keys(chainConfigs)) {
     const dirPath = `./data/${chainId}`;
 
     const data = await collectData(+chainId);
