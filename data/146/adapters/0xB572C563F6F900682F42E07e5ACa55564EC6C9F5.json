@@ -50,9 +50,9 @@
       "pass": false
     }
   ],
-  "label": "Unknown AggregatorV3 Feed",
+  "label": "eOracle Pendle PT-stS (29MAY2025) Linear Discount/USD ",
   "methodology": "Unknown",
   "model": "Push",
-  "provider": "Unknown",
+  "provider": "eOracle",
   "whitelisted": false
 }
