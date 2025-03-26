@@ -2943,6 +2943,33 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x6f27D01DFcFa987e983296C013192782C5b09a89",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "maticx-pol-exchange-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "MaticX / POL Exchange Rate",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "maticx-pol-exchange-rate",
+    "proxyAddress": "0x864377d3620da9d42451f98674593e067a997308",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 18
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x6fC6d89b61A8a0D8CFbcB6e412fC887566dD70e6",
     "contractType": "",
     "contractVersion": 6,
