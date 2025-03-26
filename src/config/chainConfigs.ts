@@ -111,6 +111,14 @@ export const chainConfigs: Record<number, CheckConfig> = {
         provider: "MEV Linear Discount",
         description: "MEV Linear Discount Oracle PT-wstkscETH-29MAY2025/USD",
       },
+      "0xd4093Ce7c175320D7ED6B5A28Cf51F67E11746A5": {
+        provider: "eOracle",
+        description: "eOracle Pendle PT-wOS (29MAY2025) Linear Discount/USD",
+      },
+      "0x5940bAa708252A0D8D80767dECb6201BdD26061D": {
+        provider: "eOracle",
+        description: "eOracle Pendle PT-stS (29MAY2025) Linear Discount/USD",
+      },
     },
     ...defaultBounds,
     ...getAddressesForChain(sonic.id),

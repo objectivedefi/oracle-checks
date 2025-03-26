@@ -1,3 +1,4 @@
+import { sonic } from "viem/chains";
 import { collectData } from "./collectData";
 import { chainConfigs } from "./config/chainConfigs";
 import { saveJSON, cleanDataDir } from "./fs";
@@ -5,7 +6,7 @@ import { runChecks } from "./runChecks";
 
 async function runChecksForAllChains(): Promise<void> {
   cleanDataDir();
-  for (const chainId of Object.keys(chainConfigs)) {
+  for (const chainId of [sonic.id]) {
     const dirPath = `./data/${chainId}`;
 
     const data = await collectData(+chainId);
