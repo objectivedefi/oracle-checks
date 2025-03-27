@@ -1031,6 +1031,58 @@
     "whitelisted": true
   },
   {
+    "name": "ChronicleOracle",
+    "address": "0x617889fED99d725831305d13b86Ecc110D772822",
+    "chainId": 80094,
+    "base": "0x09D4214C03D01F49544C0448DBE3A27f768F2b34",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x4f2c5717476c13ad28C89229d6075f16e6554592",
+    "maxStaleness": "10800",
+    "checks": [
+      {
+        "id": "ADAPTER_EXISTS",
+        "severity": "HIGH",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
+      },
+      {
+        "id": "SOURCE_CODE_PROVENANCE",
+        "severity": "HIGH",
+        "message": "Contract metadata hash is not recognized",
+        "pass": false
+      },
+      {
+        "id": "DISTINCT_ASSETS",
+        "severity": "HIGH",
+        "message": "No duplicates found",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x09D4214C03D01F49544C0448DBE3A27f768F2b34 is rUSD (Reservoir Stablecoin) with 18 decimals",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "pass": true
+      }
+    ],
+    "label": "RUSD/USD",
+    "methodology": "Unknown",
+    "model": "Push",
+    "provider": "Chronicle",
+    "whitelisted": true
+  },
+  {
     "name": "PythOracle",
     "address": "0xcbA35E68A1cb2f2ca0ca4895DE33cd61A3B9DBC1",
     "chainId": 80094,
@@ -1648,58 +1700,6 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "RedStone",
-    "whitelisted": true
-  },
-  {
-    "name": "ChronicleOracle",
-    "address": "0x617889fED99d725831305d13b86Ecc110D772822",
-    "chainId": 80094,
-    "base": "0x09D4214C03D01F49544C0448DBE3A27f768F2b34",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "feed": "0x4f2c5717476c13ad28C89229d6075f16e6554592",
-    "maxStaleness": "10800",
-    "checks": [
-      {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
-        "pass": true
-      },
-      {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash is not recognized",
-        "pass": false
-      },
-      {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
-        "pass": true
-      },
-      {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x09D4214C03D01F49544C0448DBE3A27f768F2b34 is rUSD (Reservoir Stablecoin) with 18 decimals",
-        "pass": true
-      },
-      {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
-        "pass": true
-      }
-    ],
-    "label": "RUSD/USD",
-    "methodology": "Unknown",
-    "model": "Push",
-    "provider": "Chronicle",
     "whitelisted": true
   }
 ]
