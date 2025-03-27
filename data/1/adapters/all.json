@@ -9607,7 +9607,7 @@
         "pass": true
       }
     ],
-    "label": "wstUSR",
+    "label": "Unknown pool",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
@@ -22147,7 +22147,7 @@
         "pass": true
       }
     ],
-    "label": "sUSDe",
+    "label": "Unknown pool",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
@@ -22373,7 +22373,7 @@
         "pass": true
       }
     ],
-    "label": "LBTC",
+    "label": "Unknown pool",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
@@ -22629,7 +22629,7 @@
         "pass": true
       }
     ],
-    "label": "eBTC (Corn)",
+    "label": "Unknown pool",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
@@ -22687,7 +22687,7 @@
         "pass": true
       }
     ],
-    "label": "pumpBTC",
+    "label": "Unknown pool",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
@@ -22919,7 +22919,7 @@
         "pass": true
       }
     ],
-    "label": "USD0++",
+    "label": "Unknown pool",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
@@ -23259,7 +23259,7 @@
         "pass": true
       }
     ],
-    "label": "USDe",
+    "label": "Unknown pool",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",

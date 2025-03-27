@@ -25,14 +25,6 @@
   },
   {
     "chainId": 56,
-    "pt": "0x541B5eEAC7D4434C8f87e2d32019d67611179606",
-    "market": "0x9dAA2878A8739E66e08e7ad35316C5143c0ea7C7",
-    "underlyingAsset": "0x1346b618dC92810EC74163e4c27004c921D446a5",
-    "expiry": 1743033600,
-    "symbol": "SolvBTC.BBN"
-  },
-  {
-    "chainId": 56,
     "pt": "0x5d1735B8E33BAe069708cEA245066dE1A12Cd38D",
     "market": "0x0921CcC98956B1599003Fd9739d5e66BF319A161",
     "underlyingAsset": "0xA07c5b74C9B40447a954e1466938b865b6BBea36",

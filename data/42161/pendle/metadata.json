@@ -1,14 +1,6 @@
 [
   {
     "chainId": 42161,
-    "pt": "0x0AB24eCB207602983A20cfCF0E3045c08C651778",
-    "market": "0x3be83Cc235455Ae1B624Cf6e326505769AD8f9eA",
-    "underlyingAsset": "0x7d353420B3Eb3Cd9e7C819b4fEA369686fd26b32",
-    "expiry": 1743033600,
-    "symbol": "spSILO"
-  },
-  {
-    "chainId": 42161,
     "pt": "0x0b6121b4c00ca4FbBb6516C11eB4BF61722E0f8d",
     "market": "0x22e0F26320aCE985e3CB2434095F18Bfe114E28e",
     "underlyingAsset": "0xd3443ee1e91aF28e5FB858Fbd0D72A63bA8046E0",
@@ -46,30 +38,6 @@
     "underlyingAsset": "0x37227785a1f4545ed914690e395e4CFE96B8319f",
     "expiry": 1750896000,
     "symbol": "ePENDLE"
-  },
-  {
-    "chainId": 42161,
-    "pt": "0x2A18A490EC18b019837f6153269d21A772167292",
-    "market": "0xd0FDb5EE558B3BCd9e5Bc1344B28b2249de6559C",
-    "underlyingAsset": "0x37227785a1f4545ed914690e395e4CFE96B8319f",
-    "expiry": 1743033600,
-    "symbol": "ePENDLE"
-  },
-  {
-    "chainId": 42161,
-    "pt": "0x4a94091CAdD74BDf313B74d58EAc908C5fC53704",
-    "market": "0x9fF912568eB011D719B5F4E940f8135633F4bCDc",
-    "underlyingAsset": "0xB688BA096b7Bb75d7841e47163Cd12D18B36A5bF",
-    "expiry": 1743033600,
-    "symbol": "mPENDLE"
-  },
-  {
-    "chainId": 42161,
-    "pt": "0x4D5D8375C39DC91A8acA33FF4A4564De92dcd04c",
-    "market": "0xA9104b8B6698979568852C30231871e28A482b3C",
-    "underlyingAsset": "0xd85E038593d7A098614721EaE955EC2022B9B91B",
-    "expiry": 1743033600,
-    "symbol": "gDAI"
   },
   {
     "chainId": 42161,

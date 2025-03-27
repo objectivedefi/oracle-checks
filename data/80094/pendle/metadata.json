@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "chainId": 80094,
+    "pt": "0x1b34BEaE4F3a559Ec3412532445C44b74D4053C5",
+    "market": "0xbFC42d9CB3358603e4804AC9ab54159Fd5a85098",
+    "underlyingAsset": "0x657e8C867D8B37dCC18fA4Caead9C45EB088C642",
+    "expiry": 1758758400,
+    "symbol": "eBTC"
+  },
+  {
+    "chainId": 80094,
+    "pt": "0x2719e657ec3B3CbE521a18E640CA55799836376f",
+    "market": "0xd8079e0929d67390067529974B116212903cAC69",
+    "underlyingAsset": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
+    "expiry": 1758758400,
+    "symbol": "sUSDe"
+  },
+  {
+    "chainId": 80094,
+    "pt": "0x48b358b7bC013F24E2D59b3A0d4455f6e71Fe2d6",
+    "market": "0x31Ed9F16C7BbC26AE3404B14aBc68aDc7611B1A6",
+    "underlyingAsset": "0x9b6761bf2397Bb5a6624a856cC84A3A14Dcd3fe5",
+    "expiry": 1750896000,
+    "symbol": "iBera"
+  },
+  {
+    "chainId": 80094,
+    "pt": "0xdc9b87e5eFD6Ca2BeAa33dDe9c544E1e98345De4",
+    "market": "0x0651C3F8BA59e312529d9A92FCebD8Bb159cbAed",
+    "underlyingAsset": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+    "expiry": 1758758400,
+    "symbol": "USDe"
+  },
+  {
+    "chainId": 80094,
+    "pt": "0xdda59E4D1AC10C73B87AAb69686a806732e5F137",
+    "market": "0x227d4a2E5734b500fA0bEd940E4df54bDda25636",
+    "underlyingAsset": "0xac03CABA51e17c86c921E1f6CBFBdC91F8BB2E6b",
+    "expiry": 1750896000,
+    "symbol": "iBGT"
+  }
+]

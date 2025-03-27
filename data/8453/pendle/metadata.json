@@ -41,14 +41,6 @@
   },
   {
     "chainId": 8453,
-    "pt": "0xc1e4d7CA05045dFBC654b67E11124901148b1266",
-    "market": "0x14936C9B8eb798cA6291c2d6CE5de2c6cB5f1f9C",
-    "underlyingAsset": "0xe31eE12bDFDD0573D634124611e85338e2cBF0cF",
-    "expiry": 1743033600,
-    "symbol": "sUSDz"
-  },
-  {
-    "chainId": 8453,
     "pt": "0xE46c8bA948f8071b425a1f7Ba45c0a65CBAcea2e",
     "market": "0x483f2e223c58a5eF19c4B32fbC6dE57709749cb3",
     "underlyingAsset": "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
