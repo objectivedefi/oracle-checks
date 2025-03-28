@@ -735,6 +735,20 @@
     "decimals": 18
   },
   {
+    "address": "0xae4bE3acD95B6a4Ac5A0524ab95dA90c721f6C83",
+    "chainId": 1,
+    "name": "PT Resolv USD 29MAY2025",
+    "symbol": "PT-USR-29MAY2025",
+    "decimals": 18
+  },
+  {
+    "address": "0x23E60d1488525bf4685f53b3aa8E676c30321066",
+    "chainId": 1,
+    "name": "PT Wrapped stUSR 25SEP2025",
+    "symbol": "PT-wstUSR-25SEP2025",
+    "decimals": 18
+  },
+  {
     "address": "0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8",
     "chainId": 1,
     "name": "EURA (previously agEUR)",
