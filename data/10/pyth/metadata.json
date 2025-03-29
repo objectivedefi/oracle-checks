@@ -7543,16 +7543,17 @@
     }
   },
   {
-    "id": "0x192b93a6021cb52313a79ac6c6be72fe138201d9aa29042f402a8304f01e4d53",
+    "id": "0xcaffb53eda8972cf729e59166e64f893960db66fa89ff5cd4702caf2ef4edf8d",
     "attributes": {
-      "asset_type": "Crypto",
-      "base": "SAVE",
-      "description": "SAVE / US DOLLAR",
-      "display_symbol": "SAVE/USD",
-      "generic_symbol": "SAVEUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.SAVE/USD"
+      "asset_type": "FX",
+      "base": "USD",
+      "description": "US DOLLAR / COLOMBIAN PESO SPOT OFFSHORE",
+      "display_symbol": "USD/COP",
+      "generic_symbol": "USDCOP",
+      "quote_currency": "COP",
+      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
+      "symbol": "FX.USD/COP",
+      "tenor": "Spot"
     }
   },
   {
@@ -7791,16 +7792,17 @@
     }
   },
   {
-    "id": "0x4fb5170c621ca5945384f962fd5ac910da575c8026f3b114f1cbf6534190dd33",
+    "id": "0x2bda7f268b52bfbc3f2e124c31445247647350db313caadc6771e6299e0a68c9",
     "attributes": {
-      "asset_type": "Crypto",
-      "base": "HDRO",
-      "description": "HYDRO PROTOCOL / US DOLLAR",
-      "display_symbol": "HDRO/USD",
-      "generic_symbol": "HDROUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.HDRO/USD"
+      "asset_type": "FX",
+      "base": "USD",
+      "description": "US DOLLAR / PHILIPPINES PESO SPOT OFFSHORE",
+      "display_symbol": "USD/PHP",
+      "generic_symbol": "USDPHP",
+      "quote_currency": "PHP",
+      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
+      "symbol": "FX.USD/PHP",
+      "tenor": "Spot"
     }
   },
   {
@@ -8324,16 +8326,17 @@
     }
   },
   {
-    "id": "0xfe688b3713381de6a88d4b3710ad454e57aa6ac439d8281c9e8b13e81ec35053",
+    "id": "0x6693afcd49878bbd622e46bd805e7177932cf6ab0b1c91b135d71151b9207433",
     "attributes": {
-      "asset_type": "Crypto",
-      "base": "PUPS",
-      "description": "PUPS WORLD PEACE / US DOLLAR",
-      "display_symbol": "PUPS/USD",
-      "generic_symbol": "PUPSUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.PUPS/USD"
+      "asset_type": "FX",
+      "base": "USD",
+      "description": "US DOLLAR / INDONESIAN RUPIAH SPOT OFFSHORE",
+      "display_symbol": "USD/IDR",
+      "generic_symbol": "USDIDR",
+      "quote_currency": "IDR",
+      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
+      "symbol": "FX.USD/IDR",
+      "tenor": "Spot"
     }
   },
   {
@@ -8514,16 +8517,17 @@
     }
   },
   {
-    "id": "0xad00fdd0a3525bb598ec1dcd7d39364f4806a28880f090e06c609a3a985c9103",
+    "id": "0x0ac0f9a2886fc2dd708bc66cc2cea359052ce89d324f45d95fadbc6c4fcf1809",
     "attributes": {
-      "asset_type": "Crypto",
-      "base": "MONKY",
-      "description": "WISE MONKY / US DOLLAR",
-      "display_symbol": "MONKY/USD",
-      "generic_symbol": "MONKYUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.MONKY/USD"
+      "asset_type": "FX",
+      "base": "USD",
+      "description": "US DOLLAR / INDIAN RUPEE SPOT OFFSHORE",
+      "display_symbol": "USD/INR",
+      "generic_symbol": "USDINR",
+      "quote_currency": "INR",
+      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
+      "symbol": "FX.USD/INR",
+      "tenor": "Spot"
     }
   },
   {
@@ -14727,16 +14731,17 @@
     }
   },
   {
-    "id": "0xcd15e2b78e5f12e0a77929a17b4aa612089d18f1ea33ee9b867dda7607502817",
+    "id": "0xe539120487c29b4defdf9a53d337316ea022a2688978a468f9efd847201be7e3",
     "attributes": {
-      "asset_type": "Crypto",
-      "base": "M",
-      "description": "MANTIS / US DOLLAR",
-      "display_symbol": "M/USD",
-      "generic_symbol": "MUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.M/USD"
+      "asset_type": "FX",
+      "base": "USD",
+      "description": "US DOLLAR / SOUTH KOREAN WON SPOT OFFSHORE",
+      "display_symbol": "USD/KRW",
+      "generic_symbol": "USDKRW",
+      "quote_currency": "KRW",
+      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
+      "symbol": "FX.USD/KRW",
+      "tenor": "Spot"
     }
   },
   {
@@ -19799,16 +19804,17 @@
     }
   },
   {
-    "id": "0x7a5a6c2b45d51dc59ddcf39ae9cac66d1c2443ae7fee4490a006f1dbb73862e5",
+    "id": "0xd407a4b25cae3f9ec063af35c1d7feb9aa55be71d3f2a01b6de719dbcc3e84c7",
     "attributes": {
-      "asset_type": "Crypto",
-      "base": "TEST1",
-      "description": "TEST1 / US DOLLAR",
-      "display_symbol": "TEST1/USD",
-      "generic_symbol": "TEST1USD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.TEST1/USD"
+      "asset_type": "FX",
+      "base": "USD",
+      "description": "US DOLLAR / CHILEAN PESO SPOT OFFSHORE",
+      "display_symbol": "USD/CLP",
+      "generic_symbol": "USDCLP",
+      "quote_currency": "CLP",
+      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
+      "symbol": "FX.USD/CLP",
+      "tenor": "Spot"
     }
   },
   {
@@ -19878,16 +19884,17 @@
     }
   },
   {
-    "id": "0x6a96e75bce787de27eefe3f191e13f0b2c66ceefb7fbbeb4177f4d6f113e45f0",
+    "id": "0x5a90fd584136ff7969fc54c6642430e3c50af8ff234ed0e697555ea7b192446a",
     "attributes": {
-      "asset_type": "Crypto",
-      "base": "INK",
-      "description": "INK FINANCE / US DOLLAR",
-      "display_symbol": "INK/USD",
-      "generic_symbol": "INKUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.INK/USD"
+      "asset_type": "FX",
+      "base": "USD",
+      "description": "US DOLLAR / PERUVIAN SOL SPOT OFFSHORE",
+      "display_symbol": "USD/PEN",
+      "generic_symbol": "USDPEN",
+      "quote_currency": "PEN",
+      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
+      "symbol": "FX.USD/PEN",
+      "tenor": "Spot"
     }
   },
   {
@@ -19975,104 +19982,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.STRK/USD"
-    }
-  },
-  {
-    "id": "0xd407a4b25cae3f9ec063af35c1d7feb9aa55be71d3f2a01b6de719dbcc3e84c7",
-    "attributes": {
-      "asset_type": "FX",
-      "base": "USD",
-      "description": "US DOLLAR / CHILEAN PESO SPOT OFFSHORE",
-      "display_symbol": "USD/CLP",
-      "generic_symbol": "USDCLP",
-      "quote_currency": "CLP",
-      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
-      "symbol": "FX.USD/CLP",
-      "tenor": "Spot"
-    }
-  },
-  {
-    "id": "0xcaffb53eda8972cf729e59166e64f893960db66fa89ff5cd4702caf2ef4edf8d",
-    "attributes": {
-      "asset_type": "FX",
-      "base": "USD",
-      "description": "US DOLLAR / COLOMBIAN PESO SPOT OFFSHORE",
-      "display_symbol": "USD/COP",
-      "generic_symbol": "USDCOP",
-      "quote_currency": "COP",
-      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
-      "symbol": "FX.USD/COP",
-      "tenor": "Spot"
-    }
-  },
-  {
-    "id": "0x6693afcd49878bbd622e46bd805e7177932cf6ab0b1c91b135d71151b9207433",
-    "attributes": {
-      "asset_type": "FX",
-      "base": "USD",
-      "description": "US DOLLAR / INDONESIAN RUPIAH SPOT OFFSHORE",
-      "display_symbol": "USD/IDR",
-      "generic_symbol": "USDIDR",
-      "quote_currency": "IDR",
-      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
-      "symbol": "FX.USD/IDR",
-      "tenor": "Spot"
-    }
-  },
-  {
-    "id": "0x0ac0f9a2886fc2dd708bc66cc2cea359052ce89d324f45d95fadbc6c4fcf1809",
-    "attributes": {
-      "asset_type": "FX",
-      "base": "USD",
-      "description": "US DOLLAR / INDIAN RUPEE SPOT OFFSHORE",
-      "display_symbol": "USD/INR",
-      "generic_symbol": "USDINR",
-      "quote_currency": "INR",
-      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
-      "symbol": "FX.USD/INR",
-      "tenor": "Spot"
-    }
-  },
-  {
-    "id": "0xe539120487c29b4defdf9a53d337316ea022a2688978a468f9efd847201be7e3",
-    "attributes": {
-      "asset_type": "FX",
-      "base": "USD",
-      "description": "US DOLLAR / SOUTH KOREAN WON SPOT OFFSHORE",
-      "display_symbol": "USD/KRW",
-      "generic_symbol": "USDKRW",
-      "quote_currency": "KRW",
-      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
-      "symbol": "FX.USD/KRW",
-      "tenor": "Spot"
-    }
-  },
-  {
-    "id": "0x5a90fd584136ff7969fc54c6642430e3c50af8ff234ed0e697555ea7b192446a",
-    "attributes": {
-      "asset_type": "FX",
-      "base": "USD",
-      "description": "US DOLLAR / PERUVIAN SOL SPOT OFFSHORE",
-      "display_symbol": "USD/PEN",
-      "generic_symbol": "USDPEN",
-      "quote_currency": "PEN",
-      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
-      "symbol": "FX.USD/PEN",
-      "tenor": "Spot"
-    }
-  },
-  {
-    "id": "0x2bda7f268b52bfbc3f2e124c31445247647350db313caadc6771e6299e0a68c9",
-    "attributes": {
-      "asset_type": "FX",
-      "base": "USD",
-      "description": "US DOLLAR / PHILIPPINES PESO SPOT OFFSHORE",
-      "display_symbol": "USD/PHP",
-      "generic_symbol": "USDPHP",
-      "quote_currency": "PHP",
-      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
-      "symbol": "FX.USD/PHP",
-      "tenor": "Spot"
     }
   }
 ]

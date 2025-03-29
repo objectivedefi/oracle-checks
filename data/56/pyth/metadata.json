@@ -7515,17 +7515,17 @@
     }
   },
   {
-    "id": "0xd6aa08e91d8a982515a6a75bdd5dbc12919e7c3c02bbada150baa877e2f7d77d",
+    "id": "0x489f02f2f13584026d63fd397c80ed3b414a2820c4d43da0306fc007fcd5a8e0",
     "attributes": {
-      "asset_type": "Crypto Redemption Rate",
-      "base": "GLBTC",
-      "contract_id": "bevm: 0x63755D3C05e21A56127EA0c5f4a0d85ca8676bf7",
-      "description": "GLOBAL LIQUIDITY BITCOIN / WRAPPED BITCOIN REDEMPTION RATE",
-      "display_symbol": "GLBTC/WBTC",
-      "generic_symbol": "GLBTCWBTC",
-      "quote_currency": "WBTC",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.GLBTC/WBTC.RR"
+      "asset_type": "FX",
+      "base": "USD",
+      "description": "US DOLLAR / TAIWAN DOLLAR SPOT OFFSHORE",
+      "display_symbol": "USD/TWD",
+      "generic_symbol": "USDTWD",
+      "quote_currency": "TWD",
+      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
+      "symbol": "FX.USD/TWD",
+      "tenor": "Spot"
     }
   },
   {
@@ -7543,16 +7543,17 @@
     }
   },
   {
-    "id": "0x192b93a6021cb52313a79ac6c6be72fe138201d9aa29042f402a8304f01e4d53",
+    "id": "0xcaffb53eda8972cf729e59166e64f893960db66fa89ff5cd4702caf2ef4edf8d",
     "attributes": {
-      "asset_type": "Crypto",
-      "base": "SAVE",
-      "description": "SAVE / US DOLLAR",
-      "display_symbol": "SAVE/USD",
-      "generic_symbol": "SAVEUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.SAVE/USD"
+      "asset_type": "FX",
+      "base": "USD",
+      "description": "US DOLLAR / COLOMBIAN PESO SPOT OFFSHORE",
+      "display_symbol": "USD/COP",
+      "generic_symbol": "USDCOP",
+      "quote_currency": "COP",
+      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
+      "symbol": "FX.USD/COP",
+      "tenor": "Spot"
     }
   },
   {
@@ -7791,16 +7792,17 @@
     }
   },
   {
-    "id": "0x4fb5170c621ca5945384f962fd5ac910da575c8026f3b114f1cbf6534190dd33",
+    "id": "0x2bda7f268b52bfbc3f2e124c31445247647350db313caadc6771e6299e0a68c9",
     "attributes": {
-      "asset_type": "Crypto",
-      "base": "HDRO",
-      "description": "HYDRO PROTOCOL / US DOLLAR",
-      "display_symbol": "HDRO/USD",
-      "generic_symbol": "HDROUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.HDRO/USD"
+      "asset_type": "FX",
+      "base": "USD",
+      "description": "US DOLLAR / PHILIPPINES PESO SPOT OFFSHORE",
+      "display_symbol": "USD/PHP",
+      "generic_symbol": "USDPHP",
+      "quote_currency": "PHP",
+      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
+      "symbol": "FX.USD/PHP",
+      "tenor": "Spot"
     }
   },
   {
@@ -8144,16 +8146,20 @@
     }
   },
   {
-    "id": "0x49e35d5879c5aa5035de3572d2583ae1e3b30eb995f579d2b0b02c65abedac6d",
+    "id": "0x55e9d82de00129d0fb368bc89d1ee59146b80a8772f8a972febac3f65ed3151f",
     "attributes": {
-      "asset_type": "Crypto",
-      "base": "ALPHA",
-      "description": "ALPHA FI / US DOLLAR",
-      "display_symbol": "ALPHA/USD",
-      "generic_symbol": "ALPHAUSD",
+      "asset_type": "Equity",
+      "base": "RIO",
+      "cms_symbol": "RIO",
+      "country": "US",
+      "cqs_symbol": "RIO",
+      "description": "RIO TINTO GROUP / US DOLLAR",
+      "display_symbol": "RIO/USD",
+      "nasdaq_symbol": "RIO",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.ALPHA/USD"
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.RIO/USD"
     }
   },
   {
@@ -8320,16 +8326,17 @@
     }
   },
   {
-    "id": "0xfe688b3713381de6a88d4b3710ad454e57aa6ac439d8281c9e8b13e81ec35053",
+    "id": "0x6693afcd49878bbd622e46bd805e7177932cf6ab0b1c91b135d71151b9207433",
     "attributes": {
-      "asset_type": "Crypto",
-      "base": "PUPS",
-      "description": "PUPS WORLD PEACE / US DOLLAR",
-      "display_symbol": "PUPS/USD",
-      "generic_symbol": "PUPSUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.PUPS/USD"
+      "asset_type": "FX",
+      "base": "USD",
+      "description": "US DOLLAR / INDONESIAN RUPIAH SPOT OFFSHORE",
+      "display_symbol": "USD/IDR",
+      "generic_symbol": "USDIDR",
+      "quote_currency": "IDR",
+      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
+      "symbol": "FX.USD/IDR",
+      "tenor": "Spot"
     }
   },
   {
@@ -8510,16 +8517,17 @@
     }
   },
   {
-    "id": "0xad00fdd0a3525bb598ec1dcd7d39364f4806a28880f090e06c609a3a985c9103",
+    "id": "0x0ac0f9a2886fc2dd708bc66cc2cea359052ce89d324f45d95fadbc6c4fcf1809",
     "attributes": {
-      "asset_type": "Crypto",
-      "base": "MONKY",
-      "description": "WISE MONKY / US DOLLAR",
-      "display_symbol": "MONKY/USD",
-      "generic_symbol": "MONKYUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.MONKY/USD"
+      "asset_type": "FX",
+      "base": "USD",
+      "description": "US DOLLAR / INDIAN RUPEE SPOT OFFSHORE",
+      "display_symbol": "USD/INR",
+      "generic_symbol": "USDINR",
+      "quote_currency": "INR",
+      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
+      "symbol": "FX.USD/INR",
+      "tenor": "Spot"
     }
   },
   {
@@ -12317,29 +12325,29 @@
     }
   },
   {
-    "id": "0x495b3ac956cc45d084d0bcdd810672cbb97be89d626eac9d38b712976b0e716a",
+    "id": "0xeba0732395fae9dec4bae12e52760b35fc1c5671e2da8b449c9af4efe5d54341",
     "attributes": {
       "asset_type": "Crypto",
-      "base": "APEETH",
-      "description": "APECHAIN ETHEREUM / US DOLLAR",
-      "display_symbol": "APEETH/USD",
-      "generic_symbol": "APEETHUSD",
+      "base": "WAL",
+      "description": "WALRUS PROTOCOL / US DOLLAR",
+      "display_symbol": "WAL/USD",
+      "generic_symbol": "WALUSD",
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.APEETH/USD"
+      "symbol": "Crypto.WAL/USD"
     }
   },
   {
-    "id": "0x6bed036e0824a1c92957c1a88b99f6dd31b97ce90107a9b47588caeefdddd0b0",
+    "id": "0x9267d133d6a8d510f8117a6de30f2ac1fe7fbe5d52785408b1074abcf2325ddf",
     "attributes": {
       "asset_type": "Crypto",
-      "base": "APEUSD",
-      "description": "APECHAIN US DOLLAR / US DOLLAR",
-      "display_symbol": "APEUSD/USD",
-      "generic_symbol": "APEUSDUSD",
+      "base": "K",
+      "description": "KINTO / US DOLLAR",
+      "display_symbol": "K/USD",
+      "generic_symbol": "KUSD",
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.APEUSD/USD"
+      "symbol": "Crypto.K/USD"
     }
   },
   {
@@ -14723,16 +14731,17 @@
     }
   },
   {
-    "id": "0xcd15e2b78e5f12e0a77929a17b4aa612089d18f1ea33ee9b867dda7607502817",
+    "id": "0xe539120487c29b4defdf9a53d337316ea022a2688978a468f9efd847201be7e3",
     "attributes": {
-      "asset_type": "Crypto",
-      "base": "M",
-      "description": "MANTIS / US DOLLAR",
-      "display_symbol": "M/USD",
-      "generic_symbol": "MUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.M/USD"
+      "asset_type": "FX",
+      "base": "USD",
+      "description": "US DOLLAR / SOUTH KOREAN WON SPOT OFFSHORE",
+      "display_symbol": "USD/KRW",
+      "generic_symbol": "USDKRW",
+      "quote_currency": "KRW",
+      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
+      "symbol": "FX.USD/KRW",
+      "tenor": "Spot"
     }
   },
   {
@@ -19795,16 +19804,17 @@
     }
   },
   {
-    "id": "0x7a5a6c2b45d51dc59ddcf39ae9cac66d1c2443ae7fee4490a006f1dbb73862e5",
+    "id": "0xd407a4b25cae3f9ec063af35c1d7feb9aa55be71d3f2a01b6de719dbcc3e84c7",
     "attributes": {
-      "asset_type": "Crypto",
-      "base": "TEST1",
-      "description": "TEST1 / US DOLLAR",
-      "display_symbol": "TEST1/USD",
-      "generic_symbol": "TEST1USD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.TEST1/USD"
+      "asset_type": "FX",
+      "base": "USD",
+      "description": "US DOLLAR / CHILEAN PESO SPOT OFFSHORE",
+      "display_symbol": "USD/CLP",
+      "generic_symbol": "USDCLP",
+      "quote_currency": "CLP",
+      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
+      "symbol": "FX.USD/CLP",
+      "tenor": "Spot"
     }
   },
   {
@@ -19874,16 +19884,17 @@
     }
   },
   {
-    "id": "0x6a96e75bce787de27eefe3f191e13f0b2c66ceefb7fbbeb4177f4d6f113e45f0",
+    "id": "0x5a90fd584136ff7969fc54c6642430e3c50af8ff234ed0e697555ea7b192446a",
     "attributes": {
-      "asset_type": "Crypto",
-      "base": "INK",
-      "description": "INK FINANCE / US DOLLAR",
-      "display_symbol": "INK/USD",
-      "generic_symbol": "INKUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.INK/USD"
+      "asset_type": "FX",
+      "base": "USD",
+      "description": "US DOLLAR / PERUVIAN SOL SPOT OFFSHORE",
+      "display_symbol": "USD/PEN",
+      "generic_symbol": "USDPEN",
+      "quote_currency": "PEN",
+      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
+      "symbol": "FX.USD/PEN",
+      "tenor": "Spot"
     }
   },
   {
@@ -19971,161 +19982,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.STRK/USD"
-    }
-  },
-  {
-    "id": "0xd407a4b25cae3f9ec063af35c1d7feb9aa55be71d3f2a01b6de719dbcc3e84c7",
-    "attributes": {
-      "asset_type": "FX",
-      "base": "USD",
-      "description": "US DOLLAR / CHILEAN PESO SPOT OFFSHORE",
-      "display_symbol": "USD/CLP",
-      "generic_symbol": "USDCLP",
-      "quote_currency": "CLP",
-      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
-      "symbol": "FX.USD/CLP",
-      "tenor": "Spot"
-    }
-  },
-  {
-    "id": "0xcaffb53eda8972cf729e59166e64f893960db66fa89ff5cd4702caf2ef4edf8d",
-    "attributes": {
-      "asset_type": "FX",
-      "base": "USD",
-      "description": "US DOLLAR / COLOMBIAN PESO SPOT OFFSHORE",
-      "display_symbol": "USD/COP",
-      "generic_symbol": "USDCOP",
-      "quote_currency": "COP",
-      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
-      "symbol": "FX.USD/COP",
-      "tenor": "Spot"
-    }
-  },
-  {
-    "id": "0x6693afcd49878bbd622e46bd805e7177932cf6ab0b1c91b135d71151b9207433",
-    "attributes": {
-      "asset_type": "FX",
-      "base": "USD",
-      "description": "US DOLLAR / INDONESIAN RUPIAH SPOT OFFSHORE",
-      "display_symbol": "USD/IDR",
-      "generic_symbol": "USDIDR",
-      "quote_currency": "IDR",
-      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
-      "symbol": "FX.USD/IDR",
-      "tenor": "Spot"
-    }
-  },
-  {
-    "id": "0x0ac0f9a2886fc2dd708bc66cc2cea359052ce89d324f45d95fadbc6c4fcf1809",
-    "attributes": {
-      "asset_type": "FX",
-      "base": "USD",
-      "description": "US DOLLAR / INDIAN RUPEE SPOT OFFSHORE",
-      "display_symbol": "USD/INR",
-      "generic_symbol": "USDINR",
-      "quote_currency": "INR",
-      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
-      "symbol": "FX.USD/INR",
-      "tenor": "Spot"
-    }
-  },
-  {
-    "id": "0xe539120487c29b4defdf9a53d337316ea022a2688978a468f9efd847201be7e3",
-    "attributes": {
-      "asset_type": "FX",
-      "base": "USD",
-      "description": "US DOLLAR / SOUTH KOREAN WON SPOT OFFSHORE",
-      "display_symbol": "USD/KRW",
-      "generic_symbol": "USDKRW",
-      "quote_currency": "KRW",
-      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
-      "symbol": "FX.USD/KRW",
-      "tenor": "Spot"
-    }
-  },
-  {
-    "id": "0x5a90fd584136ff7969fc54c6642430e3c50af8ff234ed0e697555ea7b192446a",
-    "attributes": {
-      "asset_type": "FX",
-      "base": "USD",
-      "description": "US DOLLAR / PERUVIAN SOL SPOT OFFSHORE",
-      "display_symbol": "USD/PEN",
-      "generic_symbol": "USDPEN",
-      "quote_currency": "PEN",
-      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
-      "symbol": "FX.USD/PEN",
-      "tenor": "Spot"
-    }
-  },
-  {
-    "id": "0x2bda7f268b52bfbc3f2e124c31445247647350db313caadc6771e6299e0a68c9",
-    "attributes": {
-      "asset_type": "FX",
-      "base": "USD",
-      "description": "US DOLLAR / PHILIPPINES PESO SPOT OFFSHORE",
-      "display_symbol": "USD/PHP",
-      "generic_symbol": "USDPHP",
-      "quote_currency": "PHP",
-      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
-      "symbol": "FX.USD/PHP",
-      "tenor": "Spot"
-    }
-  },
-  {
-    "id": "0x489f02f2f13584026d63fd397c80ed3b414a2820c4d43da0306fc007fcd5a8e0",
-    "attributes": {
-      "asset_type": "FX",
-      "base": "USD",
-      "description": "US DOLLAR / TAIWAN DOLLAR SPOT OFFSHORE",
-      "display_symbol": "USD/TWD",
-      "generic_symbol": "USDTWD",
-      "quote_currency": "TWD",
-      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
-      "symbol": "FX.USD/TWD",
-      "tenor": "Spot"
-    }
-  },
-  {
-    "id": "0x9267d133d6a8d510f8117a6de30f2ac1fe7fbe5d52785408b1074abcf2325ddf",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "K",
-      "description": "KINTO / US DOLLAR",
-      "display_symbol": "K/USD",
-      "generic_symbol": "KUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.K/USD"
-    }
-  },
-  {
-    "id": "0xeba0732395fae9dec4bae12e52760b35fc1c5671e2da8b449c9af4efe5d54341",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "WAL",
-      "description": "WALRUS PROTOCOL / US DOLLAR",
-      "display_symbol": "WAL/USD",
-      "generic_symbol": "WALUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.WAL/USD"
-    }
-  },
-  {
-    "id": "0x55e9d82de00129d0fb368bc89d1ee59146b80a8772f8a972febac3f65ed3151f",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "RIO",
-      "cms_symbol": "RIO",
-      "country": "US",
-      "cqs_symbol": "RIO",
-      "description": "RIO TINTO GROUP / US DOLLAR",
-      "display_symbol": "RIO/USD",
-      "nasdaq_symbol": "RIO",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
-      "symbol": "Equity.US.RIO/USD"
     }
   }
 ]
