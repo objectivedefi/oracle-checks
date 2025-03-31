@@ -1,0 +1,58 @@
+{
+  "name": "ChainlinkInfrequentOracle",
+  "address": "0xAfa2995d5D027E4E47C82B620B257A3CE8BB8823",
+  "chainId": 1,
+  "base": "0x87C9053C819bB28e0D73d33059E1b3DA80AFb0cf",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feed": "0x0a2a51f2f206447dE3E3a80FCf92240244722395",
+  "maxStaleness": "31536000",
+  "checks": [
+    {
+      "id": "ADAPTER_EXISTS",
+      "severity": "HIGH",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "ADAPTER_REGISTRY",
+      "severity": "HIGH",
+      "message": "Adapter is not whitelisted in the adapter registry",
+      "pass": false
+    },
+    {
+      "id": "SOURCE_CODE_PROVENANCE",
+      "severity": "HIGH",
+      "message": "Contract metadata hash matches a known hash",
+      "pass": true
+    },
+    {
+      "id": "DISTINCT_ASSETS",
+      "severity": "HIGH",
+      "message": "No duplicates found",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x87C9053C819bB28e0D73d33059E1b3DA80AFb0cf is mRe7YIELD (Midas Re7 Yield) with 18 decimals",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+      "pass": true
+    },
+    {
+      "id": "PUSH_STALENESS_BUFFER",
+      "severity": "MED",
+      "message": "Feed heartbeat is unknown",
+      "pass": false
+    }
+  ],
+  "label": "Midas mRe7YIELD/USD Oracle ",
+  "methodology": "Unknown",
+  "model": "Push",
+  "provider": "Midas",
+  "whitelisted": false
+}

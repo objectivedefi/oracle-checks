@@ -1120,6 +1120,20 @@
     "decimals": 18
   },
   {
+    "address": "0x6cA4d5d2eCb72E3Bbf17543B3367746B80D22694",
+    "chainId": 1,
+    "name": "PT Lombard LBTC 26JUN2025",
+    "symbol": "PT-LBTC-26JUN2025",
+    "decimals": 8
+  },
+  {
+    "address": "0x87C9053C819bB28e0D73d33059E1b3DA80AFb0cf",
+    "chainId": 1,
+    "name": "Midas Re7 Yield",
+    "symbol": "mRe7YIELD",
+    "decimals": 18
+  },
+  {
     "address": "0xB4EFd85c19999D84251304bDA99E90B92300Bd93",
     "chainId": 1,
     "name": "Rocket Pool",
