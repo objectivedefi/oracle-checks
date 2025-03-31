@@ -20513,5 +20513,201 @@
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
       "symbol": "Equity.HK.2020-HK/HKD"
     }
+  },
+  {
+    "id": "0xa79471b8128c37e8193306b255521d2c8b5d7b3dd76673aad38abb3c7e42c825",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "2269-HK",
+      "country": "HK",
+      "description": "WUXI BIOLOGICS CAYMAN INC / HONG KONG DOLLAR",
+      "display_symbol": "2269-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.2269-HK/HKD"
+    }
+  },
+  {
+    "id": "0xe91f9916ed39b71f95cf6ecfea5c64b4ea5d6500f914c76b92061c03ca9376f3",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "2319-HK",
+      "country": "HK",
+      "description": "CHINA MENGNIU DAIRY COMPANY LIMITED / HONG KONG DOLLAR",
+      "display_symbol": "2319-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.2319-HK/HKD"
+    }
+  },
+  {
+    "id": "0xa0f6917a0b53d31a33709c79237ea251ed4b3fcac27d9a65da225a7861bd87ff",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "2331-HK",
+      "country": "HK",
+      "description": "LI NING COMPANY LIMITED / HONG KONG DOLLAR",
+      "display_symbol": "2331-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.2331-HK/HKD"
+    }
+  },
+  {
+    "id": "0x1acf9ce68f57d72a7c463a4127ea4bd9bdf5879c177062054b16918b6ec7df65",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "2628-HK",
+      "country": "HK",
+      "description": "CHINA LIFE INSURANCE COMPANY LIMITED / HONG KONG DOLLAR",
+      "display_symbol": "2628-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.2628-HK/HKD"
+    }
+  },
+  {
+    "id": "0x612b8601b4023a6e8ad521db8b9b3a8755eda09b24d5c223a1d7574f7e86f713",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "2688-HK",
+      "country": "HK",
+      "description": "ENN ENERGY HOLDINGS LIMITED / HONG KONG DOLLAR",
+      "display_symbol": "2688-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.2688-HK/HKD"
+    }
+  },
+  {
+    "id": "0x319b800060fb51b527409057632a5d8d60fc84f59ea0892cb23d91a1fb8b25c4",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "3690-HK",
+      "country": "HK",
+      "description": "MEITUAN / HONG KONG DOLLAR",
+      "display_symbol": "3690-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.3690-HK/HKD"
+    }
+  },
+  {
+    "id": "0x1146c2a0a350b59854b5dfa9e9764654848b36936deeab01b521c296cadd2b62",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "6690-HK",
+      "country": "HK",
+      "description": "HAIER SMART HOME CO LTD / HONG KONG DOLLAR",
+      "display_symbol": "6690-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.6690-HK/HKD"
+    }
+  },
+  {
+    "id": "0x560cce1d2a2ab99b1d0cc828d970ba631598fe7d69b0998959b61a188b82c17b",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "9618-HK",
+      "country": "HK",
+      "description": "JDCOM INC / HONG KONG DOLLAR",
+      "display_symbol": "9618-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.9618-HK/HKD"
+    }
+  },
+  {
+    "id": "0x7ba7dce08b4c8a42335b12df281268b75b6180158ce3978c617f5bf3d400f2cc",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "9633-HK",
+      "country": "HK",
+      "description": "NONGFU SPRING CO LTD / HONG KONG DOLLAR",
+      "display_symbol": "9633-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.9633-HK/HKD"
+    }
+  },
+  {
+    "id": "0x0df0e9628ac319fd8b7f64e3529f35642d568173e1e42009740424408f7e36a8",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "9888-HK",
+      "country": "HK",
+      "description": "BAIDU INC / HONG KONG DOLLAR",
+      "display_symbol": "9888-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.9888-HK/HKD"
+    }
+  },
+  {
+    "id": "0x2920e88a90a1b49ee633abc4bc0c4b399f01764d51fcfae8b93da6d2aa0fcb58",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "9988-HK",
+      "country": "HK",
+      "description": "ALIBABA GROUP HOLDING LIMITED / HONG KONG DOLLAR",
+      "display_symbol": "9988-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.9988-HK/HKD"
+    }
+  },
+  {
+    "id": "0x5c7e5c28ac515e94b0e4c3addeddd10b997d5e389cc6ded138510fe2987f94ec",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "EWS",
+      "country": "US",
+      "description": "ISHARES MSCI HONG KONG ETF / US DOLLAR",
+      "display_symbol": "EWS/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.EWS/USD"
+    }
+  },
+  {
+    "id": "0xfd80c93ce3a12d18aa3597382020843761ebfdbfc2cb386783a6091c9bc23e7b",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SWDA",
+      "country": "US",
+      "description": "ISHARES CORE MSCI WORLD UCITS ETF / US DOLLAR",
+      "display_symbol": "SWDA/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.SWDA/USD"
+    }
+  },
+  {
+    "id": "0x1bf8ff9fafb834c10731e4cfec4e8042ee3b5b573f01a50bc766436ea5c28c4c",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "URTH",
+      "country": "US",
+      "description": "ISHARES MSCI WORLD ETF / US DOLLAR",
+      "display_symbol": "URTH/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.URTH/USD"
+    }
   }
 ]

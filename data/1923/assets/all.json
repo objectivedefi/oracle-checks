@@ -84,6 +84,13 @@
     "decimals": 18
   },
   {
+    "address": "0x9ab96A4668456896d45c301Bc3A15Cee76AA7B8D",
+    "chainId": 1923,
+    "name": "Relend Network USDC",
+    "symbol": "rUSDC",
+    "decimals": 6
+  },
+  {
     "address": "0x4661407fC224E5432D7f528a20EF8906E453A8f3",
     "chainId": 1923,
     "name": "Metronome Synth ETH",
