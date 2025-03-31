@@ -19983,5 +19983,661 @@
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.STRK/USD"
     }
+  },
+  {
+    "id": "0xa98bfb9501a843d1c048fd51e71e403da89df1e996016fd692332f835bef5778",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "ABSTER",
+      "description": "ABSTER / US DOLLAR",
+      "display_symbol": "ABSTER/USD",
+      "generic_symbol": "ABSTERUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.ABSTER/USD"
+    }
+  },
+  {
+    "id": "0x1aef60609549bdab71241b9d031dd2d2573b5a1f591fc87091ab4af67d81e91a",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "ASF",
+      "description": "ASYMMETRY FINANCE TOKEN / US DOLLAR",
+      "display_symbol": "ASF/USD",
+      "generic_symbol": "ASFUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.ASF/USD"
+    }
+  },
+  {
+    "id": "0x1e59fcdb59fe2bc6b093dab0bf32a66bf2e8258d07fd14601230905810af97aa",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "BROCCOLI",
+      "description": "CZ'S DOG / US DOLLAR",
+      "display_symbol": "BROCCOLI/USD",
+      "generic_symbol": "BROCCOLIUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.BROCCOLI/USD"
+    }
+  },
+  {
+    "id": "0x657367f1b841c536f173386991f725dd3f9e7f1ae028bb9f52e1e4d80ed829ec",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "CARV",
+      "description": "CARV / US DOLLAR",
+      "display_symbol": "CARV/USD",
+      "generic_symbol": "CARVUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.CARV/USD"
+    }
+  },
+  {
+    "id": "0xfc7bd01c2dbe679c7d75619b943cece74b6e9c2e7681f67ad63bc3504caeb499",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "FORM",
+      "description": "FOUR / US DOLLAR",
+      "display_symbol": "FORM/USD",
+      "generic_symbol": "FORMUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.FORM/USD"
+    }
+  },
+  {
+    "id": "0x053eeb0c51e45a1553e0987860688209b939d826ddccf7c31d0e35d590097fb1",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "GPLUS",
+      "description": "GOPLUS SECURITY / US DOLLAR",
+      "display_symbol": "GPLUS/USD",
+      "generic_symbol": "GPLUSUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.GPLUS/USD"
+    }
+  },
+  {
+    "id": "0xe2edcd30b8c2a5350461de233fd3aabca97d3a54fcc6fde930921eebeb8e3ec9",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "KERNEL",
+      "description": "KELP DAO / US DOLLAR",
+      "display_symbol": "KERNEL/USD",
+      "generic_symbol": "KERNELUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.KERNEL/USD"
+    }
+  },
+  {
+    "id": "0x21ea1eed9fb00187e44ce5c2e747564756debcc6b5af222e3a077470e0f79104",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "MUBARAK",
+      "description": "MUBARAK / US DOLLAR",
+      "display_symbol": "MUBARAK/USD",
+      "generic_symbol": "MUBARAKUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.MUBARAK/USD"
+    }
+  },
+  {
+    "id": "0xa2f034a194c3b3336f22a2e4f053517253fcaf14f602fb4e2a118f5d55905259",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "NIL",
+      "description": "NILLION / US DOLLAR",
+      "display_symbol": "NIL/USD",
+      "generic_symbol": "NILUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.NIL/USD"
+    }
+  },
+  {
+    "id": "0xdd8cdc412ede8e249be07e904e891e4b3a8bd1e1867dea16585ad4b2d0807eeb",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "NOOT",
+      "description": "NOOT NOOT / US DOLLAR",
+      "display_symbol": "NOOT/USD",
+      "generic_symbol": "NOOTUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.NOOT/USD"
+    }
+  },
+  {
+    "id": "0x4d7ecce398410a6eb0100da7627722bb0cc2b6ca4b9d3962b66a6fe4dda53928",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "ORIBGT",
+      "contract_id": "bera: 0x69f1E971257419B1E9C405A553f252c64A29A30a",
+      "description": "ORIGAMI BERACHAIN GOVERNANCE TOKEN / BERACHAIN GOVERNANCE TOKEN REDEMPTION RATE",
+      "display_symbol": "ORIBGT/BGT",
+      "generic_symbol": "ORIBGTBGT",
+      "quote_currency": "BGT",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.ORIBGT/BGT.RR"
+    }
+  },
+  {
+    "id": "0xded84d57dbf810bf86b97936f12e1f01b8d6d01c251a4d6eac592147988d475c",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "PLUME",
+      "description": "PLUME NETWORK / US DOLLAR",
+      "display_symbol": "PLUME/USD",
+      "generic_symbol": "PLUMEUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.PLUME/USD"
+    }
+  },
+  {
+    "id": "0x0b3eae8cb6e221e7388a435290e0f2211172563f94769077b7f4c4c6a11eea76",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "STSUI",
+      "description": "ALPHAFI STAKED SUI / US DOLLAR",
+      "display_symbol": "STSUI/USD",
+      "generic_symbol": "STSUIUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.STSUI/USD"
+    }
+  },
+  {
+    "id": "0x9e43d01065c13d31c0e9806c6eea2b10948646acb01fe16f21af7a8dc84d9f12",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "SUPR",
+      "description": "SUPERSEED / US DOLLAR",
+      "display_symbol": "SUPR/USD",
+      "generic_symbol": "SUPRUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.SUPR/USD"
+    }
+  },
+  {
+    "id": "0x25916ebc680dc2c1d7e1fb16690d8d7b1c41f876d32b6e8f356d81be02d9bec9",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "TUT",
+      "description": "TUTORIAL / US DOLLAR",
+      "display_symbol": "TUT/USD",
+      "generic_symbol": "TUTUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.TUT/USD"
+    }
+  },
+  {
+    "id": "0x0a2425d43486780990d8b63543029e20556be51fd756cca584212f4d539611d4",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "USD1",
+      "description": "WORLD LIBERTY FINANCIAL US DOLLAR / US DOLLAR",
+      "display_symbol": "USD1/USD",
+      "generic_symbol": "USD1USD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.USD1/USD"
+    }
+  },
+  {
+    "id": "0xe10593860e9ee1c204e4f9569e877502f098dd1a4d84cc5bad06f23f77dcbfe2",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "USDXL",
+      "description": "LAST US DOLLAR / US DOLLAR",
+      "display_symbol": "USDXL/USD",
+      "generic_symbol": "USDXLUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.USDXL/USD"
+    }
+  },
+  {
+    "id": "0xb360fcd1e6f90694e6d20640c90f20b09fb76b6dcd4fd890b4c7361b8b93ce82",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "0002-HK",
+      "country": "HK",
+      "description": "CLP HOLDINGS / HONG KONG DOLLAR",
+      "display_symbol": "0002-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.0002-HK/HKD"
+    }
+  },
+  {
+    "id": "0xfb4eca232d42a8f4687f4af997ef279857b8d44d9b84d79b6854872212ebbc37",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "0003-HK",
+      "country": "HK",
+      "description": "HK & CHINA GAS / HONG KONG DOLLAR",
+      "display_symbol": "0003-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.0003-HK/HKD"
+    }
+  },
+  {
+    "id": "0x69f6626a3c359ca9475ef892f18113d724b15c348f603c66889fd5beb0907bb5",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "0012-HK",
+      "country": "HK",
+      "description": "HENDERSON LAND / HONG KONG DOLLAR",
+      "display_symbol": "0012-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.0012-HK/HKD"
+    }
+  },
+  {
+    "id": "0xadd612726e57b1dbb7fdbb9a85de4ccb1e52edf1ce7c35fc672c5543db8c1a34",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "0017-HK",
+      "country": "HK",
+      "description": "NEW WORLD DEV / HONG KONG DOLLAR",
+      "display_symbol": "0017-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.0017-HK/HKD"
+    }
+  },
+  {
+    "id": "0x35601ad68cf21b0bc2e8a3d8795fc81af7d7066ad096dbddd0d10a0744293ec4",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "0027-HK",
+      "country": "HK",
+      "description": "GALAXY ENT / HONG KONG DOLLAR",
+      "display_symbol": "0027-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.0027-HK/HKD"
+    }
+  },
+  {
+    "id": "0x2d47ac295f7156b2b3a724d31034b230ed7e74414ea3e642e2c7f4425cc0a8f4",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "0101-HK",
+      "country": "HK",
+      "description": "HANG LUNG PPT / HONG KONG DOLLAR",
+      "display_symbol": "0101-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.0101-HK/HKD"
+    }
+  },
+  {
+    "id": "0xb71f8dd03a414bf0e9a97bfa2cc230779b02f6e72eb134c67c1ae4c0ccce40ff",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "0241-HK",
+      "country": "HK",
+      "description": "ALI HEALTH / HONG KONG DOLLAR",
+      "display_symbol": "0241-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.0241-HK/HKD"
+    }
+  },
+  {
+    "id": "0xd4556a535e854e23f4df33b569aba1da65f45278e340ce9dede8436c02d3da39",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "0267-HK",
+      "country": "HK",
+      "description": "CITIC / HONG KONG DOLLAR",
+      "display_symbol": "0267-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.0267-HK/HKD"
+    }
+  },
+  {
+    "id": "0xb58705ca9d9a6eb06a68e05ace82fdf69bd71073cae5d3a8e1a13d85ce9aa328",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "0669-HK",
+      "country": "HK",
+      "description": "TECHTRONIC IND / HONG KONG DOLLAR",
+      "display_symbol": "0669-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.0669-HK/HKD"
+    }
+  },
+  {
+    "id": "0x2229ed6410e4f9e0a91b74a2f08c3048cfb6c2c80b3f1a4dbbfb8765b653cef1",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "0700-HK",
+      "country": "HK",
+      "description": "TENCET HOLDINGS LTD / HONG KONG DOLLAR",
+      "display_symbol": "0700-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.0700-HK/HKD"
+    }
+  },
+  {
+    "id": "0x6fc494c3a1b707ba9d391a94b34d4b3ce5b1131be304feca614acd38136de3eb",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "0883-HK",
+      "country": "HK",
+      "description": "CNOOC / HONG KONG DOLLAR",
+      "display_symbol": "0883-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.0883-HK/HKD"
+    }
+  },
+  {
+    "id": "0x2eb638879348c112357d8dae148bc1e162aa7a372b118235b92b675274fbcdf5",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "0939-HK",
+      "country": "HK",
+      "description": "CONSTRUCTION BANK / HONG KONG DOLLAR",
+      "display_symbol": "0939-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.0939-HK/HKD"
+    }
+  },
+  {
+    "id": "0xedee2a6a61d87da880ddcb04244cf1f6e78c3a8c80f7f35f1445e900439fb681",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "0992-HK",
+      "country": "HK",
+      "description": "LENOVO GROUP / HONG KONG DOLLAR",
+      "display_symbol": "0992-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.0992-HK/HKD"
+    }
+  },
+  {
+    "id": "0xd61292575b7bbf7c8e8c64be4b4b88e4a23b653265392c76a8a10ec8073d9c6a",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "1038-HK",
+      "country": "HK",
+      "description": "CKI HOLDINGS / HONG KONG DOLLAR",
+      "display_symbol": "1038-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.1038-HK/HKD"
+    }
+  },
+  {
+    "id": "0xec026006000639cbac4a83bcbf6e236c0770979fd49fe6d72bb47debf72d1099",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "1044-HK",
+      "country": "HK",
+      "description": "HENGAN INT'L / HONG KONG DOLLAR",
+      "display_symbol": "1044-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.1044-HK/HKD"
+    }
+  },
+  {
+    "id": "0x701eda42f3c80db841fc613051f2e92c5703ccccccd73e53eaa6e73b82a9098a",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "1093-HK",
+      "country": "HK",
+      "description": "CSPC PHARMA / HONG KONG DOLLAR",
+      "display_symbol": "1093-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.1093-HK/HKD"
+    }
+  },
+  {
+    "id": "0xda8c958bc21eb6c80a56a144b47d8e17d4a2f587825f740d01fce88f52db9dd5",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "1109-HK",
+      "country": "HK",
+      "description": "CHINA RES LAND / HONG KONG DOLLAR",
+      "display_symbol": "1109-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.1109-HK/HKD"
+    }
+  },
+  {
+    "id": "0xce0aab65ecf9314d3952e4c053704861e33ec665b05746d0a0d4edd4c02f37cd",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "1209-HK",
+      "country": "HK",
+      "description": "CHINA RES MIXC / HONG KONG DOLLAR",
+      "display_symbol": "1209-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.1209-HK/HKD"
+    }
+  },
+  {
+    "id": "0xaef44626f9307dab733b34f31e95cde3e461664aa06d46daf6c8548f376bb7fe",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "1398-HK",
+      "country": "HK",
+      "description": "ICBC / HONG KONG DOLLAR",
+      "display_symbol": "1398-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.1398-HK/HKD"
+    }
+  },
+  {
+    "id": "0xf4481e13c8640b78f48407c2db150f42a2e6861e173bb54ed50abe142d5cf62d",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "1810-HK",
+      "country": "HK",
+      "description": "XIAOMI-W / HONG KONG DOLLAR",
+      "display_symbol": "1810-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.1810-HK/HKD"
+    }
+  },
+  {
+    "id": "0x51d6595b72b9771f8b84e62cb5f6a97013776527af037ea6dd7a62c446ce5c56",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "2015-HK",
+      "country": "HK",
+      "description": "LI AUTO INC / HONG KONG DOLLAR",
+      "display_symbol": "2015-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.2015-HK/HKD"
+    }
+  },
+  {
+    "id": "0xfcc9259faab5496bd9a840e91dca556f456dd97a629310a686b5da19eb03095f",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "2020-HK",
+      "country": "HK",
+      "description": "ANTA SPORTS PRODUCTS LIMITED / HONG KONG DOLLAR",
+      "display_symbol": "2020-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.2020-HK/HKD"
+    }
+  },
+  {
+    "id": "0xa79471b8128c37e8193306b255521d2c8b5d7b3dd76673aad38abb3c7e42c825",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "2269-HK",
+      "country": "HK",
+      "description": "WUXI BIOLOGICS CAYMAN INC / HONG KONG DOLLAR",
+      "display_symbol": "2269-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.2269-HK/HKD"
+    }
+  },
+  {
+    "id": "0xe91f9916ed39b71f95cf6ecfea5c64b4ea5d6500f914c76b92061c03ca9376f3",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "2319-HK",
+      "country": "HK",
+      "description": "CHINA MENGNIU DAIRY COMPANY LIMITED / HONG KONG DOLLAR",
+      "display_symbol": "2319-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.2319-HK/HKD"
+    }
+  },
+  {
+    "id": "0xa0f6917a0b53d31a33709c79237ea251ed4b3fcac27d9a65da225a7861bd87ff",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "2331-HK",
+      "country": "HK",
+      "description": "LI NING COMPANY LIMITED / HONG KONG DOLLAR",
+      "display_symbol": "2331-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.2331-HK/HKD"
+    }
+  },
+  {
+    "id": "0x1acf9ce68f57d72a7c463a4127ea4bd9bdf5879c177062054b16918b6ec7df65",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "2628-HK",
+      "country": "HK",
+      "description": "CHINA LIFE INSURANCE COMPANY LIMITED / HONG KONG DOLLAR",
+      "display_symbol": "2628-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.2628-HK/HKD"
+    }
+  },
+  {
+    "id": "0x612b8601b4023a6e8ad521db8b9b3a8755eda09b24d5c223a1d7574f7e86f713",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "2688-HK",
+      "country": "HK",
+      "description": "ENN ENERGY HOLDINGS LIMITED / HONG KONG DOLLAR",
+      "display_symbol": "2688-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.2688-HK/HKD"
+    }
+  },
+  {
+    "id": "0x319b800060fb51b527409057632a5d8d60fc84f59ea0892cb23d91a1fb8b25c4",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "3690-HK",
+      "country": "HK",
+      "description": "MEITUAN / HONG KONG DOLLAR",
+      "display_symbol": "3690-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.3690-HK/HKD"
+    }
+  },
+  {
+    "id": "0x1146c2a0a350b59854b5dfa9e9764654848b36936deeab01b521c296cadd2b62",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "6690-HK",
+      "country": "HK",
+      "description": "HAIER SMART HOME CO LTD / HONG KONG DOLLAR",
+      "display_symbol": "6690-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.6690-HK/HKD"
+    }
+  },
+  {
+    "id": "0x560cce1d2a2ab99b1d0cc828d970ba631598fe7d69b0998959b61a188b82c17b",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "9618-HK",
+      "country": "HK",
+      "description": "JDCOM INC / HONG KONG DOLLAR",
+      "display_symbol": "9618-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.9618-HK/HKD"
+    }
+  },
+  {
+    "id": "0x7ba7dce08b4c8a42335b12df281268b75b6180158ce3978c617f5bf3d400f2cc",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "9633-HK",
+      "country": "HK",
+      "description": "NONGFU SPRING CO LTD / HONG KONG DOLLAR",
+      "display_symbol": "9633-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.9633-HK/HKD"
+    }
   }
 ]
