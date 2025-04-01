@@ -2808,7 +2808,7 @@
       "generic_symbol": "IBTA",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C,1224/0800-1230,1225/C,1226/C,1231/0800-1230,0101/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C,1224/0800-1230,1225/C,1226/C,1231/0800-1230,0101/C",
       "symbol": "Equity.GB.IBTA/USD",
       "umtf": "IBTAl"
     }
@@ -2824,7 +2824,7 @@
       "generic_symbol": "IB01",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C,1224/0800-1230,1225/C,1226/C,1231/0800-1230,0101/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C,1224/0800-1230,1225/C,1226/C,1231/0800-1230,0101/C",
       "symbol": "Equity.GB.IB01/USD",
       "umtf": "IB01l"
     }
@@ -2925,7 +2925,7 @@
       "generic_symbol": "CSPX",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C,1224/0800-1230,1225/C,1226/C,1231/0800-1230,0101/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C,1224/0800-1230,1225/C,1226/C,1231/0800-1230,0101/C",
       "symbol": "Equity.GB.CSPX/USD",
       "umtf": "CSPXl"
     }
@@ -16872,7 +16872,7 @@
       "nasdaq_symbol": "AAF",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.AAF/GBP"
     }
   },
@@ -16889,7 +16889,7 @@
       "nasdaq_symbol": "AAL",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.AAL/GBP"
     }
   },
@@ -16906,7 +16906,7 @@
       "nasdaq_symbol": "ABF",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.ABF/GBP"
     }
   },
@@ -16923,7 +16923,7 @@
       "nasdaq_symbol": "ADM",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.ADM/GBP"
     }
   },
@@ -16940,7 +16940,7 @@
       "nasdaq_symbol": "AHT",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.AHT/GBP"
     }
   },
@@ -16957,7 +16957,7 @@
       "nasdaq_symbol": "ALW",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.ALW/GBP"
     }
   },
@@ -16974,7 +16974,7 @@
       "nasdaq_symbol": "ANTO",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.ANTO/GBP"
     }
   },
@@ -16991,7 +16991,7 @@
       "nasdaq_symbol": "AUTO",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.AUTO/GBP"
     }
   },
@@ -17008,7 +17008,7 @@
       "nasdaq_symbol": "AV",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.AV/GBP"
     }
   },
@@ -17025,7 +17025,7 @@
       "nasdaq_symbol": "AZN",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.AZN/GBP"
     }
   },
@@ -17042,7 +17042,7 @@
       "nasdaq_symbol": "BA",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.BA/GBP"
     }
   },
@@ -17059,7 +17059,7 @@
       "nasdaq_symbol": "BARC",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.BARC/GBP"
     }
   },
@@ -17076,7 +17076,7 @@
       "nasdaq_symbol": "BATS",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.BATS/GBP"
     }
   },
@@ -17093,7 +17093,7 @@
       "nasdaq_symbol": "BEZ",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.BEZ/GBP"
     }
   },
@@ -17110,7 +17110,7 @@
       "nasdaq_symbol": "BKG",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.BKG/GBP"
     }
   },
@@ -17127,7 +17127,7 @@
       "nasdaq_symbol": "BLND",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.BLND/GBP"
     }
   },
@@ -17144,7 +17144,7 @@
       "nasdaq_symbol": "BNZL",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.BNZL/GBP"
     }
   },
@@ -17161,7 +17161,7 @@
       "nasdaq_symbol": "BP",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.BP/GBP"
     }
   },
@@ -17178,7 +17178,7 @@
       "nasdaq_symbol": "BTA",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.BTA/GBP"
     }
   },
@@ -17195,7 +17195,7 @@
       "nasdaq_symbol": "BTRW",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.BTRW/GBP"
     }
   },
@@ -17212,7 +17212,7 @@
       "nasdaq_symbol": "CCH",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.CCH/GBP"
     }
   },
@@ -17229,7 +17229,7 @@
       "nasdaq_symbol": "CNA",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.CNA/GBP"
     }
   },
@@ -17246,7 +17246,7 @@
       "nasdaq_symbol": "CPG",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.CPG/GBP"
     }
   },
@@ -17263,7 +17263,7 @@
       "nasdaq_symbol": "CRDA",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.CRDA/GBP"
     }
   },
@@ -17280,7 +17280,7 @@
       "nasdaq_symbol": "CTEC",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.CTEC/GBP"
     }
   },
@@ -17297,7 +17297,7 @@
       "nasdaq_symbol": "DCC",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.DCC/GBP"
     }
   },
@@ -17314,7 +17314,7 @@
       "nasdaq_symbol": "DGE",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.DGE/GBP"
     }
   },
@@ -17331,7 +17331,7 @@
       "nasdaq_symbol": "DPLM",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.DPLM/GBP"
     }
   },
@@ -17348,7 +17348,7 @@
       "nasdaq_symbol": "EDV",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.EDV/GBP"
     }
   },
@@ -17365,7 +17365,7 @@
       "nasdaq_symbol": "ENT",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.ENT/GBP"
     }
   },
@@ -17382,7 +17382,7 @@
       "nasdaq_symbol": "EXPN",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.EXPN/GBP"
     }
   },
@@ -17399,7 +17399,7 @@
       "nasdaq_symbol": "EZJ",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.EZJ/GBP"
     }
   },
@@ -17416,7 +17416,7 @@
       "nasdaq_symbol": "FCIT",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.FCIT/GBP"
     }
   },
@@ -17433,7 +17433,7 @@
       "nasdaq_symbol": "FRES",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.FRES/GBP"
     }
   },
@@ -17450,7 +17450,7 @@
       "nasdaq_symbol": "GAW",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.GAW/GBP"
     }
   },
@@ -17467,7 +17467,7 @@
       "nasdaq_symbol": "GLEN",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.GLEN/GBP"
     }
   },
@@ -17484,7 +17484,7 @@
       "nasdaq_symbol": "GSK",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.GSK/GBP"
     }
   },
@@ -17501,7 +17501,7 @@
       "nasdaq_symbol": "HIK",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.HIK/GBP"
     }
   },
@@ -17518,7 +17518,7 @@
       "nasdaq_symbol": "HL",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.HL/GBP"
     }
   },
@@ -17535,7 +17535,7 @@
       "nasdaq_symbol": "HLMA",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.HLMA/GBP"
     }
   },
@@ -17552,7 +17552,7 @@
       "nasdaq_symbol": "HLN",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.HLN/GBP"
     }
   },
@@ -17569,7 +17569,7 @@
       "nasdaq_symbol": "HSBA",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.HSBA/GBP"
     }
   },
@@ -17586,7 +17586,7 @@
       "nasdaq_symbol": "HSX",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.HSX/GBP"
     }
   },
@@ -17603,7 +17603,7 @@
       "nasdaq_symbol": "HWDN",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.HWDN/GBP"
     }
   },
@@ -17620,7 +17620,7 @@
       "nasdaq_symbol": "IAG",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.IAG/GBP"
     }
   },
@@ -17637,7 +17637,7 @@
       "nasdaq_symbol": "ICG",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.ICG/GBP"
     }
   },
@@ -17654,7 +17654,7 @@
       "nasdaq_symbol": "IHG",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.IHG/GBP"
     }
   },
@@ -17671,7 +17671,7 @@
       "nasdaq_symbol": "III",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.III/GBP"
     }
   },
@@ -17688,7 +17688,7 @@
       "nasdaq_symbol": "IMB",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.IMB/GBP"
     }
   },
@@ -17705,7 +17705,7 @@
       "nasdaq_symbol": "IMI",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.IMI/GBP"
     }
   },
@@ -17722,7 +17722,7 @@
       "nasdaq_symbol": "INF",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.INF/GBP"
     }
   },
@@ -17739,7 +17739,7 @@
       "nasdaq_symbol": "ISF",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.ISF/GBP"
     }
   },
@@ -17756,7 +17756,7 @@
       "nasdaq_symbol": "ITRK",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.ITRK/GBP"
     }
   },
@@ -17773,7 +17773,7 @@
       "nasdaq_symbol": "JD",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.JD/GBP"
     }
   },
@@ -17790,7 +17790,7 @@
       "nasdaq_symbol": "KGF",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.KGF/GBP"
     }
   },
@@ -17807,7 +17807,7 @@
       "nasdaq_symbol": "LAND",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.LAND/GBP"
     }
   },
@@ -17824,7 +17824,7 @@
       "nasdaq_symbol": "LGEN",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.LGEN/GBP"
     }
   },
@@ -17841,7 +17841,7 @@
       "nasdaq_symbol": "LLOY",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.LLOY/GBP"
     }
   },
@@ -17858,7 +17858,7 @@
       "nasdaq_symbol": "LMP",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.LMP/GBP"
     }
   },
@@ -17875,7 +17875,7 @@
       "nasdaq_symbol": "LSEG",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.LSEG/GBP"
     }
   },
@@ -17892,7 +17892,7 @@
       "nasdaq_symbol": "MKS",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.MKS/GBP"
     }
   },
@@ -17909,7 +17909,7 @@
       "nasdaq_symbol": "MNDI",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.MNDI/GBP"
     }
   },
@@ -17926,7 +17926,7 @@
       "nasdaq_symbol": "MNG",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.MNG/GBP"
     }
   },
@@ -17943,7 +17943,7 @@
       "nasdaq_symbol": "MRO",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.MRO/GBP"
     }
   },
@@ -17960,7 +17960,7 @@
       "nasdaq_symbol": "NG",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.NG/GBP"
     }
   },
@@ -17977,7 +17977,7 @@
       "nasdaq_symbol": "NWG",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.NWG/GBP"
     }
   },
@@ -17994,7 +17994,7 @@
       "nasdaq_symbol": "NXT",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.NXT/GBP"
     }
   },
@@ -20708,6 +20708,45 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.URTH/USD"
+    }
+  },
+  {
+    "id": "0xd9d22050e7413a16129f1334cd4dd5a359975ce16389cdadae8f677cf46e2839",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "BIO",
+      "description": "BIO PROTOCOL / US DOLLAR",
+      "display_symbol": "BIO/USD",
+      "generic_symbol": "BIOUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.BIO/USD"
+    }
+  },
+  {
+    "id": "0xf0ae06bfdd7cdb39cda6630e74c318bde1f4767506bb525d35b1e071b985a7a7",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "PARTI",
+      "description": "PARTICLE NETWORK / US DOLLAR",
+      "display_symbol": "PARTI/USD",
+      "generic_symbol": "PARTIUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.PARTI/USD"
+    }
+  },
+  {
+    "id": "0x01a2d2aa5728850767d67e2f82ddc9c8e4c3bbace231461386ef9cbb16d0d36b",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "TEST1",
+      "description": "TEST1 / US DOLLAR",
+      "display_symbol": "TEST1/USD",
+      "generic_symbol": "TEST1USD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.TEST1/USD"
     }
   }
 ]
