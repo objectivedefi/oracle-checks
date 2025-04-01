@@ -7267,7 +7267,6 @@
       "blockchainName": "Ethereum",
       "deliveryChannelCode": "DF",
       "issuer": "Solv Protocol",
-      "hidden": true,
       "marketHours": "Crypto",
       "porAuditor": "Bitcoin Network / Cross-chain",
       "porSource": "Wallet Address Manager",

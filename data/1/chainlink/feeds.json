@@ -350,6 +350,16 @@
     "version": "6"
   },
   {
+    "address": "0x5147eA642CAEF7BD9c1265AadcA78f997AbB9649",
+    "chainId": 1,
+    "accessController": "0x0000000000000000000000000000000000000000",
+    "aggregator": "0x7c7FdFCa295a787ded12Bb5c1A49A8D2cC20E3F8",
+    "decimals": 8,
+    "description": "ETH / USD",
+    "owner": "0x21f73D42Eb58Ba49dDB685dc29D3bF5c0f0373CA",
+    "version": "6"
+  },
+  {
     "address": "0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419",
     "chainId": 1,
     "accessController": "0x0000000000000000000000000000000000000000",
