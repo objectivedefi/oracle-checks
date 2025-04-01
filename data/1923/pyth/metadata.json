@@ -18011,7 +18011,7 @@
       "nasdaq_symbol": "PHNX",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.PHNX/GBP"
     }
   },
@@ -18028,7 +18028,7 @@
       "nasdaq_symbol": "PRU",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.PRU/GBP"
     }
   },
@@ -18045,7 +18045,7 @@
       "nasdaq_symbol": "PSH",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.PSH/GBP"
     }
   },
@@ -18062,7 +18062,7 @@
       "nasdaq_symbol": "PSN",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.PSN/GBP"
     }
   },
@@ -18079,7 +18079,7 @@
       "nasdaq_symbol": "PSON",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.PSON/GBP"
     }
   },
@@ -18096,7 +18096,7 @@
       "nasdaq_symbol": "REL",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.REL/GBP"
     }
   },
@@ -18113,7 +18113,7 @@
       "nasdaq_symbol": "RIO",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.RIO/GBP"
     }
   },
@@ -18130,7 +18130,7 @@
       "nasdaq_symbol": "RKT",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.RKT/GBP"
     }
   },
@@ -18147,7 +18147,7 @@
       "nasdaq_symbol": "RMV",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.RMV/GBP"
     }
   },
@@ -18164,7 +18164,7 @@
       "nasdaq_symbol": "RR",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.RR/GBP"
     }
   },
@@ -18181,7 +18181,7 @@
       "nasdaq_symbol": "RTO",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.RTO/GBP"
     }
   },
@@ -18198,7 +18198,7 @@
       "nasdaq_symbol": "SBRY",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.SBRY/GBP"
     }
   },
@@ -18215,7 +18215,7 @@
       "nasdaq_symbol": "SDR",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.SDR/GBP"
     }
   },
@@ -18232,7 +18232,7 @@
       "nasdaq_symbol": "SGE",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.SGE/GBP"
     }
   },
@@ -18249,7 +18249,7 @@
       "nasdaq_symbol": "SGRO",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.SGRO/GBP"
     }
   },
@@ -18266,7 +18266,7 @@
       "nasdaq_symbol": "SHEL",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.SHEL/GBP"
     }
   },
@@ -18283,7 +18283,7 @@
       "nasdaq_symbol": "SMDS",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.SMDS/GBP"
     }
   },
@@ -18300,7 +18300,7 @@
       "nasdaq_symbol": "SMIN",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.SMIN/GBP"
     }
   },
@@ -18317,7 +18317,7 @@
       "nasdaq_symbol": "SMT",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.SMT/GBP"
     }
   },
@@ -18334,7 +18334,7 @@
       "nasdaq_symbol": "SN",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.SN/GBP"
     }
   },
@@ -18351,7 +18351,7 @@
       "nasdaq_symbol": "SPX",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.SPX/GBP"
     }
   },
@@ -18368,7 +18368,7 @@
       "nasdaq_symbol": "SSE",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.SSE/GBP"
     }
   },
@@ -18385,7 +18385,7 @@
       "nasdaq_symbol": "STAN",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.STAN/GBP"
     }
   },
@@ -18402,7 +18402,7 @@
       "nasdaq_symbol": "STJ",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.STJ/GBP"
     }
   },
@@ -18419,7 +18419,7 @@
       "nasdaq_symbol": "SVT",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.SVT/GBP"
     }
   },
@@ -18436,7 +18436,7 @@
       "nasdaq_symbol": "TSCO",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.TSCO/GBP"
     }
   },
@@ -18453,7 +18453,7 @@
       "nasdaq_symbol": "TW",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.TW/GBP"
     }
   },
@@ -18470,7 +18470,7 @@
       "nasdaq_symbol": "ULVR",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.ULVR/GBP"
     }
   },
@@ -18487,7 +18487,7 @@
       "nasdaq_symbol": "UTG",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.UTG/GBP"
     }
   },
@@ -18504,7 +18504,7 @@
       "nasdaq_symbol": "UU",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.UU/GBP"
     }
   },
@@ -18521,7 +18521,7 @@
       "nasdaq_symbol": "VOD",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.VOD/GBP"
     }
   },
@@ -18538,7 +18538,7 @@
       "nasdaq_symbol": "WEIR",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.WEIR/GBP"
     }
   },
@@ -18555,7 +18555,7 @@
       "nasdaq_symbol": "WPP",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.WPP/GBP"
     }
   },
@@ -18572,7 +18572,7 @@
       "nasdaq_symbol": "WTB",
       "publish_interval": "5",
       "quote_currency": "GBP",
-      "schedule": "GMT;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.WTB/GBP"
     }
   },
@@ -20213,7 +20213,7 @@
       "base": "0002-HK",
       "country": "HK",
       "description": "CLP HOLDINGS / HONG KONG DOLLAR",
-      "display_symbol": "0002-HK/HKD",
+      "display_symbol": "HK.0002/HKD",
       "publish_interval": "5",
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
@@ -20227,7 +20227,7 @@
       "base": "0003-HK",
       "country": "HK",
       "description": "HK & CHINA GAS / HONG KONG DOLLAR",
-      "display_symbol": "0003-HK/HKD",
+      "display_symbol": "HK.0003/HKD",
       "publish_interval": "5",
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
@@ -20241,7 +20241,7 @@
       "base": "0012-HK",
       "country": "HK",
       "description": "HENDERSON LAND / HONG KONG DOLLAR",
-      "display_symbol": "0012-HK/HKD",
+      "display_symbol": "HK.0012/HKD",
       "publish_interval": "5",
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
@@ -20255,7 +20255,7 @@
       "base": "0017-HK",
       "country": "HK",
       "description": "NEW WORLD DEV / HONG KONG DOLLAR",
-      "display_symbol": "0017-HK/HKD",
+      "display_symbol": "HK.0017/HKD",
       "publish_interval": "5",
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
@@ -20269,7 +20269,7 @@
       "base": "0027-HK",
       "country": "HK",
       "description": "GALAXY ENT / HONG KONG DOLLAR",
-      "display_symbol": "0027-HK/HKD",
+      "display_symbol": "HK.0027/HKD",
       "publish_interval": "5",
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
@@ -20283,7 +20283,7 @@
       "base": "0101-HK",
       "country": "HK",
       "description": "HANG LUNG PPT / HONG KONG DOLLAR",
-      "display_symbol": "0101-HK/HKD",
+      "display_symbol": "HK.0101/HKD",
       "publish_interval": "5",
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
@@ -20297,7 +20297,7 @@
       "base": "0241-HK",
       "country": "HK",
       "description": "ALI HEALTH / HONG KONG DOLLAR",
-      "display_symbol": "0241-HK/HKD",
+      "display_symbol": "HK.0241/HKD",
       "publish_interval": "5",
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
@@ -20311,7 +20311,7 @@
       "base": "0267-HK",
       "country": "HK",
       "description": "CITIC / HONG KONG DOLLAR",
-      "display_symbol": "0267-HK/HKD",
+      "display_symbol": "HK.0267/HKD",
       "publish_interval": "5",
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
@@ -20325,7 +20325,7 @@
       "base": "0669-HK",
       "country": "HK",
       "description": "TECHTRONIC IND / HONG KONG DOLLAR",
-      "display_symbol": "0669-HK/HKD",
+      "display_symbol": "HK.0669/HKD",
       "publish_interval": "5",
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
@@ -20339,7 +20339,7 @@
       "base": "0700-HK",
       "country": "HK",
       "description": "TENCET HOLDINGS LTD / HONG KONG DOLLAR",
-      "display_symbol": "0700-HK/HKD",
+      "display_symbol": "HK.0700/HKD",
       "publish_interval": "5",
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
@@ -20353,7 +20353,7 @@
       "base": "0883-HK",
       "country": "HK",
       "description": "CNOOC / HONG KONG DOLLAR",
-      "display_symbol": "0883-HK/HKD",
+      "display_symbol": "HK.0883/HKD",
       "publish_interval": "5",
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
@@ -20367,7 +20367,7 @@
       "base": "0939-HK",
       "country": "HK",
       "description": "CONSTRUCTION BANK / HONG KONG DOLLAR",
-      "display_symbol": "0939-HK/HKD",
+      "display_symbol": "HK.0939/HKD",
       "publish_interval": "5",
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
@@ -20381,7 +20381,7 @@
       "base": "0992-HK",
       "country": "HK",
       "description": "LENOVO GROUP / HONG KONG DOLLAR",
-      "display_symbol": "0992-HK/HKD",
+      "display_symbol": "HK.0992/HKD",
       "publish_interval": "5",
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
@@ -20395,7 +20395,7 @@
       "base": "1038-HK",
       "country": "HK",
       "description": "CKI HOLDINGS / HONG KONG DOLLAR",
-      "display_symbol": "1038-HK/HKD",
+      "display_symbol": "HK.1038/HKD",
       "publish_interval": "5",
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
@@ -20409,7 +20409,7 @@
       "base": "1044-HK",
       "country": "HK",
       "description": "HENGAN INT'L / HONG KONG DOLLAR",
-      "display_symbol": "1044-HK/HKD",
+      "display_symbol": "HK.1044/HKD",
       "publish_interval": "5",
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
@@ -20423,7 +20423,7 @@
       "base": "1093-HK",
       "country": "HK",
       "description": "CSPC PHARMA / HONG KONG DOLLAR",
-      "display_symbol": "1093-HK/HKD",
+      "display_symbol": "HK.1093/HKD",
       "publish_interval": "5",
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
@@ -20437,7 +20437,7 @@
       "base": "1109-HK",
       "country": "HK",
       "description": "CHINA RES LAND / HONG KONG DOLLAR",
-      "display_symbol": "1109-HK/HKD",
+      "display_symbol": "HK.1109/HKD",
       "publish_interval": "5",
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
@@ -20451,7 +20451,7 @@
       "base": "1209-HK",
       "country": "HK",
       "description": "CHINA RES MIXC / HONG KONG DOLLAR",
-      "display_symbol": "1209-HK/HKD",
+      "display_symbol": "HK.1209/HKD",
       "publish_interval": "5",
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
@@ -20465,7 +20465,7 @@
       "base": "1398-HK",
       "country": "HK",
       "description": "ICBC / HONG KONG DOLLAR",
-      "display_symbol": "1398-HK/HKD",
+      "display_symbol": "HK.1398/HKD",
       "publish_interval": "5",
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
@@ -20479,7 +20479,7 @@
       "base": "1810-HK",
       "country": "HK",
       "description": "XIAOMI-W / HONG KONG DOLLAR",
-      "display_symbol": "1810-HK/HKD",
+      "display_symbol": "HK.1810/HKD",
       "publish_interval": "5",
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
@@ -20493,7 +20493,7 @@
       "base": "2015-HK",
       "country": "HK",
       "description": "LI AUTO INC / HONG KONG DOLLAR",
-      "display_symbol": "2015-HK/HKD",
+      "display_symbol": "HK.2015/HKD",
       "publish_interval": "5",
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
@@ -20507,7 +20507,7 @@
       "base": "2020-HK",
       "country": "HK",
       "description": "ANTA SPORTS PRODUCTS LIMITED / HONG KONG DOLLAR",
-      "display_symbol": "2020-HK/HKD",
+      "display_symbol": "HK.2020/HKD",
       "publish_interval": "5",
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
@@ -20521,7 +20521,7 @@
       "base": "2269-HK",
       "country": "HK",
       "description": "WUXI BIOLOGICS CAYMAN INC / HONG KONG DOLLAR",
-      "display_symbol": "2269-HK/HKD",
+      "display_symbol": "HK.2269/HKD",
       "publish_interval": "5",
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
@@ -20535,7 +20535,7 @@
       "base": "2319-HK",
       "country": "HK",
       "description": "CHINA MENGNIU DAIRY COMPANY LIMITED / HONG KONG DOLLAR",
-      "display_symbol": "2319-HK/HKD",
+      "display_symbol": "HK.2319/HKD",
       "publish_interval": "5",
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
@@ -20549,7 +20549,7 @@
       "base": "2331-HK",
       "country": "HK",
       "description": "LI NING COMPANY LIMITED / HONG KONG DOLLAR",
-      "display_symbol": "2331-HK/HKD",
+      "display_symbol": "HK.2331/HKD",
       "publish_interval": "5",
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
@@ -20563,7 +20563,7 @@
       "base": "2628-HK",
       "country": "HK",
       "description": "CHINA LIFE INSURANCE COMPANY LIMITED / HONG KONG DOLLAR",
-      "display_symbol": "2628-HK/HKD",
+      "display_symbol": "HK.2628/HKD",
       "publish_interval": "5",
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
@@ -20577,7 +20577,7 @@
       "base": "2688-HK",
       "country": "HK",
       "description": "ENN ENERGY HOLDINGS LIMITED / HONG KONG DOLLAR",
-      "display_symbol": "2688-HK/HKD",
+      "display_symbol": "HK.2688/HKD",
       "publish_interval": "5",
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
@@ -20591,7 +20591,7 @@
       "base": "3690-HK",
       "country": "HK",
       "description": "MEITUAN / HONG KONG DOLLAR",
-      "display_symbol": "3690-HK/HKD",
+      "display_symbol": "HK.3690/HKD",
       "publish_interval": "5",
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
@@ -20605,7 +20605,7 @@
       "base": "6690-HK",
       "country": "HK",
       "description": "HAIER SMART HOME CO LTD / HONG KONG DOLLAR",
-      "display_symbol": "6690-HK/HKD",
+      "display_symbol": "HK.6690/HKD",
       "publish_interval": "5",
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
@@ -20619,7 +20619,7 @@
       "base": "9618-HK",
       "country": "HK",
       "description": "JDCOM INC / HONG KONG DOLLAR",
-      "display_symbol": "9618-HK/HKD",
+      "display_symbol": "HK.9618/HKD",
       "publish_interval": "5",
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
@@ -20633,7 +20633,7 @@
       "base": "9633-HK",
       "country": "HK",
       "description": "NONGFU SPRING CO LTD / HONG KONG DOLLAR",
-      "display_symbol": "9633-HK/HKD",
+      "display_symbol": "HK.9633/HKD",
       "publish_interval": "5",
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
@@ -20647,7 +20647,7 @@
       "base": "9888-HK",
       "country": "HK",
       "description": "BAIDU INC / HONG KONG DOLLAR",
-      "display_symbol": "9888-HK/HKD",
+      "display_symbol": "HK.9888/HKD",
       "publish_interval": "5",
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
@@ -20661,7 +20661,7 @@
       "base": "9988-HK",
       "country": "HK",
       "description": "ALIBABA GROUP HOLDING LIMITED / HONG KONG DOLLAR",
-      "display_symbol": "9988-HK/HKD",
+      "display_symbol": "HK.9988/HKD",
       "publish_interval": "5",
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
@@ -20672,14 +20672,14 @@
     "id": "0x5c7e5c28ac515e94b0e4c3addeddd10b997d5e389cc6ded138510fe2987f94ec",
     "attributes": {
       "asset_type": "Equity",
-      "base": "EWS",
+      "base": "EWH",
       "country": "US",
       "description": "ISHARES MSCI HONG KONG ETF / US DOLLAR",
-      "display_symbol": "EWS/USD",
+      "display_symbol": "EWH/USD",
       "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
-      "symbol": "Equity.US.EWS/USD"
+      "symbol": "Equity.US.EWH/USD"
     }
   },
   {
