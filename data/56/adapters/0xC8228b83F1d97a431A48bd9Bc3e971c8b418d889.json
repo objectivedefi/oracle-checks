@@ -50,7 +50,7 @@
       "pass": false
     }
   ],
-  "label": "BNB / USD (0%, 27s)",
+  "label": "BNB / USD (0.1%, 27s)",
   "methodology": "Market Price",
   "model": "Push",
   "provider": "Chainlink",
