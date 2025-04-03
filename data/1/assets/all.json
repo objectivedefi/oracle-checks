@@ -770,6 +770,13 @@
     "decimals": 6
   },
   {
+    "address": "0x50D2C7992b802Eef16c04FeADAB310f31866a545",
+    "chainId": 1,
+    "name": "PT Ethereal eUSDE 29MAY2025",
+    "symbol": "PT-eUSDE-29MAY2025",
+    "decimals": 18
+  },
+  {
     "address": "0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8",
     "chainId": 1,
     "name": "EURA (previously agEUR)",
@@ -1152,13 +1159,6 @@
     "chainId": 1,
     "name": "Midas Re7 Yield",
     "symbol": "mRe7YIELD",
-    "decimals": 18
-  },
-  {
-    "address": "0x50D2C7992b802Eef16c04FeADAB310f31866a545",
-    "chainId": 1,
-    "name": "PT Ethereal eUSDE 29MAY2025",
-    "symbol": "PT-eUSDE-29MAY2025",
     "decimals": 18
   },
   {
