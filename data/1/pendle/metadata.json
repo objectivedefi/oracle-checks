@@ -409,6 +409,14 @@
   },
   {
     "chainId": 1,
+    "pt": "0xfC66d247F577Bfc87df8a5267C43676C4a088B8b",
+    "market": "0xdA57ABF95a7C21eB9df08fBAADa182F749F6C62F",
+    "underlyingAsset": "0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9",
+    "expiry": 1758758400,
+    "symbol": "sENA"
+  },
+  {
+    "chainId": 1,
     "pt": "0xFd1BB7D74698Da38D8B5D871b189549Ef4B7d976",
     "market": "0x8e1C2Be682B0d3d8f8EE32024455A34Cc724CF08",
     "underlyingAsset": "0x5C20B550819128074FD538Edf79791733ccEdd18",

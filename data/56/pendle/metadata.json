@@ -49,6 +49,14 @@
   },
   {
     "chainId": 56,
+    "pt": "0xDD809435ba6c9d6903730f923038801781cA66ce",
+    "market": "0x8557D39d4BAB2b045ac5c2B7ea66d12139da9Af4",
+    "underlyingAsset": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
+    "expiry": 1750896000,
+    "symbol": "sUSDe"
+  },
+  {
+    "chainId": 56,
     "pt": "0xE8F1C9804770e11Ab73395bE54686Ad656601E9e",
     "market": "0x1d9D27f0b89181cF1593aC2B36A37B444Eb66bEE",
     "underlyingAsset": "0xB0b84D294e0C75A6abe60171b70edEb2EFd14A1B",
