@@ -777,6 +777,20 @@
     "decimals": 18
   },
   {
+    "address": "0x6cA4d5d2eCb72E3Bbf17543B3367746B80D22694",
+    "chainId": 1,
+    "name": "PT Lombard LBTC 26JUN2025",
+    "symbol": "PT-LBTC-26JUN2025",
+    "decimals": 8
+  },
+  {
+    "address": "0xc653F79de1274eE65674BeFda54986020d6f8FC1",
+    "chainId": 1,
+    "name": "PT ether.fi eBTC 26JUN2025",
+    "symbol": "PT-EBTC-26JUN2025",
+    "decimals": 8
+  },
+  {
     "address": "0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8",
     "chainId": 1,
     "name": "EURA (previously agEUR)",
@@ -1113,13 +1127,6 @@
     "decimals": 18
   },
   {
-    "address": "0xc653F79de1274eE65674BeFda54986020d6f8FC1",
-    "chainId": 1,
-    "name": "PT ether.fi eBTC 26JUN2025",
-    "symbol": "PT-EBTC-26JUN2025",
-    "decimals": 8
-  },
-  {
     "address": "0x523f9441853467477b4dDE653c554942f8E17162",
     "chainId": 1,
     "name": "Pendle Market",
@@ -1146,13 +1153,6 @@
     "name": "YieldFi Stable Token",
     "symbol": "sUSD",
     "decimals": 18
-  },
-  {
-    "address": "0x6cA4d5d2eCb72E3Bbf17543B3367746B80D22694",
-    "chainId": 1,
-    "name": "PT Lombard LBTC 26JUN2025",
-    "symbol": "PT-LBTC-26JUN2025",
-    "decimals": 8
   },
   {
     "address": "0x87C9053C819bB28e0D73d33059E1b3DA80AFb0cf",
