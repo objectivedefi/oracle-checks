@@ -124,5 +124,19 @@
     "name": "Infrared BERA",
     "symbol": "iBERA",
     "decimals": 18
+  },
+  {
+    "address": "0x597877Ccf65be938BD214C4c46907669e3E62128",
+    "chainId": 80094,
+    "name": "Staked Nectar",
+    "symbol": "sNECT",
+    "decimals": 18
+  },
+  {
+    "address": "0xD10E65A5F8cA6f835F2B1832e37cF150fb955f23",
+    "chainId": 80094,
+    "name": "NECT/USDC/HONEY",
+    "symbol": "NECT/USDC/HONEY",
+    "decimals": 18
   }
 ]

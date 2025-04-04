@@ -408,6 +408,48 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x17d041D20a0b8693aA95c99FCdc5A2bd0126FDB3",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "susde-usde-exchange-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "SUSDE / USDE Exchange Rate",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "susde-usde-exchange-rate",
+    "proxyAddress": "0x1a269eA1b209DA2c12bDCDab22635C9e6C5028B2",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "Ethena Staked USDe",
+    "feedCategory": "custom",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "baseAsset": "SUSDE",
+      "baseAssetClic": "SUSDE_CR",
+      "blockchainName": "Binance",
+      "clicProductName": "SUSDE/USDE-ExRate-DF-Binance-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Exchange Rate",
+      "productType": "Price",
+      "productTypeCode": "ExRate",
+      "quoteAsset": "USDE",
+      "quoteAssetClic": "USDE_CR",
+      "underlyingAsset": "USDE",
+      "underlyingAssetClic": "USDE_CR"
+    },
+    "decimals": 18
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x18556Fe5b87DcAD8C1F5Af506b10C495069F5582",
     "contractType": "",
     "contractVersion": 6,
@@ -1264,6 +1306,33 @@
       "underlyingAssetClic": "USD_FX"
     },
     "decimals": 8
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x439E82035775b238eE8CEca3af51ec5336fc1977",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "susdx-usdx-exchange-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "sUSDX / USDX Exchange Rate",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "susdx-usdx-exchange-rate",
+    "proxyAddress": "0xdC156E0Ec3C166cdE3d4Ab9912B79e1b916E3CB7",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 18
   },
   {
     "compareOffchain": "",
@@ -4205,6 +4274,49 @@
       "underlyingAssetClic": "BTC_CR"
     },
     "decimals": 18
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0xE0Aa6B17316140A964B08E0228152E282225607D",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "usde-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "USDE / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "usde-usd",
+    "proxyAddress": "0x10402B01cD2E6A9ed6DBe683CbC68f78Ff02f8FC",
+    "threshold": 0.3,
+    "valuePrefix": "",
+    "assetName": "Ethena USDe",
+    "feedCategory": "medium",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Stablecoin",
+      "baseAsset": "USDE",
+      "baseAssetClic": "USDE_CR",
+      "blockchainName": "Binance",
+      "clicProductName": "USDE/USD-RefPrice-DF-Binance-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "underlyingAsset": "USD",
+      "underlyingAssetClic": "USD_FX"
+    },
+    "decimals": 8
   },
   {
     "compareOffchain": "",
