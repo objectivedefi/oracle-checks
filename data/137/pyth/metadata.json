@@ -14024,6 +14024,23 @@
     }
   },
   {
+    "id": "0x2abd60bfdf45bf74d29e1d4bcc815f0f1a81093cd51f49040e2856b1115fcd08",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "IR",
+      "cms_symbol": "IR",
+      "country": "US",
+      "cqs_symbol": "IR",
+      "description": "INGERSOLL RAND INC / US DOLLAR",
+      "display_symbol": "IR/USD",
+      "nasdaq_symbol": "IR",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.IR/USD"
+    }
+  },
+  {
     "id": "0xdcc697370beafb46fade6467328cd2f268b4b4e41c23b2189e649e21d120d76d",
     "attributes": {
       "asset_type": "Equity",
