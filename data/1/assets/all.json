@@ -791,6 +791,13 @@
     "decimals": 8
   },
   {
+    "address": "0x87C9053C819bB28e0D73d33059E1b3DA80AFb0cf",
+    "chainId": 1,
+    "name": "Midas Re7 Yield",
+    "symbol": "mRe7YIELD",
+    "decimals": 18
+  },
+  {
     "address": "0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8",
     "chainId": 1,
     "name": "EURA (previously agEUR)",
@@ -1152,13 +1159,6 @@
     "chainId": 1,
     "name": "YieldFi Stable Token",
     "symbol": "sUSD",
-    "decimals": 18
-  },
-  {
-    "address": "0x87C9053C819bB28e0D73d33059E1b3DA80AFb0cf",
-    "chainId": 1,
-    "name": "Midas Re7 Yield",
-    "symbol": "mRe7YIELD",
     "decimals": 18
   },
   {
