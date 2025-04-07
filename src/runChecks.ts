@@ -34,6 +34,7 @@ export function runChecks({
   assets,
   chainlinkMetadata,
   redstoneMetadata,
+  eoracleMetadata,
   pythMetadata,
   chronicleFeeds,
   pendleMetadata,
@@ -103,6 +104,7 @@ export function runChecks({
         adapter,
         chainlinkMetadata,
         redstoneMetadata,
+        eoracleMetadata,
         otherRecognizedAggregatorV3Feeds,
       });
       label = aggregatorV3FeedCheck.label;

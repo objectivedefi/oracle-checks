@@ -235,7 +235,20 @@ export const chainConfigs: Record<number, CheckConfig> = {
     maxBlockRange: 100000n,
     metadataHashes,
     fallbackAssets,
-    otherRecognizedAggregatorV3Feeds: {},
+    otherRecognizedAggregatorV3Feeds: {
+      "0x63FBA167C2FfC4Dd43c7B2ca60B8B275d4dA4a0B": {
+        provider: "eOracle",
+        description: "eOracle Pendle PT-sUSDe (25SEP2025) Linear Discount/USD",
+      },
+      "0x8DDF02b14AAD158a995485d3a4Eb2640990d448E": {
+        provider: "eOracle",
+        description: "eOracle Pendle PT-iBERA-26JUN2025 Linear Discount/USD",
+      },
+      "0xEf4A5B593a9EAaca9aFb6124deE0073Ef22481c3": {
+        provider: "eOracle",
+        description: "eOracle Pendle PT-USDe-25SEP2025 Linear Discount/USD",
+      },
+    },
     ...defaultBounds,
     ...getAddressesForChain(berachain.id),
   },
