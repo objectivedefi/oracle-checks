@@ -425,7 +425,7 @@
     ],
     "path": "susde-usde-exchange-rate",
     "proxyAddress": "0x1a269eA1b209DA2c12bDCDab22635C9e6C5028B2",
-    "threshold": 1e-7,
+    "threshold": 0.05,
     "valuePrefix": "",
     "assetName": "Ethena Staked USDe",
     "feedCategory": "custom",
