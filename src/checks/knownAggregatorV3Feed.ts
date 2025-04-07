@@ -3,6 +3,7 @@ import {
   ChainlinkInfrequentOracle,
   ChainlinkOracle,
   RedStoneMetadata,
+  EOracleMetadata,
 } from "@objectivelabs/oracle-sdk";
 import { Address } from "viem";
 
@@ -14,6 +15,7 @@ type Params = {
   adapter: ChainlinkOracle | ChainlinkInfrequentOracle;
   chainlinkMetadata?: ChainlinkMetadata;
   redstoneMetadata?: RedStoneMetadata;
+  eoracleMetadata?: EOracleMetadata;
   otherRecognizedAggregatorV3Feeds: Record<
     Address,
     { provider: string; description: string; threshold?: number; heartbeat?: number }
@@ -24,6 +26,7 @@ export function knownAggregatorV3Feed({
   adapter,
   chainlinkMetadata,
   redstoneMetadata,
+  eoracleMetadata,
   otherRecognizedAggregatorV3Feeds,
 }: Params): {
   result: CheckResultWithId;
@@ -39,6 +42,8 @@ export function knownAggregatorV3Feed({
   const matchingRedstoneFeed = redstoneMetadata?.find(
     (feed) => feed.priceFeedAddress === adapter.feed,
   );
+
+  const matchingEoracleFeed = eoracleMetadata?.find((feed) => feed.feedAddress === adapter.feed);
 
   const matchingOtherFeed = otherRecognizedAggregatorV3Feeds[adapter.feed];
 
@@ -70,6 +75,17 @@ export function knownAggregatorV3Feed({
       heartbeat: matchingRedstoneFeed.heartbeat,
       methodology: isExchangeRate ? "Exchange Rate" : "Market Price",
       provider: "RedStone",
+    };
+  } else if (matchingEoracleFeed) {
+    return {
+      result: passCheck(
+        CHECKS.RECOGNIZED_AGGREGATOR_V3_FEED,
+        `Adapter is connected to an official eOracle feed: ${matchingEoracleFeed.symbol}`,
+      ),
+      label: `${matchingEoracleFeed.symbol} (${matchingEoracleFeed.deviationPercentage}, ${matchingEoracleFeed.heartbeat}s)`,
+      heartbeat: matchingEoracleFeed.heartbeat,
+      methodology: "Unknown",
+      provider: "eOracle",
     };
   } else if (matchingOtherFeed) {
     let labelExtra = "";

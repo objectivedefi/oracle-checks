@@ -1,4 +1,3 @@
-import { sonic } from "viem/chains";
 import { collectData } from "./collectData";
 import { chainConfigs } from "./config/chainConfigs";
 import { saveJSON, cleanDataDir } from "./fs";
