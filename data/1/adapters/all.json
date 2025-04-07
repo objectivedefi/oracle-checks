@@ -280,14 +280,14 @@
       {
         "id": "PUSH_STALENESS_BUFFER",
         "severity": "MED",
-        "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
-        "pass": true
+        "message": "Feed heartbeat is unknown",
+        "pass": false
       }
     ],
-    "label": "apxETH/ETH (1%, 86400s)",
-    "methodology": "Market Price",
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
     "model": "Push",
-    "provider": "RedStone",
+    "provider": "Unknown",
     "whitelisted": true
   },
   {
@@ -338,14 +338,14 @@
       {
         "id": "PUSH_STALENESS_BUFFER",
         "severity": "MED",
-        "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
-        "pass": true
+        "message": "Feed heartbeat is unknown",
+        "pass": false
       }
     ],
-    "label": "pzETH_FUNDAMENTAL (0.5%, 86400s)",
-    "methodology": "Exchange Rate",
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
     "model": "Push",
-    "provider": "RedStone",
+    "provider": "Unknown",
     "whitelisted": true
   },
   {
@@ -1827,14 +1827,14 @@
       {
         "id": "PUSH_STALENESS_BUFFER",
         "severity": "MED",
-        "message": "Adapter max staleness (25200) is sufficient for the feed's heartbeat (21600).",
-        "pass": true
+        "message": "Feed heartbeat is unknown",
+        "pass": false
       }
     ],
-    "label": "weETH (1%, 21600s)",
-    "methodology": "Market Price",
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
     "model": "Push",
-    "provider": "RedStone",
+    "provider": "Unknown",
     "whitelisted": true
   },
   {
@@ -1885,14 +1885,14 @@
       {
         "id": "PUSH_STALENESS_BUFFER",
         "severity": "MED",
-        "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
-        "pass": true
+        "message": "Feed heartbeat is unknown",
+        "pass": false
       }
     ],
-    "label": "ETHx (1%, 86400s)",
-    "methodology": "Market Price",
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
     "model": "Push",
-    "provider": "RedStone",
+    "provider": "Unknown",
     "whitelisted": false
   },
   {
@@ -3728,14 +3728,14 @@
       {
         "id": "PUSH_STALENESS_BUFFER",
         "severity": "MED",
-        "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
-        "pass": true
+        "message": "Feed heartbeat is unknown",
+        "pass": false
       }
     ],
-    "label": "eUSD (1%, 86400s)",
-    "methodology": "Market Price",
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
     "model": "Push",
-    "provider": "RedStone",
+    "provider": "Unknown",
     "whitelisted": true
   },
   {
@@ -4076,14 +4076,14 @@
       {
         "id": "PUSH_STALENESS_BUFFER",
         "severity": "MED",
-        "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
-        "pass": true
+        "message": "Feed heartbeat is unknown",
+        "pass": false
       }
     ],
-    "label": "ETH+/ETH (0.5%, 86400s)",
-    "methodology": "Market Price",
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
     "model": "Push",
-    "provider": "RedStone",
+    "provider": "Unknown",
     "whitelisted": true
   },
   {
@@ -4134,14 +4134,14 @@
       {
         "id": "PUSH_STALENESS_BUFFER",
         "severity": "MED",
-        "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
-        "pass": true
+        "message": "Feed heartbeat is unknown",
+        "pass": false
       }
     ],
-    "label": "weETH/ETH (0.5%, 86400s)",
-    "methodology": "Market Price",
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
     "model": "Push",
-    "provider": "RedStone",
+    "provider": "Unknown",
     "whitelisted": true
   },
   {
@@ -4243,14 +4243,14 @@
       {
         "id": "PUSH_STALENESS_BUFFER",
         "severity": "MED",
-        "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
-        "pass": true
+        "message": "Feed heartbeat is unknown",
+        "pass": false
       }
     ],
-    "label": "rsETH/ETH (1%, 86400s)",
-    "methodology": "Market Price",
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
     "model": "Push",
-    "provider": "RedStone",
+    "provider": "Unknown",
     "whitelisted": true
   },
   {
@@ -4874,14 +4874,14 @@
       {
         "id": "PUSH_STALENESS_BUFFER",
         "severity": "MED",
-        "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
-        "pass": true
+        "message": "Feed heartbeat is unknown",
+        "pass": false
       }
     ],
-    "label": "USD3 (0.5%, 86400s)",
-    "methodology": "Market Price",
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
     "model": "Push",
-    "provider": "RedStone",
+    "provider": "Unknown",
     "whitelisted": true
   },
   {
@@ -9720,14 +9720,14 @@
       {
         "id": "PUSH_STALENESS_BUFFER",
         "severity": "MED",
-        "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
-        "pass": true
+        "message": "Feed heartbeat is unknown",
+        "pass": false
       }
     ],
-    "label": "beraSTONE_FUNDAMENTAL (0.5%, 86400s)",
-    "methodology": "Exchange Rate",
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
     "model": "Push",
-    "provider": "RedStone",
+    "provider": "Unknown",
     "whitelisted": true
   },
   {
@@ -17067,14 +17067,14 @@
       {
         "id": "PUSH_STALENESS_BUFFER",
         "severity": "MED",
-        "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
-        "pass": true
+        "message": "Feed heartbeat is unknown",
+        "pass": false
       }
     ],
-    "label": "ETHx/ETH (0.5%, 86400s)",
-    "methodology": "Market Price",
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
     "model": "Push",
-    "provider": "RedStone",
+    "provider": "Unknown",
     "whitelisted": true
   },
   {
@@ -17125,14 +17125,14 @@
       {
         "id": "PUSH_STALENESS_BUFFER",
         "severity": "MED",
-        "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
-        "pass": true
+        "message": "Feed heartbeat is unknown",
+        "pass": false
       }
     ],
-    "label": "osETH/ETH (0.5%, 86400s)",
-    "methodology": "Market Price",
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
     "model": "Push",
-    "provider": "RedStone",
+    "provider": "Unknown",
     "whitelisted": true
   },
   {
@@ -17183,14 +17183,14 @@
       {
         "id": "PUSH_STALENESS_BUFFER",
         "severity": "MED",
-        "message": "Adapter max staleness (25200) is sufficient for the feed's heartbeat (21600).",
-        "pass": true
+        "message": "Feed heartbeat is unknown",
+        "pass": false
       }
     ],
-    "label": "SWETH/ETH (0.5%, 21600s)",
-    "methodology": "Market Price",
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
     "model": "Push",
-    "provider": "RedStone",
+    "provider": "Unknown",
     "whitelisted": true
   },
   {
@@ -17241,14 +17241,14 @@
       {
         "id": "PUSH_STALENESS_BUFFER",
         "severity": "MED",
-        "message": "Adapter max staleness (46800) is sufficient for the feed's heartbeat (43200).",
-        "pass": true
+        "message": "Feed heartbeat is unknown",
+        "pass": false
       }
     ],
-    "label": "ezETH/ETH (1%, 43200s)",
-    "methodology": "Market Price",
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
     "model": "Push",
-    "provider": "RedStone",
+    "provider": "Unknown",
     "whitelisted": true
   },
   {
@@ -17299,14 +17299,14 @@
       {
         "id": "PUSH_STALENESS_BUFFER",
         "severity": "MED",
-        "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
-        "pass": true
+        "message": "Feed heartbeat is unknown",
+        "pass": false
       }
     ],
-    "label": "rswETH/ETH (1%, 86400s)",
-    "methodology": "Market Price",
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
     "model": "Push",
-    "provider": "RedStone",
+    "provider": "Unknown",
     "whitelisted": true
   },
   {
@@ -17357,14 +17357,14 @@
       {
         "id": "PUSH_STALENESS_BUFFER",
         "severity": "MED",
-        "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
-        "pass": true
+        "message": "Feed heartbeat is unknown",
+        "pass": false
       }
     ],
-    "label": "USDe (0.2%, 86400s)",
-    "methodology": "Market Price",
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
     "model": "Push",
-    "provider": "RedStone",
+    "provider": "Unknown",
     "whitelisted": true
   },
   {
@@ -17415,14 +17415,14 @@
       {
         "id": "PUSH_STALENESS_BUFFER",
         "severity": "MED",
-        "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
-        "pass": true
+        "message": "Feed heartbeat is unknown",
+        "pass": false
       }
     ],
-    "label": "sUSDe (0.2%, 86400s)",
-    "methodology": "Market Price",
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
     "model": "Push",
-    "provider": "RedStone",
+    "provider": "Unknown",
     "whitelisted": true
   },
   {
@@ -17473,14 +17473,14 @@
       {
         "id": "PUSH_STALENESS_BUFFER",
         "severity": "MED",
-        "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
-        "pass": true
+        "message": "Feed heartbeat is unknown",
+        "pass": false
       }
     ],
-    "label": "pufETH/ETH (1%, 86400s)",
-    "methodology": "Market Price",
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
     "model": "Push",
-    "provider": "RedStone",
+    "provider": "Unknown",
     "whitelisted": true
   },
   {
@@ -17531,14 +17531,14 @@
       {
         "id": "PUSH_STALENESS_BUFFER",
         "severity": "MED",
-        "message": "Adapter max staleness (25200) is sufficient for the feed's heartbeat (21600).",
-        "pass": true
+        "message": "Feed heartbeat is unknown",
+        "pass": false
       }
     ],
-    "label": "sfrxETH/ETH (0.5%, 21600s)",
-    "methodology": "Market Price",
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
     "model": "Push",
-    "provider": "RedStone",
+    "provider": "Unknown",
     "whitelisted": true
   },
   {
@@ -21810,14 +21810,14 @@
       {
         "id": "PUSH_STALENESS_BUFFER",
         "severity": "MED",
-        "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
-        "pass": true
+        "message": "Feed heartbeat is unknown",
+        "pass": false
       }
     ],
-    "label": "LBTC_FUNDAMENTAL (1%, 86400s)",
-    "methodology": "Exchange Rate",
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
     "model": "Push",
-    "provider": "RedStone",
+    "provider": "Unknown",
     "whitelisted": true
   },
   {
@@ -22203,14 +22203,14 @@
       {
         "id": "PUSH_STALENESS_BUFFER",
         "severity": "MED",
-        "message": "Adapter max staleness (25200) is sufficient for the feed's heartbeat (21600).",
-        "pass": true
+        "message": "Feed heartbeat is unknown",
+        "pass": false
       }
     ],
-    "label": "SolvBTC (0.5%, 21600s)",
-    "methodology": "Market Price",
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
     "model": "Push",
-    "provider": "RedStone",
+    "provider": "Unknown",
     "whitelisted": true
   },
   {
