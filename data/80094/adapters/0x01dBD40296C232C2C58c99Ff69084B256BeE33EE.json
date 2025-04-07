@@ -46,13 +46,13 @@
     {
       "id": "PUSH_STALENESS_BUFFER",
       "severity": "MED",
-      "message": "Feed heartbeat is unknown",
-      "pass": false
+      "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
+      "pass": true
     }
   ],
-  "label": "Unknown AggregatorV3 Feed",
+  "label": "BTC/USD (0.5, 86400s)",
   "methodology": "Unknown",
   "model": "Push",
-  "provider": "Unknown",
+  "provider": "eOracle",
   "whitelisted": false
 }

@@ -133,6 +133,20 @@
     "decimals": 18
   },
   {
+    "address": "0x48b358b7bC013F24E2D59b3A0d4455f6e71Fe2d6",
+    "chainId": 80094,
+    "name": "PT Infrared BERA 26JUN2025",
+    "symbol": "PT-iBERA-26JUN2025",
+    "decimals": 18
+  },
+  {
+    "address": "0xdc9b87e5eFD6Ca2BeAa33dDe9c544E1e98345De4",
+    "chainId": 80094,
+    "name": "PT Ethena USDe 25SEP2025",
+    "symbol": "PT-USDe-25SEP2025",
+    "decimals": 18
+  },
+  {
     "address": "0xD10E65A5F8cA6f835F2B1832e37cF150fb955f23",
     "chainId": 80094,
     "name": "NECT/USDC/HONEY",

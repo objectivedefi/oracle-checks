@@ -1,11 +1,11 @@
 {
   "name": "ChainlinkInfrequentOracle",
-  "address": "0x35685EFb793F77A78161F87575E9Ad951b5b1240",
+  "address": "0xbc623052007c19d1594d0D640bA5A7228F040f0D",
   "chainId": 80094,
-  "base": "0x597877Ccf65be938BD214C4c46907669e3E62128",
+  "base": "0xdc9b87e5eFD6Ca2BeAa33dDe9c544E1e98345De4",
   "quote": "0x0000000000000000000000000000000000000348",
-  "feed": "0x6e21a42Ac7DA737Ae25Ad27eFf34CAC053BEa4b9",
-  "maxStaleness": "90000",
+  "feed": "0xEf4A5B593a9EAaca9aFb6124deE0073Ef22481c3",
+  "maxStaleness": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
   "checks": [
     {
       "id": "ADAPTER_EXISTS",
@@ -34,7 +34,7 @@
     {
       "id": "CONSISTENT_ASSET",
       "severity": "HIGH",
-      "message": "Asset 0x597877Ccf65be938BD214C4c46907669e3E62128 is sNECT (Staked Nectar) with 18 decimals",
+      "message": "Asset 0xdc9b87e5eFD6Ca2BeAa33dDe9c544E1e98345De4 is PT-USDe-25SEP2025 (PT Ethena USDe 25SEP2025) with 18 decimals",
       "pass": true
     },
     {
@@ -46,11 +46,11 @@
     {
       "id": "PUSH_STALENESS_BUFFER",
       "severity": "MED",
-      "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
-      "pass": true
+      "message": "Feed heartbeat is unknown",
+      "pass": false
     }
   ],
-  "label": "NECT/USD (0.5, 86400s)",
+  "label": "eOracle Pendle PT-USDe-25SEP2025 Linear Discount/USD ",
   "methodology": "Unknown",
   "model": "Push",
   "provider": "eOracle",
