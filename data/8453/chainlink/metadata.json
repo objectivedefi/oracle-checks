@@ -3506,6 +3506,33 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0xD41A2B9575eD27D38EC9B75B4d0DD9632a72e45b",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "usdo-reserves",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "USDO Reserves",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "usdo-por",
+    "proxyAddress": "0x5218Ebeb96bD2bAFe21F9b143f5672552629ba79",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 18
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0xD8341Fd0F84d0E5755CD419969BbD3Bf73e6Ab43",
     "contractType": "",
     "contractVersion": 4,
