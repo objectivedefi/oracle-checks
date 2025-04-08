@@ -35,7 +35,7 @@
     {
       "id": "CONSISTENT_ASSET",
       "severity": "HIGH",
-      "message": "Asset 0xCC0966D8418d412c599A6421b760a847eB169A8c is SolvBTC.BBN (SolvBTC Babylon) with 18 decimals",
+      "message": "Asset 0xCC0966D8418d412c599A6421b760a847eB169A8c is xSolvBTC (xSolvBTC) with 18 decimals",
       "pass": true
     },
     {
@@ -51,7 +51,7 @@
       "pass": true
     }
   ],
-  "label": "SolvBTC.BBN/SolvBTC/USD",
+  "label": "xSolvBTC/SolvBTC/USD",
   "methodology": "Unknown",
   "model": "Unknown",
   "provider": "Cross",
