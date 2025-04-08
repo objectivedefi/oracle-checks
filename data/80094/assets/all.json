@@ -140,6 +140,12 @@
     "decimals": 18
   },
   {
+    "address": "0xe6B3f13b44C9Da5156503203Ca30c0521da4Cb44",
+    "chainId": 80094,
+    "name": "CREDIT",
+    "symbol": "CRDT"
+  },
+  {
     "address": "0x48b358b7bC013F24E2D59b3A0d4455f6e71Fe2d6",
     "chainId": 80094,
     "name": "PT Infrared BERA 26JUN2025",
