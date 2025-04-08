@@ -6421,19 +6421,6 @@
     }
   },
   {
-    "id": "0x374ddb8a25370dc3a997fd3c73103b1ac04c2cfd60103bf7f607fdb56c968e0d",
-    "attributes": {
-      "asset_type": "Commodities",
-      "base": "BRENT1M",
-      "description": "BRENT CRUDE OIL - 1 MONTH",
-      "display_symbol": "BRENT1M/USD",
-      "generic_symbol": "BRENT1M",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800,C,1800-2400;1224/0000-1400&2000-2400,1225/C,0101/C,0418/C",
-      "symbol": "Commodities.BRENT1M"
-    }
-  },
-  {
     "id": "0xa6416fd4788c8d0f0b5c7d9d93030f4f6b4a012a324771026f4b20d20114fcf4",
     "attributes": {
       "asset_type": "Commodities",
@@ -6777,46 +6764,6 @@
     }
   },
   {
-    "id": "0x316b1536978bee10c47b3c74c0b3995aabae973a3351621680a2aa383aca77b8",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "SCUSD",
-      "description": "SONIC USD / US DOLLAR",
-      "display_symbol": "SCUSD/USD",
-      "generic_symbol": "SCUSDUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.SCUSD/USD"
-    }
-  },
-  {
-    "id": "0xc75ae44b9a0cfa738de09ba2eae24e8797c9555db501bb5c014f827f5aec393c",
-    "attributes": {
-      "asset_type": "Crypto Redemption Rate",
-      "base": "APXETH",
-      "contract_id": "eth: 0x9Ba021B0a9b958B5E75cE9f6dff97C7eE52cb3E6",
-      "description": "DINERO APX ETH / DINERO STAKED ETH REDEMPTION RATE",
-      "display_symbol": "APXETH/PXETH",
-      "generic_symbol": "APXETHPXETH",
-      "quote_currency": "PXETH",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.APXETH/PXETH.RR"
-    }
-  },
-  {
-    "id": "0x2997d5f9e96563cef9151cffc4580803930826fa38c4af5062de2363720769ea",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "BBSOL",
-      "description": "BYBIT STAKED SOLANA / US DOLLAR",
-      "display_symbol": "BBSOL/USD",
-      "generic_symbol": "BBSOLUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.BBSOL/USD"
-    }
-  },
-  {
     "id": "0xd6134dbb0427240f901e3e596d6e63f7d85088f96cd4cd4ae2f89c0819b5d623",
     "attributes": {
       "asset_type": "Crypto",
@@ -6840,20 +6787,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.DBR/USD"
-    }
-  },
-  {
-    "id": "0x00e3d49cc7f4502c813e5ed1b787ae4dd4442e3d8f7e35a961a183e1dd94b2e2",
-    "attributes": {
-      "asset_type": "Crypto Redemption Rate",
-      "base": "PZETH",
-      "contract_id": "eth: 0x8c9532a60E0E7C6BbD2B2c1303F63aCE1c3E9811",
-      "description": "RENZO RESTAKED LST / WRAPPED STETH REDEMPTION RATE",
-      "display_symbol": "PZETH/WSTETH",
-      "generic_symbol": "PZETHWSTETH",
-      "quote_currency": "WSTETH",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.PZETH/WSTETH.RR"
     }
   },
   {
@@ -7128,19 +7061,6 @@
       "quote_currency": "AVAX",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.GGAVAX/AVAX.RR"
-    }
-  },
-  {
-    "id": "0x299ac948742a799d27a1649c76035b26577ad0eb6585a5ae2a691d31f2ee90c4",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "GRASS",
-      "description": "GRASS / US DOLLAR",
-      "display_symbol": "GRASS/USD",
-      "generic_symbol": "GRASSUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.GRASS/USD"
     }
   },
   {
@@ -7488,20 +7408,6 @@
     }
   },
   {
-    "id": "0x5872204cdf70b27802c86f1029c118560cd9b67a5f487f032f15d0e1dfd92560",
-    "attributes": {
-      "asset_type": "Crypto Redemption Rate",
-      "base": "VSOL",
-      "contract_id": "sol: Fu9BYC6tWBo1KMKaP3CFoKfRhqv9akmy3DuYwnCyWiyC",
-      "description": "THE VAULT STAKED SOLANA / SOLANA REDEMPTION RATE",
-      "display_symbol": "VSOL/SOL",
-      "generic_symbol": "VSOLSOL",
-      "quote_currency": "SOL",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.VSOL/SOL.RR"
-    }
-  },
-  {
     "id": "0x4d716b908b470fabc1f9eeaf62ad32424b2388bf981401385df19ead98499c7c",
     "attributes": {
       "asset_type": "Crypto",
@@ -7594,19 +7500,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.BAN/USD"
-    }
-  },
-  {
-    "id": "0x8fdceac00b70233b81634cc11df59940823922396cfb91c037f79411b2a57a84",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "CLND",
-      "description": "COLEND / US DOLLAR",
-      "display_symbol": "CLND/USD",
-      "generic_symbol": "CLNDUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.CLND/USD"
     }
   },
   {
@@ -8174,36 +8067,6 @@
       "quote_currency": "ETH",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.BOBAETH/ETH.RR"
-    }
-  },
-  {
-    "id": "0xd4f2bed7d02eb122e3742e9425a0f3d9da189f1f52fcf9eff68ce442ad89fbbf",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "CDXUSD",
-      "description": "COD3X US DOLLAR / US DOLLAR",
-      "display_symbol": "CDXUSD/USD",
-      "generic_symbol": "CDXUSDUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.CDXUSD/USD"
-    }
-  },
-  {
-    "id": "0xd62134a195739141d0649991f11fe0f9cd9eb83fd890bc3ba41dfdd18c1a49f4",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "RBLX",
-      "cms_symbol": "RBLX",
-      "country": "US",
-      "cqs_symbol": "RBLX",
-      "description": "ROBLOX CORP / US DOLLAR",
-      "display_symbol": "RBLX/USD",
-      "nasdaq_symbol": "RBLX",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
-      "symbol": "Equity.US.RBLX/USD"
     }
   },
   {
@@ -15927,23 +15790,6 @@
     }
   },
   {
-    "id": "0x6c7af6afdee5b983466211bcc8f5a2e3b92e0685a57a7537703fc02dfb1dd4cf",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "POOL",
-      "cms_symbol": "POOL",
-      "country": "US",
-      "cqs_symbol": "POOL",
-      "description": "POOL CORPORATION / US DOLLAR",
-      "display_symbol": "POOL/USD",
-      "nasdaq_symbol": "POOL",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
-      "symbol": "Equity.US.POOL/USD"
-    }
-  },
-  {
     "id": "0x0a2d049aa48d4b77c4db199ae38a10a1e3d5130abd27b5cab7db548409da74d5",
     "attributes": {
       "asset_type": "Equity",
@@ -18662,23 +18508,6 @@
     }
   },
   {
-    "id": "0x5cbf183213af0c63f896b908770e684cb0dfb6634e42bd6e8ea7b273eb61a342",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "TEL",
-      "cms_symbol": "TEL",
-      "country": "US",
-      "cqs_symbol": "TEL",
-      "description": "TE CONNECTIVITY PLC / US DOLLAR",
-      "display_symbol": "TEL/USD",
-      "nasdaq_symbol": "TEL",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0217/C,0418/C,0526/C,0619/C",
-      "symbol": "Equity.US.TEL/USD"
-    }
-  },
-  {
     "id": "0x58ab181e7512766728d2cc3581839bbb913e6cd24457ba422cbe2a33df64416e",
     "attributes": {
       "asset_type": "Equity",
@@ -19563,19 +19392,6 @@
     }
   },
   {
-    "id": "0xd90813d7fc7f4f5d786f3a6a35701aff4f628db0ecd998de66be0ff8264c67a2",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "HENLO",
-      "description": "HENLO BERACHAIN / US DOLLAR",
-      "display_symbol": "HENLO/USD",
-      "generic_symbol": "HENLOUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.HENLO/USD"
-    }
-  },
-  {
     "id": "0x7d80a0d7344c6632c5ed2b85016f32aed4f831294e274739d92bb9e32df5b22f",
     "attributes": {
       "asset_type": "Crypto",
@@ -19682,19 +19498,6 @@
     }
   },
   {
-    "id": "0x5f30ff1377afb8cdbfd5ddba62312c77cc329557fde4b6aae2c29b5b6ef8908b",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "DOGINME",
-      "description": "DOGINME / US DOLLAR",
-      "display_symbol": "DOGINME/USD",
-      "generic_symbol": "DOGINMEUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.DOGINME/USD"
-    }
-  },
-  {
     "id": "0x3e9961b890c4e77e9009c1a6d81dc556e24a3c190b02d1682c8f545c53b1d4a2",
     "attributes": {
       "asset_type": "Crypto Redemption Rate",
@@ -19746,20 +19549,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.LVLUSD/USD.RR"
-    }
-  },
-  {
-    "id": "0xa6a9e999d34b0c2a34c2cdc0a5f6922e375853109e2386426f8a9ec682692a6c",
-    "attributes": {
-      "asset_type": "Crypto Redemption Rate",
-      "base": "MATICX",
-      "contract_id": "eth: 0xf03A7Eb46d01d9EcAA104558C732Cf82f6B6B645",
-      "description": "STADER STAKED MATIC / MATIC REDEMPTION RATE",
-      "display_symbol": "MATICX/MATIC",
-      "generic_symbol": "MATICXMATIC",
-      "quote_currency": "MATIC",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.MATICX/MATIC.RR"
     }
   },
   {
@@ -20260,20 +20049,6 @@
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
       "symbol": "Equity.HK.0017-HK/HKD"
-    }
-  },
-  {
-    "id": "0x35601ad68cf21b0bc2e8a3d8795fc81af7d7066ad096dbddd0d10a0744293ec4",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "0027-HK",
-      "country": "HK",
-      "description": "GALAXY ENT / HONG KONG DOLLAR",
-      "display_symbol": "HK.0027/HKD",
-      "publish_interval": "5",
-      "quote_currency": "HKD",
-      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
-      "symbol": "Equity.HK.0027-HK/HKD"
     }
   },
   {
