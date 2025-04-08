@@ -48543,6 +48543,33 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x8334F7Df02E9e49f4aD630916f448766F498e9Dd",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "frxusd-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "frxUSD / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "frxusd-usd",
+    "proxyAddress": "0xF6a5c5480A9aC736ea567454e2E570889E0DB4Bc",
+    "threshold": 0.1,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x8548A931B2E5605a8936089B75F0bF66136e2393",
     "contractType": "",
     "contractVersion": 4,
