@@ -4970,7 +4970,7 @@
       "generic_symbol": "C3M",
       "publish_interval": "5",
       "quote_currency": "EUR",
-      "schedule": "CET;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
       "symbol": "Equity.FR.C3M/EUR"
     }
   },
@@ -4985,7 +4985,7 @@
       "generic_symbol": "EUE",
       "publish_interval": "5",
       "quote_currency": "EUR",
-      "schedule": "CET;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
       "symbol": "Equity.IE.EUE/EUR"
     }
   },
@@ -5000,7 +5000,7 @@
       "generic_symbol": "BCOIN",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "CET;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
       "symbol": "Equity.NL.BCOIN/USD"
     }
   },
@@ -20053,13 +20053,13 @@
     "id": "0x053eeb0c51e45a1553e0987860688209b939d826ddccf7c31d0e35d590097fb1",
     "attributes": {
       "asset_type": "Crypto",
-      "base": "GPLUS",
+      "base": "GPS",
       "description": "GOPLUS SECURITY / US DOLLAR",
-      "display_symbol": "GPLUS/USD",
-      "generic_symbol": "GPLUSUSD",
+      "display_symbol": "GPS/USD",
+      "generic_symbol": "GPSUSD",
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.GPLUS/USD"
+      "symbol": "Crypto.GPS/USD"
     }
   },
   {
@@ -20120,12 +20120,12 @@
       "asset_type": "Crypto Redemption Rate",
       "base": "ORIBGT",
       "contract_id": "bera: 0x69f1E971257419B1E9C405A553f252c64A29A30a",
-      "description": "ORIGAMI BERACHAIN GOVERNANCE TOKEN / BERACHAIN GOVERNANCE TOKEN REDEMPTION RATE",
-      "display_symbol": "ORIBGT/BGT",
-      "generic_symbol": "ORIBGTBGT",
-      "quote_currency": "BGT",
+      "description": "ORIGAMI BERACHAIN GOVERNANCE TOKEN / INFRARED BERACHAIN GOVERNANCE TOKEN REDEMPTION RATE",
+      "display_symbol": "ORIBGT/IBGT",
+      "generic_symbol": "ORIBGTIBGT",
+      "quote_currency": "IBGT",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.ORIBGT/BGT.RR"
+      "symbol": "Crypto.ORIBGT/IBGT.RR"
     }
   },
   {
