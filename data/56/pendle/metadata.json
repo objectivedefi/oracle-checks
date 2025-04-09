@@ -13,7 +13,7 @@
     "market": "0xE616D50e441aa2f6d6CD43eba1b1632AB1B046e6",
     "underlyingAsset": "0x1346b618dC92810EC74163e4c27004c921D446a5",
     "expiry": 1766016000,
-    "symbol": "SolvBTC.BBN"
+    "symbol": "xSolvBTC"
   },
   {
     "chainId": 56,

@@ -124,5 +124,23 @@
     "priceFeedAddress": "0x607eb00a05b849A663C909285337e51C2C6F58d0",
     "deviationPercentage": 0.5,
     "heartbeat": 21600
+  },
+  {
+    "symbol": "pufETH_FUNDAMENTAL",
+    "priceFeedAddress": "0x65640Cf8900adF5fD4E9b19B69791f0EaF8b2FF4",
+    "deviationPercentage": 0.5,
+    "heartbeat": 21600
+  },
+  {
+    "symbol": "iBERA",
+    "priceFeedAddress": "0xC9e11c60e24BEF478cC999fA9fA2d89cC098A86e",
+    "deviationPercentage": 0.5,
+    "heartbeat": 3600
+  },
+  {
+    "symbol": "iBGT",
+    "priceFeedAddress": "0x243507C8C114618d7C8AD94b51118dB7b4e32ECe",
+    "deviationPercentage": 0.5,
+    "heartbeat": 3600
   }
 ]

@@ -234,6 +234,12 @@
     "heartbeat": 86400
   },
   {
+    "symbol": "PRIME_ECHELON",
+    "priceFeedAddress": "0xC328CDf06CBc77134B84e1f6ed452774947146b6",
+    "deviationPercentage": 1,
+    "heartbeat": 86400
+  },
+  {
     "symbol": "apxETH/ETH",
     "priceFeedAddress": "0x19219BC90F48DeE4d5cF202E09c438FAacFd8Bea",
     "deviationPercentage": 1,

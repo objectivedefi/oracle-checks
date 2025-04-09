@@ -1326,7 +1326,7 @@
     ],
     "path": "susdx-usdx-exchange-rate",
     "proxyAddress": "0xdC156E0Ec3C166cdE3d4Ab9912B79e1b916E3CB7",
-    "threshold": 1e-7,
+    "threshold": 0.05,
     "valuePrefix": "",
     "assetName": "",
     "feedCategory": "",
