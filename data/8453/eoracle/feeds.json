@@ -40,6 +40,14 @@
     "version": "1"
   },
   {
+    "address": "0x32d347D86CFA0c90F6f60fe159c32baf3Eb4FD35",
+    "chainId": 8453,
+    "decimals": 8,
+    "description": "LBTC/BTC",
+    "feedId": 135,
+    "version": "1"
+  },
+  {
     "address": "0x1D70359e53C422BE7111131BECE7B8B09Bf127Ca",
     "chainId": 8453,
     "decimals": 8,
@@ -77,6 +85,14 @@
     "decimals": 8,
     "description": "XAU/USD",
     "feedId": 11,
+    "version": "1"
+  },
+  {
+    "address": "0x4db9feEA308F8b9ADC9177b5103f66988B1ED191",
+    "chainId": 8453,
+    "decimals": 8,
+    "description": "eBTC/BTC",
+    "feedId": 64,
     "version": "1"
   },
   {

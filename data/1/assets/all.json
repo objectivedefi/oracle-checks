@@ -798,6 +798,41 @@
     "decimals": 18
   },
   {
+    "address": "0xC139190F447e929f090Edeb554D95AbB8b18aC1C",
+    "chainId": 1,
+    "name": "USDtb",
+    "symbol": "USDtb",
+    "decimals": 18
+  },
+  {
+    "address": "0x07a36C630e3F072637da3445Da733B29958D8cAB",
+    "chainId": 1,
+    "name": "sBUIDL",
+    "symbol": "sBUIDL",
+    "decimals": 6
+  },
+  {
+    "address": "0x136471a34f6ef19fE571EFFC1CA711fdb8E49f2b",
+    "chainId": 1,
+    "name": "US Yield Coin",
+    "symbol": "USYC",
+    "decimals": 6
+  },
+  {
+    "address": "0x57F5E098CaD7A3D1Eed53991D4d66C45C9AF7812",
+    "chainId": 1,
+    "name": "Wrapped Mountain Protocol USD",
+    "symbol": "wUSDM",
+    "decimals": 18
+  },
+  {
+    "address": "0x7751E2F4b8ae93EF6B79d86419d42FE3295A4559",
+    "chainId": 1,
+    "name": "Wrapped USDL",
+    "symbol": "wUSDL",
+    "decimals": 18
+  },
+  {
     "address": "0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8",
     "chainId": 1,
     "name": "EURA (previously agEUR)",
@@ -998,13 +1033,6 @@
     "chainId": 1,
     "name": "Staked ETH",
     "symbol": "osETH",
-    "decimals": 18
-  },
-  {
-    "address": "0x57F5E098CaD7A3D1Eed53991D4d66C45C9AF7812",
-    "chainId": 1,
-    "name": "Wrapped Mountain Protocol USD",
-    "symbol": "wUSDM",
     "decimals": 18
   },
   {

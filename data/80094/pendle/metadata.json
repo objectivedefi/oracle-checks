@@ -9,6 +9,14 @@
   },
   {
     "chainId": 80094,
+    "pt": "0x1d513B989b93c438cE62eDF209aE00B6a410Cac4",
+    "market": "0x34634a7bBE5A3C234b931C79d4cC6785C5dd54C4",
+    "underlyingAsset": "0x7DCC39B4d1C53CB31e1aBc0e358b43987FEF80f7",
+    "expiry": 1761782400,
+    "symbol": "eETH"
+  },
+  {
+    "chainId": 80094,
     "pt": "0x2719e657ec3B3CbE521a18E640CA55799836376f",
     "market": "0xd8079e0929d67390067529974B116212903cAC69",
     "underlyingAsset": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
@@ -22,6 +30,22 @@
     "underlyingAsset": "0x9b6761bf2397Bb5a6624a856cC84A3A14Dcd3fe5",
     "expiry": 1750896000,
     "symbol": "iBera"
+  },
+  {
+    "chainId": 80094,
+    "pt": "0x83836B2c1D155Be83D374cB74D74a4d9F2281B38",
+    "market": "0xd8F42A92a0e2995Eee9aED66d630dE00a9B49e22",
+    "underlyingAsset": "0xecAc9C5F704e954931349Da37F60E39f515c11c1",
+    "expiry": 1758758400,
+    "symbol": "LBTC"
+  },
+  {
+    "chainId": 80094,
+    "pt": "0xd8711F912e52A78d0DdD13Fca2555700c31d61F4",
+    "market": "0x5200C9900436f649B4659dFc79213837DcCCaAB1",
+    "underlyingAsset": "0xAa97D791Afc02AF30cf0B046172bb05b3c306517",
+    "expiry": 1761782400,
+    "symbol": "dBERA"
   },
   {
     "chainId": 80094,

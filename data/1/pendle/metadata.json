@@ -17,6 +17,14 @@
   },
   {
     "chainId": 1,
+    "pt": "0x11105208Abb3Ce206922Bf4cd6B2D5F98CAC2F0d",
+    "market": "0x9b5418ef165E86490eDbFBaE865e0791b225F037",
+    "underlyingAsset": "0xF7DE3c70F2db39a188A81052d2f3C8e3e217822a",
+    "expiry": 1753920000,
+    "symbol": "SuperUSDC"
+  },
+  {
+    "chainId": 1,
     "pt": "0x1cb3C1C1e0f61770c224A66bB251c59f2c37ab91",
     "market": "0x2bf616c236d1AbD31FF105247a774E6E738b5f4E",
     "underlyingAsset": "0x0655977FEb2f289A4aB78af67BAB0d17aAb84367",
@@ -38,6 +46,14 @@
     "underlyingAsset": "0xc372CCdD24Bb0753CEB78bBaC4D24EB7dE4aBE4e",
     "expiry": 1753920000,
     "symbol": "GHO-USR"
+  },
+  {
+    "chainId": 1,
+    "pt": "0x2a6aB85617A1dfB8a5317d43Ab91f55c607BC4cC",
+    "market": "0x71B2B207BB596508e119b3DeF876b6bb381f4c2e",
+    "underlyingAsset": "0xE7C253EAD50976Caf7b0C2cbca569146A7741B50",
+    "expiry": 1746662400,
+    "symbol": "SolvBTC.BERA"
   },
   {
     "chainId": 1,
@@ -209,6 +225,14 @@
   },
   {
     "chainId": 1,
+    "pt": "0x933B9FfEE0Ad3Ef8E4DBb52688ea905826D73755",
+    "market": "0xA77c0DE4d26B7C97D1D42ABD6733201206122E25",
+    "underlyingAsset": "0xaD55aebc9b8c03FC43cd9f62260391c13c23e7c0",
+    "expiry": 1750291200,
+    "symbol": "cUSDO"
+  },
+  {
+    "chainId": 1,
     "pt": "0x96fE14bf8c1681db311fa95547b254a178ab5527",
     "market": "0x9471d9c5B57b59d42B739b00389a6d520c33A7a9",
     "underlyingAsset": "0x52c2bc859F5082C4f8c17266A3CD640b5047370e",
@@ -294,6 +318,14 @@
     "underlyingAsset": "0x657e8C867D8B37dCC18fA4Caead9C45EB088C642",
     "expiry": 1750896000,
     "symbol": "eBTC"
+  },
+  {
+    "chainId": 1,
+    "pt": "0xCcE7D12f683c6dAe700154f0BAdf779C0bA1F89A",
+    "market": "0x9A63FA80b5DDFd3Cab23803fdB93ad2c18F3d5aa",
+    "underlyingAsset": "0x80ac24aA929eaF5013f6436cdA2a7ba190f5Cc0b",
+    "expiry": 1756339200,
+    "symbol": "syrupUSDC"
   },
   {
     "chainId": 1,
@@ -401,6 +433,14 @@
   },
   {
     "chainId": 1,
+    "pt": "0xf91eD4974C22Dc375b99858DA848A2eF34e2C103",
+    "market": "0xD122517Ca17E5Dc1d77Bad87D0cFdc00e9691Ba4",
+    "underlyingAsset": "0x83599937c2C9bEA0E0E8ac096c6f32e86486b410",
+    "expiry": 1746662400,
+    "symbol": "liquidBeraETH"
+  },
+  {
+    "chainId": 1,
     "pt": "0xf99985822fb361117FCf3768D34a6353E6022F5F",
     "market": "0xC374f7eC85F8C7DE3207a10bB1978bA104bdA3B2",
     "underlyingAsset": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
@@ -414,6 +454,14 @@
     "underlyingAsset": "0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9",
     "expiry": 1758758400,
     "symbol": "sENA"
+  },
+  {
+    "chainId": 1,
+    "pt": "0xfc94AEaf21ab0124fb369Bf40982dbad804D682E",
+    "market": "0x6fEa50057Edd8baA63f3d5ffD72953b61917507D",
+    "underlyingAsset": "0xC673ef7791724f0dcca38adB47Fbb3AEF3DB6C80",
+    "expiry": 1746662400,
+    "symbol": "liquidBeraBTC"
   },
   {
     "chainId": 1,
