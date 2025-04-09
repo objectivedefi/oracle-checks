@@ -78,6 +78,18 @@
     "heartbeat": 86400
   },
   {
+    "symbol": "iBERA/USD",
+    "feedAddress": "0xd4d594aD0D46474E3dC5Ed5B292f66468e1b4B1f",
+    "deviationPercentage": 0.5,
+    "heartbeat": 86400
+  },
+  {
+    "symbol": "iBGT/USD",
+    "feedAddress": "0xcee2AE3aF8fB285B3edeC6d91564D975aaBddA50",
+    "deviationPercentage": 0.5,
+    "heartbeat": 86400
+  },
+  {
     "symbol": "pumpBTC/USD",
     "feedAddress": "0x6B52f35a69fCEFed99322D22AD529A1B4Da5877f",
     "deviationPercentage": 0.5,
@@ -92,6 +104,18 @@
   {
     "symbol": "rswETH/ETH",
     "feedAddress": "0xD681F0d6500eE63a57d415ad48DC374DDDddCE63",
+    "deviationPercentage": 0.5,
+    "heartbeat": 86400
+  },
+  {
+    "symbol": "sNECT/NECT",
+    "feedAddress": "0xb7Cf147331e82C84571f5C598e64C3016D1331f0",
+    "deviationPercentage": 0.5,
+    "heartbeat": 86400
+  },
+  {
+    "symbol": "sUSDe/USDe",
+    "feedAddress": "0x742D6C8FB5726BB46c953942864d9f4ebA769cf5",
     "deviationPercentage": 0.5,
     "heartbeat": 86400
   },

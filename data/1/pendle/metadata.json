@@ -17,6 +17,14 @@
   },
   {
     "chainId": 1,
+    "pt": "0x0F63b67Ff6563427bbD6447F58879b38BDA847B3",
+    "market": "0xE4AF6375F4424b61B91A1E96b9dE6ff8E842AA3A",
+    "underlyingAsset": "0x9DC37e4a901b1e21Bd05E75c3B9A633A17001a39",
+    "expiry": 1746662400,
+    "symbol": "USDe (Bera Concrete)"
+  },
+  {
+    "chainId": 1,
     "pt": "0x11105208Abb3Ce206922Bf4cd6B2D5F98CAC2F0d",
     "market": "0x9b5418ef165E86490eDbFBaE865e0791b225F037",
     "underlyingAsset": "0xF7DE3c70F2db39a188A81052d2f3C8e3e217822a",
@@ -366,6 +374,14 @@
     "underlyingAsset": "0x80E1048eDE66ec4c364b4F22C8768fc657FF6A42",
     "expiry": 1751500800,
     "symbol": "upUSDC"
+  },
+  {
+    "chainId": 1,
+    "pt": "0xe92a73E619a5bc344B394D5D2D030002B7EDd0AC",
+    "market": "0x0271A803f0d3Dec9cCd105A4A4d41e6Ee1458765",
+    "underlyingAsset": "0xf80c6636F9597d6a7FC1E5182B168B71e98Fd1cB",
+    "expiry": 1746662400,
+    "symbol": "sUSDe (Bera Concrete)"
   },
   {
     "chainId": 1,

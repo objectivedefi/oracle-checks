@@ -104,6 +104,22 @@
     "version": "1"
   },
   {
+    "address": "0xd4d594aD0D46474E3dC5Ed5B292f66468e1b4B1f",
+    "chainId": 80094,
+    "decimals": 8,
+    "description": "iBERA/USD",
+    "feedId": 131,
+    "version": "1"
+  },
+  {
+    "address": "0xcee2AE3aF8fB285B3edeC6d91564D975aaBddA50",
+    "chainId": 80094,
+    "decimals": 8,
+    "description": "iBGT/USD",
+    "feedId": 105,
+    "version": "1"
+  },
+  {
     "address": "0x6B52f35a69fCEFed99322D22AD529A1B4Da5877f",
     "chainId": 80094,
     "decimals": 8,
@@ -125,6 +141,22 @@
     "decimals": 18,
     "description": "rswETH/ETH",
     "feedId": 61,
+    "version": "1"
+  },
+  {
+    "address": "0xb7Cf147331e82C84571f5C598e64C3016D1331f0",
+    "chainId": 80094,
+    "decimals": 18,
+    "description": "sNECT/NECT",
+    "feedId": 133,
+    "version": "1"
+  },
+  {
+    "address": "0x742D6C8FB5726BB46c953942864d9f4ebA769cf5",
+    "chainId": 80094,
+    "decimals": 18,
+    "description": "sUSDe/USDe",
+    "feedId": 132,
     "version": "1"
   },
   {
