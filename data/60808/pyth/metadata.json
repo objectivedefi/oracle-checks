@@ -2222,6 +2222,19 @@
     }
   },
   {
+    "id": "0x2f7c4f738d498585065a4b87b637069ec99474597da7f0ca349ba8ac3ba9cac5",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "AURORA",
+      "description": "AURORA / US DOLLAR",
+      "display_symbol": "AURORA/USD",
+      "generic_symbol": "AURUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.AURORA/USD"
+    }
+  },
+  {
     "id": "0x7a508a94c9276cbc60d04e1a8cf839d20d835bb869a74487dfffa8f1bfd1ce42",
     "attributes": {
       "asset_type": "Crypto Redemption Rate",
@@ -6408,6 +6421,19 @@
     }
   },
   {
+    "id": "0x374ddb8a25370dc3a997fd3c73103b1ac04c2cfd60103bf7f607fdb56c968e0d",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "BRENT1M",
+      "description": "BRENT CRUDE OIL - 1 MONTH",
+      "display_symbol": "BRENT1M/USD",
+      "generic_symbol": "BRENT1M",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800,C,1800-2400;1224/0000-1400&2000-2400,1225/C,0101/C,0418/C",
+      "symbol": "Commodities.BRENT1M"
+    }
+  },
+  {
     "id": "0xa6416fd4788c8d0f0b5c7d9d93030f4f6b4a012a324771026f4b20d20114fcf4",
     "attributes": {
       "asset_type": "Commodities",
@@ -6421,6 +6447,19 @@
     }
   },
   {
+    "id": "0x6c4005cf9cc3c55690d8ad84a6487d5226f7fe732df55bfcfb76865061b0c10b",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "BRENT3M",
+      "description": "BRENT CRUDE OIL - 3 MONTH",
+      "display_symbol": "BRENT3M/USD",
+      "generic_symbol": "BRENT3M",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800,C,1800-2400;1224/0000-1400&2000-2400,1225/C,0101/C,0418/C",
+      "symbol": "Commodities.BRENT3M"
+    }
+  },
+  {
     "id": "0xeca3fb7e6be5be55a01678ee00f6405b9e4986e32d539ccd2a06a57e0c615880",
     "attributes": {
       "asset_type": "Commodities",
@@ -6431,6 +6470,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;1224/0000-1345,1225/1800-2400,1231/0000-1700,0101/1800-2400,0120/1800-2400",
       "symbol": "Commodities.WTI1M"
+    }
+  },
+  {
+    "id": "0xce78914f5aa6494591e123a5d5a8623fd85fe0fd247b97552177b48c2859eb1a",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "WTI2M",
+      "description": "WTI CRUDE OIL - 2 MONTH",
+      "display_symbol": "WTI2M/USD",
+      "generic_symbol": "WTI2M",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;1224/0000-1345,1225/1800-2400,1231/0000-1700,0101/1800-2400,0120/1800-2400",
+      "symbol": "Commodities.WTI2M"
     }
   },
   {
@@ -11101,6 +11153,23 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.BK/USD"
+    }
+  },
+  {
+    "id": "0x7840cb9a07395e891dd3fe4d5dc9e5e32166c16b4081a05a65f7464c1d779f13",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BLDR",
+      "cms_symbol": "BLDR",
+      "country": "US",
+      "cqs_symbol": "BLDR",
+      "description": "BUILDERS FIRSTSOURCE INC / US DOLLAR",
+      "display_symbol": "BLDR/USD",
+      "nasdaq_symbol": "BLDR",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.BLDR/USD"
     }
   },
   {
@@ -18457,6 +18526,23 @@
     }
   },
   {
+    "id": "0x16191e61f0ae3ebbdaf568d9617ac572ca3ce3f4fd6c4759d5c2ddfb312b350f",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "WEIR",
+      "cms_symbol": "WEIR",
+      "country": "GB",
+      "cqs_symbol": "WEIR",
+      "description": "WEIR GROUP PLC / BRITISH POUND",
+      "display_symbol": "WEIR/GBP",
+      "nasdaq_symbol": "WEIR",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.WEIR/GBP"
+    }
+  },
+  {
     "id": "0x62ecc2c34d56b195828e851e3f25c907452ce0c8c1324dede50e663b400d22d5",
     "attributes": {
       "asset_type": "Equity",
@@ -19660,6 +19746,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.LVLUSD/USD.RR"
+    }
+  },
+  {
+    "id": "0xa6a9e999d34b0c2a34c2cdc0a5f6922e375853109e2386426f8a9ec682692a6c",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "MATICX",
+      "contract_id": "eth: 0xf03A7Eb46d01d9EcAA104558C732Cf82f6B6B645",
+      "description": "STADER STAKED MATIC / MATIC REDEMPTION RATE",
+      "display_symbol": "MATICX/MATIC",
+      "generic_symbol": "MATICXMATIC",
+      "quote_currency": "MATIC",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.MATICX/MATIC.RR"
     }
   },
   {
