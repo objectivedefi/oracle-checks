@@ -11553,6 +11553,9 @@
     "whitelisted": true
   },
   {
+    "address": "0xB0361d730BC0F2C6f3ee66538e4eB91b846c5ee8"
+  },
+  {
     "name": "LidoOracle",
     "address": "0xd1DD0C964B0d137498C630B8b7fEd1F88631FFF3",
     "chainId": 1,
