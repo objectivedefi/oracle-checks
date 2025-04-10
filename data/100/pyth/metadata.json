@@ -4238,19 +4238,6 @@
     }
   },
   {
-    "id": "0x425f4b198ab2504936886c1e93511bb6720fbcf2045a4f3c0723bb213846022f",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "YFI",
-      "description": "YEARN FINANCE / US DOLLAR",
-      "display_symbol": "YFI/USD",
-      "generic_symbol": "YFIUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.YFI/USD"
-    }
-  },
-  {
     "id": "0x609722f3b6dc10fee07907fe86781d55eb9121cd0705b480954c00695d78f0cb",
     "attributes": {
       "asset_type": "Crypto",
