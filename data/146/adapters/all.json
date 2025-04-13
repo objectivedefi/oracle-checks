@@ -818,6 +818,120 @@
   },
   {
     "name": "FixedRateOracle",
+    "address": "0x9741df77Da8a734781ea097e48fdab83e119aAfd",
+    "chainId": 146,
+    "base": "0x50c42dEAcD8Fc9773493ED674b675bE577f2634b",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "rate": "100000000000000000000",
+    "checks": [
+      {
+        "id": "ADAPTER_EXISTS",
+        "severity": "HIGH",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is not whitelisted in the adapter registry",
+        "pass": false
+      },
+      {
+        "id": "SOURCE_CODE_PROVENANCE",
+        "severity": "HIGH",
+        "message": "Contract metadata hash matches a known hash",
+        "pass": true
+      },
+      {
+        "id": "DISTINCT_ASSETS",
+        "severity": "HIGH",
+        "message": "No duplicates found",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x50c42dEAcD8Fc9773493ED674b675bE577f2634b is WETH (Wrapped Ether on Sonic) with 18 decimals",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "pass": true
+      },
+      {
+        "id": "FIXED_RATE_ONE",
+        "severity": "HIGH",
+        "message": "Adapter has an unusual fixed rate",
+        "pass": false
+      }
+    ],
+    "label": "1:100 WETH/USD",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "Fixed Rate",
+    "whitelisted": false
+  },
+  {
+    "name": "FixedRateOracle",
+    "address": "0x1612576F763ede4B0FcA3e76575CC7042B454C60",
+    "chainId": 146,
+    "base": "0xd3DCe716f3eF535C5Ff8d041c1A41C3bd89b97aE",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "rate": "100000000000000000",
+    "checks": [
+      {
+        "id": "ADAPTER_EXISTS",
+        "severity": "HIGH",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is not whitelisted in the adapter registry",
+        "pass": false
+      },
+      {
+        "id": "SOURCE_CODE_PROVENANCE",
+        "severity": "HIGH",
+        "message": "Contract metadata hash matches a known hash",
+        "pass": true
+      },
+      {
+        "id": "DISTINCT_ASSETS",
+        "severity": "HIGH",
+        "message": "No duplicates found",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0xd3DCe716f3eF535C5Ff8d041c1A41C3bd89b97aE is scUSD (Sonic USD) with 6 decimals",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "pass": true
+      },
+      {
+        "id": "FIXED_RATE_ONE",
+        "severity": "HIGH",
+        "message": "Adapter has an unusual fixed rate",
+        "pass": false
+      }
+    ],
+    "label": "1:0.1 scUSD/USD",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "Fixed Rate",
+    "whitelisted": false
+  },
+  {
+    "name": "FixedRateOracle",
     "address": "0x9ea47747F72F2AAdcF3c2250cEc820c47BEd03F0",
     "chainId": 146,
     "base": "0xb1e25689D55734FD3ffFc939c4C3Eb52DFf8A794",
