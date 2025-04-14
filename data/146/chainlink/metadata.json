@@ -526,7 +526,7 @@
     "threshold": 0.3,
     "valuePrefix": "",
     "assetName": "Sonic USD",
-    "feedCategory": "high",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",

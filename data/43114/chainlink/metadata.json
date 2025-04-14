@@ -105,7 +105,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Synthetix Network",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -296,7 +296,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Convex Finance",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -557,7 +557,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Basic Attention Token",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1326,7 +1326,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Sushi",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1406,7 +1406,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Beam",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2569,7 +2569,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "True USD",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2776,7 +2776,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Coq Inu",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3186,7 +3186,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Chiliz",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",

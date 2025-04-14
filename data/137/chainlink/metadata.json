@@ -265,7 +265,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Convex",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -546,7 +546,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Woo Network",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -747,7 +747,7 @@
     "threshold": 0.01,
     "valuePrefix": "",
     "assetName": "True USD",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1316,7 +1316,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "Chiliz",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1722,7 +1722,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Gains Network",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2008,7 +2008,7 @@
     "threshold": 0.25,
     "valuePrefix": "",
     "assetName": "The Graph",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3237,7 +3237,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Balancer",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3795,7 +3795,7 @@
     "threshold": 0.25,
     "valuePrefix": "",
     "assetName": "Synthetix Network",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3875,7 +3875,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "APE Coin",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4198,7 +4198,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Sushi",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4364,7 +4364,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "Theta Token",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4933,7 +4933,7 @@
     "threshold": 0.25,
     "valuePrefix": "",
     "assetName": "Basic Attention Token",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5053,7 +5053,7 @@
     "threshold": 0.25,
     "valuePrefix": "",
     "assetName": "1inch",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5093,7 +5093,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Ethena USDe",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5136,7 +5136,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Badger DAO",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",

@@ -104,7 +104,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Flow",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -594,7 +594,7 @@
     "threshold": 0.2,
     "valuePrefix": "",
     "assetName": "dYdX",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -678,7 +678,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Stacks",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -845,7 +845,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "THORChain",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1394,7 +1394,7 @@
     "threshold": 0.2,
     "valuePrefix": "",
     "assetName": "APECoin",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1642,7 +1642,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "The Graph",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1682,7 +1682,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Balancer",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1762,7 +1762,7 @@
     "threshold": 0.2,
     "valuePrefix": "",
     "assetName": "Optimism",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2084,7 +2084,7 @@
     "threshold": 0.2,
     "valuePrefix": "",
     "assetName": "Synthetix Network",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2603,7 +2603,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Harmony",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2807,7 +2807,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Ethena USDe",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3255,7 +3255,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Sushi",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4230,7 +4230,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Kelp DAO Restaked ETH",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4847,7 +4847,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Jito",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5415,7 +5415,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Convex Finance",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",

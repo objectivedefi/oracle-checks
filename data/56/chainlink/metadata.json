@@ -388,7 +388,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Wing Finance",
-    "feedCategory": "high",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -783,7 +783,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "1inch",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2128,7 +2128,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Sushi",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2328,7 +2328,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Renzo Restaked ETH",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2491,7 +2491,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Conflux",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3049,7 +3049,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Nuls",
-    "feedCategory": "high",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3170,7 +3170,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Woo Network",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3464,6 +3464,7 @@
       "blockchainName": "Binance",
       "clicProductName": "ZBU/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
+      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -3843,7 +3844,7 @@
     "threshold": 0.3,
     "valuePrefix": "",
     "assetName": "True USD",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4131,7 +4132,7 @@
     "threshold": 0.3,
     "valuePrefix": "",
     "assetName": "Venus",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4297,7 +4298,7 @@
     "threshold": 0.3,
     "valuePrefix": "",
     "assetName": "Ethena USDe",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4796,6 +4797,7 @@
       "blockchainName": "Binance",
       "clicProductName": "LINA/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
+      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -5144,7 +5146,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "STEPN",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",

@@ -118,6 +118,7 @@
       "blockchainName": "Ethereum",
       "clicProductName": "RSWETH/ETH-RefPrice-DF-Ethereum-001",
       "deliveryChannelCode": "DF",
+      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -455,7 +456,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Renzo Restaked ETH",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1450,7 +1451,7 @@
     "threshold": 2,
     "valuePrefix": "",
     "assetName": "Balancer",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2031,6 +2032,7 @@
       "blockchainName": "Ethereum",
       "clicProductName": "ZBU/USD-RefPrice-DF-Ethereum-001",
       "deliveryChannelCode": "DF",
+      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -2258,7 +2260,7 @@
     "threshold": 2,
     "valuePrefix": "",
     "assetName": "Avail",
-    "feedCategory": "high",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3333,7 +3335,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "Sushi",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3459,7 +3461,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "1inch",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3619,7 +3621,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Kelp DAO Restaked ETH",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3965,7 +3967,7 @@
     "threshold": 0.3,
     "valuePrefix": "",
     "assetName": "Ripple USD",
-    "feedCategory": "new",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4492,7 +4494,7 @@
     "threshold": 2,
     "valuePrefix": "",
     "assetName": "APECoin",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4996,7 +4998,7 @@
     "threshold": 2,
     "valuePrefix": "",
     "assetName": "The Graph",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5277,6 +5279,7 @@
       "blockchainName": "Ethereum",
       "clicProductName": "OETH/ETH-RefPrice-DF-Ethereum-001",
       "deliveryChannelCode": "DF",
+      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -7092,7 +7095,7 @@
     "threshold": 2,
     "valuePrefix": "",
     "assetName": "Convex Finance",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -8047,7 +8050,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "Pax Dollar",
-    "feedCategory": "high",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -8339,7 +8342,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "Synthetix Network",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -8505,7 +8508,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Ethena USDe",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -9478,7 +9481,7 @@
     "threshold": 0.3,
     "valuePrefix": "",
     "assetName": "True USD",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
