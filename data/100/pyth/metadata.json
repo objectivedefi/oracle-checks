@@ -812,16 +812,16 @@
     }
   },
   {
-    "id": "0xe379d8d3a1a44952474f057bdfe6e902a97f093b2872c152dcf04f612e3e3be9",
+    "id": "0x6603f742bcd1477650965f4c476529d7680285e90b490d8156d344fb8d39b07e",
     "attributes": {
       "asset_type": "Crypto",
-      "base": "META",
-      "description": "METADAO / US DOLLAR",
-      "display_symbol": "META/USD",
-      "generic_symbol": "METAUSD",
+      "base": "WEETHS",
+      "description": "SUPER SYMBIOTIC LRT / US DOLLAR",
+      "display_symbol": "WEETHS/USD",
+      "generic_symbol": "WEETHSUSD",
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.META/USD"
+      "symbol": "Crypto.WEETHS/USD"
     }
   },
   {
@@ -7597,16 +7597,16 @@
     }
   },
   {
-    "id": "0x8fdceac00b70233b81634cc11df59940823922396cfb91c037f79411b2a57a84",
+    "id": "0x3d824c7f7c26ed1c85421ecec8c754e6b52d66a4e45de20a9c9ea91de8b396f9",
     "attributes": {
       "asset_type": "Crypto",
-      "base": "CLND",
-      "description": "COLEND / US DOLLAR",
-      "display_symbol": "CLND/USD",
-      "generic_symbol": "CLNDUSD",
+      "base": "ZBTC",
+      "description": "ZEUS NETWORK BITCOIN / US DOLLAR",
+      "display_symbol": "ZBTC/USD",
+      "generic_symbol": "ZBTCUSD",
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.CLND/USD"
+      "symbol": "Crypto.ZBTC/USD"
     }
   },
   {
@@ -11210,13 +11210,13 @@
     "id": "0x886691e862ed9774a276051443d25f0b4745e2bc077450bf3aee5aba4c96b013",
     "attributes": {
       "asset_type": "Equity",
-      "base": "BRK-A",
-      "cms_symbol": "BRK-A",
+      "base": "BRK.A",
+      "cms_symbol": "BRK.A",
       "country": "US",
-      "cqs_symbol": "BRK-A",
+      "cqs_symbol": "BRK.A",
       "description": "BERKSHIRE HATHAWAY INC CLASS A / US DOLLAR",
-      "display_symbol": "BRK-A/USD",
-      "nasdaq_symbol": "BRK-A",
+      "display_symbol": "BRK.A/USD",
+      "nasdaq_symbol": "BRK.A",
       "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
@@ -11227,13 +11227,13 @@
     "id": "0xe21c688b7fc65b4606a50f3635f466f6986db129bf16979875d160f9c508e8c7",
     "attributes": {
       "asset_type": "Equity",
-      "base": "BRK-B",
-      "cms_symbol": "BRK-B",
+      "base": "BRK.B",
+      "cms_symbol": "BRK.B",
       "country": "US",
-      "cqs_symbol": "BRK-B",
+      "cqs_symbol": "BRK.B",
       "description": "BERKSHIRE HATHAWAY INC CLASS B / US DOLLAR",
-      "display_symbol": "BRK-B/USD",
-      "nasdaq_symbol": "BRK-B",
+      "display_symbol": "BRK.B/USD",
+      "nasdaq_symbol": "BRK.B",
       "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
@@ -16767,10 +16767,10 @@
     "id": "0x41827044d61d411b307f78a25b3b4f8b27f2e26b22f4ef9381c1041f65039c8a",
     "attributes": {
       "asset_type": "Crypto",
-      "base": "USA-D",
+      "base": "USA.D",
       "description": "US ASYMMETRY DOLLAR / US DOLLAR",
-      "display_symbol": "USA-D/USD",
-      "generic_symbol": "USA-DUSD",
+      "display_symbol": "USA.D/USD",
+      "generic_symbol": "USA.DUSD",
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.USA-D/USD"
@@ -19509,16 +19509,17 @@
     }
   },
   {
-    "id": "0xbbd64ff659ae683ff3917cf99ee78bd9c56fa4dc7ae1c387a3e21dcf641e811f",
+    "id": "0xd1490706aeb28af56c7999ebfbdc41466f2128591b147542df775e3ae573c43d",
     "attributes": {
-      "asset_type": "Crypto",
-      "base": "ANA",
-      "description": "NIRVANA / US DOLLAR",
-      "display_symbol": "ANA/USD",
-      "generic_symbol": "ANAUSD",
-      "quote_currency": "USD",
+      "asset_type": "Crypto Redemption Rate",
+      "base": "ZENBTC",
+      "contract_id": "eth: 0x2fE9754d5D28bac0ea8971C0Ca59428b8644C776",
+      "description": "ZEN BITCOIN / BITCOIN REDEMPTION RATE ",
+      "display_symbol": "ZENBTC/BTC",
+      "generic_symbol": "ZENBTCBTC",
+      "quote_currency": "BTC",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.ANA/USD"
+      "symbol": "Crypto.ZENBTC/BTC.RR"
     }
   },
   {
@@ -20774,6 +20775,216 @@
       "quote_currency": "TON",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.BMTON/TON.RR"
+    }
+  },
+  {
+    "id": "0xc496c222fcb7486685690eb43d26a0c53033c475574c028fdbeb9cf8795c6cbd",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "FAF",
+      "description": "FLASH TRADE / US DOLLAR",
+      "display_symbol": "FAF/USD",
+      "generic_symbol": "FAFUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.FAF/USD"
+    }
+  },
+  {
+    "id": "0x7f2e9a7365eb634c543e9ca72683a9cf778cdc16ee5b8bca73abe6d08c1410d5",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "FEUSD",
+      "description": "FELIX PROTOCOL US DOLLAR / US DOLLAR",
+      "display_symbol": "FEUSD/USD",
+      "generic_symbol": "FEUSDUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.FEUSD/USD"
+    }
+  },
+  {
+    "id": "0x82465d1155ddbb2c73bf3491457163000f8e8d02dea90c548b1b7e56ae9fe4b1",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "GOGLZ",
+      "description": "GOGGLES / US DOLLAR",
+      "display_symbol": "GOGLZ/USD",
+      "generic_symbol": "GOGLZUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.GOGLZ/USD"
+    }
+  },
+  {
+    "id": "0x84d41124743a5684c07d4c0a35ad115fe769d2d3f07df08f153a78578724399a",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "HAWAL",
+      "description": "HAEDAL STAKED WAL / US DOLLAR",
+      "display_symbol": "HAWAL/USD",
+      "generic_symbol": "HAWALUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.HAWAL/USD"
+    }
+  },
+  {
+    "id": "0x752f22bbcdd24a1c5e0b0149e0196c076b8e1f088cdb60b6d7d7cd41787e7631",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "HYPER",
+      "description": "HYPERLANE / US DOLLAR",
+      "display_symbol": "HYPER/USD",
+      "generic_symbol": "HYPERUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.HYPER/USD"
+    }
+  },
+  {
+    "id": "0x983b7cabc6fab548e15a5b05500da9b99c1682107b3e2ff289344116c10ac02c",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "KHYPE",
+      "contract_id": "hype: 0x25Ce769757c418c58e623742A43b6f65aEBfeF22",
+      "description": "KINETIC STAKED HYPE / HYPE REDEMPTION RATE",
+      "display_symbol": "KHYPE/HYPE",
+      "generic_symbol": "KHYPEHYPE",
+      "quote_currency": "HYPE",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.KHYPE/HYPE.RR"
+    }
+  },
+  {
+    "id": "0x2837a61ae8165c018b0e406ac32b1527270e57b81f0069260afbef71b9cf8ffe",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "KHYPE",
+      "description": "KINETIC STAKED HYPE / US DOLLAR",
+      "display_symbol": "KHYPE/USD",
+      "generic_symbol": "KHYPEUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.KHYPE/USD"
+    }
+  },
+  {
+    "id": "0xb26afa6c631527ea9b0c6df6632d7c3da5bdf6160bb4179c84778cc8b68fd04a",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "KOBAN",
+      "description": "LUCKY CAT / US DOLLAR",
+      "display_symbol": "KOBAN/USD",
+      "generic_symbol": "KOBANUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.KOBAN/USD"
+    }
+  },
+  {
+    "id": "0x2514be166864605ce29afc55e3d1fc9943ff9a4e570793ac234f716375910402",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "MAG7-SSI",
+      "description": "MAG7.SSI / US DOLLAR",
+      "display_symbol": "MAG7-SSI/USD",
+      "generic_symbol": "MAG7-SSIUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.MAG7-SSI/USD"
+    }
+  },
+  {
+    "id": "0xe35aebd2d35795acaa2b0e59f3b498510e8ef334986d151d1502adb9e26234f7",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "MHYPE",
+      "contract_id": "hype: 0xdAbB040c428436d41CECd0Fb06bCFDBAaD3a9AA8",
+      "description": "HYPERPIE STAKED HYPE / HYPE REDEMPTION RATE",
+      "display_symbol": "MHYPE/HYPE",
+      "generic_symbol": "MHYPEHYPE",
+      "quote_currency": "HYPE",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.MHYPE/HYPE.RR"
+    }
+  },
+  {
+    "id": "0xa7fb4cdafed5130e8731b8da7c9208881f24e9b671bb92438b1fbf361d578112",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "MHYPE",
+      "description": "HYPERPIE STAKED HYPE / US DOLLAR",
+      "display_symbol": "MHYPE/USD",
+      "generic_symbol": "MHYPEUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.MHYPE/USD"
+    }
+  },
+  {
+    "id": "0x2bcd65e3c1b4580a5f59755ef30e11077238217dd418d301dd7ee4d252987675",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "OS",
+      "description": "ORIGIN STAKED SONIC / US DOLLAR",
+      "display_symbol": "OS/USD",
+      "generic_symbol": "OSUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.OS/USD"
+    }
+  },
+  {
+    "id": "0x068cd0617cbdd1dda615ed2b5ab4fe07d2e9f46347f5e785484844aa10d22dc5",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "STHYPE",
+      "description": "STAKED HYPE / US DOLLAR",
+      "display_symbol": "STHYPE/USD",
+      "generic_symbol": "STHYPEUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.STHYPE/USD"
+    }
+  },
+  {
+    "id": "0x6dfd85fb7e6ac64620dc4efbb5efbd35b74f023003619ce025f1e128ef37ad01",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "USD*",
+      "description": "USD STAR / US DOLLAR",
+      "display_symbol": "USD*/USD",
+      "generic_symbol": "USD*USD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.USD*/USD"
+    }
+  },
+  {
+    "id": "0xcfc1303ea9f083b1b4f99e1369fb9d2611f3230d5ea33a6abf2f86071c089fdc",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "USDT0",
+      "description": "USDT0 / US DOLLAR",
+      "display_symbol": "USDT0/USD",
+      "generic_symbol": "USDT0USD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.USDT0/USD"
+    }
+  },
+  {
+    "id": "0x10948bcc05eb7ca7f9254f5ac8f2b7171edfc3868b4fd6f0b330255f26d58920",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "WCT",
+      "description": "WALLET CONNECT / US DOLLAR",
+      "display_symbol": "WCT/USD",
+      "generic_symbol": "WCTUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.WCT/USD"
     }
   }
 ]

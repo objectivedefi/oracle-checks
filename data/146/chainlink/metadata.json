@@ -833,5 +833,32 @@
     "feedType": "",
     "docs": {},
     "decimals": 18
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0xfB9F4b058DEA7d242F7BD4eFEC7aFE7043EFF21A",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "calculated-sts-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "Calculated stS / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "calculated-sts-usd",
+    "proxyAddress": "0xb00C13A3a919259D1A2F47181ECD32C3b7df8636",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 18
   }
 ]
