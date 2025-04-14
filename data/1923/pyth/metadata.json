@@ -20748,5 +20748,32 @@
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.TEST1/USD"
     }
+  },
+  {
+    "id": "0x9074ab34363ea1aada15db169f4678c10117e48f1ad1a8ba9f69c2a939c3a377",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "AMI",
+      "description": "AMNIS FINANCE / US DOLLAR",
+      "display_symbol": "AMI/USD",
+      "generic_symbol": "AMIUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.AMI/USD"
+    }
+  },
+  {
+    "id": "0x9a10fcdb3a9f0f210effa27df802e385b370275eb96b02951c46f62b0e10776a",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "BMTON",
+      "contract_id": "ton: EQCSxGZPHqa3TtnODgMan8CEM0jf6HpY-uon_NMeFgjKqkEY",
+      "description": "BEMO STAKED TON / TON REDEMPTION RATE",
+      "display_symbol": "BMTON/TON",
+      "generic_symbol": "BMTONTON",
+      "quote_currency": "TON",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.BMTON/TON.RR"
+    }
   }
 ]
