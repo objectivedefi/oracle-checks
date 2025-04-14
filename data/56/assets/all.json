@@ -77,6 +77,13 @@
     "decimals": 18
   },
   {
+    "address": "0xB0b84D294e0C75A6abe60171b70edEb2EFd14A1B",
+    "chainId": 56,
+    "name": "Staked Lista BNB",
+    "symbol": "slisBNB",
+    "decimals": 18
+  },
+  {
     "address": "0xc5f0f7b66764F6ec8C8Dff7BA683102295E16409",
     "chainId": 56,
     "name": "First Digital USD",
