@@ -393,6 +393,104 @@
     "formatDecimalPlaces": null,
     "healthPrice": "",
     "history": null,
+    "multiply": "1",
+    "name": "EZETH/ETH-ExRate-mainnet-production",
+    "pair": [
+      "EZETH",
+      "ETH"
+    ],
+    "path": "ezeth-eth-exrate-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Renzo Restaked ETH",
+    "feedCategory": "medium",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Pegged Asset",
+      "assetName": "Renzo Restaked ETH",
+      "baseAsset": "EZETH",
+      "baseAssetClic": "EZETH_CR",
+      "clicProductName": "EZETH/ETH-ExRate-DS-Premium-Global-002",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "medium",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Exchange Rate",
+      "productType": "Price",
+      "productTypeCode": "ExRate",
+      "quoteAsset": "ETH",
+      "quoteAssetClic": "ETH_CR",
+      "underlyingAsset": "ETH",
+      "underlyingAssetClic": "ETH_CR"
+    },
+    "decimals": 0,
+    "feedId": "0x00021f1c95b33f5e56fa5c07968c566586d0e6cea93c9fb79127915892de430d",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
     "multiply": "1000000000000000000",
     "name": "PAIN/USD-RefPrice-mainnet-staging",
     "pair": [
@@ -795,6 +893,200 @@
     },
     "decimals": 18,
     "feedId": "0x00027d6141b7947db3aec3e2bf1736e7d95d1cbb697299adba9c0c7a10a6de7c",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1",
+    "name": "EZETH/ETH-ExRate-mainnet-staging",
+    "pair": [
+      "EZETH",
+      "ETH"
+    ],
+    "path": "ezeth-eth-exrate-mainnet-staging",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Renzo Restaked ETH",
+    "feedCategory": "medium",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Pegged Asset",
+      "assetName": "Renzo Restaked ETH",
+      "baseAsset": "EZETH",
+      "baseAssetClic": "EZETH_CR",
+      "clicProductName": "EZETH/ETH-ExRate-DSStaging-Premium-Global-002",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "medium",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Exchange Rate",
+      "productType": "Price",
+      "productTypeCode": "ExRate",
+      "quoteAsset": "ETH",
+      "quoteAssetClic": "ETH_CR",
+      "underlyingAsset": "ETH",
+      "underlyingAssetClic": "ETH_CR"
+    },
+    "decimals": 0,
+    "feedId": "0x0002d2d8f62423ad5c7513c84ebceaa2d28c2fc549447036f92393926bd54b88",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-3"
+      },
+      {
+        "operator": "mercury-chainlink-3"
+      },
+      {
+        "operator": "mercury-dexTrac-3"
+      },
+      {
+        "operator": "mercury-fiews-3"
+      },
+      {
+        "operator": "mercury-inotel-3"
+      },
+      {
+        "operator": "mercury-linkForest-3"
+      },
+      {
+        "operator": "mercury-linkPool-3"
+      },
+      {
+        "operator": "mercury-linkRiver-3"
+      },
+      {
+        "operator": "mercury-snzPool-3"
+      },
+      {
+        "operator": "mercury-validationCloud-3"
+      },
+      {
+        "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "DARK/USD-RefPrice-mainnet-production",
+    "pair": [
+      "DARK",
+      "USD"
+    ],
+    "path": "dark-usd-refprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Dark",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Dark",
+      "baseAsset": "DARK",
+      "baseAssetClic": "DARK_CR",
+      "clicProductName": "DARK/USD-RefPrice-DS-Premium-Global-002",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 18,
+    "feedId": "0x0002e52469c1a51c6ce302b4dafd6dfb2aeed4e91ba8d02e96f906822db5cc63",
     "sourceChain": 42161,
     "status": "live",
     "oracles": [
@@ -30541,26 +30833,27 @@
     "proxyAddress": null,
     "threshold": 0,
     "valuePrefix": "",
-    "assetName": "AUD",
+    "assetName": "Australian Dollar",
     "feedCategory": "low",
-    "feedType": "FX_Spot",
+    "feedType": "Forex",
     "docs": {
-      "assetClass": "FX_Spot",
-      "assetSubClass": "FX_Spot",
-      "assetName": "AUD",
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Australian Dollar",
       "baseAsset": "AUD",
       "baseAssetClic": "AUD_FX_Spot",
-      "clicProductName": "AUD/USD-RefPrice-DSstaging-Premium-Global-004",
+      "clicProductName": "AUD/USD-RefPrice-DSStaging-Premium-Global-004",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
-      "feedType": "FX_Spot",
+      "feedType": "Forex",
       "hidden": true,
       "marketHours": "Forex",
       "productSubType": "Reference",
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "schema": "v4"
     },
     "decimals": 18,
     "feedId": "0x00040c2a3d518c49973c9c8665c62a7d4359ceda27060bcd44a8d71a3c9fa494",
@@ -30637,26 +30930,27 @@
     "proxyAddress": null,
     "threshold": 0,
     "valuePrefix": "",
-    "assetName": "GBP",
+    "assetName": "Pound Sterling",
     "feedCategory": "low",
-    "feedType": "FX_Spot",
+    "feedType": "Forex",
     "docs": {
-      "assetClass": "FX_Spot",
-      "assetSubClass": "FX_Spot",
-      "assetName": "GBP",
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Pound Sterling",
       "baseAsset": "GBP",
       "baseAssetClic": "GBP_FX_Spot",
-      "clicProductName": "GBP/USD-RefPrice-DSstaging-Premium-Global-004",
+      "clicProductName": "GBP/USD-RefPrice-DSStaging-Premium-Global-004",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
-      "feedType": "FX_Spot",
+      "feedType": "Forex",
       "hidden": true,
       "marketHours": "Forex",
       "productSubType": "Reference",
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "schema": "v4"
     },
     "decimals": 18,
     "feedId": "0x0004305a2eb31c55d075f7ed1eccafdc793c8970a511f06c7118de643203749c",
@@ -30733,15 +31027,27 @@
     "proxyAddress": null,
     "threshold": 0,
     "valuePrefix": "",
-    "assetName": "EUR",
-    "feedCategory": "",
+    "assetName": "Euro",
+    "feedCategory": "low",
     "feedType": "Forex",
     "docs": {
       "assetClass": "Forex",
       "assetSubClass": "Forex",
-      "assetName": "EUR",
+      "assetName": "Euro",
+      "baseAsset": "EUR",
+      "baseAssetClic": "EUR_FX_Spot",
+      "clicProductName": "EUR/USD-RefPrice-DSStaging-Premium-Global-004",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
       "feedType": "Forex",
-      "hidden": true
+      "hidden": true,
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "schema": "v4"
     },
     "decimals": 18,
     "feedId": "0x00043fbea3c54ba34b64ba659b175e4073ea488d7be9c4e13999439256cb9fa7",
@@ -30818,26 +31124,27 @@
     "proxyAddress": null,
     "threshold": 0,
     "valuePrefix": "",
-    "assetName": "XAU",
+    "assetName": "Gold",
     "feedCategory": "low",
-    "feedType": "FX_Spot",
+    "feedType": "Forex",
     "docs": {
-      "assetClass": "FX_Spot",
-      "assetSubClass": "FX_Spot",
-      "assetName": "XAU",
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Gold",
       "baseAsset": "XAU",
       "baseAssetClic": "XAU_FX_Spot",
-      "clicProductName": "XAU/USD-RefPrice-DSstaging-Premium-Global-004",
+      "clicProductName": "XAU/USD-RefPrice-DSStaging-Premium-Global-004",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
-      "feedType": "FX_Spot",
+      "feedType": "Forex",
       "hidden": true,
       "marketHours": "Forex",
       "productSubType": "Reference",
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "schema": "v4"
     },
     "decimals": 18,
     "feedId": "0x0004544a145cf0bf89e3275cfc7df2fee2a7e691cd1476d68f43786cd94179d4",
@@ -30916,24 +31223,25 @@
     "valuePrefix": "",
     "assetName": "USD",
     "feedCategory": "low",
-    "feedType": "FX_Spot",
+    "feedType": "Forex",
     "docs": {
-      "assetClass": "FX_Spot",
-      "assetSubClass": "FX_Spot",
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
       "assetName": "USD",
       "baseAsset": "USD",
       "baseAssetClic": "USD_FX",
-      "clicProductName": "USD/CHF-RefPrice-DSstaging-Premium-Global-004",
+      "clicProductName": "USD/CHF-RefPrice-DSStaging-Premium-Global-004",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
-      "feedType": "FX_Spot",
+      "feedType": "Forex",
       "hidden": true,
       "marketHours": "Forex",
       "productSubType": "Reference",
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "CHF",
-      "quoteAssetClic": "CHF_FX_Spot"
+      "quoteAssetClic": "CHF_FX",
+      "schema": "v4"
     },
     "decimals": 18,
     "feedId": "0x00046bf12469fb0c48b13d083178d783b055de7986cb6fafe7aeaee18fb6f47f",
@@ -31012,24 +31320,25 @@
     "valuePrefix": "",
     "assetName": "USD",
     "feedCategory": "low",
-    "feedType": "FX_Spot",
+    "feedType": "Forex",
     "docs": {
-      "assetClass": "FX_Spot",
-      "assetSubClass": "FX_Spot",
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
       "assetName": "USD",
       "baseAsset": "USD",
       "baseAssetClic": "USD_FX",
-      "clicProductName": "USD/JPY-RefPrice-DSstaging-Premium-Global-004",
+      "clicProductName": "USD/JPY-RefPrice-DSStaging-Premium-Global-004",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
-      "feedType": "FX_Spot",
+      "feedType": "Forex",
       "hidden": true,
       "marketHours": "Forex",
       "productSubType": "Reference",
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "JPY",
-      "quoteAssetClic": "JPY_FX_Spot"
+      "quoteAssetClic": "JPY_FX",
+      "schema": "v4"
     },
     "decimals": 18,
     "feedId": "0x0004870a538aecfa25ec213645e0d3d80ea15d404522340b1f60b287a60e5649",
@@ -31108,24 +31417,25 @@
     "valuePrefix": "",
     "assetName": "USD",
     "feedCategory": "low",
-    "feedType": "FX_Spot",
+    "feedType": "Forex",
     "docs": {
-      "assetClass": "FX_Spot",
-      "assetSubClass": "FX_Spot",
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
       "assetName": "USD",
       "baseAsset": "USD",
       "baseAssetClic": "USD_FX",
-      "clicProductName": "USD/CNH-RefPrice-DSstaging-Premium-Global-004",
+      "clicProductName": "USD/CNH-RefPrice-DSStaging-Premium-Global-004",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
-      "feedType": "FX_Spot",
+      "feedType": "Forex",
       "hidden": true,
       "marketHours": "Forex",
       "productSubType": "Reference",
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "CNH",
-      "quoteAssetClic": "CNH_FX_Spot"
+      "quoteAssetClic": "CNH_FX",
+      "schema": "v4"
     },
     "decimals": 18,
     "feedId": "0x00049821a54eef1993ce9dc38272ab43529ff00ff9f5eaf6a398dcd1344ee0bb",
@@ -31202,19 +31512,19 @@
     "proxyAddress": null,
     "threshold": 0,
     "valuePrefix": "",
-    "assetName": "XAG",
+    "assetName": "Silver",
     "feedCategory": "low",
-    "feedType": "FX_Spot",
+    "feedType": "Forex",
     "docs": {
-      "assetClass": "FX_Spot",
-      "assetSubClass": "FX_Spot",
-      "assetName": "XAG",
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Silver",
       "baseAsset": "XAG",
       "baseAssetClic": "XAG_FX_Spot",
-      "clicProductName": "XAG/USD-RefPrice-DSstaging-Premium-Global-004",
+      "clicProductName": "XAG/USD-RefPrice-DSStaging-Premium-Global-004",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
-      "feedType": "FX_Spot",
+      "feedType": "Forex",
       "hidden": true,
       "marketHours": "Forex",
       "productSubType": "Reference",
@@ -31300,24 +31610,25 @@
     "valuePrefix": "",
     "assetName": "USD",
     "feedCategory": "low",
-    "feedType": "FX_Spot",
+    "feedType": "Forex",
     "docs": {
-      "assetClass": "FX_Spot",
-      "assetSubClass": "FX_Spot",
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
       "assetName": "USD",
       "baseAsset": "USD",
       "baseAssetClic": "USD_FX",
-      "clicProductName": "USD/CAD-RefPrice-DSstaging-Premium-Global-004",
+      "clicProductName": "USD/CAD-RefPrice-DSStaging-Premium-Global-004",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
-      "feedType": "FX_Spot",
+      "feedType": "Forex",
       "hidden": true,
       "marketHours": "Forex",
       "productSubType": "Reference",
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "CAD",
-      "quoteAssetClic": "CAD_FX_Spot"
+      "quoteAssetClic": "CAD_FX",
+      "schema": "v4"
     },
     "decimals": 18,
     "feedId": "0x0004d8a7e7a31ead94d75e44d4251cb7b1a6572c77970db0686072735a439ef3",
@@ -46091,26 +46402,26 @@
     "proxyAddress": null,
     "threshold": 0,
     "valuePrefix": "",
-    "assetName": "XAU",
+    "assetName": "Gold",
     "feedCategory": "low",
-    "feedType": "FX_Spot",
+    "feedType": "Forex",
     "docs": {
-      "assetClass": "FX_Spot",
-      "assetSubClass": "FX_Spot",
-      "assetName": "XAU",
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Gold",
       "baseAsset": "XAU",
       "baseAssetClic": "XAU_FX_Spot",
       "clicProductName": "XAU/USD-RefPrice-DS-Premium-Global-004",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
-      "feedType": "FX_Spot",
-      "hidden": true,
+      "feedType": "Forex",
       "marketHours": "Forex",
       "productSubType": "Reference",
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "schema": "v4"
     },
     "decimals": 18,
     "feedId": "0x000415814a5915a37e6338e7626fee14392afe7cb65739d151966329c8935064",
@@ -46187,26 +46498,26 @@
     "proxyAddress": null,
     "threshold": 0,
     "valuePrefix": "",
-    "assetName": "AUD",
+    "assetName": "Australian Dollar",
     "feedCategory": "low",
-    "feedType": "FX_Spot",
+    "feedType": "Forex",
     "docs": {
-      "assetClass": "FX_Spot",
-      "assetSubClass": "FX_Spot",
-      "assetName": "AUD",
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Australian Dollar",
       "baseAsset": "AUD",
       "baseAssetClic": "AUD_FX_Spot",
       "clicProductName": "AUD/USD-RefPrice-DS-Premium-Global-004",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
-      "feedType": "FX_Spot",
-      "hidden": true,
+      "feedType": "Forex",
       "marketHours": "Forex",
       "productSubType": "Reference",
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "schema": "v4"
     },
     "decimals": 18,
     "feedId": "0x000463a76b4a354b411a69c16990d01fd634e201a9f62d90bc67538469036b15",
@@ -46285,24 +46596,24 @@
     "valuePrefix": "",
     "assetName": "USD",
     "feedCategory": "low",
-    "feedType": "FX_Spot",
+    "feedType": "Forex",
     "docs": {
-      "assetClass": "FX_Spot",
-      "assetSubClass": "FX_Spot",
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
       "assetName": "USD",
       "baseAsset": "USD",
       "baseAssetClic": "USD_FX",
       "clicProductName": "USD/JPY-RefPrice-DS-Premium-Global-004",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
-      "feedType": "FX_Spot",
-      "hidden": true,
+      "feedType": "Forex",
       "marketHours": "Forex",
       "productSubType": "Reference",
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "JPY",
-      "quoteAssetClic": "JPY_FX_Spot"
+      "quoteAssetClic": "JPY_FX",
+      "schema": "v4"
     },
     "decimals": 18,
     "feedId": "0x000492e10be89ed2f991d2c3ea57ac8dc4fdba9c0e19a0d40b6239560a6619b0",
@@ -46381,24 +46692,24 @@
     "valuePrefix": "",
     "assetName": "USD",
     "feedCategory": "low",
-    "feedType": "FX_Spot",
+    "feedType": "Forex",
     "docs": {
-      "assetClass": "FX_Spot",
-      "assetSubClass": "FX_Spot",
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
       "assetName": "USD",
       "baseAsset": "USD",
       "baseAssetClic": "USD_FX",
       "clicProductName": "USD/CHF-RefPrice-DS-Premium-Global-004",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
-      "feedType": "FX_Spot",
-      "hidden": true,
+      "feedType": "Forex",
       "marketHours": "Forex",
       "productSubType": "Reference",
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "CHF",
-      "quoteAssetClic": "CHF_FX_Spot"
+      "quoteAssetClic": "CHF_FX",
+      "schema": "v4"
     },
     "decimals": 18,
     "feedId": "0x0004ab23e157405625b66f539d308771ab2b2a72162a449ab75c06dde5ace893",
@@ -46477,24 +46788,24 @@
     "valuePrefix": "",
     "assetName": "USD",
     "feedCategory": "low",
-    "feedType": "FX_Spot",
+    "feedType": "Forex",
     "docs": {
-      "assetClass": "FX_Spot",
-      "assetSubClass": "FX_Spot",
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
       "assetName": "USD",
       "baseAsset": "USD",
       "baseAssetClic": "USD_FX",
       "clicProductName": "USD/CAD-RefPrice-DS-Premium-Global-004",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
-      "feedType": "FX_Spot",
-      "hidden": true,
+      "feedType": "Forex",
       "marketHours": "Forex",
       "productSubType": "Reference",
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "CAD",
-      "quoteAssetClic": "CAD_FX_Spot"
+      "quoteAssetClic": "CAD_FX",
+      "schema": "v4"
     },
     "decimals": 18,
     "feedId": "0x0004b4b4040ed61886724cec5d5d45f1953291228bf5f175a9fd7d3a8996fcea",
@@ -46571,20 +46882,19 @@
     "proxyAddress": null,
     "threshold": 0,
     "valuePrefix": "",
-    "assetName": "XAG",
+    "assetName": "Silver",
     "feedCategory": "low",
-    "feedType": "FX_Spot",
+    "feedType": "Forex",
     "docs": {
-      "assetClass": "FX_Spot",
-      "assetSubClass": "FX_Spot",
-      "assetName": "XAG",
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Silver",
       "baseAsset": "XAG",
       "baseAssetClic": "XAG_FX_Spot",
       "clicProductName": "XAG/USD-RefPrice-DS-Premium-Global-004",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
-      "feedType": "FX_Spot",
-      "hidden": true,
+      "feedType": "Forex",
       "marketHours": "Forex",
       "productSubType": "Reference",
       "productType": "Price",
@@ -46667,26 +46977,26 @@
     "proxyAddress": null,
     "threshold": 0,
     "valuePrefix": "",
-    "assetName": "EUR",
+    "assetName": "Euro",
     "feedCategory": "low",
-    "feedType": "FX_Spot",
+    "feedType": "Forex",
     "docs": {
-      "assetClass": "FX_Spot",
-      "assetSubClass": "FX_Spot",
-      "assetName": "EUR",
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Euro",
       "baseAsset": "EUR",
       "baseAssetClic": "EUR_FX_Spot",
       "clicProductName": "EUR/USD-RefPrice-DS-Premium-Global-004",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
-      "feedType": "FX_Spot",
-      "hidden": true,
+      "feedType": "Forex",
       "marketHours": "Forex",
       "productSubType": "Reference",
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "schema": "v4"
     },
     "decimals": 18,
     "feedId": "0x0004ce7bd717133dc3d5280e917e4c875bc51b5250af08207f88d2188183b999",
@@ -46763,26 +47073,26 @@
     "proxyAddress": null,
     "threshold": 0,
     "valuePrefix": "",
-    "assetName": "GBP",
+    "assetName": "Pound Sterling",
     "feedCategory": "low",
-    "feedType": "FX_Spot",
+    "feedType": "Forex",
     "docs": {
-      "assetClass": "FX_Spot",
-      "assetSubClass": "FX_Spot",
-      "assetName": "GBP",
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
+      "assetName": "Pound Sterling",
       "baseAsset": "GBP",
       "baseAssetClic": "GBP_FX_Spot",
       "clicProductName": "GBP/USD-RefPrice-DS-Premium-Global-004",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
-      "feedType": "FX_Spot",
-      "hidden": true,
+      "feedType": "Forex",
       "marketHours": "Forex",
       "productSubType": "Reference",
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
-      "quoteAssetClic": "USD_FX"
+      "quoteAssetClic": "USD_FX",
+      "schema": "v4"
     },
     "decimals": 18,
     "feedId": "0x0004ce879f7472b32164e11840547335635efee82495ce45cf017f2db3a20a7b",
@@ -46861,24 +47171,24 @@
     "valuePrefix": "",
     "assetName": "USD",
     "feedCategory": "low",
-    "feedType": "FX_Spot",
+    "feedType": "Forex",
     "docs": {
-      "assetClass": "FX_Spot",
-      "assetSubClass": "FX_Spot",
+      "assetClass": "Forex",
+      "assetSubClass": "Forex",
       "assetName": "USD",
       "baseAsset": "USD",
       "baseAssetClic": "USD_FX",
       "clicProductName": "USD/CNH-RefPrice-DS-Premium-Global-004",
       "deliveryChannelCode": "DS",
       "feedCategory": "low",
-      "feedType": "FX_Spot",
-      "hidden": true,
+      "feedType": "Forex",
       "marketHours": "Forex",
       "productSubType": "Reference",
       "productType": "Price",
       "productTypeCode": "RefPrice",
       "quoteAsset": "CNH",
-      "quoteAssetClic": "CNH_FX_Spot"
+      "quoteAssetClic": "CNH_FX",
+      "schema": "v4"
     },
     "decimals": 18,
     "feedId": "0x0004ebedd3d52428f16fd7bd9e8e618ce260bfc0696e05bd96c142799fa19e36",
