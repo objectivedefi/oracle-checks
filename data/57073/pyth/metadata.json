@@ -3847,19 +3847,6 @@
     }
   },
   {
-    "id": "0xc9dc99720306ef43fd301396a6f8522c8be89c6c77e8c27d87966918a943fd20",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "LUSD",
-      "description": "LIQUITY USD / US DOLLAR",
-      "display_symbol": "LUSD/USD",
-      "generic_symbol": "LUSDUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.LUSD/USD"
-    }
-  },
-  {
     "id": "0xd2db4dbf1aea74e0f666b0e8f73b9580d407f5e5cf931940b06dc633d7a95906",
     "attributes": {
       "asset_type": "FX",
