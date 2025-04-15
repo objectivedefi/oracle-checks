@@ -698,6 +698,266 @@
     "whitelisted": false
   },
   {
+    "name": "CrossAdapter",
+    "address": "0x62CD360cB822996C1E5C8fE38684a1A371750fB1",
+    "chainId": 56,
+    "base": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
+    "cross": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x243FD95293C7307a7559c8CBD08E28d6a4A042d6",
+    "oracleCrossQuote": "0x1d6C6C2416B9804E14C3C6693D1a1F10D269FC1F",
+    "checks": [
+      {
+        "id": "ADAPTER_EXISTS",
+        "severity": "HIGH",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is not whitelisted in the adapter registry",
+        "pass": false
+      },
+      {
+        "id": "SOURCE_CODE_PROVENANCE",
+        "severity": "HIGH",
+        "message": "Contract metadata hash matches a known hash",
+        "pass": true
+      },
+      {
+        "id": "DISTINCT_ASSETS",
+        "severity": "HIGH",
+        "message": "No duplicates found",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2 is sUSDe (Staked USDe) with 18 decimals",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34 is USDe (USDe) with 18 decimals",
+        "pass": true
+      }
+    ],
+    "label": "sUSDe/USDe/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": false
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0x1d6C6C2416B9804E14C3C6693D1a1F10D269FC1F",
+    "chainId": 56,
+    "base": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x10402B01cD2E6A9ed6DBe683CbC68f78Ff02f8FC",
+    "maxStaleness": "90000",
+    "checks": [
+      {
+        "id": "ADAPTER_EXISTS",
+        "severity": "HIGH",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is not whitelisted in the adapter registry",
+        "pass": false
+      },
+      {
+        "id": "SOURCE_CODE_PROVENANCE",
+        "severity": "HIGH",
+        "message": "Contract metadata hash matches a known hash",
+        "pass": true
+      },
+      {
+        "id": "DISTINCT_ASSETS",
+        "severity": "HIGH",
+        "message": "No duplicates found",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34 is USDe (USDe) with 18 decimals",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "pass": true
+      },
+      {
+        "id": "PUSH_STALENESS_BUFFER",
+        "severity": "MED",
+        "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
+        "pass": true
+      }
+    ],
+    "label": "USDE / USD (0.3%, 86400s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "Chainlink",
+    "whitelisted": false
+  },
+  {
+    "name": "PythOracle",
+    "address": "0xb2DAc795fD5db7B39C116a2eC2A1Cb4e5D981d6a",
+    "chainId": 56,
+    "base": "0x2492D0006411Af6C8bbb1c8afc1B0197350a79e9",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "pyth": "0x4D7E825f80bDf85e913E0DD2A2D54927e9dE1594",
+    "feedId": "0x10b013adec14c0fe839ca0fe54cec9e4d0b6c1585ac6d7e70010dac015e57f9c",
+    "maxStaleness": "120",
+    "maxConfWidth": "300",
+    "checks": [
+      {
+        "id": "ADAPTER_EXISTS",
+        "severity": "HIGH",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is not whitelisted in the adapter registry",
+        "pass": false
+      },
+      {
+        "id": "SOURCE_CODE_PROVENANCE",
+        "severity": "HIGH",
+        "message": "Contract metadata hash matches a known hash",
+        "pass": true
+      },
+      {
+        "id": "DISTINCT_ASSETS",
+        "severity": "HIGH",
+        "message": "No duplicates found",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x2492D0006411Af6C8bbb1c8afc1B0197350a79e9 is USR (Resolv USD) with 18 decimals",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "pass": true
+      },
+      {
+        "id": "OFFICIAL_PYTH_FEED",
+        "severity": "HIGH",
+        "message": "Adapter is connected to an official Pyth feed: USR/USD",
+        "pass": true
+      },
+      {
+        "id": "PYTH_BASE_CORRESPONDENCE",
+        "severity": "INFO",
+        "message": "Base symbol (USR) matches Pyth feed base asset (USR)",
+        "pass": true
+      },
+      {
+        "id": "PYTH_QUOTE_CORRESPONDENCE",
+        "severity": "INFO",
+        "message": "Quote symbol (USD) matches Pyth feed quote asset (USD)",
+        "pass": true
+      },
+      {
+        "id": "OFFICIAL_PYTH_PROXY",
+        "severity": "HIGH",
+        "message": "Adapter is connected to the official Pyth proxy",
+        "pass": true
+      },
+      {
+        "id": "PYTH_STALENESS_RANGE",
+        "severity": "HIGH",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
+        "pass": true
+      }
+    ],
+    "label": "Crypto.USR/USD (120s, ±300bps)",
+    "methodology": "Market Price",
+    "model": "Pull",
+    "provider": "Pyth",
+    "whitelisted": false
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0xfbfC49ac2b5eA0e4d6835B23c02Dba4c2B424827",
+    "chainId": 56,
+    "base": "0xAB3dBcD9B096C3fF76275038bf58eAC10D22C61f",
+    "cross": "0x55d398326f99059fF775485246999027B3197955",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x4FEDe36B02B4c0ef3E5c371d3D5139ef14973314",
+    "oracleCrossQuote": "0x7e262cD6226328AaF4eA5C993a952E18Dd633Bc8",
+    "checks": [
+      {
+        "id": "ADAPTER_EXISTS",
+        "severity": "HIGH",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is not whitelisted in the adapter registry",
+        "pass": false
+      },
+      {
+        "id": "SOURCE_CODE_PROVENANCE",
+        "severity": "HIGH",
+        "message": "Contract metadata hash matches a known hash",
+        "pass": true
+      },
+      {
+        "id": "DISTINCT_ASSETS",
+        "severity": "HIGH",
+        "message": "No duplicates found",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0xAB3dBcD9B096C3fF76275038bf58eAC10D22C61f is YUSD (YUSD) with 18 decimals",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x55d398326f99059fF775485246999027B3197955 is USDT (Tether USD) with 18 decimals",
+        "pass": true
+      }
+    ],
+    "label": "YUSD/USDT/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": false
+  },
+  {
     "name": "ChainlinkOracle",
     "address": "0x74b77011c244bD7EDff34E4cbf23fe41DeFA313d",
     "chainId": 56,
