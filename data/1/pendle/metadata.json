@@ -393,6 +393,14 @@
   },
   {
     "chainId": 1,
+    "pt": "0xf736acF34FF7Cd9B3565b73a1f15E652859bF322",
+    "market": "0x88C4F34B86907b7221c0061f7a0bBeC9391Ea727",
+    "underlyingAsset": "0x09D4214C03D01F49544C0448DBE3A27f768F2b34",
+    "expiry": 1753920000,
+    "symbol": "rUSD"
+  },
+  {
+    "chainId": 1,
     "pt": "0xf91eD4974C22Dc375b99858DA848A2eF34e2C103",
     "market": "0xD122517Ca17E5Dc1d77Bad87D0cFdc00e9691Ba4",
     "underlyingAsset": "0x83599937c2C9bEA0E0E8ac096c6f32e86486b410",
