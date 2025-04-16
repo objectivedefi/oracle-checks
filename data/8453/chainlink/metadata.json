@@ -4321,6 +4321,33 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0xd7640cCAda34152220662780493E310DDA6e0d3D",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "cusdo-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "CUSDO / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "cusdo-usd",
+    "proxyAddress": "0xBbdA526258856c06f167399097e13D79E8f88ba8",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0xdB793acA8bE40a123c34300Bb21b02F21F8ef501",
     "contractType": "",
     "contractVersion": 4,
@@ -4356,6 +4383,35 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0xe09bE26CF556F7211c16B75BE9fB4DB433A0d37E",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "nzd-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "NZD / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "nzd-usd",
+    "proxyAddress": "0x06bdFe07E71C476157FC025d3cCD4BBe08e83EF9",
+    "threshold": 0.3,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "marketHours": "forex"
     },
     "decimals": 8
   },

@@ -49686,6 +49686,33 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0xAC812C6eaEd6823D115ed2BEb9eCFcbC98b31a8E",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "plume-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "PLUME / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "plume-usd",
+    "proxyAddress": "0x004f214586CaFE0F1321Ad13A93bca77C385b196",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0xAb5745A3bC42a8F73232d56F0566d5eb4E4095A7",
     "contractType": "",
     "contractVersion": 4,

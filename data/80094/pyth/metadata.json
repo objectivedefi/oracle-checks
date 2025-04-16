@@ -13157,23 +13157,6 @@
     }
   },
   {
-    "id": "0x730aa1975c578f652b6f48667a8bc4ab1e499273cb4742198075b5494b47a29e",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "FFIV",
-      "cms_symbol": "FFIV",
-      "country": "US",
-      "cqs_symbol": "FFIV",
-      "description": "F5 INC / US DOLLAR",
-      "display_symbol": "FFIV/USD",
-      "nasdaq_symbol": "FFIV",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
-      "symbol": "Equity.US.FFIV/USD"
-    }
-  },
-  {
     "id": "0x4ba8ac75eba39c9cc1851bc880d4274262e621df32284ab23064865b7dc5ab44",
     "attributes": {
       "asset_type": "Equity",
@@ -13596,23 +13579,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.HAL/USD"
-    }
-  },
-  {
-    "id": "0xab3a0f9d8e8565e58225a4e8bbe6bdf0ae8894aa3a1081aec1cf728fa61d7e4f",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "HAS",
-      "cms_symbol": "HAS",
-      "country": "US",
-      "cqs_symbol": "HAS",
-      "description": "HASBRO INC / US DOLLAR",
-      "display_symbol": "HAS/USD",
-      "nasdaq_symbol": "HAS",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
-      "symbol": "Equity.US.HAS/USD"
     }
   },
   {
@@ -16199,23 +16165,6 @@
     }
   },
   {
-    "id": "0xe3f0d3e53a6f645cd1d7e2927708a17d8bfb12b00c61b99d441f9ad590d2d8fe",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "RSG",
-      "cms_symbol": "RSG",
-      "country": "US",
-      "cqs_symbol": "RSG",
-      "description": "REPUBLIC SERVICES INC / US DOLLAR",
-      "display_symbol": "RSG/USD",
-      "nasdaq_symbol": "RSG",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
-      "symbol": "Equity.US.RSG/USD"
-    }
-  },
-  {
     "id": "0x97c483cc4172de7ac1a3cc0814f442e4747e64008723f2705d6e9fdff3ba4d3d",
     "attributes": {
       "asset_type": "Equity",
@@ -16230,23 +16179,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.RTX/USD"
-    }
-  },
-  {
-    "id": "0x4da5b5fc2f6dfde7d47fac2370940217dd0ce5c37e650f770e6611a974aab96c",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "RVTY",
-      "cms_symbol": "RVTY",
-      "country": "US",
-      "cqs_symbol": "RVTY",
-      "description": "REVVITY INC / US DOLLAR",
-      "display_symbol": "RVTY/USD",
-      "nasdaq_symbol": "RVTY",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
-      "symbol": "Equity.US.RVTY/USD"
     }
   },
   {
@@ -16315,23 +16247,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
       "symbol": "Equity.US.SJM/USD"
-    }
-  },
-  {
-    "id": "0x8042b087e06b64b7a40056782d48c8add189943d8354c56726e655f46e65320f",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "SLB",
-      "cms_symbol": "SLB",
-      "country": "US",
-      "cqs_symbol": "SLB",
-      "description": "SCHLUMBERGER LIMITED / US DOLLAR",
-      "display_symbol": "SLB/USD",
-      "nasdaq_symbol": "SLB",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
-      "symbol": "Equity.US.SLB/USD"
     }
   },
   {
