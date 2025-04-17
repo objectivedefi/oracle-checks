@@ -1,11 +1,11 @@
 {
   "name": "PythOracle",
-  "address": "0x5BD06375469a0111F2Cf7B05A2d12c3f012a70B6",
+  "address": "0x910255302Cc6Ef7210182C2f27419c2d44CF3bdD",
   "chainId": 80094,
-  "base": "0xac03CABA51e17c86c921E1f6CBFBdC91F8BB2E6b",
+  "base": "0x1cE0a25D13CE4d52071aE7e02Cf1F6606F4C79d3",
   "quote": "0x0000000000000000000000000000000000000348",
   "pyth": "0x2880aB155794e7179c9eE2e38200202908C17B43",
-  "feedId": "0xc929105a1af143cbfc887c4573947f54422a9ca88a9e622d151b8abdf5c2962f",
+  "feedId": "0xddf0dd319060db4561b5aa8f84a94816d33579f8dc2af2d8f74583bce20cd260",
   "maxStaleness": "120",
   "maxConfWidth": "300",
   "checks": [
@@ -36,7 +36,7 @@
     {
       "id": "CONSISTENT_ASSET",
       "severity": "HIGH",
-      "message": "Asset 0xac03CABA51e17c86c921E1f6CBFBdC91F8BB2E6b is iBGT (Infrared BGT) with 18 decimals",
+      "message": "Asset 0x1cE0a25D13CE4d52071aE7e02Cf1F6606F4C79d3 is NECT (Nectar) with 18 decimals",
       "pass": true
     },
     {
@@ -48,13 +48,13 @@
     {
       "id": "OFFICIAL_PYTH_FEED",
       "severity": "HIGH",
-      "message": "Adapter is connected to an official Pyth feed: IBGT/USD",
+      "message": "Adapter is connected to an official Pyth feed: NECT/USD",
       "pass": true
     },
     {
       "id": "PYTH_BASE_CORRESPONDENCE",
       "severity": "INFO",
-      "message": "Base symbol (iBGT) matches Pyth feed base asset (IBGT)",
+      "message": "Base symbol (NECT) matches Pyth feed base asset (NECT)",
       "pass": true
     },
     {
@@ -76,7 +76,7 @@
       "pass": true
     }
   ],
-  "label": "Crypto.IBGT/USD (120s, ±300bps)",
+  "label": "Crypto.NECT/USD (120s, ±300bps)",
   "methodology": "Market Price",
   "model": "Pull",
   "provider": "Pyth",

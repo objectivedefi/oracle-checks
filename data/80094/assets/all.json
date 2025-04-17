@@ -56,11 +56,11 @@
     "decimals": 6
   },
   {
-    "address": "0xecAc9C5F704e954931349Da37F60E39f515c11c1",
+    "address": "0x09D4214C03D01F49544C0448DBE3A27f768F2b34",
     "chainId": 80094,
-    "name": "Lombard Staked Bitcoin",
-    "symbol": "LBTC",
-    "decimals": 8
+    "name": "Reservoir Stablecoin",
+    "symbol": "rUSD",
+    "decimals": 18
   },
   {
     "address": "0x5475611Dffb8ef4d697Ae39df9395513b6E947d7",
@@ -105,19 +105,6 @@
     "decimals": 18
   },
   {
-    "address": "0x09D4214C03D01F49544C0448DBE3A27f768F2b34",
-    "chainId": 80094,
-    "name": "Reservoir Stablecoin",
-    "symbol": "rUSD",
-    "decimals": 18
-  },
-  {
-    "address": "0xe6B3f13b44C9Da5156503203Ca30c0521da4Cb44",
-    "chainId": 80094,
-    "name": "CREDIT",
-    "symbol": "CRDT"
-  },
-  {
     "address": "0x2719e657ec3B3CbE521a18E640CA55799836376f",
     "chainId": 80094,
     "name": "PT Ethena sUSDE 25SEP2025",
@@ -132,20 +119,6 @@
     "decimals": 18
   },
   {
-    "address": "0x48b358b7bC013F24E2D59b3A0d4455f6e71Fe2d6",
-    "chainId": 80094,
-    "name": "PT Infrared BERA 26JUN2025",
-    "symbol": "PT-iBERA-26JUN2025",
-    "decimals": 18
-  },
-  {
-    "address": "0xdc9b87e5eFD6Ca2BeAa33dDe9c544E1e98345De4",
-    "chainId": 80094,
-    "name": "PT Ethena USDe 25SEP2025",
-    "symbol": "PT-USDe-25SEP2025",
-    "decimals": 18
-  },
-  {
     "address": "0x597877Ccf65be938BD214C4c46907669e3E62128",
     "chainId": 80094,
     "name": "Staked Nectar",
@@ -157,6 +130,33 @@
     "chainId": 80094,
     "name": "NECT/USDC/HONEY",
     "symbol": "NECT/USDC/HONEY",
+    "decimals": 18
+  },
+  {
+    "address": "0xe6B3f13b44C9Da5156503203Ca30c0521da4Cb44",
+    "chainId": 80094,
+    "name": "CREDIT",
+    "symbol": "CRDT"
+  },
+  {
+    "address": "0xecAc9C5F704e954931349Da37F60E39f515c11c1",
+    "chainId": 80094,
+    "name": "Lombard Staked Bitcoin",
+    "symbol": "LBTC",
+    "decimals": 8
+  },
+  {
+    "address": "0x48b358b7bC013F24E2D59b3A0d4455f6e71Fe2d6",
+    "chainId": 80094,
+    "name": "PT Infrared BERA 26JUN2025",
+    "symbol": "PT-iBERA-26JUN2025",
+    "decimals": 18
+  },
+  {
+    "address": "0xdc9b87e5eFD6Ca2BeAa33dDe9c544E1e98345De4",
+    "chainId": 80094,
+    "name": "PT Ethena USDe 25SEP2025",
+    "symbol": "PT-USDe-25SEP2025",
     "decimals": 18
   }
 ]
