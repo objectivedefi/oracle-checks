@@ -16,8 +16,8 @@
     {
       "id": "ADAPTER_REGISTRY",
       "severity": "HIGH",
-      "message": "Adapter is whitelisted in the adapter registry",
-      "pass": true
+      "message": "Adapter is not whitelisted in the adapter registry",
+      "pass": false
     },
     {
       "id": "SOURCE_CODE_PROVENANCE",
@@ -48,5 +48,5 @@
   "methodology": "Unknown",
   "model": "Push",
   "provider": "Chronicle",
-  "whitelisted": true
+  "whitelisted": false
 }
