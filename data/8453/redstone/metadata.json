@@ -66,6 +66,12 @@
     "heartbeat": 86400
   },
   {
+    "symbol": "PROMPT",
+    "priceFeedAddress": "0xbbF121624c3b85C929Ac83872bf6c86b0976A55e",
+    "deviationPercentage": 0.5,
+    "heartbeat": 86400
+  },
+  {
     "symbol": "bsdETH/ETH",
     "priceFeedAddress": "0xC49F0Dd98F38C525A7ce15E73E60675456F3a161",
     "deviationPercentage": 0.5,
