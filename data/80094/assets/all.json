@@ -1,9 +1,9 @@
 [
   {
-    "address": "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce",
+    "address": "0x6969696969696969696969696969696969696969",
     "chainId": 80094,
-    "name": "Honey",
-    "symbol": "HONEY",
+    "name": "Wrapped Bera",
+    "symbol": "WBERA",
     "decimals": 18
   },
   {
@@ -14,17 +14,10 @@
     "decimals": 18
   },
   {
-    "address": "0x549943e04f40284185054145c6E4e9568C1D3241",
+    "address": "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590",
     "chainId": 80094,
-    "name": "Bridged USDC (Stargate)",
-    "symbol": "USDC.e",
-    "decimals": 6
-  },
-  {
-    "address": "0x6969696969696969696969696969696969696969",
-    "chainId": 80094,
-    "name": "Wrapped Bera",
-    "symbol": "WBERA",
+    "name": "WETH",
+    "symbol": "WETH",
     "decimals": 18
   },
   {
@@ -33,6 +26,34 @@
     "name": "Wrapped BTC",
     "symbol": "WBTC",
     "decimals": 8
+  },
+  {
+    "address": "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce",
+    "chainId": 80094,
+    "name": "Honey",
+    "symbol": "HONEY",
+    "decimals": 18
+  },
+  {
+    "address": "0x549943e04f40284185054145c6E4e9568C1D3241",
+    "chainId": 80094,
+    "name": "Bridged USDC (Stargate)",
+    "symbol": "USDC.e",
+    "decimals": 6
+  },
+  {
+    "address": "0xEc901DA9c68E90798BbBb74c11406A32A70652C3",
+    "chainId": 80094,
+    "name": "StakeStone Ether",
+    "symbol": "STONE",
+    "decimals": 18
+  },
+  {
+    "address": "0x688e72142674041f8f6Af4c808a4045cA1D6aC82",
+    "chainId": 80094,
+    "name": "BYUSD",
+    "symbol": "BYUSD",
+    "decimals": 6
   },
   {
     "address": "0xecAc9C5F704e954931349Da37F60E39f515c11c1",
@@ -91,6 +112,12 @@
     "decimals": 18
   },
   {
+    "address": "0xe6B3f13b44C9Da5156503203Ca30c0521da4Cb44",
+    "chainId": 80094,
+    "name": "CREDIT",
+    "symbol": "CRDT"
+  },
+  {
     "address": "0x2719e657ec3B3CbE521a18E640CA55799836376f",
     "chainId": 80094,
     "name": "PT Ethena sUSDE 25SEP2025",
@@ -105,47 +132,6 @@
     "decimals": 18
   },
   {
-    "address": "0x597877Ccf65be938BD214C4c46907669e3E62128",
-    "chainId": 80094,
-    "name": "Staked Nectar",
-    "symbol": "sNECT",
-    "decimals": 18
-  },
-  {
-    "address": "0xD10E65A5F8cA6f835F2B1832e37cF150fb955f23",
-    "chainId": 80094,
-    "name": "NECT/USDC/HONEY",
-    "symbol": "NECT/USDC/HONEY",
-    "decimals": 18
-  },
-  {
-    "address": "0xe6B3f13b44C9Da5156503203Ca30c0521da4Cb44",
-    "chainId": 80094,
-    "name": "CREDIT",
-    "symbol": "CRDT"
-  },
-  {
-    "address": "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590",
-    "chainId": 80094,
-    "name": "WETH",
-    "symbol": "WETH",
-    "decimals": 18
-  },
-  {
-    "address": "0xEc901DA9c68E90798BbBb74c11406A32A70652C3",
-    "chainId": 80094,
-    "name": "StakeStone Ether",
-    "symbol": "STONE",
-    "decimals": 18
-  },
-  {
-    "address": "0x688e72142674041f8f6Af4c808a4045cA1D6aC82",
-    "chainId": 80094,
-    "name": "BYUSD",
-    "symbol": "BYUSD",
-    "decimals": 6
-  },
-  {
     "address": "0x48b358b7bC013F24E2D59b3A0d4455f6e71Fe2d6",
     "chainId": 80094,
     "name": "PT Infrared BERA 26JUN2025",
@@ -157,6 +143,20 @@
     "chainId": 80094,
     "name": "PT Ethena USDe 25SEP2025",
     "symbol": "PT-USDe-25SEP2025",
+    "decimals": 18
+  },
+  {
+    "address": "0x597877Ccf65be938BD214C4c46907669e3E62128",
+    "chainId": 80094,
+    "name": "Staked Nectar",
+    "symbol": "sNECT",
+    "decimals": 18
+  },
+  {
+    "address": "0xD10E65A5F8cA6f835F2B1832e37cF150fb955f23",
+    "chainId": 80094,
+    "name": "NECT/USDC/HONEY",
+    "symbol": "NECT/USDC/HONEY",
     "decimals": 18
   }
 ]

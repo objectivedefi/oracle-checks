@@ -18,7 +18,7 @@
     {
       "id": "ADAPTER_REGISTRY",
       "severity": "HIGH",
-      "message": "Adapter is not whitelisted in the adapter registry",
+      "message": "Adapter was revoked from the adapter registry at 2025-03-13T12:47:47.000Z",
       "pass": false
     },
     {
