@@ -56,6 +56,13 @@
     "decimals": 6
   },
   {
+    "address": "0xecAc9C5F704e954931349Da37F60E39f515c11c1",
+    "chainId": 80094,
+    "name": "Lombard Staked Bitcoin",
+    "symbol": "LBTC",
+    "decimals": 8
+  },
+  {
     "address": "0x09D4214C03D01F49544C0448DBE3A27f768F2b34",
     "chainId": 80094,
     "name": "Reservoir Stablecoin",
@@ -137,13 +144,6 @@
     "chainId": 80094,
     "name": "CREDIT",
     "symbol": "CRDT"
-  },
-  {
-    "address": "0xecAc9C5F704e954931349Da37F60E39f515c11c1",
-    "chainId": 80094,
-    "name": "Lombard Staked Bitcoin",
-    "symbol": "LBTC",
-    "decimals": 8
   },
   {
     "address": "0x48b358b7bC013F24E2D59b3A0d4455f6e71Fe2d6",

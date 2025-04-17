@@ -1,12 +1,10 @@
 {
-  "name": "CrossAdapter",
-  "address": "0xD5fD501C97564f1003C436525A0CED2fB96867b1",
+  "name": "FixedRateOracle",
+  "address": "0x2D1706941e7A7b93c2e44F01261f1dDe3D1D6999",
   "chainId": 80094,
-  "base": "0x9b6761bf2397Bb5a6624a856cC84A3A14Dcd3fe5",
-  "cross": "0x6969696969696969696969696969696969696969",
+  "base": "0x2719e657ec3B3CbE521a18E640CA55799836376f",
   "quote": "0x0000000000000000000000000000000000000348",
-  "oracleBaseCross": "0x317B1c89F08C305710D2D2f5c188B3A778f56531",
-  "oracleCrossQuote": "0xe6D9C66C0416C1c88Ca5F777D81a7F424D4Fa87b",
+  "rate": "960000000000000000",
   "checks": [
     {
       "id": "ADAPTER_EXISTS",
@@ -17,8 +15,8 @@
     {
       "id": "ADAPTER_REGISTRY",
       "severity": "HIGH",
-      "message": "Adapter is whitelisted in the adapter registry",
-      "pass": true
+      "message": "Adapter is not whitelisted in the adapter registry",
+      "pass": false
     },
     {
       "id": "SOURCE_CODE_PROVENANCE",
@@ -35,7 +33,7 @@
     {
       "id": "CONSISTENT_ASSET",
       "severity": "HIGH",
-      "message": "Asset 0x9b6761bf2397Bb5a6624a856cC84A3A14Dcd3fe5 is iBERA (Infrared BERA) with 18 decimals",
+      "message": "Asset 0x2719e657ec3B3CbE521a18E640CA55799836376f is PT-sUSDE-25SEP2025 (PT Ethena sUSDE 25SEP2025) with 18 decimals",
       "pass": true
     },
     {
@@ -45,15 +43,15 @@
       "pass": true
     },
     {
-      "id": "CONSISTENT_ASSET",
+      "id": "FIXED_RATE_ONE",
       "severity": "HIGH",
-      "message": "Asset 0x6969696969696969696969696969696969696969 is WBERA (Wrapped Bera) with 18 decimals",
-      "pass": true
+      "message": "Adapter has an unusual fixed rate",
+      "pass": false
     }
   ],
-  "label": "iBERA/WBERA/USD",
-  "methodology": "Unknown",
-  "model": "Unknown",
-  "provider": "Cross",
-  "whitelisted": true
+  "label": "1:0.96 PT-sUSDE-25SEP2025/USD",
+  "methodology": "Exchange Rate",
+  "model": "Push",
+  "provider": "Fixed Rate",
+  "whitelisted": false
 }
