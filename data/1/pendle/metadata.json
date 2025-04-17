@@ -185,14 +185,6 @@
   },
   {
     "chainId": 1,
-    "pt": "0x8fa8dA847BC3E8a945Bae061C73af74df6375a95",
-    "market": "0x1Bd1AE9D7A377E63cD0c584A2C42B8C614937e81",
-    "underlyingAsset": "0xF7DE3c70F2db39a188A81052d2f3C8e3e217822a",
-    "expiry": 1744848000,
-    "symbol": "SuperUSDC"
-  },
-  {
-    "chainId": 1,
     "pt": "0x917459337CaAC939D41d7493B3999f571D20D667",
     "market": "0x9Df192D13D61609D1852461c4850595e1F56E714",
     "underlyingAsset": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
