@@ -1,11 +1,11 @@
 {
   "name": "ChainlinkOracle",
-  "address": "0x255Bee201D2526BBf2753DF6A6057f23431A3E1C",
+  "address": "0x715F33B4616c878cA0D14232DF815a92B93943b2",
   "chainId": 80094,
-  "base": "0xEc901DA9c68E90798BbBb74c11406A32A70652C3",
+  "base": "0x1cE0a25D13CE4d52071aE7e02Cf1F6606F4C79d3",
   "quote": "0x0000000000000000000000000000000000000348",
-  "feed": "0x6A1c87d11dDe3D1d52c24f8EC59B91019f14170D",
-  "maxStaleness": "90000",
+  "feed": "0x5e21f6530f656A38caE4F55500944753F662D184",
+  "maxStaleness": "21600",
   "checks": [
     {
       "id": "ADAPTER_EXISTS",
@@ -34,7 +34,7 @@
     {
       "id": "CONSISTENT_ASSET",
       "severity": "HIGH",
-      "message": "Asset 0xEc901DA9c68E90798BbBb74c11406A32A70652C3 is STONE (StakeStone Ether) with 18 decimals",
+      "message": "Asset 0x1cE0a25D13CE4d52071aE7e02Cf1F6606F4C79d3 is NECT (Nectar) with 18 decimals",
       "pass": true
     },
     {
@@ -46,11 +46,11 @@
     {
       "id": "PUSH_STALENESS_BUFFER",
       "severity": "MED",
-      "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
-      "pass": true
+      "message": "Adapter max staleness (21600) is insufficient for the feed's heartbeat (21600). Minimum recommended max staleness is 25200 seconds.",
+      "pass": false
     }
   ],
-  "label": "STONE (0.5%, 86400s)",
+  "label": "NECT (0.1%, 21600s)",
   "methodology": "Market Price",
   "model": "Push",
   "provider": "RedStone",
