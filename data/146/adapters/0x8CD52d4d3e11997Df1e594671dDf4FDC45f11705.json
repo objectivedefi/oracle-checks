@@ -1,12 +1,11 @@
 {
-  "name": "CrossAdapter",
-  "address": "0x5574190340fcCE41c5f90312Edb3924f5FAA9bbd",
-  "chainId": 56,
-  "base": "0xDD809435ba6c9d6903730f923038801781cA66ce",
-  "cross": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+  "name": "ChainlinkOracle",
+  "address": "0x8CD52d4d3e11997Df1e594671dDf4FDC45f11705",
+  "chainId": 146,
+  "base": "0xd3DCe716f3eF535C5Ff8d041c1A41C3bd89b97aE",
   "quote": "0x0000000000000000000000000000000000000348",
-  "oracleBaseCross": "0x88e20C3fe566a397082E0632b920291364C04008",
-  "oracleCrossQuote": "0x6851aA9162c6c9969125e6e934846ebA13c88a8d",
+  "feed": "0xACE5e348a341a740004304c2c228Af1A4581920F",
+  "maxStaleness": "90000",
   "checks": [
     {
       "id": "ADAPTER_EXISTS",
@@ -17,8 +16,8 @@
     {
       "id": "ADAPTER_REGISTRY",
       "severity": "HIGH",
-      "message": "Adapter is whitelisted in the adapter registry",
-      "pass": true
+      "message": "Adapter is not whitelisted in the adapter registry",
+      "pass": false
     },
     {
       "id": "SOURCE_CODE_PROVENANCE",
@@ -35,7 +34,7 @@
     {
       "id": "CONSISTENT_ASSET",
       "severity": "HIGH",
-      "message": "Asset 0xDD809435ba6c9d6903730f923038801781cA66ce is PT-sUSDE-26JUN2025 (PT Ethena sUSDE 26JUN2025) with 18 decimals",
+      "message": "Asset 0xd3DCe716f3eF535C5Ff8d041c1A41C3bd89b97aE is scUSD (Sonic USD) with 6 decimals",
       "pass": true
     },
     {
@@ -45,15 +44,15 @@
       "pass": true
     },
     {
-      "id": "CONSISTENT_ASSET",
-      "severity": "HIGH",
-      "message": "Asset 0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34 is USDe (USDe) with 18 decimals",
+      "id": "PUSH_STALENESS_BUFFER",
+      "severity": "MED",
+      "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
       "pass": true
     }
   ],
-  "label": "PT-sUSDE-26JUN2025/USDe/USD",
-  "methodology": "Unknown",
-  "model": "Unknown",
-  "provider": "Cross",
-  "whitelisted": true
+  "label": "SCUSD / USD (0.3%, 86400s)",
+  "methodology": "Market Price",
+  "model": "Push",
+  "provider": "Chainlink",
+  "whitelisted": false
 }
