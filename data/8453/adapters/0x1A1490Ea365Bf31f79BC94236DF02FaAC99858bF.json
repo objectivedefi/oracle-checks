@@ -1,11 +1,12 @@
 {
-  "name": "ChainlinkOracle",
-  "address": "0xA5D8658e0Aee09A93206478B2FaDFD0929B431af",
-  "chainId": 56,
-  "base": "0x0782b6d8c4551B9760e74c0545a9bCD90bdc41E5",
+  "name": "CrossAdapter",
+  "address": "0x1A1490Ea365Bf31f79BC94236DF02FaAC99858bF",
+  "chainId": 8453,
+  "base": "0xa6F0A4D18B6f6DdD408936e81b7b3A8BEFA18e77",
+  "cross": "0x35E5dB674D8e93a03d814FA0ADa70731efe8a4b9",
   "quote": "0x0000000000000000000000000000000000000348",
-  "feed": "0x3f5fc2cb37dA3B351F7EF968d72bE2eC3e1da08e",
-  "maxStaleness": "90000",
+  "oracleBaseCross": "0x939eF82881B243bd6C80E38b933D94573438b27E",
+  "oracleCrossQuote": "0xC20dC7913CbFd893e486CFf33CA20fA15Cc2cDaa",
   "checks": [
     {
       "id": "ADAPTER_EXISTS",
@@ -16,8 +17,8 @@
     {
       "id": "ADAPTER_REGISTRY",
       "severity": "HIGH",
-      "message": "Adapter is whitelisted in the adapter registry",
-      "pass": true
+      "message": "Adapter is not whitelisted in the adapter registry",
+      "pass": false
     },
     {
       "id": "SOURCE_CODE_PROVENANCE",
@@ -34,7 +35,7 @@
     {
       "id": "CONSISTENT_ASSET",
       "severity": "HIGH",
-      "message": "Asset 0x0782b6d8c4551B9760e74c0545a9bCD90bdc41E5 is lisUSD (Lista USD) with 18 decimals",
+      "message": "Asset 0xa6F0A4D18B6f6DdD408936e81b7b3A8BEFA18e77 is PT-USR-25SEP2025 (PT Resolv USD 25SEP2025) with 18 decimals",
       "pass": true
     },
     {
@@ -44,15 +45,15 @@
       "pass": true
     },
     {
-      "id": "PUSH_STALENESS_BUFFER",
-      "severity": "MED",
-      "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x35E5dB674D8e93a03d814FA0ADa70731efe8a4b9 is USR (Resolv USD) with 18 decimals",
       "pass": true
     }
   ],
-  "label": "LISUSD / USD (0.5%, 86400s)",
-  "methodology": "Market Price",
-  "model": "Push",
-  "provider": "Chainlink",
-  "whitelisted": true
+  "label": "PT-USR-25SEP2025/USR/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
+  "whitelisted": false
 }

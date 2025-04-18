@@ -931,6 +931,15 @@
     "whitelisted": false
   },
   {
+    "address": "0xACE5e348a341a740004304c2c228Af1A4581920F"
+  },
+  {
+    "address": "0x19A95E6203A0611b6be322c25b63Ec989fFE15c1"
+  },
+  {
+    "address": "0xdB17996a889706Bd67771dEa59E0Bf9453aF0CE4"
+  },
+  {
     "name": "FixedRateOracle",
     "address": "0x9ea47747F72F2AAdcF3c2250cEc820c47BEd03F0",
     "chainId": 146,
