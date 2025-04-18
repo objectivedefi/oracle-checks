@@ -105,6 +105,13 @@
     "decimals": 18
   },
   {
+    "address": "0xDD809435ba6c9d6903730f923038801781cA66ce",
+    "chainId": 56,
+    "name": "PT Ethena sUSDE 26JUN2025",
+    "symbol": "PT-sUSDE-26JUN2025",
+    "decimals": 18
+  },
+  {
     "address": "0xc5f0f7b66764F6ec8C8Dff7BA683102295E16409",
     "chainId": 56,
     "name": "First Digital USD",
