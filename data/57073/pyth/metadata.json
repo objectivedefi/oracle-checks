@@ -1040,7 +1040,7 @@
       "display_symbol": "XAG/USD",
       "generic_symbol": "XAGUSD",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0418/C,1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0418/C,0526/1800-2400,0619/1800-2400,0704/0000-1300",
       "symbol": "Metal.XAG/USD",
       "tenor": "Spot"
     }
@@ -1054,7 +1054,7 @@
       "display_symbol": "XAU/USD",
       "generic_symbol": "XAUUSD",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0418/C,1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0418/C,0526/1800-2400,0619/1800-2400,0704/0000-1300",
       "symbol": "Metal.XAU/USD",
       "tenor": "Spot"
     }
@@ -2643,7 +2643,7 @@
       "nasdaq_symbol": "XLE",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.XLE/USD"
     }
   },
@@ -3734,7 +3734,7 @@
       "display_symbol": "US10Y %",
       "generic_symbol": "US10Y",
       "quote_currency": "%",
-      "schedule": "America/New_York;0800-1700,0800-1700,0800-1700,0800-1700,0800-1700,C,C;1224/0800-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0800-1300,0704/C",
       "symbol": "Rates.US10Y"
     }
   },
@@ -3747,7 +3747,7 @@
       "display_symbol": "US1M %",
       "generic_symbol": "US1M",
       "quote_currency": "%",
-      "schedule": "America/New_York;0800-1700,0800-1700,0800-1700,0800-1700,0800-1700,C,C;1224/0800-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0800-1300,0704/C",
       "symbol": "Rates.US1M"
     }
   },
@@ -3760,7 +3760,7 @@
       "display_symbol": "US2Y %",
       "generic_symbol": "US2Y",
       "quote_currency": "%",
-      "schedule": "America/New_York;0800-1700,0800-1700,0800-1700,0800-1700,0800-1700,C,C;1224/0800-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0800-1300,0704/C",
       "symbol": "Rates.US2Y"
     }
   },
@@ -3773,7 +3773,7 @@
       "display_symbol": "US30Y %",
       "generic_symbol": "US30Y",
       "quote_currency": "%",
-      "schedule": "America/New_York;0800-1700,0800-1700,0800-1700,0800-1700,0800-1700,C,C;1224/0800-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0800-1300,0704/C",
       "symbol": "Rates.US30Y"
     }
   },
@@ -3786,7 +3786,7 @@
       "display_symbol": "US3M %",
       "generic_symbol": "US3M",
       "quote_currency": "%",
-      "schedule": "America/New_York;0800-1700,0800-1700,0800-1700,0800-1700,0800-1700,C,C;1224/0800-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0800-1300,0704/C",
       "symbol": "Rates.US3M"
     }
   },
@@ -3799,7 +3799,7 @@
       "display_symbol": "US5Y %",
       "generic_symbol": "US5Y",
       "quote_currency": "%",
-      "schedule": "America/New_York;0800-1700,0800-1700,0800-1700,0800-1700,0800-1700,C,C;1224/0800-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0800-1300,0704/C",
       "symbol": "Rates.US5Y"
     }
   },
@@ -3812,7 +3812,7 @@
       "display_symbol": "US6M %",
       "generic_symbol": "US6M",
       "quote_currency": "%",
-      "schedule": "America/New_York;0800-1700,0800-1700,0800-1700,0800-1700,0800-1700,C,C;1224/0800-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0800-1300,0704/C",
       "symbol": "Rates.US6M"
     }
   },
@@ -3825,7 +3825,7 @@
       "display_symbol": "US7Y %",
       "generic_symbol": "US7Y",
       "quote_currency": "%",
-      "schedule": "America/New_York;0800-1700,0800-1700,0800-1700,0800-1700,0800-1700,C,C;1224/0800-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0800-1300,0704/C",
       "symbol": "Rates.US7Y"
     }
   },
@@ -7991,7 +7991,7 @@
       "nasdaq_symbol": "ZTS",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.ZTS/USD"
     }
   },
@@ -8034,7 +8034,7 @@
       "nasdaq_symbol": "YUM",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.YUM/USD"
     }
   },
@@ -8486,7 +8486,7 @@
       "nasdaq_symbol": "ZBH",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.ZBH/USD"
     }
   },
@@ -8556,7 +8556,7 @@
       "nasdaq_symbol": "XOM",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.XOM/USD"
     }
   },
@@ -10269,7 +10269,7 @@
       "nasdaq_symbol": "XEL",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.XEL/USD"
     }
   },
@@ -10286,7 +10286,7 @@
       "nasdaq_symbol": "ZS",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.ZS/USD"
     }
   },
@@ -14627,7 +14627,7 @@
       "display_symbol": "US1Y %",
       "generic_symbol": "US1Y",
       "quote_currency": "%",
-      "schedule": "America/New_York;0800-1700,0800-1700,0800-1700,0800-1700,0800-1700,C,C;1224/0800-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0800-1300,0704/C",
       "symbol": "Rates.US1Y"
     }
   },
@@ -14670,7 +14670,7 @@
       "nasdaq_symbol": "ZBRA",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.ZBRA/USD"
     }
   },
@@ -14713,7 +14713,7 @@
       "nasdaq_symbol": "XYL",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.XYL/USD"
     }
   },
@@ -19405,7 +19405,7 @@
       "nasdaq_symbol": "WTW",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.WTW/USD"
     }
   },
@@ -19422,7 +19422,7 @@
       "nasdaq_symbol": "WY",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.WY/USD"
     }
   },
@@ -19439,7 +19439,7 @@
       "nasdaq_symbol": "WYNN",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.WYNN/USD"
     }
   },
@@ -19840,7 +19840,7 @@
       "display_symbol": "US3Y %",
       "generic_symbol": "US3Y",
       "quote_currency": "%",
-      "schedule": "America/New_York;0800-1700,0800-1700,0800-1700,0800-1700,0800-1700,C,C;1224/0800-1300,1225/C,0101/C,0109/C,0120/C,0217/C,0418/C,0526/C,0619/C",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0800-1300,0704/C",
       "symbol": "Rates.US3Y"
     }
   },
