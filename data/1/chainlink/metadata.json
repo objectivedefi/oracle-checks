@@ -1293,7 +1293,7 @@
       "blockchainName": "Ethereum",
       "clicProductName": "KRW/USD-RefPrice-DF-Ethereum-001",
       "deliveryChannelCode": "DF",
-      "marketHours": "Forex",
+      "marketHours": "Forex_KRW",
       "productSubType": "Reference",
       "productType": "Price",
       "productTypeCode": "RefPrice",
@@ -4312,7 +4312,7 @@
       "blockchainName": "Ethereum",
       "clicProductName": "CNY/USD-RefPrice-DF-Ethereum-001",
       "deliveryChannelCode": "DF",
-      "marketHours": "Forex",
+      "marketHours": "Forex_CNY",
       "productSubType": "Reference",
       "productType": "Price",
       "productTypeCode": "RefPrice",
@@ -5447,7 +5447,7 @@
     "feedCategory": "",
     "feedType": "",
     "docs": {
-      "marketHours": "Forex"
+      "marketHours": "Forex_PHP"
     },
     "decimals": 18
   },
@@ -7000,7 +7000,7 @@
       "clicProductName": "IDR/USD-RefPrice-DF-Ethereum-001",
       "deliveryChannelCode": "DF",
       "hidden": true,
-      "marketHours": "Forex",
+      "marketHours": "Forex_IDR",
       "productSubType": "Reference",
       "productType": "Price",
       "productTypeCode": "RefPrice",

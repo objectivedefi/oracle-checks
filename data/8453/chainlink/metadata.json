@@ -325,7 +325,7 @@
       "blockchainName": "Base",
       "clicProductName": "BRL/USD-RefPrice-DF-Base-001",
       "deliveryChannelCode": "DF",
-      "marketHours": "Forex",
+      "marketHours": "Forex_BRL",
       "productSubType": "Reference",
       "productType": "Price",
       "productTypeCode": "RefPrice",
@@ -952,7 +952,7 @@
     "feedCategory": "",
     "feedType": "",
     "docs": {
-      "marketHours": "Forex"
+      "marketHours": "Forex_NGN"
     },
     "decimals": 8
   },
@@ -1781,7 +1781,7 @@
     "feedCategory": "",
     "feedType": "",
     "docs": {
-      "marketHours": "Forex"
+      "marketHours": "Forex_IDR"
     },
     "decimals": 8
   },
@@ -4150,7 +4150,9 @@
     "assetName": "",
     "feedCategory": "",
     "feedType": "",
-    "docs": {},
+    "docs": {
+      "marketHours": "Forex"
+    },
     "decimals": 8
   },
   {
