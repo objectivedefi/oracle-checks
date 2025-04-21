@@ -16012,6 +16012,23 @@
     }
   },
   {
+    "id": "0x16b28b05e3491528ff9ece996c65075c3d2af3027131b11da425c6930b1e5932",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "PSX",
+      "cms_symbol": "PSX",
+      "country": "US",
+      "cqs_symbol": "PSX",
+      "description": "PHILLIPS 66 / US DOLLAR",
+      "display_symbol": "PSX/USD",
+      "nasdaq_symbol": "PSX",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.PSX/USD"
+    }
+  },
+  {
     "id": "0x8890509a8bea0d0ec4791ea315042061eac7fbde3a77a91a2b33564d799348f5",
     "attributes": {
       "asset_type": "Equity",
