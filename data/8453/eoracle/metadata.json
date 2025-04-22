@@ -1,11 +1,5 @@
 [
   {
-    "symbol": "AUD/USD",
-    "feedAddress": "0x5Fd8563ED7b9cb0f7Ae63F28A923A481ADCA51AA",
-    "deviationPercentage": 0.5,
-    "heartbeat": 86400
-  },
-  {
     "symbol": "BTC/USD",
     "feedAddress": "0xA2b185439079CaA3C68d3E33440b364dde8d599E",
     "deviationPercentage": 0.5,
@@ -20,12 +14,6 @@
   {
     "symbol": "EUR/USD",
     "feedAddress": "0x051A4b85a51DE75E7ef393a839791131Da58e0cB",
-    "deviationPercentage": 0.5,
-    "heartbeat": 86400
-  },
-  {
-    "symbol": "GBP/USD",
-    "feedAddress": "0x68C0080ABAf549c91b615C2957C381648074Dc47",
     "deviationPercentage": 0.5,
     "heartbeat": 86400
   },
@@ -56,12 +44,6 @@
   {
     "symbol": "USDT/USD",
     "feedAddress": "0xF8D5334492b0139CEdAB7f6b55Ab9Bd9763E82a1",
-    "deviationPercentage": 0.5,
-    "heartbeat": 86400
-  },
-  {
-    "symbol": "XAU/USD",
-    "feedAddress": "0x9B7062c58811Ca435D36fd99FF06bb78a80f23aE",
     "deviationPercentage": 0.5,
     "heartbeat": 86400
   },

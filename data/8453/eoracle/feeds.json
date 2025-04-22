@@ -1,13 +1,5 @@
 [
   {
-    "address": "0x5Fd8563ED7b9cb0f7Ae63F28A923A481ADCA51AA",
-    "chainId": 8453,
-    "decimals": 8,
-    "description": "AUD/USD",
-    "feedId": 14,
-    "version": "1"
-  },
-  {
     "address": "0xA2b185439079CaA3C68d3E33440b364dde8d599E",
     "chainId": 8453,
     "decimals": 8,
@@ -29,14 +21,6 @@
     "decimals": 8,
     "description": "EUR/USD",
     "feedId": 13,
-    "version": "1"
-  },
-  {
-    "address": "0x68C0080ABAf549c91b615C2957C381648074Dc47",
-    "chainId": 8453,
-    "decimals": 8,
-    "description": "GBP/USD",
-    "feedId": 16,
     "version": "1"
   },
   {
@@ -77,14 +61,6 @@
     "decimals": 8,
     "description": "USDT/USD",
     "feedId": 17,
-    "version": "1"
-  },
-  {
-    "address": "0x9B7062c58811Ca435D36fd99FF06bb78a80f23aE",
-    "chainId": 8453,
-    "decimals": 8,
-    "description": "XAU/USD",
-    "feedId": 11,
     "version": "1"
   },
   {
