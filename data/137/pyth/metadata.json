@@ -20986,5 +20986,96 @@
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.WCT/USD"
     }
+  },
+  {
+    "id": "0xdd83d991ed72e3d688509ca349f29d2bd3d883af74a17b9515c310ff70e9d1e4",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "AERGO",
+      "description": "AERGO / US DOLLAR",
+      "display_symbol": "AERGO/USD",
+      "generic_symbol": "AERGOUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.AERGO/USD"
+    }
+  },
+  {
+    "id": "0x89e10b4bdeda2633eb6bca10be1674f9e6bf312772510a2f604c4f55f45ff8d9",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "BABY",
+      "description": "BABYLON / US DOLLAR",
+      "display_symbol": "BABY/USD",
+      "generic_symbol": "BABYUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.BABY/USD"
+    }
+  },
+  {
+    "id": "0xb86ddb07a6163b55cdee9a676131dc28d2faea445060ac3a28c687ed42db6e84",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "INIT",
+      "description": "INIT / US DOLLAR",
+      "display_symbol": "INIT/USD",
+      "generic_symbol": "INITUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.INIT/USD"
+    }
+  },
+  {
+    "id": "0x0617a9b725011a126a2b9fd53563f4236501f32cf76d877644b943394606c6de",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "MUSD",
+      "description": "MEZO US DOLLAR / US DOLLAR",
+      "display_symbol": "MUSD/USD",
+      "generic_symbol": "MUSDUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.MEZO.MUSD/USD"
+    }
+  },
+  {
+    "id": "0xda1f549de9829a06269d02d3c0c8a8253b06c0ec71e3f0451d500259c1000772",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "OOGA",
+      "description": "OOGA BOOGA / US DOLLAR",
+      "display_symbol": "OOGA/USD",
+      "generic_symbol": "OOGAUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.OOGA/USD"
+    }
+  },
+  {
+    "id": "0x3512f8f7c90859bde36c063f455a6f62a042019bd94187972c0cccaa0425d25d",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "PROMPT",
+      "description": "WAYFINDER PROMPT / US DOLLAR",
+      "display_symbol": "PROMPT/USD",
+      "generic_symbol": "PROMPTUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.PROMPT/USD"
+    }
+  },
+  {
+    "id": "0x93eacee7286be62044cd8dfbdfdf1bea8f52a3ca6e0f512f4a05bd383f5666b1",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "ZORA",
+      "description": "ZORA / US DOLLAR",
+      "display_symbol": "ZORA/USD",
+      "generic_symbol": "ZORAUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.ZORA/USD"
+    }
   }
 ]
