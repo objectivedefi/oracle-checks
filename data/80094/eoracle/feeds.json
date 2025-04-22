@@ -1,5 +1,13 @@
 [
   {
+    "address": "0x100f39A87797ee8f63411D427897666F41D3147d",
+    "chainId": 80094,
+    "decimals": 18,
+    "description": "BB.sNECT/NECT",
+    "feedId": 137,
+    "version": "1"
+  },
+  {
     "address": "0x5aB00478D7aD92DF0396AF1B7C1303237D402cb8",
     "chainId": 80094,
     "decimals": 8,

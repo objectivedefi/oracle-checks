@@ -1,5 +1,11 @@
 [
   {
+    "symbol": "BB.sNECT/NECT",
+    "feedAddress": "0x100f39A87797ee8f63411D427897666F41D3147d",
+    "deviationPercentage": 0.5,
+    "heartbeat": 86400
+  },
+  {
     "symbol": "BTC/USD",
     "feedAddress": "0x5aB00478D7aD92DF0396AF1B7C1303237D402cb8",
     "deviationPercentage": 0.5,
