@@ -133,6 +133,9 @@ export async function collectData(chainId: number): Promise<CollectedData> {
         return { ...merged, ...current };
       }, {});
     },
+  }).catch((error) => {
+    console.error(`${logPrefix} Error fetching adapter registry entries: ${error}`);
+    return {};
   });
 
   console.log(
@@ -155,6 +158,9 @@ export async function collectData(chainId: number): Promise<CollectedData> {
       // Merge and deduplicate the address arrays
       return Array.from(new Set(results.flat()));
     },
+  }).catch((error) => {
+    console.error(`${logPrefix} Error fetching historical adapter addresses: ${error}`);
+    return [];
   });
 
   const csvAdapterAddresses = chainConfigs[chainId].oracleAdaptersAddresses;
