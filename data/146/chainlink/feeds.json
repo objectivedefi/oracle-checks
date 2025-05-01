@@ -58,5 +58,15 @@
     "description": "stS / USD",
     "owner": "0x2CB7bc5d668eb063DE2e060A01e877Ef8EBb9Fc6",
     "version": "6"
+  },
+  {
+    "address": "0xc26dEEfBF72CFC862610Db23830970Fc6663CcC3",
+    "chainId": 146,
+    "accessController": "0x0000000000000000000000000000000000000000",
+    "aggregator": "0xe936119F730329878aCe2C741FbD7308dca594b0",
+    "decimals": 8,
+    "description": "SHADOW / USD",
+    "owner": "0x2CB7bc5d668eb063DE2e060A01e877Ef8EBb9Fc6",
+    "version": "6"
   }
 ]

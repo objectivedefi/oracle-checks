@@ -327,6 +327,36 @@
     "decimals": 18
   },
   {
+    "benchmark": "dex-state",
+    "compareOffchain": "",
+    "contractAddress": "0x11597064EE0934DF245b48913d486836fc6B5DbF",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "usdf-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "USDf / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "usdf-usd",
+    "proxyAddress": "0xedE67e8dda821090e019Be754A7F61b4129FbF17",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "marketHours": "Crypto"
+    },
+    "decimals": 8
+  },
+  {
     "compareOffchain": "",
     "contractAddress": "0x14431D7Ed5D03888136bD32B634f95cD33de16e0",
     "contractType": "",

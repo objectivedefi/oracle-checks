@@ -2458,6 +2458,65 @@
     "whitelisted": false
   },
   {
+    "name": "CrossAdapter",
+    "address": "0x1A1490Ea365Bf31f79BC94236DF02FaAC99858bF",
+    "chainId": 8453,
+    "base": "0xa6F0A4D18B6f6DdD408936e81b7b3A8BEFA18e77",
+    "cross": "0x35E5dB674D8e93a03d814FA0ADa70731efe8a4b9",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x939eF82881B243bd6C80E38b933D94573438b27E",
+    "oracleCrossQuote": "0xC20dC7913CbFd893e486CFf33CA20fA15Cc2cDaa",
+    "checks": [
+      {
+        "id": "ADAPTER_EXISTS",
+        "severity": "HIGH",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
+      },
+      {
+        "id": "SOURCE_CODE_PROVENANCE",
+        "severity": "HIGH",
+        "message": "Contract metadata hash matches a known hash",
+        "pass": true
+      },
+      {
+        "id": "DISTINCT_ASSETS",
+        "severity": "HIGH",
+        "message": "No duplicates found",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0xa6F0A4D18B6f6DdD408936e81b7b3A8BEFA18e77 is PT-USR-25SEP2025 (PT Resolv USD 25SEP2025) with 18 decimals",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x35E5dB674D8e93a03d814FA0ADa70731efe8a4b9 is USR (Resolv USD) with 18 decimals",
+        "pass": true
+      }
+    ],
+    "label": "PT-USR-25SEP2025/USR/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": true
+  },
+  {
     "name": "ChainlinkOracle",
     "address": "0x1f00Cc333ccdCD1B8a9809D859338218d7ABC52b",
     "chainId": 8453,
@@ -3341,7 +3400,7 @@
         "pass": true
       }
     ],
-    "label": "USR",
+    "label": "Unknown pool",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
@@ -4014,64 +4073,5 @@
   },
   {
     "address": "0x939eF82881B243bd6C80E38b933D94573438b27E"
-  },
-  {
-    "name": "CrossAdapter",
-    "address": "0x1A1490Ea365Bf31f79BC94236DF02FaAC99858bF",
-    "chainId": 8453,
-    "base": "0xa6F0A4D18B6f6DdD408936e81b7b3A8BEFA18e77",
-    "cross": "0x35E5dB674D8e93a03d814FA0ADa70731efe8a4b9",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0x939eF82881B243bd6C80E38b933D94573438b27E",
-    "oracleCrossQuote": "0xC20dC7913CbFd893e486CFf33CA20fA15Cc2cDaa",
-    "checks": [
-      {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
-        "pass": true
-      },
-      {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
-        "pass": true
-      },
-      {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
-        "pass": true
-      },
-      {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0xa6F0A4D18B6f6DdD408936e81b7b3A8BEFA18e77 is PT-USR-25SEP2025 (PT Resolv USD 25SEP2025) with 18 decimals",
-        "pass": true
-      },
-      {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
-        "pass": true
-      },
-      {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x35E5dB674D8e93a03d814FA0ADa70731efe8a4b9 is USR (Resolv USD) with 18 decimals",
-        "pass": true
-      }
-    ],
-    "label": "PT-USR-25SEP2025/USR/USD",
-    "methodology": "Unknown",
-    "model": "Unknown",
-    "provider": "Cross",
-    "whitelisted": true
   }
 ]

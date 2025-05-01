@@ -1,10 +1,11 @@
 {
-  "name": "FixedRateOracle",
-  "address": "0x1612576F763ede4B0FcA3e76575CC7042B454C60",
-  "chainId": 146,
-  "base": "0xd3DCe716f3eF535C5Ff8d041c1A41C3bd89b97aE",
+  "name": "ChainlinkInfrequentOracle",
+  "address": "0x4417B07Fad263751775e334458Cb8F16A5971893",
+  "chainId": 80094,
+  "base": "0x2719e657ec3B3CbE521a18E640CA55799836376f",
   "quote": "0x0000000000000000000000000000000000000348",
-  "rate": "100000000000000000",
+  "feed": "0xEf4A5B593a9EAaca9aFb6124deE0073Ef22481c3",
+  "maxStaleness": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
   "checks": [
     {
       "id": "ADAPTER_EXISTS",
@@ -33,7 +34,7 @@
     {
       "id": "CONSISTENT_ASSET",
       "severity": "HIGH",
-      "message": "Asset 0xd3DCe716f3eF535C5Ff8d041c1A41C3bd89b97aE is scUSD (Sonic USD) with 6 decimals",
+      "message": "Asset 0x2719e657ec3B3CbE521a18E640CA55799836376f is PT-sUSDE-25SEP2025 (PT Ethena sUSDE 25SEP2025) with 18 decimals",
       "pass": true
     },
     {
@@ -43,15 +44,15 @@
       "pass": true
     },
     {
-      "id": "FIXED_RATE_ONE",
-      "severity": "HIGH",
-      "message": "Adapter has an unusual fixed rate",
+      "id": "PUSH_STALENESS_BUFFER",
+      "severity": "MED",
+      "message": "Feed heartbeat is unknown",
       "pass": false
     }
   ],
-  "label": "1:0.1 scUSD/USD",
-  "methodology": "Exchange Rate",
+  "label": "eOracle Pendle PT-USDe-25SEP2025 Linear Discount/USD ",
+  "methodology": "Unknown",
   "model": "Push",
-  "provider": "Fixed Rate",
+  "provider": "eOracle",
   "whitelisted": false
 }

@@ -1,11 +1,12 @@
 {
-  "name": "ChainlinkOracle",
-  "address": "0xA4d8c46DA4b7a73Faa058b36EfA305077569bF23",
+  "name": "CrossAdapter",
+  "address": "0x1D6Ba68E8a98C1afB9983976b39eFd877b1Fd361",
   "chainId": 1,
-  "base": "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2",
+  "base": "0x3b3fB9C57858EF816833dC91565EFcd85D96f634",
+  "cross": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
   "quote": "0x0000000000000000000000000000000000000348",
-  "feed": "0xCc70F09A6CC17553b2E31954cD36E4A2d89501f7",
-  "maxStaleness": "7200",
+  "oracleBaseCross": "0xF05CA1D76a7d5859014b8606ab69C6D41629109C",
+  "oracleCrossQuote": "0x8918D496d0AA72d3de7C8f2a5F02C27a1472CaDb",
   "checks": [
     {
       "id": "ADAPTER_EXISTS",
@@ -34,7 +35,7 @@
     {
       "id": "CONSISTENT_ASSET",
       "severity": "HIGH",
-      "message": "Asset 0x6B3595068778DD592e39A122f4f5a5cF09C90fE2 is SUSHI (SushiToken) with 18 decimals",
+      "message": "Asset 0x3b3fB9C57858EF816833dC91565EFcd85D96f634 is PT-sUSDE-31JUL2025 (PT Ethena sUSDE 31JUL2025) with 18 decimals",
       "pass": true
     },
     {
@@ -44,15 +45,15 @@
       "pass": true
     },
     {
-      "id": "PUSH_STALENESS_BUFFER",
-      "severity": "MED",
-      "message": "Adapter max staleness (7200) is insufficient for the feed's heartbeat (86400). Minimum recommended max staleness is 90000 seconds.",
-      "pass": false
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3 is USDe (USDe) with 18 decimals",
+      "pass": true
     }
   ],
-  "label": "SUSHI / USD (1%, 86400s)",
-  "methodology": "Market Price",
-  "model": "Push",
-  "provider": "Chainlink",
+  "label": "PT-sUSDE-31JUL2025/USDe/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
   "whitelisted": true
 }

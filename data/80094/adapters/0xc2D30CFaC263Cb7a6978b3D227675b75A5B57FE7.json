@@ -1,11 +1,11 @@
 {
-  "name": "ChainlinkOracle",
-  "address": "0xe322866b7290181Da7A1B9ad37f308519841Cb32",
-  "chainId": 1,
-  "base": "0xc944E90C64B2c07662A292be6244BDf05Cda44a7",
-  "quote": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-  "feed": "0x17D054eCac33D91F7340645341eFB5DE9009F1C1",
-  "maxStaleness": "7200",
+  "name": "ChainlinkInfrequentOracle",
+  "address": "0xc2D30CFaC263Cb7a6978b3D227675b75A5B57FE7",
+  "chainId": 80094,
+  "base": "0x1d22592F66Fc92e0a64eE9300eAeca548cd466c5",
+  "quote": "0x1cE0a25D13CE4d52071aE7e02Cf1F6606F4C79d3",
+  "feed": "0x100f39A87797ee8f63411D427897666F41D3147d",
+  "maxStaleness": "90000",
   "checks": [
     {
       "id": "ADAPTER_EXISTS",
@@ -34,25 +34,25 @@
     {
       "id": "CONSISTENT_ASSET",
       "severity": "HIGH",
-      "message": "Asset 0xc944E90C64B2c07662A292be6244BDf05Cda44a7 is GRT (Graph Token) with 18 decimals",
+      "message": "Asset 0x1d22592F66Fc92e0a64eE9300eAeca548cd466c5 is BB.SNECT (Beraborrow Staked Nectar) with 18 decimals",
       "pass": true
     },
     {
       "id": "CONSISTENT_ASSET",
       "severity": "HIGH",
-      "message": "Asset 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 is WETH (Wrapped Ether) with 18 decimals",
+      "message": "Asset 0x1cE0a25D13CE4d52071aE7e02Cf1F6606F4C79d3 is NECT (Nectar) with 18 decimals",
       "pass": true
     },
     {
       "id": "PUSH_STALENESS_BUFFER",
       "severity": "MED",
-      "message": "Adapter max staleness (7200) is insufficient for the feed's heartbeat (86400). Minimum recommended max staleness is 90000 seconds.",
-      "pass": false
+      "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
+      "pass": true
     }
   ],
-  "label": "GRT / ETH (2%, 86400s)",
-  "methodology": "Market Price",
+  "label": "BB.sNECT/NECT (0.5, 86400s)",
+  "methodology": "Unknown",
   "model": "Push",
-  "provider": "Chainlink",
+  "provider": "eOracle",
   "whitelisted": true
 }

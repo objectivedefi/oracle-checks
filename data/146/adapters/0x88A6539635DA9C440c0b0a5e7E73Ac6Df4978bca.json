@@ -1,11 +1,11 @@
 {
   "name": "PythOracle",
-  "address": "0xFC40B9415fF4591EC304f3c18509A6Dc28C408cA",
+  "address": "0x88A6539635DA9C440c0b0a5e7E73Ac6Df4978bca",
   "chainId": 146,
-  "base": "0xE5DA20F15420aD15DE0fa650600aFc998bbE3955",
-  "quote": "0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38",
+  "base": "0x3333b97138D4b086720b5aE8A7844b1345a33333",
+  "quote": "0x0000000000000000000000000000000000000348",
   "pyth": "0x2880aB155794e7179c9eE2e38200202908C17B43",
-  "feedId": "0x3b14bd355f182fa3a3feeea6824228e1f71e7c221a37bc91e8307280aee6a803",
+  "feedId": "0x6f02ad2b8a307411fc3baedb9876e83efe9fa9f5b752aab8c99f4742c9e5f5d5",
   "maxStaleness": "120",
   "maxConfWidth": "300",
   "checks": [
@@ -36,32 +36,32 @@
     {
       "id": "CONSISTENT_ASSET",
       "severity": "HIGH",
-      "message": "Asset 0xE5DA20F15420aD15DE0fa650600aFc998bbE3955 is stS (Beets Staked Sonic) with 18 decimals",
+      "message": "Asset 0x3333b97138D4b086720b5aE8A7844b1345a33333 is SHADOW (Shadow) with 18 decimals",
       "pass": true
     },
     {
       "id": "CONSISTENT_ASSET",
       "severity": "HIGH",
-      "message": "Asset 0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38 is wS (Wrapped Sonic) with 18 decimals",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
       "pass": true
     },
     {
       "id": "OFFICIAL_PYTH_FEED",
       "severity": "HIGH",
-      "message": "Adapter is connected to an official Pyth feed: STS/S",
+      "message": "Adapter is connected to an official Pyth feed: SHADOW/USD",
       "pass": true
     },
     {
       "id": "PYTH_BASE_CORRESPONDENCE",
       "severity": "INFO",
-      "message": "Base symbol (stS) matches Pyth feed base asset (STS)",
+      "message": "Base symbol (SHADOW) matches Pyth feed base asset (SHADOW)",
       "pass": true
     },
     {
       "id": "PYTH_QUOTE_CORRESPONDENCE",
       "severity": "INFO",
-      "message": "Quote symbol (wS) does not match Pyth feed quote asset (S)",
-      "pass": false
+      "message": "Quote symbol (USD) matches Pyth feed quote asset (USD)",
+      "pass": true
     },
     {
       "id": "OFFICIAL_PYTH_PROXY",
@@ -76,8 +76,8 @@
       "pass": true
     }
   ],
-  "label": "Crypto.STS/S.RR (120s, ±300bps)",
-  "methodology": "Exchange Rate",
+  "label": "Crypto.SHADOW/USD (120s, ±300bps)",
+  "methodology": "Market Price",
   "model": "Pull",
   "provider": "Pyth",
   "whitelisted": false

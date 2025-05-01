@@ -70,13 +70,5 @@
     "underlyingAsset": "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
     "expiry": 1766620800,
     "symbol": "cbETH"
-  },
-  {
-    "chainId": 8453,
-    "pt": "0xec443e7E0e745348E500084892C89218B3ba4683",
-    "market": "0xE15578523937ed7F08E8F7a1Fa8a021E07025a08",
-    "underlyingAsset": "0x35E5dB674D8e93a03d814FA0ADa70731efe8a4b9",
-    "expiry": 1745452800,
-    "symbol": "USR"
   }
 ]

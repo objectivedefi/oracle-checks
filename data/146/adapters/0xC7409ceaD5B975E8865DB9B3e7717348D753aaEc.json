@@ -1,11 +1,12 @@
 {
-  "name": "ChainlinkOracle",
-  "address": "0x0550A910Df9BFe6da98000442959e7Adf076cd6b",
+  "name": "CrossAdapter",
+  "address": "0xC7409ceaD5B975E8865DB9B3e7717348D753aaEc",
   "chainId": 146,
-  "base": "0x29219dd400f2Bf60E5a23d13Be72B486D4038894",
+  "base": "0x5050bc082FF4A74Fb6B0B04385dEfdDB114b2424",
+  "cross": "0x3333b97138D4b086720b5aE8A7844b1345a33333",
   "quote": "0x0000000000000000000000000000000000000348",
-  "feed": "0x3587a73AA02519335A8a6053a97657BECe0bC2Cc",
-  "maxStaleness": "25200",
+  "oracleBaseCross": "0x8B78BBb48a63da1F9DB4Ac418fe4DE604aC8c4a5",
+  "oracleCrossQuote": "0x22f8aF7504B78953b7101a6543CBDEc0038eb59f",
   "checks": [
     {
       "id": "ADAPTER_EXISTS",
@@ -34,7 +35,7 @@
     {
       "id": "CONSISTENT_ASSET",
       "severity": "HIGH",
-      "message": "Asset 0x29219dd400f2Bf60E5a23d13Be72B486D4038894 is USDC.e (Bridged USDC (Sonic Labs)) with 6 decimals",
+      "message": "Asset 0x5050bc082FF4A74Fb6B0B04385dEfdDB114b2424 is xSHADOW (xShadow) with 18 decimals",
       "pass": true
     },
     {
@@ -44,15 +45,15 @@
       "pass": true
     },
     {
-      "id": "PUSH_STALENESS_BUFFER",
-      "severity": "MED",
-      "message": "Adapter max staleness (25200) is sufficient for the feed's heartbeat (21600).",
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x3333b97138D4b086720b5aE8A7844b1345a33333 is SHADOW (Shadow) with 18 decimals",
       "pass": true
     }
   ],
-  "label": "USDC (0.5%, 21600s)",
-  "methodology": "Market Price",
-  "model": "Push",
-  "provider": "RedStone",
+  "label": "xSHADOW/SHADOW/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
   "whitelisted": false
 }

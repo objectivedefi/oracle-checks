@@ -1,11 +1,12 @@
 {
-  "name": "ChainlinkOracle",
-  "address": "0xA4d8c46DA4b7a73Faa058b36EfA305077569bF23",
-  "chainId": 1,
-  "base": "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2",
+  "name": "CrossAdapter",
+  "address": "0x984833b9c0D619F08E75197b2c8aE3A9485E20aE",
+  "chainId": 80094,
+  "base": "0x1d22592F66Fc92e0a64eE9300eAeca548cd466c5",
+  "cross": "0x1cE0a25D13CE4d52071aE7e02Cf1F6606F4C79d3",
   "quote": "0x0000000000000000000000000000000000000348",
-  "feed": "0xCc70F09A6CC17553b2E31954cD36E4A2d89501f7",
-  "maxStaleness": "7200",
+  "oracleBaseCross": "0xc2D30CFaC263Cb7a6978b3D227675b75A5B57FE7",
+  "oracleCrossQuote": "0xADF96cb1E19D658901A204eF375d605a0300244B",
   "checks": [
     {
       "id": "ADAPTER_EXISTS",
@@ -34,7 +35,7 @@
     {
       "id": "CONSISTENT_ASSET",
       "severity": "HIGH",
-      "message": "Asset 0x6B3595068778DD592e39A122f4f5a5cF09C90fE2 is SUSHI (SushiToken) with 18 decimals",
+      "message": "Asset 0x1d22592F66Fc92e0a64eE9300eAeca548cd466c5 is BB.SNECT (Beraborrow Staked Nectar) with 18 decimals",
       "pass": true
     },
     {
@@ -44,15 +45,15 @@
       "pass": true
     },
     {
-      "id": "PUSH_STALENESS_BUFFER",
-      "severity": "MED",
-      "message": "Adapter max staleness (7200) is insufficient for the feed's heartbeat (86400). Minimum recommended max staleness is 90000 seconds.",
-      "pass": false
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x1cE0a25D13CE4d52071aE7e02Cf1F6606F4C79d3 is NECT (Nectar) with 18 decimals",
+      "pass": true
     }
   ],
-  "label": "SUSHI / USD (1%, 86400s)",
-  "methodology": "Market Price",
-  "model": "Push",
-  "provider": "Chainlink",
+  "label": "BB.SNECT/NECT/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
   "whitelisted": true
 }

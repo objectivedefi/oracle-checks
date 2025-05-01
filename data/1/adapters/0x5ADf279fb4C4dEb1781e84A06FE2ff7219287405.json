@@ -46,11 +46,11 @@
     {
       "id": "PUSH_STALENESS_BUFFER",
       "severity": "MED",
-      "message": "Adapter max staleness (7200) is sufficient for the feed's heartbeat (3600).",
-      "pass": true
+      "message": "Adapter max staleness (7200) is insufficient for the feed's heartbeat (86400). Minimum recommended max staleness is 90000 seconds.",
+      "pass": false
     }
   ],
-  "label": "YFI / USD (1%, 3600s)",
+  "label": "YFI / USD (1%, 86400s)",
   "methodology": "Market Price",
   "model": "Push",
   "provider": "Chainlink",

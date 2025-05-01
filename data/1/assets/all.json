@@ -1218,6 +1218,13 @@
     "decimals": 18
   },
   {
+    "address": "0x3b3fB9C57858EF816833dC91565EFcd85D96f634",
+    "chainId": 1,
+    "name": "PT Ethena sUSDE 31JUL2025",
+    "symbol": "PT-sUSDE-31JUL2025",
+    "decimals": 18
+  },
+  {
     "address": "0xB4EFd85c19999D84251304bDA99E90B92300Bd93",
     "chainId": 1,
     "name": "Rocket Pool",

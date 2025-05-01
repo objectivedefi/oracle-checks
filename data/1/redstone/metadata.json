@@ -270,6 +270,29 @@
     "heartbeat": 86400
   },
   {
+    "symbol": "swETH_FUNDAMENTAL",
+    "deviationPercentage": 0.5,
+    "heartbeat": 86400
+  },
+  {
+    "symbol": "BUIDL_DAILY_INTEREST_ACCRUAL",
+    "priceFeedAddress": "0x9c303927dC4939692CC60641D6ceABa9185d687a",
+    "deviationPercentage": 0.1,
+    "heartbeat": 86400
+  },
+  {
+    "symbol": "BUIDL_I_ETHEREUM_FUNDAMENTAL",
+    "priceFeedAddress": "0xf2db7b3455077Fb177215d45D62d441DF3C17bf3",
+    "deviationPercentage": 0.1,
+    "heartbeat": 86400
+  },
+  {
+    "symbol": "BUIDL_I_ETHEREUM_DAILY_ACCRUAL",
+    "priceFeedAddress": "0xd6156F8177aA1a6E0c5278CE437A9BDB32F203ef",
+    "deviationPercentage": 0.1,
+    "heartbeat": 86400
+  },
+  {
     "symbol": "apxETH/ETH",
     "priceFeedAddress": "0x19219BC90F48DeE4d5cF202E09c438FAacFd8Bea",
     "deviationPercentage": 1,

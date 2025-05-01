@@ -1,10 +1,11 @@
 {
-  "name": "FixedRateOracle",
-  "address": "0x9741df77Da8a734781ea097e48fdab83e119aAfd",
+  "name": "ChainlinkOracle",
+  "address": "0x22f8aF7504B78953b7101a6543CBDEc0038eb59f",
   "chainId": 146,
-  "base": "0x50c42dEAcD8Fc9773493ED674b675bE577f2634b",
+  "base": "0x3333b97138D4b086720b5aE8A7844b1345a33333",
   "quote": "0x0000000000000000000000000000000000000348",
-  "rate": "100000000000000000000",
+  "feed": "0xc26dEEfBF72CFC862610Db23830970Fc6663CcC3",
+  "maxStaleness": "90000",
   "checks": [
     {
       "id": "ADAPTER_EXISTS",
@@ -33,7 +34,7 @@
     {
       "id": "CONSISTENT_ASSET",
       "severity": "HIGH",
-      "message": "Asset 0x50c42dEAcD8Fc9773493ED674b675bE577f2634b is WETH (Wrapped Ether on Sonic) with 18 decimals",
+      "message": "Asset 0x3333b97138D4b086720b5aE8A7844b1345a33333 is SHADOW (Shadow) with 18 decimals",
       "pass": true
     },
     {
@@ -43,15 +44,15 @@
       "pass": true
     },
     {
-      "id": "FIXED_RATE_ONE",
-      "severity": "HIGH",
-      "message": "Adapter has an unusual fixed rate",
-      "pass": false
+      "id": "PUSH_STALENESS_BUFFER",
+      "severity": "MED",
+      "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
+      "pass": true
     }
   ],
-  "label": "1:100 WETH/USD",
-  "methodology": "Exchange Rate",
+  "label": "SHADOW / USD (0.5%, 86400s)",
+  "methodology": "Market Price",
   "model": "Push",
-  "provider": "Fixed Rate",
+  "provider": "Chainlink",
   "whitelisted": false
 }

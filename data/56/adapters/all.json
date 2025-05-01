@@ -1597,6 +1597,90 @@
     "whitelisted": true
   },
   {
+    "name": "PythOracle",
+    "address": "0x575Ffc02361368A2708c00bC7e299d1cD1c89f8A",
+    "chainId": 56,
+    "base": "0x8d0D000Ee44948FC98c9B98A4FA4921476f08B0d",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "pyth": "0x4D7E825f80bDf85e913E0DD2A2D54927e9dE1594",
+    "feedId": "0x0a2425d43486780990d8b63543029e20556be51fd756cca584212f4d539611d4",
+    "maxStaleness": "120",
+    "maxConfWidth": "300",
+    "checks": [
+      {
+        "id": "ADAPTER_EXISTS",
+        "severity": "HIGH",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
+      },
+      {
+        "id": "SOURCE_CODE_PROVENANCE",
+        "severity": "HIGH",
+        "message": "Contract metadata hash matches a known hash",
+        "pass": true
+      },
+      {
+        "id": "DISTINCT_ASSETS",
+        "severity": "HIGH",
+        "message": "No duplicates found",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x8d0D000Ee44948FC98c9B98A4FA4921476f08B0d is USD1 (World Liberty Financial USD) with 18 decimals",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "pass": true
+      },
+      {
+        "id": "OFFICIAL_PYTH_FEED",
+        "severity": "HIGH",
+        "message": "Adapter is connected to an official Pyth feed: USD1/USD",
+        "pass": true
+      },
+      {
+        "id": "PYTH_BASE_CORRESPONDENCE",
+        "severity": "INFO",
+        "message": "Base symbol (USD1) matches Pyth feed base asset (USD1)",
+        "pass": true
+      },
+      {
+        "id": "PYTH_QUOTE_CORRESPONDENCE",
+        "severity": "INFO",
+        "message": "Quote symbol (USD) matches Pyth feed quote asset (USD)",
+        "pass": true
+      },
+      {
+        "id": "OFFICIAL_PYTH_PROXY",
+        "severity": "HIGH",
+        "message": "Adapter is connected to the official Pyth proxy",
+        "pass": true
+      },
+      {
+        "id": "PYTH_STALENESS_RANGE",
+        "severity": "HIGH",
+        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
+        "pass": true
+      }
+    ],
+    "label": "Crypto.USD1/USD (120s, ±300bps)",
+    "methodology": "Market Price",
+    "model": "Pull",
+    "provider": "Pyth",
+    "whitelisted": true
+  },
+  {
     "name": "ChainlinkOracle",
     "address": "0x74b77011c244bD7EDff34E4cbf23fe41DeFA313d",
     "chainId": 56,

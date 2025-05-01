@@ -25,6 +25,14 @@
   },
   {
     "chainId": 56,
+    "pt": "0x4a3846d069B800343D53e72B80a644Bb496D9aB2",
+    "market": "0x1630d8228588d406767C2225F927154c05d2E2bb",
+    "underlyingAsset": "0x2492D0006411Af6C8bbb1c8afc1B0197350a79e9",
+    "expiry": 1764201600,
+    "symbol": "USR"
+  },
+  {
+    "chainId": 56,
     "pt": "0x50956c8e46a4f7Dfc7475e3957c162D29b39F75f",
     "market": "0x7608eB2fc533343556e443511a2747F605E49C9B",
     "underlyingAsset": "0x32C830f5c34122C6afB8aE87ABA541B7900a2C5F",
@@ -70,14 +78,6 @@
     "underlyingAsset": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
     "expiry": 1750896000,
     "symbol": "sUSDe"
-  },
-  {
-    "chainId": 56,
-    "pt": "0xE8F1C9804770e11Ab73395bE54686Ad656601E9e",
-    "market": "0x1d9D27f0b89181cF1593aC2B36A37B444Eb66bEE",
-    "underlyingAsset": "0xB0b84D294e0C75A6abe60171b70edEb2EFd14A1B",
-    "expiry": 1745452800,
-    "symbol": "clisBNB"
   },
   {
     "chainId": 56,

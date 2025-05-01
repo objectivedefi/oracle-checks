@@ -146,6 +146,13 @@
     "symbol": "CRDT"
   },
   {
+    "address": "0x1d22592F66Fc92e0a64eE9300eAeca548cd466c5",
+    "chainId": 80094,
+    "name": "Beraborrow Staked Nectar",
+    "symbol": "BB.SNECT",
+    "decimals": 18
+  },
+  {
     "address": "0x48b358b7bC013F24E2D59b3A0d4455f6e71Fe2d6",
     "chainId": 80094,
     "name": "PT Infrared BERA 26JUN2025",

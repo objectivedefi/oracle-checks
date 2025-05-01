@@ -16767,13 +16767,13 @@
     "id": "0x41827044d61d411b307f78a25b3b4f8b27f2e26b22f4ef9381c1041f65039c8a",
     "attributes": {
       "asset_type": "Crypto",
-      "base": "USA.D",
-      "description": "US ASYMMETRY DOLLAR / US DOLLAR",
-      "display_symbol": "USA.D/USD",
-      "generic_symbol": "USA.DUSD",
+      "base": "AMPUSD",
+      "description": "AMPLEFORTH US DOLLAR / US DOLLAR",
+      "display_symbol": "AMPUSD/USD",
+      "generic_symbol": "AMPUSDUSD",
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.USA-D/USD"
+      "symbol": "Crypto.AMPUSD/USD"
     }
   },
   {
@@ -21018,7 +21018,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "INIT",
-      "description": "INIT / US DOLLAR",
+      "description": "INITIA / US DOLLAR",
       "display_symbol": "INIT/USD",
       "generic_symbol": "INITUSD",
       "quote_currency": "USD",
@@ -21076,6 +21076,61 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.ZORA/USD"
+    }
+  },
+  {
+    "id": "0xac2adf4571a391da22a2d39e8c5eb32ceecd6ab38c386a9194d669deece74dee",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "BUDDY",
+      "description": "ALRIGHT BUDDY / US DOLLAR",
+      "display_symbol": "BUDDY/USD",
+      "generic_symbol": "BUDDYUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.BUDDY/USD"
+    }
+  },
+  {
+    "id": "0x9c8400168d5e7ec0b7fc9bf04689d7e29850d7cc2d3bc88b4774ce86f2809768",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "KTON",
+      "contract_id": "ton: EQA9HwEZD_tONfVz6lJS0PVKR5viEiEGyj9AuQewGQVnXPg0",
+      "description": "K STAKED TON / TON REDEMPTION RATE",
+      "display_symbol": "KTON/TON",
+      "generic_symbol": "KTONTON",
+      "quote_currency": "TON",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.KTON/TON.RR"
+    }
+  },
+  {
+    "id": "0x84b9afa09b3badc6c1a229599969b81797e63257d9f33411151bb26dd630a44f",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "MAG7-SSI",
+      "contract_id": "base: 0x9E6A46f294bB67c20F1D1E7AfB0bBEf614403B55",
+      "description": "MAG7-SSI / US DOLLAR REDEMPTION RATE",
+      "display_symbol": "MAG7-SSI/USD",
+      "generic_symbol": "MAG7-SSIUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.MAG7-SSI/USD.RR"
+    }
+  },
+  {
+    "id": "0x84ff736dbf4339f4d353265c12774f6bf27551496c4c7ad89dd4ac30fa2f55f8",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "MTBILL",
+      "contract_id": "eth: 0x056339C044055819E8Db84E71f5f2E1F536b2E5b",
+      "description": "MIDAS MTBILL / US DOLLAR REDEMPTION RATE",
+      "display_symbol": "MTBILL/USD",
+      "generic_symbol": "MTBILLUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.MTBILL/USD.RR"
     }
   }
 ]

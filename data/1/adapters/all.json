@@ -2463,11 +2463,11 @@
       {
         "id": "PUSH_STALENESS_BUFFER",
         "severity": "MED",
-        "message": "Adapter max staleness (7200) is sufficient for the feed's heartbeat (3600).",
-        "pass": true
+        "message": "Adapter max staleness (7200) is insufficient for the feed's heartbeat (86400). Minimum recommended max staleness is 90000 seconds.",
+        "pass": false
       }
     ],
-    "label": "USDP / USD (1%, 3600s)",
+    "label": "USDP / USD (1%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -11690,8 +11690,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -11728,7 +11728,10 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
+  },
+  {
+    "address": "0x76d048e47E1d77940416B656D8D7FEd34931a393"
   },
   {
     "name": "LidoOracle",
@@ -12814,11 +12817,11 @@
       {
         "id": "PUSH_STALENESS_BUFFER",
         "severity": "MED",
-        "message": "Adapter max staleness (7200) is sufficient for the feed's heartbeat (3600).",
-        "pass": true
+        "message": "Adapter max staleness (7200) is insufficient for the feed's heartbeat (86400). Minimum recommended max staleness is 90000 seconds.",
+        "pass": false
       }
     ],
-    "label": "GRT / ETH (2%, 3600s)",
+    "label": "GRT / ETH (2%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -12988,11 +12991,11 @@
       {
         "id": "PUSH_STALENESS_BUFFER",
         "severity": "MED",
-        "message": "Adapter max staleness (7200) is sufficient for the feed's heartbeat (3600).",
-        "pass": true
+        "message": "Adapter max staleness (7200) is insufficient for the feed's heartbeat (86400). Minimum recommended max staleness is 90000 seconds.",
+        "pass": false
       }
     ],
-    "label": "LUSD / USD (1%, 3600s)",
+    "label": "LUSD / USD (1%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -13626,11 +13629,11 @@
       {
         "id": "PUSH_STALENESS_BUFFER",
         "severity": "MED",
-        "message": "Adapter max staleness (7200) is sufficient for the feed's heartbeat (3600).",
-        "pass": true
+        "message": "Adapter max staleness (7200) is insufficient for the feed's heartbeat (86400). Minimum recommended max staleness is 90000 seconds.",
+        "pass": false
       }
     ],
-    "label": "SUSHI / USD (1%, 3600s)",
+    "label": "SUSHI / USD (1%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -14032,11 +14035,11 @@
       {
         "id": "PUSH_STALENESS_BUFFER",
         "severity": "MED",
-        "message": "Adapter max staleness (7200) is sufficient for the feed's heartbeat (3600).",
-        "pass": true
+        "message": "Adapter max staleness (7200) is insufficient for the feed's heartbeat (86400). Minimum recommended max staleness is 90000 seconds.",
+        "pass": false
       }
     ],
-    "label": "YFI / USD (1%, 3600s)",
+    "label": "YFI / USD (1%, 86400s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
@@ -25377,6 +25380,68 @@
   },
   {
     "address": "0x30cfa91F2cb03B59F6d65b83150E3b2B7f46F5E5"
+  },
+  {
+    "address": "0xF05CA1D76a7d5859014b8606ab69C6D41629109C"
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x1D6Ba68E8a98C1afB9983976b39eFd877b1Fd361",
+    "chainId": 1,
+    "base": "0x3b3fB9C57858EF816833dC91565EFcd85D96f634",
+    "cross": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0xF05CA1D76a7d5859014b8606ab69C6D41629109C",
+    "oracleCrossQuote": "0x8918D496d0AA72d3de7C8f2a5F02C27a1472CaDb",
+    "checks": [
+      {
+        "id": "ADAPTER_EXISTS",
+        "severity": "HIGH",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
+      },
+      {
+        "id": "SOURCE_CODE_PROVENANCE",
+        "severity": "HIGH",
+        "message": "Contract metadata hash matches a known hash",
+        "pass": true
+      },
+      {
+        "id": "DISTINCT_ASSETS",
+        "severity": "HIGH",
+        "message": "No duplicates found",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x3b3fB9C57858EF816833dC91565EFcd85D96f634 is PT-sUSDE-31JUL2025 (PT Ethena sUSDE 31JUL2025) with 18 decimals",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3 is USDe (USDe) with 18 decimals",
+        "pass": true
+      }
+    ],
+    "label": "PT-sUSDE-31JUL2025/USDe/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",

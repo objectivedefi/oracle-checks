@@ -1221,6 +1221,36 @@
     "decimals": 8
   },
   {
+    "benchmark": "dex-state",
+    "compareOffchain": "",
+    "contractAddress": "0x41F3a42270f161Ad1b25Cdb06bAd6cFC123E5C99",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "mag7ssi-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "MAG7.SSI / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "mag7.ssi-usd",
+    "proxyAddress": "0x2B1de6AD89847C11aF2ede14edB013AA79E94aC9",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "marketHours": "Crypto"
+    },
+    "decimals": 8
+  },
+  {
     "compareOffchain": "",
     "contractAddress": "0x43F92e6805196FA6cd7a19F3d769957f95Baa261",
     "contractType": "",
@@ -2108,6 +2138,36 @@
     "decimals": 8
   },
   {
+    "benchmark": "cex-lwba",
+    "compareOffchain": "",
+    "contractAddress": "0x721860ef887896c19003886349a785749845e38d",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "aave-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "AAVE / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "aave-usd",
+    "proxyAddress": "0x3d6774EF702A10b20FCa8Ed40FC022f7E4938e07",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "marketHours": "Crypto"
+    },
+    "decimals": 8
+  },
+  {
     "compareOffchain": "",
     "contractAddress": "0x72FC7950A832396720736e7e08D6F74C84C6909a",
     "contractType": "",
@@ -2253,6 +2313,36 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 8
+  },
+  {
+    "benchmark": "cex-lwba",
+    "compareOffchain": "",
+    "contractAddress": "0x75d0797767dC2F767fE50660FD4C6FeC9a110463",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "amp-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "AMP / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "amp-usd",
+    "proxyAddress": "0x1688e4B274a4CC9fD398EbA6Ae4dfb6528A9D2bc",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "marketHours": "Crypto"
     },
     "decimals": 8
   },
