@@ -6738,6 +6738,19 @@
     }
   },
   {
+    "id": "0x30e4780570973e438fdb3f1b7ad22618b2fc7333b65c7853a7ca144c39052f7a",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "BOME",
+      "description": "BOOK OF MEME / US DOLLAR",
+      "display_symbol": "BOME/USD",
+      "generic_symbol": "BOMEUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.BOME/USD"
+    }
+  },
+  {
     "id": "0x925ca92ff005ae943c158e3563f59698ce7e75c5a8c8dd43303a0a154887b3e6",
     "attributes": {
       "asset_type": "Commodities",
