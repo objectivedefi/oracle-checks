@@ -21132,5 +21132,31 @@
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.MTBILL/USD.RR"
     }
+  },
+  {
+    "id": "0xcf1c42e76f8afc306880841a6973e98c1820c6224e4c3426f7d4a966c69958a7",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "US30",
+      "description": "PYTH US 30 INDEX / US DOLLAR",
+      "display_symbol": "US30/USD",
+      "generic_symbol": "US30",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400",
+      "symbol": "Equity.Index.US.US30/USD"
+    }
+  },
+  {
+    "id": "0x5f79f5c5ac9c470f6014d399f468dd455ac8a6c021672ade02f36a19332eb7fa",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "US500",
+      "description": "PYTH US 500 INDEX / US DOLLAR",
+      "display_symbol": "US500/USD",
+      "generic_symbol": "US500",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400",
+      "symbol": "Equity.Index.US.US500/USD"
+    }
   }
 ]
