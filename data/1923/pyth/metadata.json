@@ -3868,7 +3868,7 @@
       "display_symbol": "USD/BRL",
       "generic_symbol": "USDBRL",
       "quote_currency": "BRL",
-      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;1224/0000-1700,1225/1800-2400,1231/0000-1700,0101/1800-2400",
+      "schedule": "America/New_York;0800-1700,0800-1700,0800-1700,0800-1700,0800-1700,C,C;1225/C,0101/C",
       "symbol": "FX.USD/BRL",
       "tenor": "Spot"
     }
@@ -7551,7 +7551,7 @@
       "display_symbol": "USD/COP",
       "generic_symbol": "USDCOP",
       "quote_currency": "COP",
-      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
+      "schedule": "America/New_York;0900-1400,0900-1400,0900-1400,0900-1400,0900-1400,C,C;1225/C,0101/C",
       "symbol": "FX.USD/COP",
       "tenor": "Spot"
     }
@@ -19813,7 +19813,7 @@
       "display_symbol": "USD/CLP",
       "generic_symbol": "USDCLP",
       "quote_currency": "CLP",
-      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;1224/0000-1700,1225/1800-2400,1231/0000-1700,0101/1800-2400",
+      "schedule": "America/New_York;0900-1600,0900-1600,0900-1600,0900-1600,0900-1600,C,C;1225/C,0101/C",
       "symbol": "FX.USD/CLP",
       "tenor": "Spot"
     }
@@ -19893,7 +19893,7 @@
       "display_symbol": "USD/PEN",
       "generic_symbol": "USDPEN",
       "quote_currency": "PEN",
-      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
+      "schedule": "America/New_York;1000-1500,1000-1500,1000-1500,1000-1500,1000-1500,C,C;1225/C,0101/C",
       "symbol": "FX.USD/PEN",
       "tenor": "Spot"
     }
