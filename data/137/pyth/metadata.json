@@ -812,16 +812,16 @@
     }
   },
   {
-    "id": "0x6603f742bcd1477650965f4c476529d7680285e90b490d8156d344fb8d39b07e",
+    "id": "0xac2adf4571a391da22a2d39e8c5eb32ceecd6ab38c386a9194d669deece74dee",
     "attributes": {
       "asset_type": "Crypto",
-      "base": "WEETHS",
-      "description": "SUPER SYMBIOTIC LRT / US DOLLAR",
-      "display_symbol": "WEETHS/USD",
-      "generic_symbol": "WEETHSUSD",
+      "base": "BUDDY",
+      "description": "ALRIGHT BUDDY / US DOLLAR",
+      "display_symbol": "BUDDY/USD",
+      "generic_symbol": "BUDDYUSD",
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.WEETHS/USD"
+      "symbol": "Crypto.BUDDY/USD"
     }
   },
   {
@@ -12390,17 +12390,17 @@
     }
   },
   {
-    "id": "0xe0c8180e8a25239c3b2d5aa1283d713271ee5d51f4cceb9f10da457d64123f85",
+    "id": "0x84ff736dbf4339f4d353265c12774f6bf27551496c4c7ad89dd4ac30fa2f55f8",
     "attributes": {
       "asset_type": "Crypto Redemption Rate",
-      "base": "STBTC",
-      "contract_id": "bnb:0xf6718b2701d4a6498ef77d7c152b2137ab28b8a3",
-      "description": "LORENZO STAKED BITCOIN / BITCOIN REDEMPTION RATE",
-      "display_symbol": "STBTC/BTC",
-      "generic_symbol": "STBTCBTC",
-      "quote_currency": "BTC",
+      "base": "MTBILL",
+      "contract_id": "eth: 0x056339C044055819E8Db84E71f5f2E1F536b2E5b",
+      "description": "MIDAS MTBILL / US DOLLAR REDEMPTION RATE",
+      "display_symbol": "MTBILL/USD",
+      "generic_symbol": "MTBILLUSD",
+      "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.STBTC/BTC.RR"
+      "symbol": "Crypto.MTBILL/USD.RR"
     }
   },
   {
@@ -16734,16 +16734,17 @@
     }
   },
   {
-    "id": "0xd9415ce949e55c9e0234ef5ce0474af584d87c5ac664bcb0b9facc60b4c345bf",
+    "id": "0x9c8400168d5e7ec0b7fc9bf04689d7e29850d7cc2d3bc88b4774ce86f2809768",
     "attributes": {
-      "asset_type": "Crypto",
-      "base": "SUPERSUI",
-      "description": "METASTABLE SUPERSUI / US DOLLAR",
-      "display_symbol": "SUPERSUI/USD",
-      "generic_symbol": "SUPERSUIUSD",
-      "quote_currency": "USD",
+      "asset_type": "Crypto Redemption Rate",
+      "base": "KTON",
+      "contract_id": "ton: EQA9HwEZD_tONfVz6lJS0PVKR5viEiEGyj9AuQewGQVnXPg0",
+      "description": "K STAKED TON / TON REDEMPTION RATE",
+      "display_symbol": "KTON/TON",
+      "generic_symbol": "KTONTON",
+      "quote_currency": "TON",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.SUPERSUI/USD"
+      "symbol": "Crypto.KTON/TON.RR"
     }
   },
   {
@@ -17620,12 +17621,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "KGF",
-      "cms_symbol": "KGF",
       "country": "GB",
-      "cqs_symbol": "KGF",
       "description": "KINGFISHER / BRITISH POUND",
       "display_symbol": "KGF/GBP",
-      "nasdaq_symbol": "KGF",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -17637,12 +17635,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "LAND",
-      "cms_symbol": "LAND",
       "country": "GB",
-      "cqs_symbol": "LAND",
       "description": "LAND SECURITIES GROUP PLC / BRITISH POUND",
       "display_symbol": "LAND/GBP",
-      "nasdaq_symbol": "LAND",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -17654,12 +17649,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "LGEN",
-      "cms_symbol": "LGEN",
       "country": "GB",
-      "cqs_symbol": "LGEN",
       "description": "LEGAL & GENERAL GROUP PLC / BRITISH POUND",
       "display_symbol": "LGEN/GBP",
-      "nasdaq_symbol": "LGEN",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -17671,12 +17663,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "LLOY",
-      "cms_symbol": "LLOY",
       "country": "GB",
-      "cqs_symbol": "LLOY",
       "description": "LLOYDS BANKING GROUP PLC / BRITISH POUND",
       "display_symbol": "LLOY/GBP",
-      "nasdaq_symbol": "LLOY",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -17688,12 +17677,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "LMP",
-      "cms_symbol": "LMP",
       "country": "GB",
-      "cqs_symbol": "LMP",
       "description": "LONDONMETRIC PROPERTY PLC / BRITISH POUND",
       "display_symbol": "LMP/GBP",
-      "nasdaq_symbol": "LMP",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -17705,12 +17691,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "LSEG",
-      "cms_symbol": "LSEG",
       "country": "GB",
-      "cqs_symbol": "LSEG",
       "description": "LONDON STOCK EXCHANGE GROUP PLC / BRITISH POUND",
       "display_symbol": "LSEG/GBP",
-      "nasdaq_symbol": "LSEG",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -17722,12 +17705,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "MKS",
-      "cms_symbol": "MKS",
       "country": "GB",
-      "cqs_symbol": "MKS",
       "description": "MARKS & SPENCER GROUP PLC / BRITISH POUND",
       "display_symbol": "MKS/GBP",
-      "nasdaq_symbol": "MKS",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -17739,12 +17719,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "MNDI",
-      "cms_symbol": "MNDI",
       "country": "GB",
-      "cqs_symbol": "MNDI",
       "description": "MONDI PLC / BRITISH POUND",
       "display_symbol": "MNDI/GBP",
-      "nasdaq_symbol": "MNDI",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -17756,12 +17733,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "MNG",
-      "cms_symbol": "MNG",
       "country": "GB",
-      "cqs_symbol": "MNG",
       "description": "M&G PLC / BRITISH POUND",
       "display_symbol": "MNG/GBP",
-      "nasdaq_symbol": "MNG",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -17773,12 +17747,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "MRO",
-      "cms_symbol": "MRO",
       "country": "GB",
-      "cqs_symbol": "MRO",
       "description": "MELROSE INDUSTRIES PLC / BRITISH POUND",
       "display_symbol": "MRO/GBP",
-      "nasdaq_symbol": "MRO",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -17790,12 +17761,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "NG",
-      "cms_symbol": "NG",
       "country": "GB",
-      "cqs_symbol": "NG",
       "description": "NATIONAL GRID / BRITISH POUND",
       "display_symbol": "NG/GBP",
-      "nasdaq_symbol": "NG",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -17807,12 +17775,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "NWG",
-      "cms_symbol": "NWG",
       "country": "GB",
-      "cqs_symbol": "NWG",
       "description": "NATWEST GROUP PLC / BRITISH POUND",
       "display_symbol": "NWG/GBP",
-      "nasdaq_symbol": "NWG",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -17824,12 +17789,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "NXT",
-      "cms_symbol": "NXT",
       "country": "GB",
-      "cqs_symbol": "NXT",
       "description": "NEXT PLC / BRITISH POUND",
       "display_symbol": "NXT/GBP",
-      "nasdaq_symbol": "NXT",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -17841,12 +17803,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "PHNX",
-      "cms_symbol": "PHNX",
       "country": "GB",
-      "cqs_symbol": "PHNX",
       "description": "PHOENIX GROUP HOLDINGS PLC / BRITISH POUND",
       "display_symbol": "PHNX/GBP",
-      "nasdaq_symbol": "PHNX",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -17858,12 +17817,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "PRU",
-      "cms_symbol": "PRU",
       "country": "GB",
-      "cqs_symbol": "PRU",
       "description": "PRUDENTIAL PLC / BRITISH POUND",
       "display_symbol": "PRU/GBP",
-      "nasdaq_symbol": "PRU",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -17875,12 +17831,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "PSH",
-      "cms_symbol": "PSH",
       "country": "GB",
-      "cqs_symbol": "PSH",
       "description": "PERSHING SQUARE HOLDINGS LTD / BRITISH POUND",
       "display_symbol": "PSH/GBP",
-      "nasdaq_symbol": "PSH",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -17892,12 +17845,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "PSN",
-      "cms_symbol": "PSN",
       "country": "GB",
-      "cqs_symbol": "PSN",
       "description": "PERSIMMON PLC / BRITISH POUND",
       "display_symbol": "PSN/GBP",
-      "nasdaq_symbol": "PSN",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -17909,12 +17859,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "PSON",
-      "cms_symbol": "PSON",
       "country": "GB",
-      "cqs_symbol": "PSON",
       "description": "PEARSON PLC / BRITISH POUND",
       "display_symbol": "PSON/GBP",
-      "nasdaq_symbol": "PSON",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -17926,12 +17873,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "REL",
-      "cms_symbol": "REL",
       "country": "GB",
-      "cqs_symbol": "REL",
       "description": "RELX PLC / BRITISH POUND",
       "display_symbol": "REL/GBP",
-      "nasdaq_symbol": "REL",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -17943,12 +17887,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "RIO",
-      "cms_symbol": "RIO",
       "country": "GB",
-      "cqs_symbol": "RIO",
       "description": "RIO TINTO PLC / BRITISH POUND",
       "display_symbol": "RIO/GBP",
-      "nasdaq_symbol": "RIO",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -17960,12 +17901,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "RKT",
-      "cms_symbol": "RKT",
       "country": "GB",
-      "cqs_symbol": "RKT",
       "description": "RECKITT BENCKISER GROUP PLC / BRITISH POUND",
       "display_symbol": "RKT/GBP",
-      "nasdaq_symbol": "RKT",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -17977,12 +17915,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "RMV",
-      "cms_symbol": "RMV",
       "country": "GB",
-      "cqs_symbol": "RMV",
       "description": "RIGHTMOVE PLC / BRITISH POUND",
       "display_symbol": "RMV/GBP",
-      "nasdaq_symbol": "RMV",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -17994,12 +17929,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "RR",
-      "cms_symbol": "RR",
       "country": "GB",
-      "cqs_symbol": "RR",
       "description": "ROLLS ROYCE HOLDINGS PLC / BRITISH POUND",
       "display_symbol": "RR/GBP",
-      "nasdaq_symbol": "RR",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -18011,12 +17943,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "RTO",
-      "cms_symbol": "RTO",
       "country": "GB",
-      "cqs_symbol": "RTO",
       "description": "RENTOKIL INITIAL PLC / BRITISH POUND",
       "display_symbol": "RTO/GBP",
-      "nasdaq_symbol": "RTO",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -18028,12 +17957,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "SBRY",
-      "cms_symbol": "SBRY",
       "country": "GB",
-      "cqs_symbol": "SBRY",
       "description": "SAINSBURY J PLC / BRITISH POUND",
       "display_symbol": "SBRY/GBP",
-      "nasdaq_symbol": "SBRY",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -18045,12 +17971,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "SDR",
-      "cms_symbol": "SDR",
       "country": "GB",
-      "cqs_symbol": "SDR",
       "description": "SCHRODERS PLC / BRITISH POUND",
       "display_symbol": "SDR/GBP",
-      "nasdaq_symbol": "SDR",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -18062,12 +17985,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "SGE",
-      "cms_symbol": "SGE",
       "country": "GB",
-      "cqs_symbol": "SGE",
       "description": "SAGE GROUP PLC / BRITISH POUND",
       "display_symbol": "SGE/GBP",
-      "nasdaq_symbol": "SGE",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -18079,12 +17999,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "SGRO",
-      "cms_symbol": "SGRO",
       "country": "GB",
-      "cqs_symbol": "SGRO",
       "description": "SEGRO PLC / BRITISH POUND",
       "display_symbol": "SGRO/GBP",
-      "nasdaq_symbol": "SGRO",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -18096,12 +18013,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "SHEL",
-      "cms_symbol": "SHEL",
       "country": "GB",
-      "cqs_symbol": "SHEL",
       "description": "SHELL PLC / BRITISH POUND",
       "display_symbol": "SHEL/GBP",
-      "nasdaq_symbol": "SHEL",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -18113,12 +18027,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "SMDS",
-      "cms_symbol": "SMDS",
       "country": "GB",
-      "cqs_symbol": "SMDS",
       "description": "SMITH DS / BRITISH POUND",
       "display_symbol": "SMDS/GBP",
-      "nasdaq_symbol": "SMDS",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -18130,12 +18041,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "SMIN",
-      "cms_symbol": "SMIN",
       "country": "GB",
-      "cqs_symbol": "SMIN",
       "description": "SMITHS GROUP PLC / BRITISH POUND",
       "display_symbol": "SMIN/GBP",
-      "nasdaq_symbol": "SMIN",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -18147,12 +18055,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "SMT",
-      "cms_symbol": "SMT",
       "country": "GB",
-      "cqs_symbol": "SMT",
       "description": "SCOTTISH MORTGAGE INVESTMENT TRUST PLC / BRITISH POUND",
       "display_symbol": "SMT/GBP",
-      "nasdaq_symbol": "SMT",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -18164,12 +18069,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "SN",
-      "cms_symbol": "SN",
       "country": "GB",
-      "cqs_symbol": "SN",
       "description": "SMITH & NEPHEW PLC / BRITISH POUND",
       "display_symbol": "SN/GBP",
-      "nasdaq_symbol": "SN",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -18181,12 +18083,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "SPX",
-      "cms_symbol": "SPX",
       "country": "GB",
-      "cqs_symbol": "SPX",
       "description": "SPIRAX GROUP PLC / BRITISH POUND",
       "display_symbol": "SPX/GBP",
-      "nasdaq_symbol": "SPX",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -18198,12 +18097,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "SSE",
-      "cms_symbol": "SSE",
       "country": "GB",
-      "cqs_symbol": "SSE",
       "description": "SSE PLC / BRITISH POUND",
       "display_symbol": "SSE/GBP",
-      "nasdaq_symbol": "SSE",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -18215,12 +18111,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "STAN",
-      "cms_symbol": "STAN",
       "country": "GB",
-      "cqs_symbol": "STAN",
       "description": "STANDARD CHARTERED PLC / BRITISH POUND",
       "display_symbol": "STAN/GBP",
-      "nasdaq_symbol": "STAN",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -18232,12 +18125,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "STJ",
-      "cms_symbol": "STJ",
       "country": "GB",
-      "cqs_symbol": "STJ",
       "description": "ST JAMES'S PLACE PLC / BRITISH POUND",
       "display_symbol": "STJ/GBP",
-      "nasdaq_symbol": "STJ",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -18249,12 +18139,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "SVT",
-      "cms_symbol": "SVT",
       "country": "GB",
-      "cqs_symbol": "SVT",
       "description": "SEVERN TRENT PLC / BRITISH POUND",
       "display_symbol": "SVT/GBP",
-      "nasdaq_symbol": "SVT",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -18266,12 +18153,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "TSCO",
-      "cms_symbol": "TSCO",
       "country": "GB",
-      "cqs_symbol": "TSCO",
       "description": "TESCO PLC / BRITISH POUND",
       "display_symbol": "TSCO/GBP",
-      "nasdaq_symbol": "TSCO",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -18283,12 +18167,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "TW",
-      "cms_symbol": "TW",
       "country": "GB",
-      "cqs_symbol": "TW",
       "description": "TAYLOR WIMPEY PLC / BRITISH POUND",
       "display_symbol": "TW/GBP",
-      "nasdaq_symbol": "TW",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -18300,12 +18181,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "ULVR",
-      "cms_symbol": "ULVR",
       "country": "GB",
-      "cqs_symbol": "ULVR",
       "description": "UNILEVER PLC / BRITISH POUND",
       "display_symbol": "ULVR/GBP",
-      "nasdaq_symbol": "ULVR",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -18317,12 +18195,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "UTG",
-      "cms_symbol": "UTG",
       "country": "GB",
-      "cqs_symbol": "UTG",
       "description": "UNITE GROUP / BRITISH POUND",
       "display_symbol": "UTG/GBP",
-      "nasdaq_symbol": "UTG",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -18334,12 +18209,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "UU",
-      "cms_symbol": "UU",
       "country": "GB",
-      "cqs_symbol": "UU",
       "description": "UNITED UTILITIES GROUP PLC / BRITISH POUND",
       "display_symbol": "UU/GBP",
-      "nasdaq_symbol": "UU",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -18351,12 +18223,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "VOD",
-      "cms_symbol": "VOD",
       "country": "GB",
-      "cqs_symbol": "VOD",
       "description": "VODAFONE GROUP PLC / BRITISH POUND",
       "display_symbol": "VOD/GBP",
-      "nasdaq_symbol": "VOD",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -18368,12 +18237,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "WEIR",
-      "cms_symbol": "WEIR",
       "country": "GB",
-      "cqs_symbol": "WEIR",
       "description": "WEIR GROUP PLC / BRITISH POUND",
       "display_symbol": "WEIR/GBP",
-      "nasdaq_symbol": "WEIR",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -18385,12 +18251,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "WPP",
-      "cms_symbol": "WPP",
       "country": "GB",
-      "cqs_symbol": "WPP",
       "description": "WPP PLC / BRITISH POUND",
       "display_symbol": "WPP/GBP",
-      "nasdaq_symbol": "WPP",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -18402,12 +18265,9 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "WTB",
-      "cms_symbol": "WTB",
       "country": "GB",
-      "cqs_symbol": "WTB",
       "description": "WHITBREAD PLC / BRITISH POUND",
       "display_symbol": "WTB/GBP",
-      "nasdaq_symbol": "WTB",
       "publish_interval": "5",
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
@@ -19352,7 +19212,7 @@
       "asset_type": "Crypto Redemption Rate",
       "base": "ZENBTC",
       "contract_id": "eth: 0x2fE9754d5D28bac0ea8971C0Ca59428b8644C776",
-      "description": "ZEN BITCOIN / BITCOIN REDEMPTION RATE ",
+      "description": "ZENROCK BITCOIN / BITCOIN REDEMPTION RATE ",
       "display_symbol": "ZENBTC/BTC",
       "generic_symbol": "ZENBTCBTC",
       "quote_currency": "BTC",
@@ -19906,7 +19766,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "KERNEL",
-      "description": "KELP DAO / US DOLLAR",
+      "description": "KERNEL DAO / US DOLLAR",
       "display_symbol": "KERNEL/USD",
       "generic_symbol": "KERNELUSD",
       "quote_currency": "USD",
@@ -20616,16 +20476,16 @@
     }
   },
   {
-    "id": "0xc496c222fcb7486685690eb43d26a0c53033c475574c028fdbeb9cf8795c6cbd",
+    "id": "0x5f79f5c5ac9c470f6014d399f468dd455ac8a6c021672ade02f36a19332eb7fa",
     "attributes": {
-      "asset_type": "Crypto",
-      "base": "FAF",
-      "description": "FLASH TRADE / US DOLLAR",
-      "display_symbol": "FAF/USD",
-      "generic_symbol": "FAFUSD",
+      "asset_type": "Equity",
+      "base": "US500",
+      "description": "PYTH US 500 INDEX / US DOLLAR",
+      "display_symbol": "US500/USD",
+      "generic_symbol": "US500",
       "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.FAF/USD"
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400",
+      "symbol": "Equity.Index.US.US500/USD"
     }
   },
   {
@@ -20655,16 +20515,16 @@
     }
   },
   {
-    "id": "0x84d41124743a5684c07d4c0a35ad115fe769d2d3f07df08f153a78578724399a",
+    "id": "0xcf1c42e76f8afc306880841a6973e98c1820c6224e4c3426f7d4a966c69958a7",
     "attributes": {
-      "asset_type": "Crypto",
-      "base": "HAWAL",
-      "description": "HAEDAL STAKED WAL / US DOLLAR",
-      "display_symbol": "HAWAL/USD",
-      "generic_symbol": "HAWALUSD",
+      "asset_type": "Equity",
+      "base": "US30",
+      "description": "PYTH US 30 INDEX / US DOLLAR",
+      "display_symbol": "US30/USD",
+      "generic_symbol": "US30",
       "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.HAWAL/USD"
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400",
+      "symbol": "Equity.Index.US.US30/USD"
     }
   },
   {
@@ -20917,84 +20777,205 @@
     }
   },
   {
-    "id": "0xac2adf4571a391da22a2d39e8c5eb32ceecd6ab38c386a9194d669deece74dee",
+    "id": "0x74facc951da45cd5a5e5fde9a647801df1a7152a5e8e21bb324c5adec3c12276",
     "attributes": {
       "asset_type": "Crypto",
-      "base": "BUDDY",
-      "description": "ALRIGHT BUDDY / US DOLLAR",
-      "display_symbol": "BUDDY/USD",
-      "generic_symbol": "BUDDYUSD",
+      "base": "BOOP",
+      "description": "BOOP.MEME / US DOLLAR",
+      "display_symbol": "BOOP/USD",
+      "generic_symbol": "BOOPUSD",
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.BUDDY/USD"
+      "symbol": "Crypto.BOOP/USD"
     }
   },
   {
-    "id": "0x9c8400168d5e7ec0b7fc9bf04689d7e29850d7cc2d3bc88b4774ce86f2809768",
+    "id": "0xe0b2e998bbaa9b55f46905767a638ab6143a81713ac6f0406a4538a40b5c41de",
     "attributes": {
-      "asset_type": "Crypto Redemption Rate",
-      "base": "KTON",
-      "contract_id": "ton: EQA9HwEZD_tONfVz6lJS0PVKR5viEiEGyj9AuQewGQVnXPg0",
-      "description": "K STAKED TON / TON REDEMPTION RATE",
-      "display_symbol": "KTON/TON",
-      "generic_symbol": "KTONTON",
-      "quote_currency": "TON",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.KTON/TON.RR"
-    }
-  },
-  {
-    "id": "0x84b9afa09b3badc6c1a229599969b81797e63257d9f33411151bb26dd630a44f",
-    "attributes": {
-      "asset_type": "Crypto Redemption Rate",
-      "base": "MAG7-SSI",
-      "contract_id": "base: 0x9E6A46f294bB67c20F1D1E7AfB0bBEf614403B55",
-      "description": "MAG7-SSI / US DOLLAR REDEMPTION RATE",
-      "display_symbol": "MAG7-SSI/USD",
-      "generic_symbol": "MAG7-SSIUSD",
+      "asset_type": "Crypto",
+      "base": "DEXE",
+      "description": "DEXE NETWORK / US DOLLAR",
+      "display_symbol": "DEXE/USD",
+      "generic_symbol": "DEXEUSD",
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.MAG7-SSI/USD.RR"
+      "symbol": "Crypto.DEXE/USD"
     }
   },
   {
-    "id": "0x84ff736dbf4339f4d353265c12774f6bf27551496c4c7ad89dd4ac30fa2f55f8",
+    "id": "0x035aa8d0a2d74e19438f2c1440edff9f3b95f915ca65f681a25ed0bad3dc228d",
     "attributes": {
-      "asset_type": "Crypto Redemption Rate",
-      "base": "MTBILL",
-      "contract_id": "eth: 0x056339C044055819E8Db84E71f5f2E1F536b2E5b",
-      "description": "MIDAS MTBILL / US DOLLAR REDEMPTION RATE",
-      "display_symbol": "MTBILL/USD",
-      "generic_symbol": "MTBILLUSD",
+      "asset_type": "Crypto",
+      "base": "FLARE",
+      "description": "FLARE NETWORK / US DOLLAR",
+      "display_symbol": "FLARE/USD",
+      "generic_symbol": "FLAREUSD",
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.MTBILL/USD.RR"
+      "symbol": "Crypto.FLARE/USD"
     }
   },
   {
-    "id": "0xcf1c42e76f8afc306880841a6973e98c1820c6224e4c3426f7d4a966c69958a7",
+    "id": "0xe67d98cc1fbd94f569d5ba6c3c3c759eb3ffc5d2b28e64538a53ae13efad8fd1",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "HAEDAL",
+      "description": "HAEDAL PROTOCOL / US DOLLAR",
+      "display_symbol": "HAEDAL/USD",
+      "generic_symbol": "HAEDALUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.HAEDAL/USD"
+    }
+  },
+  {
+    "id": "0x2b386bdca7fda5cf3c3975f70318593bf144104cb00742592ecff60dd798972f",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "JASMY",
+      "description": "JASMYCOIN / US DOLLAR",
+      "display_symbol": "JASMY/USD",
+      "generic_symbol": "JASMYUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.JASMY/USD"
+    }
+  },
+  {
+    "id": "0x40ac3329933a6b5b65cf31496018c5764ac0567316146f7d0de00095886b480d",
+    "attributes": {
+      "asset_type": "Crypto NAV",
+      "base": "ACRED",
+      "contract_id": "eth: 0x17418038ecF73BA4026c4f428547BF099706F27B",
+      "description": "APOLLO DIVERSIFIED CREDIT SECURITIZE FUND NAV / US DOLLAR",
+      "display_symbol": "ACRED/USD",
+      "generic_symbol": "ACREDUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.NAV.ACRED/USD"
+    }
+  },
+  {
+    "id": "0xe5f406d97d7fa159c21647912b72aa8c669e24d7bd59bcd518587bbde027c531",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "NEXO",
+      "description": "NEXO / US DOLLAR",
+      "display_symbol": "NEXO/USD",
+      "generic_symbol": "NEXOUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.NEXO/USD"
+    }
+  },
+  {
+    "id": "0x8c102183926ffc9a1a1347a5a583661af37b415e93ea3f3591e94c303ed4f514",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "PI",
+      "description": "PI NETWORK / US DOLLAR",
+      "display_symbol": "PI/USD",
+      "generic_symbol": "PIUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.PI/USD"
+    }
+  },
+  {
+    "id": "0x64762254a3b5c7598b6b721dda6881991ba2cdf6c9a87f8d2ee7a40bb693f2ec",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "SIGN",
+      "description": "SIGN / US DOLLAR",
+      "display_symbol": "SIGN/USD",
+      "generic_symbol": "SIGNUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.SIGN/USD"
+    }
+  },
+  {
+    "id": "0x42bfb26778f3504a9f359a92c731f77d0c24aed9b7745276e3ad0c2d840b74c2",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "UBTC",
+      "description": "UNIT BITCOIN / US DOLLAR",
+      "display_symbol": "UBTC/USD",
+      "generic_symbol": "UBTCUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.UBTC/USD"
+    }
+  },
+  {
+    "id": "0x08c73e187b45ecb2ab8375b975865d3c4a225fef1ccc7f326ad6eec66a24567a",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "UETH",
+      "description": "UNIT ETHEREUM / US DOLLAR",
+      "display_symbol": "UETH/USD",
+      "generic_symbol": "UETHUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.UETH/USD"
+    }
+  },
+  {
+    "id": "0x20ca2bf878779b0473f2074a513e736d486171ca9b4e428f4a9dd5a5024b7fd1",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "WFRAGSOL",
+      "description": "WRAPPED FRAGMENTIC RESTAKED SOLANA / US DOLLAR",
+      "display_symbol": "WFRAGSOL/USD",
+      "generic_symbol": "WFRAGSOLUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.WFRAGSOL/USD"
+    }
+  },
+  {
+    "id": "0x491d2a4356b490d041a34730ad7fe54f7ed0483e6eb7a279feca7fe4b61fa4da",
     "attributes": {
       "asset_type": "Equity",
-      "base": "US30",
-      "description": "PYTH US 30 INDEX / US DOLLAR",
-      "display_symbol": "US30/USD",
-      "generic_symbol": "US30",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400",
-      "symbol": "Equity.Index.US.US30/USD"
+      "base": "HK.1211",
+      "country": "HK",
+      "description": "BYD ORD SHS H / HONG KONG DOLLAR",
+      "display_symbol": "1211-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.1211-HK/HKD"
     }
   },
   {
-    "id": "0x5f79f5c5ac9c470f6014d399f468dd455ac8a6c021672ade02f36a19332eb7fa",
+    "id": "0xffeb97dc9f9851663bb2ccad628e7dff955fa2d0959bc3e46710b34eda72089d",
     "attributes": {
       "asset_type": "Equity",
-      "base": "US500",
-      "description": "PYTH US 500 INDEX / US DOLLAR",
-      "display_symbol": "US500/USD",
-      "generic_symbol": "US500",
+      "base": "1321-JP",
+      "country": "JP",
+      "description": "NEXT FUNDS NIKKEI 225 ETF / JAPANESE YEN",
+      "display_symbol": "1321:JP/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.1321-JP/JPY"
+    }
+  },
+  {
+    "id": "0xe722560a66e4ab00522ef20a38fa2ba5d1b41f1c5404723ed895d202a7af7cc4",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "TSM",
+      "cms_symbol": "TSM",
+      "country": "US",
+      "cqs_symbol": "TSM",
+      "description": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LIMITED / US DOLLAR",
+      "display_symbol": "TSM/USD",
+      "nasdaq_symbol": "TSM",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400",
-      "symbol": "Equity.Index.US.US500/USD"
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.TSM/USD"
     }
   }
 ]
