@@ -861,6 +861,13 @@
     "decimals": 18
   },
   {
+    "address": "0x3b3fB9C57858EF816833dC91565EFcd85D96f634",
+    "chainId": 1,
+    "name": "PT Ethena sUSDE 31JUL2025",
+    "symbol": "PT-sUSDE-31JUL2025",
+    "decimals": 18
+  },
+  {
     "address": "0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8",
     "chainId": 1,
     "name": "EURA (previously agEUR)",
@@ -1215,13 +1222,6 @@
     "chainId": 1,
     "name": "YieldFi Stable Token",
     "symbol": "sUSD",
-    "decimals": 18
-  },
-  {
-    "address": "0x3b3fB9C57858EF816833dC91565EFcd85D96f634",
-    "chainId": 1,
-    "name": "PT Ethena sUSDE 31JUL2025",
-    "symbol": "PT-sUSDE-31JUL2025",
     "decimals": 18
   },
   {
