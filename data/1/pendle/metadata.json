@@ -241,6 +241,14 @@
   },
   {
     "chainId": 1,
+    "pt": "0x97E5a0EC276776c7CD551D6F90ed12e721Dce202",
+    "market": "0x53a10F17D941D62EF7c65f7c0fFbc91bE2613408",
+    "underlyingAsset": "0x4AA42B17BadA0b24f0a6FF13C4E53605cCeD735E",
+    "expiry": 1753315200,
+    "symbol": "sYUSD"
+  },
+  {
+    "chainId": 1,
     "pt": "0x9BcA74F805AB0a22DDD0886dB0942199a0feBa71",
     "market": "0xE45d2CE15aBbA3c67b9fF1E7A69225C855d3DA82",
     "underlyingAsset": "0x7C1156E515aA1A2E851674120074968C905aAF37",
@@ -262,6 +270,14 @@
     "underlyingAsset": "0x917ceE801a67f933F2e6b33fC0cD1ED2d5909D88",
     "expiry": 1750896000,
     "symbol": "weETHs"
+  },
+  {
+    "chainId": 1,
+    "pt": "0xa42C63686F45C124f2034152B4BB0CC63CE3Ff52",
+    "market": "0x4c60AB7cE24D4D7268317f44b6DC3d6530864E86",
+    "underlyingAsset": "0x004E9C3EF86bc1ca1f0bB5C7662861Ee93350568",
+    "expiry": 1766016000,
+    "symbol": "uniBTC"
   },
   {
     "chainId": 1,

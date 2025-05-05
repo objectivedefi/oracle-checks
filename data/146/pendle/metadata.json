@@ -1,6 +1,14 @@
 [
   {
     "chainId": 146,
+    "pt": "0x3ce2972Ae5E7Ef2a6382644c6B75b6a333bcd604",
+    "market": "0x6d3ECf7a9fc726387bb6a91FfFB4f90D1F38139c",
+    "underlyingAsset": "0x3333111A391cC08fa51353E9195526A70b333333",
+    "expiry": 1755129600,
+    "symbol": "x33"
+  },
+  {
+    "chainId": 146,
     "pt": "0x420df605D062F8611EFb3F203BF258159b8FfFdE",
     "market": "0x3aeF1d372d0a7a7E482F465Bc14A42D78f920392",
     "underlyingAsset": "0xE5DA20F15420aD15DE0fa650600aFc998bbE3955",
