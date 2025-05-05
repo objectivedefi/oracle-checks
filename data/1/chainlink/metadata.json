@@ -191,10 +191,23 @@
     "proxyAddress": "0x19678515847d8DE85034dAD0390e09c3048d31cd",
     "threshold": 2,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "assetName": "ether.fi",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "baseAsset": "ETHFI",
+      "baseAssetClic": "ETHFI",
+      "blockchainName": "Ethereum",
+      "clicProductName": "ETHFI/USD-RefPrice-DF-Ethereum-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
     "decimals": 8
   },
   {
@@ -218,10 +231,26 @@
     "proxyAddress": "0xb177857a1799aA5F7fEb5799Fdf12CbE8fdF78B1",
     "threshold": 0.5,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "assetName": "Falcon USD",
+    "feedCategory": "high",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Stablecoin",
+      "baseAsset": "USDf",
+      "baseAssetClic": "USDf_CR",
+      "blockchainName": "Ethereum",
+      "clicProductName": "USDf/USD-RefPrice-DF-Ethereum-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "underlyingAsset": "USD",
+      "underlyingAssetClic": "USD_FX"
+    },
     "decimals": 8
   },
   {
@@ -2817,7 +2846,9 @@
     "assetName": "",
     "feedCategory": "",
     "feedType": "",
-    "docs": {},
+    "docs": {
+      "hidden": true
+    },
     "decimals": 8
   },
   {
@@ -3194,10 +3225,29 @@
     "proxyAddress": "0x461790bDAF5aeD3df6a88cB97Dec42DD0EFA73c0",
     "threshold": 2,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "valueSuffix": "BTC",
+    "assetName": "Bitcoin (BTC)",
+    "feedCategory": "custom",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Pegged Asset",
+      "baseAsset": "xSolvBTC",
+      "blockchainName": "Ethereum",
+      "deliveryChannelCode": "DF",
+      "issuer": "Solv Protocol",
+      "marketHours": "Crypto",
+      "porAuditor": "Bitcoin Network / Cross-chain",
+      "porSource": "Wallet Address Manager",
+      "porType": "Cross-chain",
+      "productSubType": "Cross-chain",
+      "productType": "Proof of Reserve",
+      "productTypeCode": "PoR",
+      "reserveAsset": "BTC",
+      "reserveAssetClic": "BTC_CR",
+      "underlyingAsset": "BTC",
+      "underlyingAssetClic": "BTC_CR"
+    },
     "decimals": 18
   },
   {

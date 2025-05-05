@@ -244,11 +244,22 @@
     "proxyAddress": "0xCC8DA199b159f25E7782494Df9140d2ce0Fe048B",
     "threshold": 0.5,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
+    "assetName": "Staked Frax USD",
+    "feedCategory": "high",
+    "feedType": "Crypto",
     "docs": {
-      "hidden": true
+      "assetClass": "Crypto",
+      "baseAsset": "sfrxUSD",
+      "baseAssetClic": "sfrxUSD_CR",
+      "blockchainName": "Sonic",
+      "clicProductName": "sfrxUSD/USD-RefPrice-DF-Sonic-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
     },
     "decimals": 8
   },
@@ -1231,11 +1242,22 @@
     "proxyAddress": "0xc26dEEfBF72CFC862610Db23830970Fc6663CcC3",
     "threshold": 0.5,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
+    "assetName": "Shadow Exchange",
+    "feedCategory": "high",
+    "feedType": "Crypto",
     "docs": {
-      "hidden": true
+      "assetClass": "Crypto",
+      "baseAsset": "SHADOW",
+      "baseAssetClic": "SHADOW_CR",
+      "blockchainName": "Sonic",
+      "clicProductName": "SHADOW/USD-RefPrice-DF-Sonic-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
     },
     "decimals": 8
   },
