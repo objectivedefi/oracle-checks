@@ -153,6 +153,20 @@
     "decimals": 18
   },
   {
+    "address": "0xBaadCC2962417C01Af99fb2B7C75706B9bd6Babe",
+    "chainId": 80094,
+    "name": "Liquid BGT",
+    "symbol": "LBGT",
+    "decimals": 18
+  },
+  {
+    "address": "0xFace73a169e2CA2934036C8Af9f464b5De9eF0ca",
+    "chainId": 80094,
+    "name": "Staked LBGT",
+    "symbol": "stLBGT",
+    "decimals": 18
+  },
+  {
     "address": "0x48b358b7bC013F24E2D59b3A0d4455f6e71Fe2d6",
     "chainId": 80094,
     "name": "PT Infrared BERA 26JUN2025",

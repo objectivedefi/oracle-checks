@@ -20781,7 +20781,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "BOOP",
-      "description": "BOOP.MEME / US DOLLAR",
+      "description": "BOOP.FUN / US DOLLAR",
       "display_symbol": "BOOP/USD",
       "generic_symbol": "BOOPUSD",
       "quote_currency": "USD",
@@ -20806,13 +20806,13 @@
     "id": "0x035aa8d0a2d74e19438f2c1440edff9f3b95f915ca65f681a25ed0bad3dc228d",
     "attributes": {
       "asset_type": "Crypto",
-      "base": "FLARE",
+      "base": "FLR",
       "description": "FLARE NETWORK / US DOLLAR",
-      "display_symbol": "FLARE/USD",
-      "generic_symbol": "FLAREUSD",
+      "display_symbol": "FLR/USD",
+      "generic_symbol": "FLRUSD",
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.FLARE/USD"
+      "symbol": "Crypto.FLR/USD"
     }
   },
   {
