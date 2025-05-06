@@ -2517,6 +2517,65 @@
     "whitelisted": true
   },
   {
+    "name": "CrossAdapter",
+    "address": "0x5A3AD0dA327b48e295961487B4ee1B0F6646e25D",
+    "chainId": 8453,
+    "base": "0xDBFeFD2e8460a6Ee4955A68582F85708BAEA60A3",
+    "cross": "0x4200000000000000000000000000000000000006",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x3A07D8fd7A442F41Be09a49Cb325553ED2fdEf8a",
+    "oracleCrossQuote": "0xeCa05CC73e67c344d5B146311B13ddB75F7fE4E4",
+    "checks": [
+      {
+        "id": "ADAPTER_EXISTS",
+        "severity": "HIGH",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
+      },
+      {
+        "id": "SOURCE_CODE_PROVENANCE",
+        "severity": "HIGH",
+        "message": "Contract metadata hash matches a known hash",
+        "pass": true
+      },
+      {
+        "id": "DISTINCT_ASSETS",
+        "severity": "HIGH",
+        "message": "No duplicates found",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0xDBFeFD2e8460a6Ee4955A68582F85708BAEA60A3 is superOETHb (Super OETH) with 18 decimals",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x4200000000000000000000000000000000000006 is WETH (Wrapped Ether) with 18 decimals",
+        "pass": true
+      }
+    ],
+    "label": "superOETHb/WETH/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": true
+  },
+  {
     "name": "ChainlinkOracle",
     "address": "0x1f00Cc333ccdCD1B8a9809D859338218d7ABC52b",
     "chainId": 8453,
@@ -4007,65 +4066,6 @@
       }
     ],
     "label": "bsdETH/WETH/USD",
-    "methodology": "Unknown",
-    "model": "Unknown",
-    "provider": "Cross",
-    "whitelisted": true
-  },
-  {
-    "name": "CrossAdapter",
-    "address": "0x5A3AD0dA327b48e295961487B4ee1B0F6646e25D",
-    "chainId": 8453,
-    "base": "0xDBFeFD2e8460a6Ee4955A68582F85708BAEA60A3",
-    "cross": "0x4200000000000000000000000000000000000006",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0x3A07D8fd7A442F41Be09a49Cb325553ED2fdEf8a",
-    "oracleCrossQuote": "0xeCa05CC73e67c344d5B146311B13ddB75F7fE4E4",
-    "checks": [
-      {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
-        "pass": true
-      },
-      {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
-        "pass": true
-      },
-      {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
-        "pass": true
-      },
-      {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0xDBFeFD2e8460a6Ee4955A68582F85708BAEA60A3 is superOETHb (Super OETH) with 18 decimals",
-        "pass": true
-      },
-      {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
-        "pass": true
-      },
-      {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x4200000000000000000000000000000000000006 is WETH (Wrapped Ether) with 18 decimals",
-        "pass": true
-      }
-    ],
-    "label": "superOETHb/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
