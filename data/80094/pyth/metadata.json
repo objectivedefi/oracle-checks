@@ -3214,6 +3214,19 @@
     }
   },
   {
+    "id": "0x8e860fb74e60e5736b455d82f60b3728049c348e94961add5f961b02fdee2535",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "BAT",
+      "description": "BASIC ATTENTION / US DOLLAR",
+      "display_symbol": "BAT/USD",
+      "generic_symbol": "BATUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.BAT/USD"
+    }
+  },
+  {
     "id": "0x39d020f60982ed892abbcd4a06a276a9f9b7bfbce003204c110b6e488f502da3",
     "attributes": {
       "asset_type": "Crypto",
@@ -15846,6 +15859,23 @@
     }
   },
   {
+    "id": "0x424c3c551dcb2c25f9a9de69ebb83586ccd6dd2a79fd2c62650803b1acac3105",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "PNC",
+      "cms_symbol": "PNC",
+      "country": "US",
+      "cqs_symbol": "PNC",
+      "description": "THE PNC FINANCIAL SERVICES GROUP INC / US DOLLAR",
+      "display_symbol": "PNC/USD",
+      "nasdaq_symbol": "PNC",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.PNC/USD"
+    }
+  },
+  {
     "id": "0x47c6ca824cb9b240f65ca58190a42df41cbc20dcee3803f313445828fe1b24b0",
     "attributes": {
       "asset_type": "Equity",
@@ -16523,6 +16553,23 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.SW/USD"
+    }
+  },
+  {
+    "id": "0xcc7233f28c816dae39aa0bd524029f89e5951bd308523228ecac6891d7a18a7b",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SWK",
+      "cms_symbol": "SWK",
+      "country": "US",
+      "cqs_symbol": "SWK",
+      "description": "STANLEY BLACK & DECKER INC / US DOLLAR",
+      "display_symbol": "SWK/USD",
+      "nasdaq_symbol": "SWK",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.SWK/USD"
     }
   },
   {
@@ -20373,6 +20420,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.BIO/USD"
+    }
+  },
+  {
+    "id": "0xf0ae06bfdd7cdb39cda6630e74c318bde1f4767506bb525d35b1e071b985a7a7",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "PARTI",
+      "description": "PARTICLE NETWORK / US DOLLAR",
+      "display_symbol": "PARTI/USD",
+      "generic_symbol": "PARTIUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.PARTI/USD"
     }
   },
   {
