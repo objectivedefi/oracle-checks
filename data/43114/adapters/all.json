@@ -641,6 +641,9 @@
     "whitelisted": true
   },
   {
+    "address": "0x7E77D9F06056017334e26bEd92176222169DE6C1"
+  },
+  {
     "name": "ChainlinkOracle",
     "address": "0x255Bee201D2526BBf2753DF6A6057f23431A3E1C",
     "chainId": 43114,
