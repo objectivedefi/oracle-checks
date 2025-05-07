@@ -552,6 +552,33 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x7392f6179bda7eB9CAA608963544aA7a914D1fb9",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "xsolvbtc-solvbtc-exchange-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "xSolvBTC / SolvBTC Exchange Rate",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "xsolvbtc-solvbtc-exchange-rate",
+    "proxyAddress": "0x21f037F67946A199b1DBF1Cb7DFa21bFde477196",
+    "threshold": 0.01,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 18
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x7fe2ADDE154eB97ad68D5aD70328a1DB13701Bc2",
     "contractType": "",
     "contractVersion": 6,
@@ -743,6 +770,36 @@
       "quoteAssetClic": "USD_FX",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
+    },
+    "decimals": 8
+  },
+  {
+    "benchmark": "finalto",
+    "compareOffchain": "",
+    "contractAddress": "0xA0259d0e5f4C451326921Ef9B990A52403F9C216",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "eur-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "EUR / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "eur-usd",
+    "proxyAddress": "0x0fceF1123FDBEdC89a0189B15D35B7A33B7694c0",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "marketHours": "Forex"
     },
     "decimals": 8
   },

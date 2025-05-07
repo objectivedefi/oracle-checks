@@ -52543,6 +52543,33 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0xDB99d80bD3aE8dae5d929493Ddf696196f7f59f2",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "zbtc-por",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "zBTC PoR",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "zbtc-por",
+    "proxyAddress": "0xd9344493d99153Ad4353D604A1d80d4089004c5D",
+    "threshold": 0.1,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0xDf8a3fc9bC6fA89F1b630e58f6eB4b874f24C165",
     "contractType": "",
     "contractVersion": 4,
@@ -52651,6 +52678,36 @@
       "quoteAssetClic": "USD_FX",
       "underlyingAsset": "USD",
       "underlyingAssetClic": "USD_FX"
+    },
+    "decimals": 8
+  },
+  {
+    "benchmark": "dex-state",
+    "compareOffchain": "",
+    "contractAddress": "0xF32Aaecb1909EB672E96522e979c3c5b76a438bB",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "eurc-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "EURC / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "eurc-usd",
+    "proxyAddress": "0xCF9752295D0ac9215461fA095faFEC1B854b849B",
+    "threshold": 0.3,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "marketHours": "Crypto"
     },
     "decimals": 8
   },

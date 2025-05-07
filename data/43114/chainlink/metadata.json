@@ -2102,6 +2102,33 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0xA6D08e6F2b20707D79801Ff419091265DDDCBb58",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "maticx-usd-calculated",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 3600,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "MATICX / USD Calculated",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "maticx-usd-calculated",
+    "proxyAddress": "0xc43861646Cdc051D04CA0c9dF2265FFcFa0dF6f3",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 18
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0xC3e5dDD4f98cDFfaF77685e340FF5c32d7282C5C",
     "contractType": "",
     "contractVersion": 6,
