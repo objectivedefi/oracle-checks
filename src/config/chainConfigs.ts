@@ -13,6 +13,7 @@ import {
   polygon,
   sonic,
   swellchain,
+  unichain,
 } from "viem/chains";
 
 import { fallbackAssets } from "./fallbackAssets";
@@ -87,6 +88,15 @@ export const chainConfigs: Record<number, CheckConfig> = {
     otherRecognizedAggregatorV3Feeds: {},
     ...defaultBounds,
     ...getAddressesForChain(gnosis.id),
+  },
+  [unichain.id]: {
+    publicClient: getClient(unichain),
+    fromBlock: 8541493n,
+    metadataHashes,
+    fallbackAssets,
+    otherRecognizedAggregatorV3Feeds: {},
+    ...defaultBounds,
+    ...getAddressesForChain(unichain.id),
   },
   [polygon.id]: {
     publicClient: getClient(polygon),
