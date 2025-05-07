@@ -2362,6 +2362,65 @@
     "whitelisted": false
   },
   {
+    "name": "CrossAdapter",
+    "address": "0x82840B7D204026f466aD653a88553A7a3bd81240",
+    "chainId": 80094,
+    "base": "0xac03CABA51e17c86c921E1f6CBFBdC91F8BB2E6b",
+    "cross": "0x6969696969696969696969696969696969696969",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x8eE9244458285cf09392Ad2B8f7C0479c2413934",
+    "oracleCrossQuote": "0xe6D9C66C0416C1c88Ca5F777D81a7F424D4Fa87b",
+    "checks": [
+      {
+        "id": "ADAPTER_EXISTS",
+        "severity": "HIGH",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "ADAPTER_REGISTRY",
+        "severity": "HIGH",
+        "message": "Adapter is not whitelisted in the adapter registry",
+        "pass": false
+      },
+      {
+        "id": "SOURCE_CODE_PROVENANCE",
+        "severity": "HIGH",
+        "message": "Contract metadata hash matches a known hash",
+        "pass": true
+      },
+      {
+        "id": "DISTINCT_ASSETS",
+        "severity": "HIGH",
+        "message": "No duplicates found",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0xac03CABA51e17c86c921E1f6CBFBdC91F8BB2E6b is iBGT (Infrared BGT) with 18 decimals",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "pass": true
+      },
+      {
+        "id": "CONSISTENT_ASSET",
+        "severity": "HIGH",
+        "message": "Asset 0x6969696969696969696969696969696969696969 is WBERA (Wrapped Bera) with 18 decimals",
+        "pass": true
+      }
+    ],
+    "label": "iBGT/WBERA/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": false
+  },
+  {
     "name": "PythOracle",
     "address": "0xcbA35E68A1cb2f2ca0ca4895DE33cd61A3B9DBC1",
     "chainId": 80094,

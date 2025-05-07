@@ -14262,23 +14262,6 @@
     }
   },
   {
-    "id": "0xf3d7864c65d3a6c00bd148c1daf95361de93ee36619180b194f656b053d6e80e",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "KIM",
-      "cms_symbol": "KIM",
-      "country": "US",
-      "cqs_symbol": "KIM",
-      "description": "KIMCO REALTY CORPORATION / US DOLLAR",
-      "display_symbol": "KIM/USD",
-      "nasdaq_symbol": "KIM",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
-      "symbol": "Equity.US.KIM/USD"
-    }
-  },
-  {
     "id": "0xaef0db13545e411bfc9d17e7eba913b0a5376c6af415a33240b546f773b25105",
     "attributes": {
       "asset_type": "Equity",
