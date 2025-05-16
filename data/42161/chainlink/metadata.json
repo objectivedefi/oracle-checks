@@ -1533,6 +1533,102 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "MYX/USD-RefPrice-mainnet-production",
+    "pair": [
+      "MYX",
+      "USD"
+    ],
+    "path": "myx-usd-refprice-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Myx Finance",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Myx Finance",
+      "baseAsset": "MYX",
+      "baseAssetClic": "MYX_CR",
+      "clicProductName": "MYX/USD-RefPrice-DS-Premium-Global-002",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 18,
+    "feedId": "0x0002c7bf09d4d291687039b1b08875858460e8209007cc72965f2b662c731d84",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "HOUSE/USD-RefPrice-mainnet-production",
     "pair": [
       "HOUSE",
@@ -17635,6 +17731,576 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "SOL/USDT-Binance-FundingRate-mainnet-staging",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "sol-usdt-binance-fundingrate-mainnet-staging",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Solana",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetName": "Solana",
+      "baseAsset": "SOL",
+      "baseAssetClic": "SOL_CR",
+      "clicProductName": "SOL/USDT-Binance-FundingRate",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "FundingRate",
+      "productType": "Price",
+      "productTypeCode": "FundingRate",
+      "quoteAsset": "USDT",
+      "quoteAssetClic": "USDT_CR"
+    },
+    "decimals": 18,
+    "feedId": "0x000514f5a7714ec1c07edc6c81fd4c9a8f821cbc358b941125a075cdebed2883",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-3"
+      },
+      {
+        "operator": "mercury-chainlink-3"
+      },
+      {
+        "operator": "mercury-dexTrac-3"
+      },
+      {
+        "operator": "mercury-fiews-3"
+      },
+      {
+        "operator": "mercury-inotel-3"
+      },
+      {
+        "operator": "mercury-linkForest-3"
+      },
+      {
+        "operator": "mercury-linkPool-3"
+      },
+      {
+        "operator": "mercury-linkRiver-3"
+      },
+      {
+        "operator": "mercury-snzPool-3"
+      },
+      {
+        "operator": "mercury-validationCloud-3"
+      },
+      {
+        "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "ETH/USDT-Deribit-FundingRate-mainnet-staging",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "eth-usdt-deribit-fundingrate-mainnet-staging",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Ethereum",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetName": "Ethereum",
+      "baseAsset": "ETH",
+      "baseAssetClic": "ETH_CR",
+      "clicProductName": "ETH/USDT-Deribit-FundingRate",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "FundingRate",
+      "productType": "Price",
+      "productTypeCode": "FundingRate",
+      "quoteAsset": "USDT",
+      "quoteAssetClic": "USDT_CR"
+    },
+    "decimals": 18,
+    "feedId": "0x00055e4b00039703f594583efc6eafc2103093af71f2f54846606a5662d60b89",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-3"
+      },
+      {
+        "operator": "mercury-chainlink-3"
+      },
+      {
+        "operator": "mercury-dexTrac-3"
+      },
+      {
+        "operator": "mercury-fiews-3"
+      },
+      {
+        "operator": "mercury-inotel-3"
+      },
+      {
+        "operator": "mercury-linkForest-3"
+      },
+      {
+        "operator": "mercury-linkPool-3"
+      },
+      {
+        "operator": "mercury-linkRiver-3"
+      },
+      {
+        "operator": "mercury-snzPool-3"
+      },
+      {
+        "operator": "mercury-validationCloud-3"
+      },
+      {
+        "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "BTC/USDT-Deribit-FundingRate-mainnet-staging",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "btc-usdt-deribit-fundingrate-mainnet-staging",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Bitcoin",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetName": "Bitcoin",
+      "baseAsset": "BTC",
+      "baseAssetClic": "BTC_CR",
+      "clicProductName": "BTC/USDT-Deribit-FundingRate",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "FundingRate",
+      "productType": "Price",
+      "productTypeCode": "FundingRate",
+      "quoteAsset": "USDT",
+      "quoteAssetClic": "USDT_CR"
+    },
+    "decimals": 18,
+    "feedId": "0x000561d117aa0073b4ee7a1a56c7f79cfbe19576bdee2f2500d0ffb47efafea7",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-3"
+      },
+      {
+        "operator": "mercury-chainlink-3"
+      },
+      {
+        "operator": "mercury-dexTrac-3"
+      },
+      {
+        "operator": "mercury-fiews-3"
+      },
+      {
+        "operator": "mercury-inotel-3"
+      },
+      {
+        "operator": "mercury-linkForest-3"
+      },
+      {
+        "operator": "mercury-linkPool-3"
+      },
+      {
+        "operator": "mercury-linkRiver-3"
+      },
+      {
+        "operator": "mercury-snzPool-3"
+      },
+      {
+        "operator": "mercury-validationCloud-3"
+      },
+      {
+        "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "ETH/USDT-Binance-FundingRate-mainnet-staging",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "eth-usdt-binance-fundingrate-mainnet-staging",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Ethereum",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetName": "Ethereum",
+      "baseAsset": "ETH",
+      "baseAssetClic": "ETH_CR",
+      "clicProductName": "ETH/USDT-Binance-FundingRate",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "FundingRate",
+      "productType": "Price",
+      "productTypeCode": "FundingRate",
+      "quoteAsset": "USDT",
+      "quoteAssetClic": "USDT_CR"
+    },
+    "decimals": 18,
+    "feedId": "0x0005916dccdcbe46f0fb3865003c99061edde310a32f4ccf49b9d2536bda1d16",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-3"
+      },
+      {
+        "operator": "mercury-chainlink-3"
+      },
+      {
+        "operator": "mercury-dexTrac-3"
+      },
+      {
+        "operator": "mercury-fiews-3"
+      },
+      {
+        "operator": "mercury-inotel-3"
+      },
+      {
+        "operator": "mercury-linkForest-3"
+      },
+      {
+        "operator": "mercury-linkPool-3"
+      },
+      {
+        "operator": "mercury-linkRiver-3"
+      },
+      {
+        "operator": "mercury-snzPool-3"
+      },
+      {
+        "operator": "mercury-validationCloud-3"
+      },
+      {
+        "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "AERGO/USDT-Binance-FundingRate-mainnet-staging",
+    "pair": [
+      "AERGO",
+      "USD"
+    ],
+    "path": "aergo-usdt-binance-fundingrate-mainnet-staging",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Zeus Network ZBTC",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetName": "Zeus Network ZBTC",
+      "baseAsset": "AERGO",
+      "baseAssetClic": "AERGO_CR",
+      "clicProductName": "AERGO/USDT-Binance-FundingRate-DSStaging-Premium-Global-005",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "FundingRate",
+      "productType": "Price",
+      "productTypeCode": "FundingRate",
+      "quoteAsset": "USDT",
+      "quoteAssetClic": "USDT_CR"
+    },
+    "decimals": 18,
+    "feedId": "0x0005ebeb40087c4e63434edb57ad65b48a9409fd64f370c16091bdd7f1f7b8f7",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-3"
+      },
+      {
+        "operator": "mercury-chainlink-3"
+      },
+      {
+        "operator": "mercury-dexTrac-3"
+      },
+      {
+        "operator": "mercury-fiews-3"
+      },
+      {
+        "operator": "mercury-inotel-3"
+      },
+      {
+        "operator": "mercury-linkForest-3"
+      },
+      {
+        "operator": "mercury-linkPool-3"
+      },
+      {
+        "operator": "mercury-linkRiver-3"
+      },
+      {
+        "operator": "mercury-snzPool-3"
+      },
+      {
+        "operator": "mercury-validationCloud-3"
+      },
+      {
+        "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "BTC/USDT-Binance-FundingRate-mainnet-staging",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "btc-usdt-binance-fundingrate-mainnet-staging",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Bitcoin",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetName": "Bitcoin",
+      "baseAsset": "BTC",
+      "baseAssetClic": "BTC_CR",
+      "clicProductName": "BTC/USDT-Binance-FundingRate",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "FundingRate",
+      "productType": "Price",
+      "productTypeCode": "FundingRate",
+      "quoteAsset": "USDT",
+      "quoteAssetClic": "USDT_CR"
+    },
+    "decimals": 18,
+    "feedId": "0x0005f819e68e9c39d6bec49164d76ca58d9605c6ad92a8cdd530a11934a7ff4f",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-3"
+      },
+      {
+        "operator": "mercury-chainlink-3"
+      },
+      {
+        "operator": "mercury-dexTrac-3"
+      },
+      {
+        "operator": "mercury-fiews-3"
+      },
+      {
+        "operator": "mercury-inotel-3"
+      },
+      {
+        "operator": "mercury-linkForest-3"
+      },
+      {
+        "operator": "mercury-linkPool-3"
+      },
+      {
+        "operator": "mercury-linkRiver-3"
+      },
+      {
+        "operator": "mercury-snzPool-3"
+      },
+      {
+        "operator": "mercury-validationCloud-3"
+      },
+      {
+        "operator": "mercury-tiingo-3"
+      },
+      {
+        "operator": "mercury-pierTwo-3"
+      },
+      {
+        "operator": "mercury-galaxy-3"
+      },
+      {
+        "operator": "mercury-syncnode-3"
+      },
+      {
+        "operator": "mercury-newRoad-3"
+      },
+      {
+        "operator": "mercury-simplyVC-3"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x01DD3Cf6118069DB13A2d64d7e1A09FECd587EDD",
     "contractType": "",
     "contractVersion": 4,
@@ -17737,7 +18403,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Optimism",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -17943,10 +18609,23 @@
     "proxyAddress": "0xf9ce4fE2F0EcE0362cb416844AE179a49591D567",
     "threshold": 0.5,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "assetName": "Hyperliquid",
+    "feedCategory": "medium",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "baseAsset": "HYPE",
+      "baseAssetClic": "HYPE_CR",
+      "blockchainName": "Arbitrum",
+      "clicProductName": "HYPE/USD-RefPrice-DF-Arbitrum-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
     "decimals": 8
   },
   {
@@ -17973,7 +18652,9 @@
     "assetName": "",
     "feedCategory": "",
     "feedType": "",
-    "docs": {},
+    "docs": {
+      "hidden": true
+    },
     "decimals": 8
   },
   {
@@ -18165,10 +18846,26 @@
     "proxyAddress": "0x37833E5b3fbbEd4D613a3e0C354eF91A42B81eeB",
     "threshold": 0.5,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "assetName": "USDS",
+    "feedCategory": "medium",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Stablecoin",
+      "baseAsset": "USDS",
+      "baseAssetClic": "USDS_CR",
+      "blockchainName": "Arbitrum",
+      "clicProductName": "USDS/USD-RefPrice-DF-Arbitrum-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "underlyingAsset": "USD",
+      "underlyingAssetClic": "USD_FX"
+    },
     "decimals": 8
   },
   {
@@ -18193,11 +18890,22 @@
     "proxyAddress": "0x17d8D87dF3E279c737568aB0C5cC3fF750aB763e",
     "threshold": 0.5,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
+    "assetName": "Dolomite",
+    "feedCategory": "medium",
+    "feedType": "Crypto",
     "docs": {
-      "marketHours": "Crypto"
+      "assetClass": "Crypto",
+      "baseAsset": "DOLO",
+      "baseAssetClic": "DOLO_CR",
+      "blockchainName": "Arbitrum",
+      "clicProductName": "DOLO/USD-RefPrice-DF-Arbitrum-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
     },
     "decimals": 8
   },
@@ -18350,7 +19058,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Stacks",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -18700,6 +19408,35 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x29ef0aE1eDb5764b5bd2ff3a605b5d4Eb39a0d63",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "abtc-por",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "10000000000",
+    "name": "aBTC PoR",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "abtc-por",
+    "proxyAddress": "0x5F25Ea8Cf2a3aB12E4D6fB58FB63C7938473B036",
+    "threshold": 0.1,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {
+      "hidden": true
+    },
+    "decimals": 10
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x2C50f2Fe9427d120DEA2eb804c148d2780519d59",
     "contractType": "",
     "contractVersion": 4,
@@ -18842,10 +19579,26 @@
     "proxyAddress": "0xa2b9BFb5CE1c7ABBC6609de17e5968eA2c20a5f1",
     "threshold": 0.5,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "assetName": "Elixir deUSD",
+    "feedCategory": "high",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Stablecoin",
+      "baseAsset": "DEUSD",
+      "baseAssetClic": "DEUSD_CR",
+      "blockchainName": "Arbitrum",
+      "clicProductName": "DEUSD/USD-RefPrice-DF-Arbitrum-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "underlyingAsset": "USD",
+      "underlyingAssetClic": "USD_FX"
+    },
     "decimals": 8
   },
   {
@@ -18952,10 +19705,23 @@
     "proxyAddress": "0x38ACD8CA9612737D2Ba42881b544626A8E18b061",
     "threshold": 0.5,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "assetName": "Hey Anon",
+    "feedCategory": "medium",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "baseAsset": "ANON",
+      "baseAssetClic": "ANON_CR",
+      "blockchainName": "Arbitrum",
+      "clicProductName": "ANON/USD-RefPrice-DF-Arbitrum-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
     "decimals": 8
   },
   {
@@ -19236,7 +20002,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Synthetix Network",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -19359,9 +20125,21 @@
     "threshold": 0.05,
     "valuePrefix": "",
     "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "feedCategory": "custom",
+    "feedType": "Crypto",
+    "docs": {
+      "baseAsset": "yUSD",
+      "baseAssetClic": "yUSD_CR",
+      "blockchainName": "Arbitrum",
+      "clicProductName": "yUSD/USD-ExRate-DF-Arbitrum-001",
+      "deliveryChannelCode": "DF",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Exchange Rate",
+      "productType": "Price",
+      "productTypeCode": "ExRate",
+      "quoteAsset": "USD"
+    },
     "decimals": 18
   },
   {
@@ -27276,11 +28054,26 @@
     "proxyAddress": null,
     "threshold": 0,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
+    "assetName": "Wrapped stETH",
+    "feedCategory": "low",
+    "feedType": "Crypto",
     "docs": {
-      "hidden": true
+      "assetClass": "Crypto",
+      "assetSubClass": "Crypto",
+      "assetName": "Wrapped stETH",
+      "baseAsset": "WSTETH",
+      "baseAssetClic": "WSTETH_CR",
+      "clicProductName": "WSTETH/USD-DexCross",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Crypto",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
     },
     "decimals": 18,
     "feedId": "0x00039d6733859abef383cea7aa6fc8626396e258f12bdf5615ac3f84d7d9b930",
@@ -33793,7 +34586,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Convex Finance",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -34205,10 +34998,26 @@
     "proxyAddress": "0x9BC7E5a6f1EED1C3217d2c63ad680DF83D84a906",
     "threshold": 1e-7,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "assetName": "Resolv wstUSR",
+    "feedCategory": "custom",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Pegged Asset",
+      "baseAsset": "wstUSR",
+      "baseAssetClic": "wstUSR_CR",
+      "blockchainName": "Arbitrum",
+      "clicProductName": "wstUSR/stUSR-ExRate-DF-Arbitrum-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Exchange Rate",
+      "productType": "Price",
+      "productTypeCode": "ExRate",
+      "quoteAsset": "stUSR",
+      "quoteAssetClic": "stUSR_CR",
+      "underlyingAsset": "USR",
+      "underlyingAssetClic": "USR_CR"
+    },
     "decimals": 18
   },
   {
@@ -34355,10 +35164,23 @@
     "proxyAddress": "0xf3451Fd5eddE08cDAE95A6233BaD69DE95552a61",
     "threshold": 0.5,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "assetName": "Tezos",
+    "feedCategory": "medium",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "baseAsset": "XTZ",
+      "baseAssetClic": "XTZ_CR",
+      "blockchainName": "Arbitrum",
+      "clicProductName": "XTZ/USD-RefPrice-DF-Arbitrum-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
     "decimals": 8
   },
   {
@@ -34462,7 +35284,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Pendle",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -49503,7 +50325,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Reserve Rights",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -49748,7 +50570,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Magic",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -49787,10 +50609,26 @@
     "proxyAddress": "0xBafDf5307EaEF8dCd18c4b7b3977BEEB73b4AFE4",
     "threshold": 0.5,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "assetName": "Resolv USR",
+    "feedCategory": "high",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Stablecoin",
+      "baseAsset": "USR",
+      "baseAssetClic": "USR_CR",
+      "blockchainName": "Arbitrum",
+      "clicProductName": "USR/USD-RefPrice-DF-Arbitrum-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "underlyingAsset": "USD",
+      "underlyingAssetClic": "USD_FX"
+    },
     "decimals": 8
   },
   {
@@ -50058,10 +50896,23 @@
     "proxyAddress": "0x3791D5eFF50Ab65fD82BBb16BCba42BEA556E7aA",
     "threshold": 0.5,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "assetName": "Grass",
+    "feedCategory": "medium",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "baseAsset": "GRASS",
+      "baseAssetClic": "GRASS_CR",
+      "blockchainName": "Arbitrum",
+      "clicProductName": "GRASS/USD-RefPrice-DF-Arbitrum-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
     "decimals": 8
   },
   {
@@ -50498,7 +51349,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "The Graph",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -50982,7 +51833,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Woo Network",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -51061,10 +51912,26 @@
     "proxyAddress": "0xF6a5c5480A9aC736ea567454e2E570889E0DB4Bc",
     "threshold": 0.1,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "assetName": "Frax USD",
+    "feedCategory": "high",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Stablecoin",
+      "baseAsset": "FRXUSD",
+      "baseAssetClic": "FRXUSD_CR",
+      "blockchainName": "Arbitrum",
+      "clicProductName": "FRXUSD/USD-RefPrice-DF-Arbitrum-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "underlyingAsset": "USD",
+      "underlyingAssetClic": "USD_FX"
+    },
     "decimals": 8
   },
   {
@@ -51248,10 +52115,25 @@
     "proxyAddress": "0x2483326d19f780Fb082f333Fe124e4C075B207ba",
     "threshold": 0.05,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "assetName": "sUSDS / USDS Exchange Rate",
+    "feedCategory": "custom",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "baseAsset": "sUSDS",
+      "baseAssetClic": "sUSDS_CR",
+      "blockchainName": "Arbitrum",
+      "clicProductName": "sUSDS/USDS-ExRate-DF-Arbitrum-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Exchange Rate",
+      "productType": "Price",
+      "productTypeCode": "ExRate",
+      "quoteAsset": "sUSDS",
+      "quoteAssetClic": "sUSDS_CR",
+      "underlyingAsset": "USDS",
+      "underlyingAssetClic": "USDS_CR"
+    },
     "decimals": 18
   },
   {
@@ -51398,10 +52280,23 @@
     "proxyAddress": "0x4f861F14246229530a881D32C8d26D78b8c48BE6",
     "threshold": 0.3,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "assetName": "Berachain",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "baseAsset": "BERA",
+      "baseAssetClic": "BERA_CR",
+      "blockchainName": "Arbitrum",
+      "clicProductName": "BERA/USD-RefPrice-DF-Arbitrum-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
     "decimals": 8
   },
   {
@@ -51630,7 +52525,9 @@
     "assetName": "",
     "feedCategory": "",
     "feedType": "",
-    "docs": {},
+    "docs": {
+      "hidden": true
+    },
     "decimals": 8
   },
   {
@@ -51655,7 +52552,7 @@
     "threshold": 0.1,
     "valuePrefix": "",
     "assetName": "BNB",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -51695,7 +52592,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Wrapped eETH",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -51778,7 +52675,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Polygon",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -51817,10 +52714,23 @@
     "proxyAddress": "0x004f214586CaFE0F1321Ad13A93bca77C385b196",
     "threshold": 0.5,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "assetName": "Plume",
+    "feedCategory": "medium",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "baseAsset": "PLUME",
+      "baseAssetClic": "PLUME_CR",
+      "blockchainName": "Arbitrum",
+      "clicProductName": "PLUME/USD-RefPrice-DF-Arbitrum-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
     "decimals": 8
   },
   {
@@ -52045,7 +52955,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "Lido Staked Ether",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -52288,7 +53198,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Lido DAO",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -52366,10 +53276,23 @@
     "proxyAddress": "0xea320E4d688B143A3bFBF1b4a5cc4B986fCa086c",
     "threshold": 0.5,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "assetName": "Cronos",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "baseAsset": "CRO",
+      "baseAssetClic": "CRO_CR",
+      "blockchainName": "Arbitrum",
+      "clicProductName": "CRO/USD-RefPrice-DF-Arbitrum-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
     "decimals": 8
   },
   {
@@ -52565,7 +53488,9 @@
     "assetName": "",
     "feedCategory": "",
     "feedType": "",
-    "docs": {},
+    "docs": {
+      "hidden": true
+    },
     "decimals": 8
   },
   {
@@ -52589,10 +53514,26 @@
     "proxyAddress": "0x3A917e6B5732dFCc4A45257e3930979fAE6a3737",
     "threshold": 0.05,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "assetName": "Kelp DAO Restaked ETH",
+    "feedCategory": "custom",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Pegged Asset",
+      "baseAsset": "RSETH",
+      "baseAssetClic": "RSETH_CR",
+      "blockchainName": "Arbitrum",
+      "clicProductName": "RSETH/ETH-ExRate-DF-Arbitrum-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Exchange rate",
+      "productType": "Price",
+      "productTypeCode": "ExRate",
+      "quoteAsset": "ETH",
+      "quoteAssetClic": "ETH_CR",
+      "underlyingAsset": "ETH",
+      "underlyingAssetClic": "ETH_CR"
+    },
     "decimals": 18
   },
   {
@@ -52703,11 +53644,25 @@
     "proxyAddress": "0xCF9752295D0ac9215461fA095faFEC1B854b849B",
     "threshold": 0.3,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
+    "assetName": "Circle EUR",
+    "feedCategory": "medium",
+    "feedType": "Crypto",
     "docs": {
-      "marketHours": "Crypto"
+      "assetClass": "Crypto",
+      "assetSubClass": "Stablecoin",
+      "baseAsset": "EURC",
+      "baseAssetClic": "EURC_CR",
+      "blockchainName": "Arbitrum",
+      "clicProductName": "EURC/USD-RefPrice-DF-Arbitrum-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "underlyingAsset": "USD",
+      "underlyingAssetClic": "USD_FX"
     },
     "decimals": 8
   },
@@ -52735,7 +53690,9 @@
     "assetName": "",
     "feedCategory": "",
     "feedType": "",
-    "docs": {},
+    "docs": {
+      "hidden": true
+    },
     "decimals": 8
   },
   {
@@ -52882,11 +53839,22 @@
     "proxyAddress": "0x5082d93991DfCc69F57a27CEC63EDEe1B8C22757",
     "threshold": 0.3,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
+    "assetName": "Hong Kong Dollar",
+    "feedCategory": "low",
+    "feedType": "Forex",
     "docs": {
-      "marketHours": "Forex"
+      "assetClass": "Fiat",
+      "baseAsset": "HKD",
+      "baseAssetClic": "HKD_FX",
+      "blockchainName": "Arbitrum",
+      "clicProductName": "HKD/USD-RefPrice-DF-Arbitrum-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
     },
     "decimals": 8
   },
@@ -52912,7 +53880,7 @@
     "threshold": 0.1,
     "valuePrefix": "",
     "assetName": "DAI",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -53244,11 +54212,12 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "1inch",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
       "baseAsset": "1INCH",
+      "baseAssetClic": "1INCH_CR",
       "blockchainName": "Arbitrum",
       "clicProductName": "1INCH/USD-RefPrice-DF-Arbitrum-001",
       "deliveryChannelCode": "DF",
@@ -53571,7 +54540,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Ronin",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -53966,7 +54935,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "",
-    "feedCategory": "",
+    "feedCategory": "medium",
     "feedType": "",
     "docs": {
       "hidden": true
@@ -54287,10 +55256,23 @@
     "proxyAddress": "0x037100C673E8A63fBF8F6f78A8FBeEbb683593a8",
     "threshold": 0.5,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "assetName": "Core",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "baseAsset": "CORE",
+      "baseAssetClic": "CORE_CR",
+      "blockchainName": "Arbitrum",
+      "clicProductName": "CORE/USD-RefPrice-DF-Arbitrum-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
     "decimals": 8
   },
   {
@@ -54555,10 +55537,26 @@
     "proxyAddress": "0xF6897122530ca89beB919f5990FDd3F7Cc9837C4",
     "threshold": 1e-7,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "assetName": "ynETH MAX",
+    "feedCategory": "custom",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Pegged Asset",
+      "baseAsset": "ynETHx",
+      "baseAssetClic": "ynETHx_CR",
+      "blockchainName": "Arbitrum",
+      "clicProductName": "ynETHx/ETH-ExRate-DF-Arbitrum-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Exchange Rate",
+      "productType": "Price",
+      "productTypeCode": "ExRate",
+      "quoteAsset": "ynETHx",
+      "quoteAssetClic": "ynETHx_CR",
+      "underlyingAsset": "ETH",
+      "underlyingAssetClic": "ETH_CR"
+    },
     "decimals": 18
   },
   {
@@ -54582,10 +55580,20 @@
     "proxyAddress": "0xD2385f41995499bBF255cE0A1486ebCe3Dca0e5D",
     "threshold": 1e-7,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
+    "assetName": "M",
+    "feedCategory": "custom",
     "feedType": "",
-    "docs": {},
+    "docs": {
+      "assetClass": "Stablecoin",
+      "baseAsset": "MN",
+      "blockchainName": "Arbitrum",
+      "deliveryChannelCode": "DF",
+      "issuer": "M^0 Protocol",
+      "porAuditor": "M^0 Labs",
+      "porSource": "M^0 Labs",
+      "productType": "NAVLink",
+      "productTypeCode": "NAV"
+    },
     "decimals": 8
   },
   {
@@ -54730,7 +55738,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Frax Share",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",

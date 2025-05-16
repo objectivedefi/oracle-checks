@@ -265,7 +265,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Convex",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -305,7 +305,7 @@
     "threshold": 0.25,
     "valuePrefix": "",
     "assetName": "Decentraland",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -426,7 +426,7 @@
     "threshold": 0.25,
     "valuePrefix": "",
     "assetName": "Polygon",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -546,7 +546,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Woo Network",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -707,7 +707,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Kava",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -871,7 +871,7 @@
     "threshold": 0.1,
     "valuePrefix": "",
     "assetName": "Angle Protocol",
-    "feedCategory": "hidden",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -995,7 +995,7 @@
     "threshold": 0.1,
     "valuePrefix": "",
     "assetName": "BNB",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1074,7 +1074,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "DAI",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1316,7 +1316,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "Chiliz",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1396,7 +1396,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Quant",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2008,7 +2008,7 @@
     "threshold": 0.25,
     "valuePrefix": "",
     "assetName": "The Graph",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2647,10 +2647,26 @@
     "proxyAddress": "0xed7051d55eeaF85E36053D6b0f2C51E59625B047",
     "threshold": 1e-7,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "assetName": "TruFin Staked MATIC",
+    "feedCategory": "custom",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Pegged Asset",
+      "baseAsset": "TRUMATIC",
+      "baseAssetClic": "TRUMATIC_CR",
+      "blockchainName": "Matic",
+      "clicProductName": "TRUMATIC/MATIC-ExRate-DF-Matic-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Exchange Rate",
+      "productType": "Price",
+      "productTypeCode": "ExRate",
+      "quoteAsset": "MATIC",
+      "quoteAssetClic": "MATIC_CR",
+      "underlyingAsset": "MATIC",
+      "underlyingAssetClic": "MATIC_CR"
+    },
     "decimals": 18
   },
   {
@@ -2924,7 +2940,9 @@
     "assetName": "",
     "feedCategory": "",
     "feedType": "",
-    "docs": {},
+    "docs": {
+      "hidden": true
+    },
     "decimals": 18
   },
   {
@@ -3795,7 +3813,7 @@
     "threshold": 0.25,
     "valuePrefix": "",
     "assetName": "Synthetix Network",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3835,7 +3853,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Frax Share",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4690,7 +4708,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "Dash",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5013,7 +5031,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "Polygon",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5053,7 +5071,7 @@
     "threshold": 0.25,
     "valuePrefix": "",
     "assetName": "1inch",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5257,7 +5275,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "Ethereum Classic",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5662,7 +5680,7 @@
     "threshold": 0.01,
     "valuePrefix": "",
     "assetName": "DAI",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5948,7 +5966,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "Internet Computer Protocol",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",

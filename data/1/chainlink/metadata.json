@@ -274,10 +274,26 @@
     "proxyAddress": "0x471a6299C027Bd81ed4D66069dc510Bd0569f4F8",
     "threshold": 2,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "assetName": "Elixir deUSD",
+    "feedCategory": "high",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Stablecoin",
+      "baseAsset": "DEUSD",
+      "baseAssetClic": "DEUSD_CR",
+      "blockchainName": "Ethereum",
+      "clicProductName": "DEUSD/USD-RefPrice-DF-Ethereum-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "underlyingAsset": "USD",
+      "underlyingAssetClic": "USD_FX"
+    },
     "decimals": 8
   },
   {
@@ -625,7 +641,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Wrapped eETH",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1155,7 +1171,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "Basic Attention Token",
-    "feedCategory": "deprecating",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2208,7 +2224,9 @@
     "assetName": "",
     "feedCategory": "",
     "feedType": "",
-    "docs": {},
+    "docs": {
+      "hidden": true
+    },
     "decimals": 0
   },
   {
@@ -2233,7 +2251,7 @@
     "threshold": 2,
     "valuePrefix": "",
     "assetName": "Reserve Rights",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3158,7 +3176,9 @@
     "assetName": "",
     "feedCategory": "",
     "feedType": "",
-    "docs": {},
+    "docs": {
+      "hidden": true
+    },
     "decimals": 0
   },
   {
@@ -3271,10 +3291,26 @@
     "proxyAddress": "0x9B4a96210bc8D9D55b1908B465D8B0de68B7fF83",
     "threshold": 0.5,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "assetName": "Frax USD",
+    "feedCategory": "high",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Stablecoin",
+      "baseAsset": "FRXUSD",
+      "baseAssetClic": "FRXUSD_CR",
+      "blockchainName": "Ethereum",
+      "clicProductName": "FRXUSD/USD-RefPrice-DF-Ethereum-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "underlyingAsset": "USD",
+      "underlyingAssetClic": "USD_FX"
+    },
     "decimals": 8
   },
   {
@@ -3547,7 +3583,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "AGEUR",
-    "feedCategory": "hidden",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3591,7 +3627,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "1inch",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3793,7 +3829,7 @@
     "threshold": 0.25,
     "valuePrefix": "",
     "assetName": "DAI",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3898,6 +3934,47 @@
     "decimals": 8
   },
   {
+    "benchmark": "cex-lwba",
+    "compareOffchain": "",
+    "contractAddress": "0x78281937B869bAaDedDdA3d62fC4b6Fc0a196b61",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "sxt-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "SXT / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "sxt-usd",
+    "proxyAddress": "0x2D27d9e1b74936D8E83c4BA118F09A4c4a897f62",
+    "threshold": 2,
+    "valuePrefix": "",
+    "assetName": "Space and Time",
+    "feedCategory": "new",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "baseAsset": "SXT",
+      "baseAssetClic": "SXT_CR",
+      "blockchainName": "Ethereum",
+      "clicProductName": "SXT/USD-RefPrice-DF-Ethereum-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 8
+  },
+  {
     "compareOffchain": "",
     "contractAddress": "0x786ba26Ee47097E6A5086E742aEf5Efbc6A93447",
     "contractType": "",
@@ -3921,7 +3998,9 @@
     "assetName": "",
     "feedCategory": "",
     "feedType": "",
-    "docs": {},
+    "docs": {
+      "hidden": true
+    },
     "decimals": 0
   },
   {
@@ -4156,7 +4235,9 @@
     "assetName": "",
     "feedCategory": "",
     "feedType": "",
-    "docs": {},
+    "docs": {
+      "hidden": true
+    },
     "decimals": 18
   },
   {
@@ -4264,7 +4345,9 @@
     "assetName": "",
     "feedCategory": "",
     "feedType": "",
-    "docs": {},
+    "docs": {
+      "hidden": true
+    },
     "decimals": 8
   },
   {
@@ -4581,7 +4664,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "DAI",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5076,7 +5159,9 @@
     "assetName": "",
     "feedCategory": "",
     "feedType": "",
-    "docs": {},
+    "docs": {
+      "hidden": true
+    },
     "decimals": 8
   },
   {
@@ -5103,7 +5188,9 @@
     "assetName": "",
     "feedCategory": "",
     "feedType": "",
-    "docs": {},
+    "docs": {
+      "hidden": true
+    },
     "decimals": 0
   },
   {
@@ -5169,7 +5256,7 @@
     "threshold": 2,
     "valuePrefix": "",
     "assetName": "The Graph",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5292,7 +5379,9 @@
     "assetName": "",
     "feedCategory": "",
     "feedType": "",
-    "docs": {},
+    "docs": {
+      "hidden": true
+    },
     "decimals": 0
   },
   {
@@ -5601,11 +5690,22 @@
     "proxyAddress": "0x3C7dB4D25deAb7c89660512C5494Dc9A3FC40f78",
     "threshold": 0.3,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
+    "assetName": "Philippines Peso",
+    "feedCategory": "low",
+    "feedType": "Forex",
     "docs": {
-      "marketHours": "Forex_PHP"
+      "assetClass": "Fiat",
+      "baseAsset": "PHP",
+      "baseAssetClic": "PHP_FX",
+      "blockchainName": "Ethereum",
+      "clicProductName": "PHP/USD-RefPrice-DF-Ethereum-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Forex_PHP",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
     },
     "decimals": 18
   },
@@ -5754,10 +5854,23 @@
     "proxyAddress": "0x7f0347903F413a6C4c540f39145E2a2249639931",
     "threshold": 5,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "assetName": "Official Trump",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "baseAsset": "TRUMP",
+      "baseAssetClic": "TRUMP_CR",
+      "blockchainName": "Ethereum",
+      "clicProductName": "TRUMP/USD-RefPrice-DF-Ethereum-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
     "decimals": 8
   },
   {
@@ -6897,6 +7010,50 @@
     ]
   },
   {
+    "benchmark": "dex-state",
+    "compareOffchain": "",
+    "contractAddress": "0xA674a0fD742F37BD5077AFc90D1E82485c91989C",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "eurc-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "EURC / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "eurc-usd",
+    "proxyAddress": "0x04F84020Fdf10d9ee64D1dcC2986EDF2F556DA11",
+    "threshold": 0.3,
+    "valuePrefix": "",
+    "assetName": "Circle EUR",
+    "feedCategory": "medium",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Stablecoin",
+      "baseAsset": "EURC",
+      "baseAssetClic": "EURC_CR",
+      "blockchainName": "Ethereum",
+      "clicProductName": "EURC/USD-RefPrice-DF-Ethereum-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "underlyingAsset": "USD",
+      "underlyingAssetClic": "USD_FX"
+    },
+    "decimals": 8
+  },
+  {
     "compareOffchain": "",
     "contractAddress": "0xA9845307Bb5F5637B136Ca70914746d1bb7d402a",
     "contractType": "",
@@ -6918,7 +7075,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "BNB",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -7226,7 +7383,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "Polygon (MATIC)",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -7266,7 +7423,7 @@
     "threshold": 2,
     "valuePrefix": "",
     "assetName": "Convex Finance",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -7349,7 +7506,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Lido Staked ETH",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -7479,7 +7636,9 @@
     "assetName": "",
     "feedCategory": "",
     "feedType": "",
-    "docs": {},
+    "docs": {
+      "hidden": true
+    },
     "decimals": 8
   },
   {
@@ -7834,7 +7993,9 @@
     "assetName": "",
     "feedCategory": "",
     "feedType": "",
-    "docs": {},
+    "docs": {
+      "hidden": true
+    },
     "decimals": 0
   },
   {
@@ -7858,10 +8019,23 @@
     "proxyAddress": "0xFC9e30Cf89f8A00dba3D34edf8b65BCDAdeCC1cB",
     "threshold": 0.5,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "assetName": "Staked USD0",
+    "feedCategory": "high",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "baseAsset": "USD0++",
+      "baseAssetClic": "USD0++_CR",
+      "blockchainName": "Ethereum",
+      "clicProductName": "USD0++/USD-RefPrice-DF-Ethereum-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
     "decimals": 8
   },
   {
@@ -8417,7 +8591,7 @@
     "threshold": 2,
     "valuePrefix": "",
     "assetName": "Frax Share",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -8540,7 +8714,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "Synthetix Network",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -8829,10 +9003,26 @@
     "proxyAddress": "0xE3fd61Cd8935EAE81e1c31AF36D7134e411490Cd",
     "threshold": 0.5,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "assetName": "OpenUSDT",
+    "feedCategory": "medium",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Stablecoin",
+      "baseAsset": "OUSDT",
+      "baseAssetClic": "OUSDT_CR",
+      "blockchainName": "Ethereum",
+      "clicProductName": "OUSDT/USD-RefPrice-DF-Ethereum-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "underlyingAsset": "USD",
+      "underlyingAssetClic": "USD_FX"
+    },
     "decimals": 8
   },
   {
@@ -8863,6 +9053,7 @@
     "docs": {
       "assetClass": "Crypto",
       "baseAsset": "AAVE",
+      "baseAssetClic": "AAVE_CR",
       "blockchainName": "Ethereum",
       "clicProductName": "AAVE/USD-RefPrice-DF-Ethereum-001",
       "deliveryChannelCode": "DF",
@@ -8928,7 +9119,9 @@
     "assetName": "",
     "feedCategory": "",
     "feedType": "",
-    "docs": {},
+    "docs": {
+      "hidden": true
+    },
     "decimals": 8
   },
   {
@@ -9036,6 +9229,7 @@
     "docs": {
       "assetClass": "Crypto",
       "baseAsset": "AAVE",
+      "baseAssetClic": "AAVE_CR",
       "blockchainName": "Ethereum",
       "clicProductName": "AAVE/USD-RefPrice-DF-Ethereum-001",
       "deliveryChannelCode": "DF",
@@ -9471,7 +9665,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Mantle Staked Ether",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",

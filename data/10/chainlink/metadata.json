@@ -573,6 +573,48 @@
     "decimals": 8
   },
   {
+    "benchmark": "dex-state",
+    "compareOffchain": "",
+    "contractAddress": "0x193285B1b49A085EbE60A4764Cd69525c4BF031B",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "aleth-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "ALETH / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "aleth-usd",
+    "proxyAddress": "0x0805fAA94F056C06c2a69e115Aa7633EfD3efDca",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "Alchemix ETH",
+    "feedCategory": "high",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "baseAsset": "ALETH",
+      "baseAssetClic": "ALETH_CR",
+      "blockchainName": "Optimism",
+      "clicProductName": "ALETH/USD-RefPrice-DF-Optimism-001",
+      "deliveryChannelCode": "DF",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 8
+  },
+  {
     "compareOffchain": "",
     "contractAddress": "0x19BcA7C81f3ed561a49326b78468EaC64D0E8F2a",
     "contractType": "",
@@ -594,7 +636,7 @@
     "threshold": 0.2,
     "valuePrefix": "",
     "assetName": "dYdX",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -678,7 +720,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Stacks",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -762,7 +804,7 @@
     "threshold": 0.2,
     "valuePrefix": "",
     "assetName": "Polygon",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -802,7 +844,7 @@
     "threshold": 0.2,
     "valuePrefix": "",
     "assetName": "Lido Staked Ether",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -845,7 +887,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "THORChain",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1082,7 +1124,7 @@
     "threshold": 0.2,
     "valuePrefix": "",
     "assetName": "BNB",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1241,10 +1283,23 @@
     "proxyAddress": "0x59F075967F0abB7E9FA623CbaAb7560704D67D15",
     "threshold": 0.5,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "assetName": "Hey Anon",
+    "feedCategory": "medium",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "baseAsset": "ANON",
+      "baseAssetClic": "ANON_CR",
+      "blockchainName": "Optimism",
+      "clicProductName": "ANON/USD-RefPrice-DF-Optimism-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
     "decimals": 8
   },
   {
@@ -1601,7 +1656,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "The Graph",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1721,7 +1776,7 @@
     "threshold": 0.2,
     "valuePrefix": "",
     "assetName": "Optimism",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1930,7 +1985,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Ethereum",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2043,7 +2098,7 @@
     "threshold": 0.2,
     "valuePrefix": "",
     "assetName": "Synthetix Network",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2367,10 +2422,26 @@
     "proxyAddress": "0x8281Af165B4380c7aa2445F1c93C150EaD336022",
     "threshold": 0.5,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "assetName": "Resolv USR",
+    "feedCategory": "high",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Stablecoin",
+      "baseAsset": "USR",
+      "baseAssetClic": "USR_CR",
+      "blockchainName": "Optimism",
+      "clicProductName": "USR/USD-RefPrice-DF-Optimism-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "underlyingAsset": "USD",
+      "underlyingAssetClic": "USD_FX"
+    },
     "decimals": 8
   },
   {
@@ -2849,7 +2920,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Injective Protocol",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3048,7 +3119,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Wrapped eETH",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3293,10 +3364,26 @@
     "proxyAddress": "0xe3Ec83f2EE37f7AF2B2711e8aF7554D01B963550",
     "threshold": 1e-7,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "assetName": "Resolv wstUSR",
+    "feedCategory": "custom",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Pegged Asset",
+      "baseAsset": "wstUSR",
+      "baseAssetClic": "wstUSR_CR",
+      "blockchainName": "Optimism",
+      "clicProductName": "wstUSR/stUSR-ExRate-DF-Optimism-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Exchange Rate",
+      "productType": "Price",
+      "productTypeCode": "ExRate",
+      "quoteAsset": "stUSR",
+      "quoteAssetClic": "stUSR_CR",
+      "underlyingAsset": "USR",
+      "underlyingAssetClic": "USR_CR"
+    },
     "decimals": 18
   },
   {
@@ -3605,10 +3692,26 @@
     "proxyAddress": "0x60025324DAB37DB3A623ea59Cc567937821EeA12",
     "threshold": 0.3,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "assetName": "OpenUSDT",
+    "feedCategory": "medium",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Stablecoin",
+      "baseAsset": "OUSDT",
+      "baseAssetClic": "OUSDT_CR",
+      "blockchainName": "Optimism",
+      "clicProductName": "OUSDT/USD-RefPrice-DF-Optimism-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "underlyingAsset": "USD",
+      "underlyingAssetClic": "USD_FX"
+    },
     "decimals": 8
   },
   {
@@ -3714,10 +3817,26 @@
     "proxyAddress": "0xCb93226806156b03c8896bbD1cd5e4174cdb0806",
     "threshold": 1e-7,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "assetName": "ynETH MAX",
+    "feedCategory": "custom",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Pegged Asset",
+      "baseAsset": "ynETHx",
+      "baseAssetClic": "ynETHx_CR",
+      "blockchainName": "Optimism",
+      "clicProductName": "ynETHx/ETH-ExRate-DF-Optimism-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Exchange Rate",
+      "productType": "Price",
+      "productTypeCode": "ExRate",
+      "quoteAsset": "ynETHx",
+      "quoteAssetClic": "ynETHx_CR",
+      "underlyingAsset": "ETH",
+      "underlyingAssetClic": "ETH_CR"
+    },
     "decimals": 18
   },
   {
@@ -3907,7 +4026,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Pendle",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4157,6 +4276,7 @@
     "docs": {
       "assetClass": "Crypto",
       "baseAsset": "SHIB",
+      "baseAssetClic": "SHIB_CR",
       "blockchainName": "Optimism",
       "clicProductName": "SHIB/USD-RefPrice-DF-Optimism-001",
       "deliveryChannelCode": "DF",
@@ -4191,7 +4311,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Lido DAO",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4311,7 +4431,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "SATS (Ordinals)",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4436,7 +4556,9 @@
     "assetName": "",
     "feedCategory": "",
     "feedType": "",
-    "docs": {},
+    "docs": {
+      "hidden": true
+    },
     "decimals": 8
   },
   {
@@ -4822,7 +4944,9 @@
     "assetName": "",
     "feedCategory": "",
     "feedType": "",
-    "docs": {},
+    "docs": {
+      "hidden": true
+    },
     "decimals": 8
   },
   {
@@ -5210,7 +5334,7 @@
     "threshold": 0.1,
     "valuePrefix": "",
     "assetName": "DAI",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5375,7 +5499,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Frax Share",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5415,7 +5539,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Convex Finance",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5496,7 +5620,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Internet Computer Protocol",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5822,10 +5946,26 @@
     "proxyAddress": "0x04e6b67c9875c15C26E2672dF11E1A34161E7B93",
     "threshold": 0.5,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "assetName": "Elixir deUSD",
+    "feedCategory": "high",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Stablecoin",
+      "baseAsset": "DEUSD",
+      "baseAssetClic": "DEUSD_CR",
+      "blockchainName": "Optimism",
+      "clicProductName": "DEUSD/USD-RefPrice-DF-Optimism-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "underlyingAsset": "USD",
+      "underlyingAssetClic": "USD_FX"
+    },
     "decimals": 8
   },
   {

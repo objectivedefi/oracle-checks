@@ -352,6 +352,7 @@
     "feedCategory": "",
     "feedType": "",
     "docs": {
+      "hidden": true,
       "marketHours": "Crypto"
     },
     "decimals": 8
@@ -427,6 +428,7 @@
       "blockchainName": "Binance",
       "clicProductName": "WING/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
+      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -785,10 +787,24 @@
     "proxyAddress": "0x41A292Dced910690b86b99A6cbC2e181dc56De57",
     "threshold": 0.5,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "assetName": "LBTC / BTC",
+    "feedCategory": "medium",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Pegged Asset",
+      "baseAsset": "LBTC",
+      "baseAssetClic": "LBTC_CR",
+      "blockchainName": "Binance",
+      "clicProductName": "LBTC/BTC-RefPrice-DF-Binance-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "BTC",
+      "quoteAssetClic": "BTC_CR"
+    },
     "decimals": 8
   },
   {
@@ -813,7 +829,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "1inch",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -855,7 +871,9 @@
     "assetName": "",
     "feedCategory": "",
     "feedType": "",
-    "docs": {},
+    "docs": {
+      "hidden": true
+    },
     "decimals": 8
   },
   {
@@ -880,7 +898,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Chromaway",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -920,7 +938,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "DAI",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1083,10 +1101,23 @@
     "proxyAddress": "0x801A72542E6F2c1A022eC6865600D6872b191308",
     "threshold": 0.5,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "assetName": "Lista DAO",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "baseAsset": "LISTA",
+      "baseAssetClic": "LISTA_CR",
+      "blockchainName": "Binance",
+      "clicProductName": "LISTA/USD-RefPrice-DF-Binance-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
     "decimals": 8
   },
   {
@@ -1361,7 +1392,9 @@
     "assetName": "",
     "feedCategory": "",
     "feedType": "",
-    "docs": {},
+    "docs": {
+      "hidden": true
+    },
     "decimals": 18
   },
   {
@@ -1649,6 +1682,50 @@
     "decimals": 18
   },
   {
+    "benchmark": "dex-state",
+    "compareOffchain": "",
+    "contractAddress": "0x48dB0aDEABFaCc84d567CD520e48c1F677d05311",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "usd1-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "USD1 / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "usd1-usd",
+    "proxyAddress": "0xaD8b4e59A7f25B68945fAf0f3a3EAF027832FFB0",
+    "threshold": 0.3,
+    "valuePrefix": "",
+    "assetName": "World Liberty Financial USD",
+    "feedCategory": "medium",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Stablecoin",
+      "baseAsset": "USD1",
+      "baseAssetClic": "USD1_CR",
+      "blockchainName": "Binance",
+      "clicProductName": "USD1/USD-RefPrice-DF-Binance-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "underlyingAsset": "USD",
+      "underlyingAssetClic": "USD_FX"
+    },
+    "decimals": 8
+  },
+  {
     "compareOffchain": "",
     "contractAddress": "0x4A406c886CEABcc54201ECa1fF1b84c1a62623E2",
     "contractType": "",
@@ -1713,7 +1790,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Kava",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2604,7 +2681,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Injective Protocol",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2646,7 +2723,9 @@
     "assetName": "",
     "feedCategory": "",
     "feedType": "",
-    "docs": {},
+    "docs": {
+      "hidden": true
+    },
     "decimals": 18
   },
   {
@@ -3079,7 +3158,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Nuls",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3200,7 +3279,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Woo Network",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3640,7 +3719,7 @@
     "threshold": 0.2,
     "valuePrefix": "",
     "assetName": "VeChain",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3916,7 +3995,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Frax Share",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4241,7 +4320,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Internet Computer Protocol",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4613,7 +4692,7 @@
     "threshold": 0.2,
     "valuePrefix": "",
     "assetName": "Polygon (MATIC)",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4693,7 +4772,7 @@
     "threshold": 0.1,
     "valuePrefix": "",
     "assetName": "BNB",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4984,7 +5063,9 @@
     "assetName": "",
     "feedCategory": "",
     "feedType": "",
-    "docs": {},
+    "docs": {
+      "hidden": true
+    },
     "decimals": 8
   },
   {
@@ -5420,7 +5501,7 @@
     "threshold": 0.1,
     "valuePrefix": "",
     "assetName": "DAI",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5553,6 +5634,7 @@
       "blockchainName": "Binance",
       "clicProductName": "ALPACA/USD-RefPrice-DF-Binance-001",
       "deliveryChannelCode": "DF",
+      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",

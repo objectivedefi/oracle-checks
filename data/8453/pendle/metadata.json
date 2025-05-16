@@ -25,6 +25,14 @@
   },
   {
     "chainId": 8453,
+    "pt": "0x43FE057B02cE301a2b09C9873676032892566DE7",
+    "market": "0xaD4e0eFc7b641591dC1a94eFc5d352d098516D2e",
+    "underlyingAsset": "0x5AE84075F0E34946821A8015dAB5299A00992721",
+    "expiry": 1750896000,
+    "symbol": "wcgUSD"
+  },
+  {
+    "chainId": 8453,
     "pt": "0x5C6593F57EE95519fF6a8Cd16A5e41Ff50af239a",
     "market": "0xd94Fd7bcEb29159405Ae1E06Ce80e51EF1A484B0",
     "underlyingAsset": "0xF877ACaFA28c19b96727966690b2f44d35aD5976",
@@ -65,10 +73,26 @@
   },
   {
     "chainId": 8453,
+    "pt": "0xB1847B85da0595C6f72B0757Ee292Bd472DCa45e",
+    "market": "0x6144511E1BD935c258B7b9075F120474dF1b1e5f",
+    "underlyingAsset": "0x067ae75628177FD257c2B1e500993e1a0baBcBd1",
+    "expiry": 1753920000,
+    "symbol": "aGHO"
+  },
+  {
+    "chainId": 8453,
     "pt": "0xE46c8bA948f8071b425a1f7Ba45c0a65CBAcea2e",
     "market": "0x483f2e223c58a5eF19c4B32fbC6dE57709749cb3",
     "underlyingAsset": "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
     "expiry": 1766620800,
     "symbol": "cbETH"
+  },
+  {
+    "chainId": 8453,
+    "pt": "0xe4862dA6E20c3a2a4E437A0eCdb823a2aeBBf140",
+    "market": "0xA6b8cFE75Ca5e1b2A527AA255d10521FAaF24b61",
+    "underlyingAsset": "0x69eFa3Cd7FC773fE227b9Cc4f41132dcde020A29",
+    "expiry": 1758758400,
+    "symbol": "GHO-USR"
   }
 ]

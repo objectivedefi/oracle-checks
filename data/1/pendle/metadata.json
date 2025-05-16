@@ -17,14 +17,6 @@
   },
   {
     "chainId": 1,
-    "pt": "0x0F63b67Ff6563427bbD6447F58879b38BDA847B3",
-    "market": "0xE4AF6375F4424b61B91A1E96b9dE6ff8E842AA3A",
-    "underlyingAsset": "0x9DC37e4a901b1e21Bd05E75c3B9A633A17001a39",
-    "expiry": 1746662400,
-    "symbol": "USDe (Bera Concrete)"
-  },
-  {
-    "chainId": 1,
     "pt": "0x11105208Abb3Ce206922Bf4cd6B2D5F98CAC2F0d",
     "market": "0x9b5418ef165E86490eDbFBaE865e0791b225F037",
     "underlyingAsset": "0xF7DE3c70F2db39a188A81052d2f3C8e3e217822a",
@@ -38,6 +30,22 @@
     "underlyingAsset": "0x030b69280892c888670EDCDCD8B69Fd8026A0BF3",
     "expiry": 1753920000,
     "symbol": "USD (Midas mMEV)"
+  },
+  {
+    "chainId": 1,
+    "pt": "0x136389D329968bD82efe05F0911Eeb20eE74A138",
+    "market": "0xF8094570485B124b4f2aBE98909A87511489C162",
+    "underlyingAsset": "0x35D8949372D46B7a3D5A56006AE77B215fc69bC0",
+    "expiry": 1764201600,
+    "symbol": "USD0++"
+  },
+  {
+    "chainId": 1,
+    "pt": "0x14Bdc3A3AE09f5518b923b69489CBcAfB238e617",
+    "market": "0xE93B4A93e80BD3065B290394264af5d82422ee70",
+    "underlyingAsset": "0x90D2af7d622ca3141efA4d8f1F24d86E5974Cc8F",
+    "expiry": 1755129600,
+    "symbol": "eUSDe"
   },
   {
     "chainId": 1,
@@ -78,14 +86,6 @@
     "underlyingAsset": "0xc372CCdD24Bb0753CEB78bBaC4D24EB7dE4aBE4e",
     "expiry": 1753920000,
     "symbol": "GHO-USR"
-  },
-  {
-    "chainId": 1,
-    "pt": "0x2a6aB85617A1dfB8a5317d43Ab91f55c607BC4cC",
-    "market": "0x71B2B207BB596508e119b3DeF876b6bb381f4c2e",
-    "underlyingAsset": "0xE7C253EAD50976Caf7b0C2cbca569146A7741B50",
-    "expiry": 1746662400,
-    "symbol": "SolvBTC.BERA"
   },
   {
     "chainId": 1,
@@ -153,6 +153,14 @@
   },
   {
     "chainId": 1,
+    "pt": "0x5a5b93F762739fa94F3EcC0b34Af2e56702E7f70",
+    "market": "0x33BdA865c6815c906e63878357335B28f063936c",
+    "underlyingAsset": "0x66a1E37c9b0eAddca17d3662D6c05F4DECf3e110",
+    "expiry": 1756944000,
+    "symbol": "USR"
+  },
+  {
+    "chainId": 1,
     "pt": "0x6704C353B0C2527863e4ef03DCa07175B9318cBf",
     "market": "0x925Cd38a68993819EeF0138A463308c840080F17",
     "underlyingAsset": "0x9Fb7b4477576Fe5B32be4C1843aFB1e55F251B33",
@@ -217,6 +225,14 @@
   },
   {
     "chainId": 1,
+    "pt": "0x860Ae8aAA07Bd743Ee7dD0EFF93E4bB8BD953497",
+    "market": "0x49AFd881Cd581CC0258ce6Db95e3fE167113c65b",
+    "underlyingAsset": "0xeF101508bf4DC6CF0f0a0C135f39a41faB4E4389",
+    "expiry": 1753920000,
+    "symbol": "SuperETH"
+  },
+  {
+    "chainId": 1,
     "pt": "0x8891302D91dB6E7C2Ce6e82A8f6C952aB556eb7a",
     "market": "0xE6723992EC43aa6011457bBBed7D6Cd7Db1407B6",
     "underlyingAsset": "0xb45ad160634c528Cc3D2926d9807104FA3157305",
@@ -257,6 +273,14 @@
   },
   {
     "chainId": 1,
+    "pt": "0x9AC87302429A367cdE6df17E1f150B53E2967924",
+    "market": "0x593b67a445E836D0b4e9186D7604C53b0aE6A74b",
+    "underlyingAsset": "0x004626A008B1aCdC4c74ab51644093b155e59A23",
+    "expiry": 1762387200,
+    "symbol": "stEUR"
+  },
+  {
+    "chainId": 1,
     "pt": "0x9BcA74F805AB0a22DDD0886dB0942199a0feBa71",
     "market": "0xE45d2CE15aBbA3c67b9fF1E7A69225C855d3DA82",
     "underlyingAsset": "0x7C1156E515aA1A2E851674120074968C905aAF37",
@@ -286,6 +310,14 @@
     "underlyingAsset": "0x004E9C3EF86bc1ca1f0bB5C7662861Ee93350568",
     "expiry": 1766016000,
     "symbol": "uniBTC"
+  },
+  {
+    "chainId": 1,
+    "pt": "0xAAcAE34960CaC6F32826f81E15F855f8e8c7f39e",
+    "market": "0xC64D59eb11c869012C686349d24e1D7C91C86ee2",
+    "underlyingAsset": "0x6A29A46E21C730DcA1d8b23d637c101cec605C5B",
+    "expiry": 1753920000,
+    "symbol": "fGHO"
   },
   {
     "chainId": 1,
@@ -377,14 +409,6 @@
   },
   {
     "chainId": 1,
-    "pt": "0xe92a73E619a5bc344B394D5D2D030002B7EDd0AC",
-    "market": "0x0271A803f0d3Dec9cCd105A4A4d41e6Ee1458765",
-    "underlyingAsset": "0xf80c6636F9597d6a7FC1E5182B168B71e98Fd1cB",
-    "expiry": 1746662400,
-    "symbol": "sUSDe (Bera Concrete)"
-  },
-  {
-    "chainId": 1,
     "pt": "0xe9824E10345Ecd5Cd43fC07d550e76159d0327c6",
     "market": "0xEDda7526EC81055F2af99d51D968FC2FBca9Ee96",
     "underlyingAsset": "0xB1Cdf3C96000330f018b7d7dF5bEe5E7F9E13b62",
@@ -465,14 +489,6 @@
   },
   {
     "chainId": 1,
-    "pt": "0xf91eD4974C22Dc375b99858DA848A2eF34e2C103",
-    "market": "0xD122517Ca17E5Dc1d77Bad87D0cFdc00e9691Ba4",
-    "underlyingAsset": "0x83599937c2C9bEA0E0E8ac096c6f32e86486b410",
-    "expiry": 1746662400,
-    "symbol": "liquidBeraETH"
-  },
-  {
-    "chainId": 1,
     "pt": "0xf99985822fb361117FCf3768D34a6353E6022F5F",
     "market": "0xC374f7eC85F8C7DE3207a10bB1978bA104bdA3B2",
     "underlyingAsset": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
@@ -489,18 +505,18 @@
   },
   {
     "chainId": 1,
-    "pt": "0xfc94AEaf21ab0124fb369Bf40982dbad804D682E",
-    "market": "0x6fEa50057Edd8baA63f3d5ffD72953b61917507D",
-    "underlyingAsset": "0xC673ef7791724f0dcca38adB47Fbb3AEF3DB6C80",
-    "expiry": 1746662400,
-    "symbol": "liquidBeraBTC"
-  },
-  {
-    "chainId": 1,
     "pt": "0xFd1BB7D74698Da38D8B5D871b189549Ef4B7d976",
     "market": "0x8e1C2Be682B0d3d8f8EE32024455A34Cc724CF08",
     "underlyingAsset": "0x5C20B550819128074FD538Edf79791733ccEdd18",
     "expiry": 1750896000,
     "symbol": "fUSDT"
+  },
+  {
+    "chainId": 1,
+    "pt": "0xFfEc096c087C13Cc268497B89A613cACE4DF9A48",
+    "market": "0xdacE1121e10500e9e29d071F01593fD76B000f08",
+    "underlyingAsset": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+    "expiry": 1755129600,
+    "symbol": "USDS"
   }
 ]

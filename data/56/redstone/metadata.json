@@ -132,6 +132,12 @@
     "heartbeat": 21600
   },
   {
+    "symbol": "USD1",
+    "priceFeedAddress": "0x6A1c87d11dDe3D1d52c24f8EC59B91019f14170D",
+    "deviationPercentage": 0.5,
+    "heartbeat": 21600
+  },
+  {
     "symbol": "BNB",
     "priceFeedAddress": "0x8dd2D85C7c28F43F965AE4d9545189C7D022ED0e",
     "deviationPercentage": 0.1,

@@ -341,16 +341,16 @@
     }
   },
   {
-    "id": "0x991cf976b83d5e785a66b4eda4ca5d7cc6818f65d25d0e16d0e69b253b0e2273",
+    "id": "0x64762254a3b5c7598b6b721dda6881991ba2cdf6c9a87f8d2ee7a40bb693f2ec",
     "attributes": {
       "asset_type": "Crypto",
-      "base": "YNE",
-      "description": "YESNOERROR / US DOLLAR",
-      "display_symbol": "YNE/USD",
-      "generic_symbol": "YNEUSD",
+      "base": "SIGN",
+      "description": "SIGN / US DOLLAR",
+      "display_symbol": "SIGN/USD",
+      "generic_symbol": "SIGNUSD",
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.YNE/USD"
+      "symbol": "Crypto.SIGN/USD"
     }
   },
   {
@@ -3266,16 +3266,16 @@
     }
   },
   {
-    "id": "0x972776d57490d31c32279c16054e5c01160bd9a2e6af8b58780c82052b053549",
+    "id": "0x631c56d422c709f895d3f91dc4d4406c2caa7a9af6d8e20a24192ae2f437c8b7",
     "attributes": {
-      "asset_type": "Crypto",
-      "base": "CANTO",
-      "description": "CANTO / US DOLLAR",
-      "display_symbol": "CANTO/USD",
-      "generic_symbol": "CANTOUSD",
+      "asset_type": "Equity",
+      "base": "US301Q",
+      "description": "PYTH US 30 1ST QUARTER / US DOLLAR",
+      "display_symbol": "US301Q/USD",
+      "generic_symbol": "US301Q",
       "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.CANTO/USD"
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400",
+      "symbol": "Equity.US.US301Q/USD"
     }
   },
   {
@@ -3502,17 +3502,20 @@
     }
   },
   {
-    "id": "0x9d6cc169bca67135a4d8e91470e366ba88333245bea942c8456bf26710190e85",
+    "id": "0xe722560a66e4ab00522ef20a38fa2ba5d1b41f1c5404723ed895d202a7af7cc4",
     "attributes": {
-      "asset_type": "Crypto Redemption Rate",
-      "base": "ULTRAETHS",
-      "contract_id": "eth: 0xF0a949B935e367A94cDFe0F2A54892C2BC7b2131",
-      "description": "AFFINE ULTRAETHS / ETHEREUM REDEMPTION RATE",
-      "display_symbol": "ULTRAETHS/ETH",
-      "generic_symbol": "ULTRAETHSETH",
-      "quote_currency": "ETH",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.ULTRAETHS/ETH.RR"
+      "asset_type": "Equity",
+      "base": "TSM",
+      "cms_symbol": "TSM",
+      "country": "US",
+      "cqs_symbol": "TSM",
+      "description": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LIMITED / US DOLLAR",
+      "display_symbol": "TSM/USD",
+      "nasdaq_symbol": "TSM",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
+      "symbol": "Equity.US.TSM/USD"
     }
   },
   {
@@ -6790,17 +6793,16 @@
     }
   },
   {
-    "id": "0xc75ae44b9a0cfa738de09ba2eae24e8797c9555db501bb5c014f827f5aec393c",
+    "id": "0x7d4bf8266cd493e9d012dcbe0d43221fc731abc6050cf6df62437b83942a5fc6",
     "attributes": {
-      "asset_type": "Crypto Redemption Rate",
-      "base": "APXETH",
-      "contract_id": "eth: 0x9Ba021B0a9b958B5E75cE9f6dff97C7eE52cb3E6",
-      "description": "DINERO APX ETH / DINERO STAKED ETH REDEMPTION RATE",
-      "display_symbol": "APXETH/PXETH",
-      "generic_symbol": "APXETHPXETH",
-      "quote_currency": "PXETH",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.APXETH/PXETH.RR"
+      "asset_type": "Equity",
+      "base": "US303Q",
+      "description": "PYTH US 30 3RD QUARTER / US DOLLAR",
+      "display_symbol": "US303Q/USD",
+      "generic_symbol": "US303Q",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400",
+      "symbol": "Equity.US.US303Q/USD"
     }
   },
   {
@@ -6843,17 +6845,16 @@
     }
   },
   {
-    "id": "0x00e3d49cc7f4502c813e5ed1b787ae4dd4442e3d8f7e35a961a183e1dd94b2e2",
+    "id": "0x519fb1ca86223314ae22ce7e0346197c994c3d61940ce0c099e338ab0510a7a2",
     "attributes": {
-      "asset_type": "Crypto Redemption Rate",
-      "base": "PZETH",
-      "contract_id": "eth: 0x8c9532a60E0E7C6BbD2B2c1303F63aCE1c3E9811",
-      "description": "RENZO RESTAKED LST / WRAPPED STETH REDEMPTION RATE",
-      "display_symbol": "PZETH/WSTETH",
-      "generic_symbol": "PZETHWSTETH",
-      "quote_currency": "WSTETH",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.PZETH/WSTETH.RR"
+      "asset_type": "Equity",
+      "base": "US1002Q",
+      "description": "PYTH US 100 2ND QUARTER / US DOLLAR",
+      "display_symbol": "US1002Q/USD",
+      "generic_symbol": "US1002Q",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400",
+      "symbol": "Equity.US.US1002Q/USD"
     }
   },
   {
@@ -7663,30 +7664,30 @@
     }
   },
   {
-    "id": "0x67d49e3942c752eac76f1e055cdefdb7d1120fad8d9f8559e7d887db119194ec",
+    "id": "0x28db166ac107eb63bf590e41615eca10f11f6ef823a6214ec89429e52c0f946a",
     "attributes": {
-      "asset_type": "Crypto Redemption Rate",
-      "base": "SUSDZ",
-      "contract_id": "eth: 0x547213367cfB08ab418E7b54d7883b2C2AA27Fd7",
-      "description": "STAKED ANZEN USDZ / ANZEN USDZ REDEMPTION RATE",
-      "display_symbol": "SUSDZ/USDZ",
-      "generic_symbol": "SUSDZUSDZ",
-      "quote_currency": "USDZ",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.SUSDZ/USDZ.RR"
+      "asset_type": "Equity",
+      "base": "US5001Q",
+      "description": "PYTH US 500 1ST QUARTER / US DOLLAR",
+      "display_symbol": "US5001Q/USD",
+      "generic_symbol": "US5001Q",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400",
+      "symbol": "Equity.US.US5001Q/USD"
     }
   },
   {
-    "id": "0x131f24ac089e2ba36f46273736df54dcf7b3fe9c85d48f037e1cf6e08c0c9679",
+    "id": "0xffeb97dc9f9851663bb2ccad628e7dff955fa2d0959bc3e46710b34eda72089d",
     "attributes": {
-      "asset_type": "Crypto",
-      "base": "USDZ",
-      "description": "ANZEN USDZ / US DOLLAR",
-      "display_symbol": "USDZ/USD",
-      "generic_symbol": "USDZUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.USDZ/USD"
+      "asset_type": "Equity",
+      "base": "1321-JP",
+      "country": "JP",
+      "description": "NEXT FUNDS NIKKEI 225 ETF / JAPANESE YEN",
+      "display_symbol": "1321:JP/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.1321-JP/JPY"
     }
   },
   {
@@ -8334,7 +8335,7 @@
       "display_symbol": "USD/IDR",
       "generic_symbol": "USDIDR",
       "quote_currency": "IDR",
-      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;1224/0000-1700,1225/1800-2400,1231/0000-1700,0101/1800-2400",
       "symbol": "FX.USD/IDR",
       "tenor": "Spot"
     }
@@ -8818,16 +8819,16 @@
     }
   },
   {
-    "id": "0x4b1df64033d773452749a827cd5cc18f46dafa81c52c4149b4fc1a9634a42fa1",
+    "id": "0xc9a251e28c660c08796f005a4d61769829c81fd4474dbd91d934fa9d36398e08",
     "attributes": {
-      "asset_type": "Crypto",
-      "base": "MLG",
-      "description": "360NOSCOPE420BLAZEIT / US DOLLAR",
-      "display_symbol": "MLG/USD",
-      "generic_symbol": "MLGUSD",
+      "asset_type": "Equity",
+      "base": "US1003Q",
+      "description": "PYTH US 100 3RD QUARTER / US DOLLAR",
+      "display_symbol": "US1003Q/USD",
+      "generic_symbol": "US1003Q",
       "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.MLG/USD"
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400",
+      "symbol": "Equity.US.US1003Q/USD"
     }
   },
   {
@@ -14825,17 +14826,16 @@
     }
   },
   {
-    "id": "0x48f63b34e37948d05754540e68e0d3166798302c85ccf91d795f6654e264b04b",
+    "id": "0x8c102183926ffc9a1a1347a5a583661af37b415e93ea3f3591e94c303ed4f514",
     "attributes": {
-      "asset_type": "Crypto Redemption Rate",
-      "base": "ZKETH",
-      "contract_id": "zk: 0xb72207E1FB50f341415999732A20B6D25d8127aa",
-      "description": "WRAPPED ZK BRANDED ETH / DINERO STAKED ETH REDEMPTION RATE",
-      "display_symbol": "ZKETH/PXETH",
-      "generic_symbol": "ZKETHPXETH",
-      "quote_currency": "PXETH",
+      "asset_type": "Crypto",
+      "base": "PI",
+      "description": "PI NETWORK / US DOLLAR",
+      "display_symbol": "PI/USD",
+      "generic_symbol": "PIUSD",
+      "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.ZKETH/PXETH.RR"
+      "symbol": "Crypto.PI/USD"
     }
   },
   {
@@ -16805,45 +16805,43 @@
     }
   },
   {
-    "id": "0x94b6550984918f5952e60c482e807d58afbc9f0b2c989511ee0dc1dd15afeb1b",
+    "id": "0x491d2a4356b490d041a34730ad7fe54f7ed0483e6eb7a279feca7fe4b61fa4da",
     "attributes": {
-      "asset_type": "Crypto Redemption Rate",
-      "base": "YLBTCLST",
-      "contract_id": "eth: 0x6c77bdE03952BbcB923815d90A73a7eD7EC895D1",
-      "description": "CIAN YIELD LAYER BITCOIN LST / BITCOIN REDEMPTION RATE",
-      "display_symbol": "YLBTCLST/BTC",
-      "generic_symbol": "YLBTCLSTBTC",
-      "quote_currency": "BTC",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.YLBTCLST/BTC.RR"
+      "asset_type": "Equity",
+      "base": "HK.1211",
+      "country": "HK",
+      "description": "BYD ORD SHS H / HONG KONG DOLLAR",
+      "display_symbol": "1211-HK/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
+      "symbol": "Equity.HK.1211-HK/HKD"
     }
   },
   {
-    "id": "0xf9d9f3248759efe09860a4a778f7874a57f5b5b657eadc73ca21ec1170e981e0",
+    "id": "0x20ca2bf878779b0473f2074a513e736d486171ca9b4e428f4a9dd5a5024b7fd1",
     "attributes": {
-      "asset_type": "Crypto Redemption Rate",
-      "base": "YLRSETH",
-      "contract_id": "eth: 0xd87a19fF681AE98BF10d2220D1AE3Fbd374ADE4e",
-      "description": "CIAN YIELD LAYER KELP DAO RESTAKED ETH  / KELP DAO RESTAKED ETH REDEMPTION RATE",
-      "display_symbol": "YLRSETH/RSETH",
-      "generic_symbol": "YLRSETHRSETH",
-      "quote_currency": "RSETH",
+      "asset_type": "Crypto",
+      "base": "WFRAGSOL",
+      "description": "WRAPPED FRAGMENTIC RESTAKED SOLANA / US DOLLAR",
+      "display_symbol": "WFRAGSOL/USD",
+      "generic_symbol": "WFRAGSOLUSD",
+      "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.YLRSETH/RSETH.RR"
+      "symbol": "Crypto.WFRAGSOL/USD"
     }
   },
   {
-    "id": "0xebd6bb633e9f3107b31b8685871ffaf3a3a283b3cbf9683dc508f5609820228e",
+    "id": "0x08c73e187b45ecb2ab8375b975865d3c4a225fef1ccc7f326ad6eec66a24567a",
     "attributes": {
-      "asset_type": "Crypto Redemption Rate",
-      "base": "YLSTETH",
-      "contract_id": "eth: 0xB13aa2d0345b0439b064f26B82D8dCf3f508775d",
-      "description": "CIAN YIELD LAYER STAKED ETHEREUM / ETHEREUM REDEMPTION RATE",
-      "display_symbol": "YLSTETH/ETH",
-      "generic_symbol": "YLSTETHETH",
-      "quote_currency": "ETH",
+      "asset_type": "Crypto",
+      "base": "UETH",
+      "description": "UNIT ETHEREUM / US DOLLAR",
+      "display_symbol": "UETH/USD",
+      "generic_symbol": "UETHUSD",
+      "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.YLSTETH/ETH.RR"
+      "symbol": "Crypto.UETH/USD"
     }
   },
   {
@@ -19221,17 +19219,16 @@
     }
   },
   {
-    "id": "0xb01f0e62fddc755699aba1551726075edc84d3a3c1e9b2a126debee83a942e3c",
+    "id": "0x3e7d0dd3be36c4f0ee0efa7600ed5a5dcf5c4e0a1460d8c3fc46169bbd9d78db",
     "attributes": {
-      "asset_type": "Crypto Redemption Rate",
-      "base": "ASBNB",
-      "contract_id": "bnb: 0x2F31ab8950c50080E77999fa456372f276952fD8",
-      "description": "ASTHERUS STAKED BNB / LISTA STAKED BNB REDEMPTION RATE",
-      "display_symbol": "ASBNB/SLISBNB",
-      "generic_symbol": "ASBNBSLISBNB",
-      "quote_currency": "SLISBNB",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.ASBNB/SLISBNB.RR"
+      "asset_type": "Equity",
+      "base": "US302Q",
+      "description": "PYTH US 30 2ND QUARTER / US DOLLAR",
+      "display_symbol": "US302Q/USD",
+      "generic_symbol": "US302Q",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400",
+      "symbol": "Equity.US.US302Q/USD"
     }
   },
   {
@@ -19314,16 +19311,16 @@
     }
   },
   {
-    "id": "0xebdf9652e12bfd7701ac6e72452cf5fcb9e796d463e983579bf6e7a26d834880",
+    "id": "0xc08b05c2977790750d32f6c36ba86362639b3b8640433075dc4ceaeeaf6c11d6",
     "attributes": {
-      "asset_type": "Crypto",
-      "base": "SLISBNB",
-      "description": "LISTA STAKED BNB / US DOLLAR",
-      "display_symbol": "SLISBNB/USD",
-      "generic_symbol": "SLISBNBUSD",
+      "asset_type": "Equity",
+      "base": "US1001Q",
+      "description": "PYTH US 100 1ST QUARTER / US DOLLAR",
+      "display_symbol": "US1001Q/USD",
+      "generic_symbol": "US1001Q",
       "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.SLISBNB/USD"
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400",
+      "symbol": "Equity.US.US1001Q/USD"
     }
   },
   {
@@ -19489,17 +19486,16 @@
     }
   },
   {
-    "id": "0xc124681acdaed361c1dbd9c817022323c9beabec7d7a67eafca148260ff78c6a",
+    "id": "0x42bfb26778f3504a9f359a92c731f77d0c24aed9b7745276e3ad0c2d840b74c2",
     "attributes": {
-      "asset_type": "Crypto Redemption Rate",
-      "base": "YNBTCK",
-      "contract_id": "bnb: 0x78839cE14a8213779128Ee4da6D75E1326606A56",
-      "description": "YIELDNEST RESTAKED BITCOIN /  BITCOIN REDEMPTION RATE",
-      "display_symbol": "YNBTCK/BTC",
-      "generic_symbol": "YNBTCKBTC",
-      "quote_currency": "BTC",
+      "asset_type": "Crypto",
+      "base": "UBTC",
+      "description": "UNIT BITCOIN / US DOLLAR",
+      "display_symbol": "UBTC/USD",
+      "generic_symbol": "UBTCUSD",
+      "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.YNBTCK/BTC.RR"
+      "symbol": "Crypto.UBTC/USD"
     }
   },
   {
@@ -20476,16 +20472,16 @@
     }
   },
   {
-    "id": "0x5f79f5c5ac9c470f6014d399f468dd455ac8a6c021672ade02f36a19332eb7fa",
+    "id": "0x770571aab619609cb5c28d5b891d36c64b8d6d373977ba37de3ef5a46743eeef",
     "attributes": {
       "asset_type": "Equity",
-      "base": "US500",
-      "description": "PYTH US 500 INDEX / US DOLLAR",
-      "display_symbol": "US500/USD",
-      "generic_symbol": "US500",
+      "base": "US5002Q",
+      "description": "PYTH US 500 2ND QUARTER / US DOLLAR",
+      "display_symbol": "US5002Q/USD",
+      "generic_symbol": "US5002Q",
       "quote_currency": "USD",
       "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400",
-      "symbol": "Equity.Index.US.US500/USD"
+      "symbol": "Equity.US.US5002Q/USD"
     }
   },
   {
@@ -20515,16 +20511,16 @@
     }
   },
   {
-    "id": "0xcf1c42e76f8afc306880841a6973e98c1820c6224e4c3426f7d4a966c69958a7",
+    "id": "0x2f007d2339327f9be181b61354ca0ec579d8c4ed37d575bb66921109ebffc2c9",
     "attributes": {
       "asset_type": "Equity",
-      "base": "US30",
-      "description": "PYTH US 30 INDEX / US DOLLAR",
-      "display_symbol": "US30/USD",
-      "generic_symbol": "US30",
+      "base": "US5003Q",
+      "description": "PYTH US 500 3RD QUARTER / US DOLLAR",
+      "display_symbol": "US5003Q/USD",
+      "generic_symbol": "US5003Q",
       "quote_currency": "USD",
       "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400",
-      "symbol": "Equity.Index.US.US30/USD"
+      "symbol": "Equity.US.US5003Q/USD"
     }
   },
   {
@@ -20869,113 +20865,150 @@
     }
   },
   {
-    "id": "0x8c102183926ffc9a1a1347a5a583661af37b415e93ea3f3591e94c303ed4f514",
+    "id": "0xe9f7026d0e26b2643da0cc976bd6107d07092e11f2e4701f98a3c2ef45f0135a",
     "attributes": {
       "asset_type": "Crypto",
-      "base": "PI",
-      "description": "PI NETWORK / US DOLLAR",
-      "display_symbol": "PI/USD",
-      "generic_symbol": "PIUSD",
+      "base": "B3",
+      "description": "B3 / US DOLLAR",
+      "display_symbol": "B3/USD",
+      "generic_symbol": "B3USD",
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.PI/USD"
+      "symbol": "Crypto.B3/USD"
     }
   },
   {
-    "id": "0x64762254a3b5c7598b6b721dda6881991ba2cdf6c9a87f8d2ee7a40bb693f2ec",
+    "id": "0x203e5001cbcdc6c00b6a02e8a15851870250bd171cea24cfa93c86f0d5bb7641",
     "attributes": {
       "asset_type": "Crypto",
-      "base": "SIGN",
-      "description": "SIGN / US DOLLAR",
-      "display_symbol": "SIGN/USD",
-      "generic_symbol": "SIGNUSD",
+      "base": "GORK",
+      "description": "NEW XAI GORK / US DOLLAR",
+      "display_symbol": "GORK/USD",
+      "generic_symbol": "GORKUSD",
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.SIGN/USD"
+      "symbol": "Crypto.GORK/USD"
     }
   },
   {
-    "id": "0x42bfb26778f3504a9f359a92c731f77d0c24aed9b7745276e3ad0c2d840b74c2",
+    "id": "0x6d74813ee17291d5be18a355fe4d43fd300d625caea6554d49f740e7d112141e",
     "attributes": {
       "asset_type": "Crypto",
-      "base": "UBTC",
-      "description": "UNIT BITCOIN / US DOLLAR",
-      "display_symbol": "UBTC/USD",
-      "generic_symbol": "UBTCUSD",
+      "base": "LAUNCHCOIN",
+      "description": "LAUNCH COIN ON BELIEVE / US DOLLAR",
+      "display_symbol": "LAUNCHCOIN/USD",
+      "generic_symbol": "LAUNCHCOINUSD",
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.UBTC/USD"
+      "symbol": "Crypto.LAUNCHCOIN/USD"
     }
   },
   {
-    "id": "0x08c73e187b45ecb2ab8375b975865d3c4a225fef1ccc7f326ad6eec66a24567a",
+    "id": "0x570bb63d0f8b285fb0415c76eb763cfacb9f8cbd1a1e15fd48bd3f32e15b89f5",
     "attributes": {
-      "asset_type": "Crypto",
-      "base": "UETH",
-      "description": "UNIT ETHEREUM / US DOLLAR",
-      "display_symbol": "UETH/USD",
-      "generic_symbol": "UETHUSD",
-      "quote_currency": "USD",
+      "asset_type": "Crypto Redemption Rate",
+      "base": "SRUSD",
+      "contract_id": "eth: 0x5475611Dffb8ef4d697Ae39df9395513b6E947d7",
+      "description": "SAVINGS RESERVOIR US DOLLAR / RESERVOIR US DOLLAR REDEMPTION RATE",
+      "display_symbol": "SRUSD/RUSD",
+      "generic_symbol": "SRUSDRUSD",
+      "quote_currency": "RUSD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.UETH/USD"
+      "symbol": "Crypto.SRUSD/RUSD.RR"
     }
   },
   {
-    "id": "0x20ca2bf878779b0473f2074a513e736d486171ca9b4e428f4a9dd5a5024b7fd1",
+    "id": "0x08f0ff43e57ff3e388f5a14dc9ebd6c8446f41056940dcfa5b1d14493a9061cb",
     "attributes": {
-      "asset_type": "Crypto",
-      "base": "WFRAGSOL",
-      "description": "WRAPPED FRAGMENTIC RESTAKED SOLANA / US DOLLAR",
-      "display_symbol": "WFRAGSOL/USD",
-      "generic_symbol": "WFRAGSOLUSD",
-      "quote_currency": "USD",
+      "asset_type": "Crypto Redemption Rate",
+      "base": "STKAPT",
+      "contract_id": "apt: 0x2cc52445acc4c5e5817a0ac475976fbef966fedb6e30e7db792e10619c76181f",
+      "description": "STAKED KOFI APTOS / KOFI APTOS REDEMPTION RATE",
+      "display_symbol": "STKAPT/KAPT",
+      "generic_symbol": "STKAPTKAPT",
+      "quote_currency": "KAPT",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.WFRAGSOL/USD"
+      "symbol": "Crypto.STKAPT/KAPT.RR"
     }
   },
   {
-    "id": "0x491d2a4356b490d041a34730ad7fe54f7ed0483e6eb7a279feca7fe4b61fa4da",
+    "id": "0x9e366b579d1225fea6b1c7340afeeeb9033c2982853db9b76ed78b147dd8d452",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "SUSDA",
+      "contract_id": "eth: 0x01e3cc8E17755989ad2CAFE78A822354Eb5DdFA6",
+      "description": "SAVINGS USD AVALON / USD AVALON REDEMPTION RATE",
+      "display_symbol": "SUSDA/USDA",
+      "generic_symbol": "SUSDAUSDA",
+      "quote_currency": "USDA",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.SUSDA/USDA.RR"
+    }
+  },
+  {
+    "id": "0xee8e0a7de474035b5cbc1a5f762a74d654e5006b25bfe18f390cc5a3915b88ac",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "USDN",
+      "description": "NOBLE US DOLLAR / US DOLLAR",
+      "display_symbol": "USDN/USD",
+      "generic_symbol": "USDNUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.USDN/USD"
+    }
+  },
+  {
+    "id": "0x9554b381f1e1d12f5e2baa6a9c802114284df21ced6c90490c565d1334e72c94",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "YUSD",
+      "contract_id": "eth: 0x19Ebd191f7A24ECE672ba13A302212b5eF7F35cb",
+      "description": "YIELDFI YUSD / USD COIN REDEMPTION RATE",
+      "display_symbol": "YUSD/USDC",
+      "generic_symbol": "YUSDUSDC",
+      "quote_currency": "USDC",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.YUSD/USDC.RR"
+    }
+  },
+  {
+    "id": "0x3f25534247e93c87271d0b65b475b0c139b6cb3a734f3800a658e287a1283b2c",
     "attributes": {
       "asset_type": "Equity",
-      "base": "HK.1211",
-      "country": "HK",
-      "description": "BYD ORD SHS H / HONG KONG DOLLAR",
-      "display_symbol": "1211-HK/HKD",
-      "publish_interval": "5",
-      "quote_currency": "HKD",
-      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C",
-      "symbol": "Equity.HK.1211-HK/HKD"
-    }
-  },
-  {
-    "id": "0xffeb97dc9f9851663bb2ccad628e7dff955fa2d0959bc3e46710b34eda72089d",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "1321-JP",
-      "country": "JP",
-      "description": "NEXT FUNDS NIKKEI 225 ETF / JAPANESE YEN",
-      "display_symbol": "1321:JP/JPY",
-      "publish_interval": "5",
-      "quote_currency": "JPY",
-      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
-      "symbol": "Equity.JP.1321-JP/JPY"
-    }
-  },
-  {
-    "id": "0xe722560a66e4ab00522ef20a38fa2ba5d1b41f1c5404723ed895d202a7af7cc4",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "TSM",
-      "cms_symbol": "TSM",
-      "country": "US",
-      "cqs_symbol": "TSM",
-      "description": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LIMITED / US DOLLAR",
-      "display_symbol": "TSM/USD",
-      "nasdaq_symbol": "TSM",
-      "publish_interval": "5",
+      "base": "US1004Q",
+      "description": "PYTH US 100 4TH QUARTER / US DOLLAR",
+      "display_symbol": "US1004Q/USD",
+      "generic_symbol": "US1004Q",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0120/C,0217/C,0418/C,0526/C,0619/C",
-      "symbol": "Equity.US.TSM/USD"
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400",
+      "symbol": "Equity.US.US1004Q/USD"
+    }
+  },
+  {
+    "id": "0x9297f135ea97d8f7fa6ee79998bf00c3344328a59beaa984621b659d5afafb26",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "US304Q",
+      "description": "PYTH US 30 4TH QUARTER / US DOLLAR",
+      "display_symbol": "US304Q/USD",
+      "generic_symbol": "US304Q",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400",
+      "symbol": "Equity.US.US304Q/USD"
+    }
+  },
+  {
+    "id": "0x7742d1d4650d34baec571c9a610345335cdc7eb88dc9a8b3ff810dc717a6c182",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "US5004Q",
+      "description": "PYTH US 500 4TH QUARTER / US DOLLAR",
+      "display_symbol": "US5004Q/USD",
+      "generic_symbol": "US5004Q",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400",
+      "symbol": "Equity.US.US5004Q/USD"
     }
   }
 ]

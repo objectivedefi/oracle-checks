@@ -105,7 +105,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Synthetix Network",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -268,10 +268,23 @@
     "proxyAddress": "0x7Ee401373A92f885a7C3A53CF46dbe661eaFb1C0",
     "threshold": 0.5,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "assetName": "Shiba Inu",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "baseAsset": "SHIB",
+      "baseAssetClic": "SHIB_CR",
+      "blockchainName": "Avalanche",
+      "clicProductName": "SHIB/USD-RefPrice-DF-Avalanche-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
     "decimals": 18
   },
   {
@@ -296,7 +309,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Convex Finance",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -338,7 +351,9 @@
     "assetName": "",
     "feedCategory": "",
     "feedType": "",
-    "docs": {},
+    "docs": {
+      "hidden": true
+    },
     "decimals": 18
   },
   {
@@ -405,10 +420,26 @@
     "proxyAddress": "0x7E77D9F06056017334e26bEd92176222169DE6C1",
     "threshold": 0.5,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "assetName": "Elixir deUSD",
+    "feedCategory": "high",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Stablecoin",
+      "baseAsset": "DEUSD",
+      "baseAssetClic": "DEUSD_CR",
+      "blockchainName": "Avalanche",
+      "clicProductName": "DEUSD/USD-RefPrice-DF-Avalanche-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "underlyingAsset": "USD",
+      "underlyingAssetClic": "USD_FX"
+    },
     "decimals": 8
   },
   {
@@ -1079,7 +1110,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Frax Share",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1445,10 +1476,26 @@
     "proxyAddress": "0xB5f607A2bb2C950053F4DA1F535180e5902EAD16",
     "threshold": 0.5,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "assetName": "Lido wstETH",
+    "feedCategory": "medium",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Pegged Asset",
+      "baseAsset": "WSTETH",
+      "baseAssetClic": "WSTETH_CR",
+      "blockchainName": "Avalanche",
+      "clicProductName": "WSTETH/USD-RefPrice-DF-Avalanche-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "underlyingAsset": "STETH",
+      "underlyingAssetClic": "STETH_CR"
+    },
     "decimals": 8
   },
   {
@@ -1959,7 +2006,7 @@
     "threshold": 0.1,
     "valuePrefix": "",
     "assetName": "DAI",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2124,7 +2171,9 @@
     "assetName": "",
     "feedCategory": "",
     "feedType": "",
-    "docs": {},
+    "docs": {
+      "hidden": true
+    },
     "decimals": 18
   },
   {
@@ -2476,7 +2525,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Polygon (MATIC)",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2639,7 +2688,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "BNB",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2843,7 +2892,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Decentraland",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3213,7 +3262,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Chiliz",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",

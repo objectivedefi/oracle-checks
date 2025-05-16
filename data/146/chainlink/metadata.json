@@ -64,7 +64,7 @@
     "threshold": 0.3,
     "valuePrefix": "",
     "assetName": "DAI",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -408,7 +408,9 @@
     "assetName": "",
     "feedCategory": "",
     "feedType": "",
-    "docs": {},
+    "docs": {
+      "hidden": true
+    },
     "decimals": 18
   },
   {
@@ -547,7 +549,9 @@
     "assetName": "",
     "feedCategory": "",
     "feedType": "",
-    "docs": {},
+    "docs": {
+      "hidden": true
+    },
     "decimals": 18
   },
   {
@@ -574,7 +578,9 @@
     "assetName": "",
     "feedCategory": "",
     "feedType": "",
-    "docs": {},
+    "docs": {
+      "hidden": true
+    },
     "decimals": 18
   },
   {
@@ -795,11 +801,22 @@
     "proxyAddress": "0x0fceF1123FDBEdC89a0189B15D35B7A33B7694c0",
     "threshold": 0.5,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
+    "assetName": "Euro",
+    "feedCategory": "low",
+    "feedType": "Forex",
     "docs": {
-      "marketHours": "Forex"
+      "assetClass": "Fiat",
+      "baseAsset": "EUR",
+      "baseAssetClic": "EUR_FX",
+      "blockchainName": "Sonic",
+      "clicProductName": "EUR/USD-RefPrice-DF-Sonic-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
     },
     "decimals": 8
   },
@@ -952,7 +969,9 @@
     "assetName": "",
     "feedCategory": "",
     "feedType": "",
-    "docs": {},
+    "docs": {
+      "hidden": true
+    },
     "decimals": 18
   },
   {
@@ -1098,10 +1117,24 @@
     "proxyAddress": "0xd3b87e6F953B1126056b914A8CBE78035fB3E241",
     "threshold": 1e-7,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
-    "docs": {},
+    "assetName": "PumpBTC / BTC Exchange Rate",
+    "feedCategory": "custom",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "assetSubClass": "Pegged Asset",
+      "baseAsset": "PumpBTC",
+      "baseAssetClic": "PumpBTC_CR",
+      "blockchainName": "Sonic",
+      "clicProductName": "PumpBTC/BTC-ExRate-DF-Sonic-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Exchange rate",
+      "productType": "Price",
+      "productTypeCode": "ExRate",
+      "quoteAsset": "BTC",
+      "quoteAssetClic": "BTC_CR"
+    },
     "decimals": 18
   },
   {
@@ -1126,11 +1159,22 @@
     "proxyAddress": "0x30caC44b395eB969C9CA0d44dF39e6E0aE8f8D94",
     "threshold": 0.5,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
+    "assetName": "Origin Sonic",
+    "feedCategory": "medium",
+    "feedType": "Crypto",
     "docs": {
-      "marketHours": "Crypto"
+      "assetClass": "Crypto",
+      "baseAsset": "OS",
+      "baseAssetClic": "OS_CR",
+      "blockchainName": "Sonic",
+      "clicProductName": "OS/S-RefPrice-DF-Sonic-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "S",
+      "quoteAssetClic": "S_CR"
     },
     "decimals": 18
   },
@@ -1156,11 +1200,25 @@
     "proxyAddress": "0x8f0240dc9C7644D121D370d8ee61FF9F2356521E",
     "threshold": 0.5,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
+    "assetName": "Circle EUR",
+    "feedCategory": "medium",
+    "feedType": "Crypto",
     "docs": {
-      "marketHours": "Crypto"
+      "assetClass": "Crypto",
+      "assetSubClass": "Stablecoin",
+      "baseAsset": "EURC",
+      "baseAssetClic": "EURC_CR",
+      "blockchainName": "Sonic",
+      "clicProductName": "EURC/USD-RefPrice-DF-Sonic-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX",
+      "underlyingAsset": "USD",
+      "underlyingAssetClic": "USD_FX"
     },
     "decimals": 8
   },
@@ -1231,7 +1289,7 @@
     "feedCategory": "",
     "feedType": "",
     "docs": {
-      "marketHours": "Crypto"
+      "hidden": true
     },
     "decimals": 8
   },
@@ -1383,7 +1441,9 @@
     "assetName": "",
     "feedCategory": "",
     "feedType": "",
-    "docs": {},
+    "docs": {
+      "hidden": true
+    },
     "decimals": 18
   }
 ]

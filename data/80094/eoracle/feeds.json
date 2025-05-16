@@ -182,5 +182,13 @@
     "description": "weETH/USD",
     "feedId": 89,
     "version": "1"
+  },
+  {
+    "address": "0x001B8207BC941c4da37673e741D3587591E405bE",
+    "chainId": 80094,
+    "decimals": 8,
+    "description": "xUSD/USD",
+    "feedId": 146,
+    "version": "1"
   }
 ]
