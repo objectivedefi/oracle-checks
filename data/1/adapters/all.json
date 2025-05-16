@@ -17,8 +17,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -55,7 +55,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -75,8 +75,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -113,7 +113,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -133,8 +133,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -171,7 +171,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChronicleOracle",
@@ -191,8 +191,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -223,7 +223,7 @@
     "methodology": "Unknown",
     "model": "Push",
     "provider": "Chronicle",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChronicleOracle",
@@ -243,8 +243,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -275,7 +275,7 @@
     "methodology": "Unknown",
     "model": "Push",
     "provider": "Chronicle",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChronicleOracle",
@@ -295,8 +295,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -327,7 +327,7 @@
     "methodology": "Unknown",
     "model": "Push",
     "provider": "Chronicle",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -347,8 +347,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -385,7 +385,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -405,8 +405,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -443,7 +443,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -463,8 +463,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -501,7 +501,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -521,8 +521,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -559,7 +559,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -579,8 +579,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -617,7 +617,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -637,8 +637,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -675,7 +675,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -695,8 +695,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -733,7 +733,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -753,8 +753,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -791,7 +791,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -811,8 +811,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -849,7 +849,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -869,8 +869,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -907,7 +907,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -927,8 +927,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -965,7 +965,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -985,8 +985,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -1023,7 +1023,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -1043,8 +1043,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -1081,7 +1081,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -1101,8 +1101,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -1139,7 +1139,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -1159,8 +1159,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -1197,7 +1197,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -1217,8 +1217,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -1255,7 +1255,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -1275,8 +1275,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -1313,7 +1313,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -1333,8 +1333,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -1371,7 +1371,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -1391,8 +1391,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -1429,7 +1429,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -1449,8 +1449,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -1487,7 +1487,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -1507,8 +1507,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -1545,7 +1545,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -1565,8 +1565,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -1603,7 +1603,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -1623,8 +1623,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -1661,7 +1661,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -1681,8 +1681,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -1719,7 +1719,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -1739,8 +1739,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -1777,7 +1777,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -1797,8 +1797,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -1835,7 +1835,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -1855,8 +1855,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -1893,7 +1893,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -1913,8 +1913,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -1951,7 +1951,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -1971,8 +1971,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -2009,7 +2009,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -2029,8 +2029,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -2067,7 +2067,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -2087,8 +2087,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -2125,7 +2125,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -2145,8 +2145,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -2183,7 +2183,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -2203,8 +2203,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -2241,7 +2241,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -2261,8 +2261,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -2299,7 +2299,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -2319,8 +2319,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -2357,7 +2357,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -2377,8 +2377,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -2415,7 +2415,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -2435,8 +2435,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -2473,7 +2473,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -2493,8 +2493,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -2531,7 +2531,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -2551,8 +2551,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -2589,7 +2589,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -2609,8 +2609,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -2647,7 +2647,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -2667,8 +2667,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -2705,7 +2705,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -2725,8 +2725,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -2763,7 +2763,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -2783,8 +2783,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -2821,7 +2821,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -2841,8 +2841,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -2879,7 +2879,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -2899,8 +2899,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -2937,7 +2937,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -2957,8 +2957,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -2995,7 +2995,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -3015,8 +3015,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -3053,7 +3053,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -3073,8 +3073,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -3111,7 +3111,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -3131,8 +3131,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -3169,7 +3169,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -3189,8 +3189,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -3227,7 +3227,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -3247,8 +3247,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -3285,7 +3285,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -3305,8 +3305,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -3343,7 +3343,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -3363,8 +3363,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -3401,7 +3401,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -3421,8 +3421,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -3459,7 +3459,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -3481,8 +3481,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -3543,7 +3543,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -3565,8 +3565,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -3627,7 +3627,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -3649,8 +3649,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -3711,7 +3711,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -3733,8 +3733,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -3795,7 +3795,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -3817,8 +3817,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -3879,7 +3879,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -3901,8 +3901,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -3963,7 +3963,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -3985,8 +3985,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -4047,7 +4047,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -4069,8 +4069,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -4131,7 +4131,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -4153,8 +4153,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -4215,7 +4215,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -4237,8 +4237,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -4299,7 +4299,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -4321,8 +4321,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -4383,7 +4383,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -4405,8 +4405,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -4467,7 +4467,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -4489,8 +4489,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -4551,7 +4551,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -4573,8 +4573,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -4635,7 +4635,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -4657,8 +4657,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -4719,7 +4719,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -4741,8 +4741,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -4803,7 +4803,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -4825,8 +4825,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -4887,7 +4887,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -4909,8 +4909,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -4971,7 +4971,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -4993,8 +4993,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -5055,7 +5055,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -5077,8 +5077,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -5139,7 +5139,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -5161,8 +5161,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -5223,7 +5223,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -5245,8 +5245,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -5307,7 +5307,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -5329,8 +5329,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -5391,7 +5391,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -5413,8 +5413,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -5475,7 +5475,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -5497,8 +5497,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -5559,7 +5559,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -5581,8 +5581,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -5643,7 +5643,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -5665,8 +5665,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -5727,7 +5727,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -5749,8 +5749,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -5811,7 +5811,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -5833,8 +5833,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -5895,7 +5895,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -5917,8 +5917,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -5979,7 +5979,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -6001,8 +6001,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -6063,7 +6063,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -6085,8 +6085,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -6147,7 +6147,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -6169,8 +6169,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -6231,7 +6231,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -6253,8 +6253,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -6315,7 +6315,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -6337,8 +6337,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -6399,7 +6399,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -6421,8 +6421,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -6483,7 +6483,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -6505,8 +6505,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -6567,7 +6567,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -6589,8 +6589,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -6651,7 +6651,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -6673,8 +6673,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -6735,7 +6735,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -6757,8 +6757,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -6819,7 +6819,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -6841,8 +6841,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -6903,7 +6903,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -6925,8 +6925,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -6987,7 +6987,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -7009,8 +7009,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -7071,7 +7071,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -7093,8 +7093,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -7155,7 +7155,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -7177,8 +7177,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -7239,7 +7239,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -7261,8 +7261,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -7323,7 +7323,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -7345,8 +7345,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -7407,7 +7407,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -7429,8 +7429,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -7491,7 +7491,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -7513,8 +7513,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -7575,7 +7575,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -7597,8 +7597,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -7659,7 +7659,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -7681,8 +7681,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -7743,7 +7743,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -7765,8 +7765,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -7827,7 +7827,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -7849,8 +7849,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -7911,7 +7911,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -7933,8 +7933,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -7995,7 +7995,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -8017,8 +8017,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -8079,7 +8079,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -8101,8 +8101,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -8163,7 +8163,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -8185,8 +8185,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -8247,7 +8247,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -8269,8 +8269,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -8331,7 +8331,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -8353,8 +8353,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -8415,7 +8415,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -8437,8 +8437,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -8499,7 +8499,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -8521,8 +8521,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -8583,7 +8583,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -8605,8 +8605,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -8667,7 +8667,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -8689,8 +8689,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -8751,7 +8751,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -8771,8 +8771,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -8809,7 +8809,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -8829,8 +8829,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -8867,7 +8867,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -8887,8 +8887,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -8925,7 +8925,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -8945,8 +8945,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -8983,7 +8983,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -9003,8 +9003,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -9041,7 +9041,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -9061,8 +9061,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -9099,7 +9099,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -9119,8 +9119,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -9157,7 +9157,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -9177,8 +9177,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -9215,7 +9215,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -9235,8 +9235,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -9273,7 +9273,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -9293,8 +9293,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -9331,7 +9331,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -9351,8 +9351,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -9389,7 +9389,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -9409,8 +9409,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -9447,7 +9447,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -9467,8 +9467,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -9505,7 +9505,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -9525,8 +9525,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -9563,7 +9563,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -9583,8 +9583,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -9621,7 +9621,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -9642,8 +9642,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -9680,7 +9680,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -9701,8 +9701,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -9739,7 +9739,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -9760,8 +9760,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -9798,7 +9798,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -9819,8 +9819,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -9857,7 +9857,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -9878,8 +9878,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -9916,7 +9916,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -9937,8 +9937,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -9975,7 +9975,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -9996,8 +9996,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -10034,7 +10034,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -10055,8 +10055,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -10093,7 +10093,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -10114,8 +10114,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -10152,7 +10152,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -10173,8 +10173,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -10211,7 +10211,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -10232,8 +10232,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -10270,7 +10270,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -10291,8 +10291,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -10329,7 +10329,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -10350,8 +10350,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -10388,7 +10388,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -10409,8 +10409,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -10447,7 +10447,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -10468,8 +10468,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -10506,7 +10506,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -10527,8 +10527,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -10565,7 +10565,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -10586,8 +10586,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -10624,7 +10624,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -10645,8 +10645,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -10683,7 +10683,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -10704,8 +10704,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -10742,7 +10742,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -10763,8 +10763,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -10801,7 +10801,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -10822,8 +10822,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -10860,7 +10860,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -10881,8 +10881,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -10919,7 +10919,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -10940,8 +10940,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -10978,7 +10978,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -10999,8 +10999,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -11037,7 +11037,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -11057,8 +11057,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -11095,7 +11095,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "RedStone",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "LidoFundamentalOracle",
@@ -11114,8 +11114,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -11158,7 +11158,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Lido Fundamental",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -11179,8 +11179,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -11217,7 +11217,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -11237,8 +11237,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -11275,7 +11275,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -11295,8 +11295,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -11333,7 +11333,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -11353,8 +11353,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -11391,7 +11391,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "FixedRateOracle",
@@ -11410,8 +11410,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -11448,7 +11448,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "FixedRateOracle",
@@ -11467,8 +11467,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -11505,7 +11505,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "FixedRateOracle",
@@ -11524,8 +11524,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -11562,7 +11562,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "RateProviderOracle",
@@ -11581,8 +11581,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -11613,7 +11613,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Rate Provider",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "RateProviderOracle",
@@ -11632,8 +11632,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -11664,7 +11664,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Rate Provider",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "RateProviderOracle",
@@ -11683,8 +11683,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -11715,7 +11715,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Rate Provider",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "RateProviderOracle",
@@ -11734,8 +11734,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -11766,7 +11766,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Rate Provider",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "RateProviderOracle",
@@ -11785,8 +11785,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -11817,7 +11817,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Rate Provider",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "RateProviderOracle",
@@ -11836,8 +11836,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -11868,7 +11868,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Rate Provider",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "RateProviderOracle",
@@ -11887,8 +11887,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -11919,7 +11919,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Rate Provider",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "RateProviderOracle",
@@ -11938,8 +11938,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -11970,7 +11970,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Rate Provider",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "RateProviderOracle",
@@ -11989,8 +11989,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -12021,7 +12021,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Rate Provider",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "RateProviderOracle",
@@ -12040,8 +12040,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -12072,7 +12072,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Rate Provider",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "RateProviderOracle",
@@ -12091,8 +12091,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -12123,7 +12123,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Rate Provider",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "RateProviderOracle",
@@ -12142,8 +12142,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -12174,7 +12174,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Rate Provider",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "RateProviderOracle",
@@ -12193,8 +12193,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -12225,7 +12225,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Rate Provider",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "RateProviderOracle",
@@ -12244,8 +12244,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -12276,7 +12276,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Rate Provider",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "RateProviderOracle",
@@ -12295,8 +12295,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -12327,7 +12327,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Rate Provider",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "RateProviderOracle",
@@ -12346,8 +12346,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -12378,7 +12378,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Rate Provider",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "FixedRateOracle",
@@ -12397,8 +12397,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -12435,7 +12435,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -12456,8 +12456,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -12494,7 +12494,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -12515,8 +12515,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -12553,7 +12553,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -12574,8 +12574,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -12612,7 +12612,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChronicleOracle",
@@ -12632,8 +12632,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -12664,7 +12664,7 @@
     "methodology": "Unknown",
     "model": "Push",
     "provider": "Chronicle",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChronicleOracle",
@@ -12684,8 +12684,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -12716,7 +12716,7 @@
     "methodology": "Unknown",
     "model": "Push",
     "provider": "Chronicle",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -12736,8 +12736,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -12774,7 +12774,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -12794,8 +12794,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -12832,7 +12832,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "RedStone",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -12852,8 +12852,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -12890,7 +12890,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -12910,8 +12910,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -12948,7 +12948,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -12968,8 +12968,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -13006,7 +13006,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChronicleOracle",
@@ -13026,8 +13026,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -13058,7 +13058,7 @@
     "methodology": "Unknown",
     "model": "Push",
     "provider": "Chronicle",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "RateProviderOracle",
@@ -13077,8 +13077,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -13109,7 +13109,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Rate Provider",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -13129,8 +13129,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -13167,7 +13167,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "RedStone",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -13188,8 +13188,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -13226,7 +13226,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -13247,8 +13247,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -13285,7 +13285,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -13306,8 +13306,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -13344,7 +13344,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -13365,8 +13365,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -13403,7 +13403,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -13424,8 +13424,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -13462,7 +13462,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "FixedRateOracle",
@@ -13481,8 +13481,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -13519,7 +13519,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "FixedRateOracle",
@@ -13538,8 +13538,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -13576,7 +13576,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -13598,8 +13598,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -13660,7 +13660,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -13681,8 +13681,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -13719,7 +13719,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -13740,8 +13740,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -13778,7 +13778,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -13799,8 +13799,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -13837,7 +13837,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -13858,8 +13858,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -13896,7 +13896,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -13917,8 +13917,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -13955,7 +13955,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -13976,8 +13976,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -14014,7 +14014,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -14035,8 +14035,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -14073,7 +14073,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -14094,8 +14094,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -14132,7 +14132,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -14153,8 +14153,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -14191,7 +14191,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -14212,8 +14212,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -14250,7 +14250,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -14271,8 +14271,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -14309,7 +14309,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -14330,8 +14330,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -14368,7 +14368,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -14390,8 +14390,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -14452,7 +14452,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -14474,8 +14474,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -14536,7 +14536,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -14558,8 +14558,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -14620,7 +14620,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -14642,8 +14642,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -14704,7 +14704,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -14726,8 +14726,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -14788,7 +14788,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "address": "0x916F006ae522769BadF95cf6AFdb90E162cb96E6"
@@ -14814,8 +14814,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -14852,7 +14852,7 @@
     "methodology": "Unknown",
     "model": "Push",
     "provider": "Midas",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PendleOracle",
@@ -14872,8 +14872,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -14910,7 +14910,7 @@
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -14931,8 +14931,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -14969,7 +14969,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -14990,8 +14990,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -15028,7 +15028,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -15050,8 +15050,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -15112,7 +15112,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PendleOracle",
@@ -15132,8 +15132,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -15170,7 +15170,7 @@
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PendleOracle",
@@ -15190,8 +15190,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -15228,7 +15228,7 @@
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PendleOracle",
@@ -15248,8 +15248,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -15286,7 +15286,7 @@
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PendleOracle",
@@ -15306,8 +15306,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -15344,7 +15344,7 @@
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -15365,8 +15365,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -15403,7 +15403,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -15424,8 +15424,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -15462,7 +15462,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -15483,8 +15483,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -15521,7 +15521,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -15542,8 +15542,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -15580,7 +15580,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -15601,8 +15601,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -15639,7 +15639,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -15660,8 +15660,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -15698,7 +15698,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -15719,8 +15719,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -15757,7 +15757,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -15778,8 +15778,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -15816,7 +15816,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -15837,8 +15837,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -15875,7 +15875,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "FixedRateOracle",
@@ -15894,8 +15894,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -15932,7 +15932,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PendleOracle",
@@ -15952,8 +15952,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -15990,7 +15990,7 @@
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PendleOracle",
@@ -16010,8 +16010,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -16048,7 +16048,7 @@
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -16069,8 +16069,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -16107,7 +16107,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -16128,8 +16128,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -16166,7 +16166,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -16187,8 +16187,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -16225,7 +16225,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "FixedRateOracle",
@@ -16244,8 +16244,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -16282,7 +16282,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "FixedRateOracle",
@@ -16301,8 +16301,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -16339,7 +16339,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "address": "0x2eA2c0858BB6987AFBA62fEBB253c8E2eb718A43"
@@ -16365,8 +16365,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -16403,7 +16403,7 @@
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -16424,8 +16424,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -16462,7 +16462,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -16483,8 +16483,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -16521,7 +16521,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "FixedRateOracle",
@@ -16540,8 +16540,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -16578,7 +16578,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "FixedRateOracle",
@@ -16597,8 +16597,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -16635,7 +16635,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PendleOracle",
@@ -16655,8 +16655,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -16693,7 +16693,7 @@
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PendleOracle",
@@ -16713,8 +16713,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -16751,7 +16751,7 @@
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -16773,8 +16773,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -16835,7 +16835,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -16857,8 +16857,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -16919,7 +16919,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -16940,8 +16940,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -16978,7 +16978,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -16999,8 +16999,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -17037,7 +17037,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "FixedRateOracle",
@@ -17056,8 +17056,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -17094,7 +17094,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -17116,8 +17116,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -17178,7 +17178,7 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -17198,8 +17198,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -17236,7 +17236,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -17258,8 +17258,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -17320,7 +17320,7 @@
     "methodology": "Exchange Rate",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -17341,8 +17341,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -17379,7 +17379,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -17400,8 +17400,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -17438,7 +17438,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -17459,8 +17459,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -17497,7 +17497,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PendleOracle",
@@ -17517,8 +17517,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -17555,7 +17555,7 @@
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PendleOracle",
@@ -17575,8 +17575,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -17613,7 +17613,7 @@
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -17634,8 +17634,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -17672,7 +17672,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -17693,8 +17693,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -17731,7 +17731,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PendleOracle",
@@ -17751,8 +17751,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -17789,7 +17789,7 @@
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -17810,8 +17810,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -17848,7 +17848,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -17869,8 +17869,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -17907,7 +17907,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -17927,8 +17927,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -17965,7 +17965,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "RedStone",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -17986,8 +17986,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -18024,7 +18024,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkInfrequentOracle",
@@ -18044,8 +18044,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -18082,7 +18082,7 @@
     "methodology": "Unknown",
     "model": "Push",
     "provider": "Midas",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkInfrequentOracle",
@@ -18102,8 +18102,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -18140,7 +18140,7 @@
     "methodology": "Unknown",
     "model": "Push",
     "provider": "Midas",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "FixedRateOracle",
@@ -18159,8 +18159,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -18197,7 +18197,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -18217,8 +18217,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -18255,7 +18255,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -18276,8 +18276,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -18314,7 +18314,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "RateProviderOracle",
@@ -18333,8 +18333,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -18365,7 +18365,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Rate Provider",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -18386,8 +18386,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -18424,7 +18424,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -18445,8 +18445,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -18483,7 +18483,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -18504,8 +18504,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -18542,7 +18542,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -18563,8 +18563,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -18601,7 +18601,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -18622,8 +18622,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -18660,7 +18660,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkInfrequentOracle",
@@ -18680,8 +18680,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -18718,7 +18718,7 @@
     "methodology": "Unknown",
     "model": "Push",
     "provider": "Midas",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "CrossAdapter",
@@ -18739,8 +18739,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -18777,7 +18777,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "FixedRateOracle",
@@ -18796,8 +18796,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -18834,7 +18834,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "FixedRateOracle",
@@ -18853,8 +18853,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -18891,7 +18891,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "FixedRateOracle",
@@ -18910,8 +18910,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -18948,7 +18948,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "FixedRateOracle",
@@ -18967,8 +18967,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -19005,7 +19005,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkInfrequentOracle",
@@ -19025,8 +19025,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -19063,7 +19063,7 @@
     "methodology": "Unknown",
     "model": "Push",
     "provider": "Unknown",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "FixedRateOracle",
@@ -19082,8 +19082,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -19120,7 +19120,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "FixedRateOracle",
@@ -19139,8 +19139,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -19177,7 +19177,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "FixedRateOracle",
@@ -19196,8 +19196,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -19234,7 +19234,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "address": "0x30cfa91F2cb03B59F6d65b83150E3b2B7f46F5E5"
@@ -19258,8 +19258,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -19296,7 +19296,7 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "address": "0xF05CA1D76a7d5859014b8606ab69C6D41629109C"
@@ -19320,8 +19320,8 @@
       {
         "id": "ADAPTER_REGISTRY",
         "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry",
+        "pass": true
       },
       {
         "id": "SOURCE_CODE_PROVENANCE",
@@ -19358,6 +19358,6 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
-    "whitelisted": false
+    "whitelisted": true
   }
 ]
