@@ -38,6 +38,6 @@
     "@objectivelabs/oracle-sdk": "^1.1.2",
     "cbor-x": "^1.6.0",
     "dotenv": "^16.4.7",
-    "viem": "^2.23.3"
+    "viem": "^2.29.3"
   }
 }

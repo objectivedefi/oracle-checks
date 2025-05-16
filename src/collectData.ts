@@ -7,7 +7,6 @@ import {
   ChronicleFeed,
   EOracleFeed,
   fetchChainlinkMetadata,
-  fetchDeployedRouters,
   fetchEOracleMetadata,
   fetchPendleMetadata,
   fetchPythMetadata,
@@ -23,71 +22,42 @@ import {
   indexIdleTranches,
   indexMevLinearDiscountFeeds,
   indexRedStoneFeeds,
-  indexRegistry,
-  indexRouterHistoricalAdapters,
   MevLinearDiscountFeed,
   RedStoneFeed,
+  RegistryEntry,
 } from "@objectivelabs/oracle-sdk";
+import dotenv from "dotenv";
 import { Address, getAddress, Hex, zeroAddress } from "viem";
 
 import { batchArray } from "./batchArray";
 import { chainConfigs } from "./config/chainConfigs";
 import { fallbackAssets } from "./config/fallbackAssets";
+import {
+  fetchEulerApiDeployedRouters,
+  fetchEulerApiHistoricalAdapters,
+  fetchEulerApiWhitelistedAdapters,
+} from "./eulerApi";
 import { extractAssetAddresses } from "./extractAssetAddresses";
 import { CollectedData } from "./types";
 
+dotenv.config();
+
 const BATCH_SIZE = 50;
 
-// Helper function to query in batches with block ranges
-async function queryWithBlockRanges<T>({
-  fromBlock,
-  toBlock,
-  maxBlockRange,
-  queryFn,
-  mergeResults,
-}: {
-  fromBlock: bigint;
-  toBlock: bigint;
-  maxBlockRange?: bigint;
-  queryFn: (params: { fromBlock: bigint; toBlock: bigint }) => Promise<T>;
-  mergeResults: (results: T[]) => T;
-}): Promise<T> {
-  // If no max block range, just do a single query
-  if (!maxBlockRange) {
-    return queryFn({ fromBlock, toBlock });
-  }
-
-  const results: T[] = [];
-  let currentFromBlock = fromBlock;
-  const maxBlockRangeBigInt = BigInt(maxBlockRange);
-
-  while (currentFromBlock <= toBlock) {
-    const currentToBlock =
-      currentFromBlock + maxBlockRangeBigInt > toBlock
-        ? toBlock
-        : currentFromBlock + maxBlockRangeBigInt - 1n;
-
-    const result = await queryFn({ fromBlock: currentFromBlock, toBlock: currentToBlock });
-    results.push(result);
-
-    currentFromBlock = currentToBlock + 1n;
-  }
-
-  return mergeResults(results);
-}
-
 export async function collectData(chainId: number): Promise<CollectedData> {
-  const {
-    publicClient,
-    oracleRouterFactory,
-    oracleAdapterRegistry,
-    fromBlock,
-    maxBlockRange,
-    otherRecognizedAggregatorV3Feeds,
-  } = chainConfigs[chainId];
+  const { publicClient, otherRecognizedAggregatorV3Feeds } = chainConfigs[chainId];
 
   const logPrefix = `[${chainId} ${publicClient.chain?.name}]`;
   console.log(`${logPrefix} Begin data collection step`);
+
+  const historicalAdapters = await fetchEulerApiHistoricalAdapters(chainId);
+  console.log(`${logPrefix} Fetched ${historicalAdapters.length} historical adapters`);
+
+  const whitelistedAdapters = await fetchEulerApiWhitelistedAdapters(chainId);
+  console.log(`${logPrefix} Fetched ${whitelistedAdapters.length} whitelisted adapters`);
+
+  const deployedRouters = await fetchEulerApiDeployedRouters(chainId);
+  console.log(`${logPrefix} Fetched ${deployedRouters.length} routers`);
 
   const [chainlinkResult, redstoneResult, pythResult, pendleResult, eoracleResult] =
     await Promise.allSettled([
@@ -106,65 +76,19 @@ export async function collectData(chainId: number): Promise<CollectedData> {
   pendleMetadata.sort((a, b) => a.pt.localeCompare(b.pt));
   console.log(`${logPrefix} Fetched oracle provider metadata`);
 
-  const routerAddresses = await fetchDeployedRouters({
-    publicClient,
-    factoryAddress: oracleRouterFactory,
-  });
-  console.log(`${logPrefix} Fetched ${routerAddresses.length} router addresses`);
-
-  // Get the current block number for toBlock
-  const toBlock = BigInt(await publicClient.getBlockNumber());
-
-  // Query registry entries with block range handling
-  const adapterRegistryEntries = await queryWithBlockRanges({
-    fromBlock,
-    toBlock,
-    maxBlockRange,
-    queryFn: ({ fromBlock, toBlock }) =>
-      indexRegistry({
-        publicClient,
-        snapshotRegistry: oracleAdapterRegistry,
-        fromBlock,
-        toBlock,
-      }),
-    mergeResults: (results) => {
-      // Merge the registry entries
-      return results.reduce((merged, current) => {
-        return { ...merged, ...current };
-      }, {});
-    },
-  }).catch((error) => {
-    console.error(`${logPrefix} Error fetching adapter registry entries: ${error}`);
-    return {};
-  });
-
-  console.log(
-    `${logPrefix} Indexed ${Object.keys(adapterRegistryEntries).length} adapter registry entries`,
-  );
-
-  // Query historical adapter addresses with block range handling
-  const historicalAdapterAddresses = await queryWithBlockRanges({
-    fromBlock,
-    toBlock,
-    maxBlockRange,
-    queryFn: ({ fromBlock, toBlock }) =>
-      indexRouterHistoricalAdapters({
-        publicClient,
-        routerAddresses,
-        fromBlock,
-        toBlock,
-      }),
-    mergeResults: (results) => {
-      // Merge and deduplicate the address arrays
-      return Array.from(new Set(results.flat()));
-    },
-  }).catch((error) => {
-    console.error(`${logPrefix} Error fetching historical adapter addresses: ${error}`);
-    return [];
-  });
-
   const csvAdapterAddresses = chainConfigs[chainId].oracleAdaptersAddresses;
-  const adapterRegistryAddresses = Object.keys(adapterRegistryEntries);
+  const adapterRegistryAddresses = whitelistedAdapters.map((adapter) => adapter.element);
+  const historicalAdapterAddresses = historicalAdapters.map((adapter) => adapter.element);
+  const adapterRegistryEntries = whitelistedAdapters.reduce(
+    (acc, adapter) => {
+      acc[adapter.element] = {
+        addedAt: BigInt(adapter.addedAt),
+        revokedAt: 0n,
+      };
+      return acc;
+    },
+    {} as Record<`0x${string}`, RegistryEntry>,
+  );
 
   const adapterAddresses = Array.from(
     new Set(
@@ -317,7 +241,7 @@ export async function collectData(chainId: number): Promise<CollectedData> {
     adapters,
     adapterRegistryEntries,
     bytecodes,
-    routerAddresses,
+    routerAddresses: deployedRouters.map((router) => router.router),
     chainlinkMetadata,
     chainlinkFeeds,
     chronicleFeeds,
