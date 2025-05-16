@@ -66,6 +66,8 @@ jobs:
             echo "RPC_URL_$KEY=$VALUE" >> .env
           done
           rm rpc_urls.json
+          echo "EULER_DATA_API_URL=${{ secrets.EULER_DATA_API_URL }}" >> .env
+          echo "EULER_DATA_API_KEY=${{ secrets.EULER_DATA_API_KEY }}" >> .env
 
       - name: Install dependencies
         run: npm ci
