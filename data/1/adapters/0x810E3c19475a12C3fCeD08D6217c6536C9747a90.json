@@ -1,0 +1,57 @@
+{
+  "name": "FixedRateOracle",
+  "address": "0x810E3c19475a12C3fCeD08D6217c6536C9747a90",
+  "chainId": 1,
+  "base": "0xbdC7c08592Ee4aa51D06C27Ee23D5087D65aDbcD",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "rate": "1000000000000000000",
+  "checks": [
+    {
+      "id": "ADAPTER_EXISTS",
+      "severity": "HIGH",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "ADAPTER_REGISTRY",
+      "severity": "HIGH",
+      "message": "Adapter is not whitelisted in the adapter registry",
+      "pass": false
+    },
+    {
+      "id": "SOURCE_CODE_PROVENANCE",
+      "severity": "HIGH",
+      "message": "Contract metadata hash matches a known hash",
+      "pass": true
+    },
+    {
+      "id": "DISTINCT_ASSETS",
+      "severity": "HIGH",
+      "message": "No duplicates found",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0xbdC7c08592Ee4aa51D06C27Ee23D5087D65aDbcD is USDL (Lift Dollar) with 18 decimals",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+      "pass": true
+    },
+    {
+      "id": "FIXED_RATE_ONE",
+      "severity": "HIGH",
+      "message": "Adapter has a fixed rate of 1",
+      "pass": true
+    }
+  ],
+  "label": "1:1 USDL/USD",
+  "methodology": "Exchange Rate",
+  "model": "Push",
+  "provider": "Fixed Rate",
+  "whitelisted": false
+}

@@ -1,0 +1,84 @@
+{
+  "name": "PythOracle",
+  "address": "0x6F79C23D482EA6d2B075092289aefB86E761EE9D",
+  "chainId": 1,
+  "base": "0x111111111117dC0aa78b770fA6A738034120C302",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "pyth": "0x4305FB66699C3B2702D4d05CF36551390A4c69C6",
+  "feedId": "0x63f341689d98a12ef60a5cff1d7f85c70a9e17bf1575f0e7c0b2512d48b1c8b3",
+  "maxStaleness": "120",
+  "maxConfWidth": "300",
+  "checks": [
+    {
+      "id": "ADAPTER_EXISTS",
+      "severity": "HIGH",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "ADAPTER_REGISTRY",
+      "severity": "HIGH",
+      "message": "Adapter is not whitelisted in the adapter registry",
+      "pass": false
+    },
+    {
+      "id": "SOURCE_CODE_PROVENANCE",
+      "severity": "HIGH",
+      "message": "Contract metadata hash matches a known hash",
+      "pass": true
+    },
+    {
+      "id": "DISTINCT_ASSETS",
+      "severity": "HIGH",
+      "message": "No duplicates found",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x111111111117dC0aa78b770fA6A738034120C302 is 1INCH (1INCH Token) with 18 decimals",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+      "pass": true
+    },
+    {
+      "id": "OFFICIAL_PYTH_FEED",
+      "severity": "HIGH",
+      "message": "Adapter is connected to an official Pyth feed: 1INCH/USD",
+      "pass": true
+    },
+    {
+      "id": "PYTH_BASE_CORRESPONDENCE",
+      "severity": "INFO",
+      "message": "Base symbol (1INCH) matches Pyth feed base asset (1INCH)",
+      "pass": true
+    },
+    {
+      "id": "PYTH_QUOTE_CORRESPONDENCE",
+      "severity": "INFO",
+      "message": "Quote symbol (USD) matches Pyth feed quote asset (USD)",
+      "pass": true
+    },
+    {
+      "id": "OFFICIAL_PYTH_PROXY",
+      "severity": "HIGH",
+      "message": "Adapter is connected to the official Pyth proxy",
+      "pass": true
+    },
+    {
+      "id": "PYTH_STALENESS_RANGE",
+      "severity": "HIGH",
+      "message": "Max staleness is within the recommended range (30 - 300 seconds).",
+      "pass": true
+    }
+  ],
+  "label": "Crypto.1INCH/USD (120s, ±300bps)",
+  "methodology": "Market Price",
+  "model": "Pull",
+  "provider": "Pyth",
+  "whitelisted": false
+}

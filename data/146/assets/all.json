@@ -28,6 +28,34 @@
     "decimals": 18
   },
   {
+    "address": "0xd3DCe716f3eF535C5Ff8d041c1A41C3bd89b97aE",
+    "chainId": 146,
+    "name": "Sonic USD",
+    "symbol": "scUSD",
+    "decimals": 6
+  },
+  {
+    "address": "0x9fb76f7ce5FCeAA2C42887ff441D46095E494206",
+    "chainId": 146,
+    "name": "Wrapped stkscUSD",
+    "symbol": "wstkscUSD",
+    "decimals": 6
+  },
+  {
+    "address": "0xE5DA20F15420aD15DE0fa650600aFc998bbE3955",
+    "chainId": 146,
+    "name": "Beets Staked Sonic",
+    "symbol": "stS",
+    "decimals": 18
+  },
+  {
+    "address": "0x3bcE5CB273F0F148010BbEa2470e7b5df84C7812",
+    "chainId": 146,
+    "name": "Sonic ETH",
+    "symbol": "scETH",
+    "decimals": 18
+  },
+  {
     "address": "0xb1e25689D55734FD3ffFc939c4C3Eb52DFf8A794",
     "chainId": 146,
     "name": "Origin Sonic",
@@ -39,34 +67,6 @@
     "chainId": 146,
     "name": "Wrapped stkscETH",
     "symbol": "wstkscETH",
-    "decimals": 18
-  },
-  {
-    "address": "0x3bcE5CB273F0F148010BbEa2470e7b5df84C7812",
-    "chainId": 146,
-    "name": "Sonic ETH",
-    "symbol": "scETH",
-    "decimals": 18
-  },
-  {
-    "address": "0x9fb76f7ce5FCeAA2C42887ff441D46095E494206",
-    "chainId": 146,
-    "name": "Wrapped stkscUSD",
-    "symbol": "wstkscUSD",
-    "decimals": 6
-  },
-  {
-    "address": "0xd3DCe716f3eF535C5Ff8d041c1A41C3bd89b97aE",
-    "chainId": 146,
-    "name": "Sonic USD",
-    "symbol": "scUSD",
-    "decimals": 6
-  },
-  {
-    "address": "0xE5DA20F15420aD15DE0fa650600aFc998bbE3955",
-    "chainId": 146,
-    "name": "Beets Staked Sonic",
-    "symbol": "stS",
     "decimals": 18
   },
   {
@@ -105,20 +105,6 @@
     "decimals": 6
   },
   {
-    "address": "0x420df605D062F8611EFb3F203BF258159b8FfFdE",
-    "chainId": 146,
-    "name": "PT Beets Staked Sonic 29MAY2025",
-    "symbol": "PT-stS-29MAY2025",
-    "decimals": 18
-  },
-  {
-    "address": "0x46eb02b9F47634c4fab3110CC7ADc1C6311DfAC1",
-    "chainId": 146,
-    "name": "PT Wrapped OS 29MAY2025",
-    "symbol": "PT-wOS-29MAY2025",
-    "decimals": 18
-  },
-  {
     "address": "0x3333b97138D4b086720b5aE8A7844b1345a33333",
     "chainId": 146,
     "name": "Shadow",
@@ -130,6 +116,20 @@
     "chainId": 146,
     "name": "xShadow",
     "symbol": "xSHADOW",
+    "decimals": 18
+  },
+  {
+    "address": "0x420df605D062F8611EFb3F203BF258159b8FfFdE",
+    "chainId": 146,
+    "name": "PT Beets Staked Sonic 29MAY2025",
+    "symbol": "PT-stS-29MAY2025",
+    "decimals": 18
+  },
+  {
+    "address": "0x46eb02b9F47634c4fab3110CC7ADc1C6311DfAC1",
+    "chainId": 146,
+    "name": "PT Wrapped OS 29MAY2025",
+    "symbol": "PT-wOS-29MAY2025",
     "decimals": 18
   }
 ]

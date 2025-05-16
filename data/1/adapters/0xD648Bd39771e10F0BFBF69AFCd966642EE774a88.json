@@ -1,0 +1,84 @@
+{
+  "name": "PythOracle",
+  "address": "0xD648Bd39771e10F0BFBF69AFCd966642EE774a88",
+  "chainId": 1,
+  "base": "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "pyth": "0x4305FB66699C3B2702D4d05CF36551390A4c69C6",
+  "feedId": "0xc1da1b73d7f01e7ddd54b3766cf7fcd644395ad14f70aa706ec5384c59e76692",
+  "maxStaleness": "120",
+  "maxConfWidth": "300",
+  "checks": [
+    {
+      "id": "ADAPTER_EXISTS",
+      "severity": "HIGH",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "ADAPTER_REGISTRY",
+      "severity": "HIGH",
+      "message": "Adapter is not whitelisted in the adapter registry",
+      "pass": false
+    },
+    {
+      "id": "SOURCE_CODE_PROVENANCE",
+      "severity": "HIGH",
+      "message": "Contract metadata hash matches a known hash",
+      "pass": true
+    },
+    {
+      "id": "DISTINCT_ASSETS",
+      "severity": "HIGH",
+      "message": "No duplicates found",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x6c3ea9036406852006290770BEdFcAbA0e23A0e8 is PYUSD (PayPal USD) with 6 decimals",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+      "pass": true
+    },
+    {
+      "id": "OFFICIAL_PYTH_FEED",
+      "severity": "HIGH",
+      "message": "Adapter is connected to an official Pyth feed: PYUSD/USD",
+      "pass": true
+    },
+    {
+      "id": "PYTH_BASE_CORRESPONDENCE",
+      "severity": "INFO",
+      "message": "Base symbol (PYUSD) matches Pyth feed base asset (PYUSD)",
+      "pass": true
+    },
+    {
+      "id": "PYTH_QUOTE_CORRESPONDENCE",
+      "severity": "INFO",
+      "message": "Quote symbol (USD) matches Pyth feed quote asset (USD)",
+      "pass": true
+    },
+    {
+      "id": "OFFICIAL_PYTH_PROXY",
+      "severity": "HIGH",
+      "message": "Adapter is connected to the official Pyth proxy",
+      "pass": true
+    },
+    {
+      "id": "PYTH_STALENESS_RANGE",
+      "severity": "HIGH",
+      "message": "Max staleness is within the recommended range (30 - 300 seconds).",
+      "pass": true
+    }
+  ],
+  "label": "Crypto.PYUSD/USD (120s, ±300bps)",
+  "methodology": "Market Price",
+  "model": "Pull",
+  "provider": "Pyth",
+  "whitelisted": false
+}

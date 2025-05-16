@@ -1,0 +1,57 @@
+{
+  "name": "FixedRateOracle",
+  "address": "0x3ba9dc51E9a814D1B8fb3E8919be413d5D07114d",
+  "chainId": 1,
+  "base": "0x3eE841F47947FEFbE510366E4bbb49e145484195",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "rate": "1000000000000000000",
+  "checks": [
+    {
+      "id": "ADAPTER_EXISTS",
+      "severity": "HIGH",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "ADAPTER_REGISTRY",
+      "severity": "HIGH",
+      "message": "Adapter is not whitelisted in the adapter registry",
+      "pass": false
+    },
+    {
+      "id": "SOURCE_CODE_PROVENANCE",
+      "severity": "HIGH",
+      "message": "Contract metadata hash matches a known hash",
+      "pass": true
+    },
+    {
+      "id": "DISTINCT_ASSETS",
+      "severity": "HIGH",
+      "message": "No duplicates found",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x3eE841F47947FEFbE510366E4bbb49e145484195 is USRUSDC (USR/USDC) with 18 decimals",
+      "pass": true
+    },
+    {
+      "id": "CONSISTENT_ASSET",
+      "severity": "HIGH",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+      "pass": true
+    },
+    {
+      "id": "FIXED_RATE_ONE",
+      "severity": "HIGH",
+      "message": "Adapter has a fixed rate of 1",
+      "pass": true
+    }
+  ],
+  "label": "1:1 USRUSDC/USD",
+  "methodology": "Exchange Rate",
+  "model": "Push",
+  "provider": "Fixed Rate",
+  "whitelisted": false
+}

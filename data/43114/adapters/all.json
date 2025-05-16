@@ -753,9 +753,6 @@
     "whitelisted": false
   },
   {
-    "address": "0x06d47F3fb376649c3A9Dafe069B3D6E35572219E"
-  },
-  {
     "name": "PythOracle",
     "address": "0xe8a784f4BdCd4707BAF4068e72887888Ad58c033",
     "chainId": 43114,
@@ -897,5 +894,8 @@
     "model": "Unknown",
     "provider": "Cross",
     "whitelisted": false
+  },
+  {
+    "address": "0x06d47F3fb376649c3A9Dafe069B3D6E35572219E"
   }
 ]
