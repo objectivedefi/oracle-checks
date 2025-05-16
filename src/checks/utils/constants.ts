@@ -2,71 +2,71 @@ import { CheckDefinition } from "../types";
 
 export const CHECKS: Record<string, CheckDefinition> = {
   SOURCE_CODE_PROVENANCE: {
-    id: "SOURCE_CODE_PROVENANCE",
-    severity: "HIGH",
+    id: "Source code provenance",
+    severity: "High",
   },
   CONSISTENT_ASSET: {
-    id: "CONSISTENT_ASSET",
-    severity: "HIGH",
+    id: "Consistent asset",
+    severity: "High",
   },
   DISTINCT_ASSETS: {
-    id: "DISTINCT_ASSETS",
-    severity: "HIGH",
+    id: "Distinct assets",
+    severity: "High",
   },
   ADAPTER_EXISTS: {
-    id: "ADAPTER_EXISTS",
-    severity: "HIGH",
+    id: "Adapter existence",
+    severity: "High",
   },
   RECOGNIZED_AGGREGATOR_V3_FEED: {
-    id: "RECOGNIZED_AGGREGATOR_V3_FEED",
-    severity: "MED",
+    id: "Recognized AggregatorV3 feed",
+    severity: "Med",
   },
   PUSH_STALENESS_BUFFER: {
-    id: "PUSH_STALENESS_BUFFER",
-    severity: "MED",
+    id: "Push oracle staleness buffer",
+    severity: "Med",
   },
   OFFICIAL_PYTH_FEED: {
-    id: "OFFICIAL_PYTH_FEED",
-    severity: "HIGH",
+    id: "Recognized Pyth feed",
+    severity: "High",
   },
   OFFICIAL_PYTH_PROXY: {
-    id: "OFFICIAL_PYTH_PROXY",
-    severity: "HIGH",
+    id: "Recognized Pyth proxy",
+    severity: "High",
   },
   PYTH_STALENESS_RANGE: {
-    id: "PYTH_STALENESS_RANGE",
-    severity: "HIGH",
+    id: "Sane Pyth staleness range",
+    severity: "High",
   },
   PYTH_BASE_CORRESPONDENCE: {
-    id: "PYTH_BASE_CORRESPONDENCE",
-    severity: "INFO",
+    id: "Pyth base correspondence",
+    severity: "Info",
   },
   PYTH_QUOTE_CORRESPONDENCE: {
-    id: "PYTH_QUOTE_CORRESPONDENCE",
-    severity: "INFO",
+    id: "Pyth quote correspondence",
+    severity: "Info",
   },
   OFFICIAL_CHRONICLE_FEED: {
-    id: "OFFICIAL_CHRONICLE_FEED",
-    severity: "HIGH",
+    id: "Recognized Chronicle feed",
+    severity: "High",
   },
   OFFICIAL_PENDLE_POOL: {
-    id: "OFFICIAL_PENDLE_POOL",
-    severity: "HIGH",
+    id: "Recognized Pendle pool",
+    severity: "High",
   },
   UNUSUAL_FIXED_RATE: {
-    id: "UNUSUAL_FIXED_RATE",
-    severity: "MED",
+    id: "Unusual fixed rate",
+    severity: "Med",
   },
   OFFICIAL_LIDO_ORACLE: {
-    id: "OFFICIAL_LIDO_ORACLE",
-    severity: "HIGH",
+    id: "Recognized Lido oracle",
+    severity: "High",
   },
   FIXED_RATE_ONE: {
-    id: "FIXED_RATE_ONE",
-    severity: "HIGH",
+    id: "Sane fixed rate",
+    severity: "High",
   },
   ADAPTER_REGISTRY: {
-    id: "ADAPTER_REGISTRY",
-    severity: "HIGH",
+    id: "Adapter whitelist",
+    severity: "Med",
   },
 };

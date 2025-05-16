@@ -17,7 +17,7 @@ export function pendlePoolOfficial({ adapter, pendleMetadata }: Params): {
     return {
       result: passCheck(
         CHECKS.OFFICIAL_PENDLE_POOL,
-        `Adapter is connected to an official Pendle pool: ${matchingPendlePool.symbol}`,
+        `Adapter is connected to an official Pendle pool: ${matchingPendlePool.symbol}.`,
       ),
       label: `${matchingPendlePool.symbol}`,
     };
@@ -25,7 +25,7 @@ export function pendlePoolOfficial({ adapter, pendleMetadata }: Params): {
     return {
       result: failCheck(
         CHECKS.OFFICIAL_PENDLE_POOL,
-        "Could not find matching Pendle pool in the official list",
+        "Could not find matching Pendle pool in the official list.",
       ),
       label: `Unknown pool`,
     };

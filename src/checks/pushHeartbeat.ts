@@ -18,14 +18,14 @@ export function pushHeartbeat({
   if (maxStaleness < heartbeat + minHeartbeatBuffer) {
     return failCheck(
       CHECKS.PUSH_STALENESS_BUFFER,
-      `Adapter max staleness (${maxStaleness}) is insufficient for the feed's heartbeat (${heartbeat}). Minimum recommended max staleness is ${
+      `Adapter's maximum staleness (${maxStaleness} s) is insufficient for the feed's heartbeat (${heartbeat} s). Minimum recommended value is ${
         heartbeat + minHeartbeatBuffer
-      } seconds.`,
+      } s to ensure the adapter won't fail after the heartbeat condition is triggered.`,
     );
   }
 
   return passCheck(
     CHECKS.PUSH_STALENESS_BUFFER,
-    `Adapter max staleness (${maxStaleness}) is sufficient for the feed's heartbeat (${heartbeat}).`,
+    `Adapter's maximum staleness (${maxStaleness} s) is sufficient for the feed's heartbeat (${heartbeat} s).`,
   );
 }

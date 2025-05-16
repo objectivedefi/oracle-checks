@@ -13,17 +13,17 @@ export function pythStalenessRange({ adapter, lowerBound, upperBound }: Params):
   if (adapter.maxStaleness < lowerBound) {
     return failCheck(
       CHECKS.PYTH_STALENESS_RANGE,
-      `Max staleness is too low (less than ${lowerBound} seconds).`,
+      `The adapter's maximum staleness parameter (${adapter.maxStaleness} s) is too low. The recommended range is (${lowerBound} - ${upperBound} s).`,
     );
   } else if (adapter.maxStaleness > upperBound) {
     return failCheck(
       CHECKS.PYTH_STALENESS_RANGE,
-      `Max staleness is too high (greater than ${upperBound} seconds).`,
+      `The adapter's maximum staleness parameter (${adapter.maxStaleness} s) is too high. The recommended range is (${lowerBound} - ${upperBound} s).`,
     );
   } else {
     return passCheck(
       CHECKS.PYTH_STALENESS_RANGE,
-      `Max staleness is within the recommended range (${lowerBound} - ${upperBound} seconds).`,
+      `The adapter's maximum staleness parameter is within the recommended range (${lowerBound} - ${upperBound} s).`,
     );
   }
 }

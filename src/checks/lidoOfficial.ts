@@ -15,11 +15,11 @@ export function lidoOfficial({ adapter }: Params): CheckResultWithId {
   ) {
     return passCheck(
       CHECKS.OFFICIAL_LIDO_ORACLE,
-      "Adapter is connected to the official Lido contracts on Ethereum",
+      "Adapter is connected to the official Lido contracts on Ethereum.",
     );
   }
   return failCheck(
     CHECKS.OFFICIAL_LIDO_ORACLE,
-    "Adapter is not connected to the official Lido addresses on Ethereum",
+    "Adapter is not connected to the official Lido addresses on Ethereum.",
   );
 }

@@ -16,25 +16,34 @@ export function assetConsistent({
   recognizedDesignatorAddresses,
 }: Params): CheckResultWithId {
   if (!asset) {
-    return failCheck(CHECKS.CONSISTENT_ASSET, `Could not index asset ${address}`);
+    return failCheck(CHECKS.CONSISTENT_ASSET, `Onchain indexing failed for asset ${address}.`);
   }
 
   if (recognizedDesignatorAddresses.includes(asset.address)) {
-    return passCheck(CHECKS.CONSISTENT_ASSET, `Asset ${address} is a special designator address`);
+    return passCheck(CHECKS.CONSISTENT_ASSET, `Asset ${address} is a special designator address.`);
   }
 
   if (!asset.symbol) {
-    return failCheck(CHECKS.CONSISTENT_ASSET, `Did not find symbol for asset ${address}`);
+    return failCheck(
+      CHECKS.CONSISTENT_ASSET,
+      `Onchain indexing failed for asset ${address}: could not get symbol.`,
+    );
   }
   if (!asset.name) {
-    return failCheck(CHECKS.CONSISTENT_ASSET, `Did not find name for asset ${address}`);
+    return failCheck(
+      CHECKS.CONSISTENT_ASSET,
+      `Onchain indexing failed for asset ${address}: could not get name.`,
+    );
   }
   if (!asset.decimals) {
-    return failCheck(CHECKS.CONSISTENT_ASSET, `Did not find decimals for asset ${address}`);
+    return failCheck(
+      CHECKS.CONSISTENT_ASSET,
+      `Onchain indexing failed for asset ${address}: could not get decimals.`,
+    );
   }
 
   return passCheck(
     CHECKS.CONSISTENT_ASSET,
-    `Asset ${address} is ${asset.symbol} (${asset.name}) with ${asset.decimals} decimals`,
+    `Asset ${address} is ${asset.symbol} (${asset.name}) with ${asset.decimals} decimals.`,
   );
 }

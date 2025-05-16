@@ -10,11 +10,11 @@ type Params = {
 
 export function pythBaseCorrespondence({ base, feed }: Params): CheckResultWithId {
   if (!base) {
-    return failCheck(CHECKS.PYTH_BASE_CORRESPONDENCE, "Base asset is unknown");
+    return failCheck(CHECKS.PYTH_BASE_CORRESPONDENCE, "Base asset is unknown.");
   }
 
   if (!feed) {
-    return failCheck(CHECKS.PYTH_BASE_CORRESPONDENCE, "Feed is unknown");
+    return failCheck(CHECKS.PYTH_BASE_CORRESPONDENCE, "Feed is unknown.");
   }
 
   const baseSymbol = base.symbol;
@@ -26,12 +26,12 @@ export function pythBaseCorrespondence({ base, feed }: Params): CheckResultWithI
   ) {
     return passCheck(
       CHECKS.PYTH_BASE_CORRESPONDENCE,
-      `Base symbol (${baseSymbol}) matches Pyth feed base asset (${feedBaseSymbol})`,
+      `Adapter's base asset (${baseSymbol}) does not correspond to the Pyth feed's base asset from metadata (${feedBaseSymbol}).`,
     );
   } else {
     return failCheck(
       CHECKS.PYTH_BASE_CORRESPONDENCE,
-      `Base symbol (${baseSymbol}) does not match Pyth feed base asset (${feedBaseSymbol})`,
+      `Adapter's base asset (${baseSymbol}) does not correspond to the Pyth feed's base asset from metadata (${feedBaseSymbol}).`,
     );
   }
 }

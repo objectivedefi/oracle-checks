@@ -17,31 +17,28 @@ export function knownMetadataHash({
   allowedMetadataHashes,
 }: Params): CheckResultWithId {
   if (!code || code === "0x") {
-    return failCheck(CHECKS.SOURCE_CODE_PROVENANCE, "Adapter contract is missing (0x)");
+    return failCheck(CHECKS.SOURCE_CODE_PROVENANCE, "Adapter contract has empty bytecode.");
   }
 
   const metadataHash = extractMetadataHash(code);
   if (!metadataHash) {
     return failCheck(
       CHECKS.SOURCE_CODE_PROVENANCE,
-      "Failed to extract metadata hash from bytecode",
+      "Failed to extract metadata hash from bytecode.",
     );
   }
 
   if (!allowedMetadataHashes) {
-    return failCheck(
-      CHECKS.SOURCE_CODE_PROVENANCE,
-      `No metadata hash defined for adapter type: ${adapter.name}`,
-    );
+    return failCheck(CHECKS.SOURCE_CODE_PROVENANCE, `Unrecognized adapter class ${adapter.name}.`);
   }
 
   const expectedHash = allowedMetadataHashes.find((hash) => metadataHash === hash);
 
   if (metadataHash !== expectedHash) {
-    return failCheck(CHECKS.SOURCE_CODE_PROVENANCE, `Contract metadata hash is not recognized`);
+    return failCheck(CHECKS.SOURCE_CODE_PROVENANCE, `Contract metadata hash is not recognized.`);
   }
 
-  return passCheck(CHECKS.SOURCE_CODE_PROVENANCE, `Contract metadata hash matches a known hash`);
+  return passCheck(CHECKS.SOURCE_CODE_PROVENANCE, `Contract metadata hash matches a known hash.`);
 }
 
 function extractMetadataHash(bytecode: Hex): string | null {

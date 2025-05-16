@@ -57,7 +57,7 @@ export function knownAggregatorV3Feed({
     return {
       result: passCheck(
         CHECKS.RECOGNIZED_AGGREGATOR_V3_FEED,
-        `Adapter is connected to an official Chainlink feed: ${matchingChainlinkFeed.name}`,
+        `Adapter is connected to an official Chainlink feed: ${matchingChainlinkFeed.name}.`,
       ),
       label: `${matchingChainlinkFeed.name} (${matchingChainlinkFeed.threshold}%, ${matchingChainlinkFeed.heartbeat}s)`,
       heartbeat: matchingChainlinkFeed.heartbeat,
@@ -69,7 +69,7 @@ export function knownAggregatorV3Feed({
     return {
       result: passCheck(
         CHECKS.RECOGNIZED_AGGREGATOR_V3_FEED,
-        `Adapter is connected to an official RedStone feed: ${matchingRedstoneFeed.symbol}`,
+        `Adapter is connected to an official RedStone Push feed: ${matchingRedstoneFeed.symbol}.`,
       ),
       label: `${matchingRedstoneFeed.symbol} (${matchingRedstoneFeed.deviationPercentage}%, ${matchingRedstoneFeed.heartbeat}s)`,
       heartbeat: matchingRedstoneFeed.heartbeat,
@@ -80,7 +80,7 @@ export function knownAggregatorV3Feed({
     return {
       result: passCheck(
         CHECKS.RECOGNIZED_AGGREGATOR_V3_FEED,
-        `Adapter is connected to an official eOracle feed: ${matchingEoracleFeed.symbol}`,
+        `Adapter is connected to an official eOracle feed: ${matchingEoracleFeed.symbol}.`,
       ),
       label: `${matchingEoracleFeed.symbol} (${matchingEoracleFeed.deviationPercentage}, ${matchingEoracleFeed.heartbeat}s)`,
       heartbeat: matchingEoracleFeed.heartbeat,
@@ -99,7 +99,7 @@ export function knownAggregatorV3Feed({
     return {
       result: passCheck(
         CHECKS.RECOGNIZED_AGGREGATOR_V3_FEED,
-        `Adapter is connected to a recognized non-standard feed: ${matchingOtherFeed.description}`,
+        `Adapter is connected to a recognized AggregatorV3-compatible feed: ${matchingOtherFeed.description}.`,
       ),
       label: `${matchingOtherFeed.description} ${labelExtra}`,
       heartbeat: matchingOtherFeed.heartbeat,
@@ -110,7 +110,7 @@ export function knownAggregatorV3Feed({
     return {
       result: failCheck(
         CHECKS.RECOGNIZED_AGGREGATOR_V3_FEED,
-        `Could not find matching recognized AggregatorV3 feed for ${adapter.feed}`,
+        `The connected price feed is not recognized.`,
       ),
       label: `Unknown AggregatorV3 Feed`,
       methodology: "Unknown",

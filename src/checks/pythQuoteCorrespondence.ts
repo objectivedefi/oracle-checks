@@ -26,12 +26,12 @@ export function pythQuoteCorrespondence({ quote, feed }: Params): CheckResultWit
   ) {
     return passCheck(
       CHECKS.PYTH_QUOTE_CORRESPONDENCE,
-      `Quote symbol (${quoteSymbol}) matches Pyth feed quote asset (${feedQuoteSymbol})`,
+      `Adapter's quote asset (${quoteSymbol}) does not correspond to the Pyth feed's quote asset from metadata (${feedQuoteSymbol}).`,
     );
   } else {
     return failCheck(
       CHECKS.PYTH_QUOTE_CORRESPONDENCE,
-      `Quote symbol (${quoteSymbol}) does not match Pyth feed quote asset (${feedQuoteSymbol})`,
+      `Adapter's quote asset (${quoteSymbol}) does not correspond to the Pyth feed's quote asset from metadata (${feedQuoteSymbol}).`,
     );
   }
 }

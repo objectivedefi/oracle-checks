@@ -1,4 +1,4 @@
-export type CheckSeverity = "HIGH" | "MED" | "LOW" | "INFO";
+export type CheckSeverity = "High" | "Med" | "Low" | "Info";
 
 export type CheckRule<T> = {
   severity: CheckSeverity;

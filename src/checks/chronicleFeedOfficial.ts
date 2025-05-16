@@ -22,14 +22,14 @@ export function chronicleFeedOfficial({ adapter, chronicleFeeds }: Params): {
     return {
       result: passCheck(
         CHECKS.OFFICIAL_CHRONICLE_FEED,
-        `Adapter is connected to an official Chronicle feed: ${description}`,
+        `Adapter is connected to an official Chronicle feed: ${description}.`,
       ),
       feed: matchingChronicleFeed,
       label: description,
     };
   } else {
     return {
-      result: failCheck(CHECKS.OFFICIAL_CHRONICLE_FEED, "Could not find matching Chronicle feed"),
+      result: failCheck(CHECKS.OFFICIAL_CHRONICLE_FEED, "Could not find matching Chronicle feed."),
       feed: undefined,
       label: `Unknown`,
     };
