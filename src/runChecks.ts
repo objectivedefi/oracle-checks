@@ -1,5 +1,5 @@
 import { chainIdToPythProxy } from "@objectivelabs/oracle-sdk";
-import { formatUnits, parseUnits } from "viem";
+import { Address, formatUnits, parseUnits } from "viem";
 
 import {
   assetConsistent,
@@ -69,8 +69,9 @@ export function runChecks({
       return;
     }
 
+    const adapterAddressLower = adapterAddresses[index].toLowerCase() as Address;
     const registryCheck = registry({
-      entry: adapterRegistryEntries[adapterAddresses[index]],
+      entry: adapterRegistryEntries[adapterAddressLower],
     });
     checks.push(registryCheck);
 
