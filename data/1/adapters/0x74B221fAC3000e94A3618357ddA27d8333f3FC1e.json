@@ -9,45 +9,45 @@
   "oracleCrossQuote": "0xDF4513A7c0E611d7B36237CcF0c098733f28f680",
   "checks": [
     {
-      "id": "ADAPTER_EXISTS",
-      "severity": "HIGH",
+      "id": "Adapter existence",
+      "severity": "High",
       "message": "Successfully indexed adapter",
       "pass": true
     },
     {
-      "id": "ADAPTER_REGISTRY",
-      "severity": "HIGH",
-      "message": "Adapter is whitelisted in the adapter registry",
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is whitelisted in the adapter registry.",
       "pass": true
     },
     {
-      "id": "SOURCE_CODE_PROVENANCE",
-      "severity": "HIGH",
-      "message": "Contract metadata hash matches a known hash",
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
       "pass": true
     },
     {
-      "id": "DISTINCT_ASSETS",
-      "severity": "HIGH",
-      "message": "No duplicates found",
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
       "pass": true
     },
     {
-      "id": "CONSISTENT_ASSET",
-      "severity": "HIGH",
-      "message": "Asset 0x6cA4d5d2eCb72E3Bbf17543B3367746B80D22694 is PT-LBTC-26JUN2025 (PT Lombard LBTC 26JUN2025) with 8 decimals",
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x6cA4d5d2eCb72E3Bbf17543B3367746B80D22694 is PT-LBTC-26JUN2025 (PT Lombard LBTC 26JUN2025) with 8 decimals.",
       "pass": true
     },
     {
-      "id": "CONSISTENT_ASSET",
-      "severity": "HIGH",
-      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
       "pass": true
     },
     {
-      "id": "CONSISTENT_ASSET",
-      "severity": "HIGH",
-      "message": "Asset 0x8236a87084f8B84306f72007F36F2618A5634494 is LBTC (Lombard Staked Bitcoin) with 8 decimals",
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x8236a87084f8B84306f72007F36F2618A5634494 is LBTC (Lombard Staked Bitcoin) with 8 decimals.",
       "pass": true
     }
   ],

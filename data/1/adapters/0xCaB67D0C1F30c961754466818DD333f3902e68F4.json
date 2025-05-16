@@ -9,45 +9,45 @@
   "oracleCrossQuote": "0x5e40D34DEA07f7dd3818ec3EA044B5dB87Db785c",
   "checks": [
     {
-      "id": "ADAPTER_EXISTS",
-      "severity": "HIGH",
+      "id": "Adapter existence",
+      "severity": "High",
       "message": "Successfully indexed adapter",
       "pass": true
     },
     {
-      "id": "ADAPTER_REGISTRY",
-      "severity": "HIGH",
-      "message": "Adapter is whitelisted in the adapter registry",
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is whitelisted in the adapter registry.",
       "pass": true
     },
     {
-      "id": "SOURCE_CODE_PROVENANCE",
-      "severity": "HIGH",
-      "message": "Contract metadata hash matches a known hash",
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
       "pass": true
     },
     {
-      "id": "DISTINCT_ASSETS",
-      "severity": "HIGH",
-      "message": "No duplicates found",
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
       "pass": true
     },
     {
-      "id": "CONSISTENT_ASSET",
-      "severity": "HIGH",
-      "message": "Asset 0x61439b9575278054D69c9176d88FaFaf8319E4b7 is PT-USD0++-30JAN2025 (PT USD0++ 30JAN2025) with 18 decimals",
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x61439b9575278054D69c9176d88FaFaf8319E4b7 is PT-USD0++-30JAN2025 (PT USD0++ 30JAN2025) with 18 decimals.",
       "pass": true
     },
     {
-      "id": "CONSISTENT_ASSET",
-      "severity": "HIGH",
-      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
       "pass": true
     },
     {
-      "id": "CONSISTENT_ASSET",
-      "severity": "HIGH",
-      "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is USD0++ (USD0 Liquid Bond) with 18 decimals",
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is USD0++ (USD0 Liquid Bond) with 18 decimals.",
       "pass": true
     }
   ],

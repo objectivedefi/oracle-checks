@@ -9,45 +9,45 @@
   "oracleCrossQuote": "0x8918D496d0AA72d3de7C8f2a5F02C27a1472CaDb",
   "checks": [
     {
-      "id": "ADAPTER_EXISTS",
-      "severity": "HIGH",
+      "id": "Adapter existence",
+      "severity": "High",
       "message": "Successfully indexed adapter",
       "pass": true
     },
     {
-      "id": "ADAPTER_REGISTRY",
-      "severity": "HIGH",
-      "message": "Adapter is whitelisted in the adapter registry",
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is whitelisted in the adapter registry.",
       "pass": true
     },
     {
-      "id": "SOURCE_CODE_PROVENANCE",
-      "severity": "HIGH",
-      "message": "Contract metadata hash matches a known hash",
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
       "pass": true
     },
     {
-      "id": "DISTINCT_ASSETS",
-      "severity": "HIGH",
-      "message": "No duplicates found",
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
       "pass": true
     },
     {
-      "id": "CONSISTENT_ASSET",
-      "severity": "HIGH",
-      "message": "Asset 0xb7de5dFCb74d25c2f21841fbd6230355C50d9308 is PT-sUSDE-29MAY2025 (PT Ethena sUSDE 29MAY2025) with 18 decimals",
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xb7de5dFCb74d25c2f21841fbd6230355C50d9308 is PT-sUSDE-29MAY2025 (PT Ethena sUSDE 29MAY2025) with 18 decimals.",
       "pass": true
     },
     {
-      "id": "CONSISTENT_ASSET",
-      "severity": "HIGH",
-      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
       "pass": true
     },
     {
-      "id": "CONSISTENT_ASSET",
-      "severity": "HIGH",
-      "message": "Asset 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3 is USDe (USDe) with 18 decimals",
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3 is USDe (USDe) with 18 decimals.",
       "pass": true
     }
   ],

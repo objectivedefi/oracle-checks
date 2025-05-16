@@ -8,45 +8,45 @@
   "maxStaleness": "7200",
   "checks": [
     {
-      "id": "ADAPTER_EXISTS",
-      "severity": "HIGH",
+      "id": "Adapter existence",
+      "severity": "High",
       "message": "Successfully indexed adapter",
       "pass": true
     },
     {
-      "id": "ADAPTER_REGISTRY",
-      "severity": "HIGH",
-      "message": "Adapter is whitelisted in the adapter registry",
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is whitelisted in the adapter registry.",
       "pass": true
     },
     {
-      "id": "SOURCE_CODE_PROVENANCE",
-      "severity": "HIGH",
-      "message": "Contract metadata hash matches a known hash",
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
       "pass": true
     },
     {
-      "id": "DISTINCT_ASSETS",
-      "severity": "HIGH",
-      "message": "No duplicates found",
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
       "pass": true
     },
     {
-      "id": "CONSISTENT_ASSET",
-      "severity": "HIGH",
-      "message": "Asset 0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984 is UNI (Uniswap) with 18 decimals",
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984 is UNI (Uniswap) with 18 decimals.",
       "pass": true
     },
     {
-      "id": "CONSISTENT_ASSET",
-      "severity": "HIGH",
-      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
       "pass": true
     },
     {
-      "id": "PUSH_STALENESS_BUFFER",
-      "severity": "MED",
-      "message": "Adapter max staleness (7200) is sufficient for the feed's heartbeat (3600).",
+      "id": "Push oracle staleness buffer",
+      "severity": "Med",
+      "message": "Adapter's maximum staleness (7200 s) is sufficient for the feed's heartbeat (3600 s).",
       "pass": true
     }
   ],

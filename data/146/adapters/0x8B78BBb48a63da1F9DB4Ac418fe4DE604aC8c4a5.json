@@ -7,45 +7,45 @@
   "rate": "500000000000000000",
   "checks": [
     {
-      "id": "ADAPTER_EXISTS",
-      "severity": "HIGH",
+      "id": "Adapter existence",
+      "severity": "High",
       "message": "Successfully indexed adapter",
       "pass": true
     },
     {
-      "id": "ADAPTER_REGISTRY",
-      "severity": "HIGH",
-      "message": "Adapter is whitelisted in the adapter registry",
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is whitelisted in the adapter registry.",
       "pass": true
     },
     {
-      "id": "SOURCE_CODE_PROVENANCE",
-      "severity": "HIGH",
-      "message": "Contract metadata hash matches a known hash",
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
       "pass": true
     },
     {
-      "id": "DISTINCT_ASSETS",
-      "severity": "HIGH",
-      "message": "No duplicates found",
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
       "pass": true
     },
     {
-      "id": "CONSISTENT_ASSET",
-      "severity": "HIGH",
-      "message": "Asset 0x5050bc082FF4A74Fb6B0B04385dEfdDB114b2424 is xSHADOW (xShadow) with 18 decimals",
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x5050bc082FF4A74Fb6B0B04385dEfdDB114b2424 is xSHADOW (xShadow) with 18 decimals.",
       "pass": true
     },
     {
-      "id": "CONSISTENT_ASSET",
-      "severity": "HIGH",
-      "message": "Asset 0x3333b97138D4b086720b5aE8A7844b1345a33333 is SHADOW (Shadow) with 18 decimals",
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x3333b97138D4b086720b5aE8A7844b1345a33333 is SHADOW (Shadow) with 18 decimals.",
       "pass": true
     },
     {
-      "id": "FIXED_RATE_ONE",
-      "severity": "HIGH",
-      "message": "Adapter has an unusual fixed rate",
+      "id": "Sane fixed rate",
+      "severity": "High",
+      "message": "Adapter has an unusual fixed rate: 0.5.",
       "pass": false
     }
   ],

@@ -9,45 +9,45 @@
     "maxStaleness": "25200",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x6969696969696969696969696969696969696969 is WBERA (Wrapped Bera) with 18 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x6969696969696969696969696969696969696969 is WBERA (Wrapped Bera) with 18 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       },
       {
-        "id": "PUSH_STALENESS_BUFFER",
-        "severity": "MED",
-        "message": "Adapter max staleness (25200) is sufficient for the feed's heartbeat (21600).",
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (25200 s) is sufficient for the feed's heartbeat (21600 s).",
         "pass": true
       }
     ],
@@ -69,69 +69,69 @@
     "maxConfWidth": "300",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x6969696969696969696969696969696969696969 is WBERA (Wrapped Bera) with 18 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x6969696969696969696969696969696969696969 is WBERA (Wrapped Bera) with 18 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       },
       {
-        "id": "OFFICIAL_PYTH_FEED",
-        "severity": "HIGH",
+        "id": "Recognized Pyth feed",
+        "severity": "High",
         "message": "Adapter is connected to an official Pyth feed: BERA/USD",
         "pass": true
       },
       {
-        "id": "PYTH_BASE_CORRESPONDENCE",
-        "severity": "INFO",
-        "message": "Base symbol (WBERA) does not match Pyth feed base asset (BERA)",
+        "id": "Pyth base correspondence",
+        "severity": "Info",
+        "message": "Adapter's base asset (WBERA) does not correspond to the Pyth feed's base asset from metadata (BERA).",
         "pass": false
       },
       {
-        "id": "PYTH_QUOTE_CORRESPONDENCE",
-        "severity": "INFO",
-        "message": "Quote symbol (USD) matches Pyth feed quote asset (USD)",
+        "id": "Pyth quote correspondence",
+        "severity": "Info",
+        "message": "Adapter's quote asset (USD) does not correspond to the Pyth feed's quote asset from metadata (USD).",
         "pass": true
       },
       {
-        "id": "OFFICIAL_PYTH_PROXY",
-        "severity": "HIGH",
-        "message": "Adapter is connected to the official Pyth proxy",
+        "id": "Recognized Pyth proxy",
+        "severity": "High",
+        "message": "Adapter is connected to the official Pyth proxy.",
         "pass": true
       },
       {
-        "id": "PYTH_STALENESS_RANGE",
-        "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
+        "id": "Sane Pyth staleness range",
+        "severity": "High",
+        "message": "The adapter's maximum staleness parameter is within the recommended range (30 - 300 s).",
         "pass": true
       }
     ],
@@ -151,44 +151,44 @@
     "maxStaleness": "90000",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x6969696969696969696969696969696969696969 is WBERA (Wrapped Bera) with 18 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x6969696969696969696969696969696969696969 is WBERA (Wrapped Bera) with 18 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       },
       {
-        "id": "PUSH_STALENESS_BUFFER",
-        "severity": "MED",
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
         "message": "Feed heartbeat is unknown",
         "pass": false
       }
@@ -209,45 +209,45 @@
     "maxStaleness": "90000",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590 is WETH (WETH) with 18 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590 is WETH (WETH) with 18 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       },
       {
-        "id": "PUSH_STALENESS_BUFFER",
-        "severity": "MED",
-        "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
         "pass": true
       }
     ],
@@ -269,69 +269,69 @@
     "maxConfWidth": "300",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590 is WETH (WETH) with 18 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590 is WETH (WETH) with 18 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       },
       {
-        "id": "OFFICIAL_PYTH_FEED",
-        "severity": "HIGH",
+        "id": "Recognized Pyth feed",
+        "severity": "High",
         "message": "Adapter is connected to an official Pyth feed: ETH/USD",
         "pass": true
       },
       {
-        "id": "PYTH_BASE_CORRESPONDENCE",
-        "severity": "INFO",
-        "message": "Base symbol (WETH) matches Pyth feed base asset (ETH)",
+        "id": "Pyth base correspondence",
+        "severity": "Info",
+        "message": "Adapter's base asset (WETH) does not correspond to the Pyth feed's base asset from metadata (ETH).",
         "pass": true
       },
       {
-        "id": "PYTH_QUOTE_CORRESPONDENCE",
-        "severity": "INFO",
-        "message": "Quote symbol (USD) matches Pyth feed quote asset (USD)",
+        "id": "Pyth quote correspondence",
+        "severity": "Info",
+        "message": "Adapter's quote asset (USD) does not correspond to the Pyth feed's quote asset from metadata (USD).",
         "pass": true
       },
       {
-        "id": "OFFICIAL_PYTH_PROXY",
-        "severity": "HIGH",
-        "message": "Adapter is connected to the official Pyth proxy",
+        "id": "Recognized Pyth proxy",
+        "severity": "High",
+        "message": "Adapter is connected to the official Pyth proxy.",
         "pass": true
       },
       {
-        "id": "PYTH_STALENESS_RANGE",
-        "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
+        "id": "Sane Pyth staleness range",
+        "severity": "High",
+        "message": "The adapter's maximum staleness parameter is within the recommended range (30 - 300 s).",
         "pass": true
       }
     ],
@@ -351,45 +351,45 @@
     "maxStaleness": "90000",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0555E30da8f98308EdB960aa94C0Db47230d2B9c is WBTC (Wrapped BTC) with 8 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0555E30da8f98308EdB960aa94C0Db47230d2B9c is WBTC (Wrapped BTC) with 8 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       },
       {
-        "id": "PUSH_STALENESS_BUFFER",
-        "severity": "MED",
-        "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
         "pass": true
       }
     ],
@@ -411,69 +411,69 @@
     "maxConfWidth": "300",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0555E30da8f98308EdB960aa94C0Db47230d2B9c is WBTC (Wrapped BTC) with 8 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0555E30da8f98308EdB960aa94C0Db47230d2B9c is WBTC (Wrapped BTC) with 8 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       },
       {
-        "id": "OFFICIAL_PYTH_FEED",
-        "severity": "HIGH",
+        "id": "Recognized Pyth feed",
+        "severity": "High",
         "message": "Adapter is connected to an official Pyth feed: BTC/USD",
         "pass": true
       },
       {
-        "id": "PYTH_BASE_CORRESPONDENCE",
-        "severity": "INFO",
-        "message": "Base symbol (WBTC) does not match Pyth feed base asset (BTC)",
+        "id": "Pyth base correspondence",
+        "severity": "Info",
+        "message": "Adapter's base asset (WBTC) does not correspond to the Pyth feed's base asset from metadata (BTC).",
         "pass": false
       },
       {
-        "id": "PYTH_QUOTE_CORRESPONDENCE",
-        "severity": "INFO",
-        "message": "Quote symbol (USD) matches Pyth feed quote asset (USD)",
+        "id": "Pyth quote correspondence",
+        "severity": "Info",
+        "message": "Adapter's quote asset (USD) does not correspond to the Pyth feed's quote asset from metadata (USD).",
         "pass": true
       },
       {
-        "id": "OFFICIAL_PYTH_PROXY",
-        "severity": "HIGH",
-        "message": "Adapter is connected to the official Pyth proxy",
+        "id": "Recognized Pyth proxy",
+        "severity": "High",
+        "message": "Adapter is connected to the official Pyth proxy.",
         "pass": true
       },
       {
-        "id": "PYTH_STALENESS_RANGE",
-        "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
+        "id": "Sane Pyth staleness range",
+        "severity": "High",
+        "message": "The adapter's maximum staleness parameter is within the recommended range (30 - 300 s).",
         "pass": true
       }
     ],
@@ -493,45 +493,45 @@
     "maxStaleness": "90000",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce is HONEY (Honey) with 18 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce is HONEY (Honey) with 18 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       },
       {
-        "id": "PUSH_STALENESS_BUFFER",
-        "severity": "MED",
-        "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (21600).",
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (21600 s).",
         "pass": true
       }
     ],
@@ -553,69 +553,69 @@
     "maxConfWidth": "300",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce is HONEY (Honey) with 18 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce is HONEY (Honey) with 18 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       },
       {
-        "id": "OFFICIAL_PYTH_FEED",
-        "severity": "HIGH",
+        "id": "Recognized Pyth feed",
+        "severity": "High",
         "message": "Adapter is connected to an official Pyth feed: HONEY/USD",
         "pass": true
       },
       {
-        "id": "PYTH_BASE_CORRESPONDENCE",
-        "severity": "INFO",
-        "message": "Base symbol (HONEY) matches Pyth feed base asset (HONEY)",
+        "id": "Pyth base correspondence",
+        "severity": "Info",
+        "message": "Adapter's base asset (HONEY) does not correspond to the Pyth feed's base asset from metadata (HONEY).",
         "pass": true
       },
       {
-        "id": "PYTH_QUOTE_CORRESPONDENCE",
-        "severity": "INFO",
-        "message": "Quote symbol (USD) matches Pyth feed quote asset (USD)",
+        "id": "Pyth quote correspondence",
+        "severity": "Info",
+        "message": "Adapter's quote asset (USD) does not correspond to the Pyth feed's quote asset from metadata (USD).",
         "pass": true
       },
       {
-        "id": "OFFICIAL_PYTH_PROXY",
-        "severity": "HIGH",
-        "message": "Adapter is connected to the official Pyth proxy",
+        "id": "Recognized Pyth proxy",
+        "severity": "High",
+        "message": "Adapter is connected to the official Pyth proxy.",
         "pass": true
       },
       {
-        "id": "PYTH_STALENESS_RANGE",
-        "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
+        "id": "Sane Pyth staleness range",
+        "severity": "High",
+        "message": "The adapter's maximum staleness parameter is within the recommended range (30 - 300 s).",
         "pass": true
       }
     ],
@@ -635,45 +635,45 @@
     "maxStaleness": "90000",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x549943e04f40284185054145c6E4e9568C1D3241 is USDC.e (Bridged USDC (Stargate)) with 6 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x549943e04f40284185054145c6E4e9568C1D3241 is USDC.e (Bridged USDC (Stargate)) with 6 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       },
       {
-        "id": "PUSH_STALENESS_BUFFER",
-        "severity": "MED",
-        "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
         "pass": true
       }
     ],
@@ -695,69 +695,69 @@
     "maxConfWidth": "300",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x549943e04f40284185054145c6E4e9568C1D3241 is USDC.e (Bridged USDC (Stargate)) with 6 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x549943e04f40284185054145c6E4e9568C1D3241 is USDC.e (Bridged USDC (Stargate)) with 6 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       },
       {
-        "id": "OFFICIAL_PYTH_FEED",
-        "severity": "HIGH",
+        "id": "Recognized Pyth feed",
+        "severity": "High",
         "message": "Adapter is connected to an official Pyth feed: USDC/USD",
         "pass": true
       },
       {
-        "id": "PYTH_BASE_CORRESPONDENCE",
-        "severity": "INFO",
-        "message": "Base symbol (USDC.e) does not match Pyth feed base asset (USDC)",
+        "id": "Pyth base correspondence",
+        "severity": "Info",
+        "message": "Adapter's base asset (USDC.e) does not correspond to the Pyth feed's base asset from metadata (USDC).",
         "pass": false
       },
       {
-        "id": "PYTH_QUOTE_CORRESPONDENCE",
-        "severity": "INFO",
-        "message": "Quote symbol (USD) matches Pyth feed quote asset (USD)",
+        "id": "Pyth quote correspondence",
+        "severity": "Info",
+        "message": "Adapter's quote asset (USD) does not correspond to the Pyth feed's quote asset from metadata (USD).",
         "pass": true
       },
       {
-        "id": "OFFICIAL_PYTH_PROXY",
-        "severity": "HIGH",
-        "message": "Adapter is connected to the official Pyth proxy",
+        "id": "Recognized Pyth proxy",
+        "severity": "High",
+        "message": "Adapter is connected to the official Pyth proxy.",
         "pass": true
       },
       {
-        "id": "PYTH_STALENESS_RANGE",
-        "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
+        "id": "Sane Pyth staleness range",
+        "severity": "High",
+        "message": "The adapter's maximum staleness parameter is within the recommended range (30 - 300 s).",
         "pass": true
       }
     ],
@@ -777,45 +777,45 @@
     "maxStaleness": "90000",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0xEc901DA9c68E90798BbBb74c11406A32A70652C3 is STONE (StakeStone Ether) with 18 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xEc901DA9c68E90798BbBb74c11406A32A70652C3 is STONE (StakeStone Ether) with 18 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       },
       {
-        "id": "PUSH_STALENESS_BUFFER",
-        "severity": "MED",
-        "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
         "pass": true
       }
     ],
@@ -837,69 +837,69 @@
     "maxConfWidth": "300",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0xEc901DA9c68E90798BbBb74c11406A32A70652C3 is STONE (StakeStone Ether) with 18 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xEc901DA9c68E90798BbBb74c11406A32A70652C3 is STONE (StakeStone Ether) with 18 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       },
       {
-        "id": "OFFICIAL_PYTH_FEED",
-        "severity": "HIGH",
+        "id": "Recognized Pyth feed",
+        "severity": "High",
         "message": "Adapter is connected to an official Pyth feed: STONE/USD",
         "pass": true
       },
       {
-        "id": "PYTH_BASE_CORRESPONDENCE",
-        "severity": "INFO",
-        "message": "Base symbol (STONE) matches Pyth feed base asset (STONE)",
+        "id": "Pyth base correspondence",
+        "severity": "Info",
+        "message": "Adapter's base asset (STONE) does not correspond to the Pyth feed's base asset from metadata (STONE).",
         "pass": true
       },
       {
-        "id": "PYTH_QUOTE_CORRESPONDENCE",
-        "severity": "INFO",
-        "message": "Quote symbol (USD) matches Pyth feed quote asset (USD)",
+        "id": "Pyth quote correspondence",
+        "severity": "Info",
+        "message": "Adapter's quote asset (USD) does not correspond to the Pyth feed's quote asset from metadata (USD).",
         "pass": true
       },
       {
-        "id": "OFFICIAL_PYTH_PROXY",
-        "severity": "HIGH",
-        "message": "Adapter is connected to the official Pyth proxy",
+        "id": "Recognized Pyth proxy",
+        "severity": "High",
+        "message": "Adapter is connected to the official Pyth proxy.",
         "pass": true
       },
       {
-        "id": "PYTH_STALENESS_RANGE",
-        "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
+        "id": "Sane Pyth staleness range",
+        "severity": "High",
+        "message": "The adapter's maximum staleness parameter is within the recommended range (30 - 300 s).",
         "pass": true
       }
     ],
@@ -921,69 +921,69 @@
     "maxConfWidth": "300",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x688e72142674041f8f6Af4c808a4045cA1D6aC82 is BYUSD (BYUSD) with 6 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x688e72142674041f8f6Af4c808a4045cA1D6aC82 is BYUSD (BYUSD) with 6 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       },
       {
-        "id": "OFFICIAL_PYTH_FEED",
-        "severity": "HIGH",
+        "id": "Recognized Pyth feed",
+        "severity": "High",
         "message": "Adapter is connected to an official Pyth feed: PYUSD/USD",
         "pass": true
       },
       {
-        "id": "PYTH_BASE_CORRESPONDENCE",
-        "severity": "INFO",
-        "message": "Base symbol (BYUSD) does not match Pyth feed base asset (PYUSD)",
+        "id": "Pyth base correspondence",
+        "severity": "Info",
+        "message": "Adapter's base asset (BYUSD) does not correspond to the Pyth feed's base asset from metadata (PYUSD).",
         "pass": false
       },
       {
-        "id": "PYTH_QUOTE_CORRESPONDENCE",
-        "severity": "INFO",
-        "message": "Quote symbol (USD) matches Pyth feed quote asset (USD)",
+        "id": "Pyth quote correspondence",
+        "severity": "Info",
+        "message": "Adapter's quote asset (USD) does not correspond to the Pyth feed's quote asset from metadata (USD).",
         "pass": true
       },
       {
-        "id": "OFFICIAL_PYTH_PROXY",
-        "severity": "HIGH",
-        "message": "Adapter is connected to the official Pyth proxy",
+        "id": "Recognized Pyth proxy",
+        "severity": "High",
+        "message": "Adapter is connected to the official Pyth proxy.",
         "pass": true
       },
       {
-        "id": "PYTH_STALENESS_RANGE",
-        "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
+        "id": "Sane Pyth staleness range",
+        "severity": "High",
+        "message": "The adapter's maximum staleness parameter is within the recommended range (30 - 300 s).",
         "pass": true
       }
     ],
@@ -1003,45 +1003,45 @@
     "maxStaleness": "90000",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0xecAc9C5F704e954931349Da37F60E39f515c11c1 is LBTC (Lombard Staked Bitcoin) with 8 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xecAc9C5F704e954931349Da37F60E39f515c11c1 is LBTC (Lombard Staked Bitcoin) with 8 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0555E30da8f98308EdB960aa94C0Db47230d2B9c is WBTC (Wrapped BTC) with 8 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0555E30da8f98308EdB960aa94C0Db47230d2B9c is WBTC (Wrapped BTC) with 8 decimals.",
         "pass": true
       },
       {
-        "id": "PUSH_STALENESS_BUFFER",
-        "severity": "MED",
-        "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
         "pass": true
       }
     ],
@@ -1062,45 +1062,45 @@
     "oracleCrossQuote": "0xF2b8616744502851343c52DA76e9adFb97f08b91",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0xecAc9C5F704e954931349Da37F60E39f515c11c1 is LBTC (Lombard Staked Bitcoin) with 8 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xecAc9C5F704e954931349Da37F60E39f515c11c1 is LBTC (Lombard Staked Bitcoin) with 8 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0555E30da8f98308EdB960aa94C0Db47230d2B9c is WBTC (Wrapped BTC) with 8 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0555E30da8f98308EdB960aa94C0Db47230d2B9c is WBTC (Wrapped BTC) with 8 decimals.",
         "pass": true
       }
     ],
@@ -1119,45 +1119,45 @@
     "rate": "1000000000000000000",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x09D4214C03D01F49544C0448DBE3A27f768F2b34 is rUSD (Reservoir Stablecoin) with 18 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x09D4214C03D01F49544C0448DBE3A27f768F2b34 is rUSD (Reservoir Stablecoin) with 18 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       },
       {
-        "id": "FIXED_RATE_ONE",
-        "severity": "HIGH",
-        "message": "Adapter has a fixed rate of 1",
+        "id": "Sane fixed rate",
+        "severity": "High",
+        "message": "Adapter has a fixed rate of 1.",
         "pass": true
       }
     ],
@@ -1177,39 +1177,39 @@
     "maxStaleness": "10800",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash is not recognized",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
         "pass": false
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x5475611Dffb8ef4d697Ae39df9395513b6E947d7 is srUSD (Savings rUSD) with 18 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x5475611Dffb8ef4d697Ae39df9395513b6E947d7 is srUSD (Savings rUSD) with 18 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       }
     ],
@@ -1229,39 +1229,39 @@
     "maxStaleness": "10800",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash is not recognized",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash is not recognized.",
         "pass": false
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x09D4214C03D01F49544C0448DBE3A27f768F2b34 is rUSD (Reservoir Stablecoin) with 18 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x09D4214C03D01F49544C0448DBE3A27f768F2b34 is rUSD (Reservoir Stablecoin) with 18 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       }
     ],
@@ -1281,45 +1281,45 @@
     "maxStaleness": "90000",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x6fc6545d5cDE268D5C7f1e476D444F39c995120d is beraETH (Berachain Staked ETH) with 18 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x6fc6545d5cDE268D5C7f1e476D444F39c995120d is beraETH (Berachain Staked ETH) with 18 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       },
       {
-        "id": "PUSH_STALENESS_BUFFER",
-        "severity": "MED",
-        "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
         "pass": true
       }
     ],
@@ -1339,45 +1339,45 @@
     "maxStaleness": "25200",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x1cE0a25D13CE4d52071aE7e02Cf1F6606F4C79d3 is NECT (Nectar) with 18 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x1cE0a25D13CE4d52071aE7e02Cf1F6606F4C79d3 is NECT (Nectar) with 18 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       },
       {
-        "id": "PUSH_STALENESS_BUFFER",
-        "severity": "MED",
-        "message": "Adapter max staleness (25200) is sufficient for the feed's heartbeat (21600).",
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (25200 s) is sufficient for the feed's heartbeat (21600 s).",
         "pass": true
       }
     ],
@@ -1397,45 +1397,45 @@
     "maxStaleness": "90000",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34 is USDe (USDe) with 18 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34 is USDe (USDe) with 18 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       },
       {
-        "id": "PUSH_STALENESS_BUFFER",
-        "severity": "MED",
-        "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
         "pass": true
       }
     ],
@@ -1455,45 +1455,45 @@
     "maxStaleness": "90000",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2 is sUSDe (Staked USDe) with 18 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2 is sUSDe (Staked USDe) with 18 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       },
       {
-        "id": "PUSH_STALENESS_BUFFER",
-        "severity": "MED",
-        "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
         "pass": true
       }
     ],
@@ -1512,45 +1512,45 @@
     "rate": "1000000000000000000",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0xac03CABA51e17c86c921E1f6CBFBdC91F8BB2E6b is iBGT (Infrared BGT) with 18 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xac03CABA51e17c86c921E1f6CBFBdC91F8BB2E6b is iBGT (Infrared BGT) with 18 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x6969696969696969696969696969696969696969 is WBERA (Wrapped Bera) with 18 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x6969696969696969696969696969696969696969 is WBERA (Wrapped Bera) with 18 decimals.",
         "pass": true
       },
       {
-        "id": "FIXED_RATE_ONE",
-        "severity": "HIGH",
-        "message": "Adapter has a fixed rate of 1",
+        "id": "Sane fixed rate",
+        "severity": "High",
+        "message": "Adapter has a fixed rate of 1.",
         "pass": true
       }
     ],
@@ -1571,45 +1571,45 @@
     "oracleCrossQuote": "0xe6D9C66C0416C1c88Ca5F777D81a7F424D4Fa87b",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x9b6761bf2397Bb5a6624a856cC84A3A14Dcd3fe5 is iBERA (Infrared BERA) with 18 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x9b6761bf2397Bb5a6624a856cC84A3A14Dcd3fe5 is iBERA (Infrared BERA) with 18 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x6969696969696969696969696969696969696969 is WBERA (Wrapped Bera) with 18 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x6969696969696969696969696969696969696969 is WBERA (Wrapped Bera) with 18 decimals.",
         "pass": true
       }
     ],
@@ -1631,69 +1631,69 @@
     "maxConfWidth": "300",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0xac03CABA51e17c86c921E1f6CBFBdC91F8BB2E6b is iBGT (Infrared BGT) with 18 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xac03CABA51e17c86c921E1f6CBFBdC91F8BB2E6b is iBGT (Infrared BGT) with 18 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       },
       {
-        "id": "OFFICIAL_PYTH_FEED",
-        "severity": "HIGH",
+        "id": "Recognized Pyth feed",
+        "severity": "High",
         "message": "Adapter is connected to an official Pyth feed: IBGT/USD",
         "pass": true
       },
       {
-        "id": "PYTH_BASE_CORRESPONDENCE",
-        "severity": "INFO",
-        "message": "Base symbol (iBGT) matches Pyth feed base asset (IBGT)",
+        "id": "Pyth base correspondence",
+        "severity": "Info",
+        "message": "Adapter's base asset (iBGT) does not correspond to the Pyth feed's base asset from metadata (IBGT).",
         "pass": true
       },
       {
-        "id": "PYTH_QUOTE_CORRESPONDENCE",
-        "severity": "INFO",
-        "message": "Quote symbol (USD) matches Pyth feed quote asset (USD)",
+        "id": "Pyth quote correspondence",
+        "severity": "Info",
+        "message": "Adapter's quote asset (USD) does not correspond to the Pyth feed's quote asset from metadata (USD).",
         "pass": true
       },
       {
-        "id": "OFFICIAL_PYTH_PROXY",
-        "severity": "HIGH",
-        "message": "Adapter is connected to the official Pyth proxy",
+        "id": "Recognized Pyth proxy",
+        "severity": "High",
+        "message": "Adapter is connected to the official Pyth proxy.",
         "pass": true
       },
       {
-        "id": "PYTH_STALENESS_RANGE",
-        "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
+        "id": "Sane Pyth staleness range",
+        "severity": "High",
+        "message": "The adapter's maximum staleness parameter is within the recommended range (30 - 300 s).",
         "pass": true
       }
     ],
@@ -1713,44 +1713,44 @@
     "maxStaleness": "1112186928292553357",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x2719e657ec3B3CbE521a18E640CA55799836376f is PT-sUSDE-25SEP2025 (PT Ethena sUSDE 25SEP2025) with 18 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x2719e657ec3B3CbE521a18E640CA55799836376f is PT-sUSDE-25SEP2025 (PT Ethena sUSDE 25SEP2025) with 18 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       },
       {
-        "id": "PUSH_STALENESS_BUFFER",
-        "severity": "MED",
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
         "message": "Feed heartbeat is unknown",
         "pass": false
       }
@@ -1771,44 +1771,44 @@
     "maxStaleness": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x48b358b7bC013F24E2D59b3A0d4455f6e71Fe2d6 is PT-iBERA-26JUN2025 (PT Infrared BERA 26JUN2025) with 18 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x48b358b7bC013F24E2D59b3A0d4455f6e71Fe2d6 is PT-iBERA-26JUN2025 (PT Infrared BERA 26JUN2025) with 18 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       },
       {
-        "id": "PUSH_STALENESS_BUFFER",
-        "severity": "MED",
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
         "message": "Feed heartbeat is unknown",
         "pass": false
       }
@@ -1829,44 +1829,44 @@
     "maxStaleness": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0xdc9b87e5eFD6Ca2BeAa33dDe9c544E1e98345De4 is PT-USDe-25SEP2025 (PT Ethena USDe 25SEP2025) with 18 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xdc9b87e5eFD6Ca2BeAa33dDe9c544E1e98345De4 is PT-USDe-25SEP2025 (PT Ethena USDe 25SEP2025) with 18 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       },
       {
-        "id": "PUSH_STALENESS_BUFFER",
-        "severity": "MED",
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
         "message": "Feed heartbeat is unknown",
         "pass": false
       }
@@ -1887,45 +1887,45 @@
     "maxStaleness": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0xac03CABA51e17c86c921E1f6CBFBdC91F8BB2E6b is iBGT (Infrared BGT) with 18 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xac03CABA51e17c86c921E1f6CBFBdC91F8BB2E6b is iBGT (Infrared BGT) with 18 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       },
       {
-        "id": "PUSH_STALENESS_BUFFER",
-        "severity": "MED",
-        "message": "Adapter max staleness (115792089237316195423570985008687907853269984665640564039457584007913129639935) is sufficient for the feed's heartbeat (86400).",
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (115792089237316195423570985008687907853269984665640564039457584007913129639935 s) is sufficient for the feed's heartbeat (86400 s).",
         "pass": true
       }
     ],
@@ -1945,45 +1945,45 @@
     "maxStaleness": "90000",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x6969696969696969696969696969696969696969 is WBERA (Wrapped Bera) with 18 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x6969696969696969696969696969696969696969 is WBERA (Wrapped Bera) with 18 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       },
       {
-        "id": "PUSH_STALENESS_BUFFER",
-        "severity": "MED",
-        "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
         "pass": true
       }
     ],
@@ -2003,45 +2003,45 @@
     "maxStaleness": "90000",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce is HONEY (Honey) with 18 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce is HONEY (Honey) with 18 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       },
       {
-        "id": "PUSH_STALENESS_BUFFER",
-        "severity": "MED",
-        "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
         "pass": true
       }
     ],
@@ -2061,45 +2061,45 @@
     "maxStaleness": "90000",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x1cE0a25D13CE4d52071aE7e02Cf1F6606F4C79d3 is NECT (Nectar) with 18 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x1cE0a25D13CE4d52071aE7e02Cf1F6606F4C79d3 is NECT (Nectar) with 18 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       },
       {
-        "id": "PUSH_STALENESS_BUFFER",
-        "severity": "MED",
-        "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
         "pass": true
       }
     ],
@@ -2119,45 +2119,45 @@
     "maxStaleness": "90000",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x597877Ccf65be938BD214C4c46907669e3E62128 is sNECT (Staked Nectar) with 18 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x597877Ccf65be938BD214C4c46907669e3E62128 is sNECT (Staked Nectar) with 18 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       },
       {
-        "id": "PUSH_STALENESS_BUFFER",
-        "severity": "MED",
-        "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
         "pass": true
       }
     ],
@@ -2176,45 +2176,45 @@
     "rate": "1000000000000000000",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0xD10E65A5F8cA6f835F2B1832e37cF150fb955f23 is NECT/USDC/HONEY (NECT/USDC/HONEY) with 18 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xD10E65A5F8cA6f835F2B1832e37cF150fb955f23 is NECT/USDC/HONEY (NECT/USDC/HONEY) with 18 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       },
       {
-        "id": "FIXED_RATE_ONE",
-        "severity": "HIGH",
-        "message": "Adapter has a fixed rate of 1",
+        "id": "Sane fixed rate",
+        "severity": "High",
+        "message": "Adapter has a fixed rate of 1.",
         "pass": true
       }
     ],
@@ -2234,45 +2234,45 @@
     "maxStaleness": "25200",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x597877Ccf65be938BD214C4c46907669e3E62128 is sNECT (Staked Nectar) with 18 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x597877Ccf65be938BD214C4c46907669e3E62128 is sNECT (Staked Nectar) with 18 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       },
       {
-        "id": "PUSH_STALENESS_BUFFER",
-        "severity": "MED",
-        "message": "Adapter max staleness (25200) is sufficient for the feed's heartbeat (21600).",
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (25200 s) is sufficient for the feed's heartbeat (21600 s).",
         "pass": true
       }
     ],
@@ -2292,45 +2292,45 @@
     "maxStaleness": "90000",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x549943e04f40284185054145c6E4e9568C1D3241 is USDC.e (Bridged USDC (Stargate)) with 6 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x549943e04f40284185054145c6E4e9568C1D3241 is USDC.e (Bridged USDC (Stargate)) with 6 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       },
       {
-        "id": "PUSH_STALENESS_BUFFER",
-        "severity": "MED",
-        "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
         "pass": true
       }
     ],
@@ -2350,44 +2350,44 @@
     "maxStaleness": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x1b34BEaE4F3a559Ec3412532445C44b74D4053C5 is PT-eBTC-25SEP2025 (PT ether.fi BTC 25SEP2025) with 8 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x1b34BEaE4F3a559Ec3412532445C44b74D4053C5 is PT-eBTC-25SEP2025 (PT ether.fi BTC 25SEP2025) with 8 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       },
       {
-        "id": "PUSH_STALENESS_BUFFER",
-        "severity": "MED",
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
         "message": "Feed heartbeat is unknown",
         "pass": false
       }
@@ -2408,45 +2408,45 @@
     "maxStaleness": "90000",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x1d22592F66Fc92e0a64eE9300eAeca548cd466c5 is BB.SNECT (Beraborrow Staked Nectar) with 18 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x1d22592F66Fc92e0a64eE9300eAeca548cd466c5 is BB.SNECT (Beraborrow Staked Nectar) with 18 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x1cE0a25D13CE4d52071aE7e02Cf1F6606F4C79d3 is NECT (Nectar) with 18 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x1cE0a25D13CE4d52071aE7e02Cf1F6606F4C79d3 is NECT (Nectar) with 18 decimals.",
         "pass": true
       },
       {
-        "id": "PUSH_STALENESS_BUFFER",
-        "severity": "MED",
-        "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
         "pass": true
       }
     ],
@@ -2467,45 +2467,45 @@
     "oracleCrossQuote": "0xADF96cb1E19D658901A204eF375d605a0300244B",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
         "pass": true
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x1d22592F66Fc92e0a64eE9300eAeca548cd466c5 is BB.SNECT (Beraborrow Staked Nectar) with 18 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x1d22592F66Fc92e0a64eE9300eAeca548cd466c5 is BB.SNECT (Beraborrow Staked Nectar) with 18 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x1cE0a25D13CE4d52071aE7e02Cf1F6606F4C79d3 is NECT (Nectar) with 18 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x1cE0a25D13CE4d52071aE7e02Cf1F6606F4C79d3 is NECT (Nectar) with 18 decimals.",
         "pass": true
       }
     ],
@@ -2527,69 +2527,69 @@
     "maxConfWidth": "300",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
         "pass": false
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x688e72142674041f8f6Af4c808a4045cA1D6aC82 is BYUSD (BYUSD) with 6 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x688e72142674041f8f6Af4c808a4045cA1D6aC82 is BYUSD (BYUSD) with 6 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       },
       {
-        "id": "OFFICIAL_PYTH_FEED",
-        "severity": "HIGH",
+        "id": "Recognized Pyth feed",
+        "severity": "High",
         "message": "Adapter is connected to an official Pyth feed: BYUSD/USD",
         "pass": true
       },
       {
-        "id": "PYTH_BASE_CORRESPONDENCE",
-        "severity": "INFO",
-        "message": "Base symbol (BYUSD) matches Pyth feed base asset (BYUSD)",
+        "id": "Pyth base correspondence",
+        "severity": "Info",
+        "message": "Adapter's base asset (BYUSD) does not correspond to the Pyth feed's base asset from metadata (BYUSD).",
         "pass": true
       },
       {
-        "id": "PYTH_QUOTE_CORRESPONDENCE",
-        "severity": "INFO",
-        "message": "Quote symbol (USD) matches Pyth feed quote asset (USD)",
+        "id": "Pyth quote correspondence",
+        "severity": "Info",
+        "message": "Adapter's quote asset (USD) does not correspond to the Pyth feed's quote asset from metadata (USD).",
         "pass": true
       },
       {
-        "id": "OFFICIAL_PYTH_PROXY",
-        "severity": "HIGH",
-        "message": "Adapter is connected to the official Pyth proxy",
+        "id": "Recognized Pyth proxy",
+        "severity": "High",
+        "message": "Adapter is connected to the official Pyth proxy.",
         "pass": true
       },
       {
-        "id": "PYTH_STALENESS_RANGE",
-        "severity": "HIGH",
-        "message": "Max staleness is within the recommended range (30 - 300 seconds).",
+        "id": "Sane Pyth staleness range",
+        "severity": "High",
+        "message": "The adapter's maximum staleness parameter is within the recommended range (30 - 300 s).",
         "pass": true
       }
     ],
@@ -2609,45 +2609,45 @@
     "maxStaleness": "90000",
     "checks": [
       {
-        "id": "ADAPTER_EXISTS",
-        "severity": "HIGH",
+        "id": "Adapter existence",
+        "severity": "High",
         "message": "Successfully indexed adapter",
         "pass": true
       },
       {
-        "id": "ADAPTER_REGISTRY",
-        "severity": "HIGH",
-        "message": "Adapter is not whitelisted in the adapter registry",
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
         "pass": false
       },
       {
-        "id": "SOURCE_CODE_PROVENANCE",
-        "severity": "HIGH",
-        "message": "Contract metadata hash matches a known hash",
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
         "pass": true
       },
       {
-        "id": "DISTINCT_ASSETS",
-        "severity": "HIGH",
-        "message": "No duplicates found",
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x549943e04f40284185054145c6E4e9568C1D3241 is USDC.e (Bridged USDC (Stargate)) with 6 decimals",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x549943e04f40284185054145c6E4e9568C1D3241 is USDC.e (Bridged USDC (Stargate)) with 6 decimals.",
         "pass": true
       },
       {
-        "id": "CONSISTENT_ASSET",
-        "severity": "HIGH",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address",
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
         "pass": true
       },
       {
-        "id": "PUSH_STALENESS_BUFFER",
-        "severity": "MED",
-        "message": "Adapter max staleness (90000) is sufficient for the feed's heartbeat (86400).",
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
         "pass": true
       }
     ],
