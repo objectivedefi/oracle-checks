@@ -627,14 +627,14 @@
       {
         "id": "PUSH_STALENESS_BUFFER",
         "severity": "MED",
-        "message": "Adapter max staleness (25200) is sufficient for the feed's heartbeat (21600).",
-        "pass": true
+        "message": "Feed heartbeat is unknown",
+        "pass": false
       }
     ],
-    "label": "USDT (0.5%, 21600s)",
-    "methodology": "Market Price",
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
     "model": "Push",
-    "provider": "RedStone",
+    "provider": "Unknown",
     "whitelisted": false
   },
   {
@@ -685,14 +685,14 @@
       {
         "id": "PUSH_STALENESS_BUFFER",
         "severity": "MED",
-        "message": "Adapter max staleness (25200) is sufficient for the feed's heartbeat (21600).",
-        "pass": true
+        "message": "Feed heartbeat is unknown",
+        "pass": false
       }
     ],
-    "label": "USDC (0.5%, 21600s)",
-    "methodology": "Market Price",
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
     "model": "Push",
-    "provider": "RedStone",
+    "provider": "Unknown",
     "whitelisted": false
   },
   {
@@ -743,14 +743,14 @@
       {
         "id": "PUSH_STALENESS_BUFFER",
         "severity": "MED",
-        "message": "Adapter max staleness (25200) is sufficient for the feed's heartbeat (21600).",
-        "pass": true
+        "message": "Feed heartbeat is unknown",
+        "pass": false
       }
     ],
-    "label": "USDe (0.5%, 21600s)",
-    "methodology": "Market Price",
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
     "model": "Push",
-    "provider": "RedStone",
+    "provider": "Unknown",
     "whitelisted": false
   },
   {
@@ -801,14 +801,14 @@
       {
         "id": "PUSH_STALENESS_BUFFER",
         "severity": "MED",
-        "message": "Adapter max staleness (25200) is sufficient for the feed's heartbeat (21600).",
-        "pass": true
+        "message": "Feed heartbeat is unknown",
+        "pass": false
       }
     ],
-    "label": "sUSDe_FUNDAMENTAL (0.5%, 21600s)",
-    "methodology": "Exchange Rate",
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
     "model": "Push",
-    "provider": "RedStone",
+    "provider": "Unknown",
     "whitelisted": false
   },
   {
