@@ -9842,6 +9842,7 @@
       "blockchainName": "Ethereum",
       "deliveryChannelCode": "DF",
       "issuer": "Adapt3r Digital",
+      "marketHours": "Forex",
       "porAuditor": "NAV Consulting",
       "porSource": "Fund Admin API",
       "productType": "NAVLink",
