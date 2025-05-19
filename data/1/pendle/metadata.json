@@ -265,14 +265,6 @@
   },
   {
     "chainId": 1,
-    "pt": "0x97E5a0EC276776c7CD551D6F90ed12e721Dce202",
-    "market": "0x53a10F17D941D62EF7c65f7c0fFbc91bE2613408",
-    "underlyingAsset": "0x4AA42B17BadA0b24f0a6FF13C4E53605cCeD735E",
-    "expiry": 1753315200,
-    "symbol": "sYUSD"
-  },
-  {
-    "chainId": 1,
     "pt": "0x9AC87302429A367cdE6df17E1f150B53E2967924",
     "market": "0x593b67a445E836D0b4e9186D7604C53b0aE6A74b",
     "underlyingAsset": "0x004626A008B1aCdC4c74ab51644093b155e59A23",
