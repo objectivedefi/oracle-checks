@@ -47,8 +47,8 @@
       {
         "id": "Push oracle staleness buffer",
         "severity": "Med",
-        "message": "Adapter's maximum staleness (3600 s) is insufficient for the feed's heartbeat (27 s). Minimum recommended value is 3627 s to ensure the adapter won't fail after the heartbeat condition is triggered.",
-        "pass": false
+        "message": "Adapter's maximum staleness (3600 s) is sufficient for the feed's heartbeat (27 s).",
+        "pass": true
       }
     ],
     "label": "BNB / USD (0.1%, 27s)",
