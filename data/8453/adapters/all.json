@@ -2782,58 +2782,6 @@
     "whitelisted": true
   },
   {
-    "name": "ChronicleOracle",
-    "address": "0x6f3621dF5c5e33e6F1e82Fc11999777E08A1a2A7",
-    "chainId": 8453,
-    "base": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
-    "quote": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-    "feed": "0x4E9A425E26295A3243568E4dae19Dc6926672Eb2",
-    "maxStaleness": "5400",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf is cbBTC (Coinbase Wrapped BTC) with 8 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913 is USDC (USD Coin) with 6 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "CBBTC/USDC",
-    "methodology": "Unknown",
-    "model": "Push",
-    "provider": "Chronicle",
-    "whitelisted": false
-  },
-  {
     "name": "ChainlinkOracle",
     "address": "0x3D5B275186Ec3a7f35991341dcb5d6183882DB2d",
     "chainId": 8453,
@@ -2851,8 +2799,8 @@
       {
         "id": "Adapter whitelist",
         "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
       },
       {
         "id": "Source code provenance",
@@ -2889,7 +2837,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "ChainlinkOracle",
@@ -2909,8 +2857,8 @@
       {
         "id": "Adapter whitelist",
         "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
       },
       {
         "id": "Source code provenance",
@@ -2947,7 +2895,7 @@
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PendleOracle",
@@ -2967,8 +2915,8 @@
       {
         "id": "Adapter whitelist",
         "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
       },
       {
         "id": "Source code provenance",
@@ -3005,7 +2953,7 @@
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "FixedRateOracle",
@@ -3024,8 +2972,8 @@
       {
         "id": "Adapter whitelist",
         "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
       },
       {
         "id": "Source code provenance",
@@ -3062,7 +3010,7 @@
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PendleOracle",
@@ -3082,8 +3030,8 @@
       {
         "id": "Adapter whitelist",
         "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
       },
       {
         "id": "Source code provenance",
@@ -3120,7 +3068,7 @@
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
-    "whitelisted": false
+    "whitelisted": true
   },
   {
     "name": "PythOracle",
@@ -3142,8 +3090,8 @@
       {
         "id": "Adapter whitelist",
         "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
       },
       {
         "id": "Source code provenance",
@@ -3204,6 +3152,58 @@
     "methodology": "Exchange Rate",
     "model": "Pull",
     "provider": "Pyth",
+    "whitelisted": true
+  },
+  {
+    "name": "ChronicleOracle",
+    "address": "0x6f3621dF5c5e33e6F1e82Fc11999777E08A1a2A7",
+    "chainId": 8453,
+    "base": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+    "quote": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "feed": "0x4E9A425E26295A3243568E4dae19Dc6926672Eb2",
+    "maxStaleness": "5400",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf is cbBTC (Coinbase Wrapped BTC) with 8 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913 is USDC (USD Coin) with 6 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "CBBTC/USDC",
+    "methodology": "Unknown",
+    "model": "Push",
+    "provider": "Chronicle",
     "whitelisted": false
   }
 ]

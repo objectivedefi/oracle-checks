@@ -1125,5 +1125,40 @@
     "name": "PT Ethena sUSDE 31JUL2025",
     "symbol": "PT-sUSDE-31JUL2025",
     "decimals": 18
+  },
+  {
+    "address": "0xB1F1ee126e9c96231Cc3d3fAD7C08b4cf873b1f1",
+    "chainId": 1,
+    "name": "Beefy",
+    "symbol": "BIFI",
+    "decimals": 18
+  },
+  {
+    "address": "0x2a8c22E3b10036f3AEF5875d04f8441d4188b656",
+    "chainId": 1,
+    "name": "Midas Basis Trading Token",
+    "symbol": "mBASIS",
+    "decimals": 18
+  },
+  {
+    "address": "0x4956b52aE2fF65D74CA2d61207523288e4528f96",
+    "chainId": 1,
+    "name": "Resolv Liquidity Provider Token",
+    "symbol": "RLP",
+    "decimals": 18
+  },
+  {
+    "address": "0x09D4214C03D01F49544C0448DBE3A27f768F2b34",
+    "chainId": 1,
+    "name": "Reservoir Stablecoin",
+    "symbol": "rUSD",
+    "decimals": 18
+  },
+  {
+    "address": "0x738d1115B90efa71AE468F1287fc864775e23a31",
+    "chainId": 1,
+    "name": "Savings rUSD",
+    "symbol": "srUSD",
+    "decimals": 18
   }
 ]

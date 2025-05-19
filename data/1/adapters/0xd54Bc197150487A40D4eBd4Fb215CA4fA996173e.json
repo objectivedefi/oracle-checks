@@ -1,11 +1,12 @@
 {
-  "name": "PendleOracle",
-  "address": "0xaD630626c8555965307e8A2C0Df6FEe700032648",
-  "chainId": 8453,
-  "base": "0xec443e7E0e745348E500084892C89218B3ba4683",
-  "quote": "0x35E5dB674D8e93a03d814FA0ADa70731efe8a4b9",
-  "pendleMarket": "0xE15578523937ed7F08E8F7a1Fa8a021E07025a08",
-  "twapWindow": "900",
+  "name": "CrossAdapter",
+  "address": "0xd54Bc197150487A40D4eBd4Fb215CA4fA996173e",
+  "chainId": 1,
+  "base": "0x738d1115B90efa71AE468F1287fc864775e23a31",
+  "cross": "0x09D4214C03D01F49544C0448DBE3A27f768F2b34",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "oracleBaseCross": "0x2D1706941e7A7b93c2e44F01261f1dDe3D1D6999",
+  "oracleCrossQuote": "0x01dBD40296C232C2C58c99Ff69084B256BeE33EE",
   "checks": [
     {
       "id": "Adapter existence",
@@ -34,25 +35,25 @@
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0xec443e7E0e745348E500084892C89218B3ba4683 is PT-USR-24APR2025 (PT Resolv USD 24APR2025) with 18 decimals.",
+      "message": "Asset 0x738d1115B90efa71AE468F1287fc864775e23a31 is srUSD (Savings rUSD) with 18 decimals.",
       "pass": true
     },
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0x35E5dB674D8e93a03d814FA0ADa70731efe8a4b9 is USR (Resolv USD) with 18 decimals.",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
       "pass": true
     },
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0xE15578523937ed7F08E8F7a1Fa8a021E07025a08 is PENDLE-LPT (Pendle Market) with 18 decimals.",
+      "message": "Asset 0x09D4214C03D01F49544C0448DBE3A27f768F2b34 is rUSD (Reservoir Stablecoin) with 18 decimals.",
       "pass": true
     }
   ],
-  "label": "Unknown pool",
-  "methodology": "TWAP",
-  "model": "Push",
-  "provider": "Pendle",
+  "label": "srUSD/rUSD/USD",
+  "methodology": "Unknown",
+  "model": "Unknown",
+  "provider": "Cross",
   "whitelisted": true
 }

@@ -1,12 +1,12 @@
 {
   "name": "PythOracle",
-  "address": "0x64F9a04610b1CeA9E7a628bFA161dC84975D6BC1",
-  "chainId": 8453,
-  "base": "0x5875eEE11Cf8398102FdAd704C9E96607675467a",
-  "quote": "0x820C137fa70C8691f0e44Dc420a5e53c168921Dc",
-  "pyth": "0x8250f4aF4B972684F7b336503E2D6dFeDeB1487a",
-  "feedId": "0x6968a8641208463d17ae3b9cfa0e4841a7aa7a5d54122b9f692b84fe9ce3409f",
-  "maxStaleness": "60",
+  "address": "0x92b172Bd476948d01f858Dd3FaAc4943e3BC775E",
+  "chainId": 1,
+  "base": "0xbBbBBBBbbBBBbbbBbbBbbbbBBbBbbbbBbBbbBBbB",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "pyth": "0x4305FB66699C3B2702D4d05CF36551390A4c69C6",
+  "feedId": "0xe62df6c8b4a85fe1a67db44dc12de5db330f7ac66b72dc658afedf0f4a415b43",
+  "maxStaleness": "120",
   "maxConfWidth": "300",
   "checks": [
     {
@@ -36,31 +36,31 @@
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0x5875eEE11Cf8398102FdAd704C9E96607675467a is sUSDS (Savings USDS) with 18 decimals.",
+      "message": "Asset 0xbBbBBBBbbBBBbbbBbbBbbbbBBbBbbbbBbBbbBBbB is a special designator address.",
       "pass": true
     },
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0x820C137fa70C8691f0e44Dc420a5e53c168921Dc is USDS (USDS Stablecoin) with 18 decimals.",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
       "pass": true
     },
     {
       "id": "Recognized Pyth feed",
       "severity": "High",
-      "message": "Adapter is connected to an official Pyth feed: SUSDS/USDS",
+      "message": "Adapter is connected to an official Pyth feed: BTC/USD",
       "pass": true
     },
     {
       "id": "Pyth base correspondence",
       "severity": "Info",
-      "message": "Adapter's base asset (sUSDS) does not correspond to the Pyth feed's base asset from metadata (SUSDS).",
+      "message": "Adapter's base asset (BTC) does not correspond to the Pyth feed's base asset from metadata (BTC).",
       "pass": true
     },
     {
       "id": "Pyth quote correspondence",
       "severity": "Info",
-      "message": "Adapter's quote asset (USDS) does not correspond to the Pyth feed's quote asset from metadata (USDS).",
+      "message": "Adapter's quote asset (USD) does not correspond to the Pyth feed's quote asset from metadata (USD).",
       "pass": true
     },
     {
@@ -76,8 +76,8 @@
       "pass": true
     }
   ],
-  "label": "Crypto.SUSDS/USDS.RR (60s, ±300bps)",
-  "methodology": "Exchange Rate",
+  "label": "Crypto.BTC/USD (120s, ±300bps)",
+  "methodology": "Market Price",
   "model": "Pull",
   "provider": "Pyth",
   "whitelisted": true
