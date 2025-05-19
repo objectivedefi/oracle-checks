@@ -23,7 +23,7 @@ import { metadataHashes } from "./metadataHashes";
 import { CheckConfig } from "./types";
 
 const defaultBounds = {
-  minPushHeartbeatBuffer: 3600,
+  minPushHeartbeatBuffer: 1800,
   pythStalenessLowerBound: 30,
   pythStalenessUpperBound: 300,
 };
