@@ -221,14 +221,14 @@
       {
         "id": "Push oracle staleness buffer",
         "severity": "Med",
-        "message": "Adapter's maximum staleness (25200 s) is sufficient for the feed's heartbeat (21600 s).",
-        "pass": true
+        "message": "Feed heartbeat is unknown",
+        "pass": false
       }
     ],
-    "label": "scUSD_FUNDAMENTAL (0.5%, 21600s)",
-    "methodology": "Exchange Rate",
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
     "model": "Push",
-    "provider": "RedStone",
+    "provider": "Unknown",
     "whitelisted": true
   },
   {
@@ -633,14 +633,14 @@
       {
         "id": "Push oracle staleness buffer",
         "severity": "Med",
-        "message": "Adapter's maximum staleness (25200 s) is sufficient for the feed's heartbeat (21600 s).",
-        "pass": true
+        "message": "Feed heartbeat is unknown",
+        "pass": false
       }
     ],
-    "label": "SolvBTC (0.5%, 21600s)",
-    "methodology": "Market Price",
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
     "model": "Push",
-    "provider": "RedStone",
+    "provider": "Unknown",
     "whitelisted": true
   },
   {
@@ -691,14 +691,14 @@
       {
         "id": "Push oracle staleness buffer",
         "severity": "Med",
-        "message": "Adapter's maximum staleness (25200 s) is sufficient for the feed's heartbeat (21600 s).",
-        "pass": true
+        "message": "Feed heartbeat is unknown",
+        "pass": false
       }
     ],
-    "label": "SolvBTC.BBN (0.5%, 21600s)",
-    "methodology": "Market Price",
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
     "model": "Push",
-    "provider": "RedStone",
+    "provider": "Unknown",
     "whitelisted": true
   },
   {
@@ -833,14 +833,14 @@
       {
         "id": "Push oracle staleness buffer",
         "severity": "Med",
-        "message": "Adapter's maximum staleness (25200 s) is sufficient for the feed's heartbeat (21600 s).",
-        "pass": true
+        "message": "Feed heartbeat is unknown",
+        "pass": false
       }
     ],
-    "label": "S (0.5%, 21600s)",
-    "methodology": "Market Price",
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
     "model": "Push",
-    "provider": "RedStone",
+    "provider": "Unknown",
     "whitelisted": true
   },
   {
@@ -2168,14 +2168,14 @@
       {
         "id": "Push oracle staleness buffer",
         "severity": "Med",
-        "message": "Adapter's maximum staleness (25200 s) is sufficient for the feed's heartbeat (21600 s).",
-        "pass": true
+        "message": "Feed heartbeat is unknown",
+        "pass": false
       }
     ],
-    "label": "stS_FUNDAMENTAL (0.5%, 21600s)",
-    "methodology": "Exchange Rate",
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
     "model": "Push",
-    "provider": "RedStone",
+    "provider": "Unknown",
     "whitelisted": false
   },
   {
@@ -2226,14 +2226,14 @@
       {
         "id": "Push oracle staleness buffer",
         "severity": "Med",
-        "message": "Adapter's maximum staleness (25200 s) is sufficient for the feed's heartbeat (21600 s).",
-        "pass": true
+        "message": "Feed heartbeat is unknown",
+        "pass": false
       }
     ],
-    "label": "scETH_FUNDAMENTAL (0.5%, 21600s)",
-    "methodology": "Exchange Rate",
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
     "model": "Push",
-    "provider": "RedStone",
+    "provider": "Unknown",
     "whitelisted": false
   },
   {
