@@ -213,7 +213,7 @@ export function runChecks({
       methodology = "Exchange Rate";
       model = "Push";
       provider = "Rate Provider";
-    } else if (name === "PendleOracle") {
+    } else if (name === "PendleOracle" || name === "PendleUniversalOracle") {
       const pendlePoolCheck = pendlePoolOfficial({
         adapter,
         pendleMetadata,
