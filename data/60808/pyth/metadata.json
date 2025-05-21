@@ -21010,5 +21010,672 @@
       "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400",
       "symbol": "Equity.US.US500H6/USD"
     }
+  },
+  {
+    "id": "0xb04edaa5eba1fb048c18b727466681894f0ab21dd89643432af0277162dedb6d",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "KBTC",
+      "description": "KRAKEN WRAPPED BITCOIN / US DOLLAR",
+      "display_symbol": "KBTC/USD",
+      "generic_symbol": "KBTCUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.KBTC/USD"
+    }
+  },
+  {
+    "id": "0xd7fb6cb62dd49c8466cff6b551c28c7192123f529405e9765d9db543b43411c4",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "NXPC",
+      "description": "NEXPACE / US DOLLAR",
+      "display_symbol": "NXPC/USD",
+      "generic_symbol": "NXPCUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.NXPC/USD"
+    }
+  },
+  {
+    "id": "0x675e36f84a6be779ed793c71eb5c03151e1866c125767f46933626e0610af84d",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "PST",
+      "contract_id": "spl: 59obFNBzyTBGowrkif5uK7ojS58vsuWz3ZCvg6tfZAGw",
+      "description": "PAYFI STRATEGY TOKEN / USD COIN REDEMPTION RATE",
+      "display_symbol": "PST/USDC",
+      "generic_symbol": "PSTUSDC",
+      "quote_currency": "USDC",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.PST/USDC.RR"
+    }
+  },
+  {
+    "id": "0xa210f55ff119d315002b5dc4f763b4e4114197028e45d6aca16498ab1433fb6d",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "UFART",
+      "description": "HYPERUNIT FARTCOIN / US DOLLAR",
+      "display_symbol": "UFART/USD",
+      "generic_symbol": "UFARTUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.UFART/USD"
+    }
+  },
+  {
+    "id": "0x8d0fa26c8dd1b22c9e3aef8ed5842848d123f391d2a8cc5a2209df694244a777",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "USDX",
+      "description": "STABLES LABS USDX / US DOLLAR",
+      "display_symbol": "USDX/USD",
+      "generic_symbol": "USDXUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.USDX/USD"
+    }
+  },
+  {
+    "id": "0x974c7a77dbace44d229be17fc176975e06404b004476aeaff37641818cb0c55a",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "USOL",
+      "description": "HYPERUNIT SOLANA / US DOLLAR",
+      "display_symbol": "USOL/USD",
+      "generic_symbol": "USOLUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.USOL/USD"
+    }
+  },
+  {
+    "id": "0x150436e6b1b3e104c4bcc850950a659d06445b3abdcf088c31897bfcaf6967f9",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "510310",
+      "country": "CN",
+      "description": "HS 300 ETF / CHINESE YUAN",
+      "display_symbol": "510310/CNY",
+      "publish_interval": "5",
+      "quote_currency": "CNY",
+      "schedule": "Asia/Shanghai;0930-11:30&13:00-14:57,0930-11:30&13:00-14:57,0930-11:30&13:00-14:57,0930-11:30&13:00-14:57,0930-11:30&13:00-14:57,C,C;0602/C",
+      "symbol": "Equity.CN.510310/CNY"
+    }
+  },
+  {
+    "id": "0x20999d58c48bc25fc2db78aa45a13d16677afd7f152d9a8af5cc62d3f26079a1",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "510330",
+      "country": "CN",
+      "description": "CHINAAMC 300 / CHINESE YUAN",
+      "display_symbol": "510330/CNY",
+      "publish_interval": "5",
+      "quote_currency": "CNY",
+      "schedule": "Asia/Shanghai;0930-11:30&13:00-14:57,0930-11:30&13:00-14:57,0930-11:30&13:00-14:57,0930-11:30&13:00-14:57,0930-11:30&13:00-14:57,C,C;0602/C",
+      "symbol": "Equity.CN.510330/CNY"
+    }
+  },
+  {
+    "id": "0xb2b6cb3dbbfabe4c37b99e11e3e068da037b5455bc58aac5924f2b96d5accf02",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "CSP1",
+      "country": "IE",
+      "description": "ISHARES VII CORE S&P 500 ETF (ACC) / BRITISH POUND",
+      "display_symbol": "CSP1/GBP",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0526/C,0825/C,1224/0800-1230,1225/C,1226/C,1231/0800-1230,0101/C",
+      "symbol": "Equity.IE.CSP1/GBP"
+    }
+  },
+  {
+    "id": "0xeee28bf40d278c8a66242f6a469d95ef1d5fab9acc71f4739b5b264689b15ea3",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "VUSA-GB",
+      "country": "IE",
+      "description": "VANGUARD S&P 500 UCITS ETF / BRITISH POUND",
+      "display_symbol": "VUSA.GB/GBP",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0526/C,0825/C,1224/0800-1230,1225/C,1226/C,1231/0800-1230,0101/C",
+      "symbol": "Equity.IE.VUSA-GB/GBP"
+    }
+  },
+  {
+    "id": "0xf48024e7b8df89c416073b2a67c8a586ab0cb8409471a5daa52812ae48594772",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "VUSA",
+      "country": "IE",
+      "description": "VANGUARD FUNDS S&P 500 UCITS ETF USD DIS / SWISS FRANC",
+      "display_symbol": "VUSA/CHF",
+      "publish_interval": "5",
+      "quote_currency": "CHF",
+      "schedule": "Europe/Zurich;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0421/C,0501/C,0529/C,0609/C,0801/C",
+      "symbol": "Equity.IE.VUSA/CHF"
+    }
+  },
+  {
+    "id": "0x9cecbb4f3744f4201aab46431e5587a931dfb6e02567f7c3d73f93b3c9fdeead",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "VUSA",
+      "country": "IE",
+      "description": "VANGUARD FUNDS S&P 500 UCITS ETF USD DIS / EURO",
+      "display_symbol": "VUSA/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.IE.VUSA/EUR"
+    }
+  },
+  {
+    "id": "0xccdeebc019c8cd28b81f47a03999f9e905e87cd9320c268908649e411be0bf2a",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "VUSA",
+      "country": "IE",
+      "description": "VANGUARD FUNDS VANGUARD S&P 500 UCITS ETF / BRITISH POUND",
+      "display_symbol": "VUSA/GBP",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0526/C,0825/C,1224/0800-1230,1225/C,1226/C,1231/0800-1230,0101/C",
+      "symbol": "Equity.IE.VUSA/GBP"
+    }
+  },
+  {
+    "id": "0xba1d1b7beb6271674fe48f82133bdce91914066589ce76ca6ec6aa2908ac9e74",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "VUSD-GB",
+      "country": "IE",
+      "description": "VANGUARD S&P 500 UCITS ETF / US DOLLAR",
+      "display_symbol": "VUSD.GB/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0526/C,0825/C,1224/0800-1230,1225/C,1226/C,1231/0800-1230,0101/C",
+      "symbol": "Equity.IE.VUSD-GB/USD"
+    }
+  },
+  {
+    "id": "0xd3d665a78af7009400ed7ee20a9dfbac60fd19ba6d30ab67ef1289cdc4635b13",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "VUSD",
+      "country": "IE",
+      "description": "VANGUARD FUNDS VANGUARD S&P 500 UCITS ETF / US DOLLAR",
+      "display_symbol": "VUSD/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0526/C,0825/C,1224/0800-1230,1225/C,1226/C,1231/0800-1230,0101/C",
+      "symbol": "Equity.IE.VUSD/USD"
+    }
+  },
+  {
+    "id": "0x296a14172d63e3a49376dec43593483d048eba72504d08c50de03977e22cbc38",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "1305",
+      "country": "JP",
+      "description": "DAIWA IFREEETF TOPIX (YEARLY DIV TYPE) / JAPANESE YEN",
+      "display_symbol": "1305/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.1305/JPY"
+    }
+  },
+  {
+    "id": "0xc133ee357791942e1002f0b09590a285c66bdf26ecb8e7103e819aa2e1dbd5d2",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "1306",
+      "country": "JP",
+      "description": "NOMURA NEXT FUNDS TOPIX ETF / JAPANESE YEN",
+      "display_symbol": "1306/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.1306/JPY"
+    }
+  },
+  {
+    "id": "0x9a13e9f0b074e0c5cd78c9bc2375068b61d9e086f669fe150f0a8c0ae047153b",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "1308",
+      "country": "JP",
+      "description": "NIKKO EXCHANGE TRADED INDEX TOPIX / JAPANESE YEN",
+      "display_symbol": "1308/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.1308/JPY"
+    }
+  },
+  {
+    "id": "0xa711d77befd0fd9109f8d7605a45b44402959b953ae5dcd883614087a73d417b",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "1320",
+      "country": "JP",
+      "description": "DAIWA IFREEETF NIKKEI225 (YEARLY DIV TYPE) / JAPANESE YEN",
+      "display_symbol": "1320/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.1320/JPY"
+    }
+  },
+  {
+    "id": "0x62454bd808fe2f611fa91a09749537ed9cee6023ac737461ae17ab54b184e44c",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "1321",
+      "country": "JP",
+      "description": "NOMURA NEXT FUNDS NIKKEI 225 ETF / JAPANESE YEN",
+      "display_symbol": "1321/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.1321/JPY"
+    }
+  },
+  {
+    "id": "0x775e348785da6800e0a3b0f7d893c50cd764478e55f2ddd4e9bc02081f23ad24",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "1330",
+      "country": "JP",
+      "description": "NIKKO EXCHANGE TRADED INDEX FUND 225 / JAPANESE YEN",
+      "display_symbol": "1330/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.1330/JPY"
+    }
+  },
+  {
+    "id": "0x9375ffc7008b87c3fcf4b732d27ba8e91c7b147695ea1bfe22cd75e7e6fb246b",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "1211-SR",
+      "country": "US",
+      "description": "MA'ADEN / US DOLLAR",
+      "display_symbol": "1211.SR/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.1211-SR/USD"
+    }
+  },
+  {
+    "id": "0xb8c2409078c3ff289b21835cd62cdc24233f430395397004874aff6265e8baa4",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "AEM",
+      "country": "US",
+      "description": "AGNICO EAGLE MINES / US DOLLAR",
+      "display_symbol": "AEM/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.AEM/USD"
+    }
+  },
+  {
+    "id": "0x66e2456d8f7fae8b1421538b10c868b89a6e23b727f290ac062cc6809c96ea9a",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "AGG",
+      "country": "US",
+      "description": "ISHARES CORE US AGGREGATE BOND ETF / US DOLLAR",
+      "display_symbol": "AGG/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.AGG/USD"
+    }
+  },
+  {
+    "id": "0x191d7aac7f589ecdf86e05e349c58873eebe0c6b0101615af3a22b366a51d87d",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BHP",
+      "country": "US",
+      "description": "BHP GROUP / US DOLLAR",
+      "display_symbol": "BHP/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.BHP/USD"
+    }
+  },
+  {
+    "id": "0x6050efb3d94369697e5cdebf4b7a14f0f503bf8cd880e24ef85f9fbc0a68feb2",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BIL",
+      "country": "US",
+      "description": "SPDR BLOOMBERG 1-3 MONTH T-BILL ETF / US DOLLAR",
+      "display_symbol": "BIL/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.BIL/USD"
+    }
+  },
+  {
+    "id": "0xed8fb53acc8e6fada0885e9fca7b8bd15727ef6913fe10141d5cc51f73f6fc81",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BND",
+      "country": "US",
+      "description": "VANGUARD TOTAL BOND MKT ETF / US DOLLAR",
+      "display_symbol": "BND/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.BND/USD"
+    }
+  },
+  {
+    "id": "0x80642d572babc523158d2bfad90f32ef236cd43150b44790c8aa88865007c07b",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BNDX",
+      "country": "US",
+      "description": "VANGUARD TOTAL INTL BOND ETF / US DOLLAR",
+      "display_symbol": "BNDX/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.BNDX/USD"
+    }
+  },
+  {
+    "id": "0xc9ae586dc9d73ff6353f20c2c2a2c9efacf697e0abd30d7e8042e3c789054ebf",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BSV",
+      "country": "US",
+      "description": "VANGUARD SHORT-TERM BOND ETF / US DOLLAR",
+      "display_symbol": "BSV/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.BSV/USD"
+    }
+  },
+  {
+    "id": "0x3f2248ef2d37b8f3cad014b64fb1d7506254feaed383220219e73406bd458b6b",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "DFAC",
+      "country": "US",
+      "description": "DIMENSIONAL US CORE EQUITY 2 ETF / US DOLLAR",
+      "display_symbol": "DFAC/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.DFAC/USD"
+    }
+  },
+  {
+    "id": "0x1519a1216a7556cda9e89554706127a1f39c36d96d5471889bbeaf2f78eaf5bd",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "DGRO",
+      "country": "US",
+      "description": "ISHARES CORE DIV GROWTH ETF / US DOLLAR",
+      "display_symbol": "DGRO/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.DGRO/USD"
+    }
+  },
+  {
+    "id": "0x63ef768807de89d4b21c1efbb938923813cb6e043759c4019540f5d94825698e",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "GLCNF",
+      "country": "US",
+      "description": "GLENCORE / US DOLLAR",
+      "display_symbol": "GLCNF/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.GLCNF/USD"
+    }
+  },
+  {
+    "id": "0xa54d01262b4a82334e828d835eb4975a772303ad39e2ff20a146fc1d80bb4e45",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "GMBXF",
+      "country": "US",
+      "description": "GRUPO MEXICO / US DOLLAR",
+      "display_symbol": "GMBXF/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.GMBXF/USD"
+    }
+  },
+  {
+    "id": "0xca320d73da49ed89083480db02fbe5cd352d8bd98c9c7310336c82c32f9dbbd6",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "GRND",
+      "country": "US",
+      "description": "GRINDR INC / US DOLLAR",
+      "display_symbol": "GRND/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.GRND/USD"
+    }
+  },
+  {
+    "id": "0x034626d18bc711c55c71e27319f8851f483bc08a7f97be2dee9ea8f7ccd59248",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "IEF",
+      "country": "US",
+      "description": "ISHARES 7-10 YEAR TREASURY BOND ETF / US DOLLAR",
+      "display_symbol": "IEF/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.IEF/USD"
+    }
+  },
+  {
+    "id": "0x3e959410e8daa7941a4d2179332a3ab1d38e78dd8d83134996e65a3f4352f828",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "IEFA",
+      "country": "US",
+      "description": "ISHARES CORE MSCI EAFE ETF / US DOLLAR",
+      "display_symbol": "IEFA/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.IEFA/USD"
+    }
+  },
+  {
+    "id": "0x96b1207c795f31283f5e44c527a1db18cacfb68de745a0de326611b0b5af3fc3",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "IEMG",
+      "country": "US",
+      "description": "ISHARES CORE MSCI EMERGING MKTS ETF / US DOLLAR",
+      "display_symbol": "IEMG/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.IEMG/USD"
+    }
+  },
+  {
+    "id": "0xab4b0a2fad7f23125a7a94eec46204fcf1ba69bb81d32778db0ba3e66df6772a",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "IJH",
+      "country": "US",
+      "description": "ISHARES CORE S&P MID-CAP ETF / US DOLLAR",
+      "display_symbol": "IJH/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.IJH/USD"
+    }
+  },
+  {
+    "id": "0xca0bac9d1826b4a222320f58d47ed66bdc95722124578ed50803674ccd99a775",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "IJR",
+      "country": "US",
+      "description": "ISHARES CORE S&P SMALL-CAP ETF / US DOLLAR",
+      "display_symbol": "IJR/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.IJR/USD"
+    }
+  },
+  {
+    "id": "0xde7279ce7d805c43c4893239b77aa07525df93c9f8ede0bd8b3d87609dd80415",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "ITOT",
+      "country": "US",
+      "description": "ISHARES CORE S&P TOTAL US STOCK MKT ETF / US DOLLAR",
+      "display_symbol": "ITOT/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.ITOT/USD"
+    }
+  },
+  {
+    "id": "0x9e530d43756213889ebee4ac3aa0b96f6c7d5f4771e8fb777b76eb5905543d5c",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "IUSB",
+      "country": "US",
+      "description": "ISHARES CORE TOTAL USD BOND MKT ETF / US DOLLAR",
+      "display_symbol": "IUSB/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.IUSB/USD"
+    }
+  },
+  {
+    "id": "0x032a22cf23ae07db0f787cdd9f69b7f41110c0cf3f29923edccbe0d567f99cbb",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "IVE",
+      "country": "US",
+      "description": "ISHARES S&P 500 VALUE ETF / US DOLLAR",
+      "display_symbol": "IVE/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.IVE/USD"
+    }
+  },
+  {
+    "id": "0x1b79d5b75253c291cc72d40cc874f468d07c1e6c149ee298a00d8075cb10c2c0",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "IVW",
+      "country": "US",
+      "description": "ISHARES S&P 500 GROWTH ETF / US DOLLAR",
+      "display_symbol": "IVW/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.IVW/USD"
+    }
+  },
+  {
+    "id": "0x1154bf293d452777db2e1b96649df3375d068bb0bce604c8c10b02472bd158f4",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "IWB",
+      "country": "US",
+      "description": "ISHARES RUSSELL 1000 ETF / US DOLLAR",
+      "display_symbol": "IWB/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.IWB/USD"
+    }
+  },
+  {
+    "id": "0xa156d1ca2a4b99c27d8402ec0dd4cad5568d12d3e37764254ab10cc55a8d870c",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "IWD",
+      "country": "US",
+      "description": "ISHARES RUSSELL 1000 VALUE ETF / US DOLLAR",
+      "display_symbol": "IWD/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.IWD/USD"
+    }
+  },
+  {
+    "id": "0x043cfcce46f77fb2bc7ab360e7250aa6ab966781bea1cbf6bc5b8ac3e15e6e32",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "IWDA",
+      "country": "US",
+      "description": "ISHARES III CORE MSCI WORLD ETF (ACC) / US DOLLAR",
+      "display_symbol": "IWDA/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0526/C,0825/C,1224/0800-1230,1225/C,1226/C,1231/0800-1230,0101/C",
+      "symbol": "Equity.US.IWDA/USD"
+    }
+  },
+  {
+    "id": "0xefc46125a2063f8662815a3c5d78f20aa0c4e6dde0862364a6f5d2f47d862ac1",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "IWF",
+      "country": "US",
+      "description": "ISHARES RUSSELL 1000 GROWTH ETF / US DOLLAR",
+      "display_symbol": "IWF/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.IWF/USD"
+    }
+  },
+  {
+    "id": "0x216f5e294659837328cfe78f262ab628b83e1f436941b5e43500b48869e4e28e",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "IWR",
+      "country": "US",
+      "description": "ISHARES RUSSELL MID-CAP ETF / US DOLLAR",
+      "display_symbol": "IWR/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.IWR/USD"
+    }
   }
 ]
