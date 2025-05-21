@@ -27,7 +27,7 @@ import {
   RegistryEntry,
 } from "@objectivelabs/oracle-sdk";
 import dotenv from "dotenv";
-import { Address, getAddress, Hex, zeroAddress } from "viem";
+import { Address, getAddress, Hex, isAddress, zeroAddress } from "viem";
 
 import { batchArray } from "./batchArray";
 import { chainConfigs } from "./config/chainConfigs";
@@ -45,6 +45,8 @@ dotenv.config();
 const BATCH_SIZE = 50;
 
 export async function collectData(chainId: number): Promise<CollectedData> {
+  fs.mkdirSync(`./data/${chainId}`, { recursive: true });
+
   const { publicClient, otherRecognizedAggregatorV3Feeds } = chainConfigs[chainId];
 
   const logPrefix = `[${chainId} ${publicClient.chain?.name}]`;
@@ -104,13 +106,21 @@ export async function collectData(chainId: number): Promise<CollectedData> {
 
   const addressBatches = batchArray(adapterAddresses, BATCH_SIZE);
 
-  const dirPath = `./data/${chainId}`;
-  fs.mkdirSync(dirPath, { recursive: true });
-
+  const newlyFoundUnderlyingAdapterAddresses: Address[] = [];
   const adapters: (Adapter | null)[] = [];
   const bytecodes: (Hex | undefined)[] = [];
   for (const [i, addressBatch] of addressBatches.entries()) {
     const adapterBatch = await indexAdapters({ adapterAddresses: addressBatch, publicClient });
+    adapterBatch.forEach((adapter) => {
+      if (adapter?.name === "CrossAdapter") {
+        if (isAddress(adapter.oracleBaseCross)) {
+          newlyFoundUnderlyingAdapterAddresses.push(getAddress(adapter.oracleBaseCross));
+        }
+        if (isAddress(adapter.oracleCrossQuote)) {
+          newlyFoundUnderlyingAdapterAddresses.push(getAddress(adapter.oracleCrossQuote));
+        }
+      }
+    });
     adapters.push(...adapterBatch);
 
     const bytecodeBatch = await Promise.all(
@@ -122,6 +132,33 @@ export async function collectData(chainId: number): Promise<CollectedData> {
     );
     bytecodes.push(...bytecodeBatch);
     console.log(`${logPrefix} Indexed adapters ${i + 1}/${addressBatches.length}`);
+  }
+
+  const newAdapterAddresses = Array.from(
+    new Set(
+      newlyFoundUnderlyingAdapterAddresses.filter((address) => !adapterAddresses.includes(address)),
+    ),
+  );
+
+  if (newAdapterAddresses.length > 0) {
+    adapterAddresses.push(...newAdapterAddresses);
+    const newAdapters = await indexAdapters({
+      adapterAddresses: newAdapterAddresses,
+      publicClient,
+    });
+    adapters.push(...newAdapters);
+
+    const newBytecodes = await Promise.all(
+      newAdapterAddresses.map((address) =>
+        publicClient.getCode({
+          address,
+        }),
+      ),
+    );
+    bytecodes.push(...newBytecodes);
+    console.log(
+      `${logPrefix} Indexed ${newAdapterAddresses.length} newly found cross underlying adapters`,
+    );
   }
 
   const aggregatorV3Feeds = adapters

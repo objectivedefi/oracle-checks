@@ -1,10 +1,10 @@
-import { PendleMetadata, PendleOracle } from "@objectivelabs/oracle-sdk";
+import { PendleMetadata, PendleOracle, PendleUniversalOracle } from "@objectivelabs/oracle-sdk";
 
 import { CheckResultWithId } from "./types";
 import { CHECKS, failCheck, passCheck } from "./utils";
 
 type Params = {
-  adapter: PendleOracle;
+  adapter: PendleOracle | PendleUniversalOracle;
   pendleMetadata: PendleMetadata | undefined;
 };
 

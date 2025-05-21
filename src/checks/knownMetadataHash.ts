@@ -35,6 +35,7 @@ export function knownMetadataHash({
   const expectedHash = allowedMetadataHashes.find((hash) => metadataHash === hash);
 
   if (metadataHash !== expectedHash) {
+    console.warn(`${adapter.name} metadata hash mismatch: ${metadataHash}`);
     return failCheck(CHECKS.SOURCE_CODE_PROVENANCE, `Contract metadata hash is not recognized.`);
   }
 
