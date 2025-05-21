@@ -54,13 +54,13 @@
     {
       "id": "Pyth base correspondence",
       "severity": "Info",
-      "message": "Adapter's base asset (wstkscETH) does not correspond to the Pyth feed's base asset from metadata (WSTKSCETH).",
+      "message": "Adapter's base asset (wstkscETH) corresponds to the Pyth feed's base asset from metadata (WSTKSCETH).",
       "pass": true
     },
     {
       "id": "Pyth quote correspondence",
       "severity": "Info",
-      "message": "Adapter's quote asset (scETH) does not correspond to the Pyth feed's quote asset from metadata (SCETH).",
+      "message": "Adapter's quote asset (scETH) corresponds to the Pyth feed's quote asset from metadata (SCETH).",
       "pass": true
     },
     {

@@ -54,13 +54,13 @@
     {
       "id": "Pyth base correspondence",
       "severity": "Info",
-      "message": "Adapter's base asset (FXS) does not correspond to the Pyth feed's base asset from metadata (FXS).",
+      "message": "Adapter's base asset (FXS) corresponds to the Pyth feed's base asset from metadata (FXS).",
       "pass": true
     },
     {
       "id": "Pyth quote correspondence",
       "severity": "Info",
-      "message": "Adapter's quote asset (USD) does not correspond to the Pyth feed's quote asset from metadata (USD).",
+      "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
       "pass": true
     },
     {

@@ -54,13 +54,13 @@
     {
       "id": "Pyth base correspondence",
       "severity": "Info",
-      "message": "Adapter's base asset (rswETH) does not correspond to the Pyth feed's base asset from metadata (RSWETH).",
+      "message": "Adapter's base asset (rswETH) corresponds to the Pyth feed's base asset from metadata (RSWETH).",
       "pass": true
     },
     {
       "id": "Pyth quote correspondence",
       "severity": "Info",
-      "message": "Adapter's quote asset (USD) does not correspond to the Pyth feed's quote asset from metadata (USD).",
+      "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
       "pass": true
     },
     {

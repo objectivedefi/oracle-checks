@@ -757,13 +757,13 @@
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (Anon) does not correspond to the Pyth feed's base asset from metadata (ANON).",
+        "message": "Adapter's base asset (Anon) corresponds to the Pyth feed's base asset from metadata (ANON).",
         "pass": true
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) does not correspond to the Pyth feed's quote asset from metadata (USD).",
+        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
         "pass": true
       },
       {
@@ -905,7 +905,7 @@
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) does not correspond to the Pyth feed's quote asset from metadata (USD).",
+        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
         "pass": true
       },
       {
@@ -983,13 +983,13 @@
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (WETH) does not correspond to the Pyth feed's base asset from metadata (ETH).",
+        "message": "Adapter's base asset (WETH) corresponds to the Pyth feed's base asset from metadata (ETH).",
         "pass": true
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) does not correspond to the Pyth feed's quote asset from metadata (USD).",
+        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
         "pass": true
       },
       {
@@ -1073,7 +1073,7 @@
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) does not correspond to the Pyth feed's quote asset from metadata (USD).",
+        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
         "pass": true
       },
       {
@@ -1151,13 +1151,13 @@
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (scUSD) does not correspond to the Pyth feed's base asset from metadata (SCUSD).",
+        "message": "Adapter's base asset (scUSD) corresponds to the Pyth feed's base asset from metadata (SCUSD).",
         "pass": true
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) does not correspond to the Pyth feed's quote asset from metadata (USD).",
+        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
         "pass": true
       },
       {
@@ -1235,13 +1235,13 @@
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (scETH) does not correspond to the Pyth feed's base asset from metadata (SCETH).",
+        "message": "Adapter's base asset (scETH) corresponds to the Pyth feed's base asset from metadata (SCETH).",
         "pass": true
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) does not correspond to the Pyth feed's quote asset from metadata (USD).",
+        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
         "pass": true
       },
       {
@@ -1319,7 +1319,7 @@
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (stS) does not correspond to the Pyth feed's base asset from metadata (STS).",
+        "message": "Adapter's base asset (stS) corresponds to the Pyth feed's base asset from metadata (STS).",
         "pass": true
       },
       {
@@ -1634,13 +1634,13 @@
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (SHADOW) does not correspond to the Pyth feed's base asset from metadata (SHADOW).",
+        "message": "Adapter's base asset (SHADOW) corresponds to the Pyth feed's base asset from metadata (SHADOW).",
         "pass": true
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (USD) does not correspond to the Pyth feed's quote asset from metadata (USD).",
+        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
         "pass": true
       },
       {
@@ -2008,13 +2008,13 @@
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (wstkscETH) does not correspond to the Pyth feed's base asset from metadata (WSTKSCETH).",
+        "message": "Adapter's base asset (wstkscETH) corresponds to the Pyth feed's base asset from metadata (WSTKSCETH).",
         "pass": true
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (scETH) does not correspond to the Pyth feed's quote asset from metadata (SCETH).",
+        "message": "Adapter's quote asset (scETH) corresponds to the Pyth feed's quote asset from metadata (SCETH).",
         "pass": true
       },
       {
@@ -2092,13 +2092,13 @@
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (wstkscUSD) does not correspond to the Pyth feed's base asset from metadata (WSTKSCUSD).",
+        "message": "Adapter's base asset (wstkscUSD) corresponds to the Pyth feed's base asset from metadata (WSTKSCUSD).",
         "pass": true
       },
       {
         "id": "Pyth quote correspondence",
         "severity": "Info",
-        "message": "Adapter's quote asset (scUSD) does not correspond to the Pyth feed's quote asset from metadata (SCUSD).",
+        "message": "Adapter's quote asset (scUSD) corresponds to the Pyth feed's quote asset from metadata (SCUSD).",
         "pass": true
       },
       {

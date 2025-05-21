@@ -54,13 +54,13 @@
     {
       "id": "Pyth base correspondence",
       "severity": "Info",
-      "message": "Adapter's base asset (sUSDS) does not correspond to the Pyth feed's base asset from metadata (SUSDS).",
+      "message": "Adapter's base asset (sUSDS) corresponds to the Pyth feed's base asset from metadata (SUSDS).",
       "pass": true
     },
     {
       "id": "Pyth quote correspondence",
       "severity": "Info",
-      "message": "Adapter's quote asset (USDS) does not correspond to the Pyth feed's quote asset from metadata (USDS).",
+      "message": "Adapter's quote asset (USDS) corresponds to the Pyth feed's quote asset from metadata (USDS).",
       "pass": true
     },
     {

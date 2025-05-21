@@ -54,13 +54,13 @@
     {
       "id": "Pyth base correspondence",
       "severity": "Info",
-      "message": "Adapter's base asset (mETH) does not correspond to the Pyth feed's base asset from metadata (METH).",
+      "message": "Adapter's base asset (mETH) corresponds to the Pyth feed's base asset from metadata (METH).",
       "pass": true
     },
     {
       "id": "Pyth quote correspondence",
       "severity": "Info",
-      "message": "Adapter's quote asset (WETH) does not correspond to the Pyth feed's quote asset from metadata (ETH).",
+      "message": "Adapter's quote asset (WETH) corresponds to the Pyth feed's quote asset from metadata (ETH).",
       "pass": true
     },
     {

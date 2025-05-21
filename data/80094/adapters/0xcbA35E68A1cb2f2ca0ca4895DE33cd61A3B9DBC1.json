@@ -60,7 +60,7 @@
     {
       "id": "Pyth quote correspondence",
       "severity": "Info",
-      "message": "Adapter's quote asset (USD) does not correspond to the Pyth feed's quote asset from metadata (USD).",
+      "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
       "pass": true
     },
     {

@@ -54,7 +54,7 @@
     {
       "id": "Pyth base correspondence",
       "severity": "Info",
-      "message": "Adapter's base asset (ggAVAX) does not correspond to the Pyth feed's base asset from metadata (GGAVAX).",
+      "message": "Adapter's base asset (ggAVAX) corresponds to the Pyth feed's base asset from metadata (GGAVAX).",
       "pass": true
     },
     {

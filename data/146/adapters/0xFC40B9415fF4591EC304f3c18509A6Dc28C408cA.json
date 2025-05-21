@@ -54,7 +54,7 @@
     {
       "id": "Pyth base correspondence",
       "severity": "Info",
-      "message": "Adapter's base asset (stS) does not correspond to the Pyth feed's base asset from metadata (STS).",
+      "message": "Adapter's base asset (stS) corresponds to the Pyth feed's base asset from metadata (STS).",
       "pass": true
     },
     {
