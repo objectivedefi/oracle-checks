@@ -1,11 +1,10 @@
 {
-  "name": "ChainlinkInfrequentOracle",
-  "address": "0xC8228b83F1d97a431A48bd9Bc3e971c8b418d889",
-  "chainId": 130,
-  "base": "0x927B51f251480a681271180DA4de28D44EC4AfB8",
-  "quote": "0x0000000000000000000000000000000000000348",
-  "feed": "0xc44be6D00307c3565FDf753e852Fc003036cBc13",
-  "maxStaleness": "25200",
+  "name": "FixedRateOracle",
+  "address": "0x317B1c89F08C305710D2D2f5c188B3A778f56531",
+  "chainId": 80094,
+  "base": "0x9b6761bf2397Bb5a6624a856cC84A3A14Dcd3fe5",
+  "quote": "0x6969696969696969696969696969696969696969",
+  "rate": "1000000000000000000",
   "checks": [
     {
       "id": "Adapter existence",
@@ -34,25 +33,25 @@
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0x927B51f251480a681271180DA4de28D44EC4AfB8 is WBTC (Wrapped BTC) with 8 decimals.",
+      "message": "Asset 0x9b6761bf2397Bb5a6624a856cC84A3A14Dcd3fe5 is iBERA (Infrared BERA) with 18 decimals.",
       "pass": true
     },
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "message": "Asset 0x6969696969696969696969696969696969696969 is WBERA (Wrapped Bera) with 18 decimals.",
       "pass": true
     },
     {
-      "id": "Push oracle staleness buffer",
-      "severity": "Med",
-      "message": "Adapter's maximum staleness (25200 s) is sufficient for the feed's heartbeat (21600 s).",
+      "id": "Sane fixed rate",
+      "severity": "High",
+      "message": "Adapter has a fixed rate of 1.",
       "pass": true
     }
   ],
-  "label": "BTC (0.5%, 21600s)",
-  "methodology": "Market Price",
+  "label": "1:1 iBERA/WBERA",
+  "methodology": "Exchange Rate",
   "model": "Push",
-  "provider": "RedStone",
+  "provider": "Fixed Rate",
   "whitelisted": false
 }

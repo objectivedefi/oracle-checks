@@ -1120,10 +1120,24 @@
     "decimals": 18
   },
   {
+    "address": "0xA77c0DE4d26B7C97D1D42ABD6733201206122E25",
+    "chainId": 1,
+    "name": "Pendle Market",
+    "symbol": "PENDLE-LPT",
+    "decimals": 18
+  },
+  {
     "address": "0x3b3fB9C57858EF816833dC91565EFcd85D96f634",
     "chainId": 1,
     "name": "PT Ethena sUSDE 31JUL2025",
     "symbol": "PT-sUSDE-31JUL2025",
+    "decimals": 18
+  },
+  {
+    "address": "0x4339Ffe2B7592Dc783ed13cCE310531aB366dEac",
+    "chainId": 1,
+    "name": "Pendle Market",
+    "symbol": "PENDLE-LPT",
     "decimals": 18
   },
   {
@@ -1148,6 +1162,34 @@
     "decimals": 18
   },
   {
+    "address": "0x35a18CD59a214c9e797e14b1191b700EEa251f6A",
+    "chainId": 1,
+    "name": "Pendle Market",
+    "symbol": "PENDLE-LPT",
+    "decimals": 18
+  },
+  {
+    "address": "0x09fA04Aac9c6d1c6131352EE950CD67ecC6d4fB9",
+    "chainId": 1,
+    "name": "Pendle Market",
+    "symbol": "PENDLE-LPT",
+    "decimals": 18
+  },
+  {
+    "address": "0x931F7eA0c31c14914a452d341bc5Cb5d996BE71d",
+    "chainId": 1,
+    "name": "Pendle Market",
+    "symbol": "PENDLE-LPT",
+    "decimals": 18
+  },
+  {
+    "address": "0x85667e484a32d884010Cf16427D90049CCf46e97",
+    "chainId": 1,
+    "name": "Pendle Market",
+    "symbol": "PENDLE-LPT",
+    "decimals": 18
+  },
+  {
     "address": "0x09D4214C03D01F49544C0448DBE3A27f768F2b34",
     "chainId": 1,
     "name": "Reservoir Stablecoin",
@@ -1159,6 +1201,27 @@
     "chainId": 1,
     "name": "Savings rUSD",
     "symbol": "srUSD",
+    "decimals": 18
+  },
+  {
+    "address": "0x36d3ca43ae7939645C306E26603ce16e39A89192",
+    "chainId": 1,
+    "name": "Pendle Market",
+    "symbol": "PENDLE-LPT",
+    "decimals": 18
+  },
+  {
+    "address": "0xCaE62858DB831272A03768f5844cbe1B40bB381f",
+    "chainId": 1,
+    "name": "Pendle Market",
+    "symbol": "PENDLE-LPT",
+    "decimals": 18
+  },
+  {
+    "address": "0xcDd26Eb5EB2Ce0f203a84553853667aE69Ca29Ce",
+    "chainId": 1,
+    "name": "Pendle Market",
+    "symbol": "PENDLE-LPT",
     "decimals": 18
   }
 ]

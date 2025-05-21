@@ -182,6 +182,13 @@
     "decimals": 18
   },
   {
+    "address": "0x715509Bde846104cF2cCeBF6fdF7eF1BB874Bc45",
+    "chainId": 8453,
+    "name": "Pendle Market",
+    "symbol": "PENDLE-LPT",
+    "decimals": 18
+  },
+  {
     "address": "0x727cEbAcfb10fFd353Fc221D06A862B437eC1735",
     "chainId": 8453,
     "name": "Pendle Market",

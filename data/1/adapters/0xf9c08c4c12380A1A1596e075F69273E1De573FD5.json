@@ -1,11 +1,11 @@
 {
-  "name": "ChainlinkInfrequentOracle",
-  "address": "0xC8228b83F1d97a431A48bd9Bc3e971c8b418d889",
-  "chainId": 130,
-  "base": "0x927B51f251480a681271180DA4de28D44EC4AfB8",
-  "quote": "0x0000000000000000000000000000000000000348",
-  "feed": "0xc44be6D00307c3565FDf753e852Fc003036cBc13",
-  "maxStaleness": "25200",
+  "name": "PendleOracle",
+  "address": "0xf9c08c4c12380A1A1596e075F69273E1De573FD5",
+  "chainId": 1,
+  "base": "0x332A8ee60EdFf0a11CF3994b1b846BBC27d3DcD6",
+  "quote": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+  "pendleMarket": "0xCaE62858DB831272A03768f5844cbe1B40bB381f",
+  "twapWindow": "900",
   "checks": [
     {
       "id": "Adapter existence",
@@ -34,25 +34,25 @@
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0x927B51f251480a681271180DA4de28D44EC4AfB8 is WBTC (Wrapped BTC) with 8 decimals.",
+      "message": "Asset 0x332A8ee60EdFf0a11CF3994b1b846BBC27d3DcD6 is PT-cornLBTC-26DEC2024 (PT Corn Lombard LBTC 26DEC2024) with 8 decimals.",
       "pass": true
     },
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "message": "Asset 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599 is WBTC (Wrapped BTC) with 8 decimals.",
       "pass": true
     },
     {
-      "id": "Push oracle staleness buffer",
-      "severity": "Med",
-      "message": "Adapter's maximum staleness (25200 s) is sufficient for the feed's heartbeat (21600 s).",
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0xCaE62858DB831272A03768f5844cbe1B40bB381f is PENDLE-LPT (Pendle Market) with 18 decimals.",
       "pass": true
     }
   ],
-  "label": "BTC (0.5%, 21600s)",
-  "methodology": "Market Price",
+  "label": "Unknown pool",
+  "methodology": "TWAP",
   "model": "Push",
-  "provider": "RedStone",
+  "provider": "Pendle",
   "whitelisted": false
 }

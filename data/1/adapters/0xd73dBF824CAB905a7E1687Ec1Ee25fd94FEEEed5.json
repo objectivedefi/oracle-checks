@@ -1,11 +1,11 @@
 {
-  "name": "ChainlinkInfrequentOracle",
-  "address": "0xC8228b83F1d97a431A48bd9Bc3e971c8b418d889",
-  "chainId": 130,
-  "base": "0x927B51f251480a681271180DA4de28D44EC4AfB8",
-  "quote": "0x0000000000000000000000000000000000000348",
-  "feed": "0xc44be6D00307c3565FDf753e852Fc003036cBc13",
-  "maxStaleness": "25200",
+  "name": "PendleOracle",
+  "address": "0xd73dBF824CAB905a7E1687Ec1Ee25fd94FEEEed5",
+  "chainId": 1,
+  "base": "0xB997B3418935A1Df0F914Ee901ec83927c1509A0",
+  "quote": "0x657e8C867D8B37dCC18fA4Caead9C45EB088C642",
+  "pendleMarket": "0x36d3ca43ae7939645C306E26603ce16e39A89192",
+  "twapWindow": "900",
   "checks": [
     {
       "id": "Adapter existence",
@@ -34,25 +34,25 @@
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0x927B51f251480a681271180DA4de28D44EC4AfB8 is WBTC (Wrapped BTC) with 8 decimals.",
+      "message": "Asset 0xB997B3418935A1Df0F914Ee901ec83927c1509A0 is PT-EBTC-26DEC2024 (PT ether.fi eBTC 26DEC2024) with 8 decimals.",
       "pass": true
     },
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "message": "Asset 0x657e8C867D8B37dCC18fA4Caead9C45EB088C642 is eBTC (ether.fi BTC) with 8 decimals.",
       "pass": true
     },
     {
-      "id": "Push oracle staleness buffer",
-      "severity": "Med",
-      "message": "Adapter's maximum staleness (25200 s) is sufficient for the feed's heartbeat (21600 s).",
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x36d3ca43ae7939645C306E26603ce16e39A89192 is PENDLE-LPT (Pendle Market) with 18 decimals.",
       "pass": true
     }
   ],
-  "label": "BTC (0.5%, 21600s)",
-  "methodology": "Market Price",
+  "label": "Unknown pool",
+  "methodology": "TWAP",
   "model": "Push",
-  "provider": "RedStone",
+  "provider": "Pendle",
   "whitelisted": false
 }
