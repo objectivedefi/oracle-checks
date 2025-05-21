@@ -26,7 +26,7 @@ export function pythQuoteCorrespondence({ quote, feed }: Params): CheckResultWit
   ) {
     return passCheck(
       CHECKS.PYTH_QUOTE_CORRESPONDENCE,
-      `Adapter's quote asset (${quoteSymbol}) does not correspond to the Pyth feed's quote asset from metadata (${feedQuoteSymbol}).`,
+      `Adapter's quote asset (${quoteSymbol}) corresponds to the Pyth feed's quote asset from metadata (${feedQuoteSymbol}).`,
     );
   } else {
     return failCheck(

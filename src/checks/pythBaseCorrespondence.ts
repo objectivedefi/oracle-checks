@@ -26,7 +26,7 @@ export function pythBaseCorrespondence({ base, feed }: Params): CheckResultWithI
   ) {
     return passCheck(
       CHECKS.PYTH_BASE_CORRESPONDENCE,
-      `Adapter's base asset (${baseSymbol}) does not correspond to the Pyth feed's base asset from metadata (${feedBaseSymbol}).`,
+      `Adapter's base asset (${baseSymbol}) corresponds to the Pyth feed's base asset from metadata (${feedBaseSymbol}).`,
     );
   } else {
     return failCheck(
