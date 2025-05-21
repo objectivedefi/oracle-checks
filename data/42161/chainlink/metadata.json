@@ -28368,7 +28368,7 @@
     "formatDecimalPlaces": null,
     "healthPrice": "",
     "history": null,
-    "multiply": "1000000000000000000",
+    "multiply": "1",
     "name": "wstETH/USD-RefPrice-DSstaging-Premium-Global-003",
     "pair": [
       "wstETH",
@@ -28399,7 +28399,7 @@
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX"
     },
-    "decimals": 18,
+    "decimals": 0,
     "feedId": "0x00039d6733859abef383cea7aa6fc8626396e258f12bdf5615ac3f84d7d9b930",
     "sourceChain": 42161,
     "status": "live",
