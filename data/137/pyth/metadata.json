@@ -21677,5 +21677,873 @@
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.IWR/USD"
     }
+  },
+  {
+    "id": "0x65d24596a828114c481bf8632dc1a182b545337dc696538857a54933c2576e8a",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "IXUS",
+      "country": "US",
+      "description": "ISHARES CORE MSCI TOTAL INTL STOCK ETF / US DOLLAR",
+      "display_symbol": "IXUS/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.IXUS/USD"
+    }
+  },
+  {
+    "id": "0xbb3ba10444c2f231868444856a0c6bd97b92fc868f5272fb1ad5b90c2c40d800",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "JEPI",
+      "country": "US",
+      "description": "JPMORGAN EQUITY PREMIUM INCOME ETF / US DOLLAR",
+      "display_symbol": "JEPI/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.JEPI/USD"
+    }
+  },
+  {
+    "id": "0x32f8189b4ee26ea708553cf99a70163e6877c6681e5ba61673fdee89a671daff",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "JEPQ",
+      "country": "US",
+      "description": "JPMORGAN NASDAQ EQUITY PREMIUM INCOME ETF / US DOLLAR",
+      "display_symbol": "JEPQ/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.JEPQ/USD"
+    }
+  },
+  {
+    "id": "0x52734824218d0361974ca000862f511aefdb51d608b762f16d59e372754b8909",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "JPST",
+      "country": "US",
+      "description": "JPMORGAN ULTRA-SHORT INCOME ETF / US DOLLAR",
+      "display_symbol": "JPST/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.JPST/USD"
+    }
+  },
+  {
+    "id": "0xe4ff71a60c3d5d5d37c1bba559c2e92745c1501ebd81a97d150cf7cd5119aa9c",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "LQD",
+      "country": "US",
+      "description": "ISHARES IBOXX INVESTMENT GRADE CORP BOND ETF / US DOLLAR",
+      "display_symbol": "LQD/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.LQD/USD"
+    }
+  },
+  {
+    "id": "0xd15a61d3d79889976bcd6073904bd6f8087d13a1a8a738928a6a51aba34fde6f",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MAGS",
+      "country": "US",
+      "description": "ROUNDHILL MAGNIFICENT SEVEN / US DOLLAR",
+      "display_symbol": "MAGS/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.MAGS/USD"
+    }
+  },
+  {
+    "id": "0x200171a4fb486c9f441fae51a19a4103ca70cc66d97f081ce032e137801b3830",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MBB",
+      "country": "US",
+      "description": "ISHARES MBS ETF / US DOLLAR",
+      "display_symbol": "MBB/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.MBB/USD"
+    }
+  },
+  {
+    "id": "0xdac5c8793675731b9467af853b644280b5bc5119421d5a271dcbd69aabb77983",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MUB",
+      "country": "US",
+      "description": "ISHARES NATIONAL MUNI BOND ETF / US DOLLAR",
+      "display_symbol": "MUB/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.MUB/USD"
+    }
+  },
+  {
+    "id": "0x8dde322496e031d942b9eee8ca769d618cd2e69b18196644369379f5a1e7c23d",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "NVO",
+      "country": "US",
+      "description": "NOVO NORDISK AS / US DOLLAR",
+      "display_symbol": "NVO/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.NVO/USD"
+    }
+  },
+  {
+    "id": "0x433b196b3b026f46f76b5e901c84c575a7280dcba0f4272edefe0529b599ad64",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "QQQM",
+      "country": "US",
+      "description": "INVESCO NASDAQ 100 ETF / US DOLLAR",
+      "display_symbol": "QQQM/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.QQQM/USD"
+    }
+  },
+  {
+    "id": "0x74fbfe71e79f767d749c991af7415894fb2f543495729d9bd184f00493862343",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "QUAL",
+      "country": "US",
+      "description": "ISHARES MSCI USA QUALITY FACTOR ETF / US DOLLAR",
+      "display_symbol": "QUAL/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.QUAL/USD"
+    }
+  },
+  {
+    "id": "0xa62d605821e58128b42cd0d711319400c4e7a3a19400a3ee5a06222e0a3b9269",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "RSP",
+      "country": "US",
+      "description": "INVESCO S&P 500 EQUAL WEIGHT ETF / US DOLLAR",
+      "display_symbol": "RSP/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.RSP/USD"
+    }
+  },
+  {
+    "id": "0xa00be224b07426d688475926b6a7a8b007f1420734629b596ae6132c75bc5976",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SCCO",
+      "country": "US",
+      "description": "SOUTHERN COPPER / US DOLLAR",
+      "display_symbol": "SCCO/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.SCCO/USD"
+    }
+  },
+  {
+    "id": "0xcd45d98122b6f79cbb55cb68472b937e362072efa2698b9a7e7f93f0d78262a1",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SCHB",
+      "country": "US",
+      "description": "SCHWAB US BROAD MKT ETF / US DOLLAR",
+      "display_symbol": "SCHB/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.SCHB/USD"
+    }
+  },
+  {
+    "id": "0x47157bf302bcc58e21f552687e7b04f0c84a3ad1b8090ba1babefdb297a4b7d1",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SCHD",
+      "country": "US",
+      "description": "SCHWAB US DIV EQUITY ETF / US DOLLAR",
+      "display_symbol": "SCHD/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.SCHD/USD"
+    }
+  },
+  {
+    "id": "0x601671d8a16a9f456d9a16d0bf203dd80d5076cc95ddca29cb5c7f8024dbeba6",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SCHF",
+      "country": "US",
+      "description": "SCHWAB INTL EQUITY ETF / US DOLLAR",
+      "display_symbol": "SCHF/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.SCHF/USD"
+    }
+  },
+  {
+    "id": "0xd822a0f4895f73990a04bec51fffdb477d5eff4b14cd2c5ddcb24ee72befc966",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SCHG",
+      "country": "US",
+      "description": "SCHWAB US LARGE-CAP GROWTH ETF / US DOLLAR",
+      "display_symbol": "SCHG/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.SCHG/USD"
+    }
+  },
+  {
+    "id": "0x0abe02fc6a8e3e580236a2fa684297d2f1d3633d87b37ccd4782ab703581f8b3",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SCHX",
+      "country": "US",
+      "description": "SCHWAB US LARGE-CAP ETF / US DOLLAR",
+      "display_symbol": "SCHX/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.SCHX/USD"
+    }
+  },
+  {
+    "id": "0x860ec6bd0af204b8062322bd788857c9fe48d2b44239759a9f578997b1f4f38c",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SGML",
+      "country": "US",
+      "description": "SIGMA LITHIUM / US DOLLAR",
+      "display_symbol": "SGML/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.SGML/USD"
+    }
+  },
+  {
+    "id": "0x8d6a29bb5ed522931d711bb12c4bbf92af986936e52af582032913b5ffcbf4d5",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SGOV",
+      "country": "US",
+      "description": "ISHARES 0-3 MONTH TREASURY BOND ETF / US DOLLAR",
+      "display_symbol": "SGOV/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.SGOV/USD"
+    }
+  },
+  {
+    "id": "0xcea38e1fad0f4f2a2e5e8cc9d3a88613826f9340efadf9464eb3353a8cce3a7a",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SH",
+      "country": "US",
+      "description": "PROSHARES SHORT S&P500 / US DOLLAR",
+      "display_symbol": "SH/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.SH/USD"
+    }
+  },
+  {
+    "id": "0xa48b0216da455c8f33edc75d5c82290f63180a41646df873b393450bb3218c0c",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SHY",
+      "country": "US",
+      "description": "ISHARES 1-3 YEAR TREASURY BOND ETF / US DOLLAR",
+      "display_symbol": "SHY/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.SHY/USD"
+    }
+  },
+  {
+    "id": "0xa23dd397c4f7a2187d00c1973e58ff6e8a681658b1105d1bd42a8fccbbd068f7",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SNAP",
+      "country": "US",
+      "description": "SNAP INC / US DOLLAR",
+      "display_symbol": "SNAP/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.SNAP/USD"
+    }
+  },
+  {
+    "id": "0x7cf66aa378a88b0637d1e8dae8ca0d558ba997338af670399e984a995c496200",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SOXS",
+      "country": "US",
+      "description": "DIREXION DAILY SEMICONDUCTOR BEAR 3X SHARES / US DOLLAR",
+      "display_symbol": "SOXS/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.SOXS/USD"
+    }
+  },
+  {
+    "id": "0x3c3973e95c24fab3808a8fd9f25fb06ee92422fea20d814c1a850b307cbf31b9",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SOXX",
+      "country": "US",
+      "description": "ISHARES SEMICONDUCTOR ETF / US DOLLAR",
+      "display_symbol": "SOXX/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.SOXX/USD"
+    }
+  },
+  {
+    "id": "0x12e4e2cd0563c32e153dc2e4b843c4f8389c187297a2b1e25651c20c0491e07d",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SPDW",
+      "country": "US",
+      "description": "SPDR PORTFOLIO DEVELOPED WORLD EX-US ETF / US DOLLAR",
+      "display_symbol": "SPDW/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.SPDW/USD"
+    }
+  },
+  {
+    "id": "0x4dfbf28d72ab41a878afcd4c6d5e9593dca7cf65a0da739cbad9b7414004f82d",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SPLG",
+      "country": "US",
+      "description": "SPDR PORTFOLIO S&P 500 ETF / US DOLLAR",
+      "display_symbol": "SPLG/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.SPLG/USD"
+    }
+  },
+  {
+    "id": "0x39d6113025efb65b116726281dc70b917fd43391e26a5e06c76b9e9e606b5da9",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SPYG",
+      "country": "US",
+      "description": "SPDR SERIES TRUST S&P 500 GROWTH ETF / US DOLLAR",
+      "display_symbol": "SPYG/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.SPYG/USD"
+    }
+  },
+  {
+    "id": "0xda3768a335fe3d4e6a3a540300229909deec4ba07bab6f05d945b9dec67b6856",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SPYV",
+      "country": "US",
+      "description": "SPDR SERIES TRUST S&P 500 VALUE ETF / US DOLLAR",
+      "display_symbol": "SPYV/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.SPYV/USD"
+    }
+  },
+  {
+    "id": "0xf207c5d325e44579b12965394d9a4dd988567de635a494694bfb0b46c20a06ec",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SQQQ",
+      "country": "US",
+      "description": "PROSHARES ULTRAPRO SHORT QQQ / US DOLLAR",
+      "display_symbol": "SQQQ/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.SQQQ/USD"
+    }
+  },
+  {
+    "id": "0x5aa9f82dc2e0f5f8271fd163e980010101517da59f4b72b71c7056a5950b2f9d",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "TQQQ",
+      "country": "US",
+      "description": "PROSHARES ULTRAPRO QQQ / US DOLLAR",
+      "display_symbol": "TQQQ/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.TQQQ/USD"
+    }
+  },
+  {
+    "id": "0x508439d4bbfac7632f640c74c6b7ace7f42c699393a588cb3bb236cfed001723",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "TSLQ",
+      "country": "US",
+      "description": "TRADR 2X SHORT TSLA DAILY ETF / US DOLLAR",
+      "display_symbol": "TSLQ/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.TSLQ/USD"
+    }
+  },
+  {
+    "id": "0xc4dade380e68e849be91e356f791df7ef051eace71813f70562be483c4f82550",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "USMV",
+      "country": "US",
+      "description": "ISHARES MSCI USA MIN VOL FACTOR ETF / US DOLLAR",
+      "display_symbol": "USMV/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.USMV/USD"
+    }
+  },
+  {
+    "id": "0x89dd5fb5c30324f3cb11920e3e5ca7de7732abf3889f93bf3757f9509715a89f",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "VALE",
+      "country": "US",
+      "description": "VALE / US DOLLAR",
+      "display_symbol": "VALE/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.VALE/USD"
+    }
+  },
+  {
+    "id": "0x8923035238b1b11706cf29526dd50a384a9ee86d31733cee7ac22bdd5994d9d0",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "VB",
+      "country": "US",
+      "description": "VANGUARD SMALL-CAP ETF / US DOLLAR",
+      "display_symbol": "VB/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.VB/USD"
+    }
+  },
+  {
+    "id": "0x050f926c4a78049bbad8b8f87487f469a1ebbeb3264317e7380ae87939d0b344",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "VBR",
+      "country": "US",
+      "description": "VANGUARD SMALL-CAP VALUE ETF / US DOLLAR",
+      "display_symbol": "VBR/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.VBR/USD"
+    }
+  },
+  {
+    "id": "0xef2a78123eb57856322c1f087bdd06c70cdda22707e934037a5ee4a67376b881",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "VCIT",
+      "country": "US",
+      "description": "VANGUARD INTERMEDIATE-TERM CORP BOND ETF / US DOLLAR",
+      "display_symbol": "VCIT/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.VCIT/USD"
+    }
+  },
+  {
+    "id": "0xbc1c102bd52c76bf5d17b60b249983fcf44dcfef227eb25d578fae74e93f926b",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "VCSH",
+      "country": "US",
+      "description": "VANGUARD SHORT-TERM CORP BOND ETF / US DOLLAR",
+      "display_symbol": "VCSH/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.VCSH/USD"
+    }
+  },
+  {
+    "id": "0x11e972f7dcdb6158ae9812d60e37a227a27d3f3aab5982f35d3208b9cd3748c5",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "VEA",
+      "country": "US",
+      "description": "VANGUARD FTSE DEVELOPED MKTS ETF / US DOLLAR",
+      "display_symbol": "VEA/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.VEA/USD"
+    }
+  },
+  {
+    "id": "0x845910208473d9a712bf420ec34dbfd21752794633e45765373e29fb925d854b",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "VEU",
+      "country": "US",
+      "description": "VANGUARD FTSE ALL WORLD EX US ETF / US DOLLAR",
+      "display_symbol": "VEU/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.VEU/USD"
+    }
+  },
+  {
+    "id": "0x8f0e642a4f4c7163ad0b2a665d388c8c89bc792c5da0e395a4c310327a6795e3",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "VGIT",
+      "country": "US",
+      "description": "VANGUARD INTERMEDIATE-TERM TREASURY ETF / US DOLLAR",
+      "display_symbol": "VGIT/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.VGIT/USD"
+    }
+  },
+  {
+    "id": "0x0648195b6826d833f3c4eb261c81223a90ceb3a26e86e9b18f6e11f0212cad18",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "VGK",
+      "country": "US",
+      "description": "VANGUARD FTSE EUROPEAN ETF / US DOLLAR",
+      "display_symbol": "VGK/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.VGK/USD"
+    }
+  },
+  {
+    "id": "0x2cc2801a33b56932e19e5b20b22dcaa72baddbc7ea7c3589edbae7579a9af697",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "VGT",
+      "country": "US",
+      "description": "VANGUARD INFORMATION TECH ETF / US DOLLAR",
+      "display_symbol": "VGT/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.VGT/USD"
+    }
+  },
+  {
+    "id": "0x70e046461c0ceb770c63a7fc15ac1fc54944dd3a10007bc23e43461858c3df89",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "VIG",
+      "country": "US",
+      "description": "VANGUARD DIV APPRECIATION ETF / US DOLLAR",
+      "display_symbol": "VIG/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.VIG/USD"
+    }
+  },
+  {
+    "id": "0x632984a551503ebd4c3a4bed364f4229833ea4ba4ba92d7fce1025ad8a82a49a",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "VNGDF",
+      "country": "US",
+      "description": "VANGUARD FUNDS / US DOLLAR",
+      "display_symbol": "VNGDF/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.VNGDF/USD"
+    }
+  },
+  {
+    "id": "0x1feb5bc35d3a601d1e39c4d1dd65de285a04f5e7923fdaba1d87359d8c14a9ae",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "VNQ",
+      "country": "US",
+      "description": "VANGUARD REAL ESTATE ETF / US DOLLAR",
+      "display_symbol": "VNQ/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.VNQ/USD"
+    }
+  },
+  {
+    "id": "0x19295d28e0021523cd14ed26afa1e23e1c99fa531b7a71dc3aace5287c012ac7",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "VO",
+      "country": "US",
+      "description": "VANGUARD MID-CAP ETF / US DOLLAR",
+      "display_symbol": "VO/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.VO/USD"
+    }
+  },
+  {
+    "id": "0x727de92cc0313c873c2171e26c4148de1763e65bed81739061ec861d788cce51",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "VONG",
+      "country": "US",
+      "description": "VANGUARD RUSSELL 1000 GROWTH ETF / US DOLLAR",
+      "display_symbol": "VONG/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.VONG/USD"
+    }
+  },
+  {
+    "id": "0xb167b163565d841b1477cb942bf3b2d28214f3eedf343de7536d6e5b6250d45b",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "VT",
+      "country": "US",
+      "description": "VANGUARD TOTAL WORLD STOCK INDEX ETF / US DOLLAR",
+      "display_symbol": "VT/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.VT/USD"
+    }
+  },
+  {
+    "id": "0x07dbe1fb1d79d1902f57f5a3fa3f4c01824c8789bba45f85eabd850cc8940972",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "VTEB",
+      "country": "US",
+      "description": "VANGUARD TAX-EXEMPT BOND ETF / US DOLLAR",
+      "display_symbol": "VTEB/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.VTEB/USD"
+    }
+  },
+  {
+    "id": "0x26c67e91769aeba33a09469c705a1863794014dac416e4270661f489309ae862",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "VTI",
+      "country": "US",
+      "description": "VANGUARD TOTAL STOCK MKT ETF / US DOLLAR",
+      "display_symbol": "VTI/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.VTI/USD"
+    }
+  },
+  {
+    "id": "0x1105e1af4587e6555349533492904782f6a4d0dc6b828938e98e1715b6b32315",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "VTV",
+      "country": "US",
+      "description": "VANGUARD VALUE ETF / US DOLLAR",
+      "display_symbol": "VTV/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.VTV/USD"
+    }
+  },
+  {
+    "id": "0x8c64b089d95170429ba39ec229a0a6fc36b267e09c3210fbb9d9eb2d4c203bc5",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "VUG",
+      "country": "US",
+      "description": "VANGUARD GROWTH ETF / US DOLLAR",
+      "display_symbol": "VUG/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.VUG/USD"
+    }
+  },
+  {
+    "id": "0x64dae9f2193f0f679a5b7304d6e6211676b17d79ec282d0ca1771ef62d2ac14d",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "VV",
+      "country": "US",
+      "description": "VANGUARD LARGE-CAP ETF / US DOLLAR",
+      "display_symbol": "VV/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.VV/USD"
+    }
+  },
+  {
+    "id": "0x2f91d775954c0c828d4563448d253cf09df218b620825242775d878d1d5956c7",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "VWO",
+      "country": "US",
+      "description": "VANGUARD FTSE EMERGING MKTS ETF / US DOLLAR",
+      "display_symbol": "VWO/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.VWO/USD"
+    }
+  },
+  {
+    "id": "0x48a13d42218646bba8cc114cd394a283b11c0e07dd14a885efd5caec640c5289",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "VXUS",
+      "country": "US",
+      "description": "VANGUARD TOTAL INTL STOCK ETF / US DOLLAR",
+      "display_symbol": "VXUS/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.VXUS/USD"
+    }
+  },
+  {
+    "id": "0xd03592924a9c69d12bea32e1015da2b7458a086e4ada217b724785f5789de6cb",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "VYM",
+      "country": "US",
+      "description": "VANGUARD HIGH DIV YIELD ETF / US DOLLAR",
+      "display_symbol": "VYM/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.VYM/USD"
+    }
+  },
+  {
+    "id": "0x06b884220ac5ac16fedfb03f84ec62b6e311241bc0af40ebfe4aedf462c18825",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "XLF",
+      "country": "US",
+      "description": "SPDR SELECT SECTOR FUND - FINANCIAL / US DOLLAR",
+      "display_symbol": "XLF/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.XLF/USD"
+    }
+  },
+  {
+    "id": "0x343e151bf5a9055e075f84ec102186c5902ec4fd11db83cd4d8d8de5af756343",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "XLK",
+      "country": "US",
+      "description": "SPDR SELECT SECTOR FUND - TECHNOLOGY / US DOLLAR",
+      "display_symbol": "XLK/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.XLK/USD"
+    }
+  },
+  {
+    "id": "0x0bf68c2bd425e68b471239b29de7968667b210774aa252b9813f8d8edf5b62d9",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "XLV",
+      "country": "US",
+      "description": "SPDR SELECT SECTOR FUND - HEALTH CARE / US DOLLAR",
+      "display_symbol": "XLV/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.XLV/USD"
+    }
+  },
+  {
+    "id": "0x217c597afb75963cdb297d67acbd27a11e4f99ebb84eb446e1f5438726101a85",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "YANG",
+      "country": "US",
+      "description": "DIREXION DAILY FTSE CHINA BEAR 3X SHARES / US DOLLAR",
+      "display_symbol": "YANG/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.YANG/USD"
+    }
+  },
+  {
+    "id": "0xa8ec3b03abe6bf25c7a551001199fc54b3f7f4a534626696af2de6338ac09008",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "YINN",
+      "country": "US",
+      "description": "DIREXION DAILY FTSE CHINA BULL 3X SHARES / US DOLLAR",
+      "display_symbol": "YINN/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.YINN/USD"
+    }
   }
 ]

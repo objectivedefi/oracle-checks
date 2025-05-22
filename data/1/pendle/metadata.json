@@ -193,11 +193,27 @@
   },
   {
     "chainId": 1,
+    "pt": "0x742B4166878Bfd339Db65a29a17E49b81a6B6Aac",
+    "market": "0x55F06992E4C3ed17Df830dA37644885c0c34EDdA",
+    "underlyingAsset": "0x4956b52aE2fF65D74CA2d61207523288e4528f96",
+    "expiry": 1756944000,
+    "symbol": "RLP"
+  },
+  {
+    "chainId": 1,
     "pt": "0x7c5aA3E49d46e582f50287f70695278d962392dF",
     "market": "0xDCBC2E70aB9BfDD873A3f92f264d9fcD730680C7",
     "underlyingAsset": "0xE24a3DC889621612422A64E6388927901608B91D",
     "expiry": 1753920000,
     "symbol": "sUSN"
+  },
+  {
+    "chainId": 1,
+    "pt": "0x7c853d6bFb49256af65AF672dCc3f66C015E96e0",
+    "market": "0x2e250f3E0Ca772E87f0C9E2aa55254F7Eb82EA58",
+    "underlyingAsset": "0x8AcA0841993ef4C87244d519166e767f49362C21",
+    "expiry": 1755129600,
+    "symbol": "uptBTC"
   },
   {
     "chainId": 1,
@@ -414,14 +430,6 @@
     "underlyingAsset": "0x80E1048eDE66ec4c364b4F22C8768fc657FF6A42",
     "expiry": 1751500800,
     "symbol": "upUSDC"
-  },
-  {
-    "chainId": 1,
-    "pt": "0xe9824E10345Ecd5Cd43fC07d550e76159d0327c6",
-    "market": "0xEDda7526EC81055F2af99d51D968FC2FBca9Ee96",
-    "underlyingAsset": "0xB1Cdf3C96000330f018b7d7dF5bEe5E7F9E13b62",
-    "expiry": 1747872000,
-    "symbol": "uniBTC (Corn Concrete)"
   },
   {
     "chainId": 1,
