@@ -138,6 +138,12 @@
     "heartbeat": 21600
   },
   {
+    "symbol": "VBILL_BNB_FUNDAMENTAL",
+    "priceFeedAddress": "0x84AD474c33c9cCefB1a2D8b77Bdd88bDc592f96b",
+    "deviationPercentage": 0.1,
+    "heartbeat": 86400
+  },
+  {
     "symbol": "BNB",
     "priceFeedAddress": "0x8dd2D85C7c28F43F965AE4d9545189C7D022ED0e",
     "deviationPercentage": 0.1,

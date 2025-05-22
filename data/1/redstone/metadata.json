@@ -293,6 +293,12 @@
     "heartbeat": 86400
   },
   {
+    "symbol": "VBILL_ETHEREUM_FUNDAMENTAL",
+    "priceFeedAddress": "0xA569E68B5D110F2A255482c2997DFDBe1b2ab912",
+    "deviationPercentage": 0.1,
+    "heartbeat": 86400
+  },
+  {
     "symbol": "apxETH/ETH",
     "priceFeedAddress": "0x19219BC90F48DeE4d5cF202E09c438FAacFd8Bea",
     "deviationPercentage": 1,
