@@ -197,7 +197,7 @@
     "market": "0x55F06992E4C3ed17Df830dA37644885c0c34EDdA",
     "underlyingAsset": "0x4956b52aE2fF65D74CA2d61207523288e4528f96",
     "expiry": 1756944000,
-    "symbol": "RLP"
+    "symbol": "USDC (RLP)"
   },
   {
     "chainId": 1,
