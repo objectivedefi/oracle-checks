@@ -1030,19 +1030,6 @@
     }
   },
   {
-    "id": "0x06ade621dbc31ed0fc9255caaab984a468abe84164fb2ccc76f02a4636d97e31",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "EOS",
-      "description": "EOS / US DOLLAR",
-      "display_symbol": "EOS/USD",
-      "generic_symbol": "EOSUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.EOS/USD"
-    }
-  },
-  {
     "id": "0xac3d02825eef9c311197bcdd3ef789b2c7db97739af8f6aeca8374c55b022572",
     "attributes": {
       "asset_type": "Crypto",
@@ -2253,19 +2240,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.BENJI/USD"
-    }
-  },
-  {
-    "id": "0xcdaf63079d7abee0f54344fb19bf4e23d1e6c8ff7d8e820c86ce119b0ddc14cd",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "SPA",
-      "description": "SPERAX / US DOLLAR",
-      "display_symbol": "SPA/USD",
-      "generic_symbol": "SPAUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.SPA/USD"
     }
   },
   {
@@ -4341,19 +4315,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.PNR/USD"
-    }
-  },
-  {
-    "id": "0xf8d030e4ef460b91ad23eabbbb27aec463e3c30ecc8d5c4b71e92f54a36ccdbd",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "SLND",
-      "description": "SOLEND / US DOLLAR",
-      "display_symbol": "SLND/USD",
-      "generic_symbol": "SLNDUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.SLND/USD"
     }
   },
   {
@@ -10275,20 +10236,6 @@
     }
   },
   {
-    "id": "0x5dd5ede8b038c39f015746942820595ed69f30c00c3d3700f01d9ec55e027700",
-    "attributes": {
-      "asset_type": "Crypto Redemption Rate",
-      "base": "KBTC",
-      "contract_id": "btc: bc1qqwf6hexnnswmj6yuhz5xyj20frtp8exv7mclck",
-      "description": "KRAKEN WRAPPED BITCOIN / BITCOIN REDEMPTION RATE",
-      "display_symbol": "KBTC/BTC",
-      "generic_symbol": "KBTCBTC",
-      "quote_currency": "BTC",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.KBTC/BTC.RR"
-    }
-  },
-  {
     "id": "0x5a90fd584136ff7969fc54c6642430e3c50af8ff234ed0e697555ea7b192446a",
     "attributes": {
       "asset_type": "FX",
@@ -11537,19 +11484,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.CLANKER/USD"
-    }
-  },
-  {
-    "id": "0xa80e97f70f6a4a8a0273822fb86d51b2bdb9a16ce0edb7ea8c8b84cbaecb5ce5",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "MAGA",
-      "description": "TRUMP / US DOLLAR",
-      "display_symbol": "MAGA/USD",
-      "generic_symbol": "MAGAUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.MAGA/USD"
     }
   },
   {
@@ -18235,19 +18169,6 @@
     }
   },
   {
-    "id": "0xf63f008474fad630207a1cfa49207d59bca2593ea64fc0a6da9bf3337485791c",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "WEMIX",
-      "description": "WEMIX / US DOLLAR",
-      "display_symbol": "WEMIX/USD",
-      "generic_symbol": "WEMIXUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.WEMIX/USD"
-    }
-  },
-  {
     "id": "0xb3a83dbe70b62241b0f916212e097465a1b31085fa30da3342dd35468ca17ca5",
     "attributes": {
       "asset_type": "Equity",
@@ -18948,19 +18869,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.IPG/USD"
-    }
-  },
-  {
-    "id": "0x61198c533c5753f457904edc603b315f1eec0dddb71a8f8ac8ffadb644e7cfd2",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "ZKF",
-      "description": "ZKFAIR / US DOLLAR",
-      "display_symbol": "ZKF/USD",
-      "generic_symbol": "ZKFUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.ZKF/USD"
     }
   },
   {
