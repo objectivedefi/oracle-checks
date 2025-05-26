@@ -1204,34 +1204,6 @@
     "decimals": 18
   },
   {
-    "address": "0x36d3ca43ae7939645C306E26603ce16e39A89192",
-    "chainId": 1,
-    "name": "Pendle Market",
-    "symbol": "PENDLE-LPT",
-    "decimals": 18
-  },
-  {
-    "address": "0xCaE62858DB831272A03768f5844cbe1B40bB381f",
-    "chainId": 1,
-    "name": "Pendle Market",
-    "symbol": "PENDLE-LPT",
-    "decimals": 18
-  },
-  {
-    "address": "0xcDd26Eb5EB2Ce0f203a84553853667aE69Ca29Ce",
-    "chainId": 1,
-    "name": "Pendle Market",
-    "symbol": "PENDLE-LPT",
-    "decimals": 18
-  },
-  {
-    "address": "0x90455bd11Ce8a67C57d467e634Dc142b8e4105Aa",
-    "chainId": 1,
-    "name": "cUSDO/USDC",
-    "symbol": "cUSDOUSDC",
-    "decimals": 18
-  },
-  {
     "address": "0xCcE7D12f683c6dAe700154f0BAdf779C0bA1F89A",
     "chainId": 1,
     "name": "PT Syrup USDC 28AUG2025",
@@ -1334,6 +1306,34 @@
     "chainId": 1,
     "name": "Pendle Market",
     "symbol": "PENDLE-LPT",
+    "decimals": 18
+  },
+  {
+    "address": "0x36d3ca43ae7939645C306E26603ce16e39A89192",
+    "chainId": 1,
+    "name": "Pendle Market",
+    "symbol": "PENDLE-LPT",
+    "decimals": 18
+  },
+  {
+    "address": "0xCaE62858DB831272A03768f5844cbe1B40bB381f",
+    "chainId": 1,
+    "name": "Pendle Market",
+    "symbol": "PENDLE-LPT",
+    "decimals": 18
+  },
+  {
+    "address": "0xcDd26Eb5EB2Ce0f203a84553853667aE69Ca29Ce",
+    "chainId": 1,
+    "name": "Pendle Market",
+    "symbol": "PENDLE-LPT",
+    "decimals": 18
+  },
+  {
+    "address": "0x90455bd11Ce8a67C57d467e634Dc142b8e4105Aa",
+    "chainId": 1,
+    "name": "cUSDO/USDC",
+    "symbol": "cUSDOUSDC",
     "decimals": 18
   }
 ]
