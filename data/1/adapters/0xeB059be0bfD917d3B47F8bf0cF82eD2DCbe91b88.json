@@ -1,11 +1,11 @@
 {
   "name": "PythOracle",
-  "address": "0x1F929d571FA089A0308AfCa96129d28527Df86cd",
+  "address": "0xeB059be0bfD917d3B47F8bf0cF82eD2DCbe91b88",
   "chainId": 1,
-  "base": "0x853d955aCEf822Db058eb8505911ED77F175b99e",
+  "base": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
   "quote": "0x0000000000000000000000000000000000000348",
   "pyth": "0x4305FB66699C3B2702D4d05CF36551390A4c69C6",
-  "feedId": "0xc3d5d8d6d17081b3d0bbca6e2fa3a6704bb9a9561d9f9e1dc52db47629f862ad",
+  "feedId": "0xe62df6c8b4a85fe1a67db44dc12de5db330f7ac66b72dc658afedf0f4a415b43",
   "maxStaleness": "120",
   "maxConfWidth": "300",
   "checks": [
@@ -18,8 +18,8 @@
     {
       "id": "Adapter whitelist",
       "severity": "Med",
-      "message": "Adapter is whitelisted in the adapter registry.",
-      "pass": true
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
     },
     {
       "id": "Source code provenance",
@@ -36,7 +36,7 @@
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0x853d955aCEf822Db058eb8505911ED77F175b99e is FRAX (Frax) with 18 decimals.",
+      "message": "Asset 0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf is cbBTC (Coinbase Wrapped BTC) with 8 decimals.",
       "pass": true
     },
     {
@@ -48,20 +48,20 @@
     {
       "id": "Recognized Pyth feed",
       "severity": "High",
-      "message": "Could not find matching Pyth feed",
-      "pass": false
+      "message": "Adapter is connected to an official Pyth feed: BTC/USD",
+      "pass": true
     },
     {
       "id": "Pyth base correspondence",
       "severity": "Info",
-      "message": "Feed is unknown.",
+      "message": "Adapter's base asset (cbBTC) does not correspond to the Pyth feed's base asset from metadata (BTC).",
       "pass": false
     },
     {
       "id": "Pyth quote correspondence",
       "severity": "Info",
-      "message": "Feed is unknown",
-      "pass": false
+      "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
+      "pass": true
     },
     {
       "id": "Recognized Pyth proxy",
@@ -76,9 +76,9 @@
       "pass": true
     }
   ],
-  "label": "unknown feed (120s, ±300bps)",
-  "methodology": "Unknown",
+  "label": "Crypto.BTC/USD (120s, ±300bps)",
+  "methodology": "Market Price",
   "model": "Pull",
   "provider": "Pyth",
-  "whitelisted": true
+  "whitelisted": false
 }

@@ -7975,19 +7975,6 @@
     }
   },
   {
-    "id": "0xc3d5d8d6d17081b3d0bbca6e2fa3a6704bb9a9561d9f9e1dc52db47629f862ad",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "FRAX",
-      "description": "FRAX / US DOLLAR",
-      "display_symbol": "FRAX/USD",
-      "generic_symbol": "FRAXUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.FRAX/USD"
-    }
-  },
-  {
     "id": "0xd437b2f1470d5f007f18a5565eaab1ed182d97204d80b7dd3dac29839f61c9e6",
     "attributes": {
       "asset_type": "Equity",
@@ -9557,7 +9544,7 @@
       "display_symbol": "UKOILSPOT/USD",
       "generic_symbol": "UKOILSPOT",
       "quote_currency": "USD",
-      "schedule": "GMT;0100-2200,0100-2200,0100-2200,0100-2200,0100-2145,C,C;0418/C,0420/C,0421/0000-2200",
+      "schedule": "GMT;0100-2200,0100-2200,0100-2200,0100-2200,0100-2145,C,C;0418/C,0420/C,0421/0000-2200,0526/0000-1730,0527/0000-2200",
       "symbol": "Commodities.UKOILSPOT"
     }
   },
@@ -14242,7 +14229,7 @@
       "display_symbol": "USOILSPOT/USD",
       "generic_symbol": "USOILSPOT",
       "quote_currency": "USD",
-      "schedule": "GMT;0000-2200&2300-2400,0000-2200&2300-2400,0000-2200&2300-2400,0000-2200&2300-2400,0000-2145,C,2300-2400;0418/C",
+      "schedule": "GMT;0000-2200&2300-2400,0000-2200&2300-2400,0000-2200&2300-2400,0000-2200&2300-2400,0000-2145,C,2300-2400;0418/C,0526/0000-1830&2200-2400",
       "symbol": "Commodities.USOILSPOT"
     }
   },
