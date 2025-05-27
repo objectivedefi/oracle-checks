@@ -22132,7 +22132,7 @@
     "heartbeat": 86400,
     "history": null,
     "multiply": "10000000000",
-    "name": "aBTC PoR",
+    "name": "aBTC Proof of Reserves",
     "pair": [
       "",
       ""
@@ -22493,7 +22493,7 @@
     "heartbeat": 86400,
     "history": null,
     "multiply": "100000000",
-    "name": "FBTC PoR",
+    "name": "FBTC Proof of Reserves",
     "pair": [
       "",
       ""
@@ -53231,7 +53231,7 @@
     "heartbeat": 86400,
     "history": null,
     "multiply": "100000000",
-    "name": "iBTC PoR",
+    "name": "iBTC Proof of Reserves",
     "pair": [
       "",
       ""
@@ -54005,7 +54005,7 @@
     "heartbeat": 86400,
     "history": null,
     "multiply": "1000000000000000000",
-    "name": "stBTC PoR",
+    "name": "stBTC Proof of Reserves",
     "pair": [
       "",
       ""
@@ -55536,7 +55536,7 @@
     "heartbeat": 86400,
     "history": null,
     "multiply": "100000000",
-    "name": "dlcBTC PoR",
+    "name": "dlcBTC Proof of Reserves",
     "pair": [
       "",
       ""
@@ -56188,7 +56188,7 @@
     "heartbeat": 86400,
     "history": null,
     "multiply": "100000000",
-    "name": "zBTC PoR",
+    "name": "zBTC Proof of Reserves",
     "pair": [
       "",
       ""

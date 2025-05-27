@@ -11,7 +11,7 @@
     "heartbeat": 86400,
     "history": null,
     "multiply": "100000000",
-    "name": "FBTC PoR",
+    "name": "FBTC Proof of Reserves",
     "pair": [
       "",
       ""
@@ -714,7 +714,7 @@
     "heartbeat": 86400,
     "history": null,
     "multiply": "1000000000000000000",
-    "name": "stBTC PoR",
+    "name": "stBTC Proof of Reserves",
     "pair": [
       "",
       ""
@@ -2281,7 +2281,7 @@
     "heartbeat": 86400,
     "history": null,
     "multiply": "100000000",
-    "name": "CacheGold PoR USD",
+    "name": "CacheGold Proof of Reserves USD",
     "pair": [
       "",
       ""
@@ -2607,7 +2607,7 @@
     "heartbeat": 86400,
     "history": null,
     "multiply": "1000000000000000000",
-    "name": "PumpBTC PoR",
+    "name": "PumpBTC Proof of Reserves",
     "pair": [
       "",
       ""
@@ -3083,7 +3083,7 @@
     "heartbeat": 86400,
     "history": null,
     "multiply": "1000000000000000000",
-    "name": "eETH PoR",
+    "name": "eETH Proof of Reserves",
     "pair": [
       "",
       ""
@@ -3236,7 +3236,7 @@
     "heartbeat": 86400,
     "history": null,
     "multiply": "1000000000000000000",
-    "name": "xSolvBTC PoR",
+    "name": "xSolvBTC Proof of Reserves",
     "pair": [
       "",
       ""
@@ -3449,7 +3449,7 @@
     "heartbeat": 86400,
     "history": null,
     "multiply": "100000000",
-    "name": "WBTC PoR",
+    "name": "WBTC Proof of Reserves",
     "pair": [
       "WBTC",
       "PoR"
@@ -4491,7 +4491,7 @@
     "heartbeat": 86400,
     "history": null,
     "multiply": "100000000",
-    "name": "21BTC PoR",
+    "name": "21BTC Proof of Reserves",
     "pair": [
       "",
       ""
@@ -4864,7 +4864,7 @@
     "heartbeat": 21600,
     "history": null,
     "multiply": "1000000000000000000",
-    "name": "stETH PoR",
+    "name": "stETH Proof of Reserves",
     "pair": [
       "",
       ""
@@ -5646,7 +5646,7 @@
     "heartbeat": 86400,
     "history": null,
     "multiply": "1000000000000000000",
-    "name": "STBT PoR",
+    "name": "STBT Proof of Reserves",
     "pair": [
       "",
       ""
@@ -7785,7 +7785,7 @@
     "heartbeat": 86400,
     "history": null,
     "multiply": "1000000000000000000",
-    "name": "SolvBTC PoR",
+    "name": "SolvBTC Proof of Reserves",
     "pair": [
       "",
       ""
@@ -7902,7 +7902,7 @@
     "heartbeat": 86400,
     "history": null,
     "multiply": "1000000000000000000",
-    "name": "Swell ETH PoR",
+    "name": "Swell ETH Proof of Reserves",
     "pair": [
       "",
       ""
@@ -8377,7 +8377,7 @@
     "heartbeat": 86400,
     "history": null,
     "multiply": "1000000000000000000",
-    "name": "Swell Restaked ETH PoR",
+    "name": "Swell Restaked ETH Proof of Reserves",
     "pair": [
       "",
       ""
@@ -8575,7 +8575,7 @@
     "heartbeat": 259200,
     "history": null,
     "multiply": "1000000000000000000",
-    "name": "HBTC PoR",
+    "name": "HBTC Proof of Reserves",
     "pair": [
       "",
       ""
@@ -8661,7 +8661,7 @@
     "heartbeat": 86400,
     "history": null,
     "multiply": "1000000000000000000",
-    "name": "uniBTC PoR",
+    "name": "uniBTC Proof of Reserves",
     "pair": [
       "",
       ""

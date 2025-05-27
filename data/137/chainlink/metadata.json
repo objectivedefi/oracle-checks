@@ -1025,7 +1025,7 @@
     "heartbeat": 86400,
     "history": null,
     "multiply": "100000000",
-    "name": "bNVDA Reserves / PoR",
+    "name": "bNVDA Reserves / Proof of Reserves",
     "pair": [
       "",
       ""
@@ -4289,7 +4289,7 @@
     "heartbeat": 86400,
     "history": null,
     "multiply": "100000000",
-    "name": "CGT PoR (ETH)",
+    "name": "CGT Proof of Reserves (ETH)",
     "pair": [
       "",
       ""

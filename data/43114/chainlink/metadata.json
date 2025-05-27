@@ -11,7 +11,7 @@
     "heartbeat": 86400,
     "history": null,
     "multiply": "100000000",
-    "name": "WBTC.e PoR",
+    "name": "WBTC.e Proof of Reserves",
     "pair": [
       "",
       ""
@@ -368,7 +368,7 @@
     "heartbeat": 86400,
     "history": null,
     "multiply": "1000000000000000000",
-    "name": "DAI.e PoR",
+    "name": "DAI.e Proof of Reserves",
     "pair": [
       "",
       ""
@@ -893,7 +893,7 @@
     "heartbeat": 3600,
     "history": null,
     "multiply": "100000000",
-    "name": "BTC.b PoR",
+    "name": "BTC.b Proof of Reserves",
     "pair": [
       "",
       ""
@@ -1180,7 +1180,7 @@
     "heartbeat": 86400,
     "history": null,
     "multiply": "1000000000000000000",
-    "name": "LINK.e PoR",
+    "name": "LINK.e Proof of Reserves",
     "pair": [
       "",
       ""
@@ -2228,7 +2228,7 @@
     "heartbeat": 86400,
     "history": null,
     "multiply": "1000000000000000000",
-    "name": "AAVE.e PoR",
+    "name": "AAVE.e Proof of Reserves",
     "pair": [
       "",
       ""
@@ -2391,7 +2391,7 @@
     "heartbeat": 86400,
     "history": null,
     "multiply": "1000000000000000000",
-    "name": "WETH.e PoR",
+    "name": "WETH.e Proof of Reserves",
     "pair": [
       "",
       ""
@@ -3085,7 +3085,7 @@
     "heartbeat": 86400,
     "history": null,
     "multiply": "1000000",
-    "name": "USDT.e PoR",
+    "name": "USDT.e Proof of Reserves",
     "pair": [
       "",
       ""
@@ -3210,7 +3210,7 @@
     "heartbeat": 86400,
     "history": null,
     "multiply": "1000000",
-    "name": "USDC.e PoR",
+    "name": "USDC.e Proof of Reserves",
     "pair": [
       "",
       ""

@@ -1767,7 +1767,7 @@
     "heartbeat": 86400,
     "history": null,
     "multiply": "100000000",
-    "name": "dlcBTC PoR",
+    "name": "dlcBTC Proof of Reserves",
     "pair": [
       "",
       ""
@@ -4329,7 +4329,7 @@
     "heartbeat": 86400,
     "history": null,
     "multiply": "100000000",
-    "name": "iBTC PoR",
+    "name": "iBTC Proof of Reserves",
     "pair": [
       "",
       ""

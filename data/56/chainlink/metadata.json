@@ -11,7 +11,7 @@
     "heartbeat": 86400,
     "history": null,
     "multiply": "1000000000000000000",
-    "name": "SolvBTC PoR",
+    "name": "SolvBTC Proof of Reserves",
     "pair": [
       "",
       ""
@@ -3638,7 +3638,7 @@
     "heartbeat": 86400,
     "history": null,
     "multiply": "1000000000000000000",
-    "name": "Solv PoR",
+    "name": "Solv Proof of Reserves",
     "pair": [
       "",
       ""
@@ -4394,7 +4394,7 @@
     "heartbeat": 86400,
     "history": null,
     "multiply": "1000000000000000000",
-    "name": "stBTC PoR",
+    "name": "stBTC Proof of Reserves",
     "pair": [
       "",
       ""
