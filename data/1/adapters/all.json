@@ -4855,14 +4855,14 @@
       {
         "id": "Recognized Pyth feed",
         "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: FXS/USD",
+        "message": "Adapter is connected to an official Pyth feed: FRAX/USD",
         "pass": true
       },
       {
         "id": "Pyth base correspondence",
         "severity": "Info",
-        "message": "Adapter's base asset (FXS) corresponds to the Pyth feed's base asset from metadata (FXS).",
-        "pass": true
+        "message": "Adapter's base asset (FXS) does not correspond to the Pyth feed's base asset from metadata (FRAX).",
+        "pass": false
       },
       {
         "id": "Pyth quote correspondence",
@@ -4883,7 +4883,7 @@
         "pass": true
       }
     ],
-    "label": "Crypto.FXS/USD (120s, ±300bps)",
+    "label": "Crypto.FRAX/USD (120s, ±300bps)",
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
