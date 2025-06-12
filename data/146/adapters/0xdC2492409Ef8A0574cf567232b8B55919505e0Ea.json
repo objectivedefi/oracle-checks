@@ -34,7 +34,7 @@
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0x29219dd400f2Bf60E5a23d13Be72B486D4038894 is USDC.e (Bridged USDC (Sonic Labs)) with 6 decimals.",
+      "message": "Asset 0x29219dd400f2Bf60E5a23d13Be72B486D4038894 is USDC (USDC) with 6 decimals.",
       "pass": true
     },
     {

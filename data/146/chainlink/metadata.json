@@ -64,7 +64,7 @@
     "threshold": 0.3,
     "valuePrefix": "",
     "assetName": "DAI",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -516,7 +516,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Wrapped Bitcoin",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -782,7 +782,7 @@
     "threshold": 0.3,
     "valuePrefix": "",
     "assetName": "Sonic USD",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -866,7 +866,7 @@
     "threshold": 0.3,
     "valuePrefix": "",
     "assetName": "OpenUSDT",
-    "feedCategory": "high",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -909,7 +909,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "Solv Protocol SolvBTC",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1032,7 +1032,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Staked Sonic",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1196,7 +1196,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Origin Sonic",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1237,7 +1237,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Circle EUR",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1281,7 +1281,7 @@
     "threshold": 0.3,
     "valuePrefix": "",
     "assetName": "World Liberty Financial USD",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1438,7 +1438,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Shadow Exchange",
-    "feedCategory": "high",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",

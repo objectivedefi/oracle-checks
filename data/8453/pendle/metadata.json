@@ -41,19 +41,19 @@
   },
   {
     "chainId": 8453,
-    "pt": "0x5d746848005507DA0b1717C137A10C30AD9ee307",
-    "market": "0x727cEbAcfb10fFd353Fc221D06A862B437eC1735",
-    "underlyingAsset": "0xecAc9C5F704e954931349Da37F60E39f515c11c1",
-    "expiry": 1748476800,
-    "symbol": "LBTC"
-  },
-  {
-    "chainId": 8453,
     "pt": "0x603e2d1Af3d0673f4af756B6E12a2044bFEbB714",
     "market": "0x621D4D92E9bed484E6D2Cb8A37d342c804A0908c",
     "underlyingAsset": "0xb909F567c5c2Bb1A4271349708CC4637D7318b4A",
     "expiry": 1750896000,
-    "symbol": "VIRTUAL/cbBTC"
+    "symbol": "vAMM-VIRTUAL/cbBTC"
+  },
+  {
+    "chainId": 8453,
+    "pt": "0x7C3039d2385000cf366E3AC6AB9d7642E8440dd2",
+    "market": "0x4EaE2e40C6612005214ea919cc7653dA853Ed409",
+    "underlyingAsset": "0x53176cADd446700fa6b89f840357AC586D7e33Db",
+    "expiry": 1758758400,
+    "symbol": "LBTC"
   },
   {
     "chainId": 8453,
@@ -93,6 +93,6 @@
     "market": "0xA6b8cFE75Ca5e1b2A527AA255d10521FAaF24b61",
     "underlyingAsset": "0x69eFa3Cd7FC773fE227b9Cc4f41132dcde020A29",
     "expiry": 1758758400,
-    "symbol": "GHO-USR"
+    "symbol": "yvBal-GHO-USR"
   }
 ]

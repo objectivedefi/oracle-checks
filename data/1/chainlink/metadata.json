@@ -485,7 +485,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "Tether",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -641,7 +641,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Wrapped eETH",
-    "feedCategory": "high",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1128,7 +1128,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "Coinbase Wrapped Staked ETH",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1317,7 +1317,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "Compound",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1396,7 +1396,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "Circle USD",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2181,7 +2181,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "Solv Protocol SolvBTC",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2251,7 +2251,7 @@
     "threshold": 2,
     "valuePrefix": "",
     "assetName": "Reserve Rights",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2333,7 +2333,7 @@
     "threshold": 2,
     "valuePrefix": "",
     "assetName": "Avail",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2373,7 +2373,7 @@
     "threshold": 2,
     "valuePrefix": "",
     "assetName": "Alchemix",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2862,7 +2862,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "",
-    "feedCategory": "",
+    "feedCategory": "high",
     "feedType": "",
     "docs": {
       "hidden": true
@@ -3203,7 +3203,7 @@
     "threshold": 2,
     "valuePrefix": "",
     "assetName": "Coinbase Wrapped Bitcoin",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3416,7 +3416,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "World Liberty Financial USD",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3584,7 +3584,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Pax Gold",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3751,7 +3751,7 @@
     "threshold": 2,
     "valuePrefix": "",
     "assetName": "Ethereum Name Service",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3840,6 +3840,7 @@
       "blockchainName": "Ethereum",
       "clicProductName": "RSETH/ETH-RefPrice-DF-Ethereum-001",
       "deliveryChannelCode": "DF",
+      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -3873,7 +3874,7 @@
     "threshold": 0.25,
     "valuePrefix": "",
     "assetName": "DAI",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3956,7 +3957,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "Resolv USR",
-    "feedCategory": "high",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4000,7 +4001,7 @@
     "threshold": 2,
     "valuePrefix": "",
     "assetName": "Space and Time",
-    "feedCategory": "new",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4234,7 +4235,7 @@
     "threshold": 0.3,
     "valuePrefix": "",
     "assetName": "Ripple USD",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4792,7 +4793,7 @@
     "threshold": 2,
     "valuePrefix": "",
     "assetName": "APECoin",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5201,7 +5202,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "",
-    "feedCategory": "",
+    "feedCategory": "high",
     "feedType": "",
     "docs": {
       "hidden": true
@@ -5300,7 +5301,7 @@
     "threshold": 2,
     "valuePrefix": "",
     "assetName": "The Graph",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5583,7 +5584,6 @@
       "blockchainName": "Ethereum",
       "clicProductName": "OETH/ETH-RefPrice-DF-Ethereum-001",
       "deliveryChannelCode": "DF",
-      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -5712,6 +5712,47 @@
       "quoteAssetClic": "ETH_CR"
     },
     "decimals": 18
+  },
+  {
+    "benchmark": "dex-state",
+    "compareOffchain": "",
+    "contractAddress": "0x9E3AABA3B04264DD009437F48eBFD70713dd0667",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "wampl-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "WAMPL / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "wampl-usd",
+    "proxyAddress": "0xAcFCF155a0de611414C510D43446c27a4EE6a758",
+    "threshold": 2,
+    "valuePrefix": "",
+    "assetName": "Wrapped Ampleforth",
+    "feedCategory": "high",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "baseAsset": "wAMPL",
+      "baseAssetClic": "wAMPL_CR",
+      "blockchainName": "Ethereum",
+      "clicProductName": "wAMPL/USD-RefPrice-DF-Ethereum-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 8
   },
   {
     "compareOffchain": "",
@@ -7238,7 +7279,7 @@
     "threshold": 0.3,
     "valuePrefix": "",
     "assetName": "Circle EUR",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -7598,6 +7639,7 @@
       "blockchainName": "Ethereum",
       "clicProductName": "MATIC/USD-RefPrice-DF-Ethereum-001",
       "deliveryChannelCode": "DF",
+      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -7712,7 +7754,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Lido Staked ETH",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -8315,6 +8357,7 @@
       "blockchainName": "Ethereum",
       "clicProductName": "REN/ETH-RefPrice-DF-Ethereum-001",
       "deliveryChannelCode": "DF",
+      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -8920,7 +8963,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "Synthetix Network",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -8960,7 +9003,7 @@
     "threshold": 2,
     "valuePrefix": "",
     "assetName": "Rocket Pool ETH",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",

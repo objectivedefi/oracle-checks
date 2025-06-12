@@ -50,7 +50,7 @@
       "pass": true
     }
   ],
-  "label": "USDC (RLP)",
+  "label": "RLP",
   "methodology": "TWAP",
   "model": "Push",
   "provider": "Pendle",

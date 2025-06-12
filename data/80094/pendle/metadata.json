@@ -13,7 +13,7 @@
     "market": "0x34634a7bBE5A3C234b931C79d4cC6785C5dd54C4",
     "underlyingAsset": "0x7DCC39B4d1C53CB31e1aBc0e358b43987FEF80f7",
     "expiry": 1761782400,
-    "symbol": "eETH"
+    "symbol": "weETH"
   },
   {
     "chainId": 80094,
@@ -45,7 +45,7 @@
     "market": "0x5200C9900436f649B4659dFc79213837DcCCaAB1",
     "underlyingAsset": "0xAa97D791Afc02AF30cf0B046172bb05b3c306517",
     "expiry": 1761782400,
-    "symbol": "dBERA"
+    "symbol": "dWBERA"
   },
   {
     "chainId": 80094,

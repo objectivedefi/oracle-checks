@@ -386,7 +386,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "GMX",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -813,6 +813,7 @@
       "blockchainName": "Optimism",
       "clicProductName": "MATIC/USD-RefPrice-DF-Optimism-001",
       "deliveryChannelCode": "DF",
+      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -844,7 +845,7 @@
     "threshold": 0.2,
     "valuePrefix": "",
     "assetName": "Lido Staked Ether",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1449,7 +1450,7 @@
     "threshold": 0.2,
     "valuePrefix": "",
     "assetName": "APECoin",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1577,17 +1578,17 @@
     "docs": {
       "assetClass": "Crypto",
       "assetSubClass": "Pegged Asset",
-      "baseAsset": "WRSETH",
-      "baseAssetClic": "WRSETH_CR",
+      "baseAsset": "wrsETH",
+      "baseAssetClic": "wrsETH_CR",
       "blockchainName": "Optimism",
-      "clicProductName": "WRSETH/ETH-ExRate-DF-Optimism-001",
+      "clicProductName": "wrsETH/rsETH-ExRate-DF-Optimism-001",
       "deliveryChannelCode": "DF",
       "marketHours": "Crypto",
       "productSubType": "Exchange rate",
       "productType": "Price",
       "productTypeCode": "ExRate",
-      "quoteAsset": "ETH",
-      "quoteAssetClic": "ETH_CR",
+      "quoteAsset": "rsETH",
+      "quoteAssetClic": "rsETH_CR",
       "underlyingAsset": "ETH",
       "underlyingAssetClic": "ETH_CR"
     },
@@ -1656,7 +1657,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "The Graph",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1777,7 +1778,7 @@
     "threshold": 0.3,
     "valuePrefix": "",
     "assetName": "World Liberty Financial USD",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2029,7 +2030,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Ethereum",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2142,7 +2143,7 @@
     "threshold": 0.2,
     "valuePrefix": "",
     "assetName": "Synthetix Network",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2467,7 +2468,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Resolv USR",
-    "feedCategory": "high",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2510,7 +2511,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Coinbase Wrapped Staked ETH",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2562,6 +2563,7 @@
       "blockchainName": "Optimism",
       "clicProductName": "EOS/USD-RefPrice-DF-Optimism-001",
       "deliveryChannelCode": "DF",
+      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -2593,7 +2595,7 @@
     "threshold": 0.1,
     "valuePrefix": "",
     "assetName": "Wrapped Bitcoin",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2964,7 +2966,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Injective Protocol",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3044,7 +3046,7 @@
     "threshold": 0.2,
     "valuePrefix": "",
     "assetName": "Axie Infinity",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3163,7 +3165,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Wrapped eETH",
-    "feedCategory": "high",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3286,7 +3288,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Rocket Pool ETH",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4070,7 +4072,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Pendle",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4355,7 +4357,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Lido DAO",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4403,6 +4405,7 @@
       "blockchainName": "Optimism",
       "clicProductName": "RSETH/ETH-RefPrice-DF-Optimism-001",
       "deliveryChannelCode": "DF",
+      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -5095,7 +5098,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Compound",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5339,7 +5342,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Blur",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5378,7 +5381,7 @@
     "threshold": 0.1,
     "valuePrefix": "",
     "assetName": "DAI",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5462,7 +5465,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Starknet",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5868,7 +5871,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Memecoin",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",

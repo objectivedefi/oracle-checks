@@ -36,7 +36,7 @@
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0x29219dd400f2Bf60E5a23d13Be72B486D4038894 is USDC.e (Bridged USDC (Sonic Labs)) with 6 decimals.",
+      "message": "Asset 0x29219dd400f2Bf60E5a23d13Be72B486D4038894 is USDC (USDC) with 6 decimals.",
       "pass": true
     },
     {
@@ -54,8 +54,8 @@
     {
       "id": "Pyth base correspondence",
       "severity": "Info",
-      "message": "Adapter's base asset (USDC.e) does not correspond to the Pyth feed's base asset from metadata (USDC).",
-      "pass": false
+      "message": "Adapter's base asset (USDC) corresponds to the Pyth feed's base asset from metadata (USDC).",
+      "pass": true
     },
     {
       "id": "Pyth quote correspondence",

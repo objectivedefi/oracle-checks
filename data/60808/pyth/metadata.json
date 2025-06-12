@@ -275,6 +275,19 @@
     }
   },
   {
+    "id": "0x11ef99f21b54baf4d913b2c876437fcc773b8e2320f14b08875870e7b6721fd4",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "LOOP",
+      "description": "LOOPING COLLECTIVE / US DOLLAR",
+      "display_symbol": "LOOP/USD",
+      "generic_symbol": "LOOPUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.LOOP/USD"
+    }
+  },
+  {
     "id": "0xb8b6c23723982492c9e893684e2686af4c38eef7f58dc74a030b49a7c07996b7",
     "attributes": {
       "asset_type": "Equity",
@@ -556,20 +569,6 @@
     }
   },
   {
-    "id": "0xf8d8d6b6c866c8b2624fb5b679ae846738725e5fc887fa8e927c8d8645018a2b",
-    "attributes": {
-      "asset_type": "Crypto Redemption Rate",
-      "base": "JUPSOL",
-      "contract_id": "sol: 8VpRhuxa7sUUepdY3kQiTmX9rS5vx4WgaXiAnXq4KCtr",
-      "description": "JUPITER STAKED SOLANA/ SOLANA REDEMPTION RATE",
-      "display_symbol": "JUPSOL/SOL",
-      "generic_symbol": "JUPSOLSOL",
-      "quote_currency": "SOL",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.JUPSOL/SOL.RR"
-    }
-  },
-  {
     "id": "0x7a508a94c9276cbc60d04e1a8cf839d20d835bb869a74487dfffa8f1bfd1ce42",
     "attributes": {
       "asset_type": "Crypto Redemption Rate",
@@ -584,19 +583,6 @@
     }
   },
   {
-    "id": "0x2f7c4f738d498585065a4b87b637069ec99474597da7f0ca349ba8ac3ba9cac5",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "AURORA",
-      "description": "AURORA / US DOLLAR",
-      "display_symbol": "AURORA/USD",
-      "generic_symbol": "AURUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.AURORA/USD"
-    }
-  },
-  {
     "id": "0xdf7b724fae4b9ecfd6081effb1ea3bb3b5c250c3641cf903b4d8fb10f4f452df",
     "attributes": {
       "asset_type": "Crypto",
@@ -607,6 +593,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.CAT/USD"
+    }
+  },
+  {
+    "id": "0x2f7c4f738d498585065a4b87b637069ec99474597da7f0ca349ba8ac3ba9cac5",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "AURORA",
+      "description": "AURORA / US DOLLAR",
+      "display_symbol": "AURORA/USD",
+      "generic_symbol": "AURUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.AURORA/USD"
     }
   },
   {
@@ -638,19 +637,6 @@
     }
   },
   {
-    "id": "0x0f6539d2f188eef5cb9dfba796f4c40407e55df14bb668a81a9ba3678d5a625c",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "G",
-      "description": "GRAVITY / US DOLLAR",
-      "display_symbol": "G/USD",
-      "generic_symbol": "GUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.G/USD"
-    }
-  },
-  {
     "id": "0xe4731214382d8ed70a766930a7722c68064fc7ed4e6d70dbce3c84d4be81bc92",
     "attributes": {
       "asset_type": "Crypto",
@@ -677,19 +663,6 @@
     }
   },
   {
-    "id": "0x057345a7e9ef0f36dca8ad1c4e5788808b85f3084cc7b0d8cb29ac5012d88f0d",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "BLAST",
-      "description": "BLAST / US DOLLAR",
-      "display_symbol": "BLAST/USD",
-      "generic_symbol": "BLASTUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.BLAST/USD"
-    }
-  },
-  {
     "id": "0x29240ee3a9024d107888eb1d4c527216f06bd64cee030c6b5575b1a8d77cb659",
     "attributes": {
       "asset_type": "Crypto",
@@ -700,6 +673,46 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.FRXETH/USD"
+    }
+  },
+  {
+    "id": "0xf8d8d6b6c866c8b2624fb5b679ae846738725e5fc887fa8e927c8d8645018a2b",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "JUPSOL",
+      "contract_id": "sol: 8VpRhuxa7sUUepdY3kQiTmX9rS5vx4WgaXiAnXq4KCtr",
+      "description": "JUPITER STAKED SOLANA/ SOLANA REDEMPTION RATE",
+      "display_symbol": "JUPSOL/SOL",
+      "generic_symbol": "JUPSOLSOL",
+      "quote_currency": "SOL",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.JUPSOL/SOL.RR"
+    }
+  },
+  {
+    "id": "0x0f6539d2f188eef5cb9dfba796f4c40407e55df14bb668a81a9ba3678d5a625c",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "G",
+      "description": "GRAVITY / US DOLLAR",
+      "display_symbol": "G/USD",
+      "generic_symbol": "GUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.G/USD"
+    }
+  },
+  {
+    "id": "0x057345a7e9ef0f36dca8ad1c4e5788808b85f3084cc7b0d8cb29ac5012d88f0d",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "BLAST",
+      "description": "BLAST / US DOLLAR",
+      "display_symbol": "BLAST/USD",
+      "generic_symbol": "BLASTUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.BLAST/USD"
     }
   },
   {
@@ -1586,6 +1599,19 @@
     }
   },
   {
+    "id": "0x55da0cd5ed2e1fc64b2a06ff2e67eaae8e98ee0f3ddeaea9d15a1879a2efa5de",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "SOON",
+      "description": "SOON SVM / US DOLLAR",
+      "display_symbol": "SOON/USD",
+      "generic_symbol": "SOONUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.SOON/USD"
+    }
+  },
+  {
     "id": "0x355090b8bda5ebacedf5a500b60214d883ac17b7a9dbd864e4b86f90a87dfc6e",
     "attributes": {
       "asset_type": "Crypto Redemption Rate",
@@ -1597,23 +1623,6 @@
       "quote_currency": "BETH",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.WBETH/BETH.RR"
-    }
-  },
-  {
-    "id": "0xb40b427690447a6fd5f75aa4b35dca20ed9b2e42d8eaa80ecf4d81406db68cd8",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "BRRR",
-      "cms_symbol": "BRRR",
-      "country": "US",
-      "cqs_symbol": "BRRR",
-      "description": "VALKYRIE BITCOIN FUND / US DOLLAR",
-      "display_symbol": "BRRR/USD",
-      "nasdaq_symbol": "BRRR",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
-      "symbol": "Equity.US.BRRR/USD"
     }
   },
   {
@@ -1631,6 +1640,97 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.SHW/USD"
+    }
+  },
+  {
+    "id": "0x152244dc24665ca7dd3f257b8f442dc449b6346f48235b7b229268cb770dda2d",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MU",
+      "cms_symbol": "MU",
+      "country": "US",
+      "cqs_symbol": "MU",
+      "description": "MICRON TECHNOLOGY INC / US DOLLAR",
+      "display_symbol": "MU/USD",
+      "nasdaq_symbol": "MU",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.MU/USD"
+    }
+  },
+  {
+    "id": "0x7b416ea1298ada4c2c19c6806474eddc9aa6fed94563ae42a806704c8a5efbe7",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "RUSD",
+      "description": "RESERVOIR US DOLLAR / US DOLLAR",
+      "display_symbol": "RUSD/USD",
+      "generic_symbol": "RUSDUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.RUSD/USD"
+    }
+  },
+  {
+    "id": "0xaa8aa008443dd20c6f569c653fb0f44bb3fdeed6f26084cb6a0a4785c95c0f62",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "NWG",
+      "country": "GB",
+      "description": "NATWEST GROUP PLC / BRITISH POUND",
+      "display_symbol": "NWG/GBP",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.NWG/GBP"
+    }
+  },
+  {
+    "id": "0xe1cb28de6139b40cf03e15f42a89921c0650fb1c75cabfc94877830c28de30cb",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "ILV",
+      "description": "ILLUVIUM / US DOLLAR",
+      "display_symbol": "ILV/USD",
+      "generic_symbol": "ILVUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.ILV/USD"
+    }
+  },
+  {
+    "id": "0x84df202649f46e6362e38abcf5cd6947bc7e4379e8e281f1d02b382355c13aa3",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "FICO",
+      "cms_symbol": "FICO",
+      "country": "US",
+      "cqs_symbol": "FICO",
+      "description": "FAIR ISAAC CORPORATION / US DOLLAR",
+      "display_symbol": "FICO/USD",
+      "nasdaq_symbol": "FICO",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.FICO/USD"
+    }
+  },
+  {
+    "id": "0xb40b427690447a6fd5f75aa4b35dca20ed9b2e42d8eaa80ecf4d81406db68cd8",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BRRR",
+      "cms_symbol": "BRRR",
+      "country": "US",
+      "cqs_symbol": "BRRR",
+      "description": "VALKYRIE BITCOIN FUND / US DOLLAR",
+      "display_symbol": "BRRR/USD",
+      "nasdaq_symbol": "BRRR",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.BRRR/USD"
     }
   },
   {
@@ -1677,23 +1777,6 @@
     }
   },
   {
-    "id": "0x152244dc24665ca7dd3f257b8f442dc449b6346f48235b7b229268cb770dda2d",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "MU",
-      "cms_symbol": "MU",
-      "country": "US",
-      "cqs_symbol": "MU",
-      "description": "MICRON TECHNOLOGY INC / US DOLLAR",
-      "display_symbol": "MU/USD",
-      "nasdaq_symbol": "MU",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
-      "symbol": "Equity.US.MU/USD"
-    }
-  },
-  {
     "id": "0x82595d1509b770fa52681e260af4dda9752b87316d7c048535d8ead3fa856eb1",
     "attributes": {
       "asset_type": "Crypto",
@@ -1707,30 +1790,17 @@
     }
   },
   {
-    "id": "0xaa8aa008443dd20c6f569c653fb0f44bb3fdeed6f26084cb6a0a4785c95c0f62",
+    "id": "0x8c64b089d95170429ba39ec229a0a6fc36b267e09c3210fbb9d9eb2d4c203bc5",
     "attributes": {
       "asset_type": "Equity",
-      "base": "NWG",
-      "country": "GB",
-      "description": "NATWEST GROUP PLC / BRITISH POUND",
-      "display_symbol": "NWG/GBP",
+      "base": "VUG",
+      "country": "US",
+      "description": "VANGUARD GROWTH ETF / US DOLLAR",
+      "display_symbol": "VUG/USD",
       "publish_interval": "5",
-      "quote_currency": "GBP",
-      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
-      "symbol": "Equity.GB.NWG/GBP"
-    }
-  },
-  {
-    "id": "0xe1cb28de6139b40cf03e15f42a89921c0650fb1c75cabfc94877830c28de30cb",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "ILV",
-      "description": "ILLUVIUM / US DOLLAR",
-      "display_symbol": "ILV/USD",
-      "generic_symbol": "ILVUSD",
       "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.ILV/USD"
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.VUG/USD"
     }
   },
   {
@@ -1744,36 +1814,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.ACT/USD"
-    }
-  },
-  {
-    "id": "0x84df202649f46e6362e38abcf5cd6947bc7e4379e8e281f1d02b382355c13aa3",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "FICO",
-      "cms_symbol": "FICO",
-      "country": "US",
-      "cqs_symbol": "FICO",
-      "description": "FAIR ISAAC CORPORATION / US DOLLAR",
-      "display_symbol": "FICO/USD",
-      "nasdaq_symbol": "FICO",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
-      "symbol": "Equity.US.FICO/USD"
-    }
-  },
-  {
-    "id": "0x6b701e292e0836d18a5904a08fe94534f9ab5c3d4ff37dc02c74dd0f4901944d",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "IOT",
-      "description": "HELIUM IOT / US DOLLAR",
-      "display_symbol": "IOT/USD",
-      "generic_symbol": "IOTUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.IOT/USD"
     }
   },
   {
@@ -1791,17 +1831,16 @@
     }
   },
   {
-    "id": "0x8c64b089d95170429ba39ec229a0a6fc36b267e09c3210fbb9d9eb2d4c203bc5",
+    "id": "0x6b701e292e0836d18a5904a08fe94534f9ab5c3d4ff37dc02c74dd0f4901944d",
     "attributes": {
-      "asset_type": "Equity",
-      "base": "VUG",
-      "country": "US",
-      "description": "VANGUARD GROWTH ETF / US DOLLAR",
-      "display_symbol": "VUG/USD",
-      "publish_interval": "5",
+      "asset_type": "Crypto",
+      "base": "IOT",
+      "description": "HELIUM IOT / US DOLLAR",
+      "display_symbol": "IOT/USD",
+      "generic_symbol": "IOTUSD",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
-      "symbol": "Equity.US.VUG/USD"
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.IOT/USD"
     }
   },
   {
@@ -2431,19 +2470,6 @@
     }
   },
   {
-    "id": "0xaf5b9ac426ae79591fde6816bc3f043b5e06d5e442f52112f76249320df22449",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "SMR",
-      "description": "SHIMMER / US DOLLAR",
-      "display_symbol": "SMR/USD",
-      "generic_symbol": "SMRUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.SMR/USD"
-    }
-  },
-  {
     "id": "0x1388513a22827940d404bfb2440679ae78747d52f7a6ec1f1c3880fee2d408ef",
     "attributes": {
       "asset_type": "Equity",
@@ -2636,6 +2662,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.ODFL/USD"
+    }
+  },
+  {
+    "id": "0x7eab5e260e42d81013207e623be60c66c9c55bfe0ace4797ad00d1c5a1335eae",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "CBDOGE",
+      "description": "COINBASE WRAPPED DOGECOIN / US DOLLAR",
+      "display_symbol": "CBDOGE/USD",
+      "generic_symbol": "CBDOGEUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.CBDOGE/USD"
     }
   },
   {
@@ -3339,6 +3378,23 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.ZEX/USD"
+    }
+  },
+  {
+    "id": "0x92b8527aabe59ea2b12230f7b532769b133ffb118dfbd48ff676f14b273f1365",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "CRCL",
+      "cms_symbol": "CRCL",
+      "country": "US",
+      "cqs_symbol": "CRCL",
+      "description": "CIRCLE INTERNET GROUP INC / US DOLLAR",
+      "display_symbol": "CRCL/USD",
+      "nasdaq_symbol": "CRCL",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.CRCL/USD"
     }
   },
   {
@@ -5381,6 +5437,19 @@
     }
   },
   {
+    "id": "0xa940f22b79e9475ba12a536f109f0e944e937715bfea6f153b8db1675f3fccf7",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "LOUD",
+      "description": "STAY LOUD / US DOLLAR",
+      "display_symbol": "LOUD/USD",
+      "generic_symbol": "LOUDUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.LOUD/USD"
+    }
+  },
+  {
     "id": "0x2b9ab1e972a281585084148ba1389800799bd4be63b957507db1349314e47445",
     "attributes": {
       "asset_type": "Crypto",
@@ -5597,19 +5666,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.OP/USD"
-    }
-  },
-  {
-    "id": "0x9095653620547ece988ec51486dc7a6eb2efddbce8ea5bedbd53bf00cca84cf6",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "ALPACA",
-      "description": "ALPACA FINANCE / US DOLLAR",
-      "display_symbol": "ALPACA/USD",
-      "generic_symbol": "ALPCUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.ALPACA/USD"
     }
   },
   {
@@ -6844,6 +6900,20 @@
     }
   },
   {
+    "id": "0x40395895e536ec140067bbda3401db0dfa3b04b0ec90057a3b3d1aa709bda6cf",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "TUSD",
+      "contract_id": "eth: 0x66455247E6f56Cb60DfcAeA669037841a8414804",
+      "description": "TURBO US DOLLAR / USD COIN REDEMPTION RATE",
+      "display_symbol": "TUSD/USDC",
+      "generic_symbol": "TUSDUSDC",
+      "quote_currency": "USDC",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.TUSD/USDC.RR"
+    }
+  },
+  {
     "id": "0xfdc34922e57ee32f16296243d400188a789c48e863904957a47c569ba578fa0c",
     "attributes": {
       "asset_type": "Equity",
@@ -6903,6 +6973,19 @@
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.LGEN/GBP"
+    }
+  },
+  {
+    "id": "0x8237c60533d4f0030f480aa3cb0b1a92fa55b5828f602f47cb87bde988795f59",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "SKATE",
+      "description": "SKATE CHAIN / US DOLLAR",
+      "display_symbol": "SKATE/USD",
+      "generic_symbol": "SKATEUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.SKATE/USD"
     }
   },
   {
@@ -8904,6 +8987,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.CHILLGUY/USD"
+    }
+  },
+  {
+    "id": "0x04545f334546222481d9d79d110f255b5e138f1f0728a23beba8467b3e489709",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "YUTY",
+      "contract_id": "avax: 0x580d5E1399157FD0d58218b7A514b60974F2AB01",
+      "description": "STAKED UNITY / UNITY REDEMPTION RATE",
+      "display_symbol": "YUTY/UTY",
+      "generic_symbol": "YUTYUTY",
+      "quote_currency": "UTY",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.YUTY/UTY.RR"
     }
   },
   {
@@ -12774,20 +12871,6 @@
     }
   },
   {
-    "id": "0xeee28bf40d278c8a66242f6a469d95ef1d5fab9acc71f4739b5b264689b15ea3",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "VUSA-GB",
-      "country": "IE",
-      "description": "VANGUARD S&P 500 UCITS ETF / BRITISH POUND",
-      "display_symbol": "VUSA.GB/GBP",
-      "publish_interval": "5",
-      "quote_currency": "GBP",
-      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0526/C,0825/C,1224/0800-1230,1225/C,1226/C,1231/0800-1230,0101/C",
-      "symbol": "Equity.IE.VUSA-GB/GBP"
-    }
-  },
-  {
     "id": "0x772e16ce4ffa670ed237b51edf04a153137998d06162517f75ad0baa45e118c4",
     "attributes": {
       "asset_type": "Equity",
@@ -14264,20 +14347,6 @@
     }
   },
   {
-    "id": "0x6ea668574efd09e3f8e1bc682a8132a14d3e83bd2c2810636a5941e2b2d2ec19",
-    "attributes": {
-      "asset_type": "Crypto Redemption Rate",
-      "base": "SFRAX",
-      "contract_id": "eth: 0xa663b02cf0a4b149d2ad41910cb81e23e1c41c32",
-      "description": "STAKED FRAX / FRAX REDEMPTION RATE",
-      "display_symbol": "SFRAX/FRAX",
-      "generic_symbol": "SFRAXFRAX",
-      "quote_currency": "FRAX",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.SFRAX/FRAX.RR"
-    }
-  },
-  {
     "id": "0x5867f5683c757393a0670ef0f701490950fe93fdb006d181c8265a831ac0c5c6",
     "attributes": {
       "asset_type": "Crypto",
@@ -15037,20 +15106,6 @@
     }
   },
   {
-    "id": "0xffeb97dc9f9851663bb2ccad628e7dff955fa2d0959bc3e46710b34eda72089d",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "1321-JP",
-      "country": "JP",
-      "description": "NEXT FUNDS NIKKEI 225 ETF / JAPANESE YEN",
-      "display_symbol": "1321:JP/JPY",
-      "publish_interval": "5",
-      "quote_currency": "JPY",
-      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
-      "symbol": "Equity.JP.1321-JP/JPY"
-    }
-  },
-  {
     "id": "0xd45392f678a1287b8412ed2aaa326def204a5c234df7cb5552d756c332283d81",
     "attributes": {
       "asset_type": "Equity",
@@ -15209,19 +15264,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.MOH/USD"
-    }
-  },
-  {
-    "id": "0xa6a0dfa49b6b3a93510658245618099f5e842514970f596cf64fad9e0d658193",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "USDM",
-      "description": "MOUNTAIN PROTOCOL USD / US DOLLAR",
-      "display_symbol": "USDM/USD",
-      "generic_symbol": "USDMUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.USDM/USD"
     }
   },
   {
@@ -15997,20 +16039,6 @@
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C,0501/C,0505/C,0701/C",
       "symbol": "Equity.HK.1810-HK/HKD"
-    }
-  },
-  {
-    "id": "0xba1d1b7beb6271674fe48f82133bdce91914066589ce76ca6ec6aa2908ac9e74",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "VUSD-GB",
-      "country": "IE",
-      "description": "VANGUARD S&P 500 UCITS ETF / US DOLLAR",
-      "display_symbol": "VUSD.GB/USD",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0526/C,0825/C,1224/0800-1230,1225/C,1226/C,1231/0800-1230,0101/C",
-      "symbol": "Equity.IE.VUSD-GB/USD"
     }
   },
   {
@@ -17209,20 +17237,6 @@
     }
   },
   {
-    "id": "0x3d392a0fc3ae7fac4d6ba15e99a4c2bec2debbe1c9fc7d950ec0972ee716f559",
-    "attributes": {
-      "asset_type": "Crypto Redemption Rate",
-      "base": "WUSDM",
-      "contract_id": "eth: 0x57f5e098cad7a3d1eed53991d4d66c45c9af7812",
-      "description": "WRAPPED MOUNTAIN PROTOCOL USD / MOUNTAIN PROTOCOL USD REDEMPTION RATE",
-      "display_symbol": "WUSDM/USDM",
-      "generic_symbol": "WUSDMUSDM",
-      "quote_currency": "USDM",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.WUSDM/USDM.RR"
-    }
-  },
-  {
     "id": "0x6c6e7b3af79a3843cbd07181d1e5ae3de8757b587afac09df94b239630db4d5c",
     "attributes": {
       "asset_type": "Equity",
@@ -17942,6 +17956,19 @@
     }
   },
   {
+    "id": "0x95fd9e16d4cfc5d1370f32bb0bf2346860ad9c92fec83acf4ca263baf16c961d",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "CBXRP",
+      "description": "COINBASE WRAPPED RIPPLE / US DOLLAR",
+      "display_symbol": "CBXRP/USD",
+      "generic_symbol": "CBXRPUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.CBXRP/USD"
+    }
+  },
+  {
     "id": "0xbedaf537ab909117259282b9463b0f54d67dd575d64dcd564bfbdbfc0f57f99d",
     "attributes": {
       "asset_type": "Crypto Redemption Rate",
@@ -18139,20 +18166,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.UNI/USD"
-    }
-  },
-  {
-    "id": "0xe0a315d0fadbfcf706515ebcedcd506aeb00139af35cd319825ca8df05e19c1d",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "SMDS",
-      "country": "GB",
-      "description": "SMITH DS / BRITISH POUND",
-      "display_symbol": "SMDS/GBP",
-      "publish_interval": "5",
-      "quote_currency": "GBP",
-      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
-      "symbol": "Equity.GB.SMDS/GBP"
     }
   },
   {
@@ -18747,6 +18760,19 @@
       "quote_currency": "USDC",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.PST/USDC.RR"
+    }
+  },
+  {
+    "id": "0x7c2c964893278a585eef902f1d90c458666daf6dd0533e823f9fffedcec5ab5a",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "RESOLV",
+      "description": "RESOLV / US DOLLAR",
+      "display_symbol": "RESOLV/USD",
+      "generic_symbol": "RESOLVUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.RESOLV/USD"
     }
   },
   {
@@ -20131,6 +20157,20 @@
     }
   },
   {
+    "id": "0xed59fa6cd785c9af4dedc72c35617fbd09fb61321c650ef20e40c978a741a8fa",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "XUSDC",
+      "contract_id": "avax: 0x95F36E1e2F9E62986A52805fed810506FE887f9A",
+      "description": "MULIPLI STAKED USD COIN / USD COIN REDEMPTION RATE",
+      "display_symbol": "XUSDC/USDC",
+      "generic_symbol": "XUSDCUSDC",
+      "quote_currency": "USDC",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.XUSDC/USDC.RR"
+    }
+  },
+  {
     "id": "0x782410278b6c8aa2d437812281526012808404aa14c243f73fb9939eeb88d430",
     "attributes": {
       "asset_type": "Equity",
@@ -21510,6 +21550,19 @@
     }
   },
   {
+    "id": "0x3620d3842f69e8044f1e5bfead009605990f7141a3837e0dcc238a442b4f97af",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "SOPH",
+      "description": "SOPHON / US DOLLAR",
+      "display_symbol": "SOPH/USD",
+      "generic_symbol": "SOPHUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.SOPH/USD"
+    }
+  },
+  {
     "id": "0x1aef60609549bdab71241b9d031dd2d2573b5a1f591fc87091ab4af67d81e91a",
     "attributes": {
       "asset_type": "Crypto",
@@ -21582,6 +21635,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.NDAQ/USD"
+    }
+  },
+  {
+    "id": "0x86f6576c0ddc8577b9d1bb12c712ae04ebd56070826ec042c93595d6b17a013b",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "HUMA",
+      "description": "HUMA FINANCE / US DOLLAR",
+      "display_symbol": "HUMA/USD",
+      "generic_symbol": "HUMAUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.HUMA/USD"
     }
   },
   {
@@ -21790,6 +21856,19 @@
     }
   },
   {
+    "id": "0x2cffc28ec4268805dbcb315bb122616059a1c200dda3d56f06ac150db8dfc370",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "A",
+      "description": "VAULTA / US DOLLAR",
+      "display_symbol": "A/USD",
+      "generic_symbol": "AUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.A/USD"
+    }
+  },
+  {
     "id": "0xdc1498a077fef2b6e139e6212da2849c6c64a60f3ce9e13634aea9cf7ff7cae5",
     "attributes": {
       "asset_type": "Equity",
@@ -21953,20 +22032,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.PFE/USD"
-    }
-  },
-  {
-    "id": "0xcdf8e84d7dbec5d8aed6997f0d6d0da7454426d8e6a3afbf85a13a44b9f5a678",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "HL",
-      "country": "GB",
-      "description": "HARGREAVES LANSDOWN PLC / BRITISH POUND",
-      "display_symbol": "HL/GBP",
-      "publish_interval": "5",
-      "quote_currency": "GBP",
-      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
-      "symbol": "Equity.GB.HL/GBP"
     }
   },
   {
@@ -22273,6 +22338,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.JLP/USD.RR"
+    }
+  },
+  {
+    "id": "0xeaa30c1ef2d9f4fde45d6e699bfda5187b3de200ea4cbab25d676b260ab728c1",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "USH",
+      "description": "HYPERSTABLE US DOLLAR / US DOLLAR",
+      "display_symbol": "USH/USD",
+      "generic_symbol": "USHUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.HYPERSTABLE.USH/USD"
     }
   },
   {

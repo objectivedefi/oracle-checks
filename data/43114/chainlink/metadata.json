@@ -105,7 +105,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Synthetix Network",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -464,7 +464,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Benqi",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -820,7 +820,7 @@
     "threshold": 0.1,
     "valuePrefix": "",
     "assetName": "Wrapped Bitcoin",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1027,7 +1027,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Axie Infinity",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1437,7 +1437,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Beam",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1847,7 +1847,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "Solv Protocol SolvBTC",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1888,7 +1888,7 @@
     "threshold": 0.1,
     "valuePrefix": "",
     "assetName": "GMX",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2006,7 +2006,7 @@
     "threshold": 0.1,
     "valuePrefix": "",
     "assetName": "DAI",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2534,6 +2534,7 @@
       "blockchainName": "Avalanche",
       "clicProductName": "MATIC/USD-RefPrice-DF-Avalanche-001",
       "deliveryChannelCode": "DF",
+      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -2605,7 +2606,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Compound",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2852,7 +2853,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Coq Inu",
-    "feedCategory": "high",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2892,7 +2893,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Decentraland",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3052,7 +3053,7 @@
     "threshold": 0.3,
     "valuePrefix": "",
     "assetName": "Circle EUR",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3195,6 +3196,44 @@
       "productTypeCode": "RefPrice",
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0xe3fA7342C4096E02aB376f64b6C5251bf6f3c657",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "emch-reserves",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "EmCH Reserves",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "emch-reserves",
+    "proxyAddress": "0x0d2807dc7FA52d3B38be564B64a2b37753C49AdD",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "valueSuffix": "ESU",
+    "assetName": "EmCH",
+    "feedCategory": "custom",
+    "feedType": "",
+    "docs": {
+      "assetClass": "Tokenized Commodities",
+      "baseAsset": "EmCH",
+      "blockchainName": "Avalanche",
+      "deliveryChannelCode": "DF",
+      "issuer": "GEMx AG",
+      "porAuditor": "Grant Thornton",
+      "porSource": "The Network Firm",
+      "productType": "Proof of Reserve",
+      "productTypeCode": "PoR"
     },
     "decimals": 8
   },

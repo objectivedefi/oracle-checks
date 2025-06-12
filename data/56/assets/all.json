@@ -131,5 +131,12 @@
     "name": "World Liberty Financial USD",
     "symbol": "USD1",
     "decimals": 18
+  },
+  {
+    "address": "0xD9EdEba7f3580f5E22821A52fc1ba8508F4e34D0",
+    "chainId": 56,
+    "name": "Staked Lista BNB",
+    "symbol": "slisBNB",
+    "decimals": 18
   }
 ]

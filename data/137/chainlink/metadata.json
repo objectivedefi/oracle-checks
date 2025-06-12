@@ -61,7 +61,7 @@
     "threshold": 0.1,
     "valuePrefix": "",
     "assetName": "Wrapped Bitcoin",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -305,7 +305,7 @@
     "threshold": 0.25,
     "valuePrefix": "",
     "assetName": "Decentraland",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -435,6 +435,7 @@
       "blockchainName": "Matic",
       "clicProductName": "POL/USD-RefPrice-DF-Matic-001",
       "deliveryChannelCode": "DF",
+      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -546,7 +547,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Woo Network",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1396,7 +1397,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Quant",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2008,7 +2009,7 @@
     "threshold": 0.25,
     "valuePrefix": "",
     "assetName": "The Graph",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2608,7 +2609,7 @@
     "threshold": 0.25,
     "valuePrefix": "",
     "assetName": "Compound",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2731,7 +2732,7 @@
     "threshold": 0.05,
     "valuePrefix": "",
     "assetName": "Pax Gold",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2774,7 +2775,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "Chainlink",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3742,6 +3743,7 @@
       "blockchainName": "Matic",
       "clicProductName": "EOS/USD-RefPrice-DF-Matic-001",
       "deliveryChannelCode": "DF",
+      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -3813,7 +3815,7 @@
     "threshold": 0.25,
     "valuePrefix": "",
     "assetName": "Synthetix Network",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3893,7 +3895,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "APE Coin",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3973,7 +3975,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Tether",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4056,7 +4058,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Axie Infinity",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4256,7 +4258,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Coinbase Wrapped Staked ETH",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4462,7 +4464,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "Circle USD",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5040,6 +5042,7 @@
       "blockchainName": "Matic",
       "clicProductName": "POL/ETH-RefPrice-DF-Matic-001",
       "deliveryChannelCode": "DF",
+      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -5275,7 +5278,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "Ethereum Classic",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5600,7 +5603,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Alchemix",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5680,7 +5683,7 @@
     "threshold": 0.01,
     "valuePrefix": "",
     "assetName": "DAI",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5803,7 +5806,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "ZCash",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",

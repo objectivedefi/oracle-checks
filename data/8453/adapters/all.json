@@ -3004,7 +3004,7 @@
         "pass": true
       }
     ],
-    "label": "LBTC",
+    "label": "Unknown pool",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",

@@ -1,0 +1,53 @@
+{
+  "name": "RedstoneCoreOracle",
+  "address": "0xC018650b9B040F81B3e72014487114067676AfE8",
+  "chainId": 1,
+  "base": "0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c",
+  "quote": "0x0000000000000000000000000000000000000348",
+  "feedId": "0x4555524f43000000000000000000000000000000000000000000000000000000",
+  "feedDecimals": 8,
+  "maxStaleness": "120",
+  "checks": [
+    {
+      "id": "Adapter existence",
+      "severity": "High",
+      "message": "Successfully indexed adapter",
+      "pass": true
+    },
+    {
+      "id": "Adapter whitelist",
+      "severity": "Med",
+      "message": "Adapter is not whitelisted in the adapter registry.",
+      "pass": false
+    },
+    {
+      "id": "Source code provenance",
+      "severity": "High",
+      "message": "Contract metadata hash matches a known hash.",
+      "pass": true
+    },
+    {
+      "id": "Distinct assets",
+      "severity": "High",
+      "message": "All assets are distinct.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c is EURC (Euro Coin) with 6 decimals.",
+      "pass": true
+    },
+    {
+      "id": "Consistent asset",
+      "severity": "High",
+      "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+      "pass": true
+    }
+  ],
+  "label": "EURC/USD",
+  "methodology": "Unknown",
+  "model": "Pull",
+  "provider": "RedStone Pull",
+  "whitelisted": false
+}

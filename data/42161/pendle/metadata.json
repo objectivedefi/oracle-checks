@@ -37,7 +37,7 @@
     "market": "0xCAf560681233b54c996ba06C71566FD30F32C973",
     "underlyingAsset": "0x37227785a1f4545ed914690e395e4CFE96B8319f",
     "expiry": 1750896000,
-    "symbol": "ePENDLE"
+    "symbol": "stk-ePendle"
   },
   {
     "chainId": 42161,
@@ -77,7 +77,7 @@
     "market": "0xBf5E60ddf654085F80DAe9DD33Ec0E345773E1F8",
     "underlyingAsset": "0x35751007a407ca6FEFfE80b3cB397736D2cf4dbe",
     "expiry": 1750896000,
-    "symbol": "eETH"
+    "symbol": "weETH"
   },
   {
     "chainId": 42161,

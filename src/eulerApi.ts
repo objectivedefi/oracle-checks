@@ -35,28 +35,22 @@ type EulerApiDeployedRoutersResponse = DeployedRouter[];
 
 function getEulerApiMetadata(): {
   url: string;
-  apiKey: string;
 } {
   const url = process.env.EULER_DATA_API_URL;
-  const apiKey = process.env.EULER_DATA_API_KEY;
   if (!url) {
     throw new Error("EULER_DATA_API_URL is not set");
   }
-  if (!apiKey) {
-    throw new Error("EULER_DATA_API_KEY is not set");
-  }
 
-  return { url, apiKey };
+  return { url };
 }
 
 async function fetchEulerApi<T>(path: string): Promise<T> {
-  const { url, apiKey } = getEulerApiMetadata();
+  const { url } = getEulerApiMetadata();
 
   const result = await fetch(`${url}${path}`, {
     method: "GET",
     headers: {
       "Content-Type": "application/json",
-      "x-api-key": apiKey,
     },
   });
 

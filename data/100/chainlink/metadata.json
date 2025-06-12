@@ -61,7 +61,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "The Graph",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -307,7 +307,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Synthetix Network",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -428,7 +428,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Wrapped Bitcoin",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -706,7 +706,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Compound",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -955,6 +955,7 @@
       "blockchainName": "xDai",
       "clicProductName": "REN/USD-RefPrice-DF-xDai-001",
       "deliveryChannelCode": "DF",
+      "hidden": true,
       "marketHours": "Crypto",
       "productSubType": "Reference",
       "productType": "Price",
@@ -986,7 +987,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Ziliqa",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1389,7 +1390,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "DAI",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1558,7 +1559,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Chainlink",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
