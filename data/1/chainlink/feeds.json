@@ -560,6 +560,16 @@
     "version": "6"
   },
   {
+    "address": "0xFC9e30Cf89f8A00dba3D34edf8b65BCDAdeCC1cB",
+    "chainId": 1,
+    "accessController": "0x0000000000000000000000000000000000000000",
+    "aggregator": "0xF816091bA795C1b55859599fcDa8f786B2816e01",
+    "decimals": 8,
+    "description": "USD0++ / USD",
+    "owner": "0x21f73D42Eb58Ba49dDB685dc29D3bF5c0f0373CA",
+    "version": "6"
+  },
+  {
     "address": "0x7A9f34a0Aa917D438e9b6E630067062B7F8f6f3d",
     "chainId": 1,
     "accessController": "0x0000000000000000000000000000000000000000",

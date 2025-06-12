@@ -1335,5 +1335,47 @@
     "name": "cUSDO/USDC",
     "symbol": "cUSDOUSDC",
     "decimals": 18
+  },
+  {
+    "address": "0xFfEc096c087C13Cc268497B89A613cACE4DF9A48",
+    "chainId": 1,
+    "name": "PT USDS Stablecoin 14AUG2025",
+    "symbol": "PT-USDS-14AUG2025",
+    "decimals": 18
+  },
+  {
+    "address": "0x136389D329968bD82efe05F0911Eeb20eE74A138",
+    "chainId": 1,
+    "name": "PT USD0++ 27NOV2025",
+    "symbol": "PT-USD0++-27NOV2025",
+    "decimals": 18
+  },
+  {
+    "address": "0xF8094570485B124b4f2aBE98909A87511489C162",
+    "chainId": 1,
+    "name": "Pendle Market",
+    "symbol": "PENDLE-LPT",
+    "decimals": 18
+  },
+  {
+    "address": "0xB10DA2F9147f9cf2B8826877Cd0c95c18A0f42dc",
+    "chainId": 1,
+    "name": "PT Compounding Open Dollar 20NOV2025",
+    "symbol": "PT-cUSDO-20NOV2025",
+    "decimals": 18
+  },
+  {
+    "address": "0x3F53eb4c57c7E7118BE8566bCd503EA502639581",
+    "chainId": 1,
+    "name": "Pendle Market",
+    "symbol": "PENDLE-LPT",
+    "decimals": 18
+  },
+  {
+    "address": "0xdacE1121e10500e9e29d071F01593fD76B000f08",
+    "chainId": 1,
+    "name": "Pendle Market",
+    "symbol": "PENDLE-LPT",
+    "decimals": 18
   }
 ]
