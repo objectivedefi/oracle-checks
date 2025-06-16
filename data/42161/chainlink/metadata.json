@@ -59031,11 +59031,22 @@
     "proxyAddress": "0xCF7a7A1Fb746E926Bbe5C88a702a89167a94C51C",
     "threshold": 0.5,
     "valuePrefix": "",
-    "assetName": "",
-    "feedCategory": "",
-    "feedType": "",
+    "assetName": "Gas",
+    "feedCategory": "medium",
+    "feedType": "Crypto",
     "docs": {
-      "marketHours": "Crypto"
+      "assetClass": "Crypto",
+      "baseAsset": "GAS",
+      "baseAssetClic": "GAS_CR",
+      "blockchainName": "Arbitrum",
+      "clicProductName": "GAS/USD-RefPrice-DF-Arbitrum-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
     },
     "decimals": 8
   },
