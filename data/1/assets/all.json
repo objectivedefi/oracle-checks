@@ -1386,13 +1386,6 @@
     "decimals": 18
   },
   {
-    "address": "0x97cCC1C046d067ab945d3CF3CC6920D3b1E54c88",
-    "chainId": 1,
-    "name": "Pareto synthetic dollar USP",
-    "symbol": "USP",
-    "decimals": 18
-  },
-  {
     "address": "0xdacE1121e10500e9e29d071F01593fD76B000f08",
     "chainId": 1,
     "name": "Pendle Market",
