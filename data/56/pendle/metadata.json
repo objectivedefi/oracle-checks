@@ -81,6 +81,14 @@
   },
   {
     "chainId": 56,
+    "pt": "0xB901c7A2D2Bc05D8B7e7eE4F7Fcf72CAaABd2F49",
+    "market": "0x74c5050a89046c40296a32aeaed31be89d6A6D87",
+    "underlyingAsset": "0x03d9C4E4BC5D3678A9076caC50dB0251D8676872",
+    "expiry": 1757548800,
+    "symbol": "satUSD+"
+  },
+  {
+    "chainId": 56,
     "pt": "0xDD809435ba6c9d6903730f923038801781cA66ce",
     "market": "0x8557D39d4BAB2b045ac5c2B7ea66d12139da9Af4",
     "underlyingAsset": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
