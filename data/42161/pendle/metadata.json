@@ -97,6 +97,14 @@
   },
   {
     "chainId": 42161,
+    "pt": "0xC9BFC3aFD592Cc5a3305aEc09aAAA6B9BB4c12d0",
+    "market": "0x4137709907F3319134438fd9C1539a307eC0a1a5",
+    "underlyingAsset": "0x4186BFC76E2E237523CBC30FD220FE055156b41F",
+    "expiry": 1782345600,
+    "symbol": "rsETH"
+  },
+  {
+    "chainId": 42161,
     "pt": "0xd6Be2DC6767DA105B73e1e78f9A61fE4eB9b03E0",
     "market": "0x86AACBed3E7b3D33149d5DcfD2Def3C6d8498B8b",
     "underlyingAsset": "0xB688BA096b7Bb75d7841e47163Cd12D18B36A5bF",
