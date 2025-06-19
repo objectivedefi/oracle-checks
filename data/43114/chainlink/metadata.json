@@ -3232,6 +3232,8 @@
       "issuer": "GEMx AG",
       "porAuditor": "Grant Thornton",
       "porSource": "The Network Firm",
+      "porType": "Off-chain",
+      "productSubType": "Off-chain",
       "productType": "Proof of Reserve",
       "productTypeCode": "PoR"
     },
