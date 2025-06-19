@@ -19288,7 +19288,7 @@
         "pass": true
       }
     ],
-    "label": "cUSDO",
+    "label": "Unknown pool",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
