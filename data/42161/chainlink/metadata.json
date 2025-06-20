@@ -21976,7 +21976,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Hyperliquid",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -22257,7 +22257,7 @@
     "threshold": 0.3,
     "valuePrefix": "",
     "assetName": "World Liberty Financial USD",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -22301,7 +22301,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Dolomite",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -22468,7 +22468,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Stacks",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -23033,7 +23033,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Pax Gold",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -23116,7 +23116,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Hey Anon",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -38889,7 +38889,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Balancer",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -54030,7 +54030,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Resolv USR",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -55416,7 +55416,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Ultiverse",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -55701,7 +55701,7 @@
     "threshold": 0.3,
     "valuePrefix": "",
     "assetName": "Berachain",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -58695,7 +58695,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Core",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -59259,7 +59259,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Gas",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",

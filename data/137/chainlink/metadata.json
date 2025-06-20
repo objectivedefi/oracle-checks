@@ -2494,7 +2494,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Balancer",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2732,7 +2732,7 @@
     "threshold": 0.05,
     "valuePrefix": "",
     "assetName": "Pax Gold",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3256,7 +3256,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Balancer",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4018,7 +4018,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Badger DAO",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4710,7 +4710,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "Dash",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5157,7 +5157,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Badger DAO",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5766,7 +5766,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Digibyte",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5806,7 +5806,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "ZCash",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5969,7 +5969,7 @@
     "threshold": 1,
     "valuePrefix": "",
     "assetName": "Internet Computer Protocol",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",

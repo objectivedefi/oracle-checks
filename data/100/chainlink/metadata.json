@@ -1190,7 +1190,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Balancer",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",

@@ -720,7 +720,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Stacks",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1285,7 +1285,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Hey Anon",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1697,7 +1697,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Balancer",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1778,7 +1778,7 @@
     "threshold": 0.3,
     "valuePrefix": "",
     "assetName": "World Liberty Financial USD",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2468,7 +2468,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Resolv USR",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4478,7 +4478,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "SATS (Ordinals)",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4790,7 +4790,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Pyth Network",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4830,7 +4830,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Maverick Protocol",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5302,7 +5302,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Moonwell",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -5667,7 +5667,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Internet Computer Protocol",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",

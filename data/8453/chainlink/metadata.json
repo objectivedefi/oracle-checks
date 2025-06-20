@@ -522,7 +522,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Resolv USR",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -2865,7 +2865,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "cat in a dogs world",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3435,7 +3435,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Heroes of Mavia",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4441,7 +4441,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Hey Anon",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4884,7 +4884,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Moonwell",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",

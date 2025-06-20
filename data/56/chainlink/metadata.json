@@ -1705,7 +1705,7 @@
     "threshold": 0.3,
     "valuePrefix": "",
     "assetName": "World Liberty Financial USD",
-    "feedCategory": "low",
+    "feedCategory": "medium",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -1951,7 +1951,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Pax Gold",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -3362,7 +3362,7 @@
     "threshold": 0.3,
     "valuePrefix": "",
     "assetName": "Resolv USR",
-    "feedCategory": "medium",
+    "feedCategory": "high",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
@@ -4365,7 +4365,7 @@
     "threshold": 0.5,
     "valuePrefix": "",
     "assetName": "Internet Computer Protocol",
-    "feedCategory": "medium",
+    "feedCategory": "low",
     "feedType": "Crypto",
     "docs": {
       "assetClass": "Crypto",
