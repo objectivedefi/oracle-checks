@@ -1287,6 +1287,47 @@
     "decimals": 8
   },
   {
+    "benchmark": "finalto",
+    "compareOffchain": "",
+    "contractAddress": "0x3f9925c8c5123F7d7333B447A8909eBe0dF1B6bF",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "gbp-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "GBP / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "gbp-usd",
+    "proxyAddress": "0xCceA6576904C118037695eB71195a5425E69Fa15",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "British Pound",
+    "feedCategory": "low",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Fiat",
+      "baseAsset": "GBP",
+      "baseAssetClic": "GBP_FX",
+      "blockchainName": "Base",
+      "clicProductName": "GBP/USD-RefPrice-DF-Base-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 8
+  },
+  {
     "benchmark": "dex-state",
     "compareOffchain": "",
     "contractAddress": "0x41F3a42270f161Ad1b25Cdb06bAd6cFC123E5C99",
@@ -3943,6 +3984,47 @@
       "productTypeCode": "PoR"
     },
     "decimals": 18
+  },
+  {
+    "benchmark": "finalto",
+    "compareOffchain": "",
+    "contractAddress": "0xC83D70E2a016AA3C51f8047EfB2329d9c7Ed6ed7",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "chf-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "CHF / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "chf-usd",
+    "proxyAddress": "0x3A1d6444fb6a402470098E23DaD0B7E86E14252F",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "Swiss Franc",
+    "feedCategory": "low",
+    "feedType": "Forex",
+    "docs": {
+      "assetClass": "Fiat",
+      "baseAsset": "CHF",
+      "baseAssetClic": "CHF_FX",
+      "blockchainName": "Base",
+      "clicProductName": "CHF/USD-RefPrice-DF-Base-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Forex",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 8
   },
   {
     "compareOffchain": "",
