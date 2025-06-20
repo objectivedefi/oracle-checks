@@ -360,6 +360,16 @@
     "version": "6"
   },
   {
+    "address": "0x26C46B7aD0012cA71F2298ada567dC9Af14E7f2A",
+    "chainId": 1,
+    "accessController": "0x0000000000000000000000000000000000000000",
+    "aggregator": "0x7d95b7bf7bB7750d818F42Df114739B6C88CF9bC",
+    "decimals": 8,
+    "description": "RLUSD / USD",
+    "owner": "0x21f73D42Eb58Ba49dDB685dc29D3bF5c0f0373CA",
+    "version": "6"
+  },
+  {
     "address": "0x079674468Fee6ab45aBfE986737A440701c49BdB",
     "chainId": 1,
     "accessController": "0x0000000000000000000000000000000000000000",
