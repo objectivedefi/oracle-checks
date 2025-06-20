@@ -529,14 +529,6 @@
   },
   {
     "chainId": 1,
-    "pt": "0xe2828B5f839bd8BB4168eEa4583375727e825058",
-    "market": "0x06e705bdCBd4A9F9bC8D5FcCB7841EDada77d8A1",
-    "underlyingAsset": "0x80E1048eDE66ec4c364b4F22C8768fc657FF6A42",
-    "expiry": 1751500800,
-    "symbol": "upUSDC"
-  },
-  {
-    "chainId": 1,
     "pt": "0xeA1180804bDBA8aC04E2a4406B11fb7970c474f1",
     "market": "0x8539B41CA14148d1F7400d399723827a80579414",
     "underlyingAsset": "0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c",
