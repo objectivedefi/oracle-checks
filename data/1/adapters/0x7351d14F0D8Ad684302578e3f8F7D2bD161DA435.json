@@ -1,12 +1,12 @@
 {
   "name": "CrossAdapter",
-  "address": "0xd988620a4dCFaFa5d10A69b7bD1A296BE26DdEe9",
+  "address": "0x7351d14F0D8Ad684302578e3f8F7D2bD161DA435",
   "chainId": 1,
-  "base": "0x136389D329968bD82efe05F0911Eeb20eE74A138",
-  "cross": "0x35D8949372D46B7a3D5A56006AE77B215fc69bC0",
+  "base": "0x3b3fB9C57858EF816833dC91565EFcd85D96f634",
+  "cross": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
   "quote": "0x0000000000000000000000000000000000000348",
-  "oracleBaseCross": "0xa115C05a45C7d1aE49F6AaFa25be18385F9551C1",
-  "oracleCrossQuote": "0xa8E9eb9F16e418cB9734bc435B6ea67084b92330",
+  "oracleBaseCross": "0xF05CA1D76a7d5859014b8606ab69C6D41629109C",
+  "oracleCrossQuote": "0x93840A424aBc32549809Dd0Bc07cEb56E137221C",
   "checks": [
     {
       "id": "Adapter existence",
@@ -35,7 +35,7 @@
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0x136389D329968bD82efe05F0911Eeb20eE74A138 is PT-USD0++-27NOV2025 (PT USD0++ 27NOV2025) with 18 decimals.",
+      "message": "Asset 0x3b3fB9C57858EF816833dC91565EFcd85D96f634 is PT-sUSDE-31JUL2025 (PT Ethena sUSDE 31JUL2025) with 18 decimals.",
       "pass": true
     },
     {
@@ -47,11 +47,11 @@
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is USD0++ (USD0 Liquid Bond) with 18 decimals.",
+      "message": "Asset 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3 is USDe (USDe) with 18 decimals.",
       "pass": true
     }
   ],
-  "label": "PT-USD0++-27NOV2025/USD0++/USD",
+  "label": "PT-sUSDE-31JUL2025/USDe/USD",
   "methodology": "Unknown",
   "model": "Unknown",
   "provider": "Cross",
