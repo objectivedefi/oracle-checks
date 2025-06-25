@@ -49,6 +49,14 @@
   },
   {
     "chainId": 42161,
+    "pt": "0x247f150C90c9EEb7d733219bfA36D189C76D5Ec5",
+    "market": "0x18ffB61c6d223bd91ec15acC248bb7e670aBcc48",
+    "underlyingAsset": "0xd3443ee1e91aF28e5FB858Fbd0D72A63bA8046E0",
+    "expiry": 1766016000,
+    "symbol": "gUSDC"
+  },
+  {
+    "chainId": 42161,
     "pt": "0x2A780E4cD5C3705a3E400012dacf80bBf2fA2552",
     "market": "0x3DB95E24f76C53177C4015244Af2B523A8Caa065",
     "underlyingAsset": "0x0a52BCb532F59F6a37A9d3B5bc9FfD47E461d995",
