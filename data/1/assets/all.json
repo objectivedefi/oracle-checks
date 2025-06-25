@@ -1407,6 +1407,13 @@
     "decimals": 18
   },
   {
+    "address": "0xD7D2802f6b19843ac4DfE25022771FD83b5A7464",
+    "chainId": 1,
+    "name": "xPufETH",
+    "symbol": "xPufETH",
+    "decimals": 18
+  },
+  {
     "address": "0xdacE1121e10500e9e29d071F01593fD76B000f08",
     "chainId": 1,
     "name": "Pendle Market",
