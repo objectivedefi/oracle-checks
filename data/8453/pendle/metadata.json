@@ -97,6 +97,14 @@
   },
   {
     "chainId": 8453,
+    "pt": "0xDe4f5ADc052AEd60000F3171785B168A3d27Dcd7",
+    "market": "0xEe2058f408A43f6D952Ebd55812b4bf0d1cA8854",
+    "underlyingAsset": "0x3A43AEC53490CB9Fa922847385D82fe25d0E9De7",
+    "expiry": 1758758400,
+    "symbol": "yoETH"
+  },
+  {
+    "chainId": 8453,
     "pt": "0xE46c8bA948f8071b425a1f7Ba45c0a65CBAcea2e",
     "market": "0x483f2e223c58a5eF19c4B32fbC6dE57709749cb3",
     "underlyingAsset": "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",

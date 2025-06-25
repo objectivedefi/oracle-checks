@@ -65,6 +65,14 @@
   },
   {
     "chainId": 1,
+    "pt": "0x1714773B9c6f6A3185EE77cc8C1f2092ea70e7CA",
+    "market": "0x28F2C72361f6B7430C5aC30d289265309392901C",
+    "underlyingAsset": "0x2B66AAdE1e9C062FF411bd47C44E0Ad696d43BD9",
+    "expiry": 1766016000,
+    "symbol": "sUSDa"
+  },
+  {
+    "chainId": 1,
     "pt": "0x1A0d4D92a9fdd5fFF38C011275c16e7A147D3788",
     "market": "0xf55Bc75DF5933DD35aAcF3BCA948b0C4630040d1",
     "underlyingAsset": "0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7",
@@ -289,6 +297,14 @@
   },
   {
     "chainId": 1,
+    "pt": "0x761353416187CD12cb5Fcbf524DdDA940705ACc5",
+    "market": "0x69295970dd33B135417C9b866d03C6f59f022f8b",
+    "underlyingAsset": "0xf951E335afb289353dc249e82926178EaC7DEd78",
+    "expiry": 1782345600,
+    "symbol": "swETH"
+  },
+  {
+    "chainId": 1,
     "pt": "0x7c5aA3E49d46e582f50287f70695278d962392dF",
     "market": "0xDCBC2E70aB9BfDD873A3f92f264d9fcD730680C7",
     "underlyingAsset": "0xE24a3DC889621612422A64E6388927901608B91D",
@@ -481,6 +497,14 @@
   },
   {
     "chainId": 1,
+    "pt": "0xC5E17741d6717acDa377Fb3a13174D912e968C6D",
+    "market": "0x4F76C940fc4F11A621CC0f04b51bD5f61D50984d",
+    "underlyingAsset": "0x271C616157e69A43B4977412A64183Cf110Edf16",
+    "expiry": 1756339200,
+    "symbol": "sUSP"
+  },
+  {
+    "chainId": 1,
     "pt": "0xc653F79de1274eE65674BeFda54986020d6f8FC1",
     "market": "0x523f9441853467477b4dDE653c554942f8E17162",
     "underlyingAsset": "0x657e8C867D8B37dCC18fA4Caead9C45EB088C642",
@@ -494,6 +518,14 @@
     "underlyingAsset": "0x80ac24aA929eaF5013f6436cdA2a7ba190f5Cc0b",
     "expiry": 1756339200,
     "symbol": "syrupUSDC"
+  },
+  {
+    "chainId": 1,
+    "pt": "0xce789B855ff263D86Cee15D8Bf5ebA9BA6e2D066",
+    "market": "0xC5ECdAfBEDe3c8436C9C09E60bFFaC3731A9B28E",
+    "underlyingAsset": "0xFAe103DC9cf190eD75350761e95403b7b8aFa6c0",
+    "expiry": 1782345600,
+    "symbol": "rswETH"
   },
   {
     "chainId": 1,
@@ -526,6 +558,14 @@
     "underlyingAsset": "0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7",
     "expiry": 1750896000,
     "symbol": "rsETH"
+  },
+  {
+    "chainId": 1,
+    "pt": "0xE98AcD91c3021967120bcC0d46af49d55833650b",
+    "market": "0xefA9339980fFEE3304Af4822B80484BfcC6f35Ee",
+    "underlyingAsset": "0x8236a87084f8B84306f72007F36F2618A5634494",
+    "expiry": 1766016000,
+    "symbol": "LBTC"
   },
   {
     "chainId": 1,
