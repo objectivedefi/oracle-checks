@@ -35,7 +35,7 @@
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0xA25EaF2906FA1a3a13EdAc9B9657108Af7B703e3 is ggAVAX (GoGoPool Liquid Staking Token) with 18 decimals.",
+      "message": "Asset 0xA25EaF2906FA1a3a13EdAc9B9657108Af7B703e3 is stAVAX (Hypha Staked AVAX) with 18 decimals.",
       "pass": true
     },
     {
@@ -51,7 +51,7 @@
       "pass": true
     }
   ],
-  "label": "ggAVAX/WAVAX/USD",
+  "label": "stAVAX/WAVAX/USD",
   "methodology": "Unknown",
   "model": "Unknown",
   "provider": "Cross",
