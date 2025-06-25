@@ -112,24 +112,10 @@
     "decimals": 8
   },
   {
-    "address": "0x727cEbAcfb10fFd353Fc221D06A862B437eC1735",
-    "chainId": 8453,
-    "name": "Pendle Market",
-    "symbol": "PENDLE-LPT",
-    "decimals": 18
-  },
-  {
     "address": "0xec443e7E0e745348E500084892C89218B3ba4683",
     "chainId": 8453,
     "name": "PT Resolv USD 24APR2025",
     "symbol": "PT-USR-24APR2025",
-    "decimals": 18
-  },
-  {
-    "address": "0xE15578523937ed7F08E8F7a1Fa8a021E07025a08",
-    "chainId": 8453,
-    "name": "Pendle Market",
-    "symbol": "PENDLE-LPT",
     "decimals": 18
   },
   {
@@ -197,6 +183,20 @@
   },
   {
     "address": "0x715509Bde846104cF2cCeBF6fdF7eF1BB874Bc45",
+    "chainId": 8453,
+    "name": "Pendle Market",
+    "symbol": "PENDLE-LPT",
+    "decimals": 18
+  },
+  {
+    "address": "0x727cEbAcfb10fFd353Fc221D06A862B437eC1735",
+    "chainId": 8453,
+    "name": "Pendle Market",
+    "symbol": "PENDLE-LPT",
+    "decimals": 18
+  },
+  {
+    "address": "0xE15578523937ed7F08E8F7a1Fa8a021E07025a08",
     "chainId": 8453,
     "name": "Pendle Market",
     "symbol": "PENDLE-LPT",
