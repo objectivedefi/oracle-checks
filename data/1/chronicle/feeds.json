@@ -270,13 +270,13 @@
       "0x965F7E50Bffa4883E38ae4f227db0977D6737532"
     ],
     "bar": 255,
-    "challengeReward": "1000000000000000000",
+    "challengeReward": "0",
     "decimals": 18,
     "feedRegistrationMessage": "0x57c1e145a0f9acdf7ca321fc92c5c6d6a172a792886155100a4509a529c49601",
     "feeds": [],
     "maxChallengeReward": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
     "opChallengePeriod": 600,
-    "opFeedId": 186,
+    "opFeedId": 156,
     "tolled": [
       "0x0000000000000000000000000000000000000000",
       "0x420a9855fA5FE985b9A6458780214a2700e0D9c6",
