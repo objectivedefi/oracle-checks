@@ -1,14 +1,6 @@
 [
   {
     "chainId": 56,
-    "pt": "0x04eb6B56ff53f457c8E857ca8D4fbC8d9a531c0C",
-    "market": "0xEDa1D0e1681D59dea451702963d6287b844Cb94C",
-    "underlyingAsset": "0x52F24a5e03aee338Da5fd9Df68D2b6FAe1178827",
-    "expiry": 1750896000,
-    "symbol": "ankrBNB"
-  },
-  {
-    "chainId": 56,
     "pt": "0x154b13a628E947034CA69378Ee0acdE9d973d868",
     "market": "0xE616D50e441aa2f6d6CD43eba1b1632AB1B046e6",
     "underlyingAsset": "0x1346b618dC92810EC74163e4c27004c921D446a5",
@@ -49,14 +41,6 @@
   },
   {
     "chainId": 56,
-    "pt": "0x5d1735B8E33BAe069708cEA245066dE1A12Cd38D",
-    "market": "0x0921CcC98956B1599003Fd9739d5e66BF319A161",
-    "underlyingAsset": "0xA07c5b74C9B40447a954e1466938b865b6BBea36",
-    "expiry": 1750896000,
-    "symbol": "vBNB"
-  },
-  {
-    "chainId": 56,
     "pt": "0x5f63b282089905C55A283110d4868A56e265Aec5",
     "market": "0xD75D9Fbc6486CA5A18037F9eA2fD48044fa9e414",
     "underlyingAsset": "0x77734e70b6E88b4d82fE632a168EDf6e700912b6",
@@ -86,14 +70,6 @@
     "underlyingAsset": "0x03d9C4E4BC5D3678A9076caC50dB0251D8676872",
     "expiry": 1757548800,
     "symbol": "satUSD+"
-  },
-  {
-    "chainId": 56,
-    "pt": "0xDD809435ba6c9d6903730f923038801781cA66ce",
-    "market": "0x8557D39d4BAB2b045ac5c2B7ea66d12139da9Af4",
-    "underlyingAsset": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
-    "expiry": 1750896000,
-    "symbol": "sUSDe"
   },
   {
     "chainId": 56,

@@ -25,14 +25,6 @@
   },
   {
     "chainId": 80094,
-    "pt": "0x48b358b7bC013F24E2D59b3A0d4455f6e71Fe2d6",
-    "market": "0x31Ed9F16C7BbC26AE3404B14aBc68aDc7611B1A6",
-    "underlyingAsset": "0x9b6761bf2397Bb5a6624a856cC84A3A14Dcd3fe5",
-    "expiry": 1750896000,
-    "symbol": "iBERA"
-  },
-  {
-    "chainId": 80094,
     "pt": "0x83836B2c1D155Be83D374cB74D74a4d9F2281B38",
     "market": "0xd8F42A92a0e2995Eee9aED66d630dE00a9B49e22",
     "underlyingAsset": "0xecAc9C5F704e954931349Da37F60E39f515c11c1",
@@ -54,14 +46,6 @@
     "underlyingAsset": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
     "expiry": 1758758400,
     "symbol": "USDe"
-  },
-  {
-    "chainId": 80094,
-    "pt": "0xdda59E4D1AC10C73B87AAb69686a806732e5F137",
-    "market": "0x227d4a2E5734b500fA0bEd940E4df54bDda25636",
-    "underlyingAsset": "0xac03CABA51e17c86c921E1f6CBFBdC91F8BB2E6b",
-    "expiry": 1750896000,
-    "symbol": "iBGT"
   },
   {
     "chainId": 80094,

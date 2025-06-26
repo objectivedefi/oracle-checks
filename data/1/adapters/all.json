@@ -15986,7 +15986,7 @@
         "pass": true
       }
     ],
-    "label": "USD0++",
+    "label": "Unknown pool",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
@@ -17609,7 +17609,7 @@
         "pass": true
       }
     ],
-    "label": "eBTC",
+    "label": "Unknown pool",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
@@ -21187,7 +21187,7 @@
         "pass": true
       }
     ],
-    "label": "LBTC",
+    "label": "Unknown pool",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
@@ -21245,7 +21245,7 @@
         "pass": true
       }
     ],
-    "label": "eBTC",
+    "label": "Unknown pool",
     "methodology": "TWAP",
     "model": "Push",
     "provider": "Pendle",
