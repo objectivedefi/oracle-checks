@@ -6189,6 +6189,258 @@
     "formatDecimalPlaces": null,
     "healthPrice": "",
     "history": null,
+    "multiply": "10000000000",
+    "name": "truAPT-APT Exchange Rate - Production Mainnet",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "truapt-apt-exchange-rate-df-stream-eth-production-mainnet-001",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "Crypto",
+    "docs": {
+      "feedType": "Crypto"
+    },
+    "decimals": 10,
+    "feedId": "0x00030b04d917b020da9373073eebdf46a804972050dc1c28f6fb4e9975e84e67",
+    "sourceChain": 1,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "keystone-asset-chainlayer"
+      },
+      {
+        "operator": "keystone-asset-dexTrac"
+      },
+      {
+        "operator": "keystone-asset-fiews"
+      },
+      {
+        "operator": "keystone-asset-inotel"
+      },
+      {
+        "operator": "keystone-asset-chainlink"
+      },
+      {
+        "operator": "keystone-asset-linkRiver"
+      },
+      {
+        "operator": "keystone-asset-pierTwo"
+      },
+      {
+        "operator": "keystone-asset-simplyVC"
+      },
+      {
+        "operator": "keystone-asset-01node"
+      },
+      {
+        "operator": "keystone-asset-galaxy"
+      },
+      {
+        "operator": "keystone-asset-northWestNodes"
+      },
+      {
+        "operator": "keystone-asset-validationCloud"
+      },
+      {
+        "operator": "keystone-asset-syncnode"
+      },
+      {
+        "operator": "keystone-asset-matrixedLink"
+      },
+      {
+        "operator": "keystone-asset-easy2Stake"
+      },
+      {
+        "operator": "keystone-asset-linkForest"
+      },
+      {
+        "operator": "keystone-asset-linkPool"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0xA618f119504455762c9bBbcE4aC9EE7fde457d05",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000",
+    "name": "eAPT-APT Exchange Rate - Production Mainnet",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "eapt-apt-exchange-rate-df-stream-eth-production-mainnet-001",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "Crypto",
+    "docs": {
+      "feedType": "Crypto"
+    },
+    "decimals": 12,
+    "feedId": "0x00030b04d917b020da9373073eebdf46a804972050dc1c28f6fb4e9975e84e74",
+    "sourceChain": 1,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "keystone-asset-chainlayer"
+      },
+      {
+        "operator": "keystone-asset-dexTrac"
+      },
+      {
+        "operator": "keystone-asset-fiews"
+      },
+      {
+        "operator": "keystone-asset-inotel"
+      },
+      {
+        "operator": "keystone-asset-chainlink"
+      },
+      {
+        "operator": "keystone-asset-linkRiver"
+      },
+      {
+        "operator": "keystone-asset-pierTwo"
+      },
+      {
+        "operator": "keystone-asset-simplyVC"
+      },
+      {
+        "operator": "keystone-asset-01node"
+      },
+      {
+        "operator": "keystone-asset-galaxy"
+      },
+      {
+        "operator": "keystone-asset-northWestNodes"
+      },
+      {
+        "operator": "keystone-asset-validationCloud"
+      },
+      {
+        "operator": "keystone-asset-syncnode"
+      },
+      {
+        "operator": "keystone-asset-matrixedLink"
+      },
+      {
+        "operator": "keystone-asset-easy2Stake"
+      },
+      {
+        "operator": "keystone-asset-linkForest"
+      },
+      {
+        "operator": "keystone-asset-linkPool"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0xA618f119504455762c9bBbcE4aC9EE7fde457d05",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "100000000",
+    "name": "aBTC PoR Production Mainnet",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "abtc-por-df-stream-eth-production-mainnet-001",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "Crypto",
+    "docs": {
+      "feedType": "Crypto"
+    },
+    "decimals": 8,
+    "feedId": "0x00030b04d917b020da9373073eebdf46a804972050dc1c28f6fb4e9975e84e96",
+    "sourceChain": 1,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "keystone-asset-chainlayer"
+      },
+      {
+        "operator": "keystone-asset-dexTrac"
+      },
+      {
+        "operator": "keystone-asset-fiews"
+      },
+      {
+        "operator": "keystone-asset-inotel"
+      },
+      {
+        "operator": "keystone-asset-chainlink"
+      },
+      {
+        "operator": "keystone-asset-linkRiver"
+      },
+      {
+        "operator": "keystone-asset-pierTwo"
+      },
+      {
+        "operator": "keystone-asset-simplyVC"
+      },
+      {
+        "operator": "keystone-asset-01node"
+      },
+      {
+        "operator": "keystone-asset-galaxy"
+      },
+      {
+        "operator": "keystone-asset-northWestNodes"
+      },
+      {
+        "operator": "keystone-asset-validationCloud"
+      },
+      {
+        "operator": "keystone-asset-syncnode"
+      },
+      {
+        "operator": "keystone-asset-matrixedLink"
+      },
+      {
+        "operator": "keystone-asset-easy2Stake"
+      },
+      {
+        "operator": "keystone-asset-linkForest"
+      },
+      {
+        "operator": "keystone-asset-linkPool"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0xA618f119504455762c9bBbcE4aC9EE7fde457d05",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
     "multiply": "1000000000000000000",
     "name": "METIS/USD-RefPrice-DF-stream-EthereumMainnet-001",
     "pair": [
@@ -6743,6 +6995,174 @@
       },
       {
         "operator": "keystone-asset-linkForest"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0xA618f119504455762c9bBbcE4aC9EE7fde457d05",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "USD1/USD-RefPrice-DF-stream-EthereumMainnet-001",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "USD1-usd-ref-price-df-stream-eth-production-mainnet-001",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "Crypto",
+    "docs": {
+      "feedType": "Crypto"
+    },
+    "decimals": 18,
+    "feedId": "0x00036ee47faf9e1fa0f51c6569639435f033907be7953671a87c625a6ad44e89",
+    "sourceChain": 1,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "keystone-asset-chainlayer"
+      },
+      {
+        "operator": "keystone-asset-dexTrac"
+      },
+      {
+        "operator": "keystone-asset-fiews"
+      },
+      {
+        "operator": "keystone-asset-inotel"
+      },
+      {
+        "operator": "keystone-asset-chainlink"
+      },
+      {
+        "operator": "keystone-asset-linkRiver"
+      },
+      {
+        "operator": "keystone-asset-pierTwo"
+      },
+      {
+        "operator": "keystone-asset-simplyVC"
+      },
+      {
+        "operator": "keystone-asset-01node"
+      },
+      {
+        "operator": "keystone-asset-galaxy"
+      },
+      {
+        "operator": "keystone-asset-northWestNodes"
+      },
+      {
+        "operator": "keystone-asset-validationCloud"
+      },
+      {
+        "operator": "keystone-asset-syncnode"
+      },
+      {
+        "operator": "keystone-asset-matrixedLink"
+      },
+      {
+        "operator": "keystone-asset-easy2Stake"
+      },
+      {
+        "operator": "keystone-asset-linkForest"
+      },
+      {
+        "operator": "keystone-asset-linkPool"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0xA618f119504455762c9bBbcE4aC9EE7fde457d05",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "USDE/USD-RefPrice-DF-stream-EthereumMainnet-001",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "usde-usd-ref-price-df-stream-eth-production-mainnet-001",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "Crypto",
+    "docs": {
+      "feedType": "Crypto"
+    },
+    "decimals": 18,
+    "feedId": "0x00036ee47faf9e1fa0f51c6569639435f033907be7953671a87c625a6ad55edc",
+    "sourceChain": 1,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "keystone-asset-chainlayer"
+      },
+      {
+        "operator": "keystone-asset-dexTrac"
+      },
+      {
+        "operator": "keystone-asset-fiews"
+      },
+      {
+        "operator": "keystone-asset-inotel"
+      },
+      {
+        "operator": "keystone-asset-chainlink"
+      },
+      {
+        "operator": "keystone-asset-linkRiver"
+      },
+      {
+        "operator": "keystone-asset-pierTwo"
+      },
+      {
+        "operator": "keystone-asset-simplyVC"
+      },
+      {
+        "operator": "keystone-asset-01node"
+      },
+      {
+        "operator": "keystone-asset-galaxy"
+      },
+      {
+        "operator": "keystone-asset-northWestNodes"
+      },
+      {
+        "operator": "keystone-asset-validationCloud"
+      },
+      {
+        "operator": "keystone-asset-syncnode"
+      },
+      {
+        "operator": "keystone-asset-matrixedLink"
+      },
+      {
+        "operator": "keystone-asset-easy2Stake"
+      },
+      {
+        "operator": "keystone-asset-linkForest"
+      },
+      {
+        "operator": "keystone-asset-linkPool"
       }
     ]
   },
