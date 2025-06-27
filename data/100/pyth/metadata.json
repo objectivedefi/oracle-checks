@@ -10816,12 +10816,12 @@
       "asset_type": "Crypto Redemption Rate",
       "base": "WHLP",
       "contract_id": "hype: 0x470bd109A24f608590d85fc1f5a4B6e625E8bDfF",
-      "description": "WRAPPED HYPERLIQUIDITY PROVIDER / HYPERLIQUIDITY PROVIDER REDEMPTION RATE",
-      "display_symbol": "WHLP/HLP",
-      "generic_symbol": "WHLPHLP",
-      "quote_currency": "HLP",
+      "description": "WRAPPED HYPERLIQUIDITY PROVIDER / USD COIN REDEMPTION RATE",
+      "display_symbol": "WHLP/USDC",
+      "generic_symbol": "WHLPUSDC",
+      "quote_currency": "USDC",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.WHLP/HLP.RR"
+      "symbol": "Crypto.WHLP/USDC.RR"
     }
   },
   {
@@ -13376,7 +13376,7 @@
       "asset_type": "Crypto Redemption Rate",
       "base": "KHYPE",
       "contract_id": "hype: 0x25Ce769757c418c58e623742A43b6f65aEBfeF22",
-      "description": "KINETIC STAKED HYPE / HYPE REDEMPTION RATE",
+      "description": "KINETIQ STAKED HYPE / HYPE REDEMPTION RATE",
       "display_symbol": "KHYPE/HYPE",
       "generic_symbol": "KHYPEHYPE",
       "quote_currency": "HYPE",
@@ -18274,7 +18274,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "KHYPE",
-      "description": "KINETIC STAKED HYPE / US DOLLAR",
+      "description": "KINETIQ STAKED HYPE / US DOLLAR",
       "display_symbol": "KHYPE/USD",
       "generic_symbol": "KHYPEUSD",
       "quote_currency": "USD",
@@ -20514,12 +20514,12 @@
       "asset_type": "Crypto Redemption Rate",
       "base": "HWHLP",
       "contract_id": "hype: 0x40461C09C9951EB75547e9280a955d79058399A4",
-      "description": "HYPERWAVE HYPERLIQUIDITY PROVIDER / HYPERLIQUIDITY PROVIDER REDEMPTION RATE",
-      "display_symbol": "HWHLP/HLP",
-      "generic_symbol": "HWHLPHLP",
-      "quote_currency": "HLP",
+      "description": "HYPERWAVE HYPERLIQUIDITY PROVIDER / USD COIN REDEMPTION RATE",
+      "display_symbol": "HWHLP/USDC",
+      "generic_symbol": "HWHLPUSDC",
+      "quote_currency": "USDC",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.HWHLP/HLP.RR"
+      "symbol": "Crypto.HWHLP/USDC.RR"
     }
   },
   {
@@ -21140,14 +21140,14 @@
   {
     "id": "0x710afe0041a07156bfd71971160c78a326bf8121403e0d4e140d06bea0353b7f",
     "attributes": {
-      "asset_type": "Crypto",
-      "base": "USDX",
-      "description": "US DOLLAR INDEX / US DOLLAR",
-      "display_symbol": "USDX/USD",
-      "generic_symbol": "USDXUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.Index.USDX/USD"
+      "asset_type": "FX",
+      "base": "USDXY",
+      "description": "US DOLLAR INDEX",
+      "display_symbol": "USDXY",
+      "generic_symbol": "USDXY",
+      "quote_currency": "N/A",
+      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
+      "symbol": "FX.USDXY"
     }
   },
   {
