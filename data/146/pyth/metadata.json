@@ -13441,50 +13441,31 @@
     }
   },
   {
-    "id": "0x68848984b74a7766ad23cdccd8e78e9ef339dcfb86b7e96990f27447c20967ed",
+    "id": "0x65d24596a828114c481bf8632dc1a182b545337dc696538857a54933c2576e8a",
     "attributes": {
       "asset_type": "Equity",
-      "base": "ACN",
-      "cms_symbol": "ACN",
+      "base": "IXUS",
       "country": "US",
-      "cqs_symbol": "ACN",
-      "description": "ACCENTURE PLC / US DOLLAR",
-      "display_symbol": "ACN/USD",
-      "nasdaq_symbol": "ACN",
+      "description": "ISHARES CORE MSCI TOTAL INTL STOCK ETF / US DOLLAR",
+      "display_symbol": "IXUS/USD",
       "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
-      "symbol": "Equity.US.ACN/USD"
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.IXUS/USD"
     }
   },
   {
-    "id": "0x244fdf268ed7ecfad2cf84529c46d0fcef7a643428ff4ef8b16e8dbb63e0f2d9",
+    "id": "0x23737149f4345926c2ffc29209fff08ef6bcb193e5933e0e9bc869744ed4494d",
     "attributes": {
       "asset_type": "Equity",
-      "base": "TMO",
-      "cms_symbol": "TMO",
-      "country": "US",
-      "cqs_symbol": "TMO",
-      "description": "THERMO FISHER SCIENTIFIC INC / US DOLLAR",
-      "display_symbol": "TMO/USD",
-      "nasdaq_symbol": "TMO",
+      "base": "HODL",
+      "country": "CA",
+      "description": "SOL STRATEGIES INC / CANADIAN DOLLAR",
+      "display_symbol": "HODL/CAD",
       "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
-      "symbol": "Equity.US.TMO/USD"
-    }
-  },
-  {
-    "id": "0xacecdd9ac741a1f6dad0fd6ade5354e9523bd0c864b955307cea3643fdfe8ff5",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "LOOKS",
-      "description": "LOOKSRARE / US DOLLAR",
-      "display_symbol": "LOOKS/USD",
-      "generic_symbol": "LOOKSUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.LOOKS/USD"
+      "quote_currency": "CAD",
+      "schedule": "America/Toronto;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0701/C,0804/C,0901/C,1013/C",
+      "symbol": "Equity.CA.HODL/CAD"
     }
   },
   {
@@ -13518,23 +13499,6 @@
     }
   },
   {
-    "id": "0xb2f5fb947fb6846c9d9860159179f206193a47bab3cd7ade2d3754c25051c0e1",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "BITB",
-      "cms_symbol": "BITB",
-      "country": "US",
-      "cqs_symbol": "BITB",
-      "description": "BITWISE BITCOIN ETF TRUST / US DOLLAR",
-      "display_symbol": "BITB/USD",
-      "nasdaq_symbol": "BITB",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
-      "symbol": "Equity.US.BITB/USD"
-    }
-  },
-  {
     "id": "0x1a0ab11f6df1b2ff257776a746782243a1dc9bb0597cfc8c4a07ac772b03dc5e",
     "attributes": {
       "asset_type": "Equity",
@@ -13546,47 +13510,6 @@
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.SVT/GBP"
-    }
-  },
-  {
-    "id": "0xdd83d991ed72e3d688509ca349f29d2bd3d883af74a17b9515c310ff70e9d1e4",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "AERGO",
-      "description": "AERGO / US DOLLAR",
-      "display_symbol": "AERGO/USD",
-      "generic_symbol": "AERGOUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.AERGO/USD"
-    }
-  },
-  {
-    "id": "0x65d24596a828114c481bf8632dc1a182b545337dc696538857a54933c2576e8a",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "IXUS",
-      "country": "US",
-      "description": "ISHARES CORE MSCI TOTAL INTL STOCK ETF / US DOLLAR",
-      "display_symbol": "IXUS/USD",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
-      "symbol": "Equity.US.IXUS/USD"
-    }
-  },
-  {
-    "id": "0x23737149f4345926c2ffc29209fff08ef6bcb193e5933e0e9bc869744ed4494d",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "HODL",
-      "country": "CA",
-      "description": "SOL STRATEGIES INC / CANADIAN DOLLAR",
-      "display_symbol": "HODL/CAD",
-      "publish_interval": "5",
-      "quote_currency": "CAD",
-      "schedule": "America/Toronto;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0701/C,0804/C,0901/C,1013/C",
-      "symbol": "Equity.CA.HODL/CAD"
     }
   },
   {
@@ -13604,23 +13527,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.MSTR/USD"
-    }
-  },
-  {
-    "id": "0x43ef64ff6af44e0648f0328ee56e88fee57943b0aa077c24ef175bb9ecd37133",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "INTU",
-      "cms_symbol": "INTU",
-      "country": "US",
-      "cqs_symbol": "INTU",
-      "description": "INTUIT INC / US DOLLAR",
-      "display_symbol": "INTU/USD",
-      "nasdaq_symbol": "INTU",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
-      "symbol": "Equity.US.INTU/USD"
     }
   },
   {
@@ -13655,6 +13561,96 @@
     }
   },
   {
+    "id": "0x68848984b74a7766ad23cdccd8e78e9ef339dcfb86b7e96990f27447c20967ed",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "ACN",
+      "cms_symbol": "ACN",
+      "country": "US",
+      "cqs_symbol": "ACN",
+      "description": "ACCENTURE PLC / US DOLLAR",
+      "display_symbol": "ACN/USD",
+      "nasdaq_symbol": "ACN",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.ACN/USD"
+    }
+  },
+  {
+    "id": "0xacecdd9ac741a1f6dad0fd6ade5354e9523bd0c864b955307cea3643fdfe8ff5",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "LOOKS",
+      "description": "LOOKSRARE / US DOLLAR",
+      "display_symbol": "LOOKS/USD",
+      "generic_symbol": "LOOKSUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.LOOKS/USD"
+    }
+  },
+  {
+    "id": "0x06c217a791f5c4f988b36629af4cb88fad827b2485400a358f3b02886b54de92",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "EZETH",
+      "description": "RENZO RESTAKED ETH / US DOLLAR",
+      "display_symbol": "EZETH/USD",
+      "generic_symbol": "EZETHUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.EZETH/USD"
+    }
+  },
+  {
+    "id": "0xb2f5fb947fb6846c9d9860159179f206193a47bab3cd7ade2d3754c25051c0e1",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BITB",
+      "cms_symbol": "BITB",
+      "country": "US",
+      "cqs_symbol": "BITB",
+      "description": "BITWISE BITCOIN ETF TRUST / US DOLLAR",
+      "display_symbol": "BITB/USD",
+      "nasdaq_symbol": "BITB",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.BITB/USD"
+    }
+  },
+  {
+    "id": "0xdd83d991ed72e3d688509ca349f29d2bd3d883af74a17b9515c310ff70e9d1e4",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "AERGO",
+      "description": "AERGO / US DOLLAR",
+      "display_symbol": "AERGO/USD",
+      "generic_symbol": "AERGOUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.AERGO/USD"
+    }
+  },
+  {
+    "id": "0x43ef64ff6af44e0648f0328ee56e88fee57943b0aa077c24ef175bb9ecd37133",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "INTU",
+      "cms_symbol": "INTU",
+      "country": "US",
+      "cqs_symbol": "INTU",
+      "description": "INTUIT INC / US DOLLAR",
+      "display_symbol": "INTU/USD",
+      "nasdaq_symbol": "INTU",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.INTU/USD"
+    }
+  },
+  {
     "id": "0x45b4d37b660364a2bf23a9bdc0ed53b12b84fb85a334b711ba77d6a6533a3bff",
     "attributes": {
       "asset_type": "Equity",
@@ -13672,16 +13668,20 @@
     }
   },
   {
-    "id": "0x06c217a791f5c4f988b36629af4cb88fad827b2485400a358f3b02886b54de92",
+    "id": "0x244fdf268ed7ecfad2cf84529c46d0fcef7a643428ff4ef8b16e8dbb63e0f2d9",
     "attributes": {
-      "asset_type": "Crypto",
-      "base": "EZETH",
-      "description": "RENZO RESTAKED ETH / US DOLLAR",
-      "display_symbol": "EZETH/USD",
-      "generic_symbol": "EZETHUSD",
+      "asset_type": "Equity",
+      "base": "TMO",
+      "cms_symbol": "TMO",
+      "country": "US",
+      "cqs_symbol": "TMO",
+      "description": "THERMO FISHER SCIENTIFIC INC / US DOLLAR",
+      "display_symbol": "TMO/USD",
+      "nasdaq_symbol": "TMO",
+      "publish_interval": "5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.EZETH/USD"
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.TMO/USD"
     }
   },
   {
@@ -17060,6 +17060,23 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.TT/USD"
+    }
+  },
+  {
+    "id": "0xaa37696eaf72638f7ac627f3cf5adc577763a26f3cbb8d7f821588436eed71d6",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BABA",
+      "cms_symbol": "BABA",
+      "country": "US",
+      "cqs_symbol": "BABA",
+      "description": "ALIBABA GROUP LIMITED / US DOLLAR - EXTENDED HOURS",
+      "display_symbol": "BABA/USD",
+      "nasdaq_symbol": "BABA",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,0000-2000,C,2000-2400;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.BABA/USD.EXT"
     }
   },
   {
@@ -21362,6 +21379,23 @@
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0701/C",
       "symbol": "Equity.HK.0316-HK/HKD"
+    }
+  },
+  {
+    "id": "0xdd54aa94e354713f0e2292625b57fd7589e9aedcbcc7da9975bb983fc5eda236",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "AAL",
+      "cms_symbol": "AAL",
+      "country": "US",
+      "cqs_symbol": "AAL",
+      "description": "AMERICAN AIRLINES GROUP INC / US DOLLAR - EXTENDED HOURS",
+      "display_symbol": "AAL/USD",
+      "nasdaq_symbol": "AAL",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,0000-2000,C,2000-2400;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.AAL/USD.EXT"
     }
   },
   {
