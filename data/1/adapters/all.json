@@ -51,7 +51,7 @@
         "pass": true
       }
     ],
-    "label": "ETH / USD (0.5%, 3600s)",
+    "label": "ETH / USD (0.4%, 3600s)",
     "methodology": "Market Price",
     "model": "Push",
     "provider": "Chainlink",
