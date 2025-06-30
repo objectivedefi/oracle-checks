@@ -70,13 +70,6 @@
     "decimals": 18
   },
   {
-    "address": "0x5475611Dffb8ef4d697Ae39df9395513b6E947d7",
-    "chainId": 80094,
-    "name": "Savings rUSD",
-    "symbol": "srUSD",
-    "decimals": 18
-  },
-  {
     "address": "0x6fc6545d5cDE268D5C7f1e476D444F39c995120d",
     "chainId": 80094,
     "name": "Berachain Staked ETH",
@@ -105,13 +98,6 @@
     "decimals": 18
   },
   {
-    "address": "0xac03CABA51e17c86c921E1f6CBFBdC91F8BB2E6b",
-    "chainId": 80094,
-    "name": "Infrared BGT",
-    "symbol": "iBGT",
-    "decimals": 18
-  },
-  {
     "address": "0x9b6761bf2397Bb5a6624a856cC84A3A14Dcd3fe5",
     "chainId": 80094,
     "name": "Infrared BERA",
@@ -119,10 +105,31 @@
     "decimals": 18
   },
   {
+    "address": "0x5475611Dffb8ef4d697Ae39df9395513b6E947d7",
+    "chainId": 80094,
+    "name": "Savings rUSD",
+    "symbol": "srUSD",
+    "decimals": 18
+  },
+  {
+    "address": "0xac03CABA51e17c86c921E1f6CBFBdC91F8BB2E6b",
+    "chainId": 80094,
+    "name": "Infrared BGT",
+    "symbol": "iBGT",
+    "decimals": 18
+  },
+  {
     "address": "0x2719e657ec3B3CbE521a18E640CA55799836376f",
     "chainId": 80094,
     "name": "PT Ethena sUSDE 25SEP2025",
     "symbol": "PT-sUSDE-25SEP2025",
+    "decimals": 18
+  },
+  {
+    "address": "0x48b358b7bC013F24E2D59b3A0d4455f6e71Fe2d6",
+    "chainId": 80094,
+    "name": "PT Infrared BERA 26JUN2025",
+    "symbol": "PT-iBERA-26JUN2025",
     "decimals": 18
   },
   {
@@ -158,13 +165,6 @@
     "chainId": 80094,
     "name": "Beraborrow Staked Nectar",
     "symbol": "BB.SNECT",
-    "decimals": 18
-  },
-  {
-    "address": "0x48b358b7bC013F24E2D59b3A0d4455f6e71Fe2d6",
-    "chainId": 80094,
-    "name": "PT Infrared BERA 26JUN2025",
-    "symbol": "PT-iBERA-26JUN2025",
     "decimals": 18
   }
 ]

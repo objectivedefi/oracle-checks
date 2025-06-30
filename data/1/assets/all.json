@@ -28,10 +28,10 @@
     "decimals": 6
   },
   {
-    "address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+    "address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
     "chainId": 1,
-    "name": "Maker",
-    "symbol": "MKR",
+    "name": "Liquid staked Ether 2.0",
+    "symbol": "stETH",
     "decimals": 18
   },
   {
@@ -39,6 +39,13 @@
     "chainId": 1,
     "name": "Wrapped liquid staked Ether 2.0",
     "symbol": "wstETH",
+    "decimals": 18
+  },
+  {
+    "address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+    "chainId": 1,
+    "name": "Maker",
+    "symbol": "MKR",
     "decimals": 18
   },
   {
@@ -56,10 +63,31 @@
     "decimals": 18
   },
   {
+    "address": "0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8",
+    "chainId": 1,
+    "name": "EURA (previously agEUR)",
+    "symbol": "EURA",
+    "decimals": 18
+  },
+  {
+    "address": "0x00000000000000000000000000000000000003d2",
+    "chainId": 1,
+    "name": "Euro",
+    "symbol": "EUR",
+    "decimals": 18
+  },
+  {
     "address": "0xba100000625a3754423978a60c9317c58a424e3D",
     "chainId": 1,
     "name": "Balancer",
     "symbol": "BAL",
+    "decimals": 18
+  },
+  {
+    "address": "0xbBbBBBBbbBBBbbbBbbBbbbbBBbBbbbbBbBbbBBbB",
+    "chainId": 1,
+    "name": "Bitcoin",
+    "symbol": "BTC",
     "decimals": 18
   },
   {
@@ -252,6 +280,13 @@
     "decimals": 18
   },
   {
+    "address": "0x18084fbA666a33d37592fA2633fD49a74DD93a88",
+    "chainId": 1,
+    "name": "tBTC v2",
+    "symbol": "tBTC",
+    "decimals": 18
+  },
+  {
     "address": "0x0000000000085d4780B73119b644AE5ecd22b376",
     "chainId": 1,
     "name": "TrueUSD",
@@ -280,6 +315,13 @@
     "decimals": 18
   },
   {
+    "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+    "chainId": 1,
+    "name": "Wrapped BTC",
+    "symbol": "WBTC",
+    "decimals": 8
+  },
+  {
     "address": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
     "chainId": 1,
     "name": "Wrapped eETH",
@@ -291,13 +333,6 @@
     "chainId": 1,
     "name": "yearn.finance",
     "symbol": "YFI",
-    "decimals": 18
-  },
-  {
-    "address": "0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8",
-    "chainId": 1,
-    "name": "EURA (previously agEUR)",
-    "symbol": "EURA",
     "decimals": 18
   },
   {
@@ -427,25 +462,11 @@
     "decimals": 18
   },
   {
-    "address": "0x18084fbA666a33d37592fA2633fD49a74DD93a88",
-    "chainId": 1,
-    "name": "tBTC v2",
-    "symbol": "tBTC",
-    "decimals": 18
-  },
-  {
     "address": "0x96F6eF951840721AdBF46Ac996b59E0235CB985C",
     "chainId": 1,
     "name": "Ondo U.S. Dollar Yield",
     "symbol": "USDY",
     "decimals": 18
-  },
-  {
-    "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
-    "chainId": 1,
-    "name": "Wrapped BTC",
-    "symbol": "WBTC",
-    "decimals": 8
   },
   {
     "address": "0x163f8C2467924be0ae7B5347228CABF260318753",
@@ -494,27 +515,6 @@
     "chainId": 1,
     "name": "ETHPlus",
     "symbol": "ETH+",
-    "decimals": 18
-  },
-  {
-    "address": "0x00000000000000000000000000000000000003d2",
-    "chainId": 1,
-    "name": "Euro",
-    "symbol": "EUR",
-    "decimals": 18
-  },
-  {
-    "address": "0xbBbBBBBbbBBBbbbBbbBbbbbBBbBbbbbBbBbbBBbB",
-    "chainId": 1,
-    "name": "Bitcoin",
-    "symbol": "BTC",
-    "decimals": 18
-  },
-  {
-    "address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
-    "chainId": 1,
-    "name": "Liquid staked Ether 2.0",
-    "symbol": "stETH",
     "decimals": 18
   },
   {
@@ -644,6 +644,13 @@
     "decimals": 18
   },
   {
+    "address": "0xB997B3418935A1Df0F914Ee901ec83927c1509A0",
+    "chainId": 1,
+    "name": "PT ether.fi eBTC 26DEC2024",
+    "symbol": "PT-EBTC-26DEC2024",
+    "decimals": 8
+  },
+  {
     "address": "0x657e8C867D8B37dCC18fA4Caead9C45EB088C642",
     "chainId": 1,
     "name": "ether.fi BTC",
@@ -651,18 +658,11 @@
     "decimals": 8
   },
   {
-    "address": "0x7A56E1C57C7475CCf742a1832B028F0456652F97",
+    "address": "0x36d3ca43ae7939645C306E26603ce16e39A89192",
     "chainId": 1,
-    "name": "Solv BTC",
-    "symbol": "SolvBTC",
+    "name": "Pendle Market",
+    "symbol": "PENDLE-LPT",
     "decimals": 18
-  },
-  {
-    "address": "0xB997B3418935A1Df0F914Ee901ec83927c1509A0",
-    "chainId": 1,
-    "name": "PT ether.fi eBTC 26DEC2024",
-    "symbol": "PT-EBTC-26DEC2024",
-    "decimals": 8
   },
   {
     "address": "0x332A8ee60EdFf0a11CF3994b1b846BBC27d3DcD6",
@@ -672,11 +672,18 @@
     "decimals": 8
   },
   {
-    "address": "0x2C537E5624e4af88A7ae4060C022609376C8D0EB",
+    "address": "0xCaE62858DB831272A03768f5844cbe1B40bB381f",
     "chainId": 1,
-    "name": "BiLira",
-    "symbol": "TRYB",
-    "decimals": 6
+    "name": "Pendle Market",
+    "symbol": "PENDLE-LPT",
+    "decimals": 18
+  },
+  {
+    "address": "0x7A56E1C57C7475CCf742a1832B028F0456652F97",
+    "chainId": 1,
+    "name": "Solv BTC",
+    "symbol": "SolvBTC",
+    "decimals": 18
   },
   {
     "address": "0x00000000000000000000000000000000000003B5",
@@ -684,6 +691,13 @@
     "name": "Turkish Lira",
     "symbol": "TRY",
     "decimals": 18
+  },
+  {
+    "address": "0x2C537E5624e4af88A7ae4060C022609376C8D0EB",
+    "chainId": 1,
+    "name": "BiLira",
+    "symbol": "TRYB",
+    "decimals": 6
   },
   {
     "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
@@ -707,10 +721,31 @@
     "decimals": 18
   },
   {
+    "address": "0xDD629E5241CbC5919847783e6C96B2De4754e438",
+    "chainId": 1,
+    "name": "Midas US Treasury Bill Token",
+    "symbol": "mTBILL",
+    "decimals": 18
+  },
+  {
     "address": "0xE00bd3Df25fb187d6ABBB620b3dfd19839947b81",
     "chainId": 1,
     "name": "PT Ethena sUSDE 27MAR2025",
     "symbol": "PT-sUSDE-27MAR2025",
+    "decimals": 18
+  },
+  {
+    "address": "0xcDd26Eb5EB2Ce0f203a84553853667aE69Ca29Ce",
+    "chainId": 1,
+    "name": "Pendle Market",
+    "symbol": "PENDLE-LPT",
+    "decimals": 18
+  },
+  {
+    "address": "0xB1F1ee126e9c96231Cc3d3fAD7C08b4cf873b1f1",
+    "chainId": 1,
+    "name": "Beefy",
+    "symbol": "BIFI",
     "decimals": 18
   },
   {
@@ -742,13 +777,6 @@
     "decimals": 18
   },
   {
-    "address": "0xDD629E5241CbC5919847783e6C96B2De4754e438",
-    "chainId": 1,
-    "name": "Midas US Treasury Bill Token",
-    "symbol": "mTBILL",
-    "decimals": 18
-  },
-  {
     "address": "0xEc5a52C685CC3Ad79a6a347aBACe330d69e0b1eD",
     "chainId": 1,
     "name": "PT Lombard LBTC 27MAR2025",
@@ -761,6 +789,13 @@
     "name": "Pendle Market",
     "symbol": "PENDLE-LPT",
     "decimals": 18
+  },
+  {
+    "address": "0xF469fBD2abcd6B9de8E169d128226C0Fc90a012e",
+    "chainId": 1,
+    "name": "pumpBTC",
+    "symbol": "pumpBTC",
+    "decimals": 8
   },
   {
     "address": "0x44A7876cA99460ef3218bf08b5f52E2dbE199566",
@@ -817,13 +852,6 @@
     "name": "Pendle Market",
     "symbol": "PENDLE-LPT",
     "decimals": 18
-  },
-  {
-    "address": "0xF469fBD2abcd6B9de8E169d128226C0Fc90a012e",
-    "chainId": 1,
-    "name": "pumpBTC",
-    "symbol": "pumpBTC",
-    "decimals": 8
   },
   {
     "address": "0xbdC7c08592Ee4aa51D06C27Ee23D5087D65aDbcD",
@@ -900,6 +928,13 @@
     "chainId": 1,
     "name": "IdleCDO AA Tranche - idle_Fasanara",
     "symbol": "AA_idle_Fasanara",
+    "decimals": 18
+  },
+  {
+    "address": "0x2a8c22E3b10036f3AEF5875d04f8441d4188b656",
+    "chainId": 1,
+    "name": "Midas Basis Trading Token",
+    "symbol": "mBASIS",
     "decimals": 18
   },
   {
@@ -994,10 +1029,31 @@
     "decimals": 18
   },
   {
+    "address": "0x4956b52aE2fF65D74CA2d61207523288e4528f96",
+    "chainId": 1,
+    "name": "Resolv Liquidity Provider Token",
+    "symbol": "RLP",
+    "decimals": 18
+  },
+  {
     "address": "0x97Ad75064b20fb2B2447feD4fa953bF7F007a706",
     "chainId": 1,
     "name": "Berachain STONE",
     "symbol": "beraSTONE",
+    "decimals": 18
+  },
+  {
+    "address": "0x8238884Ec9668Ef77B90C6dfF4D1a9F4F4823BFe",
+    "chainId": 1,
+    "name": "OpenEden Open Dollar",
+    "symbol": "USDO",
+    "decimals": 18
+  },
+  {
+    "address": "0x90455bd11Ce8a67C57d467e634Dc142b8e4105Aa",
+    "chainId": 1,
+    "name": "cUSDO/USDC",
+    "symbol": "cUSDOUSDC",
     "decimals": 18
   },
   {
@@ -1043,10 +1099,24 @@
     "decimals": 18
   },
   {
+    "address": "0x35a18CD59a214c9e797e14b1191b700EEa251f6A",
+    "chainId": 1,
+    "name": "Pendle Market",
+    "symbol": "PENDLE-LPT",
+    "decimals": 18
+  },
+  {
     "address": "0x23E60d1488525bf4685f53b3aa8E676c30321066",
     "chainId": 1,
     "name": "PT Wrapped stUSR 25SEP2025",
     "symbol": "PT-wstUSR-25SEP2025",
+    "decimals": 18
+  },
+  {
+    "address": "0x09fA04Aac9c6d1c6131352EE950CD67ecC6d4fB9",
+    "chainId": 1,
+    "name": "Pendle Market",
+    "symbol": "PENDLE-LPT",
     "decimals": 18
   },
   {
@@ -1055,6 +1125,13 @@
     "name": "PT Lombard LBTC 26JUN2025",
     "symbol": "PT-LBTC-26JUN2025",
     "decimals": 8
+  },
+  {
+    "address": "0x931F7eA0c31c14914a452d341bc5Cb5d996BE71d",
+    "chainId": 1,
+    "name": "Pendle Market",
+    "symbol": "PENDLE-LPT",
+    "decimals": 18
   },
   {
     "address": "0x87C9053C819bB28e0D73d33059E1b3DA80AFb0cf",
@@ -1068,6 +1145,13 @@
     "chainId": 1,
     "name": "PT Ethereal eUSDE 29MAY2025",
     "symbol": "PT-eUSDE-29MAY2025",
+    "decimals": 18
+  },
+  {
+    "address": "0x85667e484a32d884010Cf16427D90049CCf46e97",
+    "chainId": 1,
+    "name": "Pendle Market",
+    "symbol": "PENDLE-LPT",
     "decimals": 18
   },
   {
@@ -1113,13 +1197,6 @@
     "decimals": 18
   },
   {
-    "address": "0x8238884Ec9668Ef77B90C6dfF4D1a9F4F4823BFe",
-    "chainId": 1,
-    "name": "OpenEden Open Dollar",
-    "symbol": "USDO",
-    "decimals": 18
-  },
-  {
     "address": "0xA77c0DE4d26B7C97D1D42ABD6733201206122E25",
     "chainId": 1,
     "name": "Pendle Market",
@@ -1135,55 +1212,6 @@
   },
   {
     "address": "0x4339Ffe2B7592Dc783ed13cCE310531aB366dEac",
-    "chainId": 1,
-    "name": "Pendle Market",
-    "symbol": "PENDLE-LPT",
-    "decimals": 18
-  },
-  {
-    "address": "0xB1F1ee126e9c96231Cc3d3fAD7C08b4cf873b1f1",
-    "chainId": 1,
-    "name": "Beefy",
-    "symbol": "BIFI",
-    "decimals": 18
-  },
-  {
-    "address": "0x2a8c22E3b10036f3AEF5875d04f8441d4188b656",
-    "chainId": 1,
-    "name": "Midas Basis Trading Token",
-    "symbol": "mBASIS",
-    "decimals": 18
-  },
-  {
-    "address": "0x4956b52aE2fF65D74CA2d61207523288e4528f96",
-    "chainId": 1,
-    "name": "Resolv Liquidity Provider Token",
-    "symbol": "RLP",
-    "decimals": 18
-  },
-  {
-    "address": "0x35a18CD59a214c9e797e14b1191b700EEa251f6A",
-    "chainId": 1,
-    "name": "Pendle Market",
-    "symbol": "PENDLE-LPT",
-    "decimals": 18
-  },
-  {
-    "address": "0x09fA04Aac9c6d1c6131352EE950CD67ecC6d4fB9",
-    "chainId": 1,
-    "name": "Pendle Market",
-    "symbol": "PENDLE-LPT",
-    "decimals": 18
-  },
-  {
-    "address": "0x931F7eA0c31c14914a452d341bc5Cb5d996BE71d",
-    "chainId": 1,
-    "name": "Pendle Market",
-    "symbol": "PENDLE-LPT",
-    "decimals": 18
-  },
-  {
-    "address": "0x85667e484a32d884010Cf16427D90049CCf46e97",
     "chainId": 1,
     "name": "Pendle Market",
     "symbol": "PENDLE-LPT",
@@ -1306,34 +1334,6 @@
     "chainId": 1,
     "name": "Pendle Market",
     "symbol": "PENDLE-LPT",
-    "decimals": 18
-  },
-  {
-    "address": "0x36d3ca43ae7939645C306E26603ce16e39A89192",
-    "chainId": 1,
-    "name": "Pendle Market",
-    "symbol": "PENDLE-LPT",
-    "decimals": 18
-  },
-  {
-    "address": "0xCaE62858DB831272A03768f5844cbe1B40bB381f",
-    "chainId": 1,
-    "name": "Pendle Market",
-    "symbol": "PENDLE-LPT",
-    "decimals": 18
-  },
-  {
-    "address": "0xcDd26Eb5EB2Ce0f203a84553853667aE69Ca29Ce",
-    "chainId": 1,
-    "name": "Pendle Market",
-    "symbol": "PENDLE-LPT",
-    "decimals": 18
-  },
-  {
-    "address": "0x90455bd11Ce8a67C57d467e634Dc142b8e4105Aa",
-    "chainId": 1,
-    "name": "cUSDO/USDC",
-    "symbol": "cUSDOUSDC",
     "decimals": 18
   },
   {
