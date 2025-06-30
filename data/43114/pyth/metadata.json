@@ -1,15 +1,56 @@
 [
   {
-    "id": "0x6a182399ff70ccf3e06024898942028204125a819e519a335ffa4579e66cd870",
+    "id": "0xc415de8d2eba7db216527dff4b60e8f3a5311c740dadb233e13e12547e226750",
     "attributes": {
       "asset_type": "Crypto",
-      "base": "STRK",
-      "description": "STARKNET / US DOLLAR",
-      "display_symbol": "STRK/USD",
-      "generic_symbol": "STRKUSD",
+      "base": "NEAR",
+      "description": "NEAR PROTOCOL / US DOLLAR",
+      "display_symbol": "NEAR/USD",
+      "generic_symbol": "NEARUSD",
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.STRK/USD"
+      "symbol": "Crypto.NEAR/USD"
+    }
+  },
+  {
+    "id": "0x2a24f9bf70d9a9ff2397c99a47d1c5df919d7c1533252c5dd7406e41a550c258",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "HO",
+      "country": "FR",
+      "description": "THALES / EURO",
+      "display_symbol": "HO/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.FR.HO/EUR"
+    }
+  },
+  {
+    "id": "0xcef5ad3be493afef85e77267cb0c07d048f3d54055409a34782996607e48cf0a",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "CMETH",
+      "contract_id": "eth: 0x6049bd892f14669a4466e46981eced75d610a2ec",
+      "description": "COOKED MANTLE ETHER / MANTLE ETHER REDEMPTION RATE",
+      "display_symbol": "CMETH/METH",
+      "generic_symbol": "CMETHMETH",
+      "quote_currency": "METH",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.CMETH/METH.RR"
+    }
+  },
+  {
+    "id": "0xaf83c3680722a0b0139414679efade7265f9f7e8e4aa91d233ca1d0a3aabaac6",
+    "attributes": {
+      "asset_type": "Rates",
+      "base": "OBFR",
+      "description": "OVERNIGHT BANK FUNDING RATE",
+      "display_symbol": "OBFR %",
+      "generic_symbol": "OBFR",
+      "quote_currency": "%",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;0101/C,0120/C,0217/C,0526/C,0619/C,0704/C,0901/C,1013/C,1111/C,1127/C,1225/C",
+      "symbol": "Rates.OBFR"
     }
   },
   {
@@ -30,17 +71,29 @@
     }
   },
   {
-    "id": "0x2d47ac295f7156b2b3a724d31034b230ed7e74414ea3e642e2c7f4425cc0a8f4",
+    "id": "0xc8593010ca5b82738a061887d22d42cd0b85861fa9d1677835070a43958090d0",
     "attributes": {
-      "asset_type": "Equity",
-      "base": "0101-HK",
-      "country": "HK",
-      "description": "HANG LUNG PPT / HONG KONG DOLLAR",
-      "display_symbol": "HK.0101/HKD",
-      "publish_interval": "5",
-      "quote_currency": "HKD",
-      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C,0501/C,0505/C,0701/C",
-      "symbol": "Equity.HK.0101-HK/HKD"
+      "asset_type": "Crypto",
+      "base": "EDU",
+      "description": "OPEN CAMPUS / US DOLLAR",
+      "display_symbol": "EDU/USD",
+      "generic_symbol": "EDUUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.EDU/USD"
+    }
+  },
+  {
+    "id": "0x6a182399ff70ccf3e06024898942028204125a819e519a335ffa4579e66cd870",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "STRK",
+      "description": "STARKNET / US DOLLAR",
+      "display_symbol": "STRK/USD",
+      "generic_symbol": "STRKUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.STRK/USD"
     }
   },
   {
@@ -123,33 +176,6 @@
     }
   },
   {
-    "id": "0xc415de8d2eba7db216527dff4b60e8f3a5311c740dadb233e13e12547e226750",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "NEAR",
-      "description": "NEAR PROTOCOL / US DOLLAR",
-      "display_symbol": "NEAR/USD",
-      "generic_symbol": "NEARUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.NEAR/USD"
-    }
-  },
-  {
-    "id": "0xcef5ad3be493afef85e77267cb0c07d048f3d54055409a34782996607e48cf0a",
-    "attributes": {
-      "asset_type": "Crypto Redemption Rate",
-      "base": "CMETH",
-      "contract_id": "eth: 0x6049bd892f14669a4466e46981eced75d610a2ec",
-      "description": "COOKED MANTLE ETHER / MANTLE ETHER REDEMPTION RATE",
-      "display_symbol": "CMETH/METH",
-      "generic_symbol": "CMETHMETH",
-      "quote_currency": "METH",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.CMETH/METH.RR"
-    }
-  },
-  {
     "id": "0xd6f83dfeaff95d596ddec26af2ee32f391c206a183b161b7980821860eeef2f5",
     "attributes": {
       "asset_type": "Crypto",
@@ -174,19 +200,6 @@
       "quote_currency": "SOL",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.BSOL/SOL.RR"
-    }
-  },
-  {
-    "id": "0xaf83c3680722a0b0139414679efade7265f9f7e8e4aa91d233ca1d0a3aabaac6",
-    "attributes": {
-      "asset_type": "Rates",
-      "base": "OBFR",
-      "description": "OVERNIGHT BANK FUNDING RATE",
-      "display_symbol": "OBFR %",
-      "generic_symbol": "OBFR",
-      "quote_currency": "%",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;0101/C,0120/C,0217/C,0526/C,0619/C,0704/C,0901/C,1013/C,1111/C,1127/C,1225/C",
-      "symbol": "Rates.OBFR"
     }
   },
   {
@@ -217,16 +230,17 @@
     }
   },
   {
-    "id": "0xc8593010ca5b82738a061887d22d42cd0b85861fa9d1677835070a43958090d0",
+    "id": "0x2d47ac295f7156b2b3a724d31034b230ed7e74414ea3e642e2c7f4425cc0a8f4",
     "attributes": {
-      "asset_type": "Crypto",
-      "base": "EDU",
-      "description": "OPEN CAMPUS / US DOLLAR",
-      "display_symbol": "EDU/USD",
-      "generic_symbol": "EDUUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.EDU/USD"
+      "asset_type": "Equity",
+      "base": "0101-HK",
+      "country": "HK",
+      "description": "HANG LUNG PPT / HONG KONG DOLLAR",
+      "display_symbol": "HK.0101/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C,0501/C,0505/C,0701/C",
+      "symbol": "Equity.HK.0101-HK/HKD"
     }
   },
   {
@@ -402,6 +416,34 @@
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
       "symbol": "Equity.GB.STAN/GBP"
+    }
+  },
+  {
+    "id": "0x59656667085fef56ca1ef7de5db26d7e4302713ba3085d9992969ad84a4533c4",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "DSY",
+      "country": "FR",
+      "description": "DASSAULT SYSTEMES / EURO",
+      "display_symbol": "DSY/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.FR.DSY/EUR"
+    }
+  },
+  {
+    "id": "0xe549836c2eb0015f4423da6e596599a2ae2692e4457d1f53264258dc5f920490",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "RHM",
+      "country": "DE",
+      "description": "RHEINMETALL AG / EURO",
+      "display_symbol": "RHM/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.RHM/EUR"
     }
   },
   {
@@ -758,6 +800,20 @@
     }
   },
   {
+    "id": "0x0a95b77e60cf7f6dbcb902225259741fe6a3aebe07221390e79fcb05bbfdabb8",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "TTE",
+      "country": "FR",
+      "description": "TOTALENERGIES / EURO",
+      "display_symbol": "TTE/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.FR.TTE/EUR"
+    }
+  },
+  {
     "id": "0x057345a7e9ef0f36dca8ad1c4e5788808b85f3084cc7b0d8cb29ac5012d88f0d",
     "attributes": {
       "asset_type": "Crypto",
@@ -794,6 +850,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.SCA/USD"
+    }
+  },
+  {
+    "id": "0xf1b15faa42f33b43041b4781de53a644dd840058947b843f99540876890e2236",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "VIE",
+      "country": "FR",
+      "description": "VEOLIA ENVIRON / EURO",
+      "display_symbol": "VIE/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.FR.VIE/EUR"
     }
   },
   {
@@ -1553,6 +1623,20 @@
     }
   },
   {
+    "id": "0x079a652113822c84c19c8e226d50dd02795ee90b20615e405057f350098a4a29",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "QIA",
+      "country": "NL",
+      "description": "QIAGEN NV / EURO",
+      "display_symbol": "QIA/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.NL.QIA/EUR"
+    }
+  },
+  {
     "id": "0x85a3293cca41e75c2f0dafe18cc0e6694e9a9ecc92395a97e4a395825cd18c88",
     "attributes": {
       "asset_type": "Equity",
@@ -1648,6 +1732,20 @@
       "quote_currency": "THAPT",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.STHAPT/THAPT.RR"
+    }
+  },
+  {
+    "id": "0xe1f30a023dbe13ebc3e4c777b898a0eebc8599a469a4573e5bba222d139c6012",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "URW",
+      "country": "FR",
+      "description": "UNIBAIL-RODAMCO-WESTFIELD / EURO",
+      "display_symbol": "URW/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.FR.URW/EUR"
     }
   },
   {
@@ -1800,6 +1898,20 @@
     }
   },
   {
+    "id": "0x0d265e1482231945fac53bf7fc6418ce6e21d5f6bea8481bba483d42fbb6f01e",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "STMPA",
+      "country": "NL",
+      "description": "STMICROELECTRONICS / EURO",
+      "display_symbol": "STMPA/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.NL.STMPA/EUR"
+    }
+  },
+  {
     "id": "0xb40b427690447a6fd5f75aa4b35dca20ed9b2e42d8eaa80ecf4d81406db68cd8",
     "attributes": {
       "asset_type": "Equity",
@@ -1857,6 +1969,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.IT/USD"
+    }
+  },
+  {
+    "id": "0x05172a8a2ab9b576156bbd2b67e85b0a0b7d1f02d61264ae7033b745657ead88",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MTX",
+      "country": "DE",
+      "description": "MTU AERO ENGINES AG / EURO",
+      "display_symbol": "MTX/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.MTX/EUR"
     }
   },
   {
@@ -2278,7 +2404,7 @@
       "country": "US",
       "cqs_symbol": "HOOD",
       "description": "ROBINHOOD MARKETS INC / US DOLLAR - EXTENDED HOURS",
-      "display_symbol": "HOOD/USD",
+      "display_symbol": "HOOD/USD EXTENDED",
       "nasdaq_symbol": "HOOD",
       "publish_interval": "5",
       "quote_currency": "USD",
@@ -2410,6 +2536,20 @@
     }
   },
   {
+    "id": "0xaf2a90410d6fdcaad452c6081fb7ec26cd6bffbe18b6dbc894f310e6e49585ee",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "XUSD",
+      "contract_id": "eth: 0xE2Fc85BfB48C4cF147921fBE110cf92Ef9f26F94",
+      "description": "STAKED STREAM US DOLLAR / USD COIN REDEMPTION RATE",
+      "display_symbol": "XUSD/USDC",
+      "generic_symbol": "XUSDUSDC",
+      "quote_currency": "USDC",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.XUSD/USDC.RR"
+    }
+  },
+  {
     "id": "0x8ee55f6d832a1416ffba3344e92528b4e46fb8cfb931b318d6ccd7d80b06815b",
     "attributes": {
       "asset_type": "Equity",
@@ -2427,19 +2567,6 @@
     }
   },
   {
-    "id": "0xc572690504b42b57a3f7aed6bd4aae08cbeeebdadcf130646a692fe73ec1e009",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "ONE",
-      "description": "HARMONY / US DOLLAR",
-      "display_symbol": "ONE/USD",
-      "generic_symbol": "ONEUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.ONE/USD"
-    }
-  },
-  {
     "id": "0x433faaa801ecdb6618e3897177a118b273a8e18cc3ff545aadfc207d58d028f7",
     "attributes": {
       "asset_type": "Crypto",
@@ -2450,6 +2577,59 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.TUSD/USD"
+    }
+  },
+  {
+    "id": "0x051ee6cdd581106d0291dfd9b0ee13e6b4dde8fb251afd262c2ba5444257daa8",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "GT",
+      "description": "GATETOKEN / US DOLLAR",
+      "display_symbol": "GT/USD",
+      "generic_symbol": "GTUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.GT/USD"
+    }
+  },
+  {
+    "id": "0xbaf7dc4fa6e8943cd6ff6d048d177d8cbfbdc2c4a32351516b1e5d1d632c5df2",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BVI",
+      "country": "FR",
+      "description": "BUREAU VERITAS / EURO",
+      "display_symbol": "BVI/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.FR.BVI/EUR"
+    }
+  },
+  {
+    "id": "0xa007ed7f4e98f90b585aaecafa2bef88c28af6f0e6f601268c17530e5dfb462d",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "KBONK",
+      "description": "1000 BONK / US DOLLAR",
+      "display_symbol": "KBONK/USD",
+      "generic_symbol": "KBONKUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.KBONK/USD"
+    }
+  },
+  {
+    "id": "0xc572690504b42b57a3f7aed6bd4aae08cbeeebdadcf130646a692fe73ec1e009",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "ONE",
+      "description": "HARMONY / US DOLLAR",
+      "display_symbol": "ONE/USD",
+      "generic_symbol": "ONEUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.ONE/USD"
     }
   },
   {
@@ -2487,30 +2667,30 @@
     }
   },
   {
-    "id": "0x051ee6cdd581106d0291dfd9b0ee13e6b4dde8fb251afd262c2ba5444257daa8",
+    "id": "0x2a115ff8322884375af035b5479c53f78d3d6e4e84f87dc41d5b9aa145e6f704",
     "attributes": {
-      "asset_type": "Crypto",
-      "base": "GT",
-      "description": "GATETOKEN / US DOLLAR",
-      "display_symbol": "GT/USD",
-      "generic_symbol": "GTUSD",
+      "asset_type": "Commodities",
+      "base": "BRENTQ5",
+      "description": "PYTH BRENT 31 JULY 2025 / US DOLLAR",
+      "display_symbol": "BRENTQ5/USD",
+      "generic_symbol": "BRENTQ5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.GT/USD"
+      "schedule": "America/New_York;0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800,C,1800-2400;0704/0000-1330&2000-2400",
+      "symbol": "Commodities.BRENTQ5/USD"
     }
   },
   {
-    "id": "0xaf2a90410d6fdcaad452c6081fb7ec26cd6bffbe18b6dbc894f310e6e49585ee",
+    "id": "0xd980ecfbab838437f5ccf7e4e0bf1b657cb5c75af42d48503b7ec0b7436cf29a",
     "attributes": {
-      "asset_type": "Crypto Redemption Rate",
-      "base": "XUSD",
-      "contract_id": "eth: 0xE2Fc85BfB48C4cF147921fBE110cf92Ef9f26F94",
-      "description": "STAKED STREAM US DOLLAR / USD COIN REDEMPTION RATE",
-      "display_symbol": "XUSD/USDC",
-      "generic_symbol": "XUSDUSDC",
-      "quote_currency": "USDC",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.XUSD/USDC.RR"
+      "asset_type": "Equity",
+      "base": "MSTY",
+      "country": "US",
+      "description": "YIELDMAX MSTR OPTION INCOME STGY ETF / US DOLLAR",
+      "display_symbol": "MSTY/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.MSTY/USD"
     }
   },
   {
@@ -2524,19 +2704,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.AFSUI/USD"
-    }
-  },
-  {
-    "id": "0x2a115ff8322884375af035b5479c53f78d3d6e4e84f87dc41d5b9aa145e6f704",
-    "attributes": {
-      "asset_type": "Commodities",
-      "base": "BRENTQ5",
-      "description": "PYTH BRENT 31 JULY 2025 / US DOLLAR",
-      "display_symbol": "BRENTQ5/USD",
-      "generic_symbol": "BRENTQ5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800,C,1800-2400;0704/0000-1330&2000-2400",
-      "symbol": "Commodities.BRENTQ5/USD"
     }
   },
   {
@@ -2605,7 +2772,7 @@
       "country": "US",
       "cqs_symbol": "COIN",
       "description": "COINBASE GLOBAL INC / US DOLLAR - EXTENDED HOURS",
-      "display_symbol": "COIN/USD",
+      "display_symbol": "COIN/USD EXTENDED",
       "nasdaq_symbol": "COIN",
       "publish_interval": "5",
       "quote_currency": "USD",
@@ -3017,49 +3184,6 @@
     }
   },
   {
-    "id": "0x72b021217ca3fe68922a19aaf990109cb9d84e9ad004b4d2025ad6f529314419",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "BONK",
-      "description": "BONK / US DOLLAR",
-      "display_symbol": "BONK/USD",
-      "generic_symbol": "BONKUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.BONK/USD"
-    }
-  },
-  {
-    "id": "0x1112194b9abe505c202d243be6f5de5a9c80e40a09082e07f06b6805d04ae54d",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "GEN",
-      "cms_symbol": "GEN",
-      "country": "US",
-      "cqs_symbol": "GEN",
-      "description": "GEN DIGITAL INC / US DOLLAR",
-      "display_symbol": "GEN/USD",
-      "nasdaq_symbol": "GEN",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
-      "symbol": "Equity.US.GEN/USD"
-    }
-  },
-  {
-    "id": "0x6df640f3b8963d8f8358f791f352b8364513f6ab1cca5ed3f1f7b5448980e784",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "WSTETH",
-      "description": "WRAPPED STETH / US DOLLAR",
-      "display_symbol": "WSTETH/USD",
-      "generic_symbol": "WSTETHUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.WSTETH/USD"
-    }
-  },
-  {
     "id": "0xd7e307b27dd075c7296b0e75e14a481b3adb588be47ca032403e1d721e3e352c",
     "attributes": {
       "asset_type": "Equity",
@@ -3090,50 +3214,6 @@
     }
   },
   {
-    "id": "0xa0255134973f4fdf2f8f7808354274a3b1ebc6ee438be898d045e8b56ba1fe13",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "RETH",
-      "description": "ROCKET POOL ETH / US DOLLAR",
-      "display_symbol": "RETH/USD",
-      "generic_symbol": "RETHUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.RETH/USD"
-    }
-  },
-  {
-    "id": "0xb44390c76cc128577ff941e29b43c8feb1a7e81c633cab31b9d42bcbf6d41cf3",
-    "attributes": {
-      "asset_type": "Crypto Redemption Rate",
-      "base": "STNEAR",
-      "contract_id": "near: meta-pool.near",
-      "description": "STAKED NEAR / NEAR REDEMPTION RATE",
-      "display_symbol": "STNEAR/NEAR",
-      "generic_symbol": "STNEARNEAR",
-      "quote_currency": "NEAR",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.STNEAR/NEAR.RR"
-    }
-  },
-  {
-    "id": "0x80f271ae66ee740f4a8f2c2d33575592a6daf7f881133e4d8c0a4df0fc67315a",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "RL",
-      "cms_symbol": "RL",
-      "country": "US",
-      "cqs_symbol": "RL",
-      "description": "RALPH LAUREN CORPORATION / US DOLLAR",
-      "display_symbol": "RL/USD",
-      "nasdaq_symbol": "RL",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
-      "symbol": "Equity.US.RL/USD"
-    }
-  },
-  {
     "id": "0x67be9f519b95cf24338801051f9a808eff0a578ccb388db73b7f6fe1de019ffb",
     "attributes": {
       "asset_type": "Crypto",
@@ -3161,33 +3241,17 @@
     }
   },
   {
-    "id": "0xad2fda41998f4e7be99a2a7b27273bd16f183d9adfc014a4f5e5d3d6cd519bf4",
+    "id": "0x212c7aec26135c00c46df278385b79cd1f9e6bf4d3acee0f361f6cdadaff740b",
     "attributes": {
       "asset_type": "Equity",
-      "base": "PG",
-      "cms_symbol": "PG",
-      "country": "US",
-      "cqs_symbol": "PG",
-      "description": "PROCTER & GAMBLE CO / US DOLLAR",
-      "display_symbol": "PG/USD",
-      "nasdaq_symbol": "PG",
+      "base": "BNR",
+      "country": "DE",
+      "description": "BRENNTAG SE / EURO",
+      "display_symbol": "BNR/EUR",
       "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
-      "symbol": "Equity.US.PG/USD"
-    }
-  },
-  {
-    "id": "0xee70804471fe22d029ac2d2b00ea18bbf4fb062958d425e5830fd25bed430345",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "THETA",
-      "description": "THETA NETWORK / US DOLLAR",
-      "display_symbol": "THETA/USD",
-      "generic_symbol": "THTAUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.THETA/USD"
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.BNR/EUR"
     }
   },
   {
@@ -3239,6 +3303,137 @@
     }
   },
   {
+    "id": "0x5fbd1cf24b414fee1a0f112d82315f10fd0de1eb6c916831f6f2cfdc7a32a0a6",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "WY",
+      "cms_symbol": "WY",
+      "country": "US",
+      "cqs_symbol": "WY",
+      "description": "WEYERHAEUSER COMPANY / US DOLLAR",
+      "display_symbol": "WY/USD",
+      "nasdaq_symbol": "WY",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.WY/USD"
+    }
+  },
+  {
+    "id": "0x6df640f3b8963d8f8358f791f352b8364513f6ab1cca5ed3f1f7b5448980e784",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "WSTETH",
+      "description": "WRAPPED STETH / US DOLLAR",
+      "display_symbol": "WSTETH/USD",
+      "generic_symbol": "WSTETHUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.WSTETH/USD"
+    }
+  },
+  {
+    "id": "0x72b021217ca3fe68922a19aaf990109cb9d84e9ad004b4d2025ad6f529314419",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "BONK",
+      "description": "BONK / US DOLLAR",
+      "display_symbol": "BONK/USD",
+      "generic_symbol": "BONKUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.BONK/USD"
+    }
+  },
+  {
+    "id": "0x11aca907d2bdfcd7b4d62fd15ac40fb9cb73760322d0f9ab0386503f4745c445",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "ISF",
+      "country": "GB",
+      "description": "ISHARES CORE FTSE 100 UCITS ETF DIST / BRITISH POUND",
+      "display_symbol": "ISF/GBP",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.ISF/GBP"
+    }
+  },
+  {
+    "id": "0xa0255134973f4fdf2f8f7808354274a3b1ebc6ee438be898d045e8b56ba1fe13",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "RETH",
+      "description": "ROCKET POOL ETH / US DOLLAR",
+      "display_symbol": "RETH/USD",
+      "generic_symbol": "RETHUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.RETH/USD"
+    }
+  },
+  {
+    "id": "0xb44390c76cc128577ff941e29b43c8feb1a7e81c633cab31b9d42bcbf6d41cf3",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "STNEAR",
+      "contract_id": "near: meta-pool.near",
+      "description": "STAKED NEAR / NEAR REDEMPTION RATE",
+      "display_symbol": "STNEAR/NEAR",
+      "generic_symbol": "STNEARNEAR",
+      "quote_currency": "NEAR",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.STNEAR/NEAR.RR"
+    }
+  },
+  {
+    "id": "0x80f271ae66ee740f4a8f2c2d33575592a6daf7f881133e4d8c0a4df0fc67315a",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "RL",
+      "cms_symbol": "RL",
+      "country": "US",
+      "cqs_symbol": "RL",
+      "description": "RALPH LAUREN CORPORATION / US DOLLAR",
+      "display_symbol": "RL/USD",
+      "nasdaq_symbol": "RL",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.RL/USD"
+    }
+  },
+  {
+    "id": "0xad2fda41998f4e7be99a2a7b27273bd16f183d9adfc014a4f5e5d3d6cd519bf4",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "PG",
+      "cms_symbol": "PG",
+      "country": "US",
+      "cqs_symbol": "PG",
+      "description": "PROCTER & GAMBLE CO / US DOLLAR",
+      "display_symbol": "PG/USD",
+      "nasdaq_symbol": "PG",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.PG/USD"
+    }
+  },
+  {
+    "id": "0xee70804471fe22d029ac2d2b00ea18bbf4fb062958d425e5830fd25bed430345",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "THETA",
+      "description": "THETA NETWORK / US DOLLAR",
+      "display_symbol": "THETA/USD",
+      "generic_symbol": "THTAUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.THETA/USD"
+    }
+  },
+  {
     "id": "0xa4972a52c16cfdc55c3967099700dcb072b8dee851f7f4a6d989866ae6a9c195",
     "attributes": {
       "asset_type": "Crypto Redemption Rate",
@@ -3267,34 +3462,20 @@
     }
   },
   {
-    "id": "0x5fbd1cf24b414fee1a0f112d82315f10fd0de1eb6c916831f6f2cfdc7a32a0a6",
+    "id": "0x1112194b9abe505c202d243be6f5de5a9c80e40a09082e07f06b6805d04ae54d",
     "attributes": {
       "asset_type": "Equity",
-      "base": "WY",
-      "cms_symbol": "WY",
+      "base": "GEN",
+      "cms_symbol": "GEN",
       "country": "US",
-      "cqs_symbol": "WY",
-      "description": "WEYERHAEUSER COMPANY / US DOLLAR",
-      "display_symbol": "WY/USD",
-      "nasdaq_symbol": "WY",
+      "cqs_symbol": "GEN",
+      "description": "GEN DIGITAL INC / US DOLLAR",
+      "display_symbol": "GEN/USD",
+      "nasdaq_symbol": "GEN",
       "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
-      "symbol": "Equity.US.WY/USD"
-    }
-  },
-  {
-    "id": "0x11aca907d2bdfcd7b4d62fd15ac40fb9cb73760322d0f9ab0386503f4745c445",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "ISF",
-      "country": "GB",
-      "description": "ISHARES CORE FTSE 100 UCITS ETF DIST / BRITISH POUND",
-      "display_symbol": "ISF/GBP",
-      "publish_interval": "5",
-      "quote_currency": "GBP",
-      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
-      "symbol": "Equity.GB.ISF/GBP"
+      "symbol": "Equity.US.GEN/USD"
     }
   },
   {
@@ -3685,6 +3866,20 @@
     }
   },
   {
+    "id": "0x4f374653aba252156110e96a3f4e072a388f918bcbe05a8b91eb0608ded8700b",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MT",
+      "country": "LU",
+      "description": "ARCELORMITTAL SA / EURO",
+      "display_symbol": "MT/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.LU.MT/EUR"
+    }
+  },
+  {
     "id": "0x5c1d2b8d904d8076cadda4310c5d0cb9dd41eef03850e07b16a7bec7cb256590",
     "attributes": {
       "asset_type": "Equity",
@@ -3790,6 +3985,20 @@
     }
   },
   {
+    "id": "0xdbe0bd1a848c1dff366af72ee5fa05f903afa852283dee38130d0fd544dee496",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SAP",
+      "country": "DE",
+      "description": "SAP SE / EURO",
+      "display_symbol": "SAP/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.SAP/EUR"
+    }
+  },
+  {
     "id": "0xeef52e09c878ad41f6a81803e3640fe04dceea727de894edd4ea117e2e332e66",
     "attributes": {
       "asset_type": "FX",
@@ -3834,30 +4043,30 @@
     }
   },
   {
-    "id": "0x425f4b198ab2504936886c1e93511bb6720fbcf2045a4f3c0723bb213846022f",
+    "id": "0xd7fb6cb62dd49c8466cff6b551c28c7192123f529405e9765d9db543b43411c4",
     "attributes": {
       "asset_type": "Crypto",
-      "base": "YFI",
-      "description": "YEARN FINANCE / US DOLLAR",
-      "display_symbol": "YFI/USD",
-      "generic_symbol": "YFIUSD",
+      "base": "NXPC",
+      "description": "NEXPACE / US DOLLAR",
+      "display_symbol": "NXPC/USD",
+      "generic_symbol": "NXPCUSD",
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.YFI/USD"
+      "symbol": "Crypto.NXPC/USD"
     }
   },
   {
-    "id": "0xd2db4dbf1aea74e0f666b0e8f73b9580d407f5e5cf931940b06dc633d7a95906",
+    "id": "0xa88b18efe275b943cb220d18391389cf5f184463496f205b2277f44d97739354",
     "attributes": {
-      "asset_type": "FX",
-      "base": "USD",
-      "description": "US DOLLAR / BRAZILIAN REAL",
-      "display_symbol": "USD/BRL",
-      "generic_symbol": "USDBRL",
-      "quote_currency": "BRL",
-      "schedule": "America/New_York;0800-1700,0800-1700,0800-1700,0800-1700,0800-1700,C,C;1225/C,0101/C",
-      "symbol": "FX.USD/BRL",
-      "tenor": "Spot"
+      "asset_type": "Equity",
+      "base": "SAF",
+      "country": "FR",
+      "description": "SAFRAN / EURO",
+      "display_symbol": "SAF/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.FR.SAF/EUR"
     }
   },
   {
@@ -3871,67 +4080,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.IMX/USD"
-    }
-  },
-  {
-    "id": "0x7bd87c3390d2c88d4699c7621fd857e0982027723751ce6e98bcc7604a407976",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "BODEN",
-      "description": "JEO BODEN / US DOLLAR",
-      "display_symbol": "BODEN/USD",
-      "generic_symbol": "BODENUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.BODEN/USD"
-    }
-  },
-  {
-    "id": "0x8f9c6d4c66c67ad15b0a872e06ac223753ebda26f84b48a501f760d49fad0631",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "GLEN",
-      "country": "GB",
-      "description": "GLENCORE PLC / BRITISH POUND",
-      "display_symbol": "GLEN/GBP",
-      "publish_interval": "5",
-      "quote_currency": "GBP",
-      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
-      "symbol": "Equity.GB.GLEN/GBP"
-    }
-  },
-  {
-    "id": "0x4da5b5fc2f6dfde7d47fac2370940217dd0ce5c37e650f770e6611a974aab96c",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "RVTY",
-      "cms_symbol": "RVTY",
-      "country": "US",
-      "cqs_symbol": "RVTY",
-      "description": "REVVITY INC / US DOLLAR",
-      "display_symbol": "RVTY/USD",
-      "nasdaq_symbol": "RVTY",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
-      "symbol": "Equity.US.RVTY/USD"
-    }
-  },
-  {
-    "id": "0xc336f7bf37b7379ebaa84a51e5002560dfe0d341c516c05c50a80fc836e2ac32",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "AES",
-      "cms_symbol": "AES",
-      "country": "US",
-      "cqs_symbol": "AES",
-      "description": "THE AES CORPORATION / US DOLLAR",
-      "display_symbol": "AES/USD",
-      "nasdaq_symbol": "AES",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
-      "symbol": "Equity.US.AES/USD"
     }
   },
   {
@@ -3965,16 +4113,105 @@
     }
   },
   {
-    "id": "0xd7fb6cb62dd49c8466cff6b551c28c7192123f529405e9765d9db543b43411c4",
+    "id": "0x425f4b198ab2504936886c1e93511bb6720fbcf2045a4f3c0723bb213846022f",
     "attributes": {
       "asset_type": "Crypto",
-      "base": "NXPC",
-      "description": "NEXPACE / US DOLLAR",
-      "display_symbol": "NXPC/USD",
-      "generic_symbol": "NXPCUSD",
+      "base": "YFI",
+      "description": "YEARN FINANCE / US DOLLAR",
+      "display_symbol": "YFI/USD",
+      "generic_symbol": "YFIUSD",
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.NXPC/USD"
+      "symbol": "Crypto.YFI/USD"
+    }
+  },
+  {
+    "id": "0x4da5b5fc2f6dfde7d47fac2370940217dd0ce5c37e650f770e6611a974aab96c",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "RVTY",
+      "cms_symbol": "RVTY",
+      "country": "US",
+      "cqs_symbol": "RVTY",
+      "description": "REVVITY INC / US DOLLAR",
+      "display_symbol": "RVTY/USD",
+      "nasdaq_symbol": "RVTY",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.RVTY/USD"
+    }
+  },
+  {
+    "id": "0xd2db4dbf1aea74e0f666b0e8f73b9580d407f5e5cf931940b06dc633d7a95906",
+    "attributes": {
+      "asset_type": "FX",
+      "base": "USD",
+      "description": "US DOLLAR / BRAZILIAN REAL",
+      "display_symbol": "USD/BRL",
+      "generic_symbol": "USDBRL",
+      "quote_currency": "BRL",
+      "schedule": "America/New_York;0800-1700,0800-1700,0800-1700,0800-1700,0800-1700,C,C;1225/C,0101/C",
+      "symbol": "FX.USD/BRL",
+      "tenor": "Spot"
+    }
+  },
+  {
+    "id": "0x8f9c6d4c66c67ad15b0a872e06ac223753ebda26f84b48a501f760d49fad0631",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "GLEN",
+      "country": "GB",
+      "description": "GLENCORE PLC / BRITISH POUND",
+      "display_symbol": "GLEN/GBP",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.GLEN/GBP"
+    }
+  },
+  {
+    "id": "0x7563f17567427f18848c77f0b541f579baf1ac20852ecff67c2394d674b46404",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "KER",
+      "country": "FR",
+      "description": "KERING / EURO",
+      "display_symbol": "KER/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.FR.KER/EUR"
+    }
+  },
+  {
+    "id": "0xc336f7bf37b7379ebaa84a51e5002560dfe0d341c516c05c50a80fc836e2ac32",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "AES",
+      "cms_symbol": "AES",
+      "country": "US",
+      "cqs_symbol": "AES",
+      "description": "THE AES CORPORATION / US DOLLAR",
+      "display_symbol": "AES/USD",
+      "nasdaq_symbol": "AES",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.AES/USD"
+    }
+  },
+  {
+    "id": "0x7bd87c3390d2c88d4699c7621fd857e0982027723751ce6e98bcc7604a407976",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "BODEN",
+      "description": "JEO BODEN / US DOLLAR",
+      "display_symbol": "BODEN/USD",
+      "generic_symbol": "BODENUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.BODEN/USD"
     }
   },
   {
@@ -4125,7 +4362,7 @@
       "country": "US",
       "cqs_symbol": "NVDA",
       "description": "NVIDIA CORP / US DOLLAR - EXTENDED HOURS",
-      "display_symbol": "NVDA/USD",
+      "display_symbol": "NVDA/USD EXTENDED",
       "nasdaq_symbol": "NVDA",
       "publish_interval": "5",
       "quote_currency": "USD",
@@ -4224,7 +4461,7 @@
       "country": "US",
       "cqs_symbol": "META",
       "description": "META PLATFORMS INC / US DOLLAR - EXTENDED HOURS",
-      "display_symbol": "META/USD",
+      "display_symbol": "META/USD EXTENDED",
       "nasdaq_symbol": "META",
       "publish_interval": "5",
       "quote_currency": "USD",
@@ -4244,6 +4481,34 @@
       "quote_currency": "APT",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.EAPT/APT.RR"
+    }
+  },
+  {
+    "id": "0x98939fcf369970ec0dca8175c9fab4cfcd8280f3a4c55b34a0af90c001b22998",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MUV2",
+      "country": "DE",
+      "description": "MUENCH RUECKVERS VNA / EURO",
+      "display_symbol": "MUV2/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.MUV2/EUR"
+    }
+  },
+  {
+    "id": "0xff62267568a8f48ec7b1805eb989a8c96da713b335caf20275def485da7984c9",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BTBT",
+      "country": "US",
+      "description": "BIT DIGITAL INC / US DOLLAR",
+      "display_symbol": "BTBT/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.BTBT/USD"
     }
   },
   {
@@ -4322,6 +4587,34 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.AVB/USD"
+    }
+  },
+  {
+    "id": "0xf5f7459ea44c65a9fa9c6fb62faf19a8053e3c86d63df3f0441692c6844c74fc",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "1606-HK",
+      "country": "HK",
+      "description": "CDB FINANCIAL LEASING CO LTD / HONG KONG DOLLAR",
+      "display_symbol": "HK.1606/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0701/C",
+      "symbol": "Equity.HK.1606-HK/HKD"
+    }
+  },
+  {
+    "id": "0x4c462059d3d171f225b9994c1a5fd730723650a3b205acfdf2abc06a18bd2bde",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MRK",
+      "country": "DE",
+      "description": "MERCK KGAA / EURO",
+      "display_symbol": "MRK/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.MRK/EUR"
     }
   },
   {
@@ -4471,12 +4764,26 @@
       "country": "US",
       "cqs_symbol": "PLTR",
       "description": "PALANTIR TECHNOLOGIES INC / US DOLLAR - EXTENDED HOURS",
-      "display_symbol": "PLTR/USD",
+      "display_symbol": "PLTR/USD EXTENDED",
       "nasdaq_symbol": "PLTR",
       "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,0000-2000,C,2000-2400;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.PLTR/USD.EXT"
+    }
+  },
+  {
+    "id": "0x45bfbcaaf6bd4d0dd0e5e528baeefd7009b11100808fe16e4b11799289537185",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "MPST",
+      "contract_id": "spl: HUPfpnsaJtJGpJxAPNX1vXah7BgYiQYt1c2JMgMumvPs",
+      "description": "MAXI PAYFI STRATEGY TOKEN / USD COIN REDEMPTION RATE",
+      "display_symbol": "MPST/USDC",
+      "generic_symbol": "MPSTUSDC",
+      "quote_currency": "USDC",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.MPST/USDC.RR"
     }
   },
   {
@@ -5078,6 +5385,20 @@
     }
   },
   {
+    "id": "0x81165e8a1b77d53aa56051a795b76ec1e1520ef392ec6d71b1b54354a49f309c",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "RWE",
+      "country": "DE",
+      "description": "RWE AG / EURO",
+      "display_symbol": "RWE/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.RWE/EUR"
+    }
+  },
+  {
     "id": "0xf253cf87dc7d5ed5aa14cba5a6e79aee8bcfaef885a0e1b807035a0bbecc36fa",
     "attributes": {
       "asset_type": "Crypto",
@@ -5587,6 +5908,20 @@
     }
   },
   {
+    "id": "0x60f2aeeba5e9fd5392cc54603650fc44b541b725ac3d78e7212adb88941893a1",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "FME",
+      "country": "DE",
+      "description": "FRESEN MED CARE KGAA / EURO",
+      "display_symbol": "FME/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.FME/EUR"
+    }
+  },
+  {
     "id": "0xac3eaae8586a3bb2c644021309963f09065f8f878bea83768eb7d60561d8fefe",
     "attributes": {
       "asset_type": "Equity",
@@ -6042,6 +6377,33 @@
     }
   },
   {
+    "id": "0x9766f63071ed37c6b31de67c20c2e9eca35b836e423c3348bd9c6a6cb2099e35",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "DHL",
+      "country": "DE",
+      "description": "DEUTSCHE POST AG / EURO",
+      "display_symbol": "DHL/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.DHL/EUR"
+    }
+  },
+  {
+    "id": "0x7f3febb69d47fd18c6e29697fc2c19ee70b9877111410238d8587f2cffacb232",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "KPEPE",
+      "description": "1000 PEPE / US DOLLAR",
+      "display_symbol": "KPEPE/USD",
+      "generic_symbol": "KPEPEUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.KPEPE/USD"
+    }
+  },
+  {
     "id": "0x8a5b4c4e28d6a09f71dd8d5f503004c5289a833c17736377d3599844d9555395",
     "attributes": {
       "asset_type": "Crypto Redemption Rate",
@@ -6310,7 +6672,7 @@
       "country": "US",
       "cqs_symbol": "NFLX",
       "description": "NETFLIX INC / US DOLLAR - EXTENDED HOURS",
-      "display_symbol": "NFLX/USD",
+      "display_symbol": "NFLX/USD EXTENDED",
       "nasdaq_symbol": "NFLX",
       "publish_interval": "5",
       "quote_currency": "USD",
@@ -6516,16 +6878,75 @@
     }
   },
   {
-    "id": "0x2a01deaec9e51a579277b34b122399984d0bbf57e2458a7e42fecd2829867a0d",
+    "id": "0x3b4e266cfd796c642603073a8471f1bdb876a9c03ded525e4472a722298c4219",
     "attributes": {
       "asset_type": "Crypto",
-      "base": "ADA",
-      "description": "CARDANO / US DOLLAR",
-      "display_symbol": "ADA/USD",
-      "generic_symbol": "ADAUSD",
+      "base": "OMG",
+      "description": "OMG NETWORK / US DOLLAR",
+      "display_symbol": "OMG/USD",
+      "generic_symbol": "OMGUSD",
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.ADA/USD"
+      "symbol": "Crypto.OMG/USD"
+    }
+  },
+  {
+    "id": "0x9a01dced50be45e47b6e22144a6706dbc8226128248fd5ae4096cf8d1c2ac90d",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "EDV",
+      "country": "GB",
+      "description": "ENDEAVOUR MINING PLC / BRITISH POUND",
+      "display_symbol": "EDV/GBP",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.EDV/GBP"
+    }
+  },
+  {
+    "id": "0x727de92cc0313c873c2171e26c4148de1763e65bed81739061ec861d788cce51",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "VONG",
+      "country": "US",
+      "description": "VANGUARD RUSSELL 1000 GROWTH ETF / US DOLLAR",
+      "display_symbol": "VONG/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.VONG/USD"
+    }
+  },
+  {
+    "id": "0x5f0be72c8df13ed6bc403ed1f0395c5323d7ec148e5d57cbd5a8c7000be7d5e2",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "PSN",
+      "country": "GB",
+      "description": "PERSIMMON PLC / BRITISH POUND",
+      "display_symbol": "PSN/GBP",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.PSN/GBP"
+    }
+  },
+  {
+    "id": "0x5967c196ca33171a0b2d140ddc6334b998dd71c2ddd85ba7920c35fd6ed20fe9",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "IVV",
+      "cms_symbol": "IVV",
+      "country": "US",
+      "cqs_symbol": "IVV",
+      "description": "ISHARES CORE S&P 500 ETF / US DOLLAR",
+      "display_symbol": "IVV/USD",
+      "nasdaq_symbol": "IVV",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.IVV/USD"
     }
   },
   {
@@ -6546,44 +6967,16 @@
     }
   },
   {
-    "id": "0x3b4e266cfd796c642603073a8471f1bdb876a9c03ded525e4472a722298c4219",
+    "id": "0x42bfb26778f3504a9f359a92c731f77d0c24aed9b7745276e3ad0c2d840b74c2",
     "attributes": {
       "asset_type": "Crypto",
-      "base": "OMG",
-      "description": "OMG NETWORK / US DOLLAR",
-      "display_symbol": "OMG/USD",
-      "generic_symbol": "OMGUSD",
+      "base": "UBTC",
+      "description": "UNIT BITCOIN / US DOLLAR",
+      "display_symbol": "UBTC/USD",
+      "generic_symbol": "UBTCUSD",
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.OMG/USD"
-    }
-  },
-  {
-    "id": "0x5f0be72c8df13ed6bc403ed1f0395c5323d7ec148e5d57cbd5a8c7000be7d5e2",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "PSN",
-      "country": "GB",
-      "description": "PERSIMMON PLC / BRITISH POUND",
-      "display_symbol": "PSN/GBP",
-      "publish_interval": "5",
-      "quote_currency": "GBP",
-      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
-      "symbol": "Equity.GB.PSN/GBP"
-    }
-  },
-  {
-    "id": "0x9a01dced50be45e47b6e22144a6706dbc8226128248fd5ae4096cf8d1c2ac90d",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "EDV",
-      "country": "GB",
-      "description": "ENDEAVOUR MINING PLC / BRITISH POUND",
-      "display_symbol": "EDV/GBP",
-      "publish_interval": "5",
-      "quote_currency": "GBP",
-      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
-      "symbol": "Equity.GB.EDV/GBP"
+      "symbol": "Crypto.UBTC/USD"
     }
   },
   {
@@ -6614,19 +7007,6 @@
     }
   },
   {
-    "id": "0x42bfb26778f3504a9f359a92c731f77d0c24aed9b7745276e3ad0c2d840b74c2",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "UBTC",
-      "description": "UNIT BITCOIN / US DOLLAR",
-      "display_symbol": "UBTC/USD",
-      "generic_symbol": "UBTCUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.UBTC/USD"
-    }
-  },
-  {
     "id": "0x7afba60a06a553edc3339b53c2e46c2700b076b3f9c9067b88b93f0a12213fbf",
     "attributes": {
       "asset_type": "Equity",
@@ -6644,37 +7024,6 @@
     }
   },
   {
-    "id": "0x727de92cc0313c873c2171e26c4148de1763e65bed81739061ec861d788cce51",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "VONG",
-      "country": "US",
-      "description": "VANGUARD RUSSELL 1000 GROWTH ETF / US DOLLAR",
-      "display_symbol": "VONG/USD",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
-      "symbol": "Equity.US.VONG/USD"
-    }
-  },
-  {
-    "id": "0x5967c196ca33171a0b2d140ddc6334b998dd71c2ddd85ba7920c35fd6ed20fe9",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "IVV",
-      "cms_symbol": "IVV",
-      "country": "US",
-      "cqs_symbol": "IVV",
-      "description": "ISHARES CORE S&P 500 ETF / US DOLLAR",
-      "display_symbol": "IVV/USD",
-      "nasdaq_symbol": "IVV",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
-      "symbol": "Equity.US.IVV/USD"
-    }
-  },
-  {
     "id": "0x9db6bc1e6e9e5e60f6884e1cd8e4399cca9d0454c6e7234ad79680cf139748f5",
     "attributes": {
       "asset_type": "Equity",
@@ -6689,6 +7038,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.IBIT/USD"
+    }
+  },
+  {
+    "id": "0x2a01deaec9e51a579277b34b122399984d0bbf57e2458a7e42fecd2829867a0d",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "ADA",
+      "description": "CARDANO / US DOLLAR",
+      "display_symbol": "ADA/USD",
+      "generic_symbol": "ADAUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.ADA/USD"
     }
   },
   {
@@ -6859,46 +7221,17 @@
     }
   },
   {
-    "id": "0x226ae20a70afb9d55a5724e1569a6da7a6e65fdb7eb56924ef1262e05a28b505",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "USUAL",
-      "description": "USUAL MONEY / US DOLLAR",
-      "display_symbol": "USUAL/USD",
-      "generic_symbol": "USUALUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.USUAL/USD"
-    }
-  },
-  {
-    "id": "0x06d9fa501fd2bef47265361ca0eaf6e0a97c3b226cea5ab760240f70818581ad",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "OMI",
-      "description": "ECOMI / US DOLLAR",
-      "display_symbol": "OMI/USD",
-      "generic_symbol": "OMIUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.OMI/USD"
-    }
-  },
-  {
-    "id": "0x5fcafa59eadb26d764ed8de3d1ce071a4a9337dddf093ee8a7bace713aed7f22",
+    "id": "0xaf14357130b5e9dfd6fc4067fbb51f736b093fdaa182d96fa920c7c43c0ea8ac",
     "attributes": {
       "asset_type": "Equity",
-      "base": "CTVA",
-      "cms_symbol": "CTVA",
-      "country": "US",
-      "cqs_symbol": "CTVA",
-      "description": "CORTEVA INC / US DOLLAR",
-      "display_symbol": "CTVA/USD",
-      "nasdaq_symbol": "CTVA",
+      "base": "PUB",
+      "country": "FR",
+      "description": "PUBLICIS GROUPE SA / EURO",
+      "display_symbol": "PUB/EUR",
       "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
-      "symbol": "Equity.US.CTVA/USD"
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.FR.PUB/EUR"
     }
   },
   {
@@ -6933,16 +7266,31 @@
     }
   },
   {
-    "id": "0xef8382df144cd3289a754b07bfb51acbe5bbc47444c36f727169c06387469ac6",
+    "id": "0xebcb454b9a9a0f592164531e09d854cba56fd1b96b51a7eeabc45e62578b7905",
     "attributes": {
-      "asset_type": "Crypto",
-      "base": "OM",
-      "description": "MANTRA / US DOLLAR",
-      "display_symbol": "OM/USD",
-      "generic_symbol": "OMUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.OM/USD"
+      "asset_type": "Equity",
+      "base": "ALV",
+      "country": "DE",
+      "description": "ALLIANZ SE / EURO",
+      "display_symbol": "ALV/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.ALV/EUR"
+    }
+  },
+  {
+    "id": "0x3a22893d1c8f3f0d795b8bec1cb905cce23f95a5bfe8ba2983c6910ef87729d6",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "EDEN",
+      "country": "FR",
+      "description": "EDENRED / EURO",
+      "display_symbol": "EDEN/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.FR.EDEN/EUR"
     }
   },
   {
@@ -6990,6 +7338,62 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.SBUX/USD"
+    }
+  },
+  {
+    "id": "0x226ae20a70afb9d55a5724e1569a6da7a6e65fdb7eb56924ef1262e05a28b505",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "USUAL",
+      "description": "USUAL MONEY / US DOLLAR",
+      "display_symbol": "USUAL/USD",
+      "generic_symbol": "USUALUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.USUAL/USD"
+    }
+  },
+  {
+    "id": "0x06d9fa501fd2bef47265361ca0eaf6e0a97c3b226cea5ab760240f70818581ad",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "OMI",
+      "description": "ECOMI / US DOLLAR",
+      "display_symbol": "OMI/USD",
+      "generic_symbol": "OMIUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.OMI/USD"
+    }
+  },
+  {
+    "id": "0x5fcafa59eadb26d764ed8de3d1ce071a4a9337dddf093ee8a7bace713aed7f22",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "CTVA",
+      "cms_symbol": "CTVA",
+      "country": "US",
+      "cqs_symbol": "CTVA",
+      "description": "CORTEVA INC / US DOLLAR",
+      "display_symbol": "CTVA/USD",
+      "nasdaq_symbol": "CTVA",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.CTVA/USD"
+    }
+  },
+  {
+    "id": "0xef8382df144cd3289a754b07bfb51acbe5bbc47444c36f727169c06387469ac6",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "OM",
+      "description": "MANTRA / US DOLLAR",
+      "display_symbol": "OM/USD",
+      "generic_symbol": "OMUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.OM/USD"
     }
   },
   {
@@ -7151,6 +7555,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.EUL/USD"
+    }
+  },
+  {
+    "id": "0xa335efad7ebba8688fda455fb7245354104d1fcbe939c5b78234c8a30b81b234",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "HEN3",
+      "country": "DE",
+      "description": "HENKEL AG+CO KGAA VZO / EURO",
+      "display_symbol": "HEN3/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.HEN3/EUR"
     }
   },
   {
@@ -7374,6 +7792,20 @@
     }
   },
   {
+    "id": "0x7f6b3ee0f1e8b78ae58426fe29ee01c7a02edb7a0ab260973e81d4745c3fce25",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "CON",
+      "country": "DE",
+      "description": "CONTINENTAL AG / EURO",
+      "display_symbol": "CON/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.CON/EUR"
+    }
+  },
+  {
     "id": "0xfdc34922e57ee32f16296243d400188a789c48e863904957a47c569ba578fa0c",
     "attributes": {
       "asset_type": "Equity",
@@ -7521,6 +7953,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.TSLA/USD"
+    }
+  },
+  {
+    "id": "0xb7e7516de1d6d62de2b9e1aec15f46243eef30d0e8effa687a14f817dce759a8",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BEI",
+      "country": "DE",
+      "description": "BEIERSDORF AG / EURO",
+      "display_symbol": "BEI/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.BEI/EUR"
     }
   },
   {
@@ -7755,6 +8201,19 @@
     }
   },
   {
+    "id": "0xbabbfcc7f46b6e7df73adcccece8b6782408ed27c4e77f35ba39a449440170ab",
+    "attributes": {
+      "asset_type": "Crypto NAV",
+      "base": "ONE",
+      "description": "ONRE REINSURANCE UNDERWRITING POOL / US DOLLAR",
+      "display_symbol": "ONE/USD",
+      "generic_symbol": "ONEUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.NAV.ONE/USD"
+    }
+  },
+  {
     "id": "0xb04edaa5eba1fb048c18b727466681894f0ab21dd89643432af0277162dedb6d",
     "attributes": {
       "asset_type": "Crypto",
@@ -7923,6 +8382,34 @@
     }
   },
   {
+    "id": "0xd9270ea8675d9377bf8d63d6cdb918960da8705ba76d9c4120c670576d6c4127",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "FRE",
+      "country": "DE",
+      "description": "FRESENIUS SE CO KGAA / EURO",
+      "display_symbol": "FRE/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.FRE/EUR"
+    }
+  },
+  {
+    "id": "0x06cf18e74482ad69ed6edaaa6219d3d167c13a8867362ca111c5f9c32d3332cc",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "ML",
+      "country": "FR",
+      "description": "MICHELIN / EURO",
+      "display_symbol": "ML/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.FR.ML/EUR"
+    }
+  },
+  {
     "id": "0x1ebf3dd05546ce87c5a2892404717bca81a7b191f893244ad27f6ced751ae38d",
     "attributes": {
       "asset_type": "Equity",
@@ -8054,6 +8541,20 @@
     }
   },
   {
+    "id": "0x43604114c9ea070d183986a5cecbfa2763739264e72b55450c0e96d2d6f72dd9",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "RI",
+      "country": "FR",
+      "description": "PERNOD RICARD / EURO",
+      "display_symbol": "RI/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.FR.RI/EUR"
+    }
+  },
+  {
     "id": "0x0a9ad2666c0bf241cf67a83ee8f3ac7ae38dfbc24d83bc00675fee5569f72074",
     "attributes": {
       "asset_type": "Equity",
@@ -8105,6 +8606,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.VTI/USD"
+    }
+  },
+  {
+    "id": "0xf85df433f0d1959d4fb9111da3ff89f8c74239d6c8c29f0032d94c2d31f27166",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "ENR",
+      "country": "DE",
+      "description": "SIEMENS ENERGY AG / EURO",
+      "display_symbol": "ENR/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.ENR/EUR"
     }
   },
   {
@@ -8267,6 +8782,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.EXR/USD"
+    }
+  },
+  {
+    "id": "0x09cbc7aa0140571776096c05d1a437eba39ae209e708db956a1dd3d2f2ed5c7e",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BAYN",
+      "country": "DE",
+      "description": "BAYER AG / EURO",
+      "display_symbol": "BAYN/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.BAYN/EUR"
     }
   },
   {
@@ -8614,6 +9143,20 @@
     }
   },
   {
+    "id": "0x62ef69b911e25d3ceef32cd47d5fdeafb0a160821b6695c0a5954e2e797f57c2",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MBG",
+      "country": "DE",
+      "description": "MERCEDES-BENZ GROUP AG / EURO",
+      "display_symbol": "MBG/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.MBG/EUR"
+    }
+  },
+  {
     "id": "0x5cc87aaa7df22e5ac77f6a4bc50569129eb00396fd9fd68569e748e7e96fdf90",
     "attributes": {
       "asset_type": "Crypto",
@@ -8652,7 +9195,7 @@
       "country": "US",
       "cqs_symbol": "JPM",
       "description": "JPMORGAN CHASE & CO / US DOLLAR - EXTENDED HOURS",
-      "display_symbol": "JPM/USD",
+      "display_symbol": "JPM/USD EXTENDED",
       "nasdaq_symbol": "JPM",
       "publish_interval": "5",
       "quote_currency": "USD",
@@ -9146,6 +9689,34 @@
     }
   },
   {
+    "id": "0xc21d15fc417bfeab61940ac801ebaaf03ef65454cae360c1aa08c0099ecfe2fc",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "HEI",
+      "country": "DE",
+      "description": "HEIDELBERG MATERIALS / EURO",
+      "display_symbol": "HEI/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.HEI/EUR"
+    }
+  },
+  {
+    "id": "0x52aecdd5d1fddac8285207431c00a59ad9f4c5a8615b592f5a1417b7f6483a95",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "DAPP",
+      "country": "US",
+      "description": "VANECK DIGITAL TRANSFORMATION ETF / US DOLLAR",
+      "display_symbol": "DAPP/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.DAPP/USD"
+    }
+  },
+  {
     "id": "0xe322f437708e16b033d785fceb5c7d61c94700364281a10fabc77ca20ef64bf1",
     "attributes": {
       "asset_type": "Crypto",
@@ -9450,6 +10021,20 @@
     }
   },
   {
+    "id": "0xeda74e4c405a1f8d8d1c6004a197c20e620f5580e855ec66cf167f8d5f5ec7a3",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BTDR",
+      "country": "US",
+      "description": "BITDEER / US DOLLAR",
+      "display_symbol": "BTDR/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.BTDR/USD"
+    }
+  },
+  {
     "id": "0x2b89b9dc8fdf9f34709a5b106b472f0f39bb6ca9ce04b0fd7f2e971688e2e53b",
     "attributes": {
       "asset_type": "Crypto",
@@ -9686,7 +10271,7 @@
       "country": "US",
       "cqs_symbol": "TSLA",
       "description": "TESLA INC / US DOLLAR - EXTENDED HOURS",
-      "display_symbol": "TSLA/USD",
+      "display_symbol": "TSLA/USD EXTENDED",
       "nasdaq_symbol": "TSLA",
       "publish_interval": "5",
       "quote_currency": "USD",
@@ -9750,6 +10335,20 @@
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0701/C",
       "symbol": "Equity.HK.1299-HK/HKD"
+    }
+  },
+  {
+    "id": "0x86d7544952bd74ea3a09d5fb2dcd7e42b2a0ee0806dc171a4c51740c84067769",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "2057-HK",
+      "country": "HK",
+      "description": "ZTO EXPRESS CAYMAN INC / HONG KONG DOLLAR",
+      "display_symbol": "HK.2057/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0701/C",
+      "symbol": "Equity.HK.2057-HK/HKD"
     }
   },
   {
@@ -10143,7 +10742,7 @@
       "country": "US",
       "cqs_symbol": "BA",
       "description": "BOEING CO / US DOLLAR - EXTENDED HOURS",
-      "display_symbol": "BA/USD",
+      "display_symbol": "BA/USD EXTENDED",
       "nasdaq_symbol": "BA",
       "publish_interval": "5",
       "quote_currency": "USD",
@@ -10311,6 +10910,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.CAKE/USD"
+    }
+  },
+  {
+    "id": "0x22e1659c12192de5eb81db0c9bffb6646df2bcc05c9c04dbc0726bc491b7ac88",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "KRE",
+      "country": "US",
+      "description": "SPDR S&P REGIONAL BANKING ETF / US DOLLAR",
+      "display_symbol": "KRE/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.KRE/USD"
     }
   },
   {
@@ -10610,6 +11223,20 @@
     }
   },
   {
+    "id": "0x0de3f28242024f863d844d698ec69fc7246ce00fb63f7d49a74419863475b2f5",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "EOAN",
+      "country": "DE",
+      "description": "E ON SE / EURO",
+      "display_symbol": "EOAN/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.EOAN/EUR"
+    }
+  },
+  {
     "id": "0xaf4096a8c681312295ae72d877a4e6a627ea5ebd5928b1eb754caf55a75e2f92",
     "attributes": {
       "asset_type": "Equity",
@@ -10694,6 +11321,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.CRWD/USD"
+    }
+  },
+  {
+    "id": "0x5c8a3e00b3f52f9e3742fe8d486013c6b2fd6c2aa40f71afc698d80a6620ae10",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SHL",
+      "country": "DE",
+      "description": "SIEMENS HEALTHINEERS AG / EURO",
+      "display_symbol": "SHL/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.SHL/EUR"
     }
   },
   {
@@ -10978,6 +11619,20 @@
     }
   },
   {
+    "id": "0x5da4bd70379a662beb356be5e62d1a375d760b1ecfb8199059c17fdc0b2d1dbd",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "MC",
+      "country": "FR",
+      "description": "LVMH / EURO",
+      "display_symbol": "MC/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.FR.MC/EUR"
+    }
+  },
+  {
     "id": "0xab5ac3a797d02f0159cea2097c4576ebb29afd60f7b7a6845617e8295a206d20",
     "attributes": {
       "asset_type": "Equity",
@@ -11142,6 +11797,20 @@
     }
   },
   {
+    "id": "0x5c41f90cf0574fd28fa31f12362e52333d43023146026420a8865c3d10b274f5",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SAN",
+      "country": "FR",
+      "description": "SANOFI / EURO",
+      "display_symbol": "SAN/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.FR.SAN/EUR"
+    }
+  },
+  {
     "id": "0xc7b72e5d860034288c9335d4d325da4272fe50c92ab72249d58f6cbba30e4c44",
     "attributes": {
       "asset_type": "Crypto",
@@ -11179,6 +11848,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.WBETH/USD"
+    }
+  },
+  {
+    "id": "0xf5256d54617f33c2c87d954b6e1085a349959a2c81377bf1c00ad12508a64894",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "STLAP",
+      "country": "NL",
+      "description": "STELLANTIS NV / EURO",
+      "display_symbol": "STLAP/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.NL.STLAP/EUR"
     }
   },
   {
@@ -11231,7 +11914,7 @@
       "country": "US",
       "cqs_symbol": "AMD",
       "description": "ADVANCED MICRO DEVICES INC / US DOLLAR - EXTENDED HOURS",
-      "display_symbol": "AMD/USD",
+      "display_symbol": "AMD/USD EXTENDED",
       "nasdaq_symbol": "AMD",
       "publish_interval": "5",
       "quote_currency": "USD",
@@ -11390,6 +12073,20 @@
     }
   },
   {
+    "id": "0x053a55af459b1507132903272588d4f3d684150968e7f4e974902ee80e492cec",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "IXCO",
+      "country": "US",
+      "description": "NASDAQ COMPUTER INDEX / US DOLLAR",
+      "display_symbol": "IXCO/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.IXCO/USD"
+    }
+  },
+  {
     "id": "0x91a4039b35c137f1af5e048910c7c535d6faa9bc3084d9f62d395b9f75a22001",
     "attributes": {
       "asset_type": "Equity",
@@ -11398,7 +12095,7 @@
       "country": "US",
       "cqs_symbol": "AMZN",
       "description": "AMAZON.COM, INC. / US DOLLAR - EXTENDED HOURS",
-      "display_symbol": "AMZN/USD",
+      "display_symbol": "AMZN/USD EXTENDED",
       "nasdaq_symbol": "AMZN",
       "publish_interval": "5",
       "quote_currency": "USD",
@@ -11495,6 +12192,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.VGK/USD"
+    }
+  },
+  {
+    "id": "0xa44d307a13145b84938740c93155fbea926e9fbdd46d50b67859b8fc47552959",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "KAPT",
+      "description": "KOFI APTOS / US DOLLAR",
+      "display_symbol": "KAPT/USD",
+      "generic_symbol": "KAPTUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.KAPT/USD"
     }
   },
   {
@@ -11929,6 +12639,20 @@
     }
   },
   {
+    "id": "0xe8a4a9eb9223fea8726222259f0fa104eb4af4fa553e8ab791d50ca4ea3edc03",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "CAP",
+      "country": "FR",
+      "description": "CAPGEMINI / EURO",
+      "display_symbol": "CAP/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.FR.CAP/EUR"
+    }
+  },
+  {
     "id": "0x3600d9719b640ae821b323d2aecb55534136f5b4a8711245ac9a8e088ae3ae56",
     "attributes": {
       "asset_type": "Equity",
@@ -11987,19 +12711,6 @@
     }
   },
   {
-    "id": "0xc9dc99720306ef43fd301396a6f8522c8be89c6c77e8c27d87966918a943fd20",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "LUSD",
-      "description": "LIQUITY USD / US DOLLAR",
-      "display_symbol": "LUSD/USD",
-      "generic_symbol": "LUSDUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.LUSD/USD"
-    }
-  },
-  {
     "id": "0x19367df4d25080da5c5b7ea6f0e40e3f7347950a6b25245402b98f978fcfbf61",
     "attributes": {
       "asset_type": "FX",
@@ -12025,20 +12736,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.SLVLUSD/USD.RR"
-    }
-  },
-  {
-    "id": "0xef2c98c804ba503c6a707e38be4dfbb16683775f195b091252bf24693042fd52",
-    "attributes": {
-      "asset_type": "FX",
-      "base": "USD",
-      "description": "US DOLLAR / JAPANESE YEN",
-      "display_symbol": "USD/JPY",
-      "generic_symbol": "USDJPY",
-      "quote_currency": "JPY",
-      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
-      "symbol": "FX.USD/JPY",
-      "tenor": "Spot"
     }
   },
   {
@@ -12076,6 +12773,20 @@
     }
   },
   {
+    "id": "0x74fbfe71e79f767d749c991af7415894fb2f543495729d9bd184f00493862343",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "QUAL",
+      "country": "US",
+      "description": "ISHARES MSCI USA QUALITY FACTOR ETF / US DOLLAR",
+      "display_symbol": "QUAL/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.QUAL/USD"
+    }
+  },
+  {
     "id": "0x13537ceb2df5af0b8cdf8032561b0a71430b51297375bbfdc6ed209df1da0d65",
     "attributes": {
       "asset_type": "Equity",
@@ -12093,6 +12804,61 @@
     }
   },
   {
+    "id": "0xb71f8dd03a414bf0e9a97bfa2cc230779b02f6e72eb134c67c1ae4c0ccce40ff",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "0241-HK",
+      "country": "HK",
+      "description": "ALI HEALTH / HONG KONG DOLLAR",
+      "display_symbol": "HK.0241/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C,0501/C,0505/C,0701/C",
+      "symbol": "Equity.HK.0241-HK/HKD"
+    }
+  },
+  {
+    "id": "0x708bfcf418ead52a408407b039f2c33ce24ddc80d6dcb6d1cffef91c156c80fa",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "BGB",
+      "description": "BITGET TOKEN / US DOLLAR",
+      "display_symbol": "BGB/USD",
+      "generic_symbol": "BGBUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.BGB/USD"
+    }
+  },
+  {
+    "id": "0xef2c98c804ba503c6a707e38be4dfbb16683775f195b091252bf24693042fd52",
+    "attributes": {
+      "asset_type": "FX",
+      "base": "USD",
+      "description": "US DOLLAR / JAPANESE YEN",
+      "display_symbol": "USD/JPY",
+      "generic_symbol": "USDJPY",
+      "quote_currency": "JPY",
+      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
+      "symbol": "FX.USD/JPY",
+      "tenor": "Spot"
+    }
+  },
+  {
+    "id": "0xf1e80fefa9ddd73b9116eb4da4dc5370721500b107f276cb42b5bdb8c6dda11a",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "PAH3",
+      "country": "DE",
+      "description": "PORSCHE AUTOMOBIL HOLDING SE / EURO",
+      "display_symbol": "PAH3/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.PAH3/EUR"
+    }
+  },
+  {
     "id": "0x8ac0c70fff57e9aefdf5edf44b51d62c2d433653cbb2cf5cc06bb115af04d221",
     "attributes": {
       "asset_type": "Crypto",
@@ -12103,20 +12869,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.LINK/USD"
-    }
-  },
-  {
-    "id": "0x74fbfe71e79f767d749c991af7415894fb2f543495729d9bd184f00493862343",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "QUAL",
-      "country": "US",
-      "description": "ISHARES MSCI USA QUALITY FACTOR ETF / US DOLLAR",
-      "display_symbol": "QUAL/USD",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C",
-      "symbol": "Equity.US.QUAL/USD"
     }
   },
   {
@@ -12154,30 +12906,30 @@
     }
   },
   {
-    "id": "0xb71f8dd03a414bf0e9a97bfa2cc230779b02f6e72eb134c67c1ae4c0ccce40ff",
+    "id": "0x55138109b07935fa75ac13ad5406ed6686b72259f2e648043b812cf2421fa686",
     "attributes": {
       "asset_type": "Equity",
-      "base": "0241-HK",
-      "country": "HK",
-      "description": "ALI HEALTH / HONG KONG DOLLAR",
-      "display_symbol": "HK.0241/HKD",
+      "base": "EL",
+      "country": "FR",
+      "description": "ESSILORLUXOTTICA / EURO",
+      "display_symbol": "EL/EUR",
       "publish_interval": "5",
-      "quote_currency": "HKD",
-      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0404/C,0418/C,0421/C,0501/C,0505/C,0701/C",
-      "symbol": "Equity.HK.0241-HK/HKD"
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.FR.EL/EUR"
     }
   },
   {
-    "id": "0x708bfcf418ead52a408407b039f2c33ce24ddc80d6dcb6d1cffef91c156c80fa",
+    "id": "0xc9dc99720306ef43fd301396a6f8522c8be89c6c77e8c27d87966918a943fd20",
     "attributes": {
       "asset_type": "Crypto",
-      "base": "BGB",
-      "description": "BITGET TOKEN / US DOLLAR",
-      "display_symbol": "BGB/USD",
-      "generic_symbol": "BGBUSD",
+      "base": "LUSD",
+      "description": "LIQUITY USD / US DOLLAR",
+      "display_symbol": "LUSD/USD",
+      "generic_symbol": "LUSDUSD",
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.BGB/USD"
+      "symbol": "Crypto.LUSD/USD"
     }
   },
   {
@@ -12256,6 +13008,20 @@
       "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
       "symbol": "FX.NZD/CAD",
       "tenor": "Spot"
+    }
+  },
+  {
+    "id": "0xaa388e24e74d5dd12145f74fad3180266f78ed08c0a2f47c60583fdb612587ba",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "HLP0",
+      "contract_id": "arb: 0x3D75F2BB8aBcDBd1e27443cB5CBCE8A668046C81",
+      "description": "HYPERLIQUIDITY PROVIDER ZERO / USD COIN REDEMPTION RATE",
+      "display_symbol": "HLP0/USDC",
+      "generic_symbol": "HLP0USDC",
+      "quote_currency": "USDC",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.HLP0/USDC.RR"
     }
   },
   {
@@ -12662,6 +13428,20 @@
     }
   },
   {
+    "id": "0x53600f87e208ecd0752a2a96b73266a527ff9e85b8e75bcac531f072286aca48",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "DTE",
+      "country": "DE",
+      "description": "DT TELEKOM AG / EURO",
+      "display_symbol": "DTE/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.DTE/EUR"
+    }
+  },
+  {
     "id": "0xd1d6eb75702d0e80582c2d5a2df1849b9c83d7afbe99a2d474317f1f356e5659",
     "attributes": {
       "asset_type": "Equity",
@@ -12820,6 +13600,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.MIM/USD"
+    }
+  },
+  {
+    "id": "0x4e100b5aeb1eb842ce6aca88cb5ec1a691a4b279d7b3cc481928c4237196076a",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SY1",
+      "country": "DE",
+      "description": "SYMRISE AG / EURO",
+      "display_symbol": "SY1/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.SY1/EUR"
     }
   },
   {
@@ -13399,6 +14193,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.GE/USD"
+    }
+  },
+  {
+    "id": "0x42e6ef56906c50242705224072fa4fec4e63e94927b4b54d931dff396577fb09",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "DBK",
+      "country": "DE",
+      "description": "DEUTSCHE BANK AG / EURO",
+      "display_symbol": "DBK/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.DBK/EUR"
     }
   },
   {
@@ -14250,6 +15058,20 @@
     }
   },
   {
+    "id": "0x78cbd5130f1aab8120fa38d87c73852c1a2e59cf875b02e8bdca8b1960237c7b",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "P911",
+      "country": "DE",
+      "description": "PORSCHE AG VZ / EURO",
+      "display_symbol": "P911/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.P911/EUR"
+    }
+  },
+  {
     "id": "0x3728e591097635310e6341af53db8b7ee42da9b3a8d918f9463ce9cca886dfbd",
     "attributes": {
       "asset_type": "Crypto",
@@ -14408,6 +15230,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.CUSD/USD"
+    }
+  },
+  {
+    "id": "0x72d3bf568c275097936b3814c9ce1239133da3fcd600b5c7e1b2aa5b0177ae71",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "IFX",
+      "country": "DE",
+      "description": "INFINEON TECH AG / EURO",
+      "display_symbol": "IFX/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.IFX/EUR"
     }
   },
   {
@@ -14681,6 +15517,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.SNPS/USD"
+    }
+  },
+  {
+    "id": "0x2a10b6db00f02b6ad96c15187319c13fef415f0103ee9ff5285979644c000ebb",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "GLE",
+      "country": "FR",
+      "description": "SOCIETE GENERALE / EURO",
+      "display_symbol": "GLE/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.FR.GLE/EUR"
     }
   },
   {
@@ -15041,6 +15891,34 @@
     }
   },
   {
+    "id": "0x67810c2dfeed3252ae81a4359815d97627ead190699008fbf47f3e61db43992c",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "EN",
+      "country": "FR",
+      "description": "BOUYGUES / EURO",
+      "display_symbol": "EN/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.FR.EN/EUR"
+    }
+  },
+  {
+    "id": "0x1e1d6a7784633bccbae69fa25d73bfd9d908943939686e0b7490f84d792810e9",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "ZAL",
+      "country": "DE",
+      "description": "ZALANDO SE / EURO",
+      "display_symbol": "ZAL/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.ZAL/EUR"
+    }
+  },
+  {
     "id": "0x970222a3ff77f133b83c49989d8d8fcbad034fcc601f457e4a45cee6bfe5be36",
     "attributes": {
       "asset_type": "Equity",
@@ -15132,6 +16010,20 @@
     }
   },
   {
+    "id": "0xd9a82f36fdbd14da1fd99a5cfe8934017293e0e735c2fb604c8bec6d1ffeb8fb",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "CS",
+      "country": "FR",
+      "description": "AXA / EURO",
+      "display_symbol": "CS/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.FR.CS/EUR"
+    }
+  },
+  {
     "id": "0x6cd8876a9592b559eaca64041d2804d7f48b0ad820916806b7738b0c22a2e9f9",
     "attributes": {
       "asset_type": "Equity",
@@ -15157,6 +16049,20 @@
       "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
       "symbol": "FX.NZD/JPY",
       "tenor": "Spot"
+    }
+  },
+  {
+    "id": "0x4406726402cea1fe47506298f4c263f4ba7def97ad48e3f29b468e7b27027f61",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "OR",
+      "country": "FR",
+      "description": "L'OREAL / EURO",
+      "display_symbol": "OR/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.FR.OR/EUR"
     }
   },
   {
@@ -15357,6 +16263,20 @@
     }
   },
   {
+    "id": "0x0ee7d04a619a931489a450d42670f11e3e6b26e3b5b73cbb7a21b323c127e3b3",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "ACA",
+      "country": "FR",
+      "description": "CREDIT AGRICOLE / EURO",
+      "display_symbol": "ACA/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.FR.ACA/EUR"
+    }
+  },
+  {
     "id": "0xc7ba1f80f10774038310eb30adc31c69103f9e3030262ef4e0a6ce9d6c44488f",
     "attributes": {
       "asset_type": "Equity",
@@ -15417,20 +16337,6 @@
     }
   },
   {
-    "id": "0x6c1cfa413bf864a8887a74319e7e1c6df33656971f0393a5e7afac87d95b0839",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "1024-HK",
-      "country": "HK",
-      "description": "KUAISHOU TECHNOLOGY / HONG KONG DOLLAR",
-      "display_symbol": "HK.1024/HKD",
-      "publish_interval": "5",
-      "quote_currency": "HKD",
-      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0701/C",
-      "symbol": "Equity.HK.1024-HK/HKD"
-    }
-  },
-  {
     "id": "0x5867f5683c757393a0670ef0f701490950fe93fdb006d181c8265a831ac0c5c6",
     "attributes": {
       "asset_type": "Crypto",
@@ -15474,37 +16380,6 @@
     }
   },
   {
-    "id": "0x4838fb4b15b5f3bef939c8e3d423c6b5fb191e40a481cbe3eb8bf64cae712583",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "SGE",
-      "country": "GB",
-      "description": "SAGE GROUP PLC / BRITISH POUND",
-      "display_symbol": "SGE/GBP",
-      "publish_interval": "5",
-      "quote_currency": "GBP",
-      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
-      "symbol": "Equity.GB.SGE/GBP"
-    }
-  },
-  {
-    "id": "0xd0c9aef79b28308b256db7742a0a9b08aaa5009db67a52ea7fa30ed6853f243b",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "AVGO",
-      "cms_symbol": "AVGO",
-      "country": "US",
-      "cqs_symbol": "AVGO",
-      "description": "BROADCOM INC / US DOLLAR",
-      "display_symbol": "AVGO/USD",
-      "nasdaq_symbol": "AVGO",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
-      "symbol": "Equity.US.AVGO/USD"
-    }
-  },
-  {
     "id": "0x879551021853eec7a7dc827578e8e69da7e4fa8148339aa0d3d5296405be4b1a",
     "attributes": {
       "asset_type": "Crypto",
@@ -15518,20 +16393,17 @@
     }
   },
   {
-    "id": "0xe526b83aaac81d79736671ff6b948326194290a0c2f34a711df3e34b8afa6000",
+    "id": "0x0eb4da9cc67c17903e603c8caf21c553239756dcbd0191ae8bc79365e9313d15",
     "attributes": {
       "asset_type": "Equity",
-      "base": "NI",
-      "cms_symbol": "NI",
-      "country": "US",
-      "cqs_symbol": "NI",
-      "description": "NISOURCE INC / US DOLLAR",
-      "display_symbol": "NI/USD",
-      "nasdaq_symbol": "NI",
+      "base": "SRT3",
+      "country": "DE",
+      "description": "SARTORIUS AG / EURO",
+      "display_symbol": "SRT3/EUR",
       "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
-      "symbol": "Equity.US.NI/USD"
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.SRT3/EUR"
     }
   },
   {
@@ -15566,6 +16438,82 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.WYNN/USD"
+    }
+  },
+  {
+    "id": "0x63535c6de2554bde1e25fcc726a534f0ee5ae201ae4b752f25fc4bd957eed622",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "ENGI",
+      "country": "FR",
+      "description": "ENGIE / EURO",
+      "display_symbol": "ENGI/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.FR.ENGI/EUR"
+    }
+  },
+  {
+    "id": "0x6c1cfa413bf864a8887a74319e7e1c6df33656971f0393a5e7afac87d95b0839",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "1024-HK",
+      "country": "HK",
+      "description": "KUAISHOU TECHNOLOGY / HONG KONG DOLLAR",
+      "display_symbol": "HK.1024/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0701/C",
+      "symbol": "Equity.HK.1024-HK/HKD"
+    }
+  },
+  {
+    "id": "0x4838fb4b15b5f3bef939c8e3d423c6b5fb191e40a481cbe3eb8bf64cae712583",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SGE",
+      "country": "GB",
+      "description": "SAGE GROUP PLC / BRITISH POUND",
+      "display_symbol": "SGE/GBP",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C",
+      "symbol": "Equity.GB.SGE/GBP"
+    }
+  },
+  {
+    "id": "0xd0c9aef79b28308b256db7742a0a9b08aaa5009db67a52ea7fa30ed6853f243b",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "AVGO",
+      "cms_symbol": "AVGO",
+      "country": "US",
+      "cqs_symbol": "AVGO",
+      "description": "BROADCOM INC / US DOLLAR",
+      "display_symbol": "AVGO/USD",
+      "nasdaq_symbol": "AVGO",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.AVGO/USD"
+    }
+  },
+  {
+    "id": "0xe526b83aaac81d79736671ff6b948326194290a0c2f34a711df3e34b8afa6000",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "NI",
+      "cms_symbol": "NI",
+      "country": "US",
+      "cqs_symbol": "NI",
+      "description": "NISOURCE INC / US DOLLAR",
+      "display_symbol": "NI/USD",
+      "nasdaq_symbol": "NI",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.NI/USD"
     }
   },
   {
@@ -15885,6 +16833,20 @@
     }
   },
   {
+    "id": "0x85e3386a9894a59f9c516f9958247a5443688d784188b4df187a006ee80cc530",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "ORA",
+      "country": "FR",
+      "description": "ORANGE / EURO",
+      "display_symbol": "ORA/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.FR.ORA/EUR"
+    }
+  },
+  {
     "id": "0xc19405e4c8bdcbf2a66c37ae05a27d385c8309e9d648ed20dc6ee717e7d30e17",
     "attributes": {
       "asset_type": "Crypto",
@@ -16048,6 +17010,20 @@
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0526/C,0825/C,1224/0800-1230,1225/C,1226/C,1231/0800-1230,0101/C",
       "symbol": "Equity.IE.CSP1/GBP"
+    }
+  },
+  {
+    "id": "0x31198925a9b2b4f241100a65ec8a4ab785af40aa555f3ee4c74123172eaafc04",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SU",
+      "country": "FR",
+      "description": "SCHNEIDER ELECTRIC SE / EURO",
+      "display_symbol": "SU/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.FR.SU/EUR"
     }
   },
   {
@@ -16483,6 +17459,20 @@
     }
   },
   {
+    "id": "0x9b0641170ce2cb1173874fb5077ef377aa3726e91b8a8309eb57d1840506d473",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "ESLT",
+      "country": "US",
+      "description": "ELBIT SYSTEMS / US DOLLAR",
+      "display_symbol": "ESLT/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.ESLT/USD"
+    }
+  },
+  {
     "id": "0x01ccca2a0ba40cfa1e9ea3c81c5ebae0169e32c42603ed9c112e58769d187474",
     "attributes": {
       "asset_type": "Equity",
@@ -16587,6 +17577,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.XTZ/USD"
+    }
+  },
+  {
+    "id": "0x61fb0189252a49fa08a0f1db3b4c8a4195edd994ed8934b971d62c9d34c74084",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "KTA",
+      "description": "KEETA / US DOLLAR",
+      "display_symbol": "KTA/USD",
+      "generic_symbol": "KTAUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.KTA/USD"
     }
   },
   {
@@ -16812,6 +17815,20 @@
     }
   },
   {
+    "id": "0x984f446492ec7a3543d4ebe4a3783369708072088aebb82bce3f211ab4a09cdc",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "9992-HK",
+      "country": "HK",
+      "description": "POP MART INTL GROUP / HONG KONG DOLLAR",
+      "display_symbol": "HK.9992/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0701/C",
+      "symbol": "Equity.HK.9992-HK/HKD"
+    }
+  },
+  {
     "id": "0x3cf6bab8bf8041dc8ee2a3edebe16b5f9f4ff3cce46006aeb15c885ba4779d0b",
     "attributes": {
       "asset_type": "Crypto",
@@ -16870,6 +17887,20 @@
       "quote_currency": "USDT",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.FRUSDT/USDT.RR"
+    }
+  },
+  {
+    "id": "0x9e5eb8bade643c8b760f609d6605fda09b3889b766d5ef454e120ddbc4415379",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SIE",
+      "country": "DE",
+      "description": "SIEMENS AG / EURO",
+      "display_symbol": "SIE/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.SIE/EUR"
     }
   },
   {
@@ -17071,7 +18102,7 @@
       "country": "US",
       "cqs_symbol": "BABA",
       "description": "ALIBABA GROUP LIMITED / US DOLLAR - EXTENDED HOURS",
-      "display_symbol": "BABA/USD",
+      "display_symbol": "BABA/USD EXTENDED",
       "nasdaq_symbol": "BABA",
       "publish_interval": "5",
       "quote_currency": "USD",
@@ -17181,6 +18212,20 @@
     }
   },
   {
+    "id": "0x093e06eed2ef428b95a4ad50a7d569c91177aff668a83f4b37bd25a0bea01a7c",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "RMS",
+      "country": "FR",
+      "description": "HERMES INTL / EURO",
+      "display_symbol": "RMS/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.FR.RMS/EUR"
+    }
+  },
+  {
     "id": "0x58ab181e7512766728d2cc3581839bbb913e6cd24457ba422cbe2a33df64416e",
     "attributes": {
       "asset_type": "Equity",
@@ -17243,6 +18288,20 @@
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0701/C",
       "symbol": "Equity.HK.0285-HK/HKD"
+    }
+  },
+  {
+    "id": "0x09d6b6cf7d9ed113eed92398ec7c83a554739d08f0948660578d202927838b8f",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "LR",
+      "country": "FR",
+      "description": "LEGRAND / EURO",
+      "display_symbol": "LR/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.FR.LR/EUR"
     }
   },
   {
@@ -17485,6 +18544,20 @@
     }
   },
   {
+    "id": "0x18c38429e26e7db76621772d3cdfe7956c988d4bb55059abbfd96bdc916083b9",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "NA",
+      "country": "US",
+      "description": "NANO LABS / US DOLLAR",
+      "display_symbol": "NA/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.NA/USD"
+    }
+  },
+  {
     "id": "0x9c27675f282bfe54b5d0a7b187b29b09184d32d4462de7e3060629c7b8895aad",
     "attributes": {
       "asset_type": "Equity",
@@ -17723,6 +18796,20 @@
     }
   },
   {
+    "id": "0x2584464d38a15d9096798e130a7cd529940a7320c816d335e6aefcd4697db8f9",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "VNA",
+      "country": "DE",
+      "description": "VONOVIA SE / EURO",
+      "display_symbol": "VNA/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.VNA/EUR"
+    }
+  },
+  {
     "id": "0x113967e03bb7a347e3669bcb49cf0c6cd27ddc38439c9f009dec0bf9f0edb137",
     "attributes": {
       "asset_type": "Equity",
@@ -17761,7 +18848,7 @@
       "country": "US",
       "cqs_symbol": "LMT",
       "description": "LOCKHEED MARTIN CORP / US DOLLAR - EXTENDED HOURS",
-      "display_symbol": "LMT/USD",
+      "display_symbol": "LMT/USD EXTENDED",
       "nasdaq_symbol": "LMT",
       "publish_interval": "5",
       "quote_currency": "USD",
@@ -17882,7 +18969,7 @@
       "country": "US",
       "cqs_symbol": "MSTR",
       "description": "MICROSTRATEGY INC. - CLASS A / US DOLLAR - EXTENDED HOURS",
-      "display_symbol": "MSTR/USD",
+      "display_symbol": "MSTR/USD EXTENDED",
       "nasdaq_symbol": "MSTR",
       "publish_interval": "5",
       "quote_currency": "USD",
@@ -18240,6 +19327,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.ZBTC/USD"
+    }
+  },
+  {
+    "id": "0xeb13b0aa7c1c079c0817e7340772e34a080d76f2bada76618a47468e244a0a3e",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BMW",
+      "country": "DE",
+      "description": "BAY MOTOREN WERKE AG ST / EURO",
+      "display_symbol": "BMW/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.BMW/EUR"
     }
   },
   {
@@ -18864,6 +19965,20 @@
     }
   },
   {
+    "id": "0x8325df67f89d76ca0e3b367475ddeca0e281fe0e44c9520d62571df66d75c57c",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "AIR",
+      "country": "NL",
+      "description": "AIRBUS SE / EURO",
+      "display_symbol": "AIR/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.NL.AIR/EUR"
+    }
+  },
+  {
     "id": "0x3d8c4f6b0a8803577f22c358f8d6ff35c5218dd41889443ea87aaeb37739eba5",
     "attributes": {
       "asset_type": "Equity",
@@ -18889,80 +20004,6 @@
       "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
       "symbol": "FX.EUR/CAD",
       "tenor": "Spot"
-    }
-  },
-  {
-    "id": "0x246de6fa9db3ea920d7965a99affbd89539532638fef00d875a57bc1d7f80fc8",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "CRCL",
-      "cms_symbol": "CRCL",
-      "country": "US",
-      "cqs_symbol": "CRCL",
-      "description": "CIRCLE INTERNET GROUP INC / US DOLLAR - EXTENDED HOURS",
-      "display_symbol": "CRCL/USD",
-      "nasdaq_symbol": "CRCL",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,0000-2000,C,2000-2400;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
-      "symbol": "Equity.US.CRCL/USD.EXT"
-    }
-  },
-  {
-    "id": "0x5e8b35b0da37ede980d8f4ddaa7988af73d8c3d110e3eddd2a56977beb839b63",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "LQTY",
-      "description": "LIQUITY / US DOLLAR",
-      "display_symbol": "LQTY/USD",
-      "generic_symbol": "LQTYUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.LQTY/USD"
-    }
-  },
-  {
-    "id": "0xbbcf32c739841d1170ae2dfaf7c1bd2483df5cf241e2ecf5bce5d14cf09982b1",
-    "attributes": {
-      "asset_type": "FX",
-      "base": "GBP",
-      "description": "BRITISH POUND / AUSTRALIAN DOLLAR",
-      "display_symbol": "GBP/AUD",
-      "generic_symbol": "GBPAUD",
-      "quote_currency": "AUD",
-      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
-      "symbol": "FX.GBP/AUD",
-      "tenor": "Spot"
-    }
-  },
-  {
-    "id": "0x15ecddd26d49e1a8f1de9376ebebc03916ede873447c1255d2d5891b92ce5717",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "CBETH",
-      "description": "COINBASE WRAPPED STAKED ETH / US DOLLAR",
-      "display_symbol": "CBETH/USD",
-      "generic_symbol": "CETHUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.CBETH/USD"
-    }
-  },
-  {
-    "id": "0x4b2dcf7c46475fe5a08554af8528a9fdcf2596ce3db92c29aacdf2004795a72d",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "ERIE",
-      "cms_symbol": "ERIE",
-      "country": "US",
-      "cqs_symbol": "ERIE",
-      "description": "ERIE INDEMNITY COMPANY / US DOLLAR",
-      "display_symbol": "ERIE/USD",
-      "nasdaq_symbol": "ERIE",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
-      "symbol": "Equity.US.ERIE/USD"
     }
   },
   {
@@ -19011,23 +20052,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.APO/USD"
-    }
-  },
-  {
-    "id": "0xe7e7aac1ac0524cd3666fae4ecafae5e1fee880c11f3a7b4b7ea61bd6e434a63",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "C",
-      "cms_symbol": "C",
-      "country": "US",
-      "cqs_symbol": "C",
-      "description": "CITIGROUP INC / US DOLLAR",
-      "display_symbol": "C/USD",
-      "nasdaq_symbol": "C",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
-      "symbol": "Equity.US.C/USD"
     }
   },
   {
@@ -19096,6 +20120,83 @@
     }
   },
   {
+    "id": "0x246de6fa9db3ea920d7965a99affbd89539532638fef00d875a57bc1d7f80fc8",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "CRCL",
+      "cms_symbol": "CRCL",
+      "country": "US",
+      "cqs_symbol": "CRCL",
+      "description": "CIRCLE INTERNET GROUP INC / US DOLLAR - EXTENDED HOURS",
+      "display_symbol": "CRCL/USD EXTENDED",
+      "nasdaq_symbol": "CRCL",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,0000-2000,C,2000-2400;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.CRCL/USD.EXT"
+    }
+  },
+  {
+    "id": "0x5e8b35b0da37ede980d8f4ddaa7988af73d8c3d110e3eddd2a56977beb839b63",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "LQTY",
+      "description": "LIQUITY / US DOLLAR",
+      "display_symbol": "LQTY/USD",
+      "generic_symbol": "LQTYUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.LQTY/USD"
+    }
+  },
+  {
+    "id": "0x15ecddd26d49e1a8f1de9376ebebc03916ede873447c1255d2d5891b92ce5717",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "CBETH",
+      "description": "COINBASE WRAPPED STAKED ETH / US DOLLAR",
+      "display_symbol": "CBETH/USD",
+      "generic_symbol": "CETHUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.CBETH/USD"
+    }
+  },
+  {
+    "id": "0x4b2dcf7c46475fe5a08554af8528a9fdcf2596ce3db92c29aacdf2004795a72d",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "ERIE",
+      "cms_symbol": "ERIE",
+      "country": "US",
+      "cqs_symbol": "ERIE",
+      "description": "ERIE INDEMNITY COMPANY / US DOLLAR",
+      "display_symbol": "ERIE/USD",
+      "nasdaq_symbol": "ERIE",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.ERIE/USD"
+    }
+  },
+  {
+    "id": "0xe7e7aac1ac0524cd3666fae4ecafae5e1fee880c11f3a7b4b7ea61bd6e434a63",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "C",
+      "cms_symbol": "C",
+      "country": "US",
+      "cqs_symbol": "C",
+      "description": "CITIGROUP INC / US DOLLAR",
+      "display_symbol": "C/USD",
+      "nasdaq_symbol": "C",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.C/USD"
+    }
+  },
+  {
     "id": "0x93f3c1576e8e96426fb620e58b4a7401e9b4f923fe74ffdb062b830cf6ec6446",
     "attributes": {
       "asset_type": "Crypto Redemption Rate",
@@ -19107,6 +20208,20 @@
       "quote_currency": "FRXETH",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.SFRXETH/FRXETH.RR"
+    }
+  },
+  {
+    "id": "0xbbcf32c739841d1170ae2dfaf7c1bd2483df5cf241e2ecf5bce5d14cf09982b1",
+    "attributes": {
+      "asset_type": "FX",
+      "base": "GBP",
+      "description": "BRITISH POUND / AUSTRALIAN DOLLAR",
+      "display_symbol": "GBP/AUD",
+      "generic_symbol": "GBPAUD",
+      "quote_currency": "AUD",
+      "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
+      "symbol": "FX.GBP/AUD",
+      "tenor": "Spot"
     }
   },
   {
@@ -19333,7 +20448,7 @@
       "country": "US",
       "cqs_symbol": "GOOGL",
       "description": "ALPHABET INC CLASS A / US DOLLAR - EXTENDED HOURS",
-      "display_symbol": "GOOGL/USD",
+      "display_symbol": "GOOGL/USD EXTENDED",
       "nasdaq_symbol": "GOOGL",
       "publish_interval": "5",
       "quote_currency": "USD",
@@ -19513,6 +20628,20 @@
       "quote_currency": "SOL",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.JITOSOL/SOL.RR"
+    }
+  },
+  {
+    "id": "0x0f09f87641096d66f46cca991c58f258598a055c761c8825904c9a5663511329",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "RNO",
+      "country": "FR",
+      "description": "RENAULT / EURO",
+      "display_symbol": "RNO/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.FR.RNO/EUR"
     }
   },
   {
@@ -19789,6 +20918,20 @@
     }
   },
   {
+    "id": "0xb6d70f140303cf639be7f265964604d3557f94c1cc6f307fee30e3fd136cfde1",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "CBK",
+      "country": "DE",
+      "description": "COMMERZBANK AG / EURO",
+      "display_symbol": "CBK/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.CBK/EUR"
+    }
+  },
+  {
     "id": "0xa6320c8329924601f4d092dd3f562376f657fa0b5d0cba9e4385a24aaf135384",
     "attributes": {
       "asset_type": "Crypto",
@@ -19961,7 +21104,7 @@
       "country": "US",
       "cqs_symbol": "AAPL",
       "description": "APPLE INC / US DOLLAR - EXTENDED HOURS",
-      "display_symbol": "AAPL/USD",
+      "display_symbol": "AAPL/USD EXTENDED",
       "nasdaq_symbol": "AAPL",
       "publish_interval": "5",
       "quote_currency": "USD",
@@ -19983,6 +21126,20 @@
     }
   },
   {
+    "id": "0xca7cd667bb5d9b761cee478c0a13c6588f31a0a01b835094440f2e42735cd408",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "DG",
+      "country": "FR",
+      "description": "VINCI / EURO",
+      "display_symbol": "DG/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.FR.DG/EUR"
+    }
+  },
+  {
     "id": "0x306736a4035846ba15a3496eed57225b64cc19230a50d14f3ed20fd7219b7849",
     "attributes": {
       "asset_type": "Equity",
@@ -19997,6 +21154,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.HOOD/USD"
+    }
+  },
+  {
+    "id": "0x75683db2a19ee11508c48d6a060412aba145847f272a92b414216144603138bd",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "DTG",
+      "country": "DE",
+      "description": "DAIMLER TRUCK HLDG JGE / EURO",
+      "display_symbol": "DTG/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.DTG/EUR"
     }
   },
   {
@@ -20211,6 +21382,20 @@
     }
   },
   {
+    "id": "0x2d7f59647de2409151a60364d6f17224c6fba47f71be6fe7243bd41270f6d7c1",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "ERF",
+      "country": "LU",
+      "description": "EUROFINS SCIENT / EURO",
+      "display_symbol": "ERF/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.LU.ERF/EUR"
+    }
+  },
+  {
     "id": "0xf2be31eeb67f9e2bb7228aaab13fd3a7b836cfc3e6832b876d488363c21dd24a",
     "attributes": {
       "asset_type": "Equity",
@@ -20245,6 +21430,33 @@
     }
   },
   {
+    "id": "0xc4b3ed9c6672ae4a9b3721522d20c232c6ae4513560a8f3c36e83ce79cba25d9",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SGO",
+      "country": "FR",
+      "description": "SAINT GOBAIN / EURO",
+      "display_symbol": "SGO/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.FR.SGO/EUR"
+    }
+  },
+  {
+    "id": "0x0b7f9e3bb61da2a456aec7553a0d7d8ad8d5f1337fc283b24761e733c886232b",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "VADER",
+      "description": "VADERAI BY VIRTUALS / US DOLLAR",
+      "display_symbol": "VADER/USD",
+      "generic_symbol": "VADERUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.VADER/USD"
+    }
+  },
+  {
     "id": "0x18044a8755f961d11132e5d46e403143fcae8f789665a941cb5685dcc6c9ff0c",
     "attributes": {
       "asset_type": "Equity",
@@ -20262,6 +21474,20 @@
     }
   },
   {
+    "id": "0xab8450432cba5da20f949ea65fea137316b5ae8f72b179c0aa5468adc4a171b3",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "0300-HK",
+      "country": "HK",
+      "description": "MIDEA GROUP / HONG KONG DOLLAR",
+      "display_symbol": "HK.0300/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0701/C",
+      "symbol": "Equity.HK.0300-HK/HKD"
+    }
+  },
+  {
     "id": "0x4db91e379e36addcdb1cc75dcb03022bd95d5d95148c41d268348d12cbd27c18",
     "attributes": {
       "asset_type": "Equity",
@@ -20276,19 +21502,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.ALB/USD"
-    }
-  },
-  {
-    "id": "0x0b7f9e3bb61da2a456aec7553a0d7d8ad8d5f1337fc283b24761e733c886232b",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "VADER",
-      "description": "VADERAI BY VIRTUALS / US DOLLAR",
-      "display_symbol": "VADER/USD",
-      "generic_symbol": "VADERUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.VADER/USD"
     }
   },
   {
@@ -20523,6 +21736,34 @@
     }
   },
   {
+    "id": "0x4cbccb4fce8e809a44b8cfa8329e4f6360557d68c25b69e360a23f347685660e",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "CA",
+      "country": "FR",
+      "description": "CARREFOUR / EURO",
+      "display_symbol": "CA/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.FR.CA/EUR"
+    }
+  },
+  {
+    "id": "0x2cbb7654e2988d7c716adeee1e07627735686cf93d0b1b54a2ce546a0a48b56e",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BNP",
+      "country": "FR",
+      "description": "BNP PARIBAS ACTA / EURO",
+      "display_symbol": "BNP/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.FR.BNP/EUR"
+    }
+  },
+  {
     "id": "0xa711d77befd0fd9109f8d7605a45b44402959b953ae5dcd883614087a73d417b",
     "attributes": {
       "asset_type": "Equity",
@@ -20534,6 +21775,20 @@
       "quote_currency": "JPY",
       "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
       "symbol": "Equity.JP.1320/JPY"
+    }
+  },
+  {
+    "id": "0x9250b97610610a0089fe1dc2607e30bafa798a3c8a14294c07bc154cdc55f8e0",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BN",
+      "country": "FR",
+      "description": "DANONE / EURO",
+      "display_symbol": "BN/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.FR.BN/EUR"
     }
   },
   {
@@ -21390,12 +22645,26 @@
       "country": "US",
       "cqs_symbol": "AAL",
       "description": "AMERICAN AIRLINES GROUP INC / US DOLLAR - EXTENDED HOURS",
-      "display_symbol": "AAL/USD",
+      "display_symbol": "AAL/USD EXTENDED",
       "nasdaq_symbol": "AAL",
       "publish_interval": "5",
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,0000-2000,C,2000-2400;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
       "symbol": "Equity.US.AAL/USD.EXT"
+    }
+  },
+  {
+    "id": "0x54bbd063d404dd1af1ac5b22f71ebb4426eab6a75dce09a2020f13bbb64bbce2",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "AC",
+      "country": "FR",
+      "description": "ACCOR / EURO",
+      "display_symbol": "AC/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.FR.AC/EUR"
     }
   },
   {
@@ -22385,6 +23654,20 @@
     }
   },
   {
+    "id": "0xc938032d77814046034961163a44bce3e13589f6e345c72fd58726e2f613a634",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "DJTA",
+      "country": "US",
+      "description": "DOW JONES TRANSPORTATION AVERAGE / US DOLLAR",
+      "display_symbol": "DJTA/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0930-1300,0704/C",
+      "symbol": "Equity.US.DJTA/USD"
+    }
+  },
+  {
     "id": "0x70dddcb074263ce201ea9a1be5b3537e59ed5b9060d309e12d61762cfe59fb7e",
     "attributes": {
       "asset_type": "Crypto",
@@ -22622,6 +23905,20 @@
     }
   },
   {
+    "id": "0x46a5df70fd0293480b3a8fd210a401e00099d8145136e6ad6f8ac052deba4f70",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "BAS",
+      "country": "DE",
+      "description": "BASF SE / EURO",
+      "display_symbol": "BAS/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.BAS/EUR"
+    }
+  },
+  {
     "id": "0x98057002daf66705e7542c2934f246bed459c2deeacc465f2f2b137649faa5be",
     "attributes": {
       "asset_type": "Equity",
@@ -22666,6 +23963,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.VSUI/USD"
+    }
+  },
+  {
+    "id": "0xe4fc94b99d3665f7e79cb9a29539ba83b32d7ac9bf270749ae24eb4772542acf",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "TEP",
+      "country": "FR",
+      "description": "TELEPERFORMANCE / EURO",
+      "display_symbol": "TEP/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.FR.TEP/EUR"
     }
   },
   {
@@ -22976,7 +24287,7 @@
       "country": "US",
       "cqs_symbol": "XOM",
       "description": "EXXON MOBIL CORPORATION / US DOLLAR - EXTENDED HOURS",
-      "display_symbol": "XOM/USD",
+      "display_symbol": "XOM/USD EXTENDED",
       "nasdaq_symbol": "XOM",
       "publish_interval": "5",
       "quote_currency": "USD",
@@ -23171,6 +24482,34 @@
     }
   },
   {
+    "id": "0x8f67141cdb49258b2fecce3bfacdde3b17327b97e735501264eae28006f3488c",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "VOW3",
+      "country": "DE",
+      "description": "VOLKSWAGEN AG VZO / EURO",
+      "display_symbol": "VOW3/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.VOW3/EUR"
+    }
+  },
+  {
+    "id": "0xf4c712446fba2250f2092913dae9d0d636eb73a6b59fb1567390da82079e00fb",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "ADS",
+      "country": "DE",
+      "description": "ADIDAS AG / EURO",
+      "display_symbol": "ADS/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.ADS/EUR"
+    }
+  },
+  {
     "id": "0x2dd14c7c38aa7066c7a508aac299ebcde5165b07d5d9f2d94dfbfe41f0bc5f2e",
     "attributes": {
       "asset_type": "Crypto",
@@ -23327,6 +24666,20 @@
     }
   },
   {
+    "id": "0xc8ccba353936a3d1ce7c6d767d5b3e86315af2c13d4ed113a7f18d43ebb19cdb",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "HNR1",
+      "country": "DE",
+      "description": "HANNOVER RUECK SE / EURO",
+      "display_symbol": "HNR1/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.HNR1/EUR"
+    }
+  },
+  {
     "id": "0x3607bf4d7b78666bd3736c7aacaf2fd2bc56caa8667d3224971ebe3c0623292a",
     "attributes": {
       "asset_type": "Crypto",
@@ -23388,7 +24741,7 @@
       "country": "US",
       "cqs_symbol": "MSFT",
       "description": "MICROSOFT CORP / US DOLLAR - EXTENDED HOURS",
-      "display_symbol": "MSFT/USD",
+      "display_symbol": "MSFT/USD EXTENDED",
       "nasdaq_symbol": "MSFT",
       "publish_interval": "5",
       "quote_currency": "USD",
@@ -23710,6 +25063,20 @@
     }
   },
   {
+    "id": "0x461187ef2715a03fe4a53c343c681c9c2a130437faa31d9818c72d7d5deb9dcf",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "AI",
+      "country": "FR",
+      "description": "AIR LIQUIDE / EURO",
+      "display_symbol": "AI/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
+      "symbol": "Equity.FR.AI/EUR"
+    }
+  },
+  {
     "id": "0xccdeebc019c8cd28b81f47a03999f9e905e87cd9320c268908649e411be0bf2a",
     "attributes": {
       "asset_type": "Equity",
@@ -23960,6 +25327,20 @@
       "quote_currency": "USDT",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.SYRUPUSDT/USDT.RR"
+    }
+  },
+  {
+    "id": "0x3792d937b0d283267c7805c8bf7547a41cb52fb11919874ed89327b04c2fac49",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "DB1",
+      "country": "DE",
+      "description": "DEUTSCHE BOERSE AG / EURO",
+      "display_symbol": "DB1/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.DB1/EUR"
     }
   },
   {
