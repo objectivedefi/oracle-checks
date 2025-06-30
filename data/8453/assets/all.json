@@ -222,5 +222,12 @@
     "name": "yoVaultBTC",
     "symbol": "yoBTC",
     "decimals": 8
+  },
+  {
+    "address": "0x102d758f688a4C1C5a80b116bD945d4455460282",
+    "chainId": 8453,
+    "name": "Stargate USD₮0 (Bridged)",
+    "symbol": "USD₮0",
+    "decimals": 6
   }
 ]
