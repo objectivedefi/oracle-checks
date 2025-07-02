@@ -49,6 +49,14 @@
   },
   {
     "chainId": 1,
+    "pt": "0x13d4cf01484be3C7d7445D11Ec0736d307217ca6",
+    "market": "0x992D1E72b9C6b7b80747c56770C660E5eF7d5eC9",
+    "underlyingAsset": "0x80E1048eDE66ec4c364b4F22C8768fc657FF6A42",
+    "expiry": 1759363200,
+    "symbol": "upUSDC"
+  },
+  {
+    "chainId": 1,
     "pt": "0x14Bdc3A3AE09f5518b923b69489CBcAfB238e617",
     "market": "0xE93B4A93e80BD3065B290394264af5d82422ee70",
     "underlyingAsset": "0x90D2af7d622ca3141efA4d8f1F24d86E5974Cc8F",
@@ -158,6 +166,14 @@
     "underlyingAsset": "0xA484Ab92fe32B143AEE7019fC1502b1dAA522D31",
     "expiry": 1761782400,
     "symbol": "stkaUSDT"
+  },
+  {
+    "chainId": 1,
+    "pt": "0x43Ca553398042069786Fa20ffAc05F44A62d0FE5",
+    "market": "0x28CEf9526F3Af7A96A10823f79dD7bcE1940791F",
+    "underlyingAsset": "0x4f827A63755855cDf3e8f3bcD20265C833f15033",
+    "expiry": 1761782400,
+    "symbol": "stkGHO"
   },
   {
     "chainId": 1,
