@@ -9846,7 +9846,8 @@
     "feedCategory": "",
     "feedType": "",
     "docs": {
-      "hidden": true
+      "hidden": true,
+      "marketHours": "NYSE"
     },
     "decimals": 8
   },
