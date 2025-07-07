@@ -58062,6 +58062,7 @@
       "blockchainName": "Arbitrum",
       "deliveryChannelCode": "DF",
       "issuer": "Zeus Network",
+      "hidden": true,
       "marketHours": "Crypto",
       "porAuditor": "Bitcoin Network / Cross-chain",
       "porSource": "Wallet Address Manager",
