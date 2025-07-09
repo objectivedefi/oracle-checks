@@ -433,6 +433,14 @@
   },
   {
     "chainId": 1,
+    "pt": "0xC347584b415715B1b66774B2899Fef2FD3b56d6e",
+    "market": "0xff43e751f2f07BbF84Da1fc1fa12cE116bF447E5",
+    "underlyingAsset": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+    "expiry": 1758758400,
+    "symbol": "USDS-SPK"
+  },
+  {
+    "chainId": 1,
     "pt": "0xC5E17741d6717acDa377Fb3a13174D912e968C6D",
     "market": "0x4F76C940fc4F11A621CC0f04b51bD5f61D50984d",
     "underlyingAsset": "0x271C616157e69A43B4977412A64183Cf110Edf16",

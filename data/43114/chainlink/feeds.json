@@ -90,6 +90,16 @@
     "version": "6"
   },
   {
+    "address": "0x3368310bC4AeE5D96486A73bae8E6b49FcDE62D3",
+    "chainId": 43114,
+    "accessController": "0x0000000000000000000000000000000000000000",
+    "aggregator": "0xd2eB0f960e2Af673C4162c82ffBf7e967534C1D9",
+    "decimals": 8,
+    "description": "EURC / USD",
+    "owner": "0x75d8a28B87F5A88849542A7e1Ac838F19b5D34C7",
+    "version": "6"
+  },
+  {
     "address": "0xEBE676ee90Fe1112671f19b6B7459bC678B67e8a",
     "chainId": 43114,
     "accessController": "0x0000000000000000000000000000000000000000",
