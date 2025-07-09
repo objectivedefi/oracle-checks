@@ -80,7 +80,7 @@ export async function collectData(chainId: number): Promise<CollectedData> {
 
   const csvAdapterAddresses = chainConfigs[chainId].oracleAdaptersAddresses;
   const adapterRegistryAddresses = whitelistedAdapters.map((adapter) => adapter.element);
-  const historicalAdapterAddresses = historicalAdapters.map((adapter) => adapter.element);
+  const historicalAdapterAddresses = historicalAdapters;
   const adapterRegistryEntries = whitelistedAdapters.reduce(
     (acc, adapter) => {
       acc[adapter.element] = {

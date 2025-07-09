@@ -27,7 +27,7 @@ export type DeployedRouter = {
   }[];
 };
 
-type EulerApiHistoricalAdaptersResponse = Record<number, AdapterEntry[]>;
+type EulerApiHistoricalAdaptersResponse = Record<number, Address[]>;
 
 type EulerApiWhitelistedAdaptersResponse = Record<number, AdapterEntry[]>;
 
@@ -57,9 +57,9 @@ async function fetchEulerApi<T>(path: string): Promise<T> {
   return result.json() as T;
 }
 
-export async function fetchEulerApiHistoricalAdapters(chainId: number): Promise<AdapterEntry[]> {
+export async function fetchEulerApiHistoricalAdapters(chainId: number): Promise<Address[]> {
   return fetchEulerApi<EulerApiHistoricalAdaptersResponse>(
-    `/v1/oracle/whitelisted-adapters?chainId=${chainId}`,
+    `/v1/oracle/historical-adapters?chainId=${chainId}`,
   )
     .then((data) => data[chainId])
     .catch((error) => {

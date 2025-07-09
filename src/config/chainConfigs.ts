@@ -13,6 +13,7 @@ import {
   polygon,
   sonic,
   swellchain,
+  tac,
   unichain,
 } from "viem/chains";
 
@@ -31,7 +32,6 @@ const defaultBounds = {
 export const chainConfigs: Record<number, CheckConfig> = {
   [mainnet.id]: {
     publicClient: getClient(mainnet),
-    fromBlock: 20541273n,
     metadataHashes,
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {
@@ -73,7 +73,6 @@ export const chainConfigs: Record<number, CheckConfig> = {
   },
   [optimism.id]: {
     publicClient: getClient(optimism),
-    fromBlock: 131522277n,
     metadataHashes,
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {},
@@ -82,7 +81,6 @@ export const chainConfigs: Record<number, CheckConfig> = {
   },
   [gnosis.id]: {
     publicClient: getClient(gnosis),
-    fromBlock: 38384051n,
     metadataHashes,
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {},
@@ -91,7 +89,6 @@ export const chainConfigs: Record<number, CheckConfig> = {
   },
   [unichain.id]: {
     publicClient: getClient(unichain),
-    fromBlock: 8541493n,
     metadataHashes,
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {},
@@ -100,7 +97,6 @@ export const chainConfigs: Record<number, CheckConfig> = {
   },
   [polygon.id]: {
     publicClient: getClient(polygon),
-    fromBlock: 64475526n,
     metadataHashes,
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {},
@@ -109,7 +105,6 @@ export const chainConfigs: Record<number, CheckConfig> = {
   },
   [sonic.id]: {
     publicClient: getClient(sonic),
-    fromBlock: 5324531n,
     metadataHashes,
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {
@@ -135,7 +130,6 @@ export const chainConfigs: Record<number, CheckConfig> = {
   },
   [swellchain.id]: {
     publicClient: getClient(swellchain),
-    fromBlock: 485320n,
     metadataHashes,
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {},
@@ -144,7 +138,6 @@ export const chainConfigs: Record<number, CheckConfig> = {
   },
   [corn.id]: {
     publicClient: getClient(corn),
-    fromBlock: 221011n,
     metadataHashes,
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {},
@@ -153,7 +146,6 @@ export const chainConfigs: Record<number, CheckConfig> = {
   },
   [arbitrum.id]: {
     publicClient: getClient(arbitrum),
-    fromBlock: 300691039n,
     metadataHashes,
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {},
@@ -162,7 +154,6 @@ export const chainConfigs: Record<number, CheckConfig> = {
   },
   [avalanche.id]: {
     publicClient: getClient(avalanche),
-    fromBlock: 56805692n,
     metadataHashes,
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {},
@@ -171,7 +162,6 @@ export const chainConfigs: Record<number, CheckConfig> = {
   },
   [bsc.id]: {
     publicClient: getClient(bsc),
-    fromBlock: 46370642n,
     metadataHashes,
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {},
@@ -189,7 +179,6 @@ export const chainConfigs: Record<number, CheckConfig> = {
         },
       },
     }),
-    fromBlock: 402613n,
     metadataHashes,
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {},
@@ -198,7 +187,6 @@ export const chainConfigs: Record<number, CheckConfig> = {
   },
   [bob.id]: {
     publicClient: getClient(bob),
-    fromBlock: 11481883n,
     metadataHashes,
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {
@@ -241,7 +229,6 @@ export const chainConfigs: Record<number, CheckConfig> = {
         },
       },
     }),
-    fromBlock: 786266n,
     maxBlockRange: 100000n,
     metadataHashes,
     fallbackAssets,
@@ -264,7 +251,6 @@ export const chainConfigs: Record<number, CheckConfig> = {
   },
   [base.id]: {
     publicClient: getClient(base),
-    fromBlock: 22282357n,
     metadataHashes,
     fallbackAssets,
     otherRecognizedAggregatorV3Feeds: {
@@ -279,5 +265,14 @@ export const chainConfigs: Record<number, CheckConfig> = {
     },
     ...defaultBounds,
     ...getAddressesForChain(base.id),
+  },
+
+  [tac.id]: {
+    publicClient: getClient(tac),
+    metadataHashes,
+    fallbackAssets,
+    otherRecognizedAggregatorV3Feeds: {},
+    ...defaultBounds,
+    ...getAddressesForChain(tac.id),
   },
 };
