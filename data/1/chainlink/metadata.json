@@ -1706,6 +1706,33 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x338D40F6ECE677d621612237AaCd911422b11B91",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "jaaa-nav",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000",
+    "name": "JAAA NAV",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "jaaa-nav",
+    "proxyAddress": "0x1E41Ef40AC148706c114534E8192Ca608f80fC48",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 6
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x347b3886BdC7242Ae7f5f00398e801c8bfA8F52C",
     "contractType": "",
     "contractVersion": 6,
@@ -3731,6 +3758,33 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x6B3A1CFFD3136cfF5C49F3379A4Da721Bc4f5d68",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "buidl-nav",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 97200,
+    "history": null,
+    "multiply": "100",
+    "name": "BUIDL NAV",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "buidl-nav",
+    "proxyAddress": "0x6029F53A5Df21E5e70C460F5E4c9Aad20427B090",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 2
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x6Cc5173Ffd8d674C64f2DC7237730Ff021829865",
     "contractType": "",
     "contractVersion": 6,
@@ -3934,6 +3988,33 @@
       "quoteAssetClic": "ETH_CR"
     },
     "decimals": 18
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x73F4D6dFC25585E8281bFdf0bea7e86a1d9f19AA",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "jtrsy-nav",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 97200,
+    "history": null,
+    "multiply": "1000000",
+    "name": "JTRSY NAV",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "jtrsy-nav",
+    "proxyAddress": "0x23adce82907D20c509101E2Af0723A9e16224EFb",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 6
   },
   {
     "compareOffchain": "",
@@ -8168,6 +8249,33 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0xC30f3447015278BfB50457EE0a94CD88f4db1792",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "wtgxx-nav",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 97200,
+    "history": null,
+    "multiply": "100000000",
+    "name": "WTGXX NAV",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "wtgxx-nav",
+    "proxyAddress": "0x1DE472E766E87eB993d0C7904367014a913E55ee",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0xC499ec76e2F5ac15e127A352Bc40cF24FC472401",
     "contractType": "",
     "contractVersion": 6,
@@ -10050,6 +10158,33 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0xda069434C65889041154117278F0aF98f0893955",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "usyc-nav",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 97200,
+    "history": null,
+    "multiply": "100000000",
+    "name": "USYC NAV",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "usyc-nav",
+    "proxyAddress": "0xE8E65Fb9116875012F5990Ecaab290B3531DbeB9",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0xdaA1c6511Aa051e9e83Dd7Ac2D65d5E41D1f6b98",
     "contractType": "",
     "contractVersion": 6,
@@ -10288,6 +10423,33 @@
       "quoteAsset": "USD",
       "quoteAssetClic": "USD_FX"
     },
+    "decimals": 8
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0xf17CB308606999DF25F5d4B9f74bD9fe47A5b3b3",
+    "contractType": "",
+    "contractVersion": 6,
+    "decimalPlaces": null,
+    "ens": "tbill-nav",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 97200,
+    "history": null,
+    "multiply": "100000000",
+    "name": "TBILL NAV",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "tbill-nav",
+    "proxyAddress": "0xAbE7a3643615Ed32d3431e11E0Ee5A486Cb27d48",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "",
+    "feedType": "",
+    "docs": {},
     "decimals": 8
   },
   {
