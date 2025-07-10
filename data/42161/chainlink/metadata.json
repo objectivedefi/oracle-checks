@@ -22825,6 +22825,102 @@
     "healthPrice": "",
     "history": null,
     "multiply": "1000000000000000000",
+    "name": "HOOD/USD-Streams-EquityPrice-Timestamped-mainnet-production",
+    "pair": [
+      "HOOD",
+      "USD"
+    ],
+    "path": "hood-usd-streams-equityprice-timestamped-mainnet-production",
+    "proxyAddress": null,
+    "threshold": 0,
+    "valuePrefix": "",
+    "assetName": "Robinhood Markets Inc",
+    "feedCategory": "low",
+    "feedType": "Equities",
+    "docs": {
+      "assetClass": "Equity",
+      "assetSubClass": "US",
+      "assetName": "Robinhood Markets Inc",
+      "baseAsset": "HOOD",
+      "baseAssetClic": "HOOD_EQ",
+      "clicProductName": "HOOD/USD-EquityPrice-DS-Premium-Global-004",
+      "deliveryChannelCode": "DS",
+      "feedCategory": "low",
+      "feedType": "Equities",
+      "hidden": true,
+      "marketHours": "NYSE",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "EquityPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 18,
+    "feedId": "0x00088cf407215dc12239f90b6b4837571aca4939a65cfa564a50af23f48aef37",
+    "sourceChain": 42161,
+    "status": "live",
+    "oracles": [
+      {
+        "operator": "mercury-chainlayer-2"
+      },
+      {
+        "operator": "mercury-chainlink-2"
+      },
+      {
+        "operator": "mercury-galaxy-2"
+      },
+      {
+        "operator": "mercury-dexTrac-2"
+      },
+      {
+        "operator": "mercury-fiews-2"
+      },
+      {
+        "operator": "mercury-inotel-2"
+      },
+      {
+        "operator": "mercury-linkForest-2"
+      },
+      {
+        "operator": "mercury-linkPool-2"
+      },
+      {
+        "operator": "mercury-linkRiver-2"
+      },
+      {
+        "operator": "mercury-newRoad-2"
+      },
+      {
+        "operator": "mercury-pierTwo-2"
+      },
+      {
+        "operator": "mercury-simplyVC-2"
+      },
+      {
+        "operator": "mercury-snzPool-2"
+      },
+      {
+        "operator": "mercury-syncnode-2"
+      },
+      {
+        "operator": "mercury-validationCloud-2"
+      },
+      {
+        "operator": "mercury-tiingo-2"
+      }
+    ]
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "contractType": "verifier",
+    "contractVersion": 1001,
+    "decimalPlaces": null,
+    "ens": null,
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "history": null,
+    "multiply": "1000000000000000000",
     "name": "NVDA/USD-Streams-EquityPrice-Timestamped-mainnet-production",
     "pair": [
       "NVDA",
