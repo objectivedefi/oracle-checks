@@ -16082,7 +16082,7 @@
     "attributes": {
       "asset_type": "Crypto Redemption Rate",
       "base": "KHYPE",
-      "contract_id": "hype: 0x25Ce769757c418c58e623742A43b6f65aEBfeF22",
+      "contract_id": "hype: 0x9209648Ec9D448EF57116B73A2f081835643dc7A",
       "description": "KINETIQ STAKED HYPE / HYPE REDEMPTION RATE",
       "display_symbol": "KHYPE/HYPE",
       "generic_symbol": "KHYPEHYPE",
