@@ -980,6 +980,13 @@
     "decimals": 18
   },
   {
+    "address": "0xE2Fc85BfB48C4cF147921fBE110cf92Ef9f26F94",
+    "chainId": 1,
+    "name": "Staked Stream USD",
+    "symbol": "xUSD",
+    "decimals": 6
+  },
+  {
     "address": "0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8",
     "chainId": 1,
     "name": "EURA (previously agEUR)",
