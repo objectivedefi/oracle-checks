@@ -4827,6 +4827,350 @@
     "whitelisted": true
   },
   {
+    "name": "FixedRateOracle",
+    "address": "0x256f8fA018e8e6F5B54b1fF708efd5ec73E20AC6",
+    "chainId": 1,
+    "base": "0xDD629E5241CbC5919847783e6C96B2De4754e438",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "rate": "1000000000000000000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xDD629E5241CbC5919847783e6C96B2De4754e438 is mTBILL (Midas US Treasury Bill Token) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Sane fixed rate",
+        "severity": "High",
+        "message": "Adapter has a fixed rate of 1.",
+        "pass": true
+      }
+    ],
+    "label": "1:1 mTBILL/USD",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "Fixed Rate",
+    "whitelisted": true
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x7F12be038cA9143085fdaff550C883baEbA53fc5",
+    "chainId": 1,
+    "base": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+    "cross": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0xDC8af46aDF7143e58047beECA27210D6dc760721",
+    "oracleCrossQuote": "0x6213f24332D35519039f2afa7e3BffE105a37d3F",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf is cbBTC (Coinbase Wrapped BTC) with 8 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 is USDC (USD Coin) with 6 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "cbBTC/USDC/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": true
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x5Ed2652E6cEfeC93A327A668ac90D08f727c6299",
+    "chainId": 1,
+    "base": "0x8236a87084f8B84306f72007F36F2618A5634494",
+    "cross": "0xbBbBBBBbbBBBbbbBbbBbbbbBBbBbbbbBbBbbBBbB",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x8a14C0190385cA8D9Ac7a134af39f7EBb13D5782",
+    "oracleCrossQuote": "0x0484Df76f561443d93548D86740b5C4A826e5A33",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x8236a87084f8B84306f72007F36F2618A5634494 is LBTC (Lombard Staked Bitcoin) with 8 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xbBbBBBBbbBBBbbbBbbBbbbbBBbBbbbbBbBbbBBbB is a special designator address.",
+        "pass": true
+      }
+    ],
+    "label": "LBTC/BTC/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": true
+  },
+  {
+    "name": "ChronicleOracle",
+    "address": "0x420a9855fA5FE985b9A6458780214a2700e0D9c6",
+    "chainId": 1,
+    "base": "0x56072C95FAA701256059aa122697B133aDEd9279",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x9f7Ce792d0ee09a6ce89eC2B9B236A44B0aCf73e",
+    "maxStaleness": "46800",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x56072C95FAA701256059aa122697B133aDEd9279 is SKY (SKY Governance Token) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      }
+    ],
+    "label": "SKY/USD",
+    "methodology": "Unknown",
+    "model": "Push",
+    "provider": "Chronicle",
+    "whitelisted": true
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0xB2aC09dAF497D660cB3A8D73823D6bBA94449dB2",
+    "chainId": 1,
+    "base": "0x5a5b93F762739fa94F3EcC0b34Af2e56702E7f70",
+    "cross": "0x66a1E37c9b0eAddca17d3662D6c05F4DECf3e110",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x2ae2a5a014a1c02d646fA39ae086F53291e152f5",
+    "oracleCrossQuote": "0x4FD36Cd1C23BE30db86679f391087fd8a984f893",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x5a5b93F762739fa94F3EcC0b34Af2e56702E7f70 is PT-USR-4SEP2025 (PT Resolv USD 4SEP2025) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x66a1E37c9b0eAddca17d3662D6c05F4DECf3e110 is USR (Resolv USD) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "PT-USR-4SEP2025/USR/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": false
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0xd782D26c98892F5bEb50222d23c488fA4067AF50",
+    "chainId": 1,
+    "base": "0x699e04F98dE2Fc395a7dcBf36B48EC837A976490",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6",
+    "maxStaleness": "90000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x699e04F98dE2Fc395a7dcBf36B48EC837A976490 is tacUSD (Turtle TAC USD Vault) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+        "pass": true
+      }
+    ],
+    "label": "USDC / USD (0.25%, 86400s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "Chainlink",
+    "whitelisted": false
+  },
+  {
     "name": "ChainlinkOracle",
     "address": "0xE9c9eF4b49ECE9f4Ab7d3a919cc4CD04542ac064",
     "chainId": 1,
@@ -5405,65 +5749,6 @@
   },
   {
     "name": "CrossAdapter",
-    "address": "0x5Ed2652E6cEfeC93A327A668ac90D08f727c6299",
-    "chainId": 1,
-    "base": "0x8236a87084f8B84306f72007F36F2618A5634494",
-    "cross": "0xbBbBBBBbbBBBbbbBbbBbbbbBBbBbbbbBbBbbBBbB",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0x8a14C0190385cA8D9Ac7a134af39f7EBb13D5782",
-    "oracleCrossQuote": "0x0484Df76f561443d93548D86740b5C4A826e5A33",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is whitelisted in the adapter registry.",
-        "pass": true
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x8236a87084f8B84306f72007F36F2618A5634494 is LBTC (Lombard Staked Bitcoin) with 8 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xbBbBBBBbbBBBbbbBbbBbbbbBBbBbbbbBbBbbBBbB is a special designator address.",
-        "pass": true
-      }
-    ],
-    "label": "LBTC/BTC/USD",
-    "methodology": "Unknown",
-    "model": "Unknown",
-    "provider": "Cross",
-    "whitelisted": true
-  },
-  {
-    "name": "CrossAdapter",
     "address": "0xd9274249FD71413342F75168c476CC357B17A3A1",
     "chainId": 1,
     "base": "0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7",
@@ -5771,174 +6056,6 @@
     "methodology": "Market Price",
     "model": "Pull",
     "provider": "Pyth",
-    "whitelisted": true
-  },
-  {
-    "name": "FixedRateOracle",
-    "address": "0x256f8fA018e8e6F5B54b1fF708efd5ec73E20AC6",
-    "chainId": 1,
-    "base": "0xDD629E5241CbC5919847783e6C96B2De4754e438",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "rate": "1000000000000000000",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is whitelisted in the adapter registry.",
-        "pass": true
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xDD629E5241CbC5919847783e6C96B2De4754e438 is mTBILL (Midas US Treasury Bill Token) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Sane fixed rate",
-        "severity": "High",
-        "message": "Adapter has a fixed rate of 1.",
-        "pass": true
-      }
-    ],
-    "label": "1:1 mTBILL/USD",
-    "methodology": "Exchange Rate",
-    "model": "Push",
-    "provider": "Fixed Rate",
-    "whitelisted": true
-  },
-  {
-    "name": "CrossAdapter",
-    "address": "0x7F12be038cA9143085fdaff550C883baEbA53fc5",
-    "chainId": 1,
-    "base": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
-    "cross": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0xDC8af46aDF7143e58047beECA27210D6dc760721",
-    "oracleCrossQuote": "0x6213f24332D35519039f2afa7e3BffE105a37d3F",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is whitelisted in the adapter registry.",
-        "pass": true
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf is cbBTC (Coinbase Wrapped BTC) with 8 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 is USDC (USD Coin) with 6 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "cbBTC/USDC/USD",
-    "methodology": "Unknown",
-    "model": "Unknown",
-    "provider": "Cross",
-    "whitelisted": true
-  },
-  {
-    "name": "ChronicleOracle",
-    "address": "0x420a9855fA5FE985b9A6458780214a2700e0D9c6",
-    "chainId": 1,
-    "base": "0x56072C95FAA701256059aa122697B133aDEd9279",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "feed": "0x9f7Ce792d0ee09a6ce89eC2B9B236A44B0aCf73e",
-    "maxStaleness": "46800",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is whitelisted in the adapter registry.",
-        "pass": true
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x56072C95FAA701256059aa122697B133aDEd9279 is SKY (SKY Governance Token) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      }
-    ],
-    "label": "SKY/USD",
-    "methodology": "Unknown",
-    "model": "Push",
-    "provider": "Chronicle",
     "whitelisted": true
   },
   {
@@ -6490,6 +6607,183 @@
   },
   {
     "name": "CrossAdapter",
+    "address": "0xCaB67D0C1F30c961754466818DD333f3902e68F4",
+    "chainId": 1,
+    "base": "0x61439b9575278054D69c9176d88FaFaf8319E4b7",
+    "cross": "0x35D8949372D46B7a3D5A56006AE77B215fc69bC0",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x182CF2A51672c71227Ea1fEDE9C8Ed285C158fAc",
+    "oracleCrossQuote": "0x5e40D34DEA07f7dd3818ec3EA044B5dB87Db785c",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x61439b9575278054D69c9176d88FaFaf8319E4b7 is PT-USD0++-30JAN2025 (PT USD0++ 30JAN2025) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is USD0++ (USD0 Liquid Bond) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "PT-USD0++-30JAN2025/USD0++/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": true
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0xbE37356aECd50Aa57cb545eD25053055898611de",
+    "chainId": 1,
+    "base": "0x5BaE9a5D67d1CA5b09B14c91935f635CFBF3b685",
+    "cross": "0x35D8949372D46B7a3D5A56006AE77B215fc69bC0",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0xC1F6c8E2F625d7f60Bf4b84e34ab0F0b53AD2C6F",
+    "oracleCrossQuote": "0x5e40D34DEA07f7dd3818ec3EA044B5dB87Db785c",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x5BaE9a5D67d1CA5b09B14c91935f635CFBF3b685 is PT-USD0++-27MAR2025 (PT USD0++ 27MAR2025) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is USD0++ (USD0 Liquid Bond) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "PT-USD0++-27MAR2025/USD0++/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": true
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x1E87e5D9F675F4883cd81f6Cf4B92E03cc326eBF",
+    "chainId": 1,
+    "base": "0xf696FE29Ef85E892b5926313897D178288faA07e",
+    "cross": "0x35D8949372D46B7a3D5A56006AE77B215fc69bC0",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x5163195bDac96b9be790c80eDbC55BE03F436e0b",
+    "oracleCrossQuote": "0x5e40D34DEA07f7dd3818ec3EA044B5dB87Db785c",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xf696FE29Ef85E892b5926313897D178288faA07e is PT-USD0++-26JUN2025 (PT USD0++ 26JUN2025) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is USD0++ (USD0 Liquid Bond) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "PT-USD0++-26JUN2025/USD0++/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": true
+  },
+  {
+    "name": "CrossAdapter",
     "address": "0x62Fd67Db5108bC9d050895a799810153fa976ded",
     "chainId": 1,
     "base": "0xB997B3418935A1Df0F914Ee901ec83927c1509A0",
@@ -6605,6 +6899,594 @@
     "model": "Unknown",
     "provider": "Cross",
     "whitelisted": true
+  },
+  {
+    "name": "PendleUniversalOracle",
+    "address": "0x0A521133C4F6505Dd730be3296cB48E4D8a776f3",
+    "chainId": 1,
+    "base": "0x5b1578E2604B91bd7b24F86F0E5EF6C024bB3a14",
+    "quote": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "pendleMarket": "0x7da97FbFAA3020f856C60EB4EF068079A9023Aca",
+    "twapWindow": "900",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x5b1578E2604B91bd7b24F86F0E5EF6C024bB3a14 is PT-hgETH-25JUN2026 (PT Kelp High Growth ETH 25JUN2026) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 is WETH (Wrapped Ether) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x7da97FbFAA3020f856C60EB4EF068079A9023Aca is PENDLE-LPT (Pendle Market) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "hgETH",
+    "methodology": "TWAP",
+    "model": "Push",
+    "provider": "Pendle",
+    "whitelisted": false
+  },
+  {
+    "address": "0xB4970Bd6FE2a3B3F2B911cC8338834272a695735"
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0x3bDcB804Fd42Ccb2B7Cf329fa07724bEcB872970",
+    "chainId": 1,
+    "base": "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x26C46B7aD0012cA71F2298ada567dC9Af14E7f2A",
+    "maxStaleness": "90000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD is RLUSD (RLUSD) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+        "pass": true
+      }
+    ],
+    "label": "RLUSD / USD (0.3%, 86400s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "Chainlink",
+    "whitelisted": false
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0xD0dAb9eDb2b1909802B03090eFBF14743E7Ff967",
+    "chainId": 1,
+    "base": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0xfF30586cD0F29eD462364C7e81375FC0C71219b1",
+    "maxStaleness": "90000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xdC035D45d973E3EC169d2276DDab16f1e407384F is USDS (USDS Stablecoin) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+        "pass": true
+      }
+    ],
+    "label": "USDS / USD (0.3%, 86400s)",
+    "methodology": "Market Price",
+    "model": "Push",
+    "provider": "Chainlink",
+    "whitelisted": true
+  },
+  {
+    "name": "ChainlinkInfrequentOracle",
+    "address": "0x93840A424aBc32549809Dd0Bc07cEb56E137221C",
+    "chainId": 1,
+    "base": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0xbC5FBcf58CeAEa19D523aBc76515b9AEFb5cfd58",
+    "maxStaleness": "90000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3 is USDe (USDe) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Feed heartbeat is unknown",
+        "pass": false
+      }
+    ],
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
+    "model": "Push",
+    "provider": "Unknown",
+    "whitelisted": false
+  },
+  {
+    "name": "ChainlinkInfrequentOracle",
+    "address": "0xE3Dce6a38A529B97B69cA47778c933b61b17535E",
+    "chainId": 1,
+    "base": "0xC139190F447e929f090Edeb554D95AbB8b18aC1C",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x692F045EFaC629a4d3C54DE4d8dDb1D225b5A976",
+    "maxStaleness": "90000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xC139190F447e929f090Edeb554D95AbB8b18aC1C is USDtb (USDtb) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Feed heartbeat is unknown",
+        "pass": false
+      }
+    ],
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
+    "model": "Push",
+    "provider": "Unknown",
+    "whitelisted": false
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0xD9DF01449BA6E3a4b2Ad2B4e92e9b5d6a7C8B66B",
+    "chainId": 1,
+    "base": "0x917459337CaAC939D41d7493B3999f571D20D667",
+    "cross": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0xBf9fC05C99bDBa25fb44dfB323dE445178C0FbF3",
+    "oracleCrossQuote": "0x93840A424aBc32549809Dd0Bc07cEb56E137221C",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x917459337CaAC939D41d7493B3999f571D20D667 is PT-USDe-31JUL2025 (PT Ethena USDe 31JUL2025) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3 is USDe (USDe) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "PT-USDe-31JUL2025/USDe/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": false
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x7351d14F0D8Ad684302578e3f8F7D2bD161DA435",
+    "chainId": 1,
+    "base": "0x3b3fB9C57858EF816833dC91565EFcd85D96f634",
+    "cross": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0xF05CA1D76a7d5859014b8606ab69C6D41629109C",
+    "oracleCrossQuote": "0x93840A424aBc32549809Dd0Bc07cEb56E137221C",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x3b3fB9C57858EF816833dC91565EFcd85D96f634 is PT-sUSDE-31JUL2025 (PT Ethena sUSDE 31JUL2025) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3 is USDe (USDe) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "PT-sUSDE-31JUL2025/USDe/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": false
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x29E1163590EB05c84747edE225A11Ce555B36Ce8",
+    "chainId": 1,
+    "base": "0x14Bdc3A3AE09f5518b923b69489CBcAfB238e617",
+    "cross": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0xE0C993DdC0Bd15283e3941839aA55345b79e7059",
+    "oracleCrossQuote": "0x93840A424aBc32549809Dd0Bc07cEb56E137221C",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x14Bdc3A3AE09f5518b923b69489CBcAfB238e617 is PT-eUSDE-14AUG2025 (PT Ethereal eUSDE 14AUG2025) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3 is USDe (USDe) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "PT-eUSDE-14AUG2025/USDe/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": false
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0xe635E116D38ED5db736E620dD5c839a9A119f3F5",
+    "chainId": 1,
+    "base": "0xCcE7D12f683c6dAe700154f0BAdf779C0bA1F89A",
+    "cross": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x82dac52F6aA25d9b6Fe024Eb73f6eaB9afE85Dc3",
+    "oracleCrossQuote": "0x6213f24332D35519039f2afa7e3BffE105a37d3F",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xCcE7D12f683c6dAe700154f0BAdf779C0bA1F89A is PT-syrupUSDC-28AUG2025 (PT Syrup USDC 28AUG2025) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 is USDC (USD Coin) with 6 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "PT-syrupUSDC-28AUG2025/USDC/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": false
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x011088B8725eef48cAdFf5fb290E186B2AEd83f5",
+    "chainId": 1,
+    "base": "0xFfEc096c087C13Cc268497B89A613cACE4DF9A48",
+    "cross": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0xc040c98A4044Ec310fCd1C24D6f2129f757dc6c9",
+    "oracleCrossQuote": "0xD0dAb9eDb2b1909802B03090eFBF14743E7Ff967",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xFfEc096c087C13Cc268497B89A613cACE4DF9A48 is PT-USDS-14AUG2025 (PT USDS Stablecoin 14AUG2025) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xdC035D45d973E3EC169d2276DDab16f1e407384F is USDS (USDS Stablecoin) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "PT-USDS-14AUG2025/USDS/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": false
   },
   {
     "name": "CrossAdapter",
@@ -7468,124 +8350,6 @@
       }
     ],
     "label": "PT-corn-SolvBTC.BBN-26DEC2024/WBTC/USD",
-    "methodology": "Unknown",
-    "model": "Unknown",
-    "provider": "Cross",
-    "whitelisted": true
-  },
-  {
-    "name": "CrossAdapter",
-    "address": "0xbE37356aECd50Aa57cb545eD25053055898611de",
-    "chainId": 1,
-    "base": "0x5BaE9a5D67d1CA5b09B14c91935f635CFBF3b685",
-    "cross": "0x35D8949372D46B7a3D5A56006AE77B215fc69bC0",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0xC1F6c8E2F625d7f60Bf4b84e34ab0F0b53AD2C6F",
-    "oracleCrossQuote": "0x5e40D34DEA07f7dd3818ec3EA044B5dB87Db785c",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is whitelisted in the adapter registry.",
-        "pass": true
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x5BaE9a5D67d1CA5b09B14c91935f635CFBF3b685 is PT-USD0++-27MAR2025 (PT USD0++ 27MAR2025) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is USD0++ (USD0 Liquid Bond) with 18 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "PT-USD0++-27MAR2025/USD0++/USD",
-    "methodology": "Unknown",
-    "model": "Unknown",
-    "provider": "Cross",
-    "whitelisted": true
-  },
-  {
-    "name": "CrossAdapter",
-    "address": "0x1E87e5D9F675F4883cd81f6Cf4B92E03cc326eBF",
-    "chainId": 1,
-    "base": "0xf696FE29Ef85E892b5926313897D178288faA07e",
-    "cross": "0x35D8949372D46B7a3D5A56006AE77B215fc69bC0",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0x5163195bDac96b9be790c80eDbC55BE03F436e0b",
-    "oracleCrossQuote": "0x5e40D34DEA07f7dd3818ec3EA044B5dB87Db785c",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is whitelisted in the adapter registry.",
-        "pass": true
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xf696FE29Ef85E892b5926313897D178288faA07e is PT-USD0++-26JUN2025 (PT USD0++ 26JUN2025) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is USD0++ (USD0 Liquid Bond) with 18 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "PT-USD0++-26JUN2025/USD0++/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -8732,65 +9496,6 @@
   },
   {
     "name": "CrossAdapter",
-    "address": "0xCaB67D0C1F30c961754466818DD333f3902e68F4",
-    "chainId": 1,
-    "base": "0x61439b9575278054D69c9176d88FaFaf8319E4b7",
-    "cross": "0x35D8949372D46B7a3D5A56006AE77B215fc69bC0",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0x182CF2A51672c71227Ea1fEDE9C8Ed285C158fAc",
-    "oracleCrossQuote": "0x5e40D34DEA07f7dd3818ec3EA044B5dB87Db785c",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is whitelisted in the adapter registry.",
-        "pass": true
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x61439b9575278054D69c9176d88FaFaf8319E4b7 is PT-USD0++-30JAN2025 (PT USD0++ 30JAN2025) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is USD0++ (USD0 Liquid Bond) with 18 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "PT-USD0++-30JAN2025/USD0++/USD",
-    "methodology": "Unknown",
-    "model": "Unknown",
-    "provider": "Cross",
-    "whitelisted": true
-  },
-  {
-    "name": "CrossAdapter",
     "address": "0xa0a9511fCb0FCC9Ea046abb417A2703D62F1Edd7",
     "chainId": 1,
     "base": "0xb7de5dFCb74d25c2f21841fbd6230355C50d9308",
@@ -8905,6 +9610,524 @@
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
+    "whitelisted": true
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x62b1dEb38EaD3fE18110f0EeD52E04626DB25F61",
+    "chainId": 1,
+    "base": "0x136389D329968bD82efe05F0911Eeb20eE74A138",
+    "cross": "0x35D8949372D46B7a3D5A56006AE77B215fc69bC0",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0xa115C05a45C7d1aE49F6AaFa25be18385F9551C1",
+    "oracleCrossQuote": "0x1B20C61d1b4b50FF836B82A206e43618bf4Acb74",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x136389D329968bD82efe05F0911Eeb20eE74A138 is PT-USD0++-27NOV2025 (PT USD0++ 27NOV2025) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is USD0++ (USD0 Liquid Bond) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "PT-USD0++-27NOV2025/USD0++/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": false
+  },
+  {
+    "name": "RateProviderOracle",
+    "address": "0x49e4d0aEa709F69EcB25b1F7D9Bd44c4d9c5c455",
+    "chainId": 1,
+    "base": "0xD9A442856C234a39a81a089C06451EBAa4306a72",
+    "quote": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "rateProvider": "0x71f80e2CfAFA5EC2F0bF12f71FA7Ea57c3D0c7Af",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xD9A442856C234a39a81a089C06451EBAa4306a72 is pufETH (pufETH) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 is WETH (Wrapped Ether) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "pufETH/WETH",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "Rate Provider",
+    "whitelisted": false
+  },
+  {
+    "name": "RateProviderOracle",
+    "address": "0xFE0Ff10BF1837843250E18C820Db06C0464DDfDB",
+    "chainId": 1,
+    "base": "0xD7D2802f6b19843ac4DfE25022771FD83b5A7464",
+    "quote": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "rateProvider": "0x71f80e2CfAFA5EC2F0bF12f71FA7Ea57c3D0c7Af",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xD7D2802f6b19843ac4DfE25022771FD83b5A7464 is xPufETH (xPufETH) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 is WETH (Wrapped Ether) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "xPufETH/WETH",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "Rate Provider",
+    "whitelisted": false
+  },
+  {
+    "address": "0x02a4497378138c01e06e877bc74C9654cd4160C7"
+  },
+  {
+    "name": "FixedRateOracle",
+    "address": "0xD35657aE033A86FFa8fc6Bc767C5eb57C7c3D4B8",
+    "chainId": 1,
+    "base": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "rate": "1000000000000000000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 is USDC (USD Coin) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Sane fixed rate",
+        "severity": "High",
+        "message": "Adapter has a fixed rate of 1.",
+        "pass": true
+      }
+    ],
+    "label": "1:1 USDC/USD",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "Fixed Rate",
+    "whitelisted": false
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x8424db29b3f19a6B494d20cB3071669fd277Ed0C",
+    "chainId": 1,
+    "base": "0x97cCC1C046d067ab945d3CF3CC6920D3b1E54c88",
+    "cross": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x260e8fDDC56c598e5fbf6C2aF62959f7d84BdC68",
+    "oracleCrossQuote": "0xD35657aE033A86FFa8fc6Bc767C5eb57C7c3D4B8",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x97cCC1C046d067ab945d3CF3CC6920D3b1E54c88 is USP (Pareto synthetic dollar USP) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 is USDC (USD Coin) with 6 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "USP/USDC/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": false
+  },
+  {
+    "address": "0x683a341BDb03548a8ebbD1D9045D07C5a147F9bC"
+  },
+  {
+    "address": "0x5be59272d453f3AEA1c94e050a85a7c722E89627"
+  },
+  {
+    "name": "FixedRateOracle",
+    "address": "0x4cFa6e2783C02Ce427d720e22e574C8C89c3b7c1",
+    "chainId": 1,
+    "base": "0x97cCC1C046d067ab945d3CF3CC6920D3b1E54c88",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "rate": "1000000000000000000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x97cCC1C046d067ab945d3CF3CC6920D3b1E54c88 is USP (Pareto synthetic dollar USP) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Sane fixed rate",
+        "severity": "High",
+        "message": "Adapter has a fixed rate of 1.",
+        "pass": true
+      }
+    ],
+    "label": "1:1 USP/USD",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "Fixed Rate",
+    "whitelisted": false
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x74b77011c244bD7EDff34E4cbf23fe41DeFA313d",
+    "chainId": 1,
+    "base": "0xD11c452fc99cF405034ee446803b6F6c1F6d5ED8",
+    "cross": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x7e262cD6226328AaF4eA5C993a952E18Dd633Bc8",
+    "oracleCrossQuote": "0x6FA8E73139E3e9dbcF3be9D3f185Ffbc2F58C957",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xD11c452fc99cF405034ee446803b6F6c1F6d5ED8 is tETH (Treehouse ETH) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0 is wstETH (Wrapped liquid staked Ether 2.0) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "tETH/wstETH/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": true
+  },
+  {
+    "name": "ChainlinkInfrequentOracle",
+    "address": "0xC8228b83F1d97a431A48bd9Bc3e971c8b418d889",
+    "chainId": 1,
+    "base": "0xbB51E2a15A9158EBE2b0Ceb8678511e063AB7a55",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x698dA5D987a71b68EbF30C1555cfd38F190406b7",
+    "maxStaleness": "31536000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xbB51E2a15A9158EBE2b0Ceb8678511e063AB7a55 is mEDGE (Midas mEDGE) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Feed heartbeat is unknown",
+        "pass": false
+      }
+    ],
+    "label": "Midas mEDGE/USD Oracle ",
+    "methodology": "Unknown",
+    "model": "Push",
+    "provider": "Midas",
+    "whitelisted": true
+  },
+  {
+    "name": "ChainlinkInfrequentOracle",
+    "address": "0xF5C2DfD1740D18aD7cf23FBA76cc11d877802937",
+    "chainId": 1,
+    "base": "0x030b69280892c888670EDCDCD8B69Fd8026A0BF3",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x5f09Aff8B9b1f488B7d1bbaD4D89648579e55d61",
+    "maxStaleness": "31536000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x030b69280892c888670EDCDCD8B69Fd8026A0BF3 is mMEV (Midas MEV) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Feed heartbeat is unknown",
+        "pass": false
+      }
+    ],
+    "label": "Midas mMEV/USD Oracle ",
+    "methodology": "Unknown",
+    "model": "Push",
+    "provider": "Midas",
     "whitelisted": true
   },
   {
@@ -9556,6 +10779,183 @@
     "whitelisted": true
   },
   {
+    "name": "CrossAdapter",
+    "address": "0x74B221fAC3000e94A3618357ddA27d8333f3FC1e",
+    "chainId": 1,
+    "base": "0x6cA4d5d2eCb72E3Bbf17543B3367746B80D22694",
+    "cross": "0x8236a87084f8B84306f72007F36F2618A5634494",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0xf7129a6280DCFfF6149792186b54C818ea4D80D6",
+    "oracleCrossQuote": "0xDF4513A7c0E611d7B36237CcF0c098733f28f680",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x6cA4d5d2eCb72E3Bbf17543B3367746B80D22694 is PT-LBTC-26JUN2025 (PT Lombard LBTC 26JUN2025) with 8 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x8236a87084f8B84306f72007F36F2618A5634494 is LBTC (Lombard Staked Bitcoin) with 8 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "PT-LBTC-26JUN2025/LBTC/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": true
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x0505C3f2B1c74ad84f4556a0b5a73386E6286d4E",
+    "chainId": 1,
+    "base": "0xc653F79de1274eE65674BeFda54986020d6f8FC1",
+    "cross": "0x657e8C867D8B37dCC18fA4Caead9C45EB088C642",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0xbaD0e1DA7D39A21455Acef570cF9F3A8881F5e23",
+    "oracleCrossQuote": "0x990Ec39Ab55cFB15A3d326359045E982977132ef",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xc653F79de1274eE65674BeFda54986020d6f8FC1 is PT-EBTC-26JUN2025 (PT ether.fi eBTC 26JUN2025) with 8 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x657e8C867D8B37dCC18fA4Caead9C45EB088C642 is eBTC (ether.fi BTC) with 8 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "PT-EBTC-26JUN2025/eBTC/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": true
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0xe5908cBd7B3bc2648B32cE3dc8DfAd4d83AFD1b4",
+    "chainId": 1,
+    "base": "0x50D2C7992b802Eef16c04FeADAB310f31866a545",
+    "cross": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x63ee8491f9ca4826d70196AF16F25199d211EA48",
+    "oracleCrossQuote": "0x8918D496d0AA72d3de7C8f2a5F02C27a1472CaDb",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x50D2C7992b802Eef16c04FeADAB310f31866a545 is PT-eUSDE-29MAY2025 (PT Ethereal eUSDE 29MAY2025) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3 is USDe (USDe) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "PT-eUSDE-29MAY2025/USDe/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": true
+  },
+  {
     "name": "PendleOracle",
     "address": "0x098B76Fc7D7488C5d567D28540497cA7785c7A4c",
     "chainId": 1,
@@ -9612,840 +11012,6 @@
     "model": "Push",
     "provider": "Pendle",
     "whitelisted": true
-  },
-  {
-    "name": "CrossAdapter",
-    "address": "0x2A0cda8Da0c1601A4B1581DA8FfBc50d8066C5Dd",
-    "chainId": 1,
-    "base": "0x09db87A538BD693E9d08544577d5cCfAA6373A48",
-    "cross": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0xEF1C2fedB798F2D769950D7AB83206eA477E02d2",
-    "oracleCrossQuote": "0x10674C8C1aE2072d4a75FE83f1E159425fd84E1D",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is whitelisted in the adapter registry.",
-        "pass": true
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x09db87A538BD693E9d08544577d5cCfAA6373A48 is ynETH (ynETH) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 is WETH (Wrapped Ether) with 18 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "ynETH/WETH/USD",
-    "methodology": "Unknown",
-    "model": "Unknown",
-    "provider": "Cross",
-    "whitelisted": true
-  },
-  {
-    "name": "ChainlinkOracle",
-    "address": "0x9654114E3d2F62BC959B69365B97d8bc03db4b73",
-    "chainId": 1,
-    "base": "0x97Ad75064b20fb2B2447feD4fa953bF7F007a706",
-    "quote": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-    "feed": "0x4f67Fd74cff274Ef2942223c0f3166b856410AdD",
-    "maxStaleness": "90000",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is whitelisted in the adapter registry.",
-        "pass": true
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x97Ad75064b20fb2B2447feD4fa953bF7F007a706 is beraSTONE (Berachain STONE) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 is WETH (Wrapped Ether) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Push oracle staleness buffer",
-        "severity": "Med",
-        "message": "Feed heartbeat is unknown",
-        "pass": false
-      }
-    ],
-    "label": "Unknown AggregatorV3 Feed",
-    "methodology": "Unknown",
-    "model": "Push",
-    "provider": "Unknown",
-    "whitelisted": true
-  },
-  {
-    "name": "FixedRateOracle",
-    "address": "0x2be3c0051a6e32de5a17543F71D68826eBe1414A",
-    "chainId": 1,
-    "base": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "rate": "1000000000000000000",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is whitelisted in the adapter registry.",
-        "pass": true
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 is USDC (USD Coin) with 6 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Sane fixed rate",
-        "severity": "High",
-        "message": "Adapter has a fixed rate of 1.",
-        "pass": true
-      }
-    ],
-    "label": "1:1 USDC/USD",
-    "methodology": "Exchange Rate",
-    "model": "Push",
-    "provider": "Fixed Rate",
-    "whitelisted": true
-  },
-  {
-    "name": "FixedRateOracle",
-    "address": "0xCF4124DEC902765BD8dAB56c883eDC8bc2378631",
-    "chainId": 1,
-    "base": "0x90455bd11Ce8a67C57d467e634Dc142b8e4105Aa",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "rate": "1000000000000000000",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x90455bd11Ce8a67C57d467e634Dc142b8e4105Aa is cUSDOUSDC (cUSDO/USDC) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Sane fixed rate",
-        "severity": "High",
-        "message": "Adapter has a fixed rate of 1.",
-        "pass": true
-      }
-    ],
-    "label": "1:1 cUSDOUSDC/USD",
-    "methodology": "Exchange Rate",
-    "model": "Push",
-    "provider": "Fixed Rate",
-    "whitelisted": false
-  },
-  {
-    "name": "FixedRateOracle",
-    "address": "0x53bE6a5E436A6Aa591161d62Caa573511F8EB56E",
-    "chainId": 1,
-    "base": "0x8238884Ec9668Ef77B90C6dfF4D1a9F4F4823BFe",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "rate": "1000000000000000000",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is whitelisted in the adapter registry.",
-        "pass": true
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x8238884Ec9668Ef77B90C6dfF4D1a9F4F4823BFe is USDO (OpenEden Open Dollar) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Sane fixed rate",
-        "severity": "High",
-        "message": "Adapter has a fixed rate of 1.",
-        "pass": true
-      }
-    ],
-    "label": "1:1 USDO/USD",
-    "methodology": "Exchange Rate",
-    "model": "Push",
-    "provider": "Fixed Rate",
-    "whitelisted": true
-  },
-  {
-    "name": "FixedRateOracle",
-    "address": "0x16a8760feB814AfC9e3748d09A46f602C8Ade027",
-    "chainId": 1,
-    "base": "0x35D8949372D46B7a3D5A56006AE77B215fc69bC0",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "rate": "1000000000000000000",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is whitelisted in the adapter registry.",
-        "pass": true
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is USD0++ (USD0 Liquid Bond) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Sane fixed rate",
-        "severity": "High",
-        "message": "Adapter has a fixed rate of 1.",
-        "pass": true
-      }
-    ],
-    "label": "1:1 USD0++/USD",
-    "methodology": "Exchange Rate",
-    "model": "Push",
-    "provider": "Fixed Rate",
-    "whitelisted": true
-  },
-  {
-    "name": "ChainlinkInfrequentOracle",
-    "address": "0xC8228b83F1d97a431A48bd9Bc3e971c8b418d889",
-    "chainId": 1,
-    "base": "0xbB51E2a15A9158EBE2b0Ceb8678511e063AB7a55",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "feed": "0x698dA5D987a71b68EbF30C1555cfd38F190406b7",
-    "maxStaleness": "31536000",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is whitelisted in the adapter registry.",
-        "pass": true
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xbB51E2a15A9158EBE2b0Ceb8678511e063AB7a55 is mEDGE (Midas mEDGE) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Push oracle staleness buffer",
-        "severity": "Med",
-        "message": "Feed heartbeat is unknown",
-        "pass": false
-      }
-    ],
-    "label": "Midas mEDGE/USD Oracle ",
-    "methodology": "Unknown",
-    "model": "Push",
-    "provider": "Midas",
-    "whitelisted": true
-  },
-  {
-    "name": "ChainlinkInfrequentOracle",
-    "address": "0xF5C2DfD1740D18aD7cf23FBA76cc11d877802937",
-    "chainId": 1,
-    "base": "0x030b69280892c888670EDCDCD8B69Fd8026A0BF3",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "feed": "0x5f09Aff8B9b1f488B7d1bbaD4D89648579e55d61",
-    "maxStaleness": "31536000",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is whitelisted in the adapter registry.",
-        "pass": true
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x030b69280892c888670EDCDCD8B69Fd8026A0BF3 is mMEV (Midas MEV) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Push oracle staleness buffer",
-        "severity": "Med",
-        "message": "Feed heartbeat is unknown",
-        "pass": false
-      }
-    ],
-    "label": "Midas mMEV/USD Oracle ",
-    "methodology": "Unknown",
-    "model": "Push",
-    "provider": "Midas",
-    "whitelisted": true
-  },
-  {
-    "name": "PythOracle",
-    "address": "0xcB89a692E8233636FDc0033E948dede9762e7cF9",
-    "chainId": 1,
-    "base": "0x5aFE3855358E112B5647B952709E6165e1c1eEEe",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "pyth": "0x4305FB66699C3B2702D4d05CF36551390A4c69C6",
-    "feedId": "0x7b3576858506a94fad3a9cc55e32934f0c3931150fe3a3c7b83558dbae5b8e38",
-    "maxStaleness": "120",
-    "maxConfWidth": "300",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is whitelisted in the adapter registry.",
-        "pass": true
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x5aFE3855358E112B5647B952709E6165e1c1eEEe is SAFE (Safe Token) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Recognized Pyth feed",
-        "severity": "High",
-        "message": "Adapter is connected to an official Pyth feed: SAFE/USD",
-        "pass": true
-      },
-      {
-        "id": "Pyth base correspondence",
-        "severity": "Info",
-        "message": "Adapter's base asset (SAFE) corresponds to the Pyth feed's base asset from metadata (SAFE).",
-        "pass": true
-      },
-      {
-        "id": "Pyth quote correspondence",
-        "severity": "Info",
-        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
-        "pass": true
-      },
-      {
-        "id": "Recognized Pyth proxy",
-        "severity": "High",
-        "message": "Adapter is connected to the official Pyth proxy.",
-        "pass": true
-      },
-      {
-        "id": "Sane Pyth staleness range",
-        "severity": "High",
-        "message": "The adapter's maximum staleness parameter is within the recommended range (30 - 300 s).",
-        "pass": true
-      }
-    ],
-    "label": "Crypto.SAFE/USD (120s, ±300bps)",
-    "methodology": "Market Price",
-    "model": "Pull",
-    "provider": "Pyth",
-    "whitelisted": true
-  },
-  {
-    "name": "CrossAdapter",
-    "address": "0x6FA8E73139E3e9dbcF3be9D3f185Ffbc2F58C957",
-    "chainId": 1,
-    "base": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
-    "cross": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0x7c37aB8Cd76Ee8888ad7F19C1F8a3A6D1622e9B8",
-    "oracleCrossQuote": "0x10674C8C1aE2072d4a75FE83f1E159425fd84E1D",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is whitelisted in the adapter registry.",
-        "pass": true
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0 is wstETH (Wrapped liquid staked Ether 2.0) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 is WETH (Wrapped Ether) with 18 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "wstETH/WETH/USD",
-    "methodology": "Unknown",
-    "model": "Unknown",
-    "provider": "Cross",
-    "whitelisted": true
-  },
-  {
-    "name": "ChainlinkOracle",
-    "address": "0xD0dAb9eDb2b1909802B03090eFBF14743E7Ff967",
-    "chainId": 1,
-    "base": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "feed": "0xfF30586cD0F29eD462364C7e81375FC0C71219b1",
-    "maxStaleness": "90000",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is whitelisted in the adapter registry.",
-        "pass": true
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xdC035D45d973E3EC169d2276DDab16f1e407384F is USDS (USDS Stablecoin) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Push oracle staleness buffer",
-        "severity": "Med",
-        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
-        "pass": true
-      }
-    ],
-    "label": "USDS / USD (0.3%, 86400s)",
-    "methodology": "Market Price",
-    "model": "Push",
-    "provider": "Chainlink",
-    "whitelisted": true
-  },
-  {
-    "name": "CrossAdapter",
-    "address": "0x771929005d113b49849AC89C4315E977146f6DE3",
-    "chainId": 1,
-    "base": "0x8E0789d39db454DBE9f4a77aCEF6dc7c69f6D552",
-    "cross": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
-    "quote": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-    "oracleBaseCross": "0x4417B07Fad263751775e334458Cb8F16A5971893",
-    "oracleCrossQuote": "0x7c37aB8Cd76Ee8888ad7F19C1F8a3A6D1622e9B8",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is whitelisted in the adapter registry.",
-        "pass": true
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x8E0789d39db454DBE9f4a77aCEF6dc7c69f6D552 is inwstETHs (Inception Symbiotic Restaked wstETH) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 is WETH (Wrapped Ether) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0 is wstETH (Wrapped liquid staked Ether 2.0) with 18 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "inwstETHs/wstETH/WETH",
-    "methodology": "Unknown",
-    "model": "Unknown",
-    "provider": "Cross",
-    "whitelisted": true
-  },
-  {
-    "name": "CrossAdapter",
-    "address": "0x74b77011c244bD7EDff34E4cbf23fe41DeFA313d",
-    "chainId": 1,
-    "base": "0xD11c452fc99cF405034ee446803b6F6c1F6d5ED8",
-    "cross": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0x7e262cD6226328AaF4eA5C993a952E18Dd633Bc8",
-    "oracleCrossQuote": "0x6FA8E73139E3e9dbcF3be9D3f185Ffbc2F58C957",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is whitelisted in the adapter registry.",
-        "pass": true
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xD11c452fc99cF405034ee446803b6F6c1F6d5ED8 is tETH (Treehouse ETH) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0 is wstETH (Wrapped liquid staked Ether 2.0) with 18 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "tETH/wstETH/USD",
-    "methodology": "Unknown",
-    "model": "Unknown",
-    "provider": "Cross",
-    "whitelisted": true
-  },
-  {
-    "address": "0x16cE03d4d67fdA6727498eDbDE2e4FD0bF5e32D3"
-  },
-  {
-    "name": "RateProviderOracle",
-    "address": "0xB572C563F6F900682F42E07e5ACa55564EC6C9F5",
-    "chainId": 1,
-    "base": "0x8E0789d39db454DBE9f4a77aCEF6dc7c69f6D552",
-    "quote": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
-    "rateProvider": "0x830eb92344D3154b76257B8435B4cd64D266f15b",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x8E0789d39db454DBE9f4a77aCEF6dc7c69f6D552 is inwstETHs (Inception Symbiotic Restaked wstETH) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0 is wstETH (Wrapped liquid staked Ether 2.0) with 18 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "inwstETHs/wstETH",
-    "methodology": "Exchange Rate",
-    "model": "Push",
-    "provider": "Rate Provider",
-    "whitelisted": false
   },
   {
     "name": "PendleUniversalOracle",
@@ -10625,6 +11191,182 @@
   },
   {
     "name": "CrossAdapter",
+    "address": "0x1D6Ba68E8a98C1afB9983976b39eFd877b1Fd361",
+    "chainId": 1,
+    "base": "0x3b3fB9C57858EF816833dC91565EFcd85D96f634",
+    "cross": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0xF05CA1D76a7d5859014b8606ab69C6D41629109C",
+    "oracleCrossQuote": "0x8918D496d0AA72d3de7C8f2a5F02C27a1472CaDb",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x3b3fB9C57858EF816833dC91565EFcd85D96f634 is PT-sUSDE-31JUL2025 (PT Ethena sUSDE 31JUL2025) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3 is USDe (USDe) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "PT-sUSDE-31JUL2025/USDe/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": true
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x2A0cda8Da0c1601A4B1581DA8FfBc50d8066C5Dd",
+    "chainId": 1,
+    "base": "0x09db87A538BD693E9d08544577d5cCfAA6373A48",
+    "cross": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0xEF1C2fedB798F2D769950D7AB83206eA477E02d2",
+    "oracleCrossQuote": "0x10674C8C1aE2072d4a75FE83f1E159425fd84E1D",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x09db87A538BD693E9d08544577d5cCfAA6373A48 is ynETH (ynETH) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 is WETH (Wrapped Ether) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "ynETH/WETH/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": true
+  },
+  {
+    "name": "ChainlinkOracle",
+    "address": "0x9654114E3d2F62BC959B69365B97d8bc03db4b73",
+    "chainId": 1,
+    "base": "0x97Ad75064b20fb2B2447feD4fa953bF7F007a706",
+    "quote": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "feed": "0x4f67Fd74cff274Ef2942223c0f3166b856410AdD",
+    "maxStaleness": "90000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x97Ad75064b20fb2B2447feD4fa953bF7F007a706 is beraSTONE (Berachain STONE) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 is WETH (Wrapped Ether) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Feed heartbeat is unknown",
+        "pass": false
+      }
+    ],
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
+    "model": "Push",
+    "provider": "Unknown",
+    "whitelisted": true
+  },
+  {
+    "name": "CrossAdapter",
     "address": "0xf6031057dbaBDF4792F12a732820d90165a497FE",
     "chainId": 1,
     "base": "0xae4bE3acD95B6a4Ac5A0524ab95dA90c721f6C83",
@@ -10683,14 +11425,188 @@
     "whitelisted": false
   },
   {
-    "name": "CrossAdapter",
-    "address": "0x0384078cfC17Efc6DC346a5370ADDd7f09C3c9d2",
+    "name": "FixedRateOracle",
+    "address": "0x2be3c0051a6e32de5a17543F71D68826eBe1414A",
     "chainId": 1,
-    "base": "0xae4bE3acD95B6a4Ac5A0524ab95dA90c721f6C83",
-    "cross": "0x66a1E37c9b0eAddca17d3662D6c05F4DECf3e110",
+    "base": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
     "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0x5000BD001F2D2994Ec6433fd8b6C862c2062Fb57",
-    "oracleCrossQuote": "0x4FD36Cd1C23BE30db86679f391087fd8a984f893",
+    "rate": "1000000000000000000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 is USDC (USD Coin) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Sane fixed rate",
+        "severity": "High",
+        "message": "Adapter has a fixed rate of 1.",
+        "pass": true
+      }
+    ],
+    "label": "1:1 USDC/USD",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "Fixed Rate",
+    "whitelisted": true
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0xB3DF99fff1f803f1a505AF97F18FBf6C5B28aC8F",
+    "chainId": 1,
+    "base": "0x933B9FfEE0Ad3Ef8E4DBb52688ea905826D73755",
+    "cross": "0x8238884Ec9668Ef77B90C6dfF4D1a9F4F4823BFe",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x30cfa91F2cb03B59F6d65b83150E3b2B7f46F5E5",
+    "oracleCrossQuote": "0x53bE6a5E436A6Aa591161d62Caa573511F8EB56E",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x933B9FfEE0Ad3Ef8E4DBb52688ea905826D73755 is PT-cUSDO-19JUN2025 (PT Compounding Open Dollar 19JUN2025) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x8238884Ec9668Ef77B90C6dfF4D1a9F4F4823BFe is USDO (OpenEden Open Dollar) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "PT-cUSDO-19JUN2025/USDO/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": true
+  },
+  {
+    "address": "0x76d048e47E1d77940416B656D8D7FEd34931a393"
+  },
+  {
+    "name": "FixedRateOracle",
+    "address": "0x16FcC1d29833B4C46Fa7c7232B0C613034C0242E",
+    "chainId": 1,
+    "base": "0xC139190F447e929f090Edeb554D95AbB8b18aC1C",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "rate": "1000000000000000000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xC139190F447e929f090Edeb554D95AbB8b18aC1C is USDtb (USDtb) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Sane fixed rate",
+        "severity": "High",
+        "message": "Adapter has a fixed rate of 1.",
+        "pass": true
+      }
+    ],
+    "label": "1:1 USDtb/USD",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "Fixed Rate",
+    "whitelisted": true
+  },
+  {
+    "name": "FixedRateOracle",
+    "address": "0xCF4124DEC902765BD8dAB56c883eDC8bc2378631",
+    "chainId": 1,
+    "base": "0x90455bd11Ce8a67C57d467e634Dc142b8e4105Aa",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "rate": "1000000000000000000",
     "checks": [
       {
         "id": "Adapter existence",
@@ -10719,7 +11635,7 @@
       {
         "id": "Consistent asset",
         "severity": "High",
-        "message": "Asset 0xae4bE3acD95B6a4Ac5A0524ab95dA90c721f6C83 is PT-USR-29MAY2025 (PT Resolv USD 29MAY2025) with 18 decimals.",
+        "message": "Asset 0x90455bd11Ce8a67C57d467e634Dc142b8e4105Aa is cUSDOUSDC (cUSDO/USDC) with 18 decimals.",
         "pass": true
       },
       {
@@ -10729,16 +11645,184 @@
         "pass": true
       },
       {
-        "id": "Consistent asset",
+        "id": "Sane fixed rate",
         "severity": "High",
-        "message": "Asset 0x66a1E37c9b0eAddca17d3662D6c05F4DECf3e110 is USR (Resolv USD) with 18 decimals.",
+        "message": "Adapter has a fixed rate of 1.",
         "pass": true
       }
     ],
-    "label": "PT-USR-29MAY2025/USR/USD",
-    "methodology": "Unknown",
-    "model": "Unknown",
-    "provider": "Cross",
+    "label": "1:1 cUSDOUSDC/USD",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "Fixed Rate",
+    "whitelisted": false
+  },
+  {
+    "name": "FixedRateOracle",
+    "address": "0x53bE6a5E436A6Aa591161d62Caa573511F8EB56E",
+    "chainId": 1,
+    "base": "0x8238884Ec9668Ef77B90C6dfF4D1a9F4F4823BFe",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "rate": "1000000000000000000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x8238884Ec9668Ef77B90C6dfF4D1a9F4F4823BFe is USDO (OpenEden Open Dollar) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Sane fixed rate",
+        "severity": "High",
+        "message": "Adapter has a fixed rate of 1.",
+        "pass": true
+      }
+    ],
+    "label": "1:1 USDO/USD",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "Fixed Rate",
+    "whitelisted": true
+  },
+  {
+    "name": "FixedRateOracle",
+    "address": "0x16a8760feB814AfC9e3748d09A46f602C8Ade027",
+    "chainId": 1,
+    "base": "0x35D8949372D46B7a3D5A56006AE77B215fc69bC0",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "rate": "1000000000000000000",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is USD0++ (USD0 Liquid Bond) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Sane fixed rate",
+        "severity": "High",
+        "message": "Adapter has a fixed rate of 1.",
+        "pass": true
+      }
+    ],
+    "label": "1:1 USD0++/USD",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "Fixed Rate",
+    "whitelisted": true
+  },
+  {
+    "address": "0x16cE03d4d67fdA6727498eDbDE2e4FD0bF5e32D3"
+  },
+  {
+    "name": "RateProviderOracle",
+    "address": "0xB572C563F6F900682F42E07e5ACa55564EC6C9F5",
+    "chainId": 1,
+    "base": "0x8E0789d39db454DBE9f4a77aCEF6dc7c69f6D552",
+    "quote": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+    "rateProvider": "0x830eb92344D3154b76257B8435B4cd64D266f15b",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x8E0789d39db454DBE9f4a77aCEF6dc7c69f6D552 is inwstETHs (Inception Symbiotic Restaked wstETH) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0 is wstETH (Wrapped liquid staked Ether 2.0) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "inwstETHs/wstETH",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "Rate Provider",
     "whitelisted": false
   },
   {
@@ -10858,13 +11942,15 @@
     "whitelisted": false
   },
   {
-    "name": "ChainlinkOracle",
-    "address": "0xd782D26c98892F5bEb50222d23c488fA4067AF50",
+    "name": "PythOracle",
+    "address": "0xcB89a692E8233636FDc0033E948dede9762e7cF9",
     "chainId": 1,
-    "base": "0x699e04F98dE2Fc395a7dcBf36B48EC837A976490",
+    "base": "0x5aFE3855358E112B5647B952709E6165e1c1eEEe",
     "quote": "0x0000000000000000000000000000000000000348",
-    "feed": "0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6",
-    "maxStaleness": "90000",
+    "pyth": "0x4305FB66699C3B2702D4d05CF36551390A4c69C6",
+    "feedId": "0x7b3576858506a94fad3a9cc55e32934f0c3931150fe3a3c7b83558dbae5b8e38",
+    "maxStaleness": "120",
+    "maxConfWidth": "300",
     "checks": [
       {
         "id": "Adapter existence",
@@ -10875,8 +11961,8 @@
       {
         "id": "Adapter whitelist",
         "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
       },
       {
         "id": "Source code provenance",
@@ -10893,7 +11979,7 @@
       {
         "id": "Consistent asset",
         "severity": "High",
-        "message": "Asset 0x699e04F98dE2Fc395a7dcBf36B48EC837A976490 is tacUSD (Turtle TAC USD Vault) with 6 decimals.",
+        "message": "Asset 0x5aFE3855358E112B5647B952709E6165e1c1eEEe is SAFE (Safe Token) with 18 decimals.",
         "pass": true
       },
       {
@@ -10903,86 +11989,51 @@
         "pass": true
       },
       {
-        "id": "Push oracle staleness buffer",
-        "severity": "Med",
-        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
+        "id": "Recognized Pyth feed",
+        "severity": "High",
+        "message": "Adapter is connected to an official Pyth feed: SAFE/USD",
+        "pass": true
+      },
+      {
+        "id": "Pyth base correspondence",
+        "severity": "Info",
+        "message": "Adapter's base asset (SAFE) corresponds to the Pyth feed's base asset from metadata (SAFE).",
+        "pass": true
+      },
+      {
+        "id": "Pyth quote correspondence",
+        "severity": "Info",
+        "message": "Adapter's quote asset (USD) corresponds to the Pyth feed's quote asset from metadata (USD).",
+        "pass": true
+      },
+      {
+        "id": "Recognized Pyth proxy",
+        "severity": "High",
+        "message": "Adapter is connected to the official Pyth proxy.",
+        "pass": true
+      },
+      {
+        "id": "Sane Pyth staleness range",
+        "severity": "High",
+        "message": "The adapter's maximum staleness parameter is within the recommended range (30 - 300 s).",
         "pass": true
       }
     ],
-    "label": "USDC / USD (0.25%, 86400s)",
+    "label": "Crypto.SAFE/USD (120s, ±300bps)",
     "methodology": "Market Price",
-    "model": "Push",
-    "provider": "Chainlink",
-    "whitelisted": false
-  },
-  {
-    "name": "CrossAdapter",
-    "address": "0xe5908cBd7B3bc2648B32cE3dc8DfAd4d83AFD1b4",
-    "chainId": 1,
-    "base": "0x50D2C7992b802Eef16c04FeADAB310f31866a545",
-    "cross": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0x63ee8491f9ca4826d70196AF16F25199d211EA48",
-    "oracleCrossQuote": "0x8918D496d0AA72d3de7C8f2a5F02C27a1472CaDb",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is whitelisted in the adapter registry.",
-        "pass": true
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x50D2C7992b802Eef16c04FeADAB310f31866a545 is PT-eUSDE-29MAY2025 (PT Ethereal eUSDE 29MAY2025) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3 is USDe (USDe) with 18 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "PT-eUSDE-29MAY2025/USDe/USD",
-    "methodology": "Unknown",
-    "model": "Unknown",
-    "provider": "Cross",
+    "model": "Pull",
+    "provider": "Pyth",
     "whitelisted": true
   },
   {
     "name": "CrossAdapter",
-    "address": "0x74B221fAC3000e94A3618357ddA27d8333f3FC1e",
+    "address": "0x6FA8E73139E3e9dbcF3be9D3f185Ffbc2F58C957",
     "chainId": 1,
-    "base": "0x6cA4d5d2eCb72E3Bbf17543B3367746B80D22694",
-    "cross": "0x8236a87084f8B84306f72007F36F2618A5634494",
+    "base": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+    "cross": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
     "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0xf7129a6280DCFfF6149792186b54C818ea4D80D6",
-    "oracleCrossQuote": "0xDF4513A7c0E611d7B36237CcF0c098733f28f680",
+    "oracleBaseCross": "0x7c37aB8Cd76Ee8888ad7F19C1F8a3A6D1622e9B8",
+    "oracleCrossQuote": "0x10674C8C1aE2072d4a75FE83f1E159425fd84E1D",
     "checks": [
       {
         "id": "Adapter existence",
@@ -11011,7 +12062,7 @@
       {
         "id": "Consistent asset",
         "severity": "High",
-        "message": "Asset 0x6cA4d5d2eCb72E3Bbf17543B3367746B80D22694 is PT-LBTC-26JUN2025 (PT Lombard LBTC 26JUN2025) with 8 decimals.",
+        "message": "Asset 0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0 is wstETH (Wrapped liquid staked Ether 2.0) with 18 decimals.",
         "pass": true
       },
       {
@@ -11023,70 +12074,11 @@
       {
         "id": "Consistent asset",
         "severity": "High",
-        "message": "Asset 0x8236a87084f8B84306f72007F36F2618A5634494 is LBTC (Lombard Staked Bitcoin) with 8 decimals.",
+        "message": "Asset 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 is WETH (Wrapped Ether) with 18 decimals.",
         "pass": true
       }
     ],
-    "label": "PT-LBTC-26JUN2025/LBTC/USD",
-    "methodology": "Unknown",
-    "model": "Unknown",
-    "provider": "Cross",
-    "whitelisted": true
-  },
-  {
-    "name": "CrossAdapter",
-    "address": "0x0505C3f2B1c74ad84f4556a0b5a73386E6286d4E",
-    "chainId": 1,
-    "base": "0xc653F79de1274eE65674BeFda54986020d6f8FC1",
-    "cross": "0x657e8C867D8B37dCC18fA4Caead9C45EB088C642",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0xbaD0e1DA7D39A21455Acef570cF9F3A8881F5e23",
-    "oracleCrossQuote": "0x990Ec39Ab55cFB15A3d326359045E982977132ef",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is whitelisted in the adapter registry.",
-        "pass": true
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xc653F79de1274eE65674BeFda54986020d6f8FC1 is PT-EBTC-26JUN2025 (PT ether.fi eBTC 26JUN2025) with 8 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x657e8C867D8B37dCC18fA4Caead9C45EB088C642 is eBTC (ether.fi BTC) with 8 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "PT-EBTC-26JUN2025/eBTC/USD",
+    "label": "wstETH/WETH/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -11149,6 +12141,124 @@
     "model": "Push",
     "provider": "Midas",
     "whitelisted": true
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x771929005d113b49849AC89C4315E977146f6DE3",
+    "chainId": 1,
+    "base": "0x8E0789d39db454DBE9f4a77aCEF6dc7c69f6D552",
+    "cross": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+    "quote": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "oracleBaseCross": "0x4417B07Fad263751775e334458Cb8F16A5971893",
+    "oracleCrossQuote": "0x7c37aB8Cd76Ee8888ad7F19C1F8a3A6D1622e9B8",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x8E0789d39db454DBE9f4a77aCEF6dc7c69f6D552 is inwstETHs (Inception Symbiotic Restaked wstETH) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 is WETH (Wrapped Ether) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0 is wstETH (Wrapped liquid staked Ether 2.0) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "inwstETHs/wstETH/WETH",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": true
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x0384078cfC17Efc6DC346a5370ADDd7f09C3c9d2",
+    "chainId": 1,
+    "base": "0xae4bE3acD95B6a4Ac5A0524ab95dA90c721f6C83",
+    "cross": "0x66a1E37c9b0eAddca17d3662D6c05F4DECf3e110",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x5000BD001F2D2994Ec6433fd8b6C862c2062Fb57",
+    "oracleCrossQuote": "0x4FD36Cd1C23BE30db86679f391087fd8a984f893",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xae4bE3acD95B6a4Ac5A0524ab95dA90c721f6C83 is PT-USR-29MAY2025 (PT Resolv USD 29MAY2025) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x66a1E37c9b0eAddca17d3662D6c05F4DECf3e110 is USR (Resolv USD) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "PT-USR-29MAY2025/USR/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": false
   },
   {
     "name": "FixedRateOracle",
@@ -11259,63 +12369,6 @@
       }
     ],
     "label": "1:1 USDT/USD",
-    "methodology": "Exchange Rate",
-    "model": "Push",
-    "provider": "Fixed Rate",
-    "whitelisted": true
-  },
-  {
-    "name": "FixedRateOracle",
-    "address": "0x16FcC1d29833B4C46Fa7c7232B0C613034C0242E",
-    "chainId": 1,
-    "base": "0xC139190F447e929f090Edeb554D95AbB8b18aC1C",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "rate": "1000000000000000000",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is whitelisted in the adapter registry.",
-        "pass": true
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xC139190F447e929f090Edeb554D95AbB8b18aC1C is USDtb (USDtb) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Sane fixed rate",
-        "severity": "High",
-        "message": "Adapter has a fixed rate of 1.",
-        "pass": true
-      }
-    ],
-    "label": "1:1 USDtb/USD",
     "methodology": "Exchange Rate",
     "model": "Push",
     "provider": "Fixed Rate",
@@ -11728,74 +12781,12 @@
   },
   {
     "name": "CrossAdapter",
-    "address": "0xB3DF99fff1f803f1a505AF97F18FBf6C5B28aC8F",
+    "address": "0xc47FE334817371bbC1a131f8Df2b23Aec9636d1e",
     "chainId": 1,
-    "base": "0x933B9FfEE0Ad3Ef8E4DBb52688ea905826D73755",
-    "cross": "0x8238884Ec9668Ef77B90C6dfF4D1a9F4F4823BFe",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0x30cfa91F2cb03B59F6d65b83150E3b2B7f46F5E5",
-    "oracleCrossQuote": "0x53bE6a5E436A6Aa591161d62Caa573511F8EB56E",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is whitelisted in the adapter registry.",
-        "pass": true
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x933B9FfEE0Ad3Ef8E4DBb52688ea905826D73755 is PT-cUSDO-19JUN2025 (PT Compounding Open Dollar 19JUN2025) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x8238884Ec9668Ef77B90C6dfF4D1a9F4F4823BFe is USDO (OpenEden Open Dollar) with 18 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "PT-cUSDO-19JUN2025/USDO/USD",
-    "methodology": "Unknown",
-    "model": "Unknown",
-    "provider": "Cross",
-    "whitelisted": true
-  },
-  {
-    "address": "0x76d048e47E1d77940416B656D8D7FEd34931a393"
-  },
-  {
-    "name": "CrossAdapter",
-    "address": "0x1D6Ba68E8a98C1afB9983976b39eFd877b1Fd361",
-    "chainId": 1,
-    "base": "0x3b3fB9C57858EF816833dC91565EFcd85D96f634",
+    "base": "0x14Bdc3A3AE09f5518b923b69489CBcAfB238e617",
     "cross": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
     "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0xF05CA1D76a7d5859014b8606ab69C6D41629109C",
+    "oracleBaseCross": "0xE0C993DdC0Bd15283e3941839aA55345b79e7059",
     "oracleCrossQuote": "0x8918D496d0AA72d3de7C8f2a5F02C27a1472CaDb",
     "checks": [
       {
@@ -11825,7 +12816,7 @@
       {
         "id": "Consistent asset",
         "severity": "High",
-        "message": "Asset 0x3b3fB9C57858EF816833dC91565EFcd85D96f634 is PT-sUSDE-31JUL2025 (PT Ethena sUSDE 31JUL2025) with 18 decimals.",
+        "message": "Asset 0x14Bdc3A3AE09f5518b923b69489CBcAfB238e617 is PT-eUSDE-14AUG2025 (PT Ethereal eUSDE 14AUG2025) with 18 decimals.",
         "pass": true
       },
       {
@@ -11841,7 +12832,7 @@
         "pass": true
       }
     ],
-    "label": "PT-sUSDE-31JUL2025/USDe/USD",
+    "label": "PT-eUSDE-14AUG2025/USDe/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -11966,6 +12957,65 @@
     "whitelisted": true
   },
   {
+    "name": "CrossAdapter",
+    "address": "0x92d8B31F5BCB01134a8Ba7C7fd8277E30e37B570",
+    "chainId": 1,
+    "base": "0xFfEc096c087C13Cc268497B89A613cACE4DF9A48",
+    "cross": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0xc040c98A4044Ec310fCd1C24D6f2129f757dc6c9",
+    "oracleCrossQuote": "0xfa6a85C68E762C94f05d9314e8214cA73F17E2b4",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xFfEc096c087C13Cc268497B89A613cACE4DF9A48 is PT-USDS-14AUG2025 (PT USDS Stablecoin 14AUG2025) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xdC035D45d973E3EC169d2276DDab16f1e407384F is USDS (USDS Stablecoin) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "PT-USDS-14AUG2025/USDS/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": false
+  },
+  {
     "name": "FixedRateOracle",
     "address": "0x01dBD40296C232C2C58c99Ff69084B256BeE33EE",
     "chainId": 1,
@@ -12080,6 +13130,119 @@
     "model": "Unknown",
     "provider": "Cross",
     "whitelisted": true
+  },
+  {
+    "name": "RateProviderOracle",
+    "address": "0x013F30a593718D962c0CeeDe0a66f5f9EF5451b5",
+    "chainId": 1,
+    "base": "0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7",
+    "quote": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "rateProvider": "0x746df66bc1Bb361b9E8E2a794C299c3427976e6C",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7 is rsETH (rsETH) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 is WETH (Wrapped Ether) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "rsETH/WETH",
+    "methodology": "Exchange Rate",
+    "model": "Push",
+    "provider": "Rate Provider",
+    "whitelisted": true
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x8a72e5B9e21FeAa2d810606531DdF2363C34FEd2",
+    "chainId": 1,
+    "base": "0x97cCC1C046d067ab945d3CF3CC6920D3b1E54c88",
+    "cross": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x260e8fDDC56c598e5fbf6C2aF62959f7d84BdC68",
+    "oracleCrossQuote": "0xC039229EBCef32f898031eB81f646880F39a190B",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x97cCC1C046d067ab945d3CF3CC6920D3b1E54c88 is USP (Pareto synthetic dollar USP) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 is USDC (USD Coin) with 6 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "USP/USDC/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": false
+  },
+  {
+    "address": "0x867Bd44763F270f2355d9df189A2c4AC28DD3379"
   },
   {
     "name": "CrossAdapter",
@@ -12200,1290 +13363,6 @@
     "whitelisted": false
   },
   {
-    "name": "CrossAdapter",
-    "address": "0xc47FE334817371bbC1a131f8Df2b23Aec9636d1e",
-    "chainId": 1,
-    "base": "0x14Bdc3A3AE09f5518b923b69489CBcAfB238e617",
-    "cross": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0xE0C993DdC0Bd15283e3941839aA55345b79e7059",
-    "oracleCrossQuote": "0x8918D496d0AA72d3de7C8f2a5F02C27a1472CaDb",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is whitelisted in the adapter registry.",
-        "pass": true
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x14Bdc3A3AE09f5518b923b69489CBcAfB238e617 is PT-eUSDE-14AUG2025 (PT Ethereal eUSDE 14AUG2025) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3 is USDe (USDe) with 18 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "PT-eUSDE-14AUG2025/USDe/USD",
-    "methodology": "Unknown",
-    "model": "Unknown",
-    "provider": "Cross",
-    "whitelisted": true
-  },
-  {
-    "name": "CrossAdapter",
-    "address": "0x727E36cb0743A25557219d5ECC313b0F93eE8b2F",
-    "chainId": 1,
-    "base": "0x742B4166878Bfd339Db65a29a17E49b81a6B6Aac",
-    "cross": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0x7946130915692D5b4EE8C1Bbb5dD84a7da322ba7",
-    "oracleCrossQuote": "0x6213f24332D35519039f2afa7e3BffE105a37d3F",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is whitelisted in the adapter registry.",
-        "pass": true
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x742B4166878Bfd339Db65a29a17E49b81a6B6Aac is PT-RLP-4SEP2025 (PT Resolv Liquidity Provider Token 4SEP2025) with 6 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 is USDC (USD Coin) with 6 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "PT-RLP-4SEP2025/USDC/USD",
-    "methodology": "Unknown",
-    "model": "Unknown",
-    "provider": "Cross",
-    "whitelisted": true
-  },
-  {
-    "address": "0x933B9FfEE0Ad3Ef8E4DBb52688ea905826D73755"
-  },
-  {
-    "name": "CrossAdapter",
-    "address": "0x633804CD0b2E30f9002b50861f7654d89B9241A7",
-    "chainId": 1,
-    "base": "0x7c5aA3E49d46e582f50287f70695278d962392dF",
-    "cross": "0xdA67B4284609d2d48e5d10cfAc411572727dc1eD",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0x96b88207783b4b71E7Ad25bf9c67B1B1f350fa68",
-    "oracleCrossQuote": "0xBd154793659D1E6ea0C58754cEd6807059A421b0",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x7c5aA3E49d46e582f50287f70695278d962392dF is PT-sUSN-31JUL2025 (PT Staked USN 31JUL2025) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xdA67B4284609d2d48e5d10cfAc411572727dc1eD is USN (USN) with 18 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "PT-sUSN-31JUL2025/USN/USD",
-    "methodology": "Unknown",
-    "model": "Unknown",
-    "provider": "Cross",
-    "whitelisted": false
-  },
-  {
-    "name": "CrossAdapter",
-    "address": "0x92d8B31F5BCB01134a8Ba7C7fd8277E30e37B570",
-    "chainId": 1,
-    "base": "0xFfEc096c087C13Cc268497B89A613cACE4DF9A48",
-    "cross": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0xc040c98A4044Ec310fCd1C24D6f2129f757dc6c9",
-    "oracleCrossQuote": "0xfa6a85C68E762C94f05d9314e8214cA73F17E2b4",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xFfEc096c087C13Cc268497B89A613cACE4DF9A48 is PT-USDS-14AUG2025 (PT USDS Stablecoin 14AUG2025) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xdC035D45d973E3EC169d2276DDab16f1e407384F is USDS (USDS Stablecoin) with 18 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "PT-USDS-14AUG2025/USDS/USD",
-    "methodology": "Unknown",
-    "model": "Unknown",
-    "provider": "Cross",
-    "whitelisted": false
-  },
-  {
-    "name": "CrossAdapter",
-    "address": "0x673222872a407775feab95a7A98F930A2cEc53F4",
-    "chainId": 1,
-    "base": "0xB10DA2F9147f9cf2B8826877Cd0c95c18A0f42dc",
-    "cross": "0x8238884Ec9668Ef77B90C6dfF4D1a9F4F4823BFe",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0xB59fB806CcbE626c45f8A4f2cAde9E2eAD2e62c0",
-    "oracleCrossQuote": "0x53bE6a5E436A6Aa591161d62Caa573511F8EB56E",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xB10DA2F9147f9cf2B8826877Cd0c95c18A0f42dc is PT-cUSDO-20NOV2025 (PT Compounding Open Dollar 20NOV2025) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x8238884Ec9668Ef77B90C6dfF4D1a9F4F4823BFe is USDO (OpenEden Open Dollar) with 18 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "PT-cUSDO-20NOV2025/USDO/USD",
-    "methodology": "Unknown",
-    "model": "Unknown",
-    "provider": "Cross",
-    "whitelisted": false
-  },
-  {
-    "name": "CrossAdapter",
-    "address": "0xB2aC09dAF497D660cB3A8D73823D6bBA94449dB2",
-    "chainId": 1,
-    "base": "0x5a5b93F762739fa94F3EcC0b34Af2e56702E7f70",
-    "cross": "0x66a1E37c9b0eAddca17d3662D6c05F4DECf3e110",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0x2ae2a5a014a1c02d646fA39ae086F53291e152f5",
-    "oracleCrossQuote": "0x4FD36Cd1C23BE30db86679f391087fd8a984f893",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x5a5b93F762739fa94F3EcC0b34Af2e56702E7f70 is PT-USR-4SEP2025 (PT Resolv USD 4SEP2025) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x66a1E37c9b0eAddca17d3662D6c05F4DECf3e110 is USR (Resolv USD) with 18 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "PT-USR-4SEP2025/USR/USD",
-    "methodology": "Unknown",
-    "model": "Unknown",
-    "provider": "Cross",
-    "whitelisted": false
-  },
-  {
-    "name": "PendleUniversalOracle",
-    "address": "0x0A521133C4F6505Dd730be3296cB48E4D8a776f3",
-    "chainId": 1,
-    "base": "0x5b1578E2604B91bd7b24F86F0E5EF6C024bB3a14",
-    "quote": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-    "pendleMarket": "0x7da97FbFAA3020f856C60EB4EF068079A9023Aca",
-    "twapWindow": "900",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x5b1578E2604B91bd7b24F86F0E5EF6C024bB3a14 is PT-hgETH-25JUN2026 (PT Kelp High Growth ETH 25JUN2026) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 is WETH (Wrapped Ether) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x7da97FbFAA3020f856C60EB4EF068079A9023Aca is PENDLE-LPT (Pendle Market) with 18 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "hgETH",
-    "methodology": "TWAP",
-    "model": "Push",
-    "provider": "Pendle",
-    "whitelisted": false
-  },
-  {
-    "name": "RateProviderOracle",
-    "address": "0x49e4d0aEa709F69EcB25b1F7D9Bd44c4d9c5c455",
-    "chainId": 1,
-    "base": "0xD9A442856C234a39a81a089C06451EBAa4306a72",
-    "quote": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-    "rateProvider": "0x71f80e2CfAFA5EC2F0bF12f71FA7Ea57c3D0c7Af",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xD9A442856C234a39a81a089C06451EBAa4306a72 is pufETH (pufETH) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 is WETH (Wrapped Ether) with 18 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "pufETH/WETH",
-    "methodology": "Exchange Rate",
-    "model": "Push",
-    "provider": "Rate Provider",
-    "whitelisted": false
-  },
-  {
-    "name": "RateProviderOracle",
-    "address": "0xFE0Ff10BF1837843250E18C820Db06C0464DDfDB",
-    "chainId": 1,
-    "base": "0xD7D2802f6b19843ac4DfE25022771FD83b5A7464",
-    "quote": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-    "rateProvider": "0x71f80e2CfAFA5EC2F0bF12f71FA7Ea57c3D0c7Af",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xD7D2802f6b19843ac4DfE25022771FD83b5A7464 is xPufETH (xPufETH) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 is WETH (Wrapped Ether) with 18 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "xPufETH/WETH",
-    "methodology": "Exchange Rate",
-    "model": "Push",
-    "provider": "Rate Provider",
-    "whitelisted": false
-  },
-  {
-    "name": "RateProviderOracle",
-    "address": "0x013F30a593718D962c0CeeDe0a66f5f9EF5451b5",
-    "chainId": 1,
-    "base": "0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7",
-    "quote": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-    "rateProvider": "0x746df66bc1Bb361b9E8E2a794C299c3427976e6C",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is whitelisted in the adapter registry.",
-        "pass": true
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7 is rsETH (rsETH) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 is WETH (Wrapped Ether) with 18 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "rsETH/WETH",
-    "methodology": "Exchange Rate",
-    "model": "Push",
-    "provider": "Rate Provider",
-    "whitelisted": true
-  },
-  {
-    "address": "0xB4970Bd6FE2a3B3F2B911cC8338834272a695735"
-  },
-  {
-    "address": "0x02a4497378138c01e06e877bc74C9654cd4160C7"
-  },
-  {
-    "address": "0x683a341BDb03548a8ebbD1D9045D07C5a147F9bC"
-  },
-  {
-    "name": "ChainlinkOracle",
-    "address": "0x3bDcB804Fd42Ccb2B7Cf329fa07724bEcB872970",
-    "chainId": 1,
-    "base": "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "feed": "0x26C46B7aD0012cA71F2298ada567dC9Af14E7f2A",
-    "maxStaleness": "90000",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD is RLUSD (RLUSD) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Push oracle staleness buffer",
-        "severity": "Med",
-        "message": "Adapter's maximum staleness (90000 s) is sufficient for the feed's heartbeat (86400 s).",
-        "pass": true
-      }
-    ],
-    "label": "RLUSD / USD (0.3%, 86400s)",
-    "methodology": "Market Price",
-    "model": "Push",
-    "provider": "Chainlink",
-    "whitelisted": false
-  },
-  {
-    "name": "ChainlinkInfrequentOracle",
-    "address": "0x93840A424aBc32549809Dd0Bc07cEb56E137221C",
-    "chainId": 1,
-    "base": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "feed": "0xbC5FBcf58CeAEa19D523aBc76515b9AEFb5cfd58",
-    "maxStaleness": "90000",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3 is USDe (USDe) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Push oracle staleness buffer",
-        "severity": "Med",
-        "message": "Feed heartbeat is unknown",
-        "pass": false
-      }
-    ],
-    "label": "Unknown AggregatorV3 Feed",
-    "methodology": "Unknown",
-    "model": "Push",
-    "provider": "Unknown",
-    "whitelisted": false
-  },
-  {
-    "name": "ChainlinkInfrequentOracle",
-    "address": "0xE3Dce6a38A529B97B69cA47778c933b61b17535E",
-    "chainId": 1,
-    "base": "0xC139190F447e929f090Edeb554D95AbB8b18aC1C",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "feed": "0x692F045EFaC629a4d3C54DE4d8dDb1D225b5A976",
-    "maxStaleness": "90000",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xC139190F447e929f090Edeb554D95AbB8b18aC1C is USDtb (USDtb) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Push oracle staleness buffer",
-        "severity": "Med",
-        "message": "Feed heartbeat is unknown",
-        "pass": false
-      }
-    ],
-    "label": "Unknown AggregatorV3 Feed",
-    "methodology": "Unknown",
-    "model": "Push",
-    "provider": "Unknown",
-    "whitelisted": false
-  },
-  {
-    "name": "CrossAdapter",
-    "address": "0xD9DF01449BA6E3a4b2Ad2B4e92e9b5d6a7C8B66B",
-    "chainId": 1,
-    "base": "0x917459337CaAC939D41d7493B3999f571D20D667",
-    "cross": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0xBf9fC05C99bDBa25fb44dfB323dE445178C0FbF3",
-    "oracleCrossQuote": "0x93840A424aBc32549809Dd0Bc07cEb56E137221C",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x917459337CaAC939D41d7493B3999f571D20D667 is PT-USDe-31JUL2025 (PT Ethena USDe 31JUL2025) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3 is USDe (USDe) with 18 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "PT-USDe-31JUL2025/USDe/USD",
-    "methodology": "Unknown",
-    "model": "Unknown",
-    "provider": "Cross",
-    "whitelisted": false
-  },
-  {
-    "name": "CrossAdapter",
-    "address": "0x7351d14F0D8Ad684302578e3f8F7D2bD161DA435",
-    "chainId": 1,
-    "base": "0x3b3fB9C57858EF816833dC91565EFcd85D96f634",
-    "cross": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0xF05CA1D76a7d5859014b8606ab69C6D41629109C",
-    "oracleCrossQuote": "0x93840A424aBc32549809Dd0Bc07cEb56E137221C",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x3b3fB9C57858EF816833dC91565EFcd85D96f634 is PT-sUSDE-31JUL2025 (PT Ethena sUSDE 31JUL2025) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3 is USDe (USDe) with 18 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "PT-sUSDE-31JUL2025/USDe/USD",
-    "methodology": "Unknown",
-    "model": "Unknown",
-    "provider": "Cross",
-    "whitelisted": false
-  },
-  {
-    "name": "CrossAdapter",
-    "address": "0x29E1163590EB05c84747edE225A11Ce555B36Ce8",
-    "chainId": 1,
-    "base": "0x14Bdc3A3AE09f5518b923b69489CBcAfB238e617",
-    "cross": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0xE0C993DdC0Bd15283e3941839aA55345b79e7059",
-    "oracleCrossQuote": "0x93840A424aBc32549809Dd0Bc07cEb56E137221C",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x14Bdc3A3AE09f5518b923b69489CBcAfB238e617 is PT-eUSDE-14AUG2025 (PT Ethereal eUSDE 14AUG2025) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3 is USDe (USDe) with 18 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "PT-eUSDE-14AUG2025/USDe/USD",
-    "methodology": "Unknown",
-    "model": "Unknown",
-    "provider": "Cross",
-    "whitelisted": false
-  },
-  {
-    "name": "CrossAdapter",
-    "address": "0xe635E116D38ED5db736E620dD5c839a9A119f3F5",
-    "chainId": 1,
-    "base": "0xCcE7D12f683c6dAe700154f0BAdf779C0bA1F89A",
-    "cross": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0x82dac52F6aA25d9b6Fe024Eb73f6eaB9afE85Dc3",
-    "oracleCrossQuote": "0x6213f24332D35519039f2afa7e3BffE105a37d3F",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xCcE7D12f683c6dAe700154f0BAdf779C0bA1F89A is PT-syrupUSDC-28AUG2025 (PT Syrup USDC 28AUG2025) with 6 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 is USDC (USD Coin) with 6 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "PT-syrupUSDC-28AUG2025/USDC/USD",
-    "methodology": "Unknown",
-    "model": "Unknown",
-    "provider": "Cross",
-    "whitelisted": false
-  },
-  {
-    "name": "CrossAdapter",
-    "address": "0x011088B8725eef48cAdFf5fb290E186B2AEd83f5",
-    "chainId": 1,
-    "base": "0xFfEc096c087C13Cc268497B89A613cACE4DF9A48",
-    "cross": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0xc040c98A4044Ec310fCd1C24D6f2129f757dc6c9",
-    "oracleCrossQuote": "0xD0dAb9eDb2b1909802B03090eFBF14743E7Ff967",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xFfEc096c087C13Cc268497B89A613cACE4DF9A48 is PT-USDS-14AUG2025 (PT USDS Stablecoin 14AUG2025) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xdC035D45d973E3EC169d2276DDab16f1e407384F is USDS (USDS Stablecoin) with 18 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "PT-USDS-14AUG2025/USDS/USD",
-    "methodology": "Unknown",
-    "model": "Unknown",
-    "provider": "Cross",
-    "whitelisted": false
-  },
-  {
-    "name": "FixedRateOracle",
-    "address": "0xD35657aE033A86FFa8fc6Bc767C5eb57C7c3D4B8",
-    "chainId": 1,
-    "base": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "rate": "1000000000000000000",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 is USDC (USD Coin) with 6 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Sane fixed rate",
-        "severity": "High",
-        "message": "Adapter has a fixed rate of 1.",
-        "pass": true
-      }
-    ],
-    "label": "1:1 USDC/USD",
-    "methodology": "Exchange Rate",
-    "model": "Push",
-    "provider": "Fixed Rate",
-    "whitelisted": false
-  },
-  {
-    "name": "CrossAdapter",
-    "address": "0x8424db29b3f19a6B494d20cB3071669fd277Ed0C",
-    "chainId": 1,
-    "base": "0x97cCC1C046d067ab945d3CF3CC6920D3b1E54c88",
-    "cross": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0x260e8fDDC56c598e5fbf6C2aF62959f7d84BdC68",
-    "oracleCrossQuote": "0xD35657aE033A86FFa8fc6Bc767C5eb57C7c3D4B8",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x97cCC1C046d067ab945d3CF3CC6920D3b1E54c88 is USP (Pareto synthetic dollar USP) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 is USDC (USD Coin) with 6 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "USP/USDC/USD",
-    "methodology": "Unknown",
-    "model": "Unknown",
-    "provider": "Cross",
-    "whitelisted": false
-  },
-  {
-    "address": "0x5be59272d453f3AEA1c94e050a85a7c722E89627"
-  },
-  {
-    "name": "FixedRateOracle",
-    "address": "0x4cFa6e2783C02Ce427d720e22e574C8C89c3b7c1",
-    "chainId": 1,
-    "base": "0x97cCC1C046d067ab945d3CF3CC6920D3b1E54c88",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "rate": "1000000000000000000",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x97cCC1C046d067ab945d3CF3CC6920D3b1E54c88 is USP (Pareto synthetic dollar USP) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Sane fixed rate",
-        "severity": "High",
-        "message": "Adapter has a fixed rate of 1.",
-        "pass": true
-      }
-    ],
-    "label": "1:1 USP/USD",
-    "methodology": "Exchange Rate",
-    "model": "Push",
-    "provider": "Fixed Rate",
-    "whitelisted": false
-  },
-  {
-    "name": "CrossAdapter",
-    "address": "0x8a72e5B9e21FeAa2d810606531DdF2363C34FEd2",
-    "chainId": 1,
-    "base": "0x97cCC1C046d067ab945d3CF3CC6920D3b1E54c88",
-    "cross": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-    "quote": "0x0000000000000000000000000000000000000348",
-    "oracleBaseCross": "0x260e8fDDC56c598e5fbf6C2aF62959f7d84BdC68",
-    "oracleCrossQuote": "0xC039229EBCef32f898031eB81f646880F39a190B",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x97cCC1C046d067ab945d3CF3CC6920D3b1E54c88 is USP (Pareto synthetic dollar USP) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 is USDC (USD Coin) with 6 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "USP/USDC/USD",
-    "methodology": "Unknown",
-    "model": "Unknown",
-    "provider": "Cross",
-    "whitelisted": false
-  },
-  {
-    "address": "0x867Bd44763F270f2355d9df189A2c4AC28DD3379"
-  },
-  {
     "name": "FixedRateOracle",
     "address": "0xF58F4d2Cd0ee43624dc442e726871B115DBDd9f0",
     "chainId": 1,
@@ -13601,6 +13480,68 @@
   },
   {
     "name": "CrossAdapter",
+    "address": "0x727E36cb0743A25557219d5ECC313b0F93eE8b2F",
+    "chainId": 1,
+    "base": "0x742B4166878Bfd339Db65a29a17E49b81a6B6Aac",
+    "cross": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x7946130915692D5b4EE8C1Bbb5dD84a7da322ba7",
+    "oracleCrossQuote": "0x6213f24332D35519039f2afa7e3BffE105a37d3F",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is whitelisted in the adapter registry.",
+        "pass": true
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x742B4166878Bfd339Db65a29a17E49b81a6B6Aac is PT-RLP-4SEP2025 (PT Resolv Liquidity Provider Token 4SEP2025) with 6 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 is USDC (USD Coin) with 6 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "PT-RLP-4SEP2025/USDC/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": true
+  },
+  {
+    "address": "0x933B9FfEE0Ad3Ef8E4DBb52688ea905826D73755"
+  },
+  {
+    "name": "CrossAdapter",
     "address": "0x733067E8a4d14f15F0c8148c60175b195140dC34",
     "chainId": 1,
     "base": "0xE2Fc85BfB48C4cF147921fBE110cf92Ef9f26F94",
@@ -13653,6 +13594,124 @@
       }
     ],
     "label": "xUSD/USDC/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": false
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x633804CD0b2E30f9002b50861f7654d89B9241A7",
+    "chainId": 1,
+    "base": "0x7c5aA3E49d46e582f50287f70695278d962392dF",
+    "cross": "0xdA67B4284609d2d48e5d10cfAc411572727dc1eD",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0x96b88207783b4b71E7Ad25bf9c67B1B1f350fa68",
+    "oracleCrossQuote": "0xBd154793659D1E6ea0C58754cEd6807059A421b0",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x7c5aA3E49d46e582f50287f70695278d962392dF is PT-sUSN-31JUL2025 (PT Staked USN 31JUL2025) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xdA67B4284609d2d48e5d10cfAc411572727dc1eD is USN (USN) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "PT-sUSN-31JUL2025/USN/USD",
+    "methodology": "Unknown",
+    "model": "Unknown",
+    "provider": "Cross",
+    "whitelisted": false
+  },
+  {
+    "name": "CrossAdapter",
+    "address": "0x673222872a407775feab95a7A98F930A2cEc53F4",
+    "chainId": 1,
+    "base": "0xB10DA2F9147f9cf2B8826877Cd0c95c18A0f42dc",
+    "cross": "0x8238884Ec9668Ef77B90C6dfF4D1a9F4F4823BFe",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "oracleBaseCross": "0xB59fB806CcbE626c45f8A4f2cAde9E2eAD2e62c0",
+    "oracleCrossQuote": "0x53bE6a5E436A6Aa591161d62Caa573511F8EB56E",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xB10DA2F9147f9cf2B8826877Cd0c95c18A0f42dc is PT-cUSDO-20NOV2025 (PT Compounding Open Dollar 20NOV2025) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x8238884Ec9668Ef77B90C6dfF4D1a9F4F4823BFe is USDO (OpenEden Open Dollar) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "PT-cUSDO-20NOV2025/USDO/USD",
     "methodology": "Unknown",
     "model": "Unknown",
     "provider": "Cross",
@@ -26149,6 +26208,122 @@
   },
   {
     "name": "PendleUniversalOracle",
+    "address": "0xc040c98A4044Ec310fCd1C24D6f2129f757dc6c9",
+    "chainId": 1,
+    "base": "0xFfEc096c087C13Cc268497B89A613cACE4DF9A48",
+    "quote": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+    "pendleMarket": "0xdacE1121e10500e9e29d071F01593fD76B000f08",
+    "twapWindow": "900",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xFfEc096c087C13Cc268497B89A613cACE4DF9A48 is PT-USDS-14AUG2025 (PT USDS Stablecoin 14AUG2025) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xdC035D45d973E3EC169d2276DDab16f1e407384F is USDS (USDS Stablecoin) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xdacE1121e10500e9e29d071F01593fD76B000f08 is PENDLE-LPT (Pendle Market) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "USDS",
+    "methodology": "TWAP",
+    "model": "Push",
+    "provider": "Pendle",
+    "whitelisted": false
+  },
+  {
+    "name": "ChainlinkInfrequentOracle",
+    "address": "0x1B20C61d1b4b50FF836B82A206e43618bf4Acb74",
+    "chainId": 1,
+    "base": "0x35D8949372D46B7a3D5A56006AE77B215fc69bC0",
+    "quote": "0x0000000000000000000000000000000000000348",
+    "feed": "0x36d70e02e96897CE2002313CB7ea55FffDf074FC",
+    "maxStaleness": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x35D8949372D46B7a3D5A56006AE77B215fc69bC0 is USD0++ (USD0 Liquid Bond) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x0000000000000000000000000000000000000348 is a special designator address.",
+        "pass": true
+      },
+      {
+        "id": "Push oracle staleness buffer",
+        "severity": "Med",
+        "message": "Feed heartbeat is unknown",
+        "pass": false
+      }
+    ],
+    "label": "Unknown AggregatorV3 Feed",
+    "methodology": "Unknown",
+    "model": "Push",
+    "provider": "Unknown",
+    "whitelisted": false
+  },
+  {
+    "name": "PendleUniversalOracle",
     "address": "0x5000BD001F2D2994Ec6433fd8b6C862c2062Fb57",
     "chainId": 1,
     "base": "0xae4bE3acD95B6a4Ac5A0524ab95dA90c721f6C83",
@@ -26379,122 +26554,6 @@
     "whitelisted": false
   },
   {
-    "name": "PendleUniversalOracle",
-    "address": "0x96b88207783b4b71E7Ad25bf9c67B1B1f350fa68",
-    "chainId": 1,
-    "base": "0x7c5aA3E49d46e582f50287f70695278d962392dF",
-    "quote": "0xdA67B4284609d2d48e5d10cfAc411572727dc1eD",
-    "pendleMarket": "0xDCBC2E70aB9BfDD873A3f92f264d9fcD730680C7",
-    "twapWindow": "900",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0x7c5aA3E49d46e582f50287f70695278d962392dF is PT-sUSN-31JUL2025 (PT Staked USN 31JUL2025) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xdA67B4284609d2d48e5d10cfAc411572727dc1eD is USN (USN) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xDCBC2E70aB9BfDD873A3f92f264d9fcD730680C7 is PENDLE-LPT (Pendle Market) with 18 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "sUSN",
-    "methodology": "TWAP",
-    "model": "Push",
-    "provider": "Pendle",
-    "whitelisted": false
-  },
-  {
-    "name": "PendleUniversalOracle",
-    "address": "0xc040c98A4044Ec310fCd1C24D6f2129f757dc6c9",
-    "chainId": 1,
-    "base": "0xFfEc096c087C13Cc268497B89A613cACE4DF9A48",
-    "quote": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
-    "pendleMarket": "0xdacE1121e10500e9e29d071F01593fD76B000f08",
-    "twapWindow": "900",
-    "checks": [
-      {
-        "id": "Adapter existence",
-        "severity": "High",
-        "message": "Successfully indexed adapter",
-        "pass": true
-      },
-      {
-        "id": "Adapter whitelist",
-        "severity": "Med",
-        "message": "Adapter is not whitelisted in the adapter registry.",
-        "pass": false
-      },
-      {
-        "id": "Source code provenance",
-        "severity": "High",
-        "message": "Contract metadata hash matches a known hash.",
-        "pass": true
-      },
-      {
-        "id": "Distinct assets",
-        "severity": "High",
-        "message": "All assets are distinct.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xFfEc096c087C13Cc268497B89A613cACE4DF9A48 is PT-USDS-14AUG2025 (PT USDS Stablecoin 14AUG2025) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xdC035D45d973E3EC169d2276DDab16f1e407384F is USDS (USDS Stablecoin) with 18 decimals.",
-        "pass": true
-      },
-      {
-        "id": "Consistent asset",
-        "severity": "High",
-        "message": "Asset 0xdacE1121e10500e9e29d071F01593fD76B000f08 is PENDLE-LPT (Pendle Market) with 18 decimals.",
-        "pass": true
-      }
-    ],
-    "label": "USDS",
-    "methodology": "TWAP",
-    "model": "Push",
-    "provider": "Pendle",
-    "whitelisted": false
-  },
-  {
     "name": "PythOracle",
     "address": "0x5E81a94395268731912332680954FaF4394B7F61",
     "chainId": 1,
@@ -26576,6 +26635,64 @@
     "methodology": "Exchange Rate",
     "model": "Pull",
     "provider": "Pyth",
+    "whitelisted": false
+  },
+  {
+    "name": "PendleUniversalOracle",
+    "address": "0x96b88207783b4b71E7Ad25bf9c67B1B1f350fa68",
+    "chainId": 1,
+    "base": "0x7c5aA3E49d46e582f50287f70695278d962392dF",
+    "quote": "0xdA67B4284609d2d48e5d10cfAc411572727dc1eD",
+    "pendleMarket": "0xDCBC2E70aB9BfDD873A3f92f264d9fcD730680C7",
+    "twapWindow": "900",
+    "checks": [
+      {
+        "id": "Adapter existence",
+        "severity": "High",
+        "message": "Successfully indexed adapter",
+        "pass": true
+      },
+      {
+        "id": "Adapter whitelist",
+        "severity": "Med",
+        "message": "Adapter is not whitelisted in the adapter registry.",
+        "pass": false
+      },
+      {
+        "id": "Source code provenance",
+        "severity": "High",
+        "message": "Contract metadata hash matches a known hash.",
+        "pass": true
+      },
+      {
+        "id": "Distinct assets",
+        "severity": "High",
+        "message": "All assets are distinct.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0x7c5aA3E49d46e582f50287f70695278d962392dF is PT-sUSN-31JUL2025 (PT Staked USN 31JUL2025) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xdA67B4284609d2d48e5d10cfAc411572727dc1eD is USN (USN) with 18 decimals.",
+        "pass": true
+      },
+      {
+        "id": "Consistent asset",
+        "severity": "High",
+        "message": "Asset 0xDCBC2E70aB9BfDD873A3f92f264d9fcD730680C7 is PENDLE-LPT (Pendle Market) with 18 decimals.",
+        "pass": true
+      }
+    ],
+    "label": "sUSN",
+    "methodology": "TWAP",
+    "model": "Push",
+    "provider": "Pendle",
     "whitelisted": false
   }
 ]
