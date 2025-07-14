@@ -447,20 +447,6 @@
     }
   },
   {
-    "id": "0x581ba57d715860c8f92d634304b91aaa476978a346e0ad13a3a90ad356131a09",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "081660",
-      "country": "KR",
-      "description": "MISTO HOLDINGS CORPORATION / SOUTH KOREAN WON",
-      "display_symbol": "KQ.081660/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.081660/KRW"
-    }
-  },
-  {
     "id": "0x59656667085fef56ca1ef7de5db26d7e4302713ba3085d9992969ad84a4533c4",
     "attributes": {
       "asset_type": "Equity",
@@ -547,20 +533,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.ZEUS/USD"
-    }
-  },
-  {
-    "id": "0x9ebeef9f0d3d750d4e3b81da40e6f097774dc6a5de3f785e8f9ed67c2938c185",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "005070",
-      "country": "KR",
-      "description": "COSMO AM&T / SOUTH KOREAN WON",
-      "display_symbol": "KQ.005070/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.005070/KRW"
     }
   },
   {
@@ -804,6 +776,19 @@
     }
   },
   {
+    "id": "0x2817b78438c769357182c04346fddaad1178c82f4048828fe0997c3c64624e14",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "SPYX",
+      "description": "SP500 XSTOCK / US DOLLAR",
+      "display_symbol": "SPYX/USD",
+      "generic_symbol": "SPYXUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.SPYX/USD"
+    }
+  },
+  {
     "id": "0xe4731214382d8ed70a766930a7722c68064fc7ed4e6d70dbce3c84d4be81bc92",
     "attributes": {
       "asset_type": "Crypto",
@@ -881,20 +866,6 @@
       "quote_currency": "EUR",
       "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
       "symbol": "Equity.FR.TTE/EUR"
-    }
-  },
-  {
-    "id": "0x06b6e1bf01dc1fdb2057b02712e67bd216a364a3a42e0bf60a7ba16da3323961",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "042670",
-      "country": "KR",
-      "description": "HD HYUNDAI INFRACORE / SOUTH KOREAN WON",
-      "display_symbol": "KQ.042670/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.042670/KRW"
     }
   },
   {
@@ -1005,20 +976,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.BND/USD"
-    }
-  },
-  {
-    "id": "0x9ef615b6fea95688735fbaa4d7a8a6bbde45c217076d54db86a8c90660edbf37",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "069960",
-      "country": "KR",
-      "description": "HYUNDAI DEPARTMENT STORE CO  LTD / SOUTH KOREAN WON",
-      "display_symbol": "KQ.069960/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.069960/KRW"
     }
   },
   {
@@ -1210,20 +1167,6 @@
     }
   },
   {
-    "id": "0x4c65562f72d1043a6ba0328b97dabf188674a468c4a4b5bef95e1a3d51e18bf6",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "012510",
-      "country": "KR",
-      "description": "DOUZONE BIZON / SOUTH KOREAN WON",
-      "display_symbol": "KQ.012510/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.012510/KRW"
-    }
-  },
-  {
     "id": "0xf80ba6864e3f1b36c873bcb2767079d5fb86cf04855e714b2a0f30d7e0830a24",
     "attributes": {
       "asset_type": "Crypto",
@@ -1277,20 +1220,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.JNJ/USD"
-    }
-  },
-  {
-    "id": "0x34d80fd09cbd19acf36a91bdd9f86bdb6874bb16de3a7be35b104304bee83014",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "192820",
-      "country": "KR",
-      "description": "COSMAX INC  / SOUTH KOREAN WON",
-      "display_symbol": "KQ.192820/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.192820/KRW"
     }
   },
   {
@@ -1510,20 +1439,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.OTIS/USD"
-    }
-  },
-  {
-    "id": "0x8c23edac75cccbb12a6f116d37a491b5a1207e08ad4e766f5d9ef32d11773a22",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "000990",
-      "country": "KR",
-      "description": "DB HITEK CO LTD / SOUTH KOREAN WON",
-      "display_symbol": "KQ.000990/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.000990/KRW"
     }
   },
   {
@@ -2194,20 +2109,6 @@
     }
   },
   {
-    "id": "0x5e4c34afd336f902759d65969ac120f18e02801209e9e7520e240c55f0515410",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "022100",
-      "country": "KR",
-      "description": "POSCO DX / SOUTH KOREAN WON",
-      "display_symbol": "KQ.022100/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.022100/KRW"
-    }
-  },
-  {
     "id": "0x3e7d0dd3be36c4f0ee0efa7600ed5a5dcf5c4e0a1460d8c3fc46169bbd9d78db",
     "attributes": {
       "asset_type": "Equity",
@@ -2339,20 +2240,6 @@
     }
   },
   {
-    "id": "0x08579004e23564c9719aab51e2f9a82b9d4e4bd2e3e217b7368e04660a0fd682",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "000120",
-      "country": "KR",
-      "description": "CJ LOGISTICS / SOUTH KOREAN WON",
-      "display_symbol": "KQ.000120/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.000120/KRW"
-    }
-  },
-  {
     "id": "0xb2e33e4daa44d9b0c0783ededd335520a0f7eeed7608ff60c93c7c2294b2d813",
     "attributes": {
       "asset_type": "Equity",
@@ -2426,20 +2313,6 @@
       "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
       "symbol": "FX.USD/SGD",
       "tenor": "Spot"
-    }
-  },
-  {
-    "id": "0x9b713721cfccab2413b9b778dbcbcead09ae7f243e03a8047d879546cd2a8773",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "082740",
-      "country": "KR",
-      "description": "HANWHA ENGINE / SOUTH KOREAN WON",
-      "display_symbol": "KQ.082740/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.082740/KRW"
     }
   },
   {
@@ -2624,17 +2497,16 @@
     }
   },
   {
-    "id": "0x0f29657fb03938d973410c2cf1b6e92a7a08056c237cd01fdbd980c3a668c5ec",
+    "id": "0xdd49a9ac6df5cbfa9d8fc6371f7ae927a74d5c6763c1c01b4220d70314c647f9",
     "attributes": {
-      "asset_type": "Equity",
-      "base": "036460",
-      "country": "KR",
-      "description": "KOREA GAS CORPORATION / SOUTH KOREAN WON",
-      "display_symbol": "KQ.036460/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.036460/KRW"
+      "asset_type": "Crypto",
+      "base": "HOODX",
+      "description": "ROBINHOOD XSTOCK / US DOLLAR",
+      "display_symbol": "HOODX/USD",
+      "generic_symbol": "HOODXUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.HOODX/USD"
     }
   },
   {
@@ -2769,20 +2641,6 @@
       "quote_currency": "KRW",
       "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
       "symbol": "Equity.KR.000880/KRW"
-    }
-  },
-  {
-    "id": "0x3e7dd95e8004bc354eed824e4daf53ccaef4ebbce22be9a4aaa1939624674b72",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "071970",
-      "country": "KR",
-      "description": "HD-HYUNDAI MARINE ENGINE / SOUTH KOREAN WON",
-      "display_symbol": "KQ.071970/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.071970/KRW"
     }
   },
   {
@@ -3069,20 +2927,6 @@
     }
   },
   {
-    "id": "0x4ebd53eccb4c95fff93221fd787fbdc55afa28b8e3e85391dc2a83a91c2a5d22",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "361610",
-      "country": "KR",
-      "description": "SK IE TECHNOLOGY / SOUTH KOREAN WON",
-      "display_symbol": "KQ.361610/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.361610/KRW"
-    }
-  },
-  {
     "id": "0x29bdd5248234e33bd93d3b81100b5fa32eaa5997843847e2c2cb16d7c6d9f7ff",
     "attributes": {
       "asset_type": "Crypto",
@@ -3120,6 +2964,19 @@
       "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
       "symbol": "FX.EUR/AUD",
       "tenor": "Spot"
+    }
+  },
+  {
+    "id": "0xd41369178d64f41d51ca95465c144a2c74d2fff30be69164835911943fa64c3e",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "WLFI",
+      "description": "WORLD LIBERTY FINANCIAL / US DOLLAR",
+      "display_symbol": "WLFI/USD",
+      "generic_symbol": "WLFIUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.WLFI/USD"
     }
   },
   {
@@ -3399,20 +3256,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.AVAIL/USD"
-    }
-  },
-  {
-    "id": "0x9bb8f517a06061f8dea6046e39af5b1e95eb6fcba8d70dbd843db959165bac48",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "005440",
-      "country": "KR",
-      "description": "HYUNDAI G F  HOLDINGS / SOUTH KOREAN WON",
-      "display_symbol": "KQ.005440/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.005440/KRW"
     }
   },
   {
@@ -3896,20 +3739,6 @@
     }
   },
   {
-    "id": "0xa31bb032d88a55ee01e23637a9a3df5437774176e9dd458af0920fc246f58fa9",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "011170",
-      "country": "KR",
-      "description": "LOTTE CHEMICAL CORPORATION / SOUTH KOREAN WON",
-      "display_symbol": "KQ.011170/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.011170/KRW"
-    }
-  },
-  {
     "id": "0xa5fcd936b0178a425663f150dd87175bd8c374bff2ebc1e833ea73a67f721ca2",
     "attributes": {
       "asset_type": "Crypto",
@@ -4109,20 +3938,6 @@
     }
   },
   {
-    "id": "0x45d45f44456b7d7b4849c95afb28b60ea791838c5e156d16c13cbe38ac0cf926",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "484870",
-      "country": "KR",
-      "description": "MNC SOLUTION / SOUTH KOREAN WON",
-      "display_symbol": "KQ.484870/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.484870/KRW"
-    }
-  },
-  {
     "id": "0x3d63be09d1b88f6dffe6585d0170670592124fd9fa4e0fe8a09ff18464f05e3a",
     "attributes": {
       "asset_type": "Crypto",
@@ -4265,6 +4080,19 @@
       "quote_currency": "KRW",
       "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
       "symbol": "Equity.KR.034020/KRW"
+    }
+  },
+  {
+    "id": "0xc13184461c0c80d98ffcd89be627c2220b94a96c7c67f0c4b16bc12fd3b17758",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "CRCLX",
+      "description": "CIRCLE XSTOCK / US DOLLAR",
+      "display_symbol": "CRCLX/USD",
+      "generic_symbol": "CRCLXUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.CRCLX/USD"
     }
   },
   {
@@ -4600,20 +4428,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.BODEN/USD"
-    }
-  },
-  {
-    "id": "0x6c59ea83733abda573d20c62e55a26bb3b74d85c5805fba9cf4abe87ef5963bb",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "018670",
-      "country": "KR",
-      "description": "SK GAS / SOUTH KOREAN WON",
-      "display_symbol": "KQ.018670/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.018670/KRW"
     }
   },
   {
@@ -5423,20 +5237,6 @@
     }
   },
   {
-    "id": "0xdd2e14c6b8e5bbab0a19bcb39a8274adcd617c6457f3730579aedcdfcf729f10",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "007310",
-      "country": "KR",
-      "description": "OTOKI / SOUTH KOREAN WON",
-      "display_symbol": "KQ.007310/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.007310/KRW"
-    }
-  },
-  {
     "id": "0x54350ebf587c3f14857efcfec50e5c4f6e10220770c2266e9fe85bd5e42e4022",
     "attributes": {
       "asset_type": "Equity",
@@ -5603,20 +5403,6 @@
     }
   },
   {
-    "id": "0xcd43fa27893da3b3207b442f1bc3bd5800a5eb804b62ccc93b20a1b6ae4d8ff9",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "267270",
-      "country": "KR",
-      "description": "HD HYUNDAI CONSTRUCTION EQUIPMENT / SOUTH KOREAN WON",
-      "display_symbol": "KQ.267270/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.267270/KRW"
-    }
-  },
-  {
     "id": "0x816c6604beb161d3ad9c3b584f06c682e6299516165d756a68c7660b073b7072",
     "attributes": {
       "asset_type": "Crypto",
@@ -5689,34 +5475,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.DHR/USD"
-    }
-  },
-  {
-    "id": "0xbf67fd5f0a0fd2995083a65071828793f6243a0d0e77bb7e2807c9d622a5da96",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "161890",
-      "country": "KR",
-      "description": "KOLMAR KOREA / SOUTH KOREAN WON",
-      "display_symbol": "KQ.161890/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.161890/KRW"
-    }
-  },
-  {
-    "id": "0xf30fcce9bc2f7875419ff69805f3a4c5a70e758d0fa801806238009acf49147a",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "000240",
-      "country": "KR",
-      "description": "HANKOOK & COMPANY / SOUTH KOREAN WON",
-      "display_symbol": "KQ.000240/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.000240/KRW"
     }
   },
   {
@@ -5881,34 +5639,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800,C,1800-2400;0704/0000-1330&2000-2400",
       "symbol": "Commodities.BRENTX5/USD"
-    }
-  },
-  {
-    "id": "0x04008dd49cb468ca82722576be2ec0abf08b96ff698cb4fa0e78b077d25160f7",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "004170",
-      "country": "KR",
-      "description": "SHINSEGAE CO LTD / SOUTH KOREAN WON",
-      "display_symbol": "KQ.004170/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.004170/KRW"
-    }
-  },
-  {
-    "id": "0x14fc7933194b685c809d26a91e241eaa1ff8391ae400d976aaaf2618942b1357",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "302440",
-      "country": "KR",
-      "description": "SK BIOSCIENCE / SOUTH KOREAN WON",
-      "display_symbol": "KQ.302440/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.302440/KRW"
     }
   },
   {
@@ -6321,20 +6051,6 @@
     }
   },
   {
-    "id": "0xc05b8d9c3c204c9251f50e5e8dc21cd22b2ee91ff143c6ac3f09d365f610dcd5",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "034230",
-      "country": "KR",
-      "description": "PARADISE / SOUTH KOREAN WON",
-      "display_symbol": "KQ.034230/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.034230/KRW"
-    }
-  },
-  {
     "id": "0x5a6adda937aa507f81104d99f5c7d4abe1d21ac6e165d9a86bd443c4305ff502",
     "attributes": {
       "asset_type": "Equity",
@@ -6424,20 +6140,6 @@
     }
   },
   {
-    "id": "0xcad3e5722528baa8a9656fd787af03ab036ee1a6695bda5962af6a80773650de",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "004800",
-      "country": "KR",
-      "description": "HYOSUNG / SOUTH KOREAN WON",
-      "display_symbol": "KQ.004800/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.004800/KRW"
-    }
-  },
-  {
     "id": "0x20311405c2fc648cf5733197e95c03512af9cf64f2260aea7e212a8c8b7bdcfa",
     "attributes": {
       "asset_type": "Crypto",
@@ -6448,20 +6150,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.LRC/USD"
-    }
-  },
-  {
-    "id": "0x810374406d0318e6884b22f10e852ee23f5797d316bb560b39b380eaeb6c6eff",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "128940",
-      "country": "KR",
-      "description": "HANMIPHARM / SOUTH KOREAN WON",
-      "display_symbol": "KQ.128940/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.128940/KRW"
     }
   },
   {
@@ -6539,20 +6227,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.STX/USD"
-    }
-  },
-  {
-    "id": "0x68d861496a4c0429815d8d54c47bb7cad344b791a0ba480fedf6c77ab225ae74",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "457190",
-      "country": "KR",
-      "description": "ISU SPECIALTY CHEMICAL / SOUTH KOREAN WON",
-      "display_symbol": "KQ.457190/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.457190/KRW"
     }
   },
   {
@@ -6859,34 +6533,6 @@
     }
   },
   {
-    "id": "0x4fd00cbfcd2d937bb65a2a91ad196aa94dc728960f708ce947e15630e64ca07e",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "006280",
-      "country": "KR",
-      "description": "GREEN CROSS CORPORATION / SOUTH KOREAN WON",
-      "display_symbol": "KQ.006280/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.006280/KRW"
-    }
-  },
-  {
-    "id": "0xfd8a81e4e4d966bd9b845fdc93580f6a6e06fd6098ed1449a2472da033afa2da",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "103590",
-      "country": "KR",
-      "description": "ILJIN ELECTRIC / SOUTH KOREAN WON",
-      "display_symbol": "KQ.103590/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.103590/KRW"
-    }
-  },
-  {
     "id": "0x178d0d973d4cabb0323fb50aa043e9f9d384d904d70340a4e794e20e6d5986e6",
     "attributes": {
       "asset_type": "Equity",
@@ -7096,20 +6742,6 @@
     }
   },
   {
-    "id": "0x45962af24edf0fb99d32b27be99e4ec3bd366fb8daaea1ff0f7b774c767b3f79",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "006040",
-      "country": "KR",
-      "description": "DONGWON INDUSTRIES / SOUTH KOREAN WON",
-      "display_symbol": "KQ.006040/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.006040/KRW"
-    }
-  },
-  {
     "id": "0x84ff736dbf4339f4d353265c12774f6bf27551496c4c7ad89dd4ac30fa2f55f8",
     "attributes": {
       "asset_type": "Crypto Redemption Rate",
@@ -7121,6 +6753,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.MTBILL/USD.RR"
+    }
+  },
+  {
+    "id": "0x4244d07890e4610f46bbde67de8f43a4bf8b569eebe904f136b469f148503b7f",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "NVDAX",
+      "description": "NVIDIA XSTOCK / US DOLLAR",
+      "display_symbol": "NVDAX/USD",
+      "generic_symbol": "NVDAXUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.NVDAX/USD"
     }
   },
   {
@@ -7174,20 +6819,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.OP/USD"
-    }
-  },
-  {
-    "id": "0xda8d4ceadf6a0d701bb5f584619301d70a069d36cc840d0e14bf991d72a27749",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "298020",
-      "country": "KR",
-      "description": "HYOSUNG TNC / SOUTH KOREAN WON",
-      "display_symbol": "KQ.298020/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.298020/KRW"
     }
   },
   {
@@ -7336,20 +6967,6 @@
     }
   },
   {
-    "id": "0xfefa3e61fa1f92a81d7e01186c99e2a0d44f032fe1bf0c4a9a430b3abdcdeb84",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "031210",
-      "country": "KR",
-      "description": "SEOUL GUARANTEE INSURANCE COMPANY / SOUTH KOREAN WON",
-      "display_symbol": "KQ.031210/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.031210/KRW"
-    }
-  },
-  {
     "id": "0x8c102183926ffc9a1a1347a5a583661af37b415e93ea3f3591e94c303ed4f514",
     "attributes": {
       "asset_type": "Crypto",
@@ -7475,6 +7092,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.KAIA/USD"
+    }
+  },
+  {
+    "id": "0x178a6f73a5aede9d0d682e86b0047c9f333ed0efe5c6537ca937565219c4054d",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "QQQX",
+      "description": "NASDAQ XSTOCK / US DOLLAR",
+      "display_symbol": "QQQX/USD",
+      "generic_symbol": "QQQXUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.QQQX/USD"
     }
   },
   {
@@ -7618,20 +7248,6 @@
     }
   },
   {
-    "id": "0xfbc01c5982b61bff0ec1769d3934f7d1161f1c7eeb58097f2cf1c696bffd254b",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "112610",
-      "country": "KR",
-      "description": "CS WIND CORPORATION / SOUTH KOREAN WON",
-      "display_symbol": "KQ.112610/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.112610/KRW"
-    }
-  },
-  {
     "id": "0xd37e4513ebe235fff81e453d400debaf9a49a5df2b7faa11b3831d35d7e72cb7",
     "attributes": {
       "asset_type": "Crypto",
@@ -7740,20 +7356,6 @@
       "quote_currency": "KRW",
       "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
       "symbol": "Equity.KR.009540/KRW"
-    }
-  },
-  {
-    "id": "0x61c5cb8160f33bd6d9d070df8d915ae5d2903d65945275e49650ed92543b16b7",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "011070",
-      "country": "KR",
-      "description": "LG INNOTEK / SOUTH KOREAN WON",
-      "display_symbol": "KQ.011070/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.011070/KRW"
     }
   },
   {
@@ -8059,20 +7661,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.HBAN/USD"
-    }
-  },
-  {
-    "id": "0xfac49ed48b4896acfcafc76faa817db1d05622ffd435f0b30be1085f17e01652",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "017800",
-      "country": "KR",
-      "description": "HYUNDAI ELEVATOR / SOUTH KOREAN WON",
-      "display_symbol": "KQ.017800/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.017800/KRW"
     }
   },
   {
@@ -8791,20 +8379,6 @@
     }
   },
   {
-    "id": "0xbd91c5f7253cb468dfd8f919098c93085c45a1e4ac9296b018a4fcc6347f8a8b",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "008770",
-      "country": "KR",
-      "description": "HOTEL SHILLA / SOUTH KOREAN WON",
-      "display_symbol": "KQ.008770/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.008770/KRW"
-    }
-  },
-  {
     "id": "0xa2fb411b17979013bcc86178ce28b4bea66f890d4efdb6fd9a645dbbbdb076fc",
     "attributes": {
       "asset_type": "Crypto Redemption Rate",
@@ -8875,20 +8449,6 @@
       "quote_currency": "KRW",
       "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
       "symbol": "Equity.KR.180640/KRW"
-    }
-  },
-  {
-    "id": "0xa3775eea3a3fad66778c74f9a12571ba17edafc61eeb1b7a82a7d8a331e72d31",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "052690",
-      "country": "KR",
-      "description": "KEPCO ENGINEERING & CONSTRUCTION / SOUTH KOREAN WON",
-      "display_symbol": "KQ.052690/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.052690/KRW"
     }
   },
   {
@@ -8965,20 +8525,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.NEM/USD"
-    }
-  },
-  {
-    "id": "0x16b36a3d60775b944144fca251bb5185621ec25a6d328bdac5a764715822e251",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "454910",
-      "country": "KR",
-      "description": "DOOSAN ROBOTICS / SOUTH KOREAN WON",
-      "display_symbol": "KQ.454910/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.454910/KRW"
     }
   },
   {
@@ -9230,6 +8776,19 @@
     }
   },
   {
+    "id": "0x978e6cc68a119ce066aa830017318563a9ed04ec3a0a6439010fc11296a58675",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "AAPLX",
+      "description": "APPLE XSTOCK / US DOLLAR",
+      "display_symbol": "AAPLX/USD",
+      "generic_symbol": "AAPLXUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.AAPLX/USD"
+    }
+  },
+  {
     "id": "0xd90813d7fc7f4f5d786f3a6a35701aff4f628db0ecd998de66be0ff8264c67a2",
     "attributes": {
       "asset_type": "Crypto",
@@ -9319,20 +8878,6 @@
     }
   },
   {
-    "id": "0xf3208ff5bf3c6a159544a3eaff9a54b427ee00b731b8fa6ab6d567149cdb6272",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "003530",
-      "country": "KR",
-      "description": "HANWHA INVESTMENT & SECURITIES / SOUTH KOREAN WON",
-      "display_symbol": "KQ.003530/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.003530/KRW"
-    }
-  },
-  {
     "id": "0x29429344e993184204b4d484a8322c7bd221a7e4aebf354ddf6c3d230e141822",
     "attributes": {
       "asset_type": "Crypto",
@@ -9362,13 +8907,13 @@
     "id": "0xbabbfcc7f46b6e7df73adcccece8b6782408ed27c4e77f35ba39a449440170ab",
     "attributes": {
       "asset_type": "Crypto NAV",
-      "base": "ONE",
+      "base": "ONYC",
       "description": "ONRE REINSURANCE UNDERWRITING POOL / US DOLLAR",
-      "display_symbol": "ONE/USD",
-      "generic_symbol": "ONEUSD",
+      "display_symbol": "ONYC/USD",
+      "generic_symbol": "ONYCUSD",
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.NAV.ONE/USD"
+      "symbol": "Crypto.NAV.ONYC/USD"
     }
   },
   {
@@ -9897,20 +9442,6 @@
     }
   },
   {
-    "id": "0x1d4318e0a8d4c9ad87aebd6f6b052e45c21f291329c68e8fb5d50bea2a1cb697",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "062040",
-      "country": "KR",
-      "description": "SANIL ELECTRIC / SOUTH KOREAN WON",
-      "display_symbol": "KQ.062040/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.062040/KRW"
-    }
-  },
-  {
     "id": "0xac2adf4571a391da22a2d39e8c5eb32ceecd6ab38c386a9194d669deece74dee",
     "attributes": {
       "asset_type": "Crypto",
@@ -9951,20 +9482,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.EXR/USD"
-    }
-  },
-  {
-    "id": "0xf34bfe922d8550dca6691e41dd4f7932933e15b4a92ab525a3c33f8cd14bb176",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "004370",
-      "country": "KR",
-      "description": "NONGSHIM / SOUTH KOREAN WON",
-      "display_symbol": "KQ.004370/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.004370/KRW"
     }
   },
   {
@@ -10704,20 +10221,6 @@
     }
   },
   {
-    "id": "0x22b3556d4a059205f73db1e174775ad605cb08bf2be4207ecaa43dfdf02c187f",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "047040",
-      "country": "KR",
-      "description": "DAEWOO ENGINEERING & CONSTRUCTION / SOUTH KOREAN WON",
-      "display_symbol": "KQ.047040/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.047040/KRW"
-    }
-  },
-  {
     "id": "0x940b0948d828c46bff5fc3a3204fc032092b5b4239ef9364f33e01d37437ba65",
     "attributes": {
       "asset_type": "Crypto Redemption Rate",
@@ -10864,20 +10367,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.VIG/USD"
-    }
-  },
-  {
-    "id": "0xf0072a7d480aa6a1cf49e265afc3e841fb1f94e54201340de7c58b4002885ea2",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "336260",
-      "country": "KR",
-      "description": "DOOSAN FUEL CELL / SOUTH KOREAN WON",
-      "display_symbol": "KQ.336260/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.336260/KRW"
     }
   },
   {
@@ -11155,6 +10644,19 @@
     }
   },
   {
+    "id": "0xb911b0329028cd0283e4259c33809d62942bd2716a58084e5f31d64c00b5424e",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "GOOGLX",
+      "description": "ALPHABET XSTOCK / US DOLLAR",
+      "display_symbol": "GOOGLX/USD",
+      "generic_symbol": "GOOGLXUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.GOOGLX/USD"
+    }
+  },
+  {
     "id": "0x597d2ae7e4b92165d40f03ae57895e3e8245762a177b6db3274e4322b78f5b82",
     "attributes": {
       "asset_type": "Crypto",
@@ -11399,19 +10901,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.GOOGL/USD"
-    }
-  },
-  {
-    "id": "0x6dfd85fb7e6ac64620dc4efbb5efbd35b74f023003619ce025f1e128ef37ad01",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "USD*",
-      "description": "USD STAR / US DOLLAR",
-      "display_symbol": "USD*/USD",
-      "generic_symbol": "USD*USD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.USD*/USD"
     }
   },
   {
@@ -11962,20 +11451,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.WMB/USD"
-    }
-  },
-  {
-    "id": "0x1fd9cffa5dc34e56cea987d5b7c167935c7424d9609cbc095cccf09896796c4a",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "089860",
-      "country": "KR",
-      "description": "LOTTE RENTAL / SOUTH KOREAN WON",
-      "display_symbol": "KQ.089860/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.089860/KRW"
     }
   },
   {
@@ -12739,20 +12214,6 @@
     }
   },
   {
-    "id": "0xcba6b76116156a6fcc46d0326c08244a891ce93fe6c60054e740d5dd8cecb080",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "103140",
-      "country": "KR",
-      "description": "POONGSAN CORPORATION / SOUTH KOREAN WON",
-      "display_symbol": "KQ.103140/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.103140/KRW"
-    }
-  },
-  {
     "id": "0x4dcc2fb96fb89a802ef9712f6bd2246d3607cf95ca5540cb24490d37003f8c46",
     "attributes": {
       "asset_type": "Crypto",
@@ -12846,20 +12307,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.BTC/USD"
-    }
-  },
-  {
-    "id": "0x064d9f7182e3e4ff9a8184cd35d6cc7affa1a2d260ed03287fb474bddafc78cf",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "004990",
-      "country": "KR",
-      "description": "LOTTE CORPORATION / SOUTH KOREAN WON",
-      "display_symbol": "KQ.004990/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.004990/KRW"
     }
   },
   {
@@ -13060,20 +12507,6 @@
     }
   },
   {
-    "id": "0xd9fbd8f12e4288db5b075a868a3d79592c6dac767b6c0c1094412c42da9aafee",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "120110",
-      "country": "KR",
-      "description": "KOLON INDUSTRIES / SOUTH KOREAN WON",
-      "display_symbol": "KQ.120110/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.120110/KRW"
-    }
-  },
-  {
     "id": "0x97b55381ff94c6c0a22f3e0c8cdc2186a3561bf3dfe3cfaebf4786c9318b770f",
     "attributes": {
       "asset_type": "Equity",
@@ -13232,20 +12665,6 @@
     }
   },
   {
-    "id": "0xd0c5fc3a502960a5d5e8488c68e59c84ad466ed87f0309c50928e9e57789f42d",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "008930",
-      "country": "KR",
-      "description": "HANMI SCIENCE / SOUTH KOREAN WON",
-      "display_symbol": "KQ.008930/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.008930/KRW"
-    }
-  },
-  {
     "id": "0x6cb3fb72d973df2ce9c0253a174801851488e058595ff26f320e96f3f856ad0b",
     "attributes": {
       "asset_type": "Equity",
@@ -13350,20 +12769,6 @@
       "quote_currency": "EUR",
       "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
       "symbol": "Equity.FR.SAN/EUR"
-    }
-  },
-  {
-    "id": "0x4066b34246a189e313fc9c64d0190cda8ff6849b1f0f883801163dde20ef94bb",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "006360",
-      "country": "KR",
-      "description": "GS ENGINEERING & CONSTRUCTION CORP / SOUTH KOREAN WON",
-      "display_symbol": "KQ.006360/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.006360/KRW"
     }
   },
   {
@@ -13641,20 +13046,6 @@
     }
   },
   {
-    "id": "0x488da2597b56e72026241412c2b088a721d3c3debe5a42aee51a7e9ad39280ba",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "020150",
-      "country": "KR",
-      "description": "LOTTE ENERGY MATERIALS CORPORATION / SOUTH KOREAN WON",
-      "display_symbol": "KQ.020150/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.020150/KRW"
-    }
-  },
-  {
     "id": "0x3a4d69933f6e8e251a730e1d04ae7fdd53a2b20a1d111bbccf263209375646a0",
     "attributes": {
       "asset_type": "Equity",
@@ -13669,20 +13060,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.APD/USD"
-    }
-  },
-  {
-    "id": "0xab43cb3081233882c8f79f516c05cf3e56bbab927a5441429d4f5109d8f38d7d",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "023530",
-      "country": "KR",
-      "description": "LOTTE SHOPPING CO  LTD  / SOUTH KOREAN WON",
-      "display_symbol": "KQ.023530/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.023530/KRW"
     }
   },
   {
@@ -13845,20 +13222,6 @@
     }
   },
   {
-    "id": "0xe28e6fb64be90f7bed78f04a321154ef0053d75cc16f59cc92ead1056a049732",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "100090",
-      "country": "KR",
-      "description": "SKOCEANPLANT / SOUTH KOREAN WON",
-      "display_symbol": "KQ.100090/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.100090/KRW"
-    }
-  },
-  {
     "id": "0xa6c8eca9aea31d6bb81fd6576638f30692d4afaa73237c097c193477aa5003b3",
     "attributes": {
       "asset_type": "Crypto",
@@ -13922,20 +13285,6 @@
     }
   },
   {
-    "id": "0x027235123b2b4b5a87099f3ebb62fe40b9f58085a5e50b73ac3d155ce498c52a",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "330590",
-      "country": "KR",
-      "description": "LOTTE REIT / SOUTH KOREAN WON",
-      "display_symbol": "KQ.330590/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.330590/KRW"
-    }
-  },
-  {
     "id": "0x62ecc2c34d56b195828e851e3f25c907452ce0c8c1324dede50e663b400d22d5",
     "attributes": {
       "asset_type": "Equity",
@@ -13961,20 +13310,6 @@
       "quote_currency": "USDA",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.STUSD/USDA.RR"
-    }
-  },
-  {
-    "id": "0xe78da3269efe6751f73aa1345fdc3168374b11cc52ec422fab9aa53a9bb6c6ef",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "020560",
-      "country": "KR",
-      "description": "ASIANA AIRLINES / SOUTH KOREAN WON",
-      "display_symbol": "KQ.020560/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.020560/KRW"
     }
   },
   {
@@ -14610,20 +13945,6 @@
     }
   },
   {
-    "id": "0x3fe367360a027d65b87eed8a572dd846d63a6f42e8767f7f8ab0568ffa47c6c0",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "294870",
-      "country": "KR",
-      "description": "HYUNDAI DEVELOPMENT COMPANY / SOUTH KOREAN WON",
-      "display_symbol": "KQ.294870/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.294870/KRW"
-    }
-  },
-  {
     "id": "0xc9dc99720306ef43fd301396a6f8522c8be89c6c77e8c27d87966918a943fd20",
     "attributes": {
       "asset_type": "Crypto",
@@ -14857,20 +14178,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.IWD/USD"
-    }
-  },
-  {
-    "id": "0xf55f823454f6dd64a302598aa4fe127a89c2acfcc7fbb55bf74141eb69ac1ae1",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "002380",
-      "country": "KR",
-      "description": "KCC CORPORATION / SOUTH KOREAN WON",
-      "display_symbol": "KQ.002380/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.002380/KRW"
     }
   },
   {
@@ -15288,20 +14595,6 @@
     }
   },
   {
-    "id": "0xeb6b534109928151ae55360af2b2f1067a8c97ef61bdf576493fd67c0efdb65c",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "282330",
-      "country": "KR",
-      "description": "BGF RETAIL / SOUTH KOREAN WON",
-      "display_symbol": "KQ.282330/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.282330/KRW"
-    }
-  },
-  {
     "id": "0xe3d1723999820435ebab53003a542ff26847720692af92523eea613a9a28d500",
     "attributes": {
       "asset_type": "Crypto Redemption Rate",
@@ -15405,33 +14698,6 @@
     }
   },
   {
-    "id": "0x7aa41f6ee464616f3cbc469fddfd7e63d8db319b7bd585cc95b24c29c9172916",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "MIM",
-      "description": "MAGIC INTERNET MONEY / US DOLLAR",
-      "display_symbol": "MIM/USD",
-      "generic_symbol": "MIMUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.MIM/USD"
-    }
-  },
-  {
-    "id": "0x4e100b5aeb1eb842ce6aca88cb5ec1a691a4b279d7b3cc481928c4237196076a",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "SY1",
-      "country": "DE",
-      "description": "SYMRISE AG / EURO",
-      "display_symbol": "SY1/EUR",
-      "publish_interval": "5",
-      "quote_currency": "EUR",
-      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
-      "symbol": "Equity.DE.SY1/EUR"
-    }
-  },
-  {
     "id": "0x8bb3d08d73a151f49e4c4c5e6cae4c90dace77c2bac54378bfb7c98dd4858aef",
     "attributes": {
       "asset_type": "Equity",
@@ -15446,40 +14712,6 @@
     }
   },
   {
-    "id": "0x2bdf663a6dacfbb4f986adc98d833cbdd206ab64d6f5fb0cd5470e91bb3985a0",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "CINF",
-      "cms_symbol": "CINF",
-      "country": "US",
-      "cqs_symbol": "CINF",
-      "description": "CINCINNATI FINANCIAL CORPORATION / US DOLLAR",
-      "display_symbol": "CINF/USD",
-      "nasdaq_symbol": "CINF",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
-      "symbol": "Equity.US.CINF/USD"
-    }
-  },
-  {
-    "id": "0x8ecca7012d5cd82620c1222acd6296cb4a34fea7dae4bf93bc51ddc471830a53",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "HAL",
-      "cms_symbol": "HAL",
-      "country": "US",
-      "cqs_symbol": "HAL",
-      "description": "HALLIBURTON COMPANY / US DOLLAR",
-      "display_symbol": "HAL/USD",
-      "nasdaq_symbol": "HAL",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
-      "symbol": "Equity.US.HAL/USD"
-    }
-  },
-  {
     "id": "0x5dee900ddc531c0bc0f0d16784551f56c0df574123b8210d515d097ea67ae98a",
     "attributes": {
       "asset_type": "Equity",
@@ -15491,33 +14723,6 @@
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0501/C,0505/C,0701/C,1001/C,1007/C,1029/C",
       "symbol": "Equity.HK.3692-HK/HKD"
-    }
-  },
-  {
-    "id": "0xe5f406d97d7fa159c21647912b72aa8c669e24d7bd59bcd518587bbde027c531",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "NEXO",
-      "description": "NEXO / US DOLLAR",
-      "display_symbol": "NEXO/USD",
-      "generic_symbol": "NEXOUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.NEXO/USD"
-    }
-  },
-  {
-    "id": "0xe1deba593cfc0d9a86e005900736f7557825da17c9a828e07d1cd56f7f297cae",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "086790",
-      "country": "KR",
-      "description": "HANA FINANCIAL GROUP INC  / SOUTH KOREAN WON",
-      "display_symbol": "KQ.086790/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.086790/KRW"
     }
   },
   {
@@ -15548,6 +14753,94 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.MOVE/USD"
+    }
+  },
+  {
+    "id": "0x7aa41f6ee464616f3cbc469fddfd7e63d8db319b7bd585cc95b24c29c9172916",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "MIM",
+      "description": "MAGIC INTERNET MONEY / US DOLLAR",
+      "display_symbol": "MIM/USD",
+      "generic_symbol": "MIMUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.MIM/USD"
+    }
+  },
+  {
+    "id": "0x4e100b5aeb1eb842ce6aca88cb5ec1a691a4b279d7b3cc481928c4237196076a",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SY1",
+      "country": "DE",
+      "description": "SYMRISE AG / EURO",
+      "display_symbol": "SY1/EUR",
+      "publish_interval": "5",
+      "quote_currency": "EUR",
+      "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
+      "symbol": "Equity.DE.SY1/EUR"
+    }
+  },
+  {
+    "id": "0x2bdf663a6dacfbb4f986adc98d833cbdd206ab64d6f5fb0cd5470e91bb3985a0",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "CINF",
+      "cms_symbol": "CINF",
+      "country": "US",
+      "cqs_symbol": "CINF",
+      "description": "CINCINNATI FINANCIAL CORPORATION / US DOLLAR",
+      "display_symbol": "CINF/USD",
+      "nasdaq_symbol": "CINF",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
+      "symbol": "Equity.US.CINF/USD"
+    }
+  },
+  {
+    "id": "0xe1deba593cfc0d9a86e005900736f7557825da17c9a828e07d1cd56f7f297cae",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "086790",
+      "country": "KR",
+      "description": "HANA FINANCIAL GROUP INC  / SOUTH KOREAN WON",
+      "display_symbol": "KQ.086790/KRW",
+      "publish_interval": "5",
+      "quote_currency": "KRW",
+      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
+      "symbol": "Equity.KR.086790/KRW"
+    }
+  },
+  {
+    "id": "0x8ecca7012d5cd82620c1222acd6296cb4a34fea7dae4bf93bc51ddc471830a53",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "HAL",
+      "cms_symbol": "HAL",
+      "country": "US",
+      "cqs_symbol": "HAL",
+      "description": "HALLIBURTON COMPANY / US DOLLAR",
+      "display_symbol": "HAL/USD",
+      "nasdaq_symbol": "HAL",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
+      "symbol": "Equity.US.HAL/USD"
+    }
+  },
+  {
+    "id": "0xe5f406d97d7fa159c21647912b72aa8c669e24d7bd59bcd518587bbde027c531",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "NEXO",
+      "description": "NEXO / US DOLLAR",
+      "display_symbol": "NEXO/USD",
+      "generic_symbol": "NEXOUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.NEXO/USD"
     }
   },
   {
@@ -15660,20 +14953,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.WAGMI/USD"
-    }
-  },
-  {
-    "id": "0x3854f0b0b085abb847e14592e5c971b628ed9e378129863d05f26ac6e877fe15",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "028670",
-      "country": "KR",
-      "description": "PANOCEAN / SOUTH KOREAN WON",
-      "display_symbol": "KQ.028670/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.028670/KRW"
     }
   },
   {
@@ -16493,34 +15772,6 @@
     }
   },
   {
-    "id": "0x5555f8920f6e9fb0a3fb57db074c07c53929b55e1edb68e7dcf95f70cfcfcea4",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "032350",
-      "country": "KR",
-      "description": "LOTTE TOUR DEVELOPMENT CO  LTD / SOUTH KOREAN WON",
-      "display_symbol": "KQ.032350/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.032350/KRW"
-    }
-  },
-  {
-    "id": "0x8b57ed7fd5047ecf9bdcad3882a51f368daea2e61000a623f881aadab972ce6a",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "139130",
-      "country": "KR",
-      "description": "IM FINANCIAL GROUP / SOUTH KOREAN WON",
-      "display_symbol": "KQ.139130/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.139130/KRW"
-    }
-  },
-  {
     "id": "0x566241bb0d53283a8a1765b759341490dbf69e7fa7653c4b5f86aabf37567595",
     "attributes": {
       "asset_type": "Equity",
@@ -16585,20 +15836,6 @@
     }
   },
   {
-    "id": "0x68fb904315e3a73ec690977ced095982a0b27eac5919720195fcac3ed57fcadb",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "010060",
-      "country": "KR",
-      "description": "OCI HOLDINGS COMPANY LTD  / SOUTH KOREAN WON",
-      "display_symbol": "KQ.010060/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.010060/KRW"
-    }
-  },
-  {
     "id": "0x89dd5fb5c30324f3cb11920e3e5ca7de7732abf3889f93bf3757f9509715a89f",
     "attributes": {
       "asset_type": "Equity",
@@ -16624,20 +15861,6 @@
       "quote_currency": "USDE",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.SUSDE/USDE.RR"
-    }
-  },
-  {
-    "id": "0xfd79e59db17a2474ce4012675ac21c54da74a6b13421a4ea7f7fc9a805cc82e6",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "088350",
-      "country": "KR",
-      "description": "HANWHA LIFE INSURANCE / SOUTH KOREAN WON",
-      "display_symbol": "KQ.088350/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.088350/KRW"
     }
   },
   {
@@ -16781,20 +16004,6 @@
     }
   },
   {
-    "id": "0xace8dcc95a1bd53b38ff28e8a8b3fedeae4b1a0c1e2411156cef0c9dc5220ab9",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "001800",
-      "country": "KR",
-      "description": "ORION HOLDINGS / SOUTH KOREAN WON",
-      "display_symbol": "KQ.001800/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.001800/KRW"
-    }
-  },
-  {
     "id": "0x0a2d049aa48d4b77c4db199ae38a10a1e3d5130abd27b5cab7db548409da74d5",
     "attributes": {
       "asset_type": "Equity",
@@ -16843,20 +16052,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.STZ/USD"
-    }
-  },
-  {
-    "id": "0x2d727e816a85ebf57243529879ed660ff128007e232d4ce6050bd5cfc8452670",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "192080",
-      "country": "KR",
-      "description": "DOUBLEUGAMES / SOUTH KOREAN WON",
-      "display_symbol": "KQ.192080/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.192080/KRW"
     }
   },
   {
@@ -17030,20 +16225,6 @@
     }
   },
   {
-    "id": "0xb48d671c9a43aaad05eecd09e1852e4d1508fc590e210d9f2768aedd655d2b90",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "450080",
-      "country": "KR",
-      "description": "ECOPRO MATERIALS / SOUTH KOREAN WON",
-      "display_symbol": "KQ.450080/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.450080/KRW"
-    }
-  },
-  {
     "id": "0x25babb83691a056fd65f879bfd7197eabd840aae741f69c87ccb31e204a979b2",
     "attributes": {
       "asset_type": "Crypto Redemption Rate",
@@ -17088,7 +16269,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "WFRAGSOL",
-      "description": "WRAPPED FRAGMENTIC RESTAKED SOLANA / US DOLLAR",
+      "description": "WRAPPED FRAGMETRIC RESTAKED SOLANA / US DOLLAR",
       "display_symbol": "WFRAGSOL/USD",
       "generic_symbol": "WFRAGSOLUSD",
       "quote_currency": "USD",
@@ -17331,20 +16512,6 @@
     }
   },
   {
-    "id": "0x068c11b080fc8f29b7ce390b9df1208308616b625b03fcba43ea26a9bcb695d3",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "003690",
-      "country": "KR",
-      "description": "KOREAN REINSURANCE COMPANY / SOUTH KOREAN WON",
-      "display_symbol": "KQ.003690/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.003690/KRW"
-    }
-  },
-  {
     "id": "0xf24b2f86097d361a6d61634bfbc348602b93ac82ce4a870508993375781e5391",
     "attributes": {
       "asset_type": "Equity",
@@ -17536,6 +16703,32 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.HONEY/USD"
+    }
+  },
+  {
+    "id": "0x3b08cf7f0d8e30c5e42b505bc606c64ca64eb1f40126f310e169e3aba1fa4595",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "ES",
+      "description": "ECLIPSE / US DOLLAR",
+      "display_symbol": "ES/USD",
+      "generic_symbol": "ESUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.ES/USD"
+    }
+  },
+  {
+    "id": "0x27cac3c00ed32285b8686611bbc4a654279c1ea11ab4dc90822c2edd20734bca",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "MCDX",
+      "description": "MCDONALDS XSTOCK  / US DOLLAR",
+      "display_symbol": "MCDX/USD",
+      "generic_symbol": "MCDXUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.MCDX/USD"
     }
   },
   {
@@ -17785,20 +16978,6 @@
       "quote_currency": "TON",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.KTON/TON.RR"
-    }
-  },
-  {
-    "id": "0x7cc53ed401032a619fd9964b7b20e85cb739b22f4236a3161c07ba3183855ff9",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "011780",
-      "country": "KR",
-      "description": "KUMHO PETROCHEMICAL / SOUTH KOREAN WON",
-      "display_symbol": "KQ.011780/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.011780/KRW"
     }
   },
   {
@@ -18215,20 +17394,6 @@
       "quote_currency": "EUR",
       "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
       "symbol": "Equity.FR.CS/EUR"
-    }
-  },
-  {
-    "id": "0x858e7f44a57e3366ce425b6c0db0d412bbb8ce42893a64fc07af4c3547732e57",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "375500",
-      "country": "KR",
-      "description": "DL E&C CO  LTD  / SOUTH KOREAN WON",
-      "display_symbol": "KQ.375500/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.375500/KRW"
     }
   },
   {
@@ -18843,20 +18008,6 @@
     }
   },
   {
-    "id": "0xb0791ce8cfba38257311a01462f0bf7197619477cd3e341608f1033a3c8d9d70",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "000080",
-      "country": "KR",
-      "description": "HITE JINRO / SOUTH KOREAN WON",
-      "display_symbol": "KQ.000080/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.000080/KRW"
-    }
-  },
-  {
     "id": "0xa63586143073186f23c7f8439ab75b558b9be60f37f395feae47d4329f509ee2",
     "attributes": {
       "asset_type": "Equity",
@@ -19008,20 +18159,6 @@
     }
   },
   {
-    "id": "0xebef2b34b07ffc8827721c2dae7d12ab978556d77002fbeecdd5c3e20f501bbf",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "137310",
-      "country": "KR",
-      "description": "SD BIOSENSOR / SOUTH KOREAN WON",
-      "display_symbol": "KQ.137310/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.137310/KRW"
-    }
-  },
-  {
     "id": "0x6693afcd49878bbd622e46bd805e7177932cf6ab0b1c91b135d71151b9207433",
     "attributes": {
       "asset_type": "FX",
@@ -19064,20 +18201,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.SBET/USD"
-    }
-  },
-  {
-    "id": "0xcbef74fd71278ca0530fb4ea1cc23a059e142b5962d41f1e049964f6d7b60eed",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "462870",
-      "country": "KR",
-      "description": "SHIFT UP / SOUTH KOREAN WON",
-      "display_symbol": "KQ.462870/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.462870/KRW"
     }
   },
   {
@@ -19180,20 +18303,6 @@
       "quote_currency": "KRW",
       "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
       "symbol": "Equity.KR.028260/KRW"
-    }
-  },
-  {
-    "id": "0xbd304d9b79217b97d206836d73a1e2cc73b3f25b6bbcbcca67578480c863020f",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "383220",
-      "country": "KR",
-      "description": "F&F / SOUTH KOREAN WON",
-      "display_symbol": "KQ.383220/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.383220/KRW"
     }
   },
   {
@@ -19681,7 +18790,7 @@
     "attributes": {
       "asset_type": "Crypto",
       "base": "FRAG",
-      "description": "FRAGMENTRIC / US DOLLAR",
+      "description": "FRAGMETRIC / US DOLLAR",
       "display_symbol": "FRAG/USD",
       "generic_symbol": "FRAGUSD",
       "quote_currency": "USD",
@@ -19899,20 +19008,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.DELL/USD"
-    }
-  },
-  {
-    "id": "0xa8a6adfe652015493078e7e72f36965e74afacee5094f7ae6d07602159bc720b",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "001450",
-      "country": "KR",
-      "description": "HYUNDAI MARINE & FIRE INSURANCE CO LTD / SOUTH KOREAN WON",
-      "display_symbol": "KQ.001450/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.001450/KRW"
     }
   },
   {
@@ -20334,20 +19429,6 @@
     }
   },
   {
-    "id": "0x9476dc2ed546b3c18f88ad17a289c0192bcb15d86e01ec30e95a70051b36ecfd",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "280360",
-      "country": "KR",
-      "description": "LOTTE WELLFOOD / SOUTH KOREAN WON",
-      "display_symbol": "KQ.280360/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.280360/KRW"
-    }
-  },
-  {
     "id": "0x22bc4962a6ab104d6e5f25665cabfca04730bfa959ebfc3def3ba43b19d0ba03",
     "attributes": {
       "asset_type": "Equity",
@@ -20525,6 +19606,78 @@
     }
   },
   {
+    "id": "0x7afd29f3c35f70a59fb5f491026f1a3e1dad2578932c0cf12e5d6875df6fda4d",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "AAF",
+      "country": "GB",
+      "description": "AIRTEL AFRICA PLC / BRITISH POUND",
+      "display_symbol": "AAF/GBP",
+      "publish_interval": "5",
+      "quote_currency": "GBP",
+      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C,1224/0800-1230,1225/C,1226/C,1231/0800-1230,0101/C",
+      "symbol": "Equity.GB.AAF/GBP"
+    }
+  },
+  {
+    "id": "0xf4481e13c8640b78f48407c2db150f42a2e6861e173bb54ed50abe142d5cf62d",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "1810-HK",
+      "country": "HK",
+      "description": "XIAOMI-W / HONG KONG DOLLAR",
+      "display_symbol": "HK.1810/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0501/C,0505/C,0701/C,1001/C,1007/C,1029/C",
+      "symbol": "Equity.HK.1810-HK/HKD"
+    }
+  },
+  {
+    "id": "0x42431247c835486c45f19e180981765e3e6cca8ff603a34fe7de85368c861639",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "VTRS",
+      "cms_symbol": "VTRS",
+      "country": "US",
+      "cqs_symbol": "VTRS",
+      "description": "VIATRIS INC / US DOLLAR",
+      "display_symbol": "VTRS/USD",
+      "nasdaq_symbol": "VTRS",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
+      "symbol": "Equity.US.VTRS/USD"
+    }
+  },
+  {
+    "id": "0xb5a7eb5f0f725303bce41a323bde1031c91d46d407249f3392e03e8e41197625",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "0285-HK",
+      "country": "HK",
+      "description": "BYD ELECTRONIC INTERNATIONAL CO LT / HONG KONG DOLLAR",
+      "display_symbol": "HK.0285/HKD",
+      "publish_interval": "5",
+      "quote_currency": "HKD",
+      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0501/C,0505/C,0701/C,1001/C,1007/C,1029/C",
+      "symbol": "Equity.HK.0285-HK/HKD"
+    }
+  },
+  {
+    "id": "0xbf3e5871be3f80ab7a4d1f1fd039145179fb58569e159aee1ccd472868ea5900",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "METAX",
+      "description": "META XSTOCK / US DOLLAR",
+      "display_symbol": "METAX/USD",
+      "generic_symbol": "METAXUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.METAX/USD"
+    }
+  },
+  {
     "id": "0x894f78037ec2465fbbd50c75abb95a5059d5d9ca5f092e2e6736685885569322",
     "attributes": {
       "asset_type": "Equity",
@@ -20568,19 +19721,6 @@
     }
   },
   {
-    "id": "0xd878b9766566a87675421e9b11992c1f2ca2438d5b7d841cb147308e1bd6bb99",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "TAIKO",
-      "description": "TAIKO / US DOLLAR",
-      "display_symbol": "TAIKO/USD",
-      "generic_symbol": "TAIKOUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.TAIKO/USD"
-    }
-  },
-  {
     "id": "0x069b87074893c37fd250990df7409d7e19cd649bea8e28904a0fd49915f4e53a",
     "attributes": {
       "asset_type": "Equity",
@@ -20598,31 +19738,16 @@
     }
   },
   {
-    "id": "0x7afd29f3c35f70a59fb5f491026f1a3e1dad2578932c0cf12e5d6875df6fda4d",
+    "id": "0xd878b9766566a87675421e9b11992c1f2ca2438d5b7d841cb147308e1bd6bb99",
     "attributes": {
-      "asset_type": "Equity",
-      "base": "AAF",
-      "country": "GB",
-      "description": "AIRTEL AFRICA PLC / BRITISH POUND",
-      "display_symbol": "AAF/GBP",
-      "publish_interval": "5",
-      "quote_currency": "GBP",
-      "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C,1224/0800-1230,1225/C,1226/C,1231/0800-1230,0101/C",
-      "symbol": "Equity.GB.AAF/GBP"
-    }
-  },
-  {
-    "id": "0xf4481e13c8640b78f48407c2db150f42a2e6861e173bb54ed50abe142d5cf62d",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "1810-HK",
-      "country": "HK",
-      "description": "XIAOMI-W / HONG KONG DOLLAR",
-      "display_symbol": "HK.1810/HKD",
-      "publish_interval": "5",
-      "quote_currency": "HKD",
-      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0501/C,0505/C,0701/C,1001/C,1007/C,1029/C",
-      "symbol": "Equity.HK.1810-HK/HKD"
+      "asset_type": "Crypto",
+      "base": "TAIKO",
+      "description": "TAIKO / US DOLLAR",
+      "display_symbol": "TAIKO/USD",
+      "generic_symbol": "TAIKOUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.TAIKO/USD"
     }
   },
   {
@@ -20674,34 +19799,17 @@
     }
   },
   {
-    "id": "0x42431247c835486c45f19e180981765e3e6cca8ff603a34fe7de85368c861639",
+    "id": "0x4856bc2c35c993b0275161927bc2c0b3bb86f6fec27d0b2b70ebb794521315c6",
     "attributes": {
       "asset_type": "Equity",
-      "base": "VTRS",
-      "cms_symbol": "VTRS",
-      "country": "US",
-      "cqs_symbol": "VTRS",
-      "description": "VIATRIS INC / US DOLLAR",
-      "display_symbol": "VTRS/USD",
-      "nasdaq_symbol": "VTRS",
+      "base": "323410",
+      "country": "KR",
+      "description": "KAKAOBANK CORP  / SOUTH KOREAN WON",
+      "display_symbol": "KQ.323410/KRW",
       "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
-      "symbol": "Equity.US.VTRS/USD"
-    }
-  },
-  {
-    "id": "0xb5a7eb5f0f725303bce41a323bde1031c91d46d407249f3392e03e8e41197625",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "0285-HK",
-      "country": "HK",
-      "description": "BYD ELECTRONIC INTERNATIONAL CO LT / HONG KONG DOLLAR",
-      "display_symbol": "HK.0285/HKD",
-      "publish_interval": "5",
-      "quote_currency": "HKD",
-      "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0501/C,0505/C,0701/C,1001/C,1007/C,1029/C",
-      "symbol": "Equity.HK.0285-HK/HKD"
+      "quote_currency": "KRW",
+      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
+      "symbol": "Equity.KR.323410/KRW"
     }
   },
   {
@@ -20716,34 +19824,6 @@
       "quote_currency": "EUR",
       "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
       "symbol": "Equity.FR.LR/EUR"
-    }
-  },
-  {
-    "id": "0x6be5115113dc9ee4ba40f154b78298139bcab8af5289fb1510e9802270d35532",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "204320",
-      "country": "KR",
-      "description": "HL MANDO / SOUTH KOREAN WON",
-      "display_symbol": "KQ.204320/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.204320/KRW"
-    }
-  },
-  {
-    "id": "0x4856bc2c35c993b0275161927bc2c0b3bb86f6fec27d0b2b70ebb794521315c6",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "323410",
-      "country": "KR",
-      "description": "KAKAOBANK CORP  / SOUTH KOREAN WON",
-      "display_symbol": "KQ.323410/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.323410/KRW"
     }
   },
   {
@@ -21017,20 +20097,6 @@
     }
   },
   {
-    "id": "0xba77adb06127c825d690fcd1fa78f66c53e4ae72c9c2ca3df8b6a2f9422f0284",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "139480",
-      "country": "KR",
-      "description": "E-MART CO  LTD  / SOUTH KOREAN WON",
-      "display_symbol": "KQ.139480/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.139480/KRW"
-    }
-  },
-  {
     "id": "0x7d9e2258cec229cf52873a8e58d035a276873c485d753860e56d248fb33ce68a",
     "attributes": {
       "asset_type": "Crypto Redemption Rate",
@@ -21215,20 +20281,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.PYUSD/USD"
-    }
-  },
-  {
-    "id": "0xba9f8f4a35069a1ed6c918271a088f2509c096b6a3c89cf8df95012778355381",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "007070",
-      "country": "KR",
-      "description": "GS RETAIL / SOUTH KOREAN WON",
-      "display_symbol": "KQ.007070/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.007070/KRW"
     }
   },
   {
@@ -21607,20 +20659,6 @@
     }
   },
   {
-    "id": "0xd7616dfb828d3c5b7a0d0d6b2cd8fb1006a9c7adb8579dcf8311973de6b5340c",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "051600",
-      "country": "KR",
-      "description": "KEPCO PLANT SERVICE & ENGINEERING / SOUTH KOREAN WON",
-      "display_symbol": "KQ.051600/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.051600/KRW"
-    }
-  },
-  {
     "id": "0x9a2a116d85a31d6f1bed19771105557276457094e31791a892758148aa54023d",
     "attributes": {
       "asset_type": "Crypto",
@@ -21856,20 +20894,6 @@
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C,1224/0800-1230,1225/C,1226/C,1231/0800-1230,0101/C",
       "symbol": "Equity.GB.ALW/GBP"
-    }
-  },
-  {
-    "id": "0xc3c1e150c9cdc382712b8166ff95ad9c07a74356c957bd1ae0081e9020eb6f43",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "111770",
-      "country": "KR",
-      "description": "YOUNGONE CORPORATION / SOUTH KOREAN WON",
-      "display_symbol": "KQ.111770/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.111770/KRW"
     }
   },
   {
@@ -22424,34 +21448,6 @@
     }
   },
   {
-    "id": "0x34b007a4a07bf0cc17f3ece5adf5ace90fcb85168d6d032b209a39a96bba7abb",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "285130",
-      "country": "KR",
-      "description": "SKCHEMICALS / SOUTH KOREAN WON",
-      "display_symbol": "KQ.285130/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.285130/KRW"
-    }
-  },
-  {
-    "id": "0x48ed8bfac4ecdab9c0d343e89d2246e39a5059c8f7a8bfc3e3948622ca30b32b",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "012630",
-      "country": "KR",
-      "description": "HDC HOLDINGS CO LTD / SOUTH KOREAN WON",
-      "display_symbol": "KQ.012630/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.012630/KRW"
-    }
-  },
-  {
     "id": "0xc972c864b4247e56c9b040862e87b19d5f9d1ad2afda2af49506300fb4c269de",
     "attributes": {
       "asset_type": "Equity",
@@ -22766,20 +21762,6 @@
     }
   },
   {
-    "id": "0x65d3b32d7759b78d95770efa2ae2037c79c82abf8727b79d7b7d5b96a6c4f421",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "011790",
-      "country": "KR",
-      "description": "SKC / SOUTH KOREAN WON",
-      "display_symbol": "KQ.011790/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.011790/KRW"
-    }
-  },
-  {
     "id": "0xbbcf32c739841d1170ae2dfaf7c1bd2483df5cf241e2ecf5bce5d14cf09982b1",
     "attributes": {
       "asset_type": "FX",
@@ -22992,20 +21974,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.CBXRP/USD"
-    }
-  },
-  {
-    "id": "0xa6700fd3f7588a8b435e5988abd03c9354e6f935f34a26cc9a35910262c461dc",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "001120",
-      "country": "KR",
-      "description": "LX INTERNATIONAL CORP  / SOUTH KOREAN WON",
-      "display_symbol": "KQ.001120/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.001120/KRW"
     }
   },
   {
@@ -23282,20 +22250,6 @@
     }
   },
   {
-    "id": "0xd078c8009ca2ae91aba2fd0d144a5440b66a2f41558be01c061d746ffb4621f0",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "018880",
-      "country": "KR",
-      "description": "HANON SYSTEMS / SOUTH KOREAN WON",
-      "display_symbol": "KQ.018880/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.018880/KRW"
-    }
-  },
-  {
     "id": "0xda588e138c2bfac1d3961703edce382c431c77406a68427153b9ac08f5a1b9e4",
     "attributes": {
       "asset_type": "Equity",
@@ -23523,20 +22477,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.KERNEL/USD"
-    }
-  },
-  {
-    "id": "0x6174be9da65dc77b637fb91aa66ef5afe80ac770f237e94f5a2c414a837efaf7",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "023590",
-      "country": "KR",
-      "description": "DAOU TECHNOLOGY / SOUTH KOREAN WON",
-      "display_symbol": "KQ.023590/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.023590/KRW"
     }
   },
   {
@@ -23863,20 +22803,6 @@
     }
   },
   {
-    "id": "0xb2dae369d17f0ee4671409cb44e83579509528ac84b4afb816be07cc15716760",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "003540",
-      "country": "KR",
-      "description": "DAISHIN SECURITIES / SOUTH KOREAN WON",
-      "display_symbol": "KQ.003540/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.003540/KRW"
-    }
-  },
-  {
     "id": "0x5169491cd7e2a44c98353b779d5eb612e4ac32e073f5cc534303d86307c2f1bc",
     "attributes": {
       "asset_type": "Crypto",
@@ -23999,20 +22925,6 @@
     }
   },
   {
-    "id": "0xfb9032a2bfa211ef26d3b292826bdd7fd960c7b8421027e0d944e047013aa778",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "001430",
-      "country": "KR",
-      "description": "SEAH BESTEEL HOLDINGS CORPORATION / SOUTH KOREAN WON",
-      "display_symbol": "KQ.001430/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.001430/KRW"
-    }
-  },
-  {
     "id": "0x6c75e52531ec5fd3ef253f6062956a8508a2f03fa0a209fb7fbc51efd9d35f88",
     "attributes": {
       "asset_type": "Crypto",
@@ -24037,6 +22949,19 @@
       "quote_currency": "EUR",
       "schedule": "Europe/Paris;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/0900-1355,1225/C,1226/C,1231/0900-1355,0101/C",
       "symbol": "Equity.FR.SGO/EUR"
+    }
+  },
+  {
+    "id": "0x53f95ba4e23ed15ea56083e2ee9a5eec48055d6f59033d4bb95f1ca2a2349c28",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "MSTRX",
+      "description": "MICROSTRATEGY XSTOCK / US DOLLAR",
+      "display_symbol": "MSTRX/USD",
+      "generic_symbol": "MSTRXUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.MSTRX/USD"
     }
   },
   {
@@ -24147,20 +23072,6 @@
     }
   },
   {
-    "id": "0x26e614810caec2605dcec146e4bc976ec52123086201ae6583a12ecdc046fa78",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "007340",
-      "country": "KR",
-      "description": "DN AUTOMOTIVE CORPORATION / SOUTH KOREAN WON",
-      "display_symbol": "KQ.007340/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.007340/KRW"
-    }
-  },
-  {
     "id": "0x0b7f9e3bb61da2a456aec7553a0d7d8ad8d5f1337fc283b24761e733c886232b",
     "attributes": {
       "asset_type": "Crypto",
@@ -24171,20 +23082,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.VADER/USD"
-    }
-  },
-  {
-    "id": "0x76ee048bd53645639cb843f4dba187e037e33a429fd6e9bf44b5b8a330b7a420",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "300720",
-      "country": "KR",
-      "description": "HANILCEMENT / SOUTH KOREAN WON",
-      "display_symbol": "KQ.300720/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.300720/KRW"
     }
   },
   {
@@ -24236,17 +23133,16 @@
     }
   },
   {
-    "id": "0x526eb7bbf1c327541cd6474444275e546b0078242b8970cbb67f07a3a2331601",
+    "id": "0x641435d5dffb5311140b480517c79986d8488d5cf08a11eec53b83ad02cab33f",
     "attributes": {
-      "asset_type": "Equity",
-      "base": "026960",
-      "country": "KR",
-      "description": "DONGSUH / SOUTH KOREAN WON",
-      "display_symbol": "KQ.026960/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.026960/KRW"
+      "asset_type": "Crypto",
+      "base": "COINX",
+      "description": "COINBASE XSTOCK / US DOLLAR",
+      "display_symbol": "COINX/USD",
+      "generic_symbol": "COINXUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.COINX/USD"
     }
   },
   {
@@ -24509,20 +23405,6 @@
     }
   },
   {
-    "id": "0xd78ff828816309a565db6ed2c053aafc81a08870acd7eee8c6ccc9d65e891e6a",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "073240",
-      "country": "KR",
-      "description": "KUMHO TIRE CO  INC / SOUTH KOREAN WON",
-      "display_symbol": "KQ.073240/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.073240/KRW"
-    }
-  },
-  {
     "id": "0x2cbb7654e2988d7c716adeee1e07627735686cf93d0b1b54a2ce546a0a48b56e",
     "attributes": {
       "asset_type": "Equity",
@@ -24773,20 +23655,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0618/0000-1700,0619/1800-2400,0703/0000-1315&1800-2400,0704/0000-1300",
       "symbol": "Equity.US.US500H6/USD"
-    }
-  },
-  {
-    "id": "0x7816f72ba4e33d2595ef70ba576e71c8aa1693c0c688f031e4aa5e3c25c639a7",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "014680",
-      "country": "KR",
-      "description": "HANSOLCHEMICAL / SOUTH KOREAN WON",
-      "display_symbol": "KQ.014680/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.014680/KRW"
     }
   },
   {
@@ -25149,20 +24017,6 @@
     }
   },
   {
-    "id": "0x69a370f8f7c6d09ad4f076270d3545a8259cb8d33b06b0b740b7bf4a6dfc1beb",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "011210",
-      "country": "KR",
-      "description": "HYUNDAI WIA / SOUTH KOREAN WON",
-      "display_symbol": "KQ.011210/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.011210/KRW"
-    }
-  },
-  {
     "id": "0x80642d572babc523158d2bfad90f32ef236cd43150b44790c8aa88865007c07b",
     "attributes": {
       "asset_type": "Equity",
@@ -25344,34 +24198,6 @@
     }
   },
   {
-    "id": "0xd9077818bf08c4fbf596ad1319745993ea21c7e6038f5a287f5d17acdf4fbad2",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "005850",
-      "country": "KR",
-      "description": "SL CORPORATION / SOUTH KOREAN WON",
-      "display_symbol": "KQ.005850/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.005850/KRW"
-    }
-  },
-  {
-    "id": "0x3a066efd413de0db3197d3d2eb95acbd9a171e576343165a38e33501cdd5fdb8",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "012750",
-      "country": "KR",
-      "description": "S-1 / SOUTH KOREAN WON",
-      "display_symbol": "KQ.012750/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.012750/KRW"
-    }
-  },
-  {
     "id": "0x41f858bae36e7ee3f4a3a6d4f176f0893d4a261460a52763350d00f8648195ee",
     "attributes": {
       "asset_type": "Crypto",
@@ -25412,20 +24238,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.PPL/USD"
-    }
-  },
-  {
-    "id": "0x0f62fe5f29f7c4c91aa9928d6eee23e0e67a73b9c9d5f3713460d59d12b57f61",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "066970",
-      "country": "KR",
-      "description": "L&F / SOUTH KOREAN WON",
-      "display_symbol": "KQ.066970/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.066970/KRW"
     }
   },
   {
@@ -25506,20 +24318,6 @@
       "quote_currency": "KRW",
       "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
       "symbol": "Equity.KR.005830/KRW"
-    }
-  },
-  {
-    "id": "0x33dc0728739d3b1a69ecfeaf547b2cf8f145ffb57ba40395ecc1265c02bd157b",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "009970",
-      "country": "KR",
-      "description": "YOUNGONE HOLDINGS / SOUTH KOREAN WON",
-      "display_symbol": "KQ.009970/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.009970/KRW"
     }
   },
   {
@@ -25868,20 +24666,6 @@
     }
   },
   {
-    "id": "0x2e2b530e38d08c7134c6894ff027679360312a11b4175b08ed90da22e14bd783",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "005300",
-      "country": "KR",
-      "description": "LOTTE CHILSUNG BEVERAGE / SOUTH KOREAN WON",
-      "display_symbol": "KQ.005300/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.005300/KRW"
-    }
-  },
-  {
     "id": "0x5372f717fd6845e363b0268d0a0bee8f479c3aa23f1152a507557d9f2b2d0546",
     "attributes": {
       "asset_type": "Equity",
@@ -26141,20 +24925,6 @@
     }
   },
   {
-    "id": "0xeefe04529e3610ae15af67a6a153dc65e5834a2b00e8c06dc75b80ff6b4ab773",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "483650",
-      "country": "KR",
-      "description": "D'ALBA GLOBAL / SOUTH KOREAN WON",
-      "display_symbol": "KQ.483650/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.483650/KRW"
-    }
-  },
-  {
     "id": "0x2f218a73fb0c46ae8f9f7bb70ffbb232dd0dd65169b6401bfdc9bfb340a66b1a",
     "attributes": {
       "asset_type": "Crypto Redemption Rate",
@@ -26180,34 +24950,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.BSV/USD"
-    }
-  },
-  {
-    "id": "0x5ef530c9015f1832e472cfd5c08a37bbf9d1f62d092dae072bb890ce99709f61",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "000210",
-      "country": "KR",
-      "description": "DAELIM IND / SOUTH KOREAN WON",
-      "display_symbol": "KQ.000210/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.000210/KRW"
-    }
-  },
-  {
-    "id": "0x951fcfdd98f1f160721471243474a3156c95678775316fcbb4f2f789906cace5",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "489790",
-      "country": "KR",
-      "description": "HANWHA VISION / SOUTH KOREAN WON",
-      "display_symbol": "KQ.489790/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.489790/KRW"
     }
   },
   {
@@ -26356,20 +25098,6 @@
     }
   },
   {
-    "id": "0xefe4f69c63beda9362f4e97af68de5b2b5fb81130957e90423ae84461af08975",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "009420",
-      "country": "KR",
-      "description": "HANALL BIOPHARMA CO LTD / SOUTH KOREAN WON",
-      "display_symbol": "KQ.009420/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.009420/KRW"
-    }
-  },
-  {
     "id": "0xe9f11baaade6cf979251d4c9e6c30657ed29275952a04b125915e475c31a5e63",
     "attributes": {
       "asset_type": "Equity",
@@ -26465,20 +25193,6 @@
     }
   },
   {
-    "id": "0x578fb4c1e2dabe95a306c83d7d2830ebfd81e4e22a49e321ea4d6ac37cece51c",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "395400",
-      "country": "KR",
-      "description": "SK REIT / SOUTH KOREAN WON",
-      "display_symbol": "KQ.395400/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.395400/KRW"
-    }
-  },
-  {
     "id": "0x5364ca7da542969c6977f06dbb21386d39184e9b556d2e5ca9e6c67f1766bd1e",
     "attributes": {
       "asset_type": "Equity",
@@ -26561,6 +25275,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.LVS/USD"
+    }
+  },
+  {
+    "id": "0x47a156470288850a440df3a6ce85a55917b813a19bb5b31128a33a986566a362",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "TSLAX",
+      "description": "TESLA XSTOCK / US DOLLAR",
+      "display_symbol": "TSLAX/USD",
+      "generic_symbol": "TSLAXUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.TSLAX/USD"
     }
   },
   {
@@ -26704,20 +25431,6 @@
     }
   },
   {
-    "id": "0x7ccc565eabae5c35eae36a2d416d2e0f96e47f2c84286ed2534d599777d0bdc3",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "006120",
-      "country": "KR",
-      "description": "SK DISCOVERY CO LTD  / SOUTH KOREAN WON",
-      "display_symbol": "KQ.006120/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.006120/KRW"
-    }
-  },
-  {
     "id": "0x70dddcb074263ce201ea9a1be5b3537e59ed5b9060d309e12d61762cfe59fb7e",
     "attributes": {
       "asset_type": "Crypto",
@@ -26858,20 +25571,6 @@
     }
   },
   {
-    "id": "0x44193bf950fc578a42a39694b81b4c12ef8196b0c109fcecdb5307958d96d60f",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "108320",
-      "country": "KR",
-      "description": "LX SEMICON / SOUTH KOREAN WON",
-      "display_symbol": "KQ.108320/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.108320/KRW"
-    }
-  },
-  {
     "id": "0x7d01ec0cb9d38918cd497f97b24cb6cea5552993f5da05863886e6a2d33ee0aa",
     "attributes": {
       "asset_type": "Rates",
@@ -26980,20 +25679,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.JTO/USD"
-    }
-  },
-  {
-    "id": "0x8e761843028ab63d9bf13b871ff9638ebf9abbfc4bac15523c0bbd448a5d2497",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "017960",
-      "country": "KR",
-      "description": "HANKUK CARBON / SOUTH KOREAN WON",
-      "display_symbol": "KQ.017960/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.017960/KRW"
     }
   },
   {
@@ -27127,20 +25812,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.STLD/USD"
-    }
-  },
-  {
-    "id": "0x02dd3ec769c5542fec7e85ed1e07013b0a40e880884f5e813280173b90c6f257",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "185750",
-      "country": "KR",
-      "description": "CHONGKUNDANG / SOUTH KOREAN WON",
-      "display_symbol": "KQ.185750/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.185750/KRW"
     }
   },
   {
@@ -27427,20 +26098,6 @@
     }
   },
   {
-    "id": "0xb69797586f5a27bafbd7029f09b8d112a350667a1ba6cf32224bcb004c301707",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "002790",
-      "country": "KR",
-      "description": "AMORE GROUP / SOUTH KOREAN WON",
-      "display_symbol": "KQ.002790/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.002790/KRW"
-    }
-  },
-  {
     "id": "0xcfd6e834c59eff68160f9ba02659050a31bb03dc015d365c5f00c5686b06b39a",
     "attributes": {
       "asset_type": "Equity",
@@ -27466,20 +26123,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0000-0930&1600-2400,0000-0930&1600-2400,0000-0930&1600-2400,0000-0930&1600-2400,0000-0930&1600-2000,C,2000-2400;0703/0000-1300,0704/C",
       "symbol": "Equity.US.XOM/USD.EXT"
-    }
-  },
-  {
-    "id": "0x43cdbffefb129e0497e74ef4c23974f5d09ef2ebba2f52ca12047c895ecc78d2",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "001440",
-      "country": "KR",
-      "description": "TAIHAN ELECTRIC WIRE / SOUTH KOREAN WON",
-      "display_symbol": "KQ.001440/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.001440/KRW"
     }
   },
   {
@@ -27720,20 +26363,6 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.ZEN/USD"
-    }
-  },
-  {
-    "id": "0xee478cfa06a35ab698cc8f83f33238a30b111b7f6d594b1bc847942f4fd7a4f6",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "069620",
-      "country": "KR",
-      "description": "DAEWOONG PHARMACEUTICAL / SOUTH KOREAN WON",
-      "display_symbol": "KQ.069620/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.069620/KRW"
     }
   },
   {
@@ -28595,20 +27224,6 @@
       "quote_currency": "JPY",
       "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
       "symbol": "Equity.JP.9984/JPY"
-    }
-  },
-  {
-    "id": "0x9285759d35a09a4b148ea9c4d6052490e38d67aeaf58e7119ecbc645942ed0ef",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "030000",
-      "country": "KR",
-      "description": "CHEIL WORLDWIDE / SOUTH KOREAN WON",
-      "display_symbol": "KQ.030000/KRW",
-      "publish_interval": "5",
-      "quote_currency": "KRW",
-      "schedule": "Asia/Seoul;0900-1530,0900-1530,0900-1530,0900-1530,0900-1530,C,C;0815/C,1003/C,1006/C,1007/C,1008/C,1009/C,1225/C,1231/C",
-      "symbol": "Equity.KR.030000/KRW"
     }
   },
   {
