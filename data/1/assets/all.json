@@ -1428,6 +1428,20 @@
     "decimals": 18
   },
   {
+    "address": "0xD1d0fF7BB555f57A9604CE06bca704ab97A0049A",
+    "chainId": 1,
+    "name": "PT YieldFi yUSD 7AUG2025",
+    "symbol": "PT-yUSD-7AUG2025",
+    "decimals": 6
+  },
+  {
+    "address": "0x1047a4D2dC60e6652B51e7c63bA276b501ad6bc8",
+    "chainId": 1,
+    "name": "Pendle Market",
+    "symbol": "PENDLE-LPT",
+    "decimals": 18
+  },
+  {
     "address": "0xdacE1121e10500e9e29d071F01593fD76B000f08",
     "chainId": 1,
     "name": "Pendle Market",
