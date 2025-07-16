@@ -21,6 +21,7 @@ export function getAddressesForChain(chainId: number): SystemAddresses {
   try {
     peripheryAddresses = JSON.parse(readFileSync(peripheryAddressesPath, "utf-8"));
   } catch (error) {
+    console.error(error);
     throw new Error(`No addresses found for chain ${chainId}`);
   }
 

@@ -70,6 +70,8 @@ export async function collectData(chainId: number): Promise<CollectedData> {
       fetchEOracleMetadata(chainId),
     ]);
 
+  console.log(redstoneResult);
+
   const chainlinkMetadata = chainlinkResult.status === "fulfilled" ? chainlinkResult.value : [];
   const redstoneMetadata = redstoneResult.status === "fulfilled" ? redstoneResult.value : [];
   const pythMetadata = pythResult.status === "fulfilled" ? pythResult.value : [];

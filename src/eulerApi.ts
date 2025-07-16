@@ -52,6 +52,7 @@ async function fetchEulerApi<T>(path: string): Promise<T> {
     headers: {
       "Content-Type": "application/json",
     },
+    signal: AbortSignal.timeout(5000),
   });
 
   return result.json() as T;

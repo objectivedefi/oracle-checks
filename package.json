@@ -35,7 +35,7 @@
     "typescript": "^5.7.3"
   },
   "dependencies": {
-    "@objectivelabs/oracle-sdk": "^1.1.6",
+    "@objectivelabs/oracle-sdk": "^1.1.7",
     "cbor-x": "^1.6.0",
     "dotenv": "^16.4.7",
     "viem": "^2.31.7"
