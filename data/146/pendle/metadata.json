@@ -1,6 +1,22 @@
 [
   {
     "chainId": 146,
+    "pt": "0x01d6dafa8B3bD04bDf7bA6Ff76104d15E2B7485c",
+    "market": "0x784ABE614738E4b30aDd5Ae8Cc96e59b5728d936",
+    "underlyingAsset": "0xf6bC16B79c469b94Cdd25F3e2334DD4FEE47A581",
+    "expiry": 1766016000,
+    "symbol": "USDC-Silo Greenhouse"
+  },
+  {
+    "chainId": 146,
+    "pt": "0x0816792E394707F9B51b1e710A8186E2A4F98fa6",
+    "market": "0x19524Fc9b2348d4d6A489a4CD3179405E84eeb9B",
+    "underlyingAsset": "0x4451765739b2D7BCe5f8BC95Beaf966c45E1Dcc9",
+    "expiry": 1766016000,
+    "symbol": "xSILO"
+  },
+  {
+    "chainId": 146,
     "pt": "0x0Fb682C9692AddCc1769f4D4d938c54420D54fA3",
     "market": "0x004f76045b42ef3e89814b12b37E69da19C8a212",
     "underlyingAsset": "0x9fb76f7ce5FCeAA2C42887ff441D46095E494206",

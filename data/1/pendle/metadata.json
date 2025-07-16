@@ -81,6 +81,14 @@
   },
   {
     "chainId": 1,
+    "pt": "0x19C240Ba234bF46458640cc40E33d9ED0Ef9c841",
+    "market": "0x73d1C0B9B931654a6755d9319d800B8e81Ad27cA",
+    "underlyingAsset": "0x3976d71e7DdFBaB9bD120Ec281B7d35fa0F28528",
+    "expiry": 1758758400,
+    "symbol": "slpETH"
+  },
+  {
+    "chainId": 1,
     "pt": "0x1A0d4D92a9fdd5fFF38C011275c16e7A147D3788",
     "market": "0xf55Bc75DF5933DD35aAcF3BCA948b0C4630040d1",
     "underlyingAsset": "0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7",
@@ -142,6 +150,14 @@
     "underlyingAsset": "0x4737D9b4592B40d51e110b94c9C043c6654067Ae",
     "expiry": 1758758400,
     "symbol": "slvlUSD"
+  },
+  {
+    "chainId": 1,
+    "pt": "0x2D6361c8a70aF5A415e39c0f916133774f7f0C65",
+    "market": "0x577afF6DDaD1d25ee18FEE16DE7037dE44F2f5E8",
+    "underlyingAsset": "0xE2Fc85BfB48C4cF147921fBE110cf92Ef9f26F94",
+    "expiry": 1758758400,
+    "symbol": "xUSD"
   },
   {
     "chainId": 1,
