@@ -57,14 +57,6 @@
   },
   {
     "chainId": 146,
-    "pt": "0x77d8F09053c28FaF1E00Df6511b23125d438616f",
-    "market": "0xaCfAD541698437F6EF0E728C56A50CE35C73cC3e",
-    "underlyingAsset": "0x322e1d5384aa4ED66AeCa770B95686271de61dc3",
-    "expiry": 1752710400,
-    "symbol": "USDC-Silo20"
-  },
-  {
-    "chainId": 146,
     "pt": "0x789cA09b0B4bcc83062d817C43206f96bd464015",
     "market": "0x9700C4C218237550EAd3a78022d43215A717e5e7",
     "underlyingAsset": "0xfA85Fe5A8F5560e9039C04f2b0a90dE1415aBD70",
