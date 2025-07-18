@@ -57139,6 +57139,47 @@
     "decimals": 8
   },
   {
+    "benchmark": "cex-lwba",
+    "compareOffchain": "",
+    "contractAddress": "0x8b48E1A576d47Eb8BfE13d54d30aC2251C9F1A8A",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "pump-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "PUMP / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "pump-usd",
+    "proxyAddress": "0x0C997958ccE7A0403AEA7E34d14bbaDA897B5bb3",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "Pump",
+    "feedCategory": "new",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "baseAsset": "PUMP",
+      "baseAssetClic": "PUMP_CR",
+      "blockchainName": "Ethereum",
+      "clicProductName": "PUMP/USD-RefPrice-DF-Ethereum-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 18
+  },
+  {
     "compareOffchain": "",
     "contractAddress": "0x8bc041b1FBDC6420d4ED6E8135F14a3B36E7b8ad",
     "contractType": "",
