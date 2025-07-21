@@ -97,6 +97,14 @@
   },
   {
     "chainId": 1,
+    "pt": "0x1a4485101815E5afEb4d83e7A4FEbB822e683d99",
+    "market": "0x2B10CffFC3e49F4aaE294d86072E5D2ec6332118",
+    "underlyingAsset": "0xeF101508bf4DC6CF0f0a0C135f39a41faB4E4389",
+    "expiry": 1761782400,
+    "symbol": "SuperETH"
+  },
+  {
+    "chainId": 1,
     "pt": "0x1f79Bc2bf1FacF86410A8f18CcCA7e0ee01ABC7E",
     "market": "0xCb6F35008f4DE72733dB10D1F24200fA2EC44eb3",
     "underlyingAsset": "0xdDC0f880ff6e4e22E4B74632fBb43Ce4DF6cCC5a",
@@ -158,6 +166,14 @@
     "underlyingAsset": "0xE2Fc85BfB48C4cF147921fBE110cf92Ef9f26F94",
     "expiry": 1758758400,
     "symbol": "xUSD"
+  },
+  {
+    "chainId": 1,
+    "pt": "0x2E3229674085F5490a4cC2558ab96aEDC3ab25D1",
+    "market": "0x8322B96F7aFF9Bf405A5A321C7CA5aaC748716e0",
+    "underlyingAsset": "0xbB51E2a15A9158EBE2b0Ceb8678511e063AB7a55",
+    "expiry": 1761782400,
+    "symbol": "USD (Midas mEDGE)"
   },
   {
     "chainId": 1,
@@ -230,6 +246,14 @@
     "underlyingAsset": "0xfE0ccc9942E98C963Fe6b4e5194EB6e3Baa4cb64",
     "expiry": 1756944000,
     "symbol": "sYUSD"
+  },
+  {
+    "chainId": 1,
+    "pt": "0x61da65F0534C6A4F4c9757f2979A923c08d6D2aa",
+    "market": "0x688b8eea04B9756da290C962bfBA988b11fC66dF",
+    "underlyingAsset": "0x030b69280892c888670EDCDCD8B69Fd8026A0BF3",
+    "expiry": 1761782400,
+    "symbol": "USD (Midas mMEV)"
   },
   {
     "chainId": 1,
@@ -422,6 +446,14 @@
     "underlyingAsset": "0xc8CF6D7991f15525488b2A83Df53468D682Ba4B0",
     "expiry": 1758758400,
     "symbol": "sUSDf"
+  },
+  {
+    "chainId": 1,
+    "pt": "0xaD7EE9712C279B619101706252Db3b3D1E6756AB",
+    "market": "0xB8091eAA116Dd111FaF072f4Eb94B1e6a14076e1",
+    "underlyingAsset": "0xF7DE3c70F2db39a188A81052d2f3C8e3e217822a",
+    "expiry": 1761782400,
+    "symbol": "SuperUSDC"
   },
   {
     "chainId": 1,
