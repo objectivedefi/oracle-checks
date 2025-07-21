@@ -1442,6 +1442,13 @@
     "decimals": 18
   },
   {
+    "address": "0xE2Fc85BfB48C4cF147921fBE110cf92Ef9f26F94",
+    "chainId": 1,
+    "name": "Staked Stream USD",
+    "symbol": "xUSD",
+    "decimals": 6
+  },
+  {
     "address": "0xdacE1121e10500e9e29d071F01593fD76B000f08",
     "chainId": 1,
     "name": "Pendle Market",
