@@ -1167,6 +1167,19 @@
     }
   },
   {
+    "id": "0xf3d1e3fbe7944d9008cbc4e6390677d60ba1ea118f230570369355dc3780c7b4",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "TAC",
+      "description": "TAC PROTOCOL / US DOLLAR",
+      "display_symbol": "TAC/USD",
+      "generic_symbol": "TACUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.TAC/USD"
+    }
+  },
+  {
     "id": "0xf80ba6864e3f1b36c873bcb2767079d5fb86cf04855e714b2a0f30d7e0830a24",
     "attributes": {
       "asset_type": "Crypto",
@@ -6742,6 +6755,19 @@
     }
   },
   {
+    "id": "0x0f7f8f64d3b762be8fead73e692ba52cd6e07076e0784810ecc95cf0d28e9a96",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "OG",
+      "description": "OG FAN TOKEN / US DOLLAR",
+      "display_symbol": "OG/USD",
+      "generic_symbol": "OGUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.OG/USD"
+    }
+  },
+  {
     "id": "0x84ff736dbf4339f4d353265c12774f6bf27551496c4c7ad89dd4ac30fa2f55f8",
     "attributes": {
       "asset_type": "Crypto Redemption Rate",
@@ -11670,6 +11696,20 @@
     }
   },
   {
+    "id": "0x19aec77cb70be18c66df7afd33da651d7b376fd26f7c06f2e8b77536c820a281",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "HAHYPE",
+      "contract_id": "hype: 0xFde5B0626fC80E36885e2fA9cD5ad9d7768D725c",
+      "description": "HARMONIX HYPE / HYPE REDEMPTION RATE",
+      "display_symbol": "HAHYPE/HYPE",
+      "generic_symbol": "HAHYPEHYPE",
+      "quote_currency": "HAHYPE",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.HAHYPE/HYPE.RR"
+    }
+  },
+  {
     "id": "0x9df307038f76e26ba0f9aaa1d5eefce919bf5b7b282d0ad247d4f77ffb506ede",
     "attributes": {
       "asset_type": "Crypto",
@@ -12324,6 +12364,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.ZS/USD"
+    }
+  },
+  {
+    "id": "0xe0714c523cf9d561c9575a6ab25afb1c0a985d2e9c85b33d0076e268091df27b",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "TETH",
+      "description": "TREEHOUSE ETHEREUM / US DOLLAR",
+      "display_symbol": "TETH/USD",
+      "generic_symbol": "TETHUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.Treehouse.TETH/USD"
     }
   },
   {
@@ -24331,6 +24384,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.BABY/USD"
+    }
+  },
+  {
+    "id": "0x42abf92ba20e1bb9e5d30817dbf616d0f3318eaa07ad26d22f6ae9cb678419fd",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "PSG",
+      "description": "PARIS SAINT GERMAIN FAN TOKEN / US DOLLAR",
+      "display_symbol": "PSG/USD",
+      "generic_symbol": "PSGUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.PSG/USD"
     }
   },
   {
