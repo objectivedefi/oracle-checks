@@ -25383,6 +25383,19 @@
     }
   },
   {
+    "id": "0x0c62848c8afee091f2c132eef944e3075c6de476129efc872a4202d81ca34f99",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "WTIZ5",
+      "description": "PYTH WTI 21 NOVEMBER 2025 / US DOLLAR",
+      "display_symbol": "WTIZ5/USD",
+      "generic_symbol": "WTIZ5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0704/0000-1300",
+      "symbol": "Commodities.WTIZ5/USD"
+    }
+  },
+  {
     "id": "0x9d7042f0c20f5ccab0a3433d8e5b86797f5a85479a66ae8bf5a763b272aa99ab",
     "attributes": {
       "asset_type": "Crypto Redemption Rate",
