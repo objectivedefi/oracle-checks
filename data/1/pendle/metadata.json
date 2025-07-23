@@ -17,6 +17,14 @@
   },
   {
     "chainId": 1,
+    "pt": "0x10a099BAf814B5FDa138c4e6b60eD42c0d975be8",
+    "market": "0x358e4Ced73861514Bc4918EEC59C0BA729b8CcF5",
+    "underlyingAsset": "0xd3fD63209FA2D55B07A0f6db36C2f43900be3094",
+    "expiry": 1761782400,
+    "symbol": "wsrUSD"
+  },
+  {
+    "chainId": 1,
     "pt": "0x11105208Abb3Ce206922Bf4cd6B2D5F98CAC2F0d",
     "market": "0x9b5418ef165E86490eDbFBaE865e0791b225F037",
     "underlyingAsset": "0xF7DE3c70F2db39a188A81052d2f3C8e3e217822a",
@@ -102,6 +110,14 @@
     "underlyingAsset": "0xeF101508bf4DC6CF0f0a0C135f39a41faB4E4389",
     "expiry": 1761782400,
     "symbol": "SuperETH"
+  },
+  {
+    "chainId": 1,
+    "pt": "0x1BA04a8D604750E8524007fA89455CB9e4944B81",
+    "market": "0xbdEb620F52799856a203Ca0b5de90769C83E3b90",
+    "underlyingAsset": "0xdA67B4284609d2d48e5d10cfAc411572727dc1eD",
+    "expiry": 1761782400,
+    "symbol": "USN"
   },
   {
     "chainId": 1,
@@ -297,6 +313,14 @@
   },
   {
     "chainId": 1,
+    "pt": "0x711214da1A94F478B96C1Ca3D14A750f496F2a80",
+    "market": "0x50700eEDdE7850B4bf83733C66b272C6CA46c663",
+    "underlyingAsset": "0xDBDC1Ef57537E34680B898E1FEBD3D68c7389bCB",
+    "expiry": 1759968000,
+    "symbol": "siUSD"
+  },
+  {
+    "chainId": 1,
     "pt": "0x742B4166878Bfd339Db65a29a17E49b81a6B6Aac",
     "market": "0x55F06992E4C3ed17Df830dA37644885c0c34EDdA",
     "underlyingAsset": "0x4956b52aE2fF65D74CA2d61207523288e4528f96",
@@ -366,6 +390,14 @@
     "underlyingAsset": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
     "expiry": 1782345600,
     "symbol": "weETH"
+  },
+  {
+    "chainId": 1,
+    "pt": "0x904673592a3FEbB74a30a73161e8C05A200C8961",
+    "market": "0x71d4a6bAc0FE7210309b6A3807cf2BaD13d7C1E1",
+    "underlyingAsset": "0x9FD7466f987Fd4C45a5BBDe22ED8aba5BC8D72d1",
+    "expiry": 1758758400,
+    "symbol": "hwHLP"
   },
   {
     "chainId": 1,
@@ -513,6 +545,14 @@
   },
   {
     "chainId": 1,
+    "pt": "0xCC31d0c049eb8bC29a265eb81B25C89325f2F78F",
+    "market": "0xbdf3EA4673116698219c08A9AD6B51e4E68d22ab",
+    "underlyingAsset": "0xE24a3DC889621612422A64E6388927901608B91D",
+    "expiry": 1761782400,
+    "symbol": "sUSN"
+  },
+  {
+    "chainId": 1,
     "pt": "0xCcE7D12f683c6dAe700154f0BAdf779C0bA1F89A",
     "market": "0x9A63FA80b5DDFd3Cab23803fdB93ad2c18F3d5aa",
     "underlyingAsset": "0x80ac24aA929eaF5013f6436cdA2a7ba190f5Cc0b",
@@ -561,11 +601,27 @@
   },
   {
     "chainId": 1,
+    "pt": "0xDB63CFAD2FE43132606cFeF60C8ca3468c487677",
+    "market": "0x8AF9872eeE05c7Ca1c24295426E4d71b4AF5B559",
+    "underlyingAsset": "0x2e3C5e514EEf46727DE1FE44618027A9b70D92FC",
+    "expiry": 1764201600,
+    "symbol": "vyUSD"
+  },
+  {
+    "chainId": 1,
     "pt": "0xDbC00a45E7530017E553fBFA340Be32dE89eA27b",
     "market": "0x9F4C227b0fB30a02430D573D657c76AC2de4cEE7",
     "underlyingAsset": "0x6b6b870C7f449266a9F40F94eCa5A6fF9b0857E4",
     "expiry": 1758758400,
     "symbol": "tBTC"
+  },
+  {
+    "chainId": 1,
+    "pt": "0xdcFDf8434e8FDfFF2dD7dfC9299877e813348EE7",
+    "market": "0x04EEb15A3A96b679eEd0a5F490ef89Ec5477F045",
+    "underlyingAsset": "0x09D4214C03D01F49544C0448DBE3A27f768F2b34",
+    "expiry": 1761782400,
+    "symbol": "rUSD"
   },
   {
     "chainId": 1,
@@ -622,6 +678,14 @@
     "underlyingAsset": "0xD8b27CF359b7D15710a5BE299AF6e7Bf904984C2",
     "expiry": 1766016000,
     "symbol": "ETH-Euler Prime"
+  },
+  {
+    "chainId": 1,
+    "pt": "0xf580CF6B26251541f323bbda1f31CC8F91a0cA78",
+    "market": "0x4708E55da780a953FDed696CecB0E19164bA72f4",
+    "underlyingAsset": "0x19Ebd191f7A24ECE672ba13A302212b5eF7F35cb",
+    "expiry": 1764201600,
+    "symbol": "yUSD"
   },
   {
     "chainId": 1,
