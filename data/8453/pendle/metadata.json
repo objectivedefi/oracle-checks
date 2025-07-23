@@ -49,14 +49,6 @@
   },
   {
     "chainId": 8453,
-    "pt": "0xB04CEe9901C0A8d783fe280DED66e60c13A4e296",
-    "market": "0x44e2B05B2C17A12b37F11De18000922E64E23faa",
-    "underlyingAsset": "0x0000000f2eB9f69274678c76222B35eEc7588a65",
-    "expiry": 1758758400,
-    "symbol": "yoUSD"
-  },
-  {
-    "chainId": 8453,
     "pt": "0xB1847B85da0595C6f72B0757Ee292Bd472DCa45e",
     "market": "0x6144511E1BD935c258B7b9075F120474dF1b1e5f",
     "underlyingAsset": "0x067ae75628177FD257c2B1e500993e1a0baBcBd1",
