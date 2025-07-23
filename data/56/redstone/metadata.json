@@ -154,18 +154,6 @@
     "heartbeat": 60
   },
   {
-    "symbol": "BNB",
-    "priceFeedAddress": "0x8dd2D85C7c28F43F965AE4d9545189C7D022ED0e",
-    "deviationPercentage": 0.1,
-    "heartbeat": 60
-  },
-  {
-    "symbol": "BTC",
-    "priceFeedAddress": "0xa51738d1937FFc553d5070f43300B385AA2D9F55",
-    "deviationPercentage": 0.1,
-    "heartbeat": 60
-  },
-  {
     "symbol": "ezETH/ETH",
     "priceFeedAddress": "0x3A236F67Fce401D87D7215695235e201966576E4",
     "deviationPercentage": 1,
