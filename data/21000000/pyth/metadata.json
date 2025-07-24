@@ -10656,6 +10656,19 @@
     }
   },
   {
+    "id": "0x2e8c6b85cf4a79b6d8bce10be470eefb369810b642782cb6aa150f82362e65d1",
+    "attributes": {
+      "asset_type": "Commodities",
+      "base": "WTIX5",
+      "description": "PYTH WTI 21 OCTOBER 2025 / US DOLLAR",
+      "display_symbol": "WTIX5/USD",
+      "generic_symbol": "WTIX5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0704/0000-1300",
+      "symbol": "Commodities.WTIX5/USD"
+    }
+  },
+  {
     "id": "0xa637b76c2fc7f928fab462a999fc65ecd8493142d8d6e1c67b96a352d0d20b08",
     "attributes": {
       "asset_type": "Equity",
@@ -25387,7 +25400,7 @@
     "attributes": {
       "asset_type": "Commodities",
       "base": "WTIZ5",
-      "description": "PYTH WTI 21 NOVEMBER 2025 / US DOLLAR",
+      "description": "PYTH WTI 20 NOVEMBER 2025 / US DOLLAR",
       "display_symbol": "WTIZ5/USD",
       "generic_symbol": "WTIZ5",
       "quote_currency": "USD",
