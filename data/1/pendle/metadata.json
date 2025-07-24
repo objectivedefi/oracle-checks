@@ -617,6 +617,14 @@
   },
   {
     "chainId": 1,
+    "pt": "0xDBf6feC5A012A13c456Bac3B67C3B9CF2830A122",
+    "market": "0x56C4200915D74A7cae45dFa57aB33725B0439193",
+    "underlyingAsset": "0xbEeFc011e94f43b8B7b455eBaB290C7Ab4E216f1",
+    "expiry": 1761782400,
+    "symbol": "csUSDL"
+  },
+  {
+    "chainId": 1,
     "pt": "0xdcFDf8434e8FDfFF2dD7dfC9299877e813348EE7",
     "market": "0x04EEb15A3A96b679eEd0a5F490ef89Ec5477F045",
     "underlyingAsset": "0x09D4214C03D01F49544C0448DBE3A27f768F2b34",

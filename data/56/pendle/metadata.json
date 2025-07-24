@@ -9,14 +9,6 @@
   },
   {
     "chainId": 56,
-    "pt": "0x1627abFd41CDAaff4FC595444519410160fE9df1",
-    "market": "0x61B79369738fAd86C4e948fC775048104b7ffbf0",
-    "underlyingAsset": "0x5A110fC00474038f6c02E89C707D638602EA44B5",
-    "expiry": 1753315200,
-    "symbol": "USDF"
-  },
-  {
-    "chainId": 56,
     "pt": "0x37fbFfE3a305E342c2cd00929A904e971c65Bafd",
     "market": "0xfA4B91d63e7cAb716dD049A23C56F70237C6DDBB",
     "underlyingAsset": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
@@ -38,14 +30,6 @@
     "underlyingAsset": "0x32C830f5c34122C6afB8aE87ABA541B7900a2C5F",
     "expiry": 1760572800,
     "symbol": "ynBNBx"
-  },
-  {
-    "chainId": 56,
-    "pt": "0x5f63b282089905C55A283110d4868A56e265Aec5",
-    "market": "0xD75D9Fbc6486CA5A18037F9eA2fD48044fa9e414",
-    "underlyingAsset": "0x77734e70b6E88b4d82fE632a168EDf6e700912b6",
-    "expiry": 1753315200,
-    "symbol": "asBNB"
   },
   {
     "chainId": 56,
