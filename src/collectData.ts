@@ -70,13 +70,21 @@ export async function collectData(chainId: number): Promise<CollectedData> {
       fetchEOracleMetadata(chainId),
     ]);
 
-  console.log(redstoneResult);
+  const getMetadata = <T>(p: PromiseSettledResult<T>, metadataName: string): T | [] => {
+    if (p.status === "fulfilled") {
+      return p.value;
+    } else {
+      console.error(`Error fetching ${metadataName} metadata: ${p.reason}`);
+      return [];
+    }
+  };
 
-  const chainlinkMetadata = chainlinkResult.status === "fulfilled" ? chainlinkResult.value : [];
-  const redstoneMetadata = redstoneResult.status === "fulfilled" ? redstoneResult.value : [];
-  const pythMetadata = pythResult.status === "fulfilled" ? pythResult.value : [];
-  const pendleMetadata = pendleResult.status === "fulfilled" ? pendleResult.value : [];
-  const eoracleMetadata = eoracleResult.status === "fulfilled" ? eoracleResult.value : [];
+  const chainlinkMetadata = getMetadata(chainlinkResult, "Chainlink");
+  const redstoneMetadata = getMetadata(redstoneResult, "RedStone");
+  const pythMetadata = getMetadata(pythResult, "Pyth");
+  const pendleMetadata = getMetadata(pendleResult, "Pendle");
+  const eoracleMetadata = getMetadata(eoracleResult, "eOracle");
+
   pendleMetadata.sort((a, b) => a.pt.localeCompare(b.pt));
   console.log(`${logPrefix} Fetched oracle provider metadata`);
 

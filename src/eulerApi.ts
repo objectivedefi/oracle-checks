@@ -44,47 +44,43 @@ function getEulerApiMetadata(): {
   return { url };
 }
 
-async function fetchEulerApi<T>(path: string): Promise<T> {
+async function fetchEulerApi<T>(path: string): Promise<T | null> {
   const { url } = getEulerApiMetadata();
 
-  const result = await fetch(`${url}${path}`, {
+  return fetch(`${url}${path}`, {
     method: "GET",
     headers: {
       "Content-Type": "application/json",
     },
     signal: AbortSignal.timeout(5000),
-  });
+  })
+    .then(async (res) => {
+      if (res.status === 200) {
+        return res.json() as T;
+      }
 
-  return result.json() as T;
+      throw new Error(`Got response [${res.status}] ${await res.text()}`);
+    })
+    .catch((error) => {
+      console.error(`Error fetching Euler API ${path}: ${error.message}`);
+      return null;
+    });
 }
 
 export async function fetchEulerApiHistoricalAdapters(chainId: number): Promise<Address[]> {
   return fetchEulerApi<EulerApiHistoricalAdaptersResponse>(
     `/v1/oracle/historical-adapters?chainId=${chainId}`,
-  )
-    .then((data) => data[chainId])
-    .catch((error) => {
-      console.error(error);
-      return [];
-    });
+  ).then((data) => (data ? data[chainId] : []));
 }
 
 export async function fetchEulerApiDeployedRouters(chainId: number): Promise<DeployedRouter[]> {
-  return fetchEulerApi<EulerApiDeployedRoutersResponse>(`/v1/oracle/routers?chainId=${chainId}`)
-    .then((data) => data)
-    .catch((error) => {
-      console.error(error);
-      return [];
-    });
+  return fetchEulerApi<EulerApiDeployedRoutersResponse>(
+    `/v1/oracle/routers?chainId=${chainId}`,
+  ).then((data) => (data ? data : []));
 }
 
 export async function fetchEulerApiWhitelistedAdapters(chainId: number): Promise<AdapterEntry[]> {
   return fetchEulerApi<EulerApiWhitelistedAdaptersResponse>(
     `/v1/oracle/whitelisted-adapters?chainId=${chainId}`,
-  )
-    .then((data) => data[chainId])
-    .catch((error) => {
-      console.error(error);
-      return [];
-    });
+  ).then((data) => (data ? data[chainId] : []));
 }
