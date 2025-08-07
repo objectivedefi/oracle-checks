@@ -562,7 +562,7 @@
     ],
     "path": "syrupusdc-usdc-exchange-rate",
     "proxyAddress": "0x311D3A3faA1d5939c681E33C2CDAc041FF388EB2",
-    "threshold": 1e-7,
+    "threshold": 0.05,
     "valuePrefix": "",
     "assetName": "syrupUSDC-USDC Exchange Rate",
     "feedCategory": "custom",
