@@ -3336,6 +3336,48 @@
     "decimals": 8
   },
   {
+    "benchmark": "cex-lwba",
+    "compareOffchain": "",
+    "contractAddress": "0x89406394615978c0FB4A969574edA675595553C4",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "home-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "HOME / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "home-usd",
+    "proxyAddress": "0x121934C415937863d64ef93436169444633EE0d8",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "HOME",
+    "feedCategory": "low",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "baseAsset": "HOME",
+      "baseAssetClic": "HOME_CR",
+      "blockchainName": "Base",
+      "clicProductName": "HOME/USD-RefPrice-DF-Base-001",
+      "deliveryChannelCode": "DF",
+      "hidden": true,
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 18
+  },
+  {
     "compareOffchain": "",
     "contractAddress": "0x89B734B0f34c4697857C07CedB58afeb482F5596",
     "contractType": "",
