@@ -8,6 +8,7 @@ import {
   corn,
   gnosis,
   ink,
+  linea,
   mainnet,
   optimism,
   polygon,
@@ -274,5 +275,13 @@ export const chainConfigs: Record<number, CheckConfig> = {
     otherRecognizedAggregatorV3Feeds: {},
     ...defaultBounds,
     ...getAddressesForChain(tac.id),
+  },
+  [linea.id]: {
+    publicClient: getClient(linea),
+    metadataHashes,
+    fallbackAssets,
+    otherRecognizedAggregatorV3Feeds: {},
+    ...defaultBounds,
+    ...getAddressesForChain(linea.id),
   },
 };
