@@ -1,6 +1,6 @@
 {
   "name": "oracle-checks",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Euler price oracle verification checks",
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
