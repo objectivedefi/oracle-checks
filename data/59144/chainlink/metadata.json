@@ -457,6 +457,43 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x67F8F34a08233FA07fcD15EE597C643fd1eBc422",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "xsolvbtc-nav",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "1000000000000000000",
+    "name": "xSolvBTC NAV",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "xsolvbtc-nav",
+    "proxyAddress": "0x49768d7ebB7694b1e72546300cCCeD877084d72f",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "Bitcoin (BTC)",
+    "feedCategory": "custom",
+    "feedType": "",
+    "docs": {
+      "assetClass": "Crypto",
+      "baseAsset": "xSolvBTC",
+      "blockchainName": "Linea",
+      "deliveryChannelCode": "DF",
+      "issuer": "Solv",
+      "porAuditor": "Solv",
+      "porSource": "Asset Issuer",
+      "productType": "NAVLink",
+      "productTypeCode": "NAV"
+    },
+    "decimals": 18
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x6f0D003A0743F5acea5680B1D128bd433B07ffCE",
     "contractType": "",
     "contractVersion": 4,
