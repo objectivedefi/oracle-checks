@@ -3371,7 +3371,7 @@
     "heartbeat": 86400,
     "history": null,
     "multiply": "100000000",
-    "name": "bgBTC Proof of Reserves",
+    "name": "BGBTC Proof of Reserves",
     "pair": [
       "",
       ""
