@@ -206,6 +206,76 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x2884F3d4fE39cD5c77b00900127a538Bc3Bb548B",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "pce-price-index-level",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 3024000,
+    "history": null,
+    "multiply": "1000",
+    "name": "PCE Price Index — Level",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "pce-price-index-level",
+    "proxyAddress": "0x8b7fAC4A99daDa67C661D4854B2284c7A64722f4",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "custom",
+    "feedType": "Macroeconomics",
+    "docs": {
+      "assetClass": "Macroeconomics",
+      "blockchainName": "Linea",
+      "deliveryChannelCode": "DF",
+      "hidden": true,
+      "productSubType": "Reference",
+      "productType": "Macroeconomics",
+      "productTypeCode": "RefMacro"
+    },
+    "decimals": 3
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x32a7438FD4F6Fc2D1174A3b701caE2f9103AeaD4",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "real-gdp-level",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 3024000,
+    "history": null,
+    "multiply": "1000",
+    "name": "Real GDP — Level",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "real-gdp-level",
+    "proxyAddress": "0x1E2286815B3D628128fbaa0F213fD53Dea9E015E",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "custom",
+    "feedType": "Macroeconomics",
+    "docs": {
+      "assetClass": "Macroeconomics",
+      "blockchainName": "Linea",
+      "deliveryChannelCode": "DF",
+      "hidden": true,
+      "productSubType": "Reference",
+      "productType": "Macroeconomics",
+      "productTypeCode": "RefMacro"
+    },
+    "decimals": 3
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x347C78C807b982F4354264be49110A0F6b3DBC82",
     "contractType": "",
     "contractVersion": 4,
@@ -246,6 +316,41 @@
       "underlyingAssetClic": "ETH_CR"
     },
     "decimals": 18
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x391F84f0a7eD1e8B35890a0ad220aF41b56bc278",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "pce-price-index-percent-change-annual-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 3024000,
+    "history": null,
+    "multiply": "10",
+    "name": "PCE Price Index — Percent Change (Annual Rate)",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "pce-price-index-percentage",
+    "proxyAddress": "0xe5aCa1a31aD6fC61E30Ab8E4a19a9445884A1EDE",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "custom",
+    "feedType": "Macroeconomics",
+    "docs": {
+      "assetClass": "Macroeconomics",
+      "blockchainName": "Linea",
+      "deliveryChannelCode": "DF",
+      "hidden": true,
+      "productSubType": "Reference",
+      "productType": "Macroeconomics",
+      "productTypeCode": "RefMacro"
+    },
+    "decimals": 1
   },
   {
     "compareOffchain": "",
@@ -537,6 +642,76 @@
   },
   {
     "compareOffchain": "",
+    "contractAddress": "0x700E6178eE7b594A6CC1f3dF6105042355051fB1",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "real-gdp-percent-change-annual-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 3024000,
+    "history": null,
+    "multiply": "10",
+    "name": "Real GDP — Percent Change (Annual Rate)",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "real-gdp-percentage",
+    "proxyAddress": "0xdAad34260E4105702278F225d3d20C453d12065e",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "custom",
+    "feedType": "Macroeconomics",
+    "docs": {
+      "assetClass": "Macroeconomics",
+      "blockchainName": "Linea",
+      "deliveryChannelCode": "DF",
+      "hidden": true,
+      "productSubType": "Reference",
+      "productType": "Macroeconomics",
+      "productTypeCode": "RefMacro"
+    },
+    "decimals": 1
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x82B6a73008c8f73df744847209e3399bc514f8c0",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "real-final-sales-to-private-domestic-purchasers-level",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 3024000,
+    "history": null,
+    "multiply": "1000",
+    "name": "Real Final Sales to Private Domestic Purchasers — Level",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "real-final-sales-to-private-domestic-purchasers-level",
+    "proxyAddress": "0x9165802Ea199C36F85D53A6F71Da6AF5a6EA8951",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "custom",
+    "feedType": "Macroeconomics",
+    "docs": {
+      "assetClass": "Macroeconomics",
+      "blockchainName": "Linea",
+      "deliveryChannelCode": "DF",
+      "hidden": true,
+      "productSubType": "Reference",
+      "productType": "Macroeconomics",
+      "productTypeCode": "RefMacro"
+    },
+    "decimals": 3
+  },
+  {
+    "compareOffchain": "",
     "contractAddress": "0x854d46002b2524239b81Ef783AB47CAbd5b9AD4e",
     "contractType": "",
     "contractVersion": 4,
@@ -616,6 +791,41 @@
       "underlyingAssetClic": "ETH_CR"
     },
     "decimals": 18
+  },
+  {
+    "compareOffchain": "",
+    "contractAddress": "0x90946FCe1e3b248466160475340A753Aa4C17562",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "real-final-sales-to-private-domestic-purchasers-percent-change-annual-rate",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 3024000,
+    "history": null,
+    "multiply": "10",
+    "name": "Real Final Sales to Private Domestic Purchasers — Percent Change (Annual Rate)",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "real-final-sales-to-private-domestic-purchasers-percentage",
+    "proxyAddress": "0x8d6ceb62Ce510935792BE737e30f9f61082b72b3",
+    "threshold": 1e-7,
+    "valuePrefix": "",
+    "assetName": "",
+    "feedCategory": "custom",
+    "feedType": "Macroeconomics",
+    "docs": {
+      "assetClass": "Macroeconomics",
+      "blockchainName": "Linea",
+      "deliveryChannelCode": "DF",
+      "hidden": true,
+      "productSubType": "Reference",
+      "productType": "Macroeconomics",
+      "productTypeCode": "RefMacro"
+    },
+    "decimals": 1
   },
   {
     "compareOffchain": "",
