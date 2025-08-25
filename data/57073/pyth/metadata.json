@@ -3572,6 +3572,19 @@
     }
   },
   {
+    "id": "0x4e35cd9a603f66fd85f6128d91a9bc129662e64ed022a97f8d95b59f1ebf7c2e",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "TEST8",
+      "description": "TEST8 / US DOLLAR",
+      "display_symbol": "TEST8/USD",
+      "generic_symbol": "TEST8USD",
+      "quote_currency": "%",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.TEST8/USD"
+    }
+  },
+  {
     "id": "0x6187f28a5c56dfd380dfa2b718b4062f8c3ae8a0e32f7c11078e76b31269f49c",
     "attributes": {
       "asset_type": "Equity",
@@ -5620,6 +5633,19 @@
     }
   },
   {
+    "id": "0x56ef63838b89bae2fa4ceac09887937e3a8ed5882372e9d3c5f5b0047be99201",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "TEST7",
+      "description": "TEST7 / US DOLLAR",
+      "display_symbol": "TEST7/USD",
+      "generic_symbol": "TEST7USD",
+      "quote_currency": "%",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.TEST7/USD"
+    }
+  },
+  {
     "id": "0x4133729094ce33b46a9f0ac2341333489282512991d786ce1e10ad270f3d9e31",
     "attributes": {
       "asset_type": "Equity",
@@ -7186,19 +7212,6 @@
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C,1224/0800-1230,1225/C,1226/C,1231/0800-1230,0101/C",
       "symbol": "Equity.GB.MNG/GBP"
-    }
-  },
-  {
-    "id": "0xa940f22b79e9475ba12a536f109f0e944e937715bfea6f153b8db1675f3fccf7",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "LOUD",
-      "description": "STAY LOUD / US DOLLAR",
-      "display_symbol": "LOUD/USD",
-      "generic_symbol": "LOUDUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.LOUD/USD"
     }
   },
   {
@@ -12981,6 +12994,19 @@
       "quote_currency": "HKD",
       "schedule": "Asia/Hong_Kong;0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,0930-1200&1300-1600,C,C;0501/C,0505/C,0701/C,1001/C,1007/C,1029/C",
       "symbol": "Equity.HK.0267-HK/HKD"
+    }
+  },
+  {
+    "id": "0x849b55be51fdcb722dc58ad870d69f73c3ea3b020fb2a8039e5b7abed62f2a86",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "TEST9",
+      "description": "TEST9 / US DOLLAR",
+      "display_symbol": "TEST9/USD",
+      "generic_symbol": "TEST9USD",
+      "quote_currency": "%",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.TEST9/USD"
     }
   },
   {
@@ -21123,6 +21149,19 @@
     }
   },
   {
+    "id": "0x9700fcc09ccf25204df7e5b87c3cfa7a780ff782c95a39fd5558cf14dbac8591",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "TEST6",
+      "description": "TEST6 / US DOLLAR",
+      "display_symbol": "TEST6/USD",
+      "generic_symbol": "TEST6USD",
+      "quote_currency": "%",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.TEST6/USD"
+    }
+  },
+  {
     "id": "0xa388977cbd7b063e456a31267919d86395af058a7558e892dde3c6b38c6240bb",
     "attributes": {
       "asset_type": "Equity",
@@ -23318,6 +23357,19 @@
       "quote_currency": "EUR",
       "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
       "symbol": "Equity.DE.BMW/EUR"
+    }
+  },
+  {
+    "id": "0xede7d586e573bba4d9f9b598134a0b3b2848fb5633efa1aeae6cdc405ca69ec4",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "TEST3",
+      "description": "TEST3 / US DOLLAR",
+      "display_symbol": "TEST3/USD",
+      "generic_symbol": "TEST3USD",
+      "quote_currency": "%",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.TEST3/USD"
     }
   },
   {
@@ -27305,6 +27357,19 @@
     }
   },
   {
+    "id": "0xe50aec560231dbcdd10e04bcabc4f18fa492e363b08ca9098e10d658931c3457",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "TEST5",
+      "description": "TEST5 / US DOLLAR",
+      "display_symbol": "TEST5/USD",
+      "generic_symbol": "TEST5USD",
+      "quote_currency": "%",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.TEST5/USD"
+    }
+  },
+  {
     "id": "0xf2fb02c32b055c805e7238d628e5e9dadef274376114eb1f012337cabe93871e",
     "attributes": {
       "asset_type": "Metal",
@@ -27965,6 +28030,19 @@
       "quote_currency": "JPY",
       "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
       "symbol": "Equity.JP.8053/JPY"
+    }
+  },
+  {
+    "id": "0x9fc444f6174a9cf849b65c3b30411ecd68a98136ce7e3727c62256675f7137dc",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "TEST4",
+      "description": "TEST4 / US DOLLAR",
+      "display_symbol": "TEST4/USD",
+      "generic_symbol": "TEST4USD",
+      "quote_currency": "%",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.TEST4/USD"
     }
   },
   {
