@@ -232,7 +232,6 @@
       "assetClass": "Macroeconomics",
       "blockchainName": "Linea",
       "deliveryChannelCode": "DF",
-      "hidden": true,
       "productSubType": "Reference",
       "productType": "Macroeconomics",
       "productTypeCode": "RefMacro"
@@ -260,6 +259,7 @@
     "proxyAddress": "0x1E2286815B3D628128fbaa0F213fD53Dea9E015E",
     "threshold": 1e-7,
     "valuePrefix": "",
+    "valueSuffix": "B of Chained 2017 USD",
     "assetName": "",
     "feedCategory": "custom",
     "feedType": "Macroeconomics",
@@ -267,7 +267,6 @@
       "assetClass": "Macroeconomics",
       "blockchainName": "Linea",
       "deliveryChannelCode": "DF",
-      "hidden": true,
       "productSubType": "Reference",
       "productType": "Macroeconomics",
       "productTypeCode": "RefMacro"
@@ -338,6 +337,7 @@
     "proxyAddress": "0xe5aCa1a31aD6fC61E30Ab8E4a19a9445884A1EDE",
     "threshold": 1e-7,
     "valuePrefix": "",
+    "valueSuffix": "%",
     "assetName": "",
     "feedCategory": "custom",
     "feedType": "Macroeconomics",
@@ -345,7 +345,6 @@
       "assetClass": "Macroeconomics",
       "blockchainName": "Linea",
       "deliveryChannelCode": "DF",
-      "hidden": true,
       "productSubType": "Reference",
       "productType": "Macroeconomics",
       "productTypeCode": "RefMacro"
@@ -661,6 +660,7 @@
     "proxyAddress": "0xdAad34260E4105702278F225d3d20C453d12065e",
     "threshold": 1e-7,
     "valuePrefix": "",
+    "valueSuffix": "%",
     "assetName": "",
     "feedCategory": "custom",
     "feedType": "Macroeconomics",
@@ -668,7 +668,6 @@
       "assetClass": "Macroeconomics",
       "blockchainName": "Linea",
       "deliveryChannelCode": "DF",
-      "hidden": true,
       "productSubType": "Reference",
       "productType": "Macroeconomics",
       "productTypeCode": "RefMacro"
@@ -696,6 +695,7 @@
     "proxyAddress": "0x9165802Ea199C36F85D53A6F71Da6AF5a6EA8951",
     "threshold": 1e-7,
     "valuePrefix": "",
+    "valueSuffix": "B of Chained 2017 USD",
     "assetName": "",
     "feedCategory": "custom",
     "feedType": "Macroeconomics",
@@ -703,7 +703,6 @@
       "assetClass": "Macroeconomics",
       "blockchainName": "Linea",
       "deliveryChannelCode": "DF",
-      "hidden": true,
       "productSubType": "Reference",
       "productType": "Macroeconomics",
       "productTypeCode": "RefMacro"
@@ -813,6 +812,7 @@
     "proxyAddress": "0x8d6ceb62Ce510935792BE737e30f9f61082b72b3",
     "threshold": 1e-7,
     "valuePrefix": "",
+    "valueSuffix": "%",
     "assetName": "",
     "feedCategory": "custom",
     "feedType": "Macroeconomics",
@@ -820,7 +820,6 @@
       "assetClass": "Macroeconomics",
       "blockchainName": "Linea",
       "deliveryChannelCode": "DF",
-      "hidden": true,
       "productSubType": "Reference",
       "productType": "Macroeconomics",
       "productTypeCode": "RefMacro"
