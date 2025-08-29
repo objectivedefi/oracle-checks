@@ -602,7 +602,7 @@
     "contractType": "",
     "contractVersion": 4,
     "decimalPlaces": null,
-    "ens": "wrseth-rseth-exchange-rate",
+    "ens": "wrseth-eth-exchange-rate",
     "formatDecimalPlaces": null,
     "healthPrice": "",
     "heartbeat": 86400,
