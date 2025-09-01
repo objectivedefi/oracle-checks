@@ -995,6 +995,19 @@
     }
   },
   {
+    "id": "0xad92c3a160d0cff06d1490cf0701ee31666c337167ce3924865f3ffada785247",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "DOLO",
+      "description": "DOLOMITE / US DOLLAR",
+      "display_symbol": "DOLO/USD",
+      "generic_symbol": "DOLOUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.DOLO/USD"
+    }
+  },
+  {
     "id": "0xd0a54deb29ead4f227a8e76edba7814849691d3b874d26193fb3acf24e093a87",
     "attributes": {
       "asset_type": "Equity",
@@ -7553,6 +7566,19 @@
     }
   },
   {
+    "id": "0x25a9be2a62a2269ce401b0ec5d5ae4a7e567a536cefb3153faae949316cbb7e6",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "HEMI",
+      "description": "HEMI / US DOLLAR",
+      "display_symbol": "HEMI/USD",
+      "generic_symbol": "HEMIUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.HEMI/USD"
+    }
+  },
+  {
     "id": "0xe5b274b2611143df055d6e7cd8d93fe1961716bcd4dca1cad87a83bc1e78c1ef",
     "attributes": {
       "asset_type": "Crypto",
@@ -8610,6 +8636,7 @@
     "attributes": {
       "asset_type": "Equity",
       "base": "PRU",
+      "country": "GB",
       "description": "PRUDENTIAL PLC / BRITISH POUND",
       "display_symbol": "PRU/GBP",
       "publish_interval": "5",
@@ -8719,32 +8746,6 @@
     }
   },
   {
-    "id": "0x2817b78438c769357182c04346fddaad1178c82f4048828fe0997c3c64624e14",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "SPYX",
-      "description": "SP500 XSTOCK / US DOLLAR",
-      "display_symbol": "SPYX/USD",
-      "generic_symbol": "SPYXUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.SPYX/USD"
-    }
-  },
-  {
-    "id": "0xa6c8eca9aea31d6bb81fd6576638f30692d4afaa73237c097c193477aa5003b3",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "USDP",
-      "description": "PAX DOLLAR / US DOLLAR",
-      "display_symbol": "USDP/USD",
-      "generic_symbol": "USDPUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.USDP/USD"
-    }
-  },
-  {
     "id": "0xcb6b4b7241ca3f475a0b342b2fa1056edb3bbe85b833de87a91964cb97c6c7ab",
     "attributes": {
       "asset_type": "Equity",
@@ -8803,78 +8804,6 @@
     }
   },
   {
-    "id": "0x316c3f180861da3a9c8f0254d961dbebc2055491d469f459170337233de2e0e9",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "DVA",
-      "cms_symbol": "DVA",
-      "country": "US",
-      "cqs_symbol": "DVA",
-      "description": "DAVITA INC / US DOLLAR",
-      "display_symbol": "DVA/USD",
-      "nasdaq_symbol": "DVA",
-      "publish_interval": "5",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
-      "symbol": "Equity.US.DVA/USD"
-    }
-  },
-  {
-    "id": "0x74facc951da45cd5a5e5fde9a647801df1a7152a5e8e21bb324c5adec3c12276",
-    "attributes": {
-      "asset_type": "Crypto",
-      "base": "BOOP",
-      "description": "BOOP.FUN / US DOLLAR",
-      "display_symbol": "BOOP/USD",
-      "generic_symbol": "BOOPUSD",
-      "quote_currency": "USD",
-      "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "Crypto.BOOP/USD"
-    }
-  },
-  {
-    "id": "0x6f0f8d3e2cf653548e482ba05e8c34146c7d9379ec7b124d2173b43627f8e3e4",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "6472",
-      "country": "JP",
-      "description": "NTN CORP / JAPANESE YEN",
-      "display_symbol": "6472/JPY",
-      "publish_interval": "5",
-      "quote_currency": "JPY",
-      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
-      "symbol": "Equity.JP.6472/JPY"
-    }
-  },
-  {
-    "id": "0x5e11c0428b366963a5c2d22d090de0b9439c39694b7b82c843f049ea4b665039",
-    "attributes": {
-      "asset_type": "Equity",
-      "base": "8001",
-      "country": "JP",
-      "description": "ITOCHU CORP / JAPANESE YEN",
-      "display_symbol": "8001/JPY",
-      "publish_interval": "5",
-      "quote_currency": "JPY",
-      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
-      "symbol": "Equity.JP.8001/JPY"
-    }
-  },
-  {
-    "id": "0x489f02f2f13584026d63fd397c80ed3b414a2820c4d43da0306fc007fcd5a8e0",
-    "attributes": {
-      "asset_type": "FX",
-      "base": "USD",
-      "description": "US DOLLAR / TAIWAN DOLLAR SPOT OFFSHORE",
-      "display_symbol": "USD/TWD",
-      "generic_symbol": "USDTWD",
-      "quote_currency": "TWD",
-      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;1224/0000-1700,1225/1800-2400,1231/0000-1700,0101/1800-2400",
-      "symbol": "FX.USD/TWD",
-      "tenor": "Spot"
-    }
-  },
-  {
     "id": "0xadd612726e57b1dbb7fdbb9a85de4ccb1e52edf1ce7c35fc672c5543db8c1a34",
     "attributes": {
       "asset_type": "Equity",
@@ -8903,6 +8832,49 @@
     }
   },
   {
+    "id": "0x2817b78438c769357182c04346fddaad1178c82f4048828fe0997c3c64624e14",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "SPYX",
+      "description": "SP500 XSTOCK / US DOLLAR",
+      "display_symbol": "SPYX/USD",
+      "generic_symbol": "SPYXUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.SPYX/USD"
+    }
+  },
+  {
+    "id": "0xa6c8eca9aea31d6bb81fd6576638f30692d4afaa73237c097c193477aa5003b3",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "USDP",
+      "description": "PAX DOLLAR / US DOLLAR",
+      "display_symbol": "USDP/USD",
+      "generic_symbol": "USDPUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.USDP/USD"
+    }
+  },
+  {
+    "id": "0x316c3f180861da3a9c8f0254d961dbebc2055491d469f459170337233de2e0e9",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "DVA",
+      "cms_symbol": "DVA",
+      "country": "US",
+      "cqs_symbol": "DVA",
+      "description": "DAVITA INC / US DOLLAR",
+      "display_symbol": "DVA/USD",
+      "nasdaq_symbol": "DVA",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
+      "symbol": "Equity.US.DVA/USD"
+    }
+  },
+  {
     "id": "0x85a3293cca41e75c2f0dafe18cc0e6694e9a9ecc92395a97e4a395825cd18c88",
     "attributes": {
       "asset_type": "Equity",
@@ -8914,6 +8886,61 @@
       "quote_currency": "GBP",
       "schedule": "Europe/London;0800-1630,0800-1630,0800-1630,0800-1630,0800-1630,C,C;0418/C,0421/C,0505/C,0526/C,0825/C,1224/0800-1230,1225/C,1226/C,1231/0800-1230,0101/C",
       "symbol": "Equity.GB.SGRO/GBP"
+    }
+  },
+  {
+    "id": "0x74facc951da45cd5a5e5fde9a647801df1a7152a5e8e21bb324c5adec3c12276",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "BOOP",
+      "description": "BOOP.FUN / US DOLLAR",
+      "display_symbol": "BOOP/USD",
+      "generic_symbol": "BOOPUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.BOOP/USD"
+    }
+  },
+  {
+    "id": "0x489f02f2f13584026d63fd397c80ed3b414a2820c4d43da0306fc007fcd5a8e0",
+    "attributes": {
+      "asset_type": "FX",
+      "base": "USD",
+      "description": "US DOLLAR / TAIWAN DOLLAR SPOT OFFSHORE",
+      "display_symbol": "USD/TWD",
+      "generic_symbol": "USDTWD",
+      "quote_currency": "TWD",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;1224/0000-1700,1225/1800-2400,1231/0000-1700,0101/1800-2400",
+      "symbol": "FX.USD/TWD",
+      "tenor": "Spot"
+    }
+  },
+  {
+    "id": "0x5e11c0428b366963a5c2d22d090de0b9439c39694b7b82c843f049ea4b665039",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "8001",
+      "country": "JP",
+      "description": "ITOCHU CORP / JAPANESE YEN",
+      "display_symbol": "8001/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.8001/JPY"
+    }
+  },
+  {
+    "id": "0x6f0f8d3e2cf653548e482ba05e8c34146c7d9379ec7b124d2173b43627f8e3e4",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "6472",
+      "country": "JP",
+      "description": "NTN CORP / JAPANESE YEN",
+      "display_symbol": "6472/JPY",
+      "publish_interval": "5",
+      "quote_currency": "JPY",
+      "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
+      "symbol": "Equity.JP.6472/JPY"
     }
   },
   {
@@ -10809,6 +10836,19 @@
     }
   },
   {
+    "id": "0x47d462d8bac4c29b6ae1792029b9b92c8adea12ed22155bfc22f481287f1e349",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "FLUID",
+      "description": "FLUID / US DOLLAR",
+      "display_symbol": "FLUID/USD",
+      "generic_symbol": "FLUIDUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.FLUID/USD"
+    }
+  },
+  {
     "id": "0x612a00bae88eee6a4bc8bd4de6e578794a0e584ce784691561aba348e07cbede",
     "attributes": {
       "asset_type": "Crypto Redemption Rate",
@@ -11940,6 +11980,19 @@
     }
   },
   {
+    "id": "0x36ba774adc161c398433229f0dd8c5ada46b46d5571606e953331d835ff415d2",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "GTBTC",
+      "description": "GATE WRAPPED BITCOIN / US DOLLAR",
+      "display_symbol": "GTBTC/USD",
+      "generic_symbol": "GTBTCUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.GTBTC/USD"
+    }
+  },
+  {
     "id": "0x7eab5e260e42d81013207e623be60c66c9c55bfe0ace4797ad00d1c5a1335eae",
     "attributes": {
       "asset_type": "Crypto",
@@ -12595,6 +12648,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.KR/USD"
+    }
+  },
+  {
+    "id": "0x6b52828e0be26ba128cc12715e7b72bded8871736efd3f214cf1db86567fb755",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "CAMP",
+      "description": "CAMP NETWORK / US DOLLAR",
+      "display_symbol": "CAMP/USD",
+      "generic_symbol": "CAMPUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.CAMP/USD"
     }
   },
   {
@@ -14899,6 +14965,19 @@
       "quote_currency": "%",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0418/C,0526/C,0619/C,0703/0800-1300,0704/C,0901/C",
       "symbol": "Rates.US1Y"
+    }
+  },
+  {
+    "id": "0x9750f4de788c4bb9852e1fb774ce8564163580fc7aa17961ed06614d0ac21242",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "PROVE",
+      "description": "SUCCINT / US DOLLAR",
+      "display_symbol": "PROVE/USD",
+      "generic_symbol": "PROVEUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.PROVE/USD"
     }
   },
   {
@@ -27508,6 +27587,19 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.NOC/USD"
+    }
+  },
+  {
+    "id": "0x843bb7ab4846e3f233f34082ef188a94f79517f66c224bd85b2b5cb34d10d745",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "ICX",
+      "description": "ICON / US DOLLAR",
+      "display_symbol": "ICX/USD",
+      "generic_symbol": "ICXUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.ICX/USD"
     }
   },
   {
