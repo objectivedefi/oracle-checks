@@ -839,7 +839,7 @@
       "display_symbol": "UKOILSPOT/USD",
       "generic_symbol": "UKOILSPOT",
       "quote_currency": "USD",
-      "schedule": "GMT;0000-2100,0000-2100,0000-2100,0000-2100,0000-2045,C,C;0418/C,0420/C,0421/0000-2200,0526/0000-1730,0527/0000-2200,0619/0000-1730,0704/0000-1730",
+      "schedule": "GMT;0000-2100,0000-2100,0000-2100,0000-2100,0000-2045,C,C;0418/C,0420/C,0421/0000-2200,0526/0000-1730,0527/0000-2200,0619/0000-1730,0704/0000-1730,0901/0000-1730",
       "symbol": "Commodities.UKOILSPOT"
     }
   },
@@ -1185,6 +1185,20 @@
       "schedule": "America/New_York;O,O,O,O,0000-1700,C,1700-2400;1224/0000-1700,1225/1700-2400,1231/0000-1700,0101/1700-2400",
       "symbol": "FX.GBP/NZD",
       "tenor": "Spot"
+    }
+  },
+  {
+    "id": "0xcf48105b97cb001e2d51955f21a7519a462a0f756460747fd4da71ac70caf098",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "GENI",
+      "country": "US",
+      "description": "GENIUS SPORTS LTD / US DOLLAR",
+      "display_symbol": "GENI/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
+      "symbol": "Equity.US.GENI/USD"
     }
   },
   {
@@ -1565,7 +1579,7 @@
       "display_symbol": "BRENTX5/USD",
       "generic_symbol": "BRENTX5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800,C,1800-2400;0704/0000-1330&2000-2400",
+      "schedule": "America/New_York;0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800,C,1800-2400;0901/0000-1330&2000-2400",
       "symbol": "Commodities.BRENTX5/USD"
     }
   },
@@ -1610,6 +1624,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.CDW/USD"
+    }
+  },
+  {
+    "id": "0x32f9acbe011c749c3f402d6aa0e091513672279ef06e1fd1d392dc4466491f80",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "USDV",
+      "contract_id": "spl: D4AiKFxjZBrhd6MeRAAj6wNxFcZJuRMBrXW9UpqeS8Ax",
+      "description": "SOLOMON US DOLLAR / US DOLLAR REDEMPTION RATE",
+      "display_symbol": "USDV/USD",
+      "generic_symbol": "USDVUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.USDV/USD.RR"
     }
   },
   {
@@ -2578,6 +2606,20 @@
     }
   },
   {
+    "id": "0xf0ec3dda560ca5a32761db39a9868cbf9227aac755b961bc27197a9fb41a3ce1",
+    "attributes": {
+      "asset_type": "Rates",
+      "base": "EYE-USDC",
+      "contract_id": "eth: 0xe0a80d35bB6618CBA260120b279d357978c42BCE",
+      "description": "EULER YIELD (ETHEREUM) USDC BORROW RATE",
+      "display_symbol": "EYE-USDC %",
+      "generic_symbol": "EYE-USDC",
+      "quote_currency": "%",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0704/C,0901/C",
+      "symbol": "Rates.EYE-USDC"
+    }
+  },
+  {
     "id": "0x1ab9bd7ed68a12736e9feb89044e6ab23b1abfa7b66e06f85653752ec0a890e1",
     "attributes": {
       "asset_type": "Equity",
@@ -3467,7 +3509,7 @@
       "display_symbol": "XPT/USD",
       "generic_symbol": "XPTUSD",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0418/C,0526/1800-2400,0619/1800-2400,0704/0000-1300",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0619/1800-2400,0704/0000-1300,0901/0000-1430&1800-2400",
       "symbol": "Metal.XPT/USD",
       "tenor": "Spot"
     }
@@ -7429,7 +7471,7 @@
       "display_symbol": "WTIU5/USD",
       "generic_symbol": "WTIU5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0704/0000-1300",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0901/0000-1300&1800-2400",
       "symbol": "Commodities.WTIU5/USD"
     }
   },
@@ -7489,7 +7531,7 @@
       "display_symbol": "WTIX5/USD",
       "generic_symbol": "WTIX5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0704/0000-1300",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0901/0000-1300&1800-2400",
       "symbol": "Commodities.WTIX5/USD"
     }
   },
@@ -8198,7 +8240,7 @@
       "display_symbol": "BRENTV5/USD",
       "generic_symbol": "BRENTV5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800,C,1800-2400;0704/0000-1330&2000-2400",
+      "schedule": "America/New_York;0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800,C,1800-2400;0901/0000-1330&2000-2400",
       "symbol": "Commodities.BRENTV5/USD"
     }
   },
@@ -8958,6 +9000,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.DGX/USD"
+    }
+  },
+  {
+    "id": "0x79c4582b9dd2d5f9a32c54654f3db995353a0e57a8094bacb8fb55a7190ca9a3",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "TEM",
+      "country": "US",
+      "description": "TEMPUS AI INC / US DOLLAR",
+      "display_symbol": "TEM/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
+      "symbol": "Equity.US.TEM/USD"
     }
   },
   {
@@ -10289,7 +10345,7 @@
       "display_symbol": "USOILSPOT/USD",
       "generic_symbol": "USOILSPOT",
       "quote_currency": "USD",
-      "schedule": "GMT;0000-2100&2200-2400,0000-2100&2200-2400,0000-2100&2200-2400,0000-2100&2200-2400,0000-2045,C,2200-2400;0619/0000-1830&2200-2400,0704/0000-1700",
+      "schedule": "GMT;0000-2100&2200-2400,0000-2100&2200-2400,0000-2100&2200-2400,0000-2100&2200-2400,0000-2045,C,2200-2400;0619/0000-1830&2200-2400,0901/0000-1830&2200-2400",
       "symbol": "Commodities.USOILSPOT"
     }
   },
@@ -11878,7 +11934,7 @@
       "display_symbol": "XPD/USD",
       "generic_symbol": "XPDUSD",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0418/C,0526/1800-2400,0619/1800-2400,0704/0000-1300",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0619/1800-2400,0704/0000-1300,0901/0000-1430&1800-2400",
       "symbol": "Metal.XPD/USD",
       "tenor": "Spot"
     }
@@ -11894,6 +11950,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.TON/USD"
+    }
+  },
+  {
+    "id": "0xcc22d3595e52bc70aced61fa245254dc417dd365b7c5150e1b2e5d4f5cbfba8a",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "FWONA",
+      "country": "US",
+      "description": "LIBERTY MEDIA CORP SERIES A LIBERTY FORMULA ONE / US DOLLAR",
+      "display_symbol": "FWONA/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
+      "symbol": "Equity.US.FWONA/USD"
     }
   },
   {
@@ -12003,6 +12073,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.CBDOGE/USD"
+    }
+  },
+  {
+    "id": "0x20aead6dcd4da8321806ce377107952863632fb25f43ec03c36ffd575ac7e708",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "RGTI",
+      "country": "US",
+      "description": "RIGETTI COMPUTING INC / US DOLLAR",
+      "display_symbol": "RGTI/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
+      "symbol": "Equity.US.RGTI/USD"
     }
   },
   {
@@ -13855,6 +13939,20 @@
     }
   },
   {
+    "id": "0xa0ed6358b767befb57171c3cfe8becbbd3120ebd75360aade80e4aee8f86a3d3",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "SWBERA",
+      "contract_id": "bera: 0x118D2cEeE9785eaf70C15Cd74CD84c9f8c3EeC9a",
+      "description": "POL STAKED WRAPPED BERACHAIN / BERACHAIN REDEMPTION RATE",
+      "display_symbol": "SWBERA/BERA",
+      "generic_symbol": "SWBERABERA",
+      "quote_currency": "BERA",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.SWBERA/BERA.RR"
+    }
+  },
+  {
     "id": "0x22e1659c12192de5eb81db0c9bffb6646df2bcc05c9c04dbc0726bc491b7ac88",
     "attributes": {
       "asset_type": "Equity",
@@ -13969,6 +14067,20 @@
       "quote_currency": "EUR",
       "schedule": "Europe/Berlin;0900-1730,0900-1730,0900-1730,0900-1730,0900-1730,C,C;0418/C,0421/C,0501/C,1224/C,1225/C,1226/C,1231/C,0101/C",
       "symbol": "Equity.DE.BEI/EUR"
+    }
+  },
+  {
+    "id": "0x2487b620e66468404ba251bfaa6b8382774010cbb5d504ac48ec263e0b1934aa",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SMH",
+      "country": "US",
+      "description": "VANECK SEMICONDUCTOR UCITS ETF / US DOLLAR",
+      "display_symbol": "SMH/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
+      "symbol": "Equity.US.SMH/USD"
     }
   },
   {
@@ -14565,6 +14677,20 @@
       "quote_currency": "JPY",
       "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
       "symbol": "Equity.JP.6273/JPY"
+    }
+  },
+  {
+    "id": "0x9873512f5cb33c77ad7a5af098d74812c62111166be395fd0941c8cedb9b00d4",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "XPL",
+      "contract_id": "bera: 0x118D2cEeE9785eaf70C15Cd74CD84c9f8c3EeC9a",
+      "description": "PLASMA / US DOLLAR",
+      "display_symbol": "XPL/USD",
+      "generic_symbol": "XPLUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.XPL/USD"
     }
   },
   {
@@ -15896,7 +16022,7 @@
       "display_symbol": "WTIV5/USD",
       "generic_symbol": "WTIV5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0704/0000-1300",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0901/0000-1300&1800-2400",
       "symbol": "Commodities.WTIV5/USD"
     }
   },
@@ -18118,6 +18244,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
       "symbol": "Equity.US.CL/USD"
+    }
+  },
+  {
+    "id": "0xb4e9d5fc0e0dbf10b138cbbdcb0c211dd6a56676bcf16d09760be7967bd204f9",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "SONY",
+      "country": "US",
+      "description": "SONY GROUP CORP ADR / US DOLLAR",
+      "display_symbol": "SONY/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
+      "symbol": "Equity.US.SONY/USD"
     }
   },
   {
@@ -20474,7 +20614,7 @@
       "display_symbol": "WTIZ5/USD",
       "generic_symbol": "WTIZ5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0704/0000-1300",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0901/0000-1300&1800-2400",
       "symbol": "Commodities.WTIZ5/USD"
     }
   },
@@ -22080,7 +22220,7 @@
       "display_symbol": "XAU/USD",
       "generic_symbol": "XAUUSD",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0418/C,0526/1800-2400,0619/1800-2400,0704/0000-1300",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0619/1800-2400,0704/0000-1300,0901/0000-1430&1800-2400",
       "symbol": "Metal.XAU/USD",
       "tenor": "Spot"
     }
@@ -22690,6 +22830,19 @@
     }
   },
   {
+    "id": "0xf4b55102bfc9ea1bb2342ea2cb050209ed2a398f7c534afbbc5164541861ba23",
+    "attributes": {
+      "asset_type": "Crypto",
+      "base": "USELESS",
+      "description": "USELESS / US DOLLAR",
+      "display_symbol": "USELESS/USD",
+      "generic_symbol": "USELESSUSD",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.USELESS/USD"
+    }
+  },
+  {
     "id": "0xb80f709aba6c306d3c61b6b9f9dc652d61d8a9a458580f7d4b5195b4f4a674c5",
     "attributes": {
       "asset_type": "Equity",
@@ -22949,6 +23102,20 @@
       "quote_currency": "JPY",
       "schedule": "Asia/Tokyo;0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,0900-1130&1230-1530,C,C;0721/C,0811/C,0915/C,0923/C",
       "symbol": "Equity.JP.9064/JPY"
+    }
+  },
+  {
+    "id": "0x083532c1b78ad9a2630d044149888db4ba1a1f283e9b8b4f62f33e1718e91246",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "SUSDV",
+      "contract_id": "spl: HSnn7bDvkZSEwujZDPtUcdo9KL7Conycgmy8m6mBFD5",
+      "description": "STAKED SOLOMON US DOLLAR / SOLOMON US DOLLAR REDEMPTION RATE",
+      "display_symbol": "SUSDV/USDV",
+      "generic_symbol": "SUSDVUSDV",
+      "quote_currency": "USDV",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.SUSDV/USDV.RR"
     }
   },
   {
@@ -24942,6 +25109,20 @@
     }
   },
   {
+    "id": "0xfa21c3d9d7c80f5408f32eb8f3c7557e77e86537fd3940e7304596435ae50e36",
+    "attributes": {
+      "asset_type": "Crypto Redemption Rate",
+      "base": "SKAITO",
+      "contract_id": "base: 0x548D3B444da39686d1a6F1544781d154e7cD1EF7",
+      "description": "STAKED KAITO / KAITO REDEMPTION RATE",
+      "display_symbol": "SKAITO/KAITO",
+      "generic_symbol": "SKAITOKAITO",
+      "quote_currency": "KAITO",
+      "schedule": "America/New_York;O,O,O,O,O,O,O;",
+      "symbol": "Crypto.SKAITO/KAITO.RR"
+    }
+  },
+  {
     "id": "0xc9a251e28c660c08796f005a4d61769829c81fd4474dbd91d934fa9d36398e08",
     "attributes": {
       "asset_type": "Equity",
@@ -24976,7 +25157,7 @@
       "display_symbol": "XAG/USD",
       "generic_symbol": "XAGUSD",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0418/C,0526/1800-2400,0619/1800-2400,0704/0000-1300",
+      "schedule": "America/New_York;0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700&1800-2400,0000-1700,C,1800-2400;0619/1800-2400,0704/0000-1300,0901/0000-1430&1800-2400",
       "symbol": "Metal.XAG/USD",
       "tenor": "Spot"
     }
@@ -25293,7 +25474,7 @@
       "display_symbol": "BRENTZ5/USD",
       "generic_symbol": "BRENTZ5",
       "quote_currency": "USD",
-      "schedule": "America/New_York;0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800,C,1800-2400;0704/0000-1330&2000-2400",
+      "schedule": "America/New_York;0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800&2000-2400,0000-1800,C,1800-2400;0901/0000-1330&2000-2400",
       "symbol": "Commodities.BRENTZ5/USD"
     }
   },
@@ -27705,6 +27886,20 @@
     }
   },
   {
+    "id": "0x8c92b96bf7ec66766d7400f91eee36370df38ec751ec48933396760f8c73cc78",
+    "attributes": {
+      "asset_type": "Equity",
+      "base": "CCJ",
+      "country": "US",
+      "description": "CAMECO CORP / US DOLLAR",
+      "display_symbol": "CCJ/USD",
+      "publish_interval": "5",
+      "quote_currency": "USD",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0526/C,0619/C,0703/0930-1300,0704/C,0901/C",
+      "symbol": "Equity.US.CCJ/USD"
+    }
+  },
+  {
     "id": "0x17617f1d80aefe84ade7399ca3db31c48c5bf20ac62d4f897a3c88def454b3f1",
     "attributes": {
       "asset_type": "Equity",
@@ -28992,6 +29187,20 @@
       "quote_currency": "USD",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "Crypto.BTT/USD"
+    }
+  },
+  {
+    "id": "0xbc9ffac3217cd63cf7679db02fc06945a01f4ac6da3c93fdcc3631c2c0d0f985",
+    "attributes": {
+      "asset_type": "Rates",
+      "base": "EPE-USDC",
+      "contract_id": "eth: 0x797DD80692c3b2dAdabCe8e30C07fDE5307D48a9",
+      "description": "EULER PRIME (ETHEREUM) USDC BORROW RATE",
+      "display_symbol": "EPE-USDC %",
+      "generic_symbol": "EPE-USDC",
+      "quote_currency": "%",
+      "schedule": "America/New_York;0930-1600,0930-1600,0930-1600,0930-1600,0930-1600,C,C;0704/C,0901/C",
+      "symbol": "Rates.EPE-USDC"
     }
   },
   {
