@@ -41,6 +41,14 @@
   },
   {
     "chainId": 42161,
+    "pt": "0x6a7f876141B776c9DF43697Af16c916C1Ca26bF1",
+    "market": "0x573813D3F0BFAF847a04ef12739bE4e38675B3C7",
+    "underlyingAsset": "0x35E5dB674D8e93a03d814FA0ADa70731efe8a4b9",
+    "expiry": 1769644800,
+    "symbol": "RLP"
+  },
+  {
+    "chainId": 42161,
     "pt": "0x71fBF40651E9D4278a74586AfC99F307f369Ce9A",
     "market": "0xf78452e0f5C0B95fc5dC8353B8CD1e06E53fa25B",
     "underlyingAsset": "0x5979D7b546E38E414F7E9822514be443A4800529",
