@@ -2106,9 +2106,9 @@
       "asset_type": "ECO",
       "base": "CPIINDEX",
       "description": "US CPI INDEX",
-      "display_symbol": "CPIINDEX %",
+      "display_symbol": "CPIINDEX",
       "generic_symbol": "CPIINDEX",
-      "quote_currency": "%",
+      "quote_currency": "POINTS",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "ECO.US.CPIINDEX"
     }
@@ -24277,9 +24277,9 @@
       "asset_type": "ECO",
       "base": "CORECPIINDEX",
       "description": "US CORE CPI INDEX",
-      "display_symbol": "CORECPIINDEX %",
+      "display_symbol": "CORECPIINDEX",
       "generic_symbol": "CORECPIINDEX",
-      "quote_currency": "%",
+      "quote_currency": "POINTS",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
       "symbol": "ECO.US.CORECPIINDEX"
     }
