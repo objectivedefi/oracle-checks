@@ -1,10 +1,10 @@
 {
   "name": "ChainlinkOracle",
-  "address": "0xb3752d48891f88ca8fbbCEf8Af2dfc9d680a9BC3",
+  "address": "0x6851aA9162c6c9969125e6e934846ebA13c88a8d",
   "chainId": 56,
-  "base": "0x8d0D000Ee44948FC98c9B98A4FA4921476f08B0d",
+  "base": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
   "quote": "0x0000000000000000000000000000000000000348",
-  "feed": "0xaD8b4e59A7f25B68945fAf0f3a3EAF027832FFB0",
+  "feed": "0x10402B01cD2E6A9ed6DBe683CbC68f78Ff02f8FC",
   "maxStaleness": "90000",
   "checks": [
     {
@@ -34,7 +34,7 @@
     {
       "id": "Consistent asset",
       "severity": "High",
-      "message": "Asset 0x8d0D000Ee44948FC98c9B98A4FA4921476f08B0d is USD1 (World Liberty Financial USD) with 18 decimals.",
+      "message": "Asset 0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34 is USDe (USDe) with 18 decimals.",
       "pass": true
     },
     {
@@ -50,7 +50,7 @@
       "pass": true
     }
   ],
-  "label": "USD1 / USD (0.3%, 86400s)",
+  "label": "USDE / USD (0.3%, 86400s)",
   "methodology": "Market Price",
   "model": "Push",
   "provider": "Chainlink",
