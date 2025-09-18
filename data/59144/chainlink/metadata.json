@@ -955,6 +955,46 @@
     "decimals": 8
   },
   {
+    "benchmark": "cex-lwba",
+    "compareOffchain": "",
+    "contractAddress": "0xD691e46B96702a4B64C0aC552216dFCAcd233319",
+    "contractType": "",
+    "contractVersion": 4,
+    "decimalPlaces": null,
+    "ens": "linea-usd",
+    "formatDecimalPlaces": null,
+    "healthPrice": "",
+    "heartbeat": 86400,
+    "history": null,
+    "multiply": "100000000",
+    "name": "LINEA / USD",
+    "pair": [
+      "",
+      ""
+    ],
+    "path": "linea-usd",
+    "proxyAddress": "0x452b408b3e2805C109D52C80Bd54Deda239716d1",
+    "threshold": 0.5,
+    "valuePrefix": "",
+    "assetName": "Linea",
+    "feedCategory": "new",
+    "feedType": "Crypto",
+    "docs": {
+      "assetClass": "Crypto",
+      "baseAsset": "LINEA",
+      "blockchainName": "Linea",
+      "clicProductName": "LINEA/USD-RefPrice-DF-Linea-001",
+      "deliveryChannelCode": "DF",
+      "marketHours": "Crypto",
+      "productSubType": "Reference",
+      "productType": "Price",
+      "productTypeCode": "RefPrice",
+      "quoteAsset": "USD",
+      "quoteAssetClic": "USD_FX"
+    },
+    "decimals": 8
+  },
+  {
     "compareOffchain": "",
     "contractAddress": "0xD71cD2e38B7F65421bB59A872cca021e685647CC",
     "contractType": "",
