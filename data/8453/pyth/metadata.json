@@ -2548,13 +2548,13 @@
     "id": "0xcad26212b1673d53298b75cf2d7bf3ca1df184e1add69bbd938842d8141fe121",
     "attributes": {
       "asset_type": "ECO",
-      "base": "TEST4",
-      "description": "TEST4",
-      "display_symbol": "TEST4 %",
-      "generic_symbol": "TEST4",
-      "quote_currency": "%",
+      "base": "PCEINDEX",
+      "description": "US PCE INDEX",
+      "display_symbol": "PCEINDEX",
+      "generic_symbol": "PCEINDEX",
+      "quote_currency": "POINTS",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "ECO.US.TEST4"
+      "symbol": "ECO.US.PCEINDEX"
     }
   },
   {
@@ -27959,13 +27959,13 @@
     "id": "0xc002d6e379d9139c0796b326e1b166d1aec5737a25746ffa8c82522859a3b2d6",
     "attributes": {
       "asset_type": "ECO",
-      "base": "TEST6",
-      "description": "TEST6",
-      "display_symbol": "TEST6 %",
-      "generic_symbol": "TEST6",
-      "quote_currency": "%",
+      "base": "PCECOREINDEX",
+      "description": "US CORE PCE INDEX",
+      "display_symbol": "PCECOREINDEX",
+      "generic_symbol": "PCECOREINDEX",
+      "quote_currency": "POINTS",
       "schedule": "America/New_York;O,O,O,O,O,O,O;",
-      "symbol": "ECO.US.TEST6"
+      "symbol": "ECO.US.PCECOREINDEX"
     }
   },
   {
